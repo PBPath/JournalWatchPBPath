@@ -237,10 +237,14 @@ repeat{
 
 
 Pancreas
+<<<<<<< HEAD
 https://www.ncbi.nlm.nih.gov/nlmcatalog/?term=pancreas
 
 Pathology Journals
 
+=======
+Pathology Journals
+>>>>>>> d6817f136f458ad4cbedbbfd7180524bd9db14b3
 Member List
 
 DOI Link
