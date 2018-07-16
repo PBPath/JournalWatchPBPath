@@ -11,7 +11,7 @@
 
 <meta name="author" content="Serdar Balcı, MD, Pathologist" />
 
-<meta name="date" content="2018-05-21" />
+<meta name="date" content="2018-06-27" />
 
 <title>PBPath Journal Watch</title>
 
@@ -2738,6 +2738,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -2784,7 +2787,7 @@ $(document).ready(function () {
 </style>
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("JournalWatchPBPath.Rmd");
+  window.initializeSourceEmbed("index.Rmd");
   window.initializeCodeFolding("hide" === "show");
 });
 </script>
@@ -2906,7 +2909,7 @@ div.tocify {
 <h1 class="title toc-ignore">PBPath Journal Watch</h1>
 <h3 class="subtitle"><em>Recent Articles from PubMed</em></h3>
 <h4 class="author"><em>Serdar Balcı, MD, Pathologist</em></h4>
-<h4 class="date"><em>2018-05-21</em></h4>
+<h4 class="date"><em>2018-06-27</em></h4>
 
 </div>
 
@@ -2949,59 +2952,28 @@ div.tocify {
 <a class="sourceLine" id="cb2-12" data-line-number="12">    }</a>
 <a class="sourceLine" id="cb2-13" data-line-number="13">}</a></code></pre></div>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiQ29kZSBFeGVjdXRlZFwiXG4ifQ== -->
-<pre><code>[1] &quot;Code Executed&quot;</code></pre>
-<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVhZExpbmVzKFwibXlxdWVyeS50eHRcIilcbmBgYCJ9 -->
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">readLines</span>(<span class="st">&quot;myquery.txt&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">readLines</span>(<span class="st">&quot;myquery.txt&quot;</span>)</a></code></pre></div>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiIFsxXSBcIjI5Nzc2NzU2XFx0MTAuMTAxNi9qLmtpbnQuMjAxOC4wMi4wMjFcIiAgICAgICBcbiBbMl0gXCIyOTc3NjYzNlxcdDEwLjEwMTYvai5jbGwuMjAxOC4wMy4wMDNcIiAgICAgICAgXG4gWzNdIFwiMjk3NzQyMjRcXHQxMC4xNDMwOS9jcmouMjAxOC4zNFwiICAgICAgICAgICAgIFxuIFs0XSBcIjI5NzY5NjI5XFx0MTAuMTAzOC9zNDE0MzEtMDE4LTAxNzAteVwiICAgICAgICBcbiBbNV0gXCIyOTc2NTUzOVxcdDEwLjE4NjMyL29uY290YXJnZXQuMjUwODhcIiAgICAgICAgXG4gWzZdIFwiMjk3NjM3MTdcXHQxMC4xMDE2L2ouaHVtcGF0aC4yMDE4LjA1LjAwNlwiICAgIFxuIFs3XSBcIjI5NzUzNjYwXFx0MTAuMTAxNi9qLmRpaWkuMjAxOC4wNC4wMTBcIiAgICAgICBcbiBbOF0gXCIyOTc1MjU2OVxcdDEwLjEwMDcvczAwNDQxLTAxOC0yODQ1LTdcIiAgICAgICAgXG4gWzldIFwiMjk3NTAzOTdcXHQxMC4xMDAyL3BiYy4yNzExNVwiICAgICAgICAgICAgICAgIFxuWzEwXSBcIjI5NzUwMDAzXFx0MTAuMTI5My90b3guMjAxNy0wMDU1XCIgICAgICAgICAgICBcblsxMV0gXCIyOTc0NDEwMVxcdDEwLjEwMDIvY2NyMy4xNDkyXCIgICAgICAgICAgICAgICAgXG5bMTJdIFwiMjk3MzgzNjNcXHQxMC4xMDk3L1BBUy4wMDAwMDAwMDAwMDAxMDc1XCIgICAgIFxuWzEzXSBcIjI5NzM4MzQ5XFx0MTAuMTA5Ny9NTk0uMDAwMDAwMDAwMDAwMDg0OVwiICAgICBcblsxNF0gXCIyOTczNzc5NlwiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcblsxNV0gXCIyOTczNzAxOFxcdDEwLjEwMDIvZGMuMjM5NjZcIiAgICAgICAgICAgICAgICAgXG5bMTZdIFwiMjk3MzIzNTZcXHQxMC40MTc0L2FzdHIuMjAxOC45NC41LjI0N1wiICAgICAgIFxuWzE3XSBcIjI5NzI4MDg1XFx0MTAuMTE4Ni9zMTI4ODUtMDE4LTQ0NjktNFwiICAgICAgICBcblsxOF0gXCIyOTcyNTg4MlxcdDEwLjExODYvczQwNzkyLTAxOC0wNDUxLTJcIiAgICAgICAgXG5bMTldIFwiMjk3MjU1MzRcXHQxMC4zODkyL21jby4yMDE4LjE1OThcIiAgICAgICAgICAgIFxuWzIwXSBcIjI5NzI0Nzk0XFx0MTAuMTUzMC9FQy0xOC0wMDU5XCIgICAgICAgICAgICAgICBcblsyMV0gXCIyOTcyMTYwOFxcdDEwLjEwMDcvczAwNDI4LTAxOC0yMzY2LTVcIiAgICAgICAgXG5bMjJdIFwiMjk3MTk1MzVcXHQxMC4zMzg5L2ZpbW11LjIwMTguMDA3NTFcIiAgICAgICAgIFxuWzIzXSBcIjI5NzEzNDczXFx0MTAuMTE4Ni9zNDAzNjQtMDE4LTAxMjktOFwiICAgICAgICBcblsyNF0gXCIyOTcwNjgyM1xcdDEwLjEwODAvMDg5OTgyODAuMjAxOC4xNDQ0MzAyXCIgICAgXG5bMjVdIFwiMjk3MDYyODlcXHQxMC4xMDE2L2ouanB1cm9sLjIwMTguMDMuMDA2XCIgICAgIFxuWzI2XSBcIjI5NzA1NzE1XFx0MTAuMTAxNi9qLmFubmRpYWdwYXRoLjIwMTguMDQuMDAzXCJcbiJ9 -->
-<pre><code> [1] &quot;29776756\t10.1016/j.kint.2018.02.021&quot;       
- [2] &quot;29776636\t10.1016/j.cll.2018.03.003&quot;        
- [3] &quot;29774224\t10.14309/crj.2018.34&quot;             
- [4] &quot;29769629\t10.1038/s41431-018-0170-y&quot;        
- [5] &quot;29765539\t10.18632/oncotarget.25088&quot;        
- [6] &quot;29763717\t10.1016/j.humpath.2018.05.006&quot;    
- [7] &quot;29753660\t10.1016/j.diii.2018.04.010&quot;       
- [8] &quot;29752569\t10.1007/s00441-018-2845-7&quot;        
- [9] &quot;29750397\t10.1002/pbc.27115&quot;                
-[10] &quot;29750003\t10.1293/tox.2017-0055&quot;            
-[11] &quot;29744101\t10.1002/ccr3.1492&quot;                
-[12] &quot;29738363\t10.1097/PAS.0000000000001075&quot;     
-[13] &quot;29738349\t10.1097/MNM.0000000000000849&quot;     
-[14] &quot;29737796&quot;                                   
-[15] &quot;29737018\t10.1002/dc.23966&quot;                 
-[16] &quot;29732356\t10.4174/astr.2018.94.5.247&quot;       
-[17] &quot;29728085\t10.1186/s12885-018-4469-4&quot;        
-[18] &quot;29725882\t10.1186/s40792-018-0451-2&quot;        
-[19] &quot;29725534\t10.3892/mco.2018.1598&quot;            
-[20] &quot;29724794\t10.1530/EC-18-0059&quot;               
-[21] &quot;29721608\t10.1007/s00428-018-2366-5&quot;        
-[22] &quot;29719535\t10.3389/fimmu.2018.00751&quot;         
-[23] &quot;29713473\t10.1186/s40364-018-0129-8&quot;        
-[24] &quot;29706823\t10.1080/08998280.2018.1444302&quot;    
-[25] &quot;29706289\t10.1016/j.jpurol.2018.03.006&quot;     
-[26] &quot;29705715\t10.1016/j.anndiagpath.2018.04.003&quot;</code></pre>
-<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Pathology Journal ISSN List was retrieved from <a href="https://jcr.incites.thomsonreuters.com/">In Cites Clarivate</a>, and Journal Data Filtered as follows: <code>JCR Year: 2016 Selected Editions: SCIE,SSCI Selected Categories: 'PATHOLOGY' Selected Category Scheme: WoS</code></p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBHZXQgSVNTTiBMaXN0IGZyb20gZGF0YSBkb3dubG9hZGVkIGZyb20gV29TXG5JU1NOTGlzdCA8LSBKb3VybmFsSG9tZUdyaWQgPC0gcmVhZF9jc3YoXCJkYXRhL0pvdXJuYWxIb21lR3JpZC5jc3ZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBza2lwID0gMSkgJT4lXG4gICAgc2VsZWN0KElTU04pICU+JVxuICAgIGZpbHRlcighaXMubmEoSVNTTikpICU+JVxuICAgIHQoKSAlPiVcbiAgICBwYXN0ZShcIk9SIFwiLCBjb2xsYXBzZSA9IFwiXCIpICMgYWRkIE9SIGJldHdlZW4gSVNTTiBMaXN0XG5cbklTU05MaXN0IDwtIGdzdWIoXCIgT1IgJFwiLFwiXCIgLElTU05MaXN0KSAjIHRvIHJlbW92ZSBsYXN0IE9SXG5gYGAifQ== -->
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="co"># Get ISSN List from data downloaded from WoS</span></a>
-<a class="sourceLine" id="cb6-2" data-line-number="2">ISSNList &lt;-<span class="st"> </span>JournalHomeGrid &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/JournalHomeGrid.csv&quot;</span>,</a>
-<a class="sourceLine" id="cb6-3" data-line-number="3">                                        <span class="dt">skip =</span> <span class="dv">1</span>) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb6-4" data-line-number="4"><span class="st">    </span><span class="kw">select</span>(ISSN) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb6-5" data-line-number="5"><span class="st">    </span><span class="kw">filter</span>(<span class="op">!</span><span class="kw">is.na</span>(ISSN)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb6-6" data-line-number="6"><span class="st">    </span><span class="kw">t</span>() <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb6-7" data-line-number="7"><span class="st">    </span><span class="kw">paste</span>(<span class="st">&quot;OR &quot;</span>, <span class="dt">collapse =</span> <span class="st">&quot;&quot;</span>) <span class="co"># add OR between ISSN List</span></a>
-<a class="sourceLine" id="cb6-8" data-line-number="8"></a>
-<a class="sourceLine" id="cb6-9" data-line-number="9">ISSNList &lt;-<span class="st"> </span><span class="kw">gsub</span>(<span class="st">&quot; OR $&quot;</span>,<span class="st">&quot;&quot;</span> ,ISSNList) <span class="co"># to remove last OR</span></a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="co"># Get ISSN List from data downloaded from WoS</span></a>
+<a class="sourceLine" id="cb4-2" data-line-number="2">ISSNList &lt;-<span class="st"> </span>JournalHomeGrid &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/JournalHomeGrid.csv&quot;</span>,</a>
+<a class="sourceLine" id="cb4-3" data-line-number="3">                                        <span class="dt">skip =</span> <span class="dv">1</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb4-4" data-line-number="4"><span class="st">    </span><span class="kw">select</span>(ISSN) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb4-5" data-line-number="5"><span class="st">    </span><span class="kw">filter</span>(<span class="op">!</span><span class="kw">is.na</span>(ISSN)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb4-6" data-line-number="6"><span class="st">    </span><span class="kw">t</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="st">    </span><span class="kw">paste</span>(<span class="st">&quot;OR &quot;</span>, <span class="dt">collapse =</span> <span class="st">&quot;&quot;</span>) <span class="co"># add OR between ISSN List</span></a>
+<a class="sourceLine" id="cb4-8" data-line-number="8"></a>
+<a class="sourceLine" id="cb4-9" data-line-number="9">ISSNList &lt;-<span class="st"> </span><span class="kw">gsub</span>(<span class="st">&quot; OR $&quot;</span>,<span class="st">&quot;&quot;</span> ,ISSNList) <span class="co"># to remove last OR</span></a></code></pre></div>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -3011,10 +2983,10 @@ div.tocify {
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBHZW5lcmF0ZSBTZWFyY2ggRm9ybXVsYSBGb3IgUGF0aG9sb2d5IEpvdXJuYWxzIEFORCBDb3VudHJpZXNcbnNlYXJjaGZvcm11bGFUUiA8LSBwYXN0ZShcIidcIixJU1NOTGlzdCxcIidcIiwgXCIgQU5EIFwiLCBcIlR1cmtleVtBZmZpbGlhdGlvbl1cIilcbnNlYXJjaGZvcm11bGFERSA8LSBwYXN0ZShcIidcIixJU1NOTGlzdCxcIidcIiwgXCIgQU5EIFwiLCBcIkdlcm1hbnlbQWZmaWxpYXRpb25dXCIpXG5zZWFyY2hmb3JtdWxhSlAgPC0gcGFzdGUoXCInXCIsSVNTTkxpc3QsXCInXCIsIFwiIEFORCBcIiwgXCJKYXBhbltBZmZpbGlhdGlvbl1cIilcbmBgYCJ9 -->
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># Generate Search Formula For Pathology Journals AND Countries</span></a>
-<a class="sourceLine" id="cb7-2" data-line-number="2">searchformulaTR &lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;'&quot;</span>,ISSNList,<span class="st">&quot;'&quot;</span>, <span class="st">&quot; AND &quot;</span>, <span class="st">&quot;Turkey[Affiliation]&quot;</span>)</a>
-<a class="sourceLine" id="cb7-3" data-line-number="3">searchformulaDE &lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;'&quot;</span>,ISSNList,<span class="st">&quot;'&quot;</span>, <span class="st">&quot; AND &quot;</span>, <span class="st">&quot;Germany[Affiliation]&quot;</span>)</a>
-<a class="sourceLine" id="cb7-4" data-line-number="4">searchformulaJP &lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;'&quot;</span>,ISSNList,<span class="st">&quot;'&quot;</span>, <span class="st">&quot; AND &quot;</span>, <span class="st">&quot;Japan[Affiliation]&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="co"># Generate Search Formula For Pathology Journals AND Countries</span></a>
+<a class="sourceLine" id="cb5-2" data-line-number="2">searchformulaTR &lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;'&quot;</span>,ISSNList,<span class="st">&quot;'&quot;</span>, <span class="st">&quot; AND &quot;</span>, <span class="st">&quot;Turkey[Affiliation]&quot;</span>)</a>
+<a class="sourceLine" id="cb5-3" data-line-number="3">searchformulaDE &lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;'&quot;</span>,ISSNList,<span class="st">&quot;'&quot;</span>, <span class="st">&quot; AND &quot;</span>, <span class="st">&quot;Germany[Affiliation]&quot;</span>)</a>
+<a class="sourceLine" id="cb5-4" data-line-number="4">searchformulaJP &lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;'&quot;</span>,ISSNList,<span class="st">&quot;'&quot;</span>, <span class="st">&quot; AND &quot;</span>, <span class="st">&quot;Japan[Affiliation]&quot;</span>)</a></code></pre></div>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -3022,38 +2994,38 @@ div.tocify {
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBBcnRpY2xlcyBwZXIgY291bnRyaWVzIHBlciB5ZWFyXG50YWJsZVRSIDwtIHRhYmxlKFllYXJQdWJtZWQoZmV0Y2hUdXJrZXkpKSAlPiVcbiAgICBhc190aWJibGUoKSAlPiVcbiAgICByZW5hbWUoVHVya2V5ID0gbiwgWWVhciA9IFZhcjEpXG5cbnRhYmxlREUgPC0gdGFibGUoWWVhclB1Ym1lZChmZXRjaEdlcm1hbnkpKSAlPiVcbiAgICBhc190aWJibGUoKSAlPiVcbiAgICByZW5hbWUoR2VybWFueSA9IG4sIFllYXIgPSBWYXIxKVxuXG50YWJsZUpQIDwtIHRhYmxlKFllYXJQdWJtZWQoZmV0Y2hKYXBhbikpICU+JVxuICAgIGFzX3RpYmJsZSgpICU+JVxuICAgIHJlbmFtZShKYXBhbiA9IG4sIFllYXIgPSBWYXIxKVxuXG4jIEpvaW4gVGFibGVzXG5hcnRpY2xlc19wZXJfeWVhcl90YWJsZSA8LSBsaXN0KFxuICAgIHRhYmxlVFIsXG4gICAgdGFibGVERSxcbiAgICB0YWJsZUpQXG4pICU+JVxuICAgIHJlZHVjZShsZWZ0X2pvaW4sIGJ5ID0gXCJZZWFyXCIsIC5pZCA9IFwiaWRcIilcblxuYGBgIn0= -->
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="co"># Articles per countries per year</span></a>
-<a class="sourceLine" id="cb8-2" data-line-number="2">tableTR &lt;-<span class="st"> </span><span class="kw">table</span>(<span class="kw">YearPubmed</span>(fetchTurkey)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-3" data-line-number="3"><span class="st">    </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-4" data-line-number="4"><span class="st">    </span><span class="kw">rename</span>(<span class="dt">Turkey =</span> n, <span class="dt">Year =</span> Var1)</a>
-<a class="sourceLine" id="cb8-5" data-line-number="5"></a>
-<a class="sourceLine" id="cb8-6" data-line-number="6">tableDE &lt;-<span class="st"> </span><span class="kw">table</span>(<span class="kw">YearPubmed</span>(fetchGermany)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-7" data-line-number="7"><span class="st">    </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-8" data-line-number="8"><span class="st">    </span><span class="kw">rename</span>(<span class="dt">Germany =</span> n, <span class="dt">Year =</span> Var1)</a>
-<a class="sourceLine" id="cb8-9" data-line-number="9"></a>
-<a class="sourceLine" id="cb8-10" data-line-number="10">tableJP &lt;-<span class="st"> </span><span class="kw">table</span>(<span class="kw">YearPubmed</span>(fetchJapan)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-11" data-line-number="11"><span class="st">    </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-12" data-line-number="12"><span class="st">    </span><span class="kw">rename</span>(<span class="dt">Japan =</span> n, <span class="dt">Year =</span> Var1)</a>
-<a class="sourceLine" id="cb8-13" data-line-number="13"></a>
-<a class="sourceLine" id="cb8-14" data-line-number="14"><span class="co"># Join Tables</span></a>
-<a class="sourceLine" id="cb8-15" data-line-number="15">articles_per_year_table &lt;-<span class="st"> </span><span class="kw">list</span>(</a>
-<a class="sourceLine" id="cb8-16" data-line-number="16">    tableTR,</a>
-<a class="sourceLine" id="cb8-17" data-line-number="17">    tableDE,</a>
-<a class="sourceLine" id="cb8-18" data-line-number="18">    tableJP</a>
-<a class="sourceLine" id="cb8-19" data-line-number="19">) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-20" data-line-number="20"><span class="st">    </span><span class="kw">reduce</span>(left_join, <span class="dt">by =</span> <span class="st">&quot;Year&quot;</span>, <span class="dt">.id =</span> <span class="st">&quot;id&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="co"># Articles per countries per year</span></a>
+<a class="sourceLine" id="cb6-2" data-line-number="2">tableTR &lt;-<span class="st"> </span><span class="kw">table</span>(<span class="kw">YearPubmed</span>(fetchTurkey)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-3" data-line-number="3"><span class="st">    </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-4" data-line-number="4"><span class="st">    </span><span class="kw">rename</span>(<span class="dt">Turkey =</span> n, <span class="dt">Year =</span> Var1)</a>
+<a class="sourceLine" id="cb6-5" data-line-number="5"></a>
+<a class="sourceLine" id="cb6-6" data-line-number="6">tableDE &lt;-<span class="st"> </span><span class="kw">table</span>(<span class="kw">YearPubmed</span>(fetchGermany)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-7" data-line-number="7"><span class="st">    </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-8" data-line-number="8"><span class="st">    </span><span class="kw">rename</span>(<span class="dt">Germany =</span> n, <span class="dt">Year =</span> Var1)</a>
+<a class="sourceLine" id="cb6-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb6-10" data-line-number="10">tableJP &lt;-<span class="st"> </span><span class="kw">table</span>(<span class="kw">YearPubmed</span>(fetchJapan)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-11" data-line-number="11"><span class="st">    </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-12" data-line-number="12"><span class="st">    </span><span class="kw">rename</span>(<span class="dt">Japan =</span> n, <span class="dt">Year =</span> Var1)</a>
+<a class="sourceLine" id="cb6-13" data-line-number="13"></a>
+<a class="sourceLine" id="cb6-14" data-line-number="14"><span class="co"># Join Tables</span></a>
+<a class="sourceLine" id="cb6-15" data-line-number="15">articles_per_year_table &lt;-<span class="st"> </span><span class="kw">list</span>(</a>
+<a class="sourceLine" id="cb6-16" data-line-number="16">    tableTR,</a>
+<a class="sourceLine" id="cb6-17" data-line-number="17">    tableDE,</a>
+<a class="sourceLine" id="cb6-18" data-line-number="18">    tableJP</a>
+<a class="sourceLine" id="cb6-19" data-line-number="19">) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-20" data-line-number="20"><span class="st">    </span><span class="kw">reduce</span>(left_join, <span class="dt">by =</span> <span class="st">&quot;Year&quot;</span>, <span class="dt">.id =</span> <span class="st">&quot;id&quot;</span>)</a></code></pre></div>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBQcmVwYXJlIHRhYmxlIGZvciBvdXRwdXRcbmFydGljbGVzX3Blcl95ZWFyIDwtIGFydGljbGVzX3Blcl95ZWFyX3RhYmxlICU+JVxuICAgIGdhdGhlcihDb3VudHJ5LCBuLCAyOjQpXG5cbmFydGljbGVzX3Blcl95ZWFyJENvdW50cnkgPC0gZmFjdG9yKGFydGljbGVzX3Blcl95ZWFyJENvdW50cnksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXZlbHMgPWMoXCJKYXBhblwiLCBcIkdlcm1hbnlcIiwgXCJUdXJrZXlcIikpXG5gYGAifQ== -->
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="co"># Prepare table for output</span></a>
-<a class="sourceLine" id="cb9-2" data-line-number="2">articles_per_year &lt;-<span class="st"> </span>articles_per_year_table <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">    </span><span class="kw">gather</span>(Country, n, <span class="dv">2</span><span class="op">:</span><span class="dv">4</span>)</a>
-<a class="sourceLine" id="cb9-4" data-line-number="4"></a>
-<a class="sourceLine" id="cb9-5" data-line-number="5">articles_per_year<span class="op">$</span>Country &lt;-<span class="st"> </span><span class="kw">factor</span>(articles_per_year<span class="op">$</span>Country,</a>
-<a class="sourceLine" id="cb9-6" data-line-number="6">                                    <span class="dt">levels =</span><span class="kw">c</span>(<span class="st">&quot;Japan&quot;</span>, <span class="st">&quot;Germany&quot;</span>, <span class="st">&quot;Turkey&quot;</span>))</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># Prepare table for output</span></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2">articles_per_year &lt;-<span class="st"> </span>articles_per_year_table <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="st">    </span><span class="kw">gather</span>(Country, n, <span class="dv">2</span><span class="op">:</span><span class="dv">4</span>)</a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"></a>
+<a class="sourceLine" id="cb7-5" data-line-number="5">articles_per_year<span class="op">$</span>Country &lt;-<span class="st"> </span><span class="kw">factor</span>(articles_per_year<span class="op">$</span>Country,</a>
+<a class="sourceLine" id="cb7-6" data-line-number="6">                                    <span class="dt">levels =</span><span class="kw">c</span>(<span class="st">&quot;Japan&quot;</span>, <span class="st">&quot;Germany&quot;</span>, <span class="st">&quot;Turkey&quot;</span>))</a></code></pre></div>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -3069,7 +3041,7 @@ div.tocify {
 <div id="feedback" class="section level1">
 <h1><span class="header-section-number">2</span> Feedback</h1>
 <p><a href="https://github.com/sbalci">Serdar Balcı, MD, Pathologist</a> would like to hear your feedback: <a href="https://goo.gl/forms/YjGZ5DHgtPlR1RnB3" class="uri">https://goo.gl/forms/YjGZ5DHgtPlR1RnB3</a></p>
-<p>This document will be continiously updated and the last update was on 2018-05-21.</p>
+<p>This document will be continiously updated and the last update was on 2018-06-27.</p>
 <hr />
 </div>
 <div id="back-to-main-menu" class="section level1">
@@ -3078,7 +3050,7 @@ div.tocify {
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUEJQYXRoIEpvdXJuYWwgV2F0Y2giCnN1YnRpdGxlOiAiUmVjZW50IEFydGljbGVzIGZyb20gUHViTWVkIgphdXRob3I6ICJTZXJkYXIgQmFsY8SxLCBNRCwgUGF0aG9sb2dpc3QiCmRhdGU6ICdgciBmb3JtYXQoU3lzLkRhdGUoKSlgJwpvdXRwdXQ6IAogIGh0bWxfbm90ZWJvb2s6IAogICAgY29kZV9mb2xkaW5nOiBoaWRlCiAgICBoaWdobGlnaHQ6IGthdGUKICAgIG51bWJlcl9zZWN0aW9uczogeWVzCiAgICB0aGVtZTogY2VydWxlYW4KICAgIHRvYzogeWVzCiAgICB0b2NfZmxvYXQ6IHllcwogICAgZmlnX2NhcHRpb246IHllcwogIGh0bWxfZG9jdW1lbnQ6IAogICAgZGZfcHJpbnQ6IGthYmxlCiAgICBudW1iZXJfc2VjdGlvbnM6IHllcwogICAgdG9jOiB5ZXMKLS0tCgoKIyBBbmFseXNpcyBvZiBSZWNlbnQgUGFuY3JlYXMgUmVsYXRlZCBBcnRpY2xlcwoKUGFuY3JlYXMgSm91cm5hbHMKaHR0cHM6Ly93d3cubmNiaS5ubG0ubmloLmdvdi9ubG1jYXRhbG9nLz90ZXJtPXBhbmNyZWFzCgpQYXRob2xvZ3kgSm91cm5hbHMKCk1lbWJlciBMaXN0CgpET0kgTGluawpQdWJNZWQgTGluawpKb3VybmFsIExpbmsKQWx0bWV0cmljIEFQSQpEaW1lbnNpb25zIEFQSQoKClVTQ0FQIGFic3RyYWN0cyB2cyBwdWJsaWNhdGlvbgoKTWVtYmVyIGxpc3QgdnMgd29ybGRtYXAKCgoKCmBgYHtyIGxvYWQgcmVxdWlyZWQgcGFja2FnZXN9CiMgbG9hZCByZXF1aXJlZCBwYWNrYWdlcwpsaWJyYXJ5KHRpZHl2ZXJzZSkKbGlicmFyeShrbml0cikKbGlicmFyeShyc3R1ZGlvYXBpKQpgYGAKCiAgICAKYGBge3Igc2V0dXAsIGluY2x1ZGU9RkFMU0V9CmtuaXRyOjpvcHRzX2NodW5rJHNldChtZXNzYWdlPUZBTFNFLCB3YXJuaW5nPUZBTFNFLCB0aWR5ID0gVFJVRSkKYGBgCgoKCmBgYHtyfQpteVRlcm0gPC0gcnN0dWRpb2FwaTo6dGVybWluYWxDcmVhdGUoc2hvdyA9IEZBTFNFKQpyc3R1ZGlvYXBpOjp0ZXJtaW5hbFNlbmQobXlUZXJtLCAiZXNlYXJjaCAtZGIgcHVibWVkIC1xdWVyeSAncGFuY3JlYXNbVGl0bGUvQWJzdHJhY3RdKSBBTkQgcGF0aG9sb2d5JyAtZGF0ZXR5cGUgRURBVCAtbWluIDIwMTgvMDUvMDEgLW1heCAzMDAwIHwgXAplZmV0Y2ggLWZvcm1hdCB4bWwgfCBcCnh0cmFjdCAtcGF0dGVybiBQdWJtZWRBcnRpY2xlIC1lbGVtZW50IE1lZGxpbmVDaXRhdGlvbi9QTUlEIFwKLWJsb2NrIEFydGljbGVJZCAtaWYgQXJ0aWNsZUlkQElkVHlwZSAtZXF1YWxzIGRvaSAtZWxlbWVudCBBcnRpY2xlSWQgJj4gbXlxdWVyeS50eHQiKQpTeXMuc2xlZXAoMSkKcmVwZWF0ewogICAgU3lzLnNsZWVwKDAuMSkKICAgIGlmKHJzdHVkaW9hcGk6OnRlcm1pbmFsQnVzeShteVRlcm0pID09IEZBTFNFKXsKICAgICAgICBwcmludCgiQ29kZSBFeGVjdXRlZCIpCiAgICAgICAgYnJlYWsKICAgIH0KfQpgYGAKCgpgYGB7cn0KcmVhZExpbmVzKCJteXF1ZXJ5LnR4dCIpCmBgYAoKCgpQYXRob2xvZ3kgSm91cm5hbCBJU1NOIExpc3Qgd2FzIHJldHJpZXZlZCBmcm9tIFtJbiBDaXRlcyBDbGFyaXZhdGVdKGh0dHBzOi8vamNyLmluY2l0ZXMudGhvbXNvbnJldXRlcnMuY29tLyksIGFuZCBKb3VybmFsIERhdGEgRmlsdGVyZWQgYXMgZm9sbG93czogYEpDUiBZZWFyOiAyMDE2IFNlbGVjdGVkIEVkaXRpb25zOiBTQ0lFLFNTQ0kgU2VsZWN0ZWQgQ2F0ZWdvcmllczogJ1BBVEhPTE9HWScgU2VsZWN0ZWQgQ2F0ZWdvcnkgU2NoZW1lOiBXb1NgCgpgYGB7ciBHZXQgSVNTTiBMaXN0IGZyb20gZGF0YSBkb3dubG9hZGVkIGZyb20gV29TfQojIEdldCBJU1NOIExpc3QgZnJvbSBkYXRhIGRvd25sb2FkZWQgZnJvbSBXb1MKSVNTTkxpc3QgPC0gSm91cm5hbEhvbWVHcmlkIDwtIHJlYWRfY3N2KCJkYXRhL0pvdXJuYWxIb21lR3JpZC5jc3YiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2tpcCA9IDEpICU+JQogICAgc2VsZWN0KElTU04pICU+JQogICAgZmlsdGVyKCFpcy5uYShJU1NOKSkgJT4lCiAgICB0KCkgJT4lCiAgICBwYXN0ZSgiT1IgIiwgY29sbGFwc2UgPSAiIikgIyBhZGQgT1IgYmV0d2VlbiBJU1NOIExpc3QKCklTU05MaXN0IDwtIGdzdWIoIiBPUiAkIiwiIiAsSVNTTkxpc3QpICMgdG8gcmVtb3ZlIGxhc3QgT1IKYGBgCgpEYXRhIGlzIHJldHJpZXZlZCBmcm9tIFB1Yk1lZCB2aWEgRS1kaXJlY3QuCgpQdWJNZWQgY29sbGVjdGlvbiBmcm9tIE5hdGlvbmFsIExpYnJhcnkgb2YgTWVkaWNpbmUgKGh0dHBzOi8vd3d3Lm5jYmkubmxtLm5paC5nb3YvcHVibWVkLyksIGhhcyB0aGUgbW9zdCBjb21wcmVoZW5zaXZlIGluZm9ybWF0aW9uIGFib3V0IHBlZXIgcmV2aWV3ZWQgYXJ0aWNsZXMgaW4gbWVkaWNpbmUuClRoZSBBUEkgKGh0dHBzOi8vZGF0YWd1aWRlLm5sbS5uaWguZ292LykgaXMgYXZhaWxhYmxlIGZvciBnZXR0aW5nIGFuZCBmZXRjaGluZyBkYXRhIGZyb20gdGhlIHNlcnZlci4KClRoZSBxdWVyeSBmb3IgUHViTWVkIGlzIGdlbmVyYXRlZCBhcyAiSVNTTiBMaXN0IEFORCBrZXl3b3JkcyIgbGlrZSBkb25lIGluIFthZHZhbmNlZCBzZWFyY2ggb2YgUHViTWVkXShodHRwczovL3d3dy5uY2JpLm5sbS5uaWguZ292L3B1Ym1lZC9hZHZhbmNlZCkuCgoKYGBge3IgR2VuZXJhdGUgU2VhcmNoIEZvcm11bGEgRm9yIFBhdGhvbG9neSBKb3VybmFscyBBTkQgQ291bnRyaWVzfQojIEdlbmVyYXRlIFNlYXJjaCBGb3JtdWxhIEZvciBQYXRob2xvZ3kgSm91cm5hbHMgQU5EIENvdW50cmllcwpzZWFyY2hmb3JtdWxhVFIgPC0gcGFzdGUoIiciLElTU05MaXN0LCInIiwgIiBBTkQgIiwgIlR1cmtleVtBZmZpbGlhdGlvbl0iKQpzZWFyY2hmb3JtdWxhREUgPC0gcGFzdGUoIiciLElTU05MaXN0LCInIiwgIiBBTkQgIiwgIkdlcm1hbnlbQWZmaWxpYXRpb25dIikKc2VhcmNoZm9ybXVsYUpQIDwtIHBhc3RlKCInIixJU1NOTGlzdCwiJyIsICIgQU5EICIsICJKYXBhbltBZmZpbGlhdGlvbl0iKQpgYGAKCgoKRnJvbSB0aGUgZmV0Y2hlZCBkYXRhIGFydGljbGVzIGFyZSBncm91cGVkIGJ5IGNvdW50cnkgYW5kIGtleXdvcmRzLgoKYGBge3IgQXJ0aWNsZXMgcGVyIGNvdW50cmllcyBwZXIgeWVhcn0KIyBBcnRpY2xlcyBwZXIgY291bnRyaWVzIHBlciB5ZWFyCnRhYmxlVFIgPC0gdGFibGUoWWVhclB1Ym1lZChmZXRjaFR1cmtleSkpICU+JQogICAgYXNfdGliYmxlKCkgJT4lCiAgICByZW5hbWUoVHVya2V5ID0gbiwgWWVhciA9IFZhcjEpCgp0YWJsZURFIDwtIHRhYmxlKFllYXJQdWJtZWQoZmV0Y2hHZXJtYW55KSkgJT4lCiAgICBhc190aWJibGUoKSAlPiUKICAgIHJlbmFtZShHZXJtYW55ID0gbiwgWWVhciA9IFZhcjEpCgp0YWJsZUpQIDwtIHRhYmxlKFllYXJQdWJtZWQoZmV0Y2hKYXBhbikpICU+JQogICAgYXNfdGliYmxlKCkgJT4lCiAgICByZW5hbWUoSmFwYW4gPSBuLCBZZWFyID0gVmFyMSkKCiMgSm9pbiBUYWJsZXMKYXJ0aWNsZXNfcGVyX3llYXJfdGFibGUgPC0gbGlzdCgKICAgIHRhYmxlVFIsCiAgICB0YWJsZURFLAogICAgdGFibGVKUAopICU+JQogICAgcmVkdWNlKGxlZnRfam9pbiwgYnkgPSAiWWVhciIsIC5pZCA9ICJpZCIpCgpgYGAKCgpgYGB7ciBQcmVwYXJlIHRhYmxlIGZvciBvdXRwdXR9CiMgUHJlcGFyZSB0YWJsZSBmb3Igb3V0cHV0CmFydGljbGVzX3Blcl95ZWFyIDwtIGFydGljbGVzX3Blcl95ZWFyX3RhYmxlICU+JQogICAgZ2F0aGVyKENvdW50cnksIG4sIDI6NCkKCmFydGljbGVzX3Blcl95ZWFyJENvdW50cnkgPC0gZmFjdG9yKGFydGljbGVzX3Blcl95ZWFyJENvdW50cnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldmVscyA9YygiSmFwYW4iLCAiR2VybWFueSIsICJUdXJrZXkiKSkKYGBgCgoKKipSZXN1bHQ6KioKCgpgYGB7ciBQcmludCB0aGUgVGFibGUgb2YgQXJ0aWNsZXMgcGVyIHllYXIgcGVyIGNvdW50cnksIGVjaG89RkFMU0V9CiMgUHJpbnQgdGhlIFRhYmxlIG9mIEFydGljbGVzIHBlciB5ZWFyLCBwZXIgY291bnRyeQprbml0cjo6a2FibGUoYXJ0aWNsZXNfcGVyX3llYXJfdGFibGUsIGNhcHRpb24gPSAiVGFibGUgb2YgQXJ0aWNsZXMgcGVyIHllYXIsIHBlciBjb3VudHJ5IikKYGBgCgptYXBncmFwaAoKCgpBbmQgdGhlIGZpZ3VyZSBiZWxvdyBzaG93cyB0aGlzIGRhdGEgaW4gYSBsaW5lIGdyYXBoLgoKCi0tLQoKCgoKIyBGZWVkYmFjawoKW1NlcmRhciBCYWxjxLEsIE1ELCBQYXRob2xvZ2lzdF0oaHR0cHM6Ly9naXRodWIuY29tL3NiYWxjaSkgd291bGQgbGlrZSB0byBoZWFyIHlvdXIgZmVlZGJhY2s6IGh0dHBzOi8vZ29vLmdsL2Zvcm1zL1lqR1o1REhndFBsUjFSbkIzCgpUaGlzIGRvY3VtZW50IHdpbGwgYmUgY29udGluaW91c2x5IHVwZGF0ZWQgYW5kIHRoZSBsYXN0IHVwZGF0ZSB3YXMgb24gYHIgU3lzLkRhdGUoKWAuCgotLS0KCiMgQmFjayB0byBNYWluIE1lbnUKCltNYWluIFBhZ2UgZm9yIEJpYmxpb2dyYXBoaWMgQW5hbHlzaXNdKGh0dHBzOi8vc2JhbGNpLmdpdGh1Yi5pby9wdWJtZWQvQmlibGlvZ3JhcGhpY1N0dWRpZXMuaHRtbCkKCgoKCgoKCgoKCgoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUEJQYXRoIEpvdXJuYWwgV2F0Y2giCnN1YnRpdGxlOiAiUmVjZW50IEFydGljbGVzIGZyb20gUHViTWVkIgphdXRob3I6ICJTZXJkYXIgQmFsY8SxLCBNRCwgUGF0aG9sb2dpc3QiCmRhdGU6ICdgciBmb3JtYXQoU3lzLkRhdGUoKSlgJwpvdXRwdXQ6IAogIGh0bWxfbm90ZWJvb2s6IAogICAgY29kZV9mb2xkaW5nOiBoaWRlCiAgICBoaWdobGlnaHQ6IGthdGUKICAgIG51bWJlcl9zZWN0aW9uczogeWVzCiAgICB0aGVtZTogY2VydWxlYW4KICAgIHRvYzogeWVzCiAgICB0b2NfZmxvYXQ6IHllcwogICAgZmlnX2NhcHRpb246IHllcwogIGh0bWxfZG9jdW1lbnQ6IAogICAgZGZfcHJpbnQ6IGthYmxlCiAgICBudW1iZXJfc2VjdGlvbnM6IHllcwogICAgdG9jOiB5ZXMKLS0tCgoKIyBBbmFseXNpcyBvZiBSZWNlbnQgUGFuY3JlYXMgUmVsYXRlZCBBcnRpY2xlcwoKUGFuY3JlYXMgSm91cm5hbHMKaHR0cHM6Ly93d3cubmNiaS5ubG0ubmloLmdvdi9ubG1jYXRhbG9nLz90ZXJtPXBhbmNyZWFzCgpQYXRob2xvZ3kgSm91cm5hbHMKCk1lbWJlciBMaXN0CgpET0kgTGluawpQdWJNZWQgTGluawpKb3VybmFsIExpbmsKQWx0bWV0cmljIEFQSQpEaW1lbnNpb25zIEFQSQoKClVTQ0FQIGFic3RyYWN0cyB2cyBwdWJsaWNhdGlvbgoKTWVtYmVyIGxpc3QgdnMgd29ybGRtYXAKCgoKCmBgYHtyIGxvYWQgcmVxdWlyZWQgcGFja2FnZXN9CiMgbG9hZCByZXF1aXJlZCBwYWNrYWdlcwpsaWJyYXJ5KHRpZHl2ZXJzZSkKbGlicmFyeShrbml0cikKbGlicmFyeShyc3R1ZGlvYXBpKQpgYGAKCiAgICAKYGBge3Igc2V0dXAsIGluY2x1ZGU9RkFMU0V9CmtuaXRyOjpvcHRzX2NodW5rJHNldChtZXNzYWdlPUZBTFNFLCB3YXJuaW5nPUZBTFNFLCB0aWR5ID0gVFJVRSkKYGBgCgoKCmBgYHtyfQpteVRlcm0gPC0gcnN0dWRpb2FwaTo6dGVybWluYWxDcmVhdGUoc2hvdyA9IEZBTFNFKQpyc3R1ZGlvYXBpOjp0ZXJtaW5hbFNlbmQobXlUZXJtLCAiZXNlYXJjaCAtZGIgcHVibWVkIC1xdWVyeSAncGFuY3JlYXNbVGl0bGUvQWJzdHJhY3RdKSBBTkQgcGF0aG9sb2d5JyAtZGF0ZXR5cGUgRURBVCAtbWluIDIwMTgvMDUvMDEgLW1heCAzMDAwIHwgXAplZmV0Y2ggLWZvcm1hdCB4bWwgfCBcCnh0cmFjdCAtcGF0dGVybiBQdWJtZWRBcnRpY2xlIC1lbGVtZW50IE1lZGxpbmVDaXRhdGlvbi9QTUlEIFwKLWJsb2NrIEFydGljbGVJZCAtaWYgQXJ0aWNsZUlkQElkVHlwZSAtZXF1YWxzIGRvaSAtZWxlbWVudCBBcnRpY2xlSWQgJj4gbXlxdWVyeS50eHQiKQpTeXMuc2xlZXAoMSkKcmVwZWF0ewogICAgU3lzLnNsZWVwKDAuMSkKICAgIGlmKHJzdHVkaW9hcGk6OnRlcm1pbmFsQnVzeShteVRlcm0pID09IEZBTFNFKXsKICAgICAgICBwcmludCgiQ29kZSBFeGVjdXRlZCIpCiAgICAgICAgYnJlYWsKICAgIH0KfQpgYGAKCgpgYGB7cn0KcmVhZExpbmVzKCJteXF1ZXJ5LnR4dCIpCmBgYAoKCgpQYXRob2xvZ3kgSm91cm5hbCBJU1NOIExpc3Qgd2FzIHJldHJpZXZlZCBmcm9tIFtJbiBDaXRlcyBDbGFyaXZhdGVdKGh0dHBzOi8vamNyLmluY2l0ZXMudGhvbXNvbnJldXRlcnMuY29tLyksIGFuZCBKb3VybmFsIERhdGEgRmlsdGVyZWQgYXMgZm9sbG93czogYEpDUiBZZWFyOiAyMDE2IFNlbGVjdGVkIEVkaXRpb25zOiBTQ0lFLFNTQ0kgU2VsZWN0ZWQgQ2F0ZWdvcmllczogJ1BBVEhPTE9HWScgU2VsZWN0ZWQgQ2F0ZWdvcnkgU2NoZW1lOiBXb1NgCgpgYGB7ciBHZXQgSVNTTiBMaXN0IGZyb20gZGF0YSBkb3dubG9hZGVkIGZyb20gV29TfQojIEdldCBJU1NOIExpc3QgZnJvbSBkYXRhIGRvd25sb2FkZWQgZnJvbSBXb1MKSVNTTkxpc3QgPC0gSm91cm5hbEhvbWVHcmlkIDwtIHJlYWRfY3N2KCJkYXRhL0pvdXJuYWxIb21lR3JpZC5jc3YiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2tpcCA9IDEpICU+JQogICAgc2VsZWN0KElTU04pICU+JQogICAgZmlsdGVyKCFpcy5uYShJU1NOKSkgJT4lCiAgICB0KCkgJT4lCiAgICBwYXN0ZSgiT1IgIiwgY29sbGFwc2UgPSAiIikgIyBhZGQgT1IgYmV0d2VlbiBJU1NOIExpc3QKCklTU05MaXN0IDwtIGdzdWIoIiBPUiAkIiwiIiAsSVNTTkxpc3QpICMgdG8gcmVtb3ZlIGxhc3QgT1IKYGBgCgpEYXRhIGlzIHJldHJpZXZlZCBmcm9tIFB1Yk1lZCB2aWEgRS1kaXJlY3QuCgpQdWJNZWQgY29sbGVjdGlvbiBmcm9tIE5hdGlvbmFsIExpYnJhcnkgb2YgTWVkaWNpbmUgKGh0dHBzOi8vd3d3Lm5jYmkubmxtLm5paC5nb3YvcHVibWVkLyksIGhhcyB0aGUgbW9zdCBjb21wcmVoZW5zaXZlIGluZm9ybWF0aW9uIGFib3V0IHBlZXIgcmV2aWV3ZWQgYXJ0aWNsZXMgaW4gbWVkaWNpbmUuClRoZSBBUEkgKGh0dHBzOi8vZGF0YWd1aWRlLm5sbS5uaWguZ292LykgaXMgYXZhaWxhYmxlIGZvciBnZXR0aW5nIGFuZCBmZXRjaGluZyBkYXRhIGZyb20gdGhlIHNlcnZlci4KClRoZSBxdWVyeSBmb3IgUHViTWVkIGlzIGdlbmVyYXRlZCBhcyAiSVNTTiBMaXN0IEFORCBrZXl3b3JkcyIgbGlrZSBkb25lIGluIFthZHZhbmNlZCBzZWFyY2ggb2YgUHViTWVkXShodHRwczovL3d3dy5uY2JpLm5sbS5uaWguZ292L3B1Ym1lZC9hZHZhbmNlZCkuCgoKYGBge3IgR2VuZXJhdGUgU2VhcmNoIEZvcm11bGEgRm9yIFBhdGhvbG9neSBKb3VybmFscyBBTkQgQ291bnRyaWVzfQojIEdlbmVyYXRlIFNlYXJjaCBGb3JtdWxhIEZvciBQYXRob2xvZ3kgSm91cm5hbHMgQU5EIENvdW50cmllcwpzZWFyY2hmb3JtdWxhVFIgPC0gcGFzdGUoIiciLElTU05MaXN0LCInIiwgIiBBTkQgIiwgIlR1cmtleVtBZmZpbGlhdGlvbl0iKQpzZWFyY2hmb3JtdWxhREUgPC0gcGFzdGUoIiciLElTU05MaXN0LCInIiwgIiBBTkQgIiwgIkdlcm1hbnlbQWZmaWxpYXRpb25dIikKc2VhcmNoZm9ybXVsYUpQIDwtIHBhc3RlKCInIixJU1NOTGlzdCwiJyIsICIgQU5EICIsICJKYXBhbltBZmZpbGlhdGlvbl0iKQpgYGAKCgoKRnJvbSB0aGUgZmV0Y2hlZCBkYXRhIGFydGljbGVzIGFyZSBncm91cGVkIGJ5IGNvdW50cnkgYW5kIGtleXdvcmRzLgoKYGBge3IgQXJ0aWNsZXMgcGVyIGNvdW50cmllcyBwZXIgeWVhcn0KIyBBcnRpY2xlcyBwZXIgY291bnRyaWVzIHBlciB5ZWFyCnRhYmxlVFIgPC0gdGFibGUoWWVhclB1Ym1lZChmZXRjaFR1cmtleSkpICU+JQogICAgYXNfdGliYmxlKCkgJT4lCiAgICByZW5hbWUoVHVya2V5ID0gbiwgWWVhciA9IFZhcjEpCgp0YWJsZURFIDwtIHRhYmxlKFllYXJQdWJtZWQoZmV0Y2hHZXJtYW55KSkgJT4lCiAgICBhc190aWJibGUoKSAlPiUKICAgIHJlbmFtZShHZXJtYW55ID0gbiwgWWVhciA9IFZhcjEpCgp0YWJsZUpQIDwtIHRhYmxlKFllYXJQdWJtZWQoZmV0Y2hKYXBhbikpICU+JQogICAgYXNfdGliYmxlKCkgJT4lCiAgICByZW5hbWUoSmFwYW4gPSBuLCBZZWFyID0gVmFyMSkKCiMgSm9pbiBUYWJsZXMKYXJ0aWNsZXNfcGVyX3llYXJfdGFibGUgPC0gbGlzdCgKICAgIHRhYmxlVFIsCiAgICB0YWJsZURFLAogICAgdGFibGVKUAopICU+JQogICAgcmVkdWNlKGxlZnRfam9pbiwgYnkgPSAiWWVhciIsIC5pZCA9ICJpZCIpCgpgYGAKCgpgYGB7ciBQcmVwYXJlIHRhYmxlIGZvciBvdXRwdXR9CiMgUHJlcGFyZSB0YWJsZSBmb3Igb3V0cHV0CmFydGljbGVzX3Blcl95ZWFyIDwtIGFydGljbGVzX3Blcl95ZWFyX3RhYmxlICU+JQogICAgZ2F0aGVyKENvdW50cnksIG4sIDI6NCkKCmFydGljbGVzX3Blcl95ZWFyJENvdW50cnkgPC0gZmFjdG9yKGFydGljbGVzX3Blcl95ZWFyJENvdW50cnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldmVscyA9YygiSmFwYW4iLCAiR2VybWFueSIsICJUdXJrZXkiKSkKYGBgCgoKKipSZXN1bHQ6KioKCgpgYGB7ciBQcmludCB0aGUgVGFibGUgb2YgQXJ0aWNsZXMgcGVyIHllYXIgcGVyIGNvdW50cnksIGVjaG89RkFMU0V9CiMgUHJpbnQgdGhlIFRhYmxlIG9mIEFydGljbGVzIHBlciB5ZWFyLCBwZXIgY291bnRyeQprbml0cjo6a2FibGUoYXJ0aWNsZXNfcGVyX3llYXJfdGFibGUsIGNhcHRpb24gPSAiVGFibGUgb2YgQXJ0aWNsZXMgcGVyIHllYXIsIHBlciBjb3VudHJ5IikKYGBgCgptYXBncmFwaAoKCgpBbmQgdGhlIGZpZ3VyZSBiZWxvdyBzaG93cyB0aGlzIGRhdGEgaW4gYSBsaW5lIGdyYXBoLgoKCi0tLQoKCiMgRmVlZGJhY2sKCltTZXJkYXIgQmFsY8SxLCBNRCwgUGF0aG9sb2dpc3RdKGh0dHBzOi8vZ2l0aHViLmNvbS9zYmFsY2kpIHdvdWxkIGxpa2UgdG8gaGVhciB5b3VyIGZlZWRiYWNrOiBodHRwczovL2dvby5nbC9mb3Jtcy9ZakdaNURIZ3RQbFIxUm5CMwoKVGhpcyBkb2N1bWVudCB3aWxsIGJlIGNvbnRpbmlvdXNseSB1cGRhdGVkIGFuZCB0aGUgbGFzdCB1cGRhdGUgd2FzIG9uIGByIFN5cy5EYXRlKClgLgoKLS0tCgojIEJhY2sgdG8gTWFpbiBNZW51CgpbTWFpbiBQYWdlIGZvciBCaWJsaW9ncmFwaGljIEFuYWx5c2lzXShodHRwczovL3NiYWxjaS5naXRodWIuaW8vcHVibWVkL0JpYmxpb2dyYXBoaWNTdHVkaWVzLmh0bWwpCgoKCgoKCgoKCgoKCg==</div>
 
 
 </div>
