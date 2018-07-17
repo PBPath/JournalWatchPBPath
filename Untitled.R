@@ -2,9 +2,6 @@ PMID_25783680 <- RefManageR::ReadPubMed("25783680", database = "PubMed")
 
 cit_25783680 <- paste0(PMID_25783680$title, " ", PMID_25783680$journal, " ", "PMID: https://www.ncbi.nlm.nih.gov/pubmed/?term=", PMID_25783680$eprint, " ", "doi: https://doi.org/", PMID_25783680$doi)
 
-
-
-
 dimensionBadge <- paste0(
     "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script>
     <span class='__dimensions_badge_embed__' data-doi='",

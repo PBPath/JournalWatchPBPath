@@ -1,4 +1,7 @@
 
+- Pathology
+
+The Journal of Pathology
 
 - Cytopathology
 

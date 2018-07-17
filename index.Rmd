@@ -1,26 +1,60 @@
 ---
 title: "PBPath Journal Watch"
-subtitle: "Recent Articles"
+subtitle: "Top Articles"
 date: '`r format(Sys.Date())`'
 output: 
   html_notebook: 
     code_folding: hide
+    fig_caption: yes
     highlight: kate
-    number_sections: yes
-    theme: cerulean
+    theme: paper
     toc: yes
     toc_float: yes
-    fig_caption: yes
   html_document: 
     df_print: kable
-    number_sections: yes
     toc: yes
 ---
 
-![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)
+[![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)](http://pbpath.org/)
 
 
-# Recent Articles
+**These articles are selected from:**
+
+- Pancreatobiliary System Related Articles From [The Classical Articles Collection of Google Scholar](https://scholar.google.com/citations?view_op=list_classic_articles&hl=en&by=2006&vq=med_pathology)
+
+- Pathology Articles From [Top Publications of Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=med_pathology)
+
+
+## PanNET
+
+- Rindi, Guido, et al. "TNM staging of foregut (neuro) endocrine tumors: a consensus proposal including a grading system." Virchows Archiv 449.4 (2006): 395-401.
+
+```{r, include=FALSE}
+PMID_16967267 <- RefManageR::ReadPubMed("16967267", database = "PubMed")
+
+cit_16967267 <- paste0("PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=", PMID_16967267$eprint, " ", "doi: https://doi.org/", PMID_16967267$doi)
+
+dimensionBadge_16967267 <- paste0(
+    "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script><span class='__dimensions_badge_embed__' data-doi='",
+    PMID_16967267$doi,
+    "' data-style='small_circle'></span>"
+)
+
+
+altmetricBadge_16967267 <- paste0(
+    "<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='",
+    PMID_16967267$doi,
+    "'></span>"
+)
+```
+
+`r cit_16967267`
+
+`r dimensionBadge_16967267`
+
+`r altmetricBadge_16967267`
+
+
 
 ## Pancreas
 
@@ -34,11 +68,70 @@ output:
 
 ## Preinvasive Lesions
 
+- Amato, Eliana, et al. "Targeted next‐generation sequencing of cancer genes dissects the molecular profiles of intraductal papillary neoplasms of the pancreas." The Journal of pathology 233.3 (2014): 217-227.
+
+```{r, include=FALSE}
+PMID_24604757 <- RefManageR::ReadPubMed("24604757", database = "PubMed")
+
+cit_24604757 <- paste0("PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=", PMID_24604757$eprint, " ", "doi: https://doi.org/", PMID_24604757$doi)
+
+dimensionBadge_24604757 <- paste0(
+    "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script><span class='__dimensions_badge_embed__' data-doi='",
+    PMID_24604757$doi,
+    "' data-style='small_circle'></span>"
+)
+
+
+altmetricBadge_24604757 <- paste0(
+    "<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='",
+    PMID_24604757$doi,
+    "'></span>"
+)
+```
+
+
+`r cit_24604757`
+
+`r dimensionBadge_24604757`
+
+`r altmetricBadge_24604757`
+
+
+- Aichler, Michaela, et al. "Origin of pancreatic ductal adenocarcinoma from atypical flat lesions: a comparative study in transgenic mice and human tissues." The Journal of pathology 226.5 (2012): 723-734.
+
+
+```{r, include=FALSE}
+PMID_21984419 <- RefManageR::ReadPubMed("21984419", database = "PubMed")
+
+cit_21984419 <- paste0("PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=", PMID_21984419$eprint, " ", "doi: https://doi.org/", PMID_21984419$doi)
+
+dimensionBadge_21984419 <- paste0(
+    "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script><span class='__dimensions_badge_embed__' data-doi='",
+    PMID_21984419$doi,
+    "' data-style='small_circle'></span>"
+)
+
+
+altmetricBadge_21984419 <- paste0(
+    "<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script><span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='",
+    PMID_21984419$doi,
+    "'></span>"
+)
+```
+
+`r cit_21984419`
+
+`r dimensionBadge_21984419`
+
+`r altmetricBadge_21984419`
+
+
+
 ## Pancreatitis
 
 ## Carcinogenesis
 
-
+## Surgical Procedures
 
 
 
@@ -191,7 +284,7 @@ output:
 <!-- cit_25783680 <- paste0(PMID_25783680$title, " ", PMID_25783680$journal, " ", "PMID: https://www.ncbi.nlm.nih.gov/pubmed/?term=", PMID_25783680$eprint, " ", "doi: https://doi.org/", PMID_25783680$doi) -->
 <!-- ``` -->
 
-<!-- My next citation is here^[`r cit_25783680`]. -->
+
 
 
 <!-- ```{r dimension badge} -->
@@ -204,7 +297,6 @@ output:
 <!-- ) -->
 <!-- ``` -->
 
-<!-- `r dimensionBadge` -->
 
 
 <!-- ```{r} -->
@@ -219,14 +311,37 @@ output:
 <!-- ``` -->
 
 
-<!-- `r altmetricBadge` -->
-
-
-<!-- -  -->
 
 
 
 
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=XCd-Qpr3C5EJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=ahsd59OLe3sJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=nVq7clW20kIJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=qzv2dqOMpssJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=hh-mzH17pbsJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=6JIlvcuIHO8J.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=RX7vDYU5Rs0J.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=F9emXMTmvhsJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=RMsbIfaeJQQJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=hBCH08eKD0oJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=JygXE5wUcyAJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=FawapopZOLIJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=0CYKTLQCO2oJ.2017
+
+https://scholar.google.com/citations?hl=en&vq=med_pathology&view_op=list_hcore&venue=yAxQ26fsFLAJ.2017
 
 
 
