@@ -14,35 +14,35 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 
 ```{r include=FALSE}
-PMID_29684363 <- RefManageR::ReadPubMed("29684363",
+PMID_30010625 <- RefManageR::ReadPubMed("30010625",
                                         database = "PubMed")
 
-PubMed_29684363 <- paste0(PubMedString,
-                          PMID_29684363$eprint
+PubMed_30010625 <- paste0(PubMedString,
+                          PMID_30010625$eprint
 )
 
-doi_29684363 <- paste0(doiString,
-                       PMID_29684363$doi
+doi_30010625 <- paste0(doiString,
+                       PMID_30010625$doi
 )
 
-dimensionBadge_29684363 <- paste0(dimensionString1,
-                                  PMID_29684363$doi,
+dimensionBadge_30010625 <- paste0(dimensionString1,
+                                  PMID_30010625$doi,
                                   dimensionString2
 )
 
-altmetricBadge_29684363 <- paste0(altmetricString1,
-                                  PMID_29684363$doi,
+altmetricBadge_30010625 <- paste0(altmetricString1,
+                                  PMID_30010625$doi,
                                   altmetricString2
 )
 ```
 
-- Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.
+`r PMID_30010625$abstract`
 
-`r PubMed_29684363`
+`r PubMed_30010625`
 
-`r doi_29684363`
+`r doi_30010625`
 
-`r dimensionBadge_29684363`
+`r dimensionBadge_30010625`
 
-`r altmetricBadge_29684363`
+`r altmetricBadge_30010625`
 

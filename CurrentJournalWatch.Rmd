@@ -35,20 +35,52 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 
 
+### Pancreas
 
 
+```{r include=FALSE}
+PMID_30010625 <- RefManageR::ReadPubMed("30010625",
+                                        database = "PubMed")
 
-## Pancreas
+PubMed_30010625 <- paste0(PubMedString,
+                          PMID_30010625$eprint
+)
+
+doi_30010625 <- paste0(doiString,
+                       PMID_30010625$doi
+)
+
+dimensionBadge_30010625 <- paste0(dimensionString1,
+                                  PMID_30010625$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_30010625 <- paste0(altmetricString1,
+                                  PMID_30010625$doi,
+                                  altmetricString2
+)
+```
 
 
+**- The BRG1/SOX9 axis is critical for acinar cell-derived pancreatic tumorigenesis.**
+
+`r PMID_30010625$abstract`
+
+`r PubMed_30010625`
+
+`r doi_30010625`
+
+`r dimensionBadge_30010625`
+
+`r altmetricBadge_30010625`
 
 
 
 ---
 
-## Biliary Tract
+### Biliary Tract
 
-- Epithelial Inclusions in Gallbladder Specimens Mimic Parasite Infection: Histologic and Molecular Examination of Reported Cystoisopora belli Infection in Gallbladders of Immunocompetent Patients
+**- Epithelial Inclusions in Gallbladder Specimens Mimic Parasite Infection: Histologic and Molecular Examination of Reported Cystoisopora belli Infection in Gallbladders of Immunocompetent Patients**
 
 https://journals.lww.com/ajsp/Pages/articleviewer.aspx?year=9000&issue=00000&article=97799&type=Abstract
 
@@ -79,42 +111,41 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 ```
 
 
-- Intrahepatic Cholangiocarcinomas Have Histologically and Immunophenotypically Distinct Small and Large Duct Patterns
+**- Intrahepatic Cholangiocarcinomas Have Histologically and Immunophenotypically Distinct Small and Large Duct Patterns**
 
+
+`r PMID_30001234$abstract`
 
 `r PubMed_30001234`
 
-
 `r doi_30001234`
 
-
 `r dimensionBadge_30001234`
-
 
 `r altmetricBadge_30001234`
 
 
+---
 
+### Neuroendocrine (PanNET)
 
-## Neuroendocrine (PanNET)
-
-- Incidentally detected pancreatic neuroendocrine microadenoma with lymph node metastasis
+**- Incidentally detected pancreatic neuroendocrine microadenoma with lymph node metastasis**
 
 https://link.springer.com/article/10.1007/s00428-018-2407-0
 
 
 ---
 
-## Cytopathology
+### Cytopathology
 
-- Immunohistochemical Staining for S100P, SMAD4, and IMP3 on Cell Block Preparations is Sensitive and Highly Specific for Pancreatic Ductal Adenocarcinoma
+**- Immunohistochemical Staining for S100P, SMAD4, and IMP3 on Cell Block Preparations is Sensitive and Highly Specific for Pancreatic Ductal Adenocarcinoma**
 
 https://www.sciencedirect.com/science/article/pii/S2213294518301042
 
 
 ---
 
-## Techniques
+### Techniques
 
 
 ```{r include=FALSE}
@@ -140,7 +171,12 @@ altmetricBadge_29684363 <- paste0(altmetricString1,
                                   )
 ```
 
-- Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.
+
+**- Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.**
+
+`r PMID_29684363$abstract`
+
+https://www.sciencedirect.com/science/article/pii/S0002944018300014
 
 `r PubMed_29684363`
 
