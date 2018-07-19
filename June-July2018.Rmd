@@ -17,6 +17,22 @@ output:
 
 [![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)](http://pbpath.org/)
 
+---
+
+```{r include=FALSE}
+PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
+
+doiString <- "doi: https://doi.org/"
+
+dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='"
+
+dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true'></span>"
+
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='"
+
+altmetricString2 <- "' data-hide-no-mentions='true'></span>"
+```
+
 
 ## Gallbladder
 
@@ -26,7 +42,107 @@ https://journals.lww.com/ajsp/Pages/articleviewer.aspx?year=9000&issue=00000&art
 
 - 
 
+---
+
+
+## Cytopathology
+
+- Immunohistochemical Staining for S100P, SMAD4, and IMP3 on Cell Block Preparations is Sensitive and Highly Specific for Pancreatic Ductal Adenocarcinoma
+
+https://www.sciencedirect.com/science/article/pii/S2213294518301042
+
+---
+
+
+## PanNET
+
+- Incidentally detected pancreatic neuroendocrine microadenoma with lymph node metastasis
+
+https://link.springer.com/article/10.1007/s00428-018-2407-0
+
+---
+
+
+## Liver
 
 
 
+
+```{r include=FALSE}
+PMID_30001234 <- RefManageR::ReadPubMed("30001234",
+                                        database = "PubMed")
+
+PubMed_30001234 <- paste0(PubMedString,
+                          PMID_30001234$eprint
+                          )
+
+doi_30001234 <- paste0(doiString,
+                       PMID_30001234$doi
+                       )
+
+dimensionBadge_30001234 <- paste0(dimensionString1,
+                                  PMID_30001234$doi,
+                                  dimensionString2
+                                  )
+
+altmetricBadge_30001234 <- paste0(altmetricString1,
+                                  PMID_30001234$doi,
+                                  altmetricString2
+                                  )
+
+```
+
+
+- Intrahepatic Cholangiocarcinomas Have Histologically and Immunophenotypically Distinct Small and Large Duct Patterns
+
+
+`r PubMed_30001234`
+
+
+`r doi_30001234`
+
+
+`r dimensionBadge_30001234`
+
+
+`r altmetricBadge_30001234`
+
+
+---
+
+## Techniques
+
+
+```{r include=FALSE}
+PMID_29684363 <- RefManageR::ReadPubMed("29684363",
+                                        database = "PubMed")
+
+PubMed_29684363 <- paste0(PubMedString,
+                          PMID_29684363$eprint
+                          )
+
+doi_29684363 <- paste0(doiString,
+                       PMID_29684363$doi
+                       )
+
+dimensionBadge_29684363 <- paste0(dimensionString1,
+                                  PMID_29684363$doi,
+                                  dimensionString2
+                                  )
+
+altmetricBadge_29684363 <- paste0(altmetricString1,
+                                  PMID_29684363$doi,
+                                  altmetricString2
+                                  )
+```
+
+- Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.
+
+`r PubMed_29684363`
+
+`r doi_29684363`
+
+`r dimensionBadge_29684363`
+
+`r altmetricBadge_29684363`
 
