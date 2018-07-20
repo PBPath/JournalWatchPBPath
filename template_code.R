@@ -14,49 +14,49 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 
 ```{r include=FALSE}
-PMID_30014466 <- RefManageR::ReadPubMed("30014466",
+PMID_28240168 <- RefManageR::ReadPubMed("28240168",
                                         database = "PubMed")
 
-citation_30014466 <- paste0(PMID_30014466$journal,
+citation_28240168 <- paste0(PMID_28240168$journal,
                             " ",
-                            PMID_30014466$year,
+                            PMID_28240168$year,
                             " ",
-                            PMID_30014466$month,
+                            PMID_28240168$month,
                             ";",
-                            PMID_30014466$volume,
+                            PMID_28240168$volume,
                             "(",
-                            PMID_30014466$number,
+                            PMID_28240168$number,
                             "):",
-                            PMID_30014466$pages)
+                            PMID_28240168$pages)
 
-PubMed_30014466 <- paste0(PubMedString,
-                          PMID_30014466$eprint
+PubMed_28240168 <- paste0(PubMedString,
+                          PMID_28240168$eprint
 )
 
-doi_30014466 <- paste0(doiString,
-                       PMID_30014466$doi
+doi_28240168 <- paste0(doiString,
+                       PMID_28240168$doi
 )
 
-dimensionBadge_30014466 <- paste0(dimensionString1,
-                                  PMID_30014466$doi,
+dimensionBadge_28240168 <- paste0(dimensionString1,
+                                  PMID_28240168$doi,
                                   dimensionString2
 )
 
-altmetricBadge_30014466 <- paste0(altmetricString1,
-                                  PMID_30014466$doi,
+altmetricBadge_28240168 <- paste0(altmetricString1,
+                                  PMID_28240168$doi,
                                   altmetricString2
 )
 ```
 
-*`r citation_30014466`*
+*`r citation_28240168`*
 
-`r PMID_30014466$abstract`
+`r PMID_28240168$abstract`
 
-`r PubMed_30014466`
+`r PubMed_28240168`
 
-`r doi_30014466`
+`r doi_28240168`
 
-`r dimensionBadge_30014466`
+`r dimensionBadge_28240168`
 
-`r altmetricBadge_30014466`
+`r altmetricBadge_28240168`
 

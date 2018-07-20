@@ -19,6 +19,9 @@ output:
 
 ---
 
+
+
+
 ```{r include=FALSE}
 PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
 
@@ -36,6 +39,68 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 
 ### Pancreas
+
+```{r include=FALSE}
+PMID_29802286 <- RefManageR::ReadPubMed("29802286",
+                                        database = "PubMed")
+
+citation_29802286 <- paste0(PMID_29802286$journal,
+                            " ",
+                            PMID_29802286$year,
+                            " ",
+                            PMID_29802286$month,
+                            ";",
+                            PMID_29802286$volume,
+                            "(",
+                            PMID_29802286$number,
+                            "):",
+                            PMID_29802286$pages)
+
+PubMed_29802286 <- paste0(PubMedString,
+                          PMID_29802286$eprint
+)
+
+doi_29802286 <- paste0(doiString,
+                       PMID_29802286$doi
+)
+
+dimensionBadge_29802286 <- paste0(dimensionString1,
+                                  PMID_29802286$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_29802286 <- paste0(altmetricString1,
+                                  PMID_29802286$doi,
+                                  altmetricString2
+)
+```
+
+
+- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
+
+*`r citation_29802286`*
+
+https://www.nature.com/articles/s41598-018-26526-x
+
+`r PMID_29802286$abstract`
+
+`r PubMed_29802286`
+
+`r doi_29802286`
+
+`r dimensionBadge_29802286`
+
+`r altmetricBadge_29802286`
+
+
+
+
+
+
+
+
+
+---
 
 
 ```{r include=FALSE}
@@ -76,7 +141,7 @@ altmetricBadge_30010625 <- paste0(altmetricString1,
 ```
 
 
-**- The BRG1/SOX9 axis is critical for acinar cell-derived pancreatic tumorigenesis.**
+- **The BRG1/SOX9 axis is critical for acinar cell-derived pancreatic tumorigenesis.**
 
 *`r citation_30010625`*
 
@@ -90,13 +155,66 @@ altmetricBadge_30010625 <- paste0(altmetricString1,
 
 `r altmetricBadge_30010625`
 
+---
+
+```{r include=FALSE}
+PMID_28240168 <- RefManageR::ReadPubMed("28240168",
+                                        database = "PubMed")
+
+citation_28240168 <- paste0(PMID_28240168$journal,
+                            " ",
+                            PMID_28240168$year,
+                            " ",
+                            PMID_28240168$month,
+                            ";",
+                            PMID_28240168$volume,
+                            "(",
+                            PMID_28240168$number,
+                            "):",
+                            PMID_28240168$pages)
+
+PubMed_28240168 <- paste0(PubMedString,
+                          PMID_28240168$eprint
+)
+
+doi_28240168 <- paste0(doiString,
+                       PMID_28240168$doi
+)
+
+dimensionBadge_28240168 <- paste0(dimensionString1,
+                                  PMID_28240168$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_28240168 <- paste0(altmetricString1,
+                                  PMID_28240168$doi,
+                                  altmetricString2
+)
+```
+
+
+- **Immunoprevention of Pancreatic Cancer**
+
+*`r citation_28240168`*
+
+`r PMID_28240168$abstract`
+
+`r PubMed_28240168`
+
+`r doi_28240168`
+
+`r dimensionBadge_28240168`
+
+`r altmetricBadge_28240168`
+
+
 
 
 ---
 
 ### Biliary Tract
 
-**- Epithelial Inclusions in Gallbladder Specimens Mimic Parasite Infection: Histologic and Molecular Examination of Reported Cystoisopora belli Infection in Gallbladders of Immunocompetent Patients**
+- **Epithelial Inclusions in Gallbladder Specimens Mimic Parasite Infection: Histologic and Molecular Examination of Reported Cystoisopora belli Infection in Gallbladders of Immunocompetent Patients**
 
 ```{r include=FALSE}
 PMID_30020094 <- RefManageR::ReadPubMed("30020094",
@@ -189,7 +307,7 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 ```
 
 
-**- Intrahepatic Cholangiocarcinomas Have Histologically and Immunophenotypically Distinct Small and Large Duct Patterns**
+- **Intrahepatic Cholangiocarcinomas Have Histologically and Immunophenotypically Distinct Small and Large Duct Patterns**
 
 *`r citation_30001234`*
 
@@ -208,13 +326,13 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 
 ### Neuroendocrine (PanNET)
 
-**- Incidentally detected pancreatic neuroendocrine microadenoma with lymph node metastasis**
+- **Incidentally detected pancreatic neuroendocrine microadenoma with lymph node metastasis**
 
 https://link.springer.com/article/10.1007/s00428-018-2407-0
 
 ---
 
-**- Reduced RNA-binding protein HuD in pancreatic neuroendocrine tumors lowers p27Kip1 levels linked to poor prognosis.**
+- **Reduced RNA-binding protein HuD in pancreatic neuroendocrine tumors lowers p27Kip1 levels linked to poor prognosis**
 
 ```{r include=FALSE}
 PMID_30014466 <- RefManageR::ReadPubMed("30014466",
@@ -271,7 +389,7 @@ altmetricBadge_30014466 <- paste0(altmetricString1,
 
 ### Cytopathology
 
-**- Immunohistochemical Staining for S100P, SMAD4, and IMP3 on Cell Block Preparations is Sensitive and Highly Specific for Pancreatic Ductal Adenocarcinoma**
+- **Immunohistochemical Staining for S100P, SMAD4, and IMP3 on Cell Block Preparations is Sensitive and Highly Specific for Pancreatic Ductal Adenocarcinoma**
 
 https://www.sciencedirect.com/science/article/pii/S2213294518301042
 
@@ -318,7 +436,7 @@ altmetricBadge_29684363 <- paste0(altmetricString1,
 ```
 
 
-**- Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.**
+- **Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.**
 
 *`r citation_29684363`*
 
