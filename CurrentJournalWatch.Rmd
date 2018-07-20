@@ -40,6 +40,68 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ### Pancreas
 
+
+
+```{r include=FALSE}
+PMID_30018304 <- RefManageR::ReadPubMed("30018304",
+                                        database = "PubMed")
+
+citation_30018304 <- paste0(PMID_30018304$journal,
+                            " ",
+                            PMID_30018304$year,
+                            " ",
+                            PMID_30018304$month,
+                            ";",
+                            PMID_30018304$volume,
+                            "(",
+                            PMID_30018304$number,
+                            "):",
+                            PMID_30018304$pages)
+
+PubMed_30018304 <- paste0(PubMedString,
+                          PMID_30018304$eprint
+)
+
+doi_30018304 <- paste0(doiString,
+                       PMID_30018304$doi
+)
+
+dimensionBadge_30018304 <- paste0(dimensionString1,
+                                  PMID_30018304$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_30018304 <- paste0(altmetricString1,
+                                  PMID_30018304$doi,
+                                  altmetricString2
+)
+```
+
+
+
+- **Hereditary Pancreatitis in the United States: Survival and Rates of Pancreatic Cancer**
+
+*`r citation_30018304`*
+
+`r PMID_30018304$abstract`
+
+`r PubMed_30018304`
+
+`r doi_30018304`
+
+`r dimensionBadge_30018304`
+
+`r altmetricBadge_30018304`
+
+
+
+
+
+
+
+---
+
+
 ```{r include=FALSE}
 PMID_29802286 <- RefManageR::ReadPubMed("29802286",
                                         database = "PubMed")
