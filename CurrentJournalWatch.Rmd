@@ -42,6 +42,20 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 PMID_30010625 <- RefManageR::ReadPubMed("30010625",
                                         database = "PubMed")
 
+
+citation_30010625 <- paste0(PMID_30010625$journal,
+                            " ",
+                            PMID_30010625$year,
+                            " ",
+                            PMID_30010625$month,
+                            ";",
+                            PMID_30010625$volume,
+                            "(",
+                            PMID_30010625$number,
+                            "):",
+                            PMID_30010625$pages)
+
+
 PubMed_30010625 <- paste0(PubMedString,
                           PMID_30010625$eprint
 )
@@ -64,6 +78,8 @@ altmetricBadge_30010625 <- paste0(altmetricString1,
 
 **- The BRG1/SOX9 axis is critical for acinar cell-derived pancreatic tumorigenesis.**
 
+*`r citation_30010625`*
+
 `r PMID_30010625$abstract`
 
 `r PubMed_30010625`
@@ -82,13 +98,75 @@ altmetricBadge_30010625 <- paste0(altmetricString1,
 
 **- Epithelial Inclusions in Gallbladder Specimens Mimic Parasite Infection: Histologic and Molecular Examination of Reported Cystoisopora belli Infection in Gallbladders of Immunocompetent Patients**
 
+```{r include=FALSE}
+PMID_30020094 <- RefManageR::ReadPubMed("30020094",
+                                        database = "PubMed")
+
+citation_30020094 <- paste0(PMID_30020094$journal,
+                            " ",
+                            PMID_30020094$year,
+                            " ",
+                            PMID_30020094$month,
+                            ";",
+                            PMID_30020094$volume,
+                            "(",
+                            PMID_30020094$number,
+                            "):",
+                            PMID_30020094$pages)
+
+PubMed_30020094 <- paste0(PubMedString,
+                          PMID_30020094$eprint
+)
+
+doi_30020094 <- paste0(doiString,
+                       PMID_30020094$doi
+)
+
+dimensionBadge_30020094 <- paste0(dimensionString1,
+                                  PMID_30020094$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_30020094 <- paste0(altmetricString1,
+                                  PMID_30020094$doi,
+                                  altmetricString2
+)
+```
+
+
+*`r citation_30020094`*
+
+`r PMID_30020094$abstract`
+
 https://journals.lww.com/ajsp/Pages/articleviewer.aspx?year=9000&issue=00000&article=97799&type=Abstract
+
+`r PubMed_30020094`
+
+`r doi_30020094`
+
+`r dimensionBadge_30020094`
+
+`r altmetricBadge_30020094`
+
 
 ---
 
 ```{r include=FALSE}
 PMID_30001234 <- RefManageR::ReadPubMed("30001234",
                                         database = "PubMed")
+
+
+citation_30001234 <- paste0(PMID_30001234$journal,
+                            " ",
+                            PMID_30001234$year,
+                            " ",
+                            PMID_30001234$month,
+                            ";",
+                            PMID_30001234$volume,
+                            "(",
+                            PMID_30001234$number,
+                            "):",
+                            PMID_30001234$pages)
 
 PubMed_30001234 <- paste0(PubMedString,
                           PMID_30001234$eprint
@@ -113,6 +191,7 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 
 **- Intrahepatic Cholangiocarcinomas Have Histologically and Immunophenotypically Distinct Small and Large Duct Patterns**
 
+*`r citation_30001234`*
 
 `r PMID_30001234$abstract`
 
@@ -133,6 +212,60 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 
 https://link.springer.com/article/10.1007/s00428-018-2407-0
 
+---
+
+**- Reduced RNA-binding protein HuD in pancreatic neuroendocrine tumors lowers p27Kip1 levels linked to poor prognosis.**
+
+```{r include=FALSE}
+PMID_30014466 <- RefManageR::ReadPubMed("30014466",
+                                        database = "PubMed")
+
+citation_30014466 <- paste0(PMID_30014466$journal,
+                            " ",
+                            PMID_30014466$year,
+                            " ",
+                            PMID_30014466$month,
+                            ";",
+                            PMID_30014466$volume,
+                            "(",
+                            PMID_30014466$number,
+                            "):",
+                            PMID_30014466$pages)
+
+PubMed_30014466 <- paste0(PubMedString,
+                          PMID_30014466$eprint
+)
+
+doi_30014466 <- paste0(doiString,
+                       PMID_30014466$doi
+)
+
+dimensionBadge_30014466 <- paste0(dimensionString1,
+                                  PMID_30014466$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_30014466 <- paste0(altmetricString1,
+                                  PMID_30014466$doi,
+                                  altmetricString2
+)
+```
+
+
+*`r citation_30014466`*
+
+`r PMID_30014466$abstract`
+
+`r PubMed_30014466`
+
+`r doi_30014466`
+
+`r dimensionBadge_30014466`
+
+`r altmetricBadge_30014466`
+
+
+
 
 ---
 
@@ -151,6 +284,19 @@ https://www.sciencedirect.com/science/article/pii/S2213294518301042
 ```{r include=FALSE}
 PMID_29684363 <- RefManageR::ReadPubMed("29684363",
                                         database = "PubMed")
+
+
+citation_29684363 <- paste0(PMID_29684363$journal,
+                            " ",
+                            PMID_29684363$year,
+                            " ",
+                            PMID_29684363$month,
+                            ";",
+                            PMID_29684363$volume,
+                            "(",
+                            PMID_29684363$number,
+                            "):",
+                            PMID_29684363$pages)
 
 PubMed_29684363 <- paste0(PubMedString,
                           PMID_29684363$eprint
@@ -173,6 +319,8 @@ altmetricBadge_29684363 <- paste0(altmetricString1,
 
 
 **- Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.**
+
+*`r citation_29684363`*
 
 `r PMID_29684363$abstract`
 

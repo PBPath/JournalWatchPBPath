@@ -14,35 +14,49 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 
 ```{r include=FALSE}
-PMID_30010625 <- RefManageR::ReadPubMed("30010625",
+PMID_30014466 <- RefManageR::ReadPubMed("30014466",
                                         database = "PubMed")
 
-PubMed_30010625 <- paste0(PubMedString,
-                          PMID_30010625$eprint
+citation_30014466 <- paste0(PMID_30014466$journal,
+                            " ",
+                            PMID_30014466$year,
+                            " ",
+                            PMID_30014466$month,
+                            ";",
+                            PMID_30014466$volume,
+                            "(",
+                            PMID_30014466$number,
+                            "):",
+                            PMID_30014466$pages)
+
+PubMed_30014466 <- paste0(PubMedString,
+                          PMID_30014466$eprint
 )
 
-doi_30010625 <- paste0(doiString,
-                       PMID_30010625$doi
+doi_30014466 <- paste0(doiString,
+                       PMID_30014466$doi
 )
 
-dimensionBadge_30010625 <- paste0(dimensionString1,
-                                  PMID_30010625$doi,
+dimensionBadge_30014466 <- paste0(dimensionString1,
+                                  PMID_30014466$doi,
                                   dimensionString2
 )
 
-altmetricBadge_30010625 <- paste0(altmetricString1,
-                                  PMID_30010625$doi,
+altmetricBadge_30014466 <- paste0(altmetricString1,
+                                  PMID_30014466$doi,
                                   altmetricString2
 )
 ```
 
-`r PMID_30010625$abstract`
+*`r citation_30014466`*
 
-`r PubMed_30010625`
+`r PMID_30014466$abstract`
 
-`r doi_30010625`
+`r PubMed_30014466`
 
-`r dimensionBadge_30010625`
+`r doi_30014466`
 
-`r altmetricBadge_30010625`
+`r dimensionBadge_30014466`
+
+`r altmetricBadge_30014466`
 
