@@ -40,6 +40,7 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ### Pancreas
 
+---
 
 
 ```{r include=FALSE}
@@ -78,8 +79,7 @@ altmetricBadge_30018304 <- paste0(altmetricString1,
 ```
 
 
-
-- **Hereditary Pancreatitis in the United States: Survival and Rates of Pancreatic Cancer**
+- **`r PMID_30018304$title`**
 
 *`r citation_30018304`*
 
@@ -93,10 +93,59 @@ altmetricBadge_30018304 <- paste0(altmetricString1,
 
 `r altmetricBadge_30018304`
 
+---
 
 
 
+```{r include=FALSE}
+PMID_30001238 <- RefManageR::ReadPubMed("30001238",
+                                        database = "PubMed")
 
+citation_30001238 <- paste0(PMID_30001238$journal,
+                            " ",
+                            PMID_30001238$year,
+                            " ",
+                            PMID_30001238$month,
+                            ";",
+                            PMID_30001238$volume,
+                            "(",
+                            PMID_30001238$number,
+                            "):",
+                            PMID_30001238$pages)
+
+PubMed_30001238 <- paste0(PubMedString,
+                          PMID_30001238$eprint
+)
+
+doi_30001238 <- paste0(doiString,
+                       PMID_30001238$doi
+)
+
+dimensionBadge_30001238 <- paste0(dimensionString1,
+                                  PMID_30001238$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_30001238 <- paste0(altmetricString1,
+                                  PMID_30001238$doi,
+                                  altmetricString2
+)
+```
+
+
+- **`r PMID_30001238$title`**
+
+*`r citation_30001238`*
+
+`r PMID_30001238$abstract`
+
+`r PubMed_30001238`
+
+`r doi_30001238`
+
+`r dimensionBadge_30001238`
+
+`r altmetricBadge_30001238`
 
 
 ---
@@ -138,7 +187,7 @@ altmetricBadge_29802286 <- paste0(altmetricString1,
 ```
 
 
-- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
+- **`r PMID_29802286$title`**
 
 *`r citation_29802286`*
 
@@ -153,13 +202,6 @@ https://www.nature.com/articles/s41598-018-26526-x
 `r dimensionBadge_29802286`
 
 `r altmetricBadge_29802286`
-
-
-
-
-
-
-
 
 
 ---
@@ -203,7 +245,7 @@ altmetricBadge_30010625 <- paste0(altmetricString1,
 ```
 
 
-- **The BRG1/SOX9 axis is critical for acinar cell-derived pancreatic tumorigenesis.**
+- **`r PMID_30010625$title`**
 
 *`r citation_30010625`*
 
@@ -255,7 +297,7 @@ altmetricBadge_28240168 <- paste0(altmetricString1,
 ```
 
 
-- **Immunoprevention of Pancreatic Cancer**
+- **`r PMID_28240168$title`**
 
 *`r citation_28240168`*
 
@@ -271,12 +313,43 @@ altmetricBadge_28240168 <- paste0(altmetricString1,
 
 
 
-
 ---
 
 ### Biliary Tract
 
-- **Epithelial Inclusions in Gallbladder Specimens Mimic Parasite Infection: Histologic and Molecular Examination of Reported Cystoisopora belli Infection in Gallbladders of Immunocompetent Patients**
+---
+
+```{r include=FALSE}
+
+PMID_29447925 <- RefManageR::ReadPubMed('29447925', database = 'PubMed')
+
+citation_29447925 <- paste0(PMID_29447925$journal,' ', PMID_29447925$year, ' ', PMID_29447925$month,';', PMID_29447925$volume,'(', PMID_29447925$number,'):', PMID_29447925$pages)
+
+PubMed_29447925 <- paste0(PubMedString, PMID_29447925$eprint)
+
+doi_29447925 <- paste0(doiString, PMID_29447925$doi)
+
+dimensionBadge_29447925 <- paste0(dimensionString1, PMID_29447925$doi,dimensionString2)
+
+altmetricBadge_29447925 <- paste0(altmetricString1, PMID_29447925$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29447925$title`**
+
+*`r citation_29447925`*
+
+`r PMID_29447925$abstract`
+
+`r PubMed_29447925`
+
+`r doi_29447925`
+
+`r dimensionBadge_29447925`
+
+`r altmetricBadge_29447925`
+
+---
 
 ```{r include=FALSE}
 PMID_30020094 <- RefManageR::ReadPubMed("30020094",
@@ -313,6 +386,7 @@ altmetricBadge_30020094 <- paste0(altmetricString1,
 )
 ```
 
+- **`r PMID_30020094$title`**
 
 *`r citation_30020094`*
 
@@ -369,7 +443,7 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 ```
 
 
-- **Intrahepatic Cholangiocarcinomas Have Histologically and Immunophenotypically Distinct Small and Large Duct Patterns**
+- **`r PMID_30001234$title`**
 
 *`r citation_30001234`*
 
@@ -386,15 +460,175 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 
 ---
 
-### Neuroendocrine (PanNET)
+### Ampulla of Vater
 
-- **Incidentally detected pancreatic neuroendocrine microadenoma with lymph node metastasis**
 
-https://link.springer.com/article/10.1007/s00428-018-2407-0
+```{r include=FALSE}
+PMID_29998424 <- RefManageR::ReadPubMed("29998424",
+                                        database = "PubMed")
+
+citation_29998424 <- paste0(PMID_29998424$journal,
+                            " ",
+                            PMID_29998424$year,
+                            " ",
+                            PMID_29998424$month,
+                            ";",
+                            PMID_29998424$volume,
+                            "(",
+                            PMID_29998424$number,
+                            "):",
+                            PMID_29998424$pages)
+
+PubMed_29998424 <- paste0(PubMedString,
+                          PMID_29998424$eprint
+)
+
+doi_29998424 <- paste0(doiString,
+                       PMID_29998424$doi
+)
+
+dimensionBadge_29998424 <- paste0(dimensionString1,
+                                  PMID_29998424$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_29998424 <- paste0(altmetricString1,
+                                  PMID_29998424$doi,
+                                  altmetricString2
+)
+```
+
+
+
+- **`r PMID_29998424$title`**
+
+*`r citation_29998424`*
+
+`r PMID_29998424$abstract`
+
+`r PubMed_29998424`
+
+`r doi_29998424`
+
+`r dimensionBadge_29998424`
+
+`r altmetricBadge_29998424`
 
 ---
 
-- **Reduced RNA-binding protein HuD in pancreatic neuroendocrine tumors lowers p27Kip1 levels linked to poor prognosis**
+
+
+```{r include=FALSE}
+PMID_29996669 <- RefManageR::ReadPubMed("29996669",
+                                        database = "PubMed")
+
+citation_29996669 <- paste0(PMID_29996669$journal,
+                            " ",
+                            PMID_29996669$year,
+                            " ",
+                            PMID_29996669$month,
+                            ";",
+                            PMID_29996669$volume,
+                            "(",
+                            PMID_29996669$number,
+                            "):",
+                            PMID_29996669$pages)
+
+PubMed_29996669 <- paste0(PubMedString,
+                          PMID_29996669$eprint
+)
+
+doi_29996669 <- paste0(doiString,
+                       PMID_29996669$doi
+)
+
+dimensionBadge_29996669 <- paste0(dimensionString1,
+                                  PMID_29996669$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_29996669 <- paste0(altmetricString1,
+                                  PMID_29996669$doi,
+                                  altmetricString2
+)
+```
+
+
+- **`r PMID_29996669$title`**
+
+*`r citation_29996669`*
+
+`r PMID_29996669$abstract`
+
+`r PubMed_29996669`
+
+`r doi_29996669`
+
+`r dimensionBadge_29996669`
+
+`r altmetricBadge_29996669`
+
+---
+
+### Neuroendocrine (PanNET)
+
+---
+
+```{r include=FALSE}
+PMID_30003325 <- RefManageR::ReadPubMed("30003325",
+                                        database = "PubMed")
+
+citation_30003325 <- paste0(PMID_30003325$journal,
+                            " ",
+                            PMID_30003325$year,
+                            " ",
+                            PMID_30003325$month,
+                            ";",
+                            PMID_30003325$volume,
+                            "(",
+                            PMID_30003325$number,
+                            "):",
+                            PMID_30003325$pages)
+
+PubMed_30003325 <- paste0(PubMedString,
+                          PMID_30003325$eprint
+)
+
+doi_30003325 <- paste0(doiString,
+                       PMID_30003325$doi
+)
+
+dimensionBadge_30003325 <- paste0(dimensionString1,
+                                  PMID_30003325$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_30003325 <- paste0(altmetricString1,
+                                  PMID_30003325$doi,
+                                  altmetricString2
+)
+```
+
+
+- **`r PMID_30003325$title`**
+
+https://link.springer.com/article/10.1007/s00428-018-2407-0
+
+*`r citation_30003325`*
+
+`r PMID_30003325$abstract`
+
+`r PubMed_30003325`
+
+`r doi_30003325`
+
+`r dimensionBadge_30003325`
+
+`r altmetricBadge_30003325`
+
+
+---
+
 
 ```{r include=FALSE}
 PMID_30014466 <- RefManageR::ReadPubMed("30014466",
@@ -431,6 +665,7 @@ altmetricBadge_30014466 <- paste0(altmetricString1,
 )
 ```
 
+- **`r PMID_30014466$title`**
 
 *`r citation_30014466`*
 
@@ -451,6 +686,8 @@ altmetricBadge_30014466 <- paste0(altmetricString1,
 
 ### Cytopathology
 
+---
+
 - **Immunohistochemical Staining for S100P, SMAD4, and IMP3 on Cell Block Preparations is Sensitive and Highly Specific for Pancreatic Ductal Adenocarcinoma**
 
 https://www.sciencedirect.com/science/article/pii/S2213294518301042
@@ -460,6 +697,7 @@ https://www.sciencedirect.com/science/article/pii/S2213294518301042
 
 ### Techniques
 
+---
 
 ```{r include=FALSE}
 PMID_29684363 <- RefManageR::ReadPubMed("29684363",
@@ -498,7 +736,7 @@ altmetricBadge_29684363 <- paste0(altmetricString1,
 ```
 
 
-- **Immunolabeling of Cleared Human Pancreata Provides Insights into Three-Dimensional Pancreatic Anatomy and Pathology.**
+- **`r PMID_29684363$title`**
 
 *`r citation_29684363`*
 
@@ -515,3 +753,4 @@ https://www.sciencedirect.com/science/article/pii/S0002944018300014
 `r altmetricBadge_29684363`
 
 ---
+

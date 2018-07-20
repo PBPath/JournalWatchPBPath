@@ -21,53 +21,53 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 
 ```{r include=FALSE}
-PMID_30018304 <- RefManageR::ReadPubMed("30018304",
+PMID_29996669 <- RefManageR::ReadPubMed("29996669",
                                         database = "PubMed")
 
-citation_30018304 <- paste0(PMID_30018304$journal,
+citation_29996669 <- paste0(PMID_29996669$journal,
                             " ",
-                            PMID_30018304$year,
+                            PMID_29996669$year,
                             " ",
-                            PMID_30018304$month,
+                            PMID_29996669$month,
                             ";",
-                            PMID_30018304$volume,
+                            PMID_29996669$volume,
                             "(",
-                            PMID_30018304$number,
+                            PMID_29996669$number,
                             "):",
-                            PMID_30018304$pages)
+                            PMID_29996669$pages)
 
-PubMed_30018304 <- paste0(PubMedString,
-                          PMID_30018304$eprint
+PubMed_29996669 <- paste0(PubMedString,
+                          PMID_29996669$eprint
 )
 
-doi_30018304 <- paste0(doiString,
-                       PMID_30018304$doi
+doi_29996669 <- paste0(doiString,
+                       PMID_29996669$doi
 )
 
-dimensionBadge_30018304 <- paste0(dimensionString1,
-                                  PMID_30018304$doi,
+dimensionBadge_29996669 <- paste0(dimensionString1,
+                                  PMID_29996669$doi,
                                   dimensionString2
 )
 
-altmetricBadge_30018304 <- paste0(altmetricString1,
-                                  PMID_30018304$doi,
+altmetricBadge_29996669 <- paste0(altmetricString1,
+                                  PMID_29996669$doi,
                                   altmetricString2
 )
 ```
 
 
 
+- **`r PMID_29996669$title`**
 
+*`r citation_29996669`*
 
-*`r citation_30018304`*
+`r PMID_29996669$abstract`
 
-`r PMID_30018304$abstract`
+`r PubMed_29996669`
 
-`r PubMed_30018304`
+`r doi_29996669`
 
-`r doi_30018304`
+`r dimensionBadge_29996669`
 
-`r dimensionBadge_30018304`
-
-`r altmetricBadge_30018304`
+`r altmetricBadge_29996669`
 
