@@ -46,6 +46,75 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ---
 
+```{r 29229290, include=FALSE}
+
+PMID_29229290 <- RefManageR::ReadPubMed('29229290', database = 'PubMed')
+
+citation_29229290 <- paste0(PMID_29229290$journal,' ', PMID_29229290$year, ' ', PMID_29229290$month,';', PMID_29229290$volume,'(', PMID_29229290$number,'):', PMID_29229290$pages)
+
+PubMed_29229290 <- paste0(PubMedString, PMID_29229290$eprint)
+
+doi_29229290 <- paste0(doiString, PMID_29229290$doi)
+
+dimensionBadge_29229290 <- paste0(dimensionString1, PMID_29229290$doi,dimensionString2)
+
+altmetricBadge_29229290 <- paste0(altmetricString1, PMID_29229290$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29229290$title`**
+
+*`r citation_29229290`*
+
+`r PMID_29229290$abstract`
+
+`r PubMed_29229290`
+
+`r doi_29229290`
+
+`r dimensionBadge_29229290`
+
+`r altmetricBadge_29229290`
+
+
+---
+
+
+
+
+```{r 29155048, include=FALSE}
+
+PMID_29155048 <- RefManageR::ReadPubMed('29155048', database = 'PubMed')
+
+citation_29155048 <- paste0(PMID_29155048$journal,' ', PMID_29155048$year, ' ', PMID_29155048$month,';', PMID_29155048$volume,'(', PMID_29155048$number,'):', PMID_29155048$pages)
+
+PubMed_29155048 <- paste0(PubMedString, PMID_29155048$eprint)
+
+doi_29155048 <- paste0(doiString, PMID_29155048$doi)
+
+dimensionBadge_29155048 <- paste0(dimensionString1, PMID_29155048$doi,dimensionString2)
+
+altmetricBadge_29155048 <- paste0(altmetricString1, PMID_29155048$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29155048$title`**
+
+*`r citation_29155048`*
+
+`r PMID_29155048$abstract`
+
+`r PubMed_29155048`
+
+`r doi_29155048`
+
+`r dimensionBadge_29155048`
+
+`r altmetricBadge_29155048`
+
+
+---
+
 ```{r 29053398, include=FALSE}
 
 PMID_29053398 <- RefManageR::ReadPubMed('29053398', database = 'PubMed')
@@ -842,6 +911,37 @@ altmetricBadge_28240168 <- paste0(altmetricString1,
 
 `r altmetricBadge_28240168`
 
+---
+
+```{r 30037967, include=FALSE}
+
+PMID_30037967 <- RefManageR::ReadPubMed('30037967', database = 'PubMed')
+
+citation_30037967 <- paste0(PMID_30037967$journal,' ', PMID_30037967$year, ' ', PMID_30037967$month,';', PMID_30037967$volume,'(', PMID_30037967$number,'):', PMID_30037967$pages)
+
+PubMed_30037967 <- paste0(PubMedString, PMID_30037967$eprint)
+
+doi_30037967 <- paste0(doiString, PMID_30037967$doi)
+
+dimensionBadge_30037967 <- paste0(dimensionString1, PMID_30037967$doi,dimensionString2)
+
+altmetricBadge_30037967 <- paste0(altmetricString1, PMID_30037967$doi, altmetricString2 )
+
+```
+
+- **`r PMID_30037967$title`**
+
+*`r citation_30037967`*
+
+`r PMID_30037967$abstract`
+
+`r PubMed_30037967`
+
+`r doi_30037967`
+
+`r dimensionBadge_30037967`
+
+`r altmetricBadge_30037967`
 
 
 ---
@@ -854,9 +954,38 @@ altmetricBadge_28240168 <- paste0(altmetricString1,
 
 ---
 
-- **Distribution of dysplasia and cancer in the gallbladder: an analysis from a high cancer-risk population**
+```{r 30036595, include=FALSE}
+
+PMID_30036595 <- RefManageR::ReadPubMed('30036595', database = 'PubMed')
+
+citation_30036595 <- paste0(PMID_30036595$journal,' ', PMID_30036595$year, ' ', PMID_30036595$month,';', PMID_30036595$volume,'(', PMID_30036595$number,'):', PMID_30036595$pages)
+
+PubMed_30036595 <- paste0(PubMedString, PMID_30036595$eprint)
+
+doi_30036595 <- paste0(doiString, PMID_30036595$doi)
+
+dimensionBadge_30036595 <- paste0(dimensionString1, PMID_30036595$doi,dimensionString2)
+
+altmetricBadge_30036595 <- paste0(altmetricString1, PMID_30036595$doi, altmetricString2 )
+
+```
+
+- **`r PMID_30036595$title`**
 
 https://www.sciencedirect.com/science/article/pii/S004681771830282X
+
+*`r citation_30036595`*
+
+`r PMID_30036595$abstract`
+
+`r PubMed_30036595`
+
+`r doi_30036595`
+
+`r dimensionBadge_30036595`
+
+`r altmetricBadge_30036595`
+
 
 ---
 
