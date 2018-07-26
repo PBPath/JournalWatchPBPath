@@ -2185,11 +2185,44 @@ altmetricBadge_29742955 <- paste0(altmetricString1, PMID_29742955$doi, altmetric
 
 `r altmetricBadge_29742955`
 
+
 ---
 
-
-
 ## Neuroendocrine
+
+---
+
+```{r 30043166, include=FALSE}
+
+PMID_30043166 <- RefManageR::ReadPubMed('30043166', database = 'PubMed')
+
+citation_30043166 <- paste0(PMID_30043166$journal,' ', PMID_30043166$year, ' ', PMID_30043166$month,';', PMID_30043166$volume,'(', PMID_30043166$number,'):', PMID_30043166$pages)
+
+PubMed_30043166 <- paste0(PubMedString, PMID_30043166$eprint)
+
+doi_30043166 <- paste0(doiString, PMID_30043166$doi)
+
+dimensionBadge_30043166 <- paste0(dimensionString1, PMID_30043166$doi,dimensionString2)
+
+altmetricBadge_30043166 <- paste0(altmetricString1, PMID_30043166$doi, altmetricString2 )
+
+```
+
+- **`r PMID_30043166$title`**
+
+*`r citation_30043166`*
+
+`r PMID_30043166$abstract`
+
+`r PubMed_30043166`
+
+`r doi_30043166`
+
+`r dimensionBadge_30043166`
+
+`r altmetricBadge_30043166`
+
+
 
 ---
 
@@ -3177,5 +3210,36 @@ altmetricBadge_29903803 <- paste0(altmetricString1, PMID_29903803$doi, altmetric
 
 ---
 
+```{r 29169620, include=FALSE}
 
+PMID_29169620 <- RefManageR::ReadPubMed('29169620', database = 'PubMed')
+
+citation_29169620 <- paste0(PMID_29169620$journal,' ', PMID_29169620$year, ' ', PMID_29169620$month,';', PMID_29169620$volume,'(', PMID_29169620$number,'):', PMID_29169620$pages)
+
+PubMed_29169620 <- paste0(PubMedString, PMID_29169620$eprint)
+
+doi_29169620 <- paste0(doiString, PMID_29169620$doi)
+
+dimensionBadge_29169620 <- paste0(dimensionString1, PMID_29169620$doi,dimensionString2)
+
+altmetricBadge_29169620 <- paste0(altmetricString1, PMID_29169620$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29169620$title`**
+
+*`r citation_29169620`*
+
+`r PMID_29169620$abstract`
+
+`r PubMed_29169620`
+
+`r doi_29169620`
+
+`r dimensionBadge_29169620`
+
+`r altmetricBadge_29169620`
+
+
+---
 
