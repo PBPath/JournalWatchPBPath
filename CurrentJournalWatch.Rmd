@@ -44,7 +44,54 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ## Pancreas
 
+
 ---
+
+```{r 29196437, include=FALSE}
+
+PMID_29196437 <- RefManageR::ReadPubMed('29196437', database = 'PubMed')
+
+citation_29196437 <- paste0(PMID_29196437$journal,' ', PMID_29196437$year, ' ', PMID_29196437$month,';', PMID_29196437$volume,'(', PMID_29196437$number,'):', PMID_29196437$pages)
+
+PubMed_29196437 <- paste0(PubMedString, PMID_29196437$eprint)
+
+doi_29196437 <- paste0(doiString, PMID_29196437$doi)
+
+dimensionBadge_29196437 <- paste0(dimensionString1, PMID_29196437$doi,dimensionString2)
+
+altmetricBadge_29196437 <- paste0(altmetricString1, PMID_29196437$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29196437$title`**
+
+*`r citation_29196437`*
+
+`r PMID_29196437$abstract`
+
+`r PubMed_29196437`
+
+`r doi_29196437`
+
+`r dimensionBadge_29196437`
+
+`r altmetricBadge_29196437`
+
+
+
+
+---
+
+- Classification of Pancreatic Cancer: Ready for Practical Application?
+
+Clin Cancer Res; 24(18); 1–2.
+
+http://clincancerres.aacrjournals.org/content/early/2018/07/22/1078-0432.CCR-18-1113?papetoc=
+
+
+---
+
+
 
 ```{r 29229290, include=FALSE}
 
@@ -2190,6 +2237,25 @@ altmetricBadge_29742955 <- paste0(altmetricString1, PMID_29742955$doi, altmetric
 
 ## Neuroendocrine
 
+
+---
+
+
+- Preventive medicine of von Hippel-Lindau disease-associated pancreatic neuroendocrine tumors
+
+https://www.researchgate.net/publication/325080874_Preventive_medicine_of_von_Hippel-Lindau_disease-associated_pancreatic_neuroendocrine_tumors
+
+
+---
+
+- The Problem of High-Grade Gastroenteropancreatic Neuroendocrine Neoplasms: Well-Differentiated Neuroendocrine Tumors, Neuroendocrine Carcinomas, and Beyond
+
+https://www.sciencedirect.com/science/article/pii/S0889852918305279?via%3Dihub
+
+https://www.endo.theclinics.com/article/S0889-8529(18)30527-9/fulltext
+
+
+
 ---
 
 ```{r 30043166, include=FALSE}
@@ -2609,6 +2675,43 @@ altmetricBadge_30031098 <- paste0(altmetricString1, PMID_30031098$doi, altmetric
 ## Cytopathology
 
 ---
+
+
+```{r 28940869, include=FALSE}
+
+PMID_28940869 <- RefManageR::ReadPubMed('28940869', database = 'PubMed')
+
+citation_28940869 <- paste0(PMID_28940869$journal,' ', PMID_28940869$year, ' ', PMID_28940869$month,';', PMID_28940869$volume,'(', PMID_28940869$number,'):', PMID_28940869$pages)
+
+PubMed_28940869 <- paste0(PubMedString, PMID_28940869$eprint)
+
+doi_28940869 <- paste0(doiString, PMID_28940869$doi)
+
+dimensionBadge_28940869 <- paste0(dimensionString1, PMID_28940869$doi,dimensionString2)
+
+altmetricBadge_28940869 <- paste0(altmetricString1, PMID_28940869$doi, altmetricString2 )
+
+```
+
+- **`r PMID_28940869$title`**
+
+*`r citation_28940869`*
+
+`r PMID_28940869$abstract`
+
+`r PubMed_28940869`
+
+`r doi_28940869`
+
+`r dimensionBadge_28940869`
+
+`r altmetricBadge_28940869`
+
+
+---
+
+
+
 
 ```{r 29582676, include=FALSE}
 
@@ -3274,6 +3377,14 @@ Lancet
 PNAS
 
 Cancer Cell
+
+Cancer
+
+Nature
+
+Science
+
+Cochrane Reviews
 
 The Journal of Pathology
 
