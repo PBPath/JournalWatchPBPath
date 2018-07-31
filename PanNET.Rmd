@@ -17,3 +17,128 @@ output:
 
 [![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)](http://pbpath.org/)
 
+---
+
+```{r 29938394, include=FALSE}
+
+PMID_29938394 <- RefManageR::ReadPubMed('29938394', database = 'PubMed')
+
+citation_29938394 <- paste0(PMID_29938394$journal,' ', PMID_29938394$year, ' ', PMID_29938394$month,';', PMID_29938394$volume,'(', PMID_29938394$number,'):', PMID_29938394$pages)
+
+PubMed_29938394 <- paste0(PubMedString, PMID_29938394$eprint)
+
+doi_29938394 <- paste0(doiString, PMID_29938394$doi)
+
+dimensionBadge_29938394 <- paste0(dimensionString1, PMID_29938394$doi,dimensionString2)
+
+altmetricBadge_29938394 <- paste0(altmetricString1, PMID_29938394$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29938394$title`**
+
+*`r citation_29938394`*
+
+`r PMID_29938394$abstract`
+
+`r PubMed_29938394`
+
+`r doi_29938394`
+
+`r dimensionBadge_29938394`
+
+`r altmetricBadge_29938394`
+
+---
+
+
+```{r 30003325, include=FALSE}
+PMID_30003325 <- RefManageR::ReadPubMed("30003325",
+                                        database = "PubMed")
+
+citation_30003325 <- paste0(PMID_30003325$journal,
+                            " ",
+                            PMID_30003325$year,
+                            " ",
+                            PMID_30003325$month,
+                            ";",
+                            PMID_30003325$volume,
+                            "(",
+                            PMID_30003325$number,
+                            "):",
+                            PMID_30003325$pages)
+
+PubMed_30003325 <- paste0(PubMedString,
+                          PMID_30003325$eprint
+)
+
+doi_30003325 <- paste0(doiString,
+                       PMID_30003325$doi
+)
+
+dimensionBadge_30003325 <- paste0(dimensionString1,
+                                  PMID_30003325$doi,
+                                  dimensionString2
+)
+
+altmetricBadge_30003325 <- paste0(altmetricString1,
+                                  PMID_30003325$doi,
+                                  altmetricString2
+)
+```
+
+
+- **`r PMID_30003325$title`**
+
+https://link.springer.com/article/10.1007/s00428-018-2407-0
+
+*`r citation_30003325`*
+
+`r PMID_30003325$abstract`
+
+`r PubMed_30003325`
+
+`r doi_30003325`
+
+`r dimensionBadge_30003325`
+
+`r altmetricBadge_30003325`
+
+
+---
+
+
+---
+
+```{r 30031098, include=FALSE}
+
+PMID_30031098 <- RefManageR::ReadPubMed('30031098', database = 'PubMed')
+
+citation_30031098 <- paste0(PMID_30031098$journal,' ', PMID_30031098$year, ' ', PMID_30031098$month,';', PMID_30031098$volume,'(', PMID_30031098$number,'):', PMID_30031098$pages)
+
+PubMed_30031098 <- paste0(PubMedString, PMID_30031098$eprint)
+
+doi_30031098 <- paste0(doiString, PMID_30031098$doi)
+
+dimensionBadge_30031098 <- paste0(dimensionString1, PMID_30031098$doi,dimensionString2)
+
+altmetricBadge_30031098 <- paste0(altmetricString1, PMID_30031098$doi, altmetricString2 )
+
+```
+
+- **`r PMID_30031098$title`**
+
+*`r citation_30031098`*
+
+`r PMID_30031098$abstract`
+
+`r PubMed_30031098`
+
+`r doi_30031098`
+
+`r dimensionBadge_30031098`
+
+`r altmetricBadge_30031098`
+
+---
+

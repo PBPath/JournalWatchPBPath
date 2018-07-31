@@ -17,3 +17,38 @@ output:
 
 [![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)](http://pbpath.org/)
 
+---
+
+
+```{r 29882285, include=FALSE}
+
+PMID_29882285 <- RefManageR::ReadPubMed('29882285', database = 'PubMed')
+
+citation_29882285 <- paste0(PMID_29882285$journal,' ', PMID_29882285$year, ' ', PMID_29882285$month,';', PMID_29882285$volume,'(', PMID_29882285$number,'):', PMID_29882285$pages)
+
+PubMed_29882285 <- paste0(PubMedString, PMID_29882285$eprint)
+
+doi_29882285 <- paste0(doiString, PMID_29882285$doi)
+
+dimensionBadge_29882285 <- paste0(dimensionString1, PMID_29882285$doi,dimensionString2)
+
+altmetricBadge_29882285 <- paste0(altmetricString1, PMID_29882285$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29882285$title`**
+
+*`r citation_29882285`*
+
+`r PMID_29882285$abstract`
+
+`r PubMed_29882285`
+
+`r doi_29882285`
+
+`r dimensionBadge_29882285`
+
+`r altmetricBadge_29882285`
+
+---
+

@@ -4,11 +4,19 @@ This code is intended to gather PubMed articles and form a Journal Watch for Pan
 
 This is a semi-official effort :)
 
-See the official version here: 
+---
+
+See the *current official version* here: http://pbpath.org/journal-watch/
+
+Previous official versions:
+
+June-July 2018: 
 
 ---
 
-## - Surgical Pathology
+# Preperation Lists
+
+## Surgical Pathology
 
 
 ### Pancreas
@@ -48,3 +56,9 @@ See the official version here:
 ###    Techniques
 
 ### Oldies and Goodies, Top Articles    
+
+
+
+# To Do List
+- Update Journal Watch formula
+- Update Author Search formula
