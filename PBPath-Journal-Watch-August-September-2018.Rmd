@@ -23,9 +23,6 @@ subtitle: "August September 2018"
 
 ---
 
-
-
-
 ```{r include=FALSE}
 PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
 
@@ -42,6 +39,103 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 
 ## Surgical Pathology
+
+```{r Pancreas, include=FALSE}
+
+```
+
+
+---
+
+```{r Biliary Tract Duct, include=FALSE}
+
+```
+
+---
+
+```{r Bile Duct, include=FALSE}
+
+```
+
+---
+
+```{r 29675965, include=FALSE}
+
+PMID_29675965 <- RefManageR::ReadPubMed('29675965', database = 'PubMed')
+
+citation_29675965 <- paste0(PMID_29675965$journal,' ', PMID_29675965$year, ' ', PMID_29675965$month,';', PMID_29675965$volume,'(', PMID_29675965$number,'):', PMID_29675965$pages)
+
+PubMed_29675965 <- paste0(PubMedString, PMID_29675965$eprint)
+
+doi_29675965 <- paste0(doiString, PMID_29675965$doi)
+
+dimensionBadge_29675965 <- paste0(dimensionString1, PMID_29675965$doi,dimensionString2)
+
+altmetricBadge_29675965 <- paste0(altmetricString1, PMID_29675965$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29675965$title`**
+
+*`r citation_29675965`*
+
+`r PMID_29675965$abstract`
+
+`r PubMed_29675965`
+
+`r doi_29675965`
+
+`r dimensionBadge_29675965`
+
+`r altmetricBadge_29675965`
+
+---
+
+```{r 29336183, include=FALSE}
+
+PMID_29336183 <- RefManageR::ReadPubMed('29336183', database = 'PubMed')
+
+citation_29336183 <- paste0(PMID_29336183$journal,' ', PMID_29336183$year, ' ', PMID_29336183$month,';', PMID_29336183$volume,'(', PMID_29336183$number,'):', PMID_29336183$pages)
+
+PubMed_29336183 <- paste0(PubMedString, PMID_29336183$eprint)
+
+doi_29336183 <- paste0(doiString, PMID_29336183$doi)
+
+dimensionBadge_29336183 <- paste0(dimensionString1, PMID_29336183$doi,dimensionString2)
+
+altmetricBadge_29336183 <- paste0(altmetricString1, PMID_29336183$doi, altmetricString2 )
+
+```
+
+- **`r PMID_29336183$title`**
+
+*`r citation_29336183`*
+
+`r PMID_29336183$abstract`
+
+`r PubMed_29336183`
+
+`r doi_29336183`
+
+`r dimensionBadge_29336183`
+
+`r altmetricBadge_29336183`
+
+
+
+---
+
+```{r Gallbladder, include=FALSE}
+
+```
+
+---
+
+```{r Ampulla of Vater, include=FALSE}
+
+```
+
+---
 
 ---
 
@@ -74,6 +168,8 @@ altmetricBadge_29738360 <- paste0(altmetricString1, PMID_29738360$doi, altmetric
 `r dimensionBadge_29738360`
 
 `r altmetricBadge_29738360`
+
+
 
 ---
 
