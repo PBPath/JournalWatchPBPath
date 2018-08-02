@@ -1,10 +1,6 @@
 ---
 title: "PBPath Journal Watch"
 output:
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
   html_notebook:
     code_folding: hide
     fig_caption: yes
@@ -12,6 +8,10 @@ output:
     theme: paper
     toc: yes
     toc_float: yes
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
   html_document:
     df_print: kable
     toc: yes
@@ -108,37 +108,6 @@ altmetricBadge_30030118 <- paste0(altmetricString1, PMID_30030118$doi, altmetric
 `r altmetricBadge_30030118`
 
 
----
-
-```{r 30028356, include=FALSE}
-
-PMID_30028356 <- RefManageR::ReadPubMed('30028356', database = 'PubMed')
-
-citation_30028356 <- paste0(PMID_30028356$journal,' ', PMID_30028356$year, ' ', PMID_30028356$month,';', PMID_30028356$volume,'(', PMID_30028356$number,'):', PMID_30028356$pages)
-
-PubMed_30028356 <- paste0(PubMedString, PMID_30028356$eprint)
-
-doi_30028356 <- paste0(doiString, PMID_30028356$doi)
-
-dimensionBadge_30028356 <- paste0(dimensionString1, PMID_30028356$doi,dimensionString2)
-
-altmetricBadge_30028356 <- paste0(altmetricString1, PMID_30028356$doi, altmetricString2 )
-
-```
-
-- **`r PMID_30028356$title`**
-
-*`r citation_30028356`*
-
-`r PMID_30028356$abstract`
-
-`r PubMed_30028356`
-
-`r doi_30028356`
-
-`r dimensionBadge_30028356`
-
-`r altmetricBadge_30028356`
 
 ---
 

@@ -27,3 +27,69 @@ http://clincancerres.aacrjournals.org/content/early/2018/07/22/1078-0432.CCR-18-
 
 
 ---
+
+
+```{r 30057602, include=FALSE}
+
+PMID_30057602 <- RefManageR::ReadPubMed('30057602', database = 'PubMed')
+
+citation_30057602 <- paste0(PMID_30057602$journal,' ', PMID_30057602$year, ' ', PMID_30057602$month,';', PMID_30057602$volume,'(', PMID_30057602$number,'):', PMID_30057602$pages)
+
+PubMed_30057602 <- paste0(PubMedString, PMID_30057602$eprint)
+
+doi_30057602 <- paste0(doiString, PMID_30057602$doi)
+
+dimensionBadge_30057602 <- paste0(dimensionString1, PMID_30057602$doi,dimensionString2)
+
+altmetricBadge_30057602 <- paste0(altmetricString1, PMID_30057602$doi, altmetricString2 )
+
+```
+
+- **`r PMID_30057602$title`**
+
+*`r citation_30057602`*
+
+`r PMID_30057602$abstract`
+
+`r PubMed_30057602`
+
+`r doi_30057602`
+
+`r dimensionBadge_30057602`
+
+`r altmetricBadge_30057602`
+
+
+---
+
+```{r 30028356, include=FALSE}
+
+PMID_30028356 <- RefManageR::ReadPubMed('30028356', database = 'PubMed')
+
+citation_30028356 <- paste0(PMID_30028356$journal,' ', PMID_30028356$year, ' ', PMID_30028356$month,';', PMID_30028356$volume,'(', PMID_30028356$number,'):', PMID_30028356$pages)
+
+PubMed_30028356 <- paste0(PubMedString, PMID_30028356$eprint)
+
+doi_30028356 <- paste0(doiString, PMID_30028356$doi)
+
+dimensionBadge_30028356 <- paste0(dimensionString1, PMID_30028356$doi,dimensionString2)
+
+altmetricBadge_30028356 <- paste0(altmetricString1, PMID_30028356$doi, altmetricString2 )
+
+```
+
+- **`r PMID_30028356$title`**
+
+*`r citation_30028356`*
+
+`r PMID_30028356$abstract`
+
+`r PubMed_30028356`
+
+`r doi_30028356`
+
+`r dimensionBadge_30028356`
+
+`r altmetricBadge_30028356`
+
+---

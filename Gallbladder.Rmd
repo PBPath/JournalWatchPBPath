@@ -21,3 +21,39 @@ output:
 - Epithelial Inclusions in Gallbladder Specimens Mimic Parasite Infection: Histologic and Molecular Examination of Reported Cystoisopora belli Infection in Gallbladders of Immunocompetent Patients
 
 https://journals.lww.com/ajsp/Pages/articleviewer.aspx?year=9000&issue=00000&article=97799&type=Abstract
+
+
+---
+
+```{r 30036595, include=FALSE}
+
+PMID_30036595 <- RefManageR::ReadPubMed('30036595', database = 'PubMed')
+
+citation_30036595 <- paste0(PMID_30036595$journal,' ', PMID_30036595$year, ' ', PMID_30036595$month,';', PMID_30036595$volume,'(', PMID_30036595$number,'):', PMID_30036595$pages)
+
+PubMed_30036595 <- paste0(PubMedString, PMID_30036595$eprint)
+
+doi_30036595 <- paste0(doiString, PMID_30036595$doi)
+
+dimensionBadge_30036595 <- paste0(dimensionString1, PMID_30036595$doi,dimensionString2)
+
+altmetricBadge_30036595 <- paste0(altmetricString1, PMID_30036595$doi, altmetricString2 )
+
+```
+
+- **`r PMID_30036595$title`**
+
+*`r citation_30036595`*
+
+`r PMID_30036595$abstract`
+
+`r PubMed_30036595`
+
+`r doi_30036595`
+
+`r dimensionBadge_30036595`
+
+`r altmetricBadge_30036595`
+
+---
+
