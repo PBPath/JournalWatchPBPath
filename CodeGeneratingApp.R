@@ -17,7 +17,13 @@ ui <- fluidPage(
     tags$br(),
     textOutput("CodeEnd"),
     tags$br(),
+    p("<details open>"),
+    tags$br(),
+    p("<summary>"),
+    tags$br(),
     textOutput("title"),
+    tags$br(),
+    p("</summary>"),
     tags$br(),
     textOutput("cit"),
     tags$br(),
@@ -30,22 +36,29 @@ ui <- fluidPage(
     textOutput("dim"),
     tags$br(),
     textOutput("alt"),
+    tags$br(),
+    p("</details>"),
     tags$br()
 )
 
 server <-
     function(input, output) {
+        
+        
+        
         output$CodeStart <-
             renderText({
-                paste0("```{r include=FALSE}")
+                paste0("```{r ",
+                       trimws(input$PMID),
+                       ", include=FALSE}")
             })
         
         output$PubMedSearch <- renderText({
             paste0(
                 "PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 " <- RefManageR::ReadPubMed('",
-                input$PMID,
+                trimws(input$PMID),
                 "', database = 'PubMed')"
             )
             
@@ -54,19 +67,19 @@ server <-
         output$citation <- renderText({
             paste0(
                 "citation_",
-                input$PMID,
+                trimws(input$PMID),
                 " <- paste0(PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 "$journal,' ', PMID_",
-                input$PMID ,
+                trimws(input$PMID) ,
                 "$year, ' ', PMID_",
-                input$PMID ,
+                trimws(input$PMID) ,
                 "$month,';', PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 "$volume,'(', PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 "$number,'):', PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 "$pages)"
             )
             
@@ -76,18 +89,18 @@ server <-
         output$PUBMED <- renderText({
             paste0(
                 "PubMed_",
-                input$PMID,
+                trimws(input$PMID),
                 " <- paste0(PubMedString, PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 "$eprint)")
             
         })
         
         output$doi <- renderText({
             paste0("doi_",
-                   input$PMID,
+                   trimws(input$PMID),
                    " <- paste0(doiString, PMID_",
-                   input$PMID,
+                   trimws(input$PMID),
                    "$doi)")
             
         })
@@ -96,9 +109,9 @@ server <-
         output$dimensions <- renderText({
             paste0(
                 "dimensionBadge_",
-                input$PMID,
+                trimws(input$PMID),
                 " <- paste0(dimensionString1, PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 "$doi,dimensionString2)"
             )
             
@@ -109,9 +122,9 @@ server <-
         output$altmetric <- renderText({
             paste0(
                 "altmetricBadge_",
-                input$PMID,
+                trimws(input$PMID),
                 " <- paste0(altmetricString1, PMID_",
-                input$PMID,
+                trimws(input$PMID),
                 "$doi, altmetricString2 )"
             )
             
@@ -126,7 +139,7 @@ server <-
         
         output$title <- renderText({
             paste0("- **`r PMID_",
-                   input$PMID,
+                   trimws(input$PMID),
                    "$title`**")
             
         })
@@ -134,7 +147,7 @@ server <-
         
         output$cit <- renderText({
             paste0("*`r citation_",
-                   input$PMID,
+                   trimws(input$PMID),
                    "`*")
             
         })
@@ -142,7 +155,7 @@ server <-
         
         output$abstract <- renderText({
             paste0("`r PMID_",
-                   input$PMID,
+                   trimws(input$PMID),
                    "$abstract`")
             
         })
@@ -150,28 +163,28 @@ server <-
         
         output$PubMedLink <- renderText({
             paste0("`r PubMed_",
-                   input$PMID,
+                   trimws(input$PMID),
                    "`")
         })
         
         
         output$doiLink <- renderText({
-            paste0(" `r doi_",
-                   input$PMID,
-                   "`")
+            paste0("<!-- `r doi_",
+                   trimws(input$PMID),
+                   "` -->")
         })
         
         
         output$dim <- renderText({
             paste0("`r dimensionBadge_",
-                   input$PMID,
+                   trimws(input$PMID),
                    "`")
         })
         
         
         output$alt <- renderText({
             paste0("`r altmetricBadge_",
-                   input$PMID,
+                   trimws(input$PMID),
                    "`")
         })
     }

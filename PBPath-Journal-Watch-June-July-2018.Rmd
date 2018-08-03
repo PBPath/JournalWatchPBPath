@@ -6,8 +6,6 @@ output:
     fig_caption: yes
     highlight: kate
     theme: paper
-    toc: yes
-    toc_float: yes
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
@@ -18,12 +16,23 @@ output:
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
-subtitle: "June July 2018"
+subtitle: "June-July 2018"
 ---
 
 [![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
 
 
+---
+
+**Wellcome to our first journal watch for pancreatobiliary pathology articles.**
+
+*Select from the buttons below to see the complete list in that chapter. If there is an arrow head next to the article heading, click it to see the abstract and the links.* 
+
+*Please do not hesitate to fill the feedback form and share your ideas and comments.*
+
+
+
+# The Current PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
 
 ```{r include=FALSE}
 PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
@@ -43,7 +52,6 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ## Surgical Pathology
 
----
 
 ```{r 30031096, include=FALSE}
 
@@ -61,19 +69,22 @@ altmetricBadge_30031096 <- paste0(altmetricString1, PMID_30031096$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_30031096$title`**
-
+</summary>
 *`r citation_30031096`*
 
 `r PMID_30031096$abstract`
 
 `r PubMed_30031096`
 
-`r doi_30031096`
+<!-- `r doi_30031096` -->
 
 `r dimensionBadge_30031096`
 
 `r altmetricBadge_30031096`
+</details>
 
 ---
 
@@ -93,20 +104,23 @@ altmetricBadge_30030118 <- paste0(altmetricString1, PMID_30030118$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_30030118$title`**
-
+</summary>
 *`r citation_30030118`*
 
 `r PMID_30030118$abstract`
 
 `r PubMed_30030118`
 
-`r doi_30030118`
+<!-- `r doi_30030118` -->
 
 `r dimensionBadge_30030118`
 
 `r altmetricBadge_30030118`
 
+</details>
 
 
 ---
@@ -127,19 +141,22 @@ altmetricBadge_30009399 <- paste0(altmetricString1, PMID_30009399$doi, altmetric
 
 ```
 
+<details>
+<summary>
 - **`r PMID_30009399$title`**
-
+</summary>
 *`r citation_30009399`*
 
 `r PMID_30009399$abstract`
 
 `r PubMed_30009399`
 
-`r doi_30009399`
+<!-- `r doi_30009399` -->
 
 `r dimensionBadge_30009399`
 
 `r altmetricBadge_30009399`
+</details>
 
 ---
 
@@ -159,19 +176,24 @@ altmetricBadge_29873282 <- paste0(altmetricString1, PMID_29873282$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29873282$title`**
-
+</summary>
 *`r citation_29873282`*
 
 `r PMID_29873282$abstract`
 
 `r PubMed_29873282`
 
-`r doi_29873282`
+<!-- `r doi_29873282` -->
 
 `r dimensionBadge_29873282`
 
 `r altmetricBadge_29873282`
+
+</details>
+
 
 ---
 
@@ -191,19 +213,22 @@ altmetricBadge_29738363 <- paste0(altmetricString1, PMID_29738363$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29738363$title`**
-
+</summary>
 *`r citation_29738363`*
 
 `r PMID_29738363$abstract`
 
 `r PubMed_29738363`
 
-`r doi_29738363`
+<!-- `r doi_29738363` -->
 
 `r dimensionBadge_29738363`
 
 `r altmetricBadge_29738363`
+</details>
 
 ---
 
@@ -223,19 +248,22 @@ altmetricBadge_29961402 <- paste0(altmetricString1, PMID_29961402$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29961402$title`**
-
+</summary>
 *`r citation_29961402`*
 
 `r PMID_29961402$abstract`
 
 `r PubMed_29961402`
 
-`r doi_29961402`
+<!-- `r doi_29961402` -->
 
 `r dimensionBadge_29961402`
 
 `r altmetricBadge_29961402`
+</details>
 
 
 ---
@@ -261,9 +289,7 @@ PubMed_30018304 <- paste0(PubMedString,
                           PMID_30018304$eprint
 )
 
-doi_30018304 <- paste0(doiString,
-                       PMID_30018304$doi
-)
+doi_30018304 <- paste0(doiString, PMID_30018304$doi)
 
 dimensionBadge_30018304 <- paste0(dimensionString1,
                                   PMID_30018304$doi,
@@ -276,20 +302,22 @@ altmetricBadge_30018304 <- paste0(altmetricString1,
 )
 ```
 
-
+<details open>
+<summary>
 - **`r PMID_30018304$title`**
-
+</summary>
 *`r citation_30018304`*
 
 `r PMID_30018304$abstract`
 
 `r PubMed_30018304`
 
-`r doi_30018304`
+<!-- `r doi_30018304` -->
 
 `r dimensionBadge_30018304`
 
 `r altmetricBadge_30018304`
+</details>
 
 ---
 
@@ -310,8 +338,10 @@ altmetricBadge_30036595 <- paste0(altmetricString1, PMID_30036595$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_30036595$title`**
-
+</summary>
 https://www.sciencedirect.com/science/article/pii/S004681771830282X
 
 *`r citation_30036595`*
@@ -320,12 +350,13 @@ https://www.sciencedirect.com/science/article/pii/S004681771830282X
 
 `r PubMed_30036595`
 
-`r doi_30036595`
+<!-- `r doi_30036595` -->
 
 `r dimensionBadge_30036595`
 
 `r altmetricBadge_30036595`
 
+</details>
 
 ---
 
@@ -365,8 +396,10 @@ altmetricBadge_30020094 <- paste0(altmetricString1,
 )
 ```
 
+<details open>
+<summary>
 - **`r PMID_30020094$title`**
-
+</summary>
 *`r citation_30020094`*
 
 `r PMID_30020094$abstract`
@@ -375,12 +408,13 @@ https://journals.lww.com/ajsp/Pages/articleviewer.aspx?year=9000&issue=00000&art
 
 `r PubMed_30020094`
 
-`r doi_30020094`
+<!-- `r doi_30020094` -->
 
 `r dimensionBadge_30020094`
 
 `r altmetricBadge_30020094`
 
+</details>
 
 ---
 
@@ -401,19 +435,22 @@ altmetricBadge_29975247 <- paste0(altmetricString1, PMID_29975247$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29975247$title`**
-
+</summary>
 *`r citation_29975247`*
 
 `r PMID_29975247$abstract`
 
 `r PubMed_29975247`
 
-`r doi_29975247`
+<!-- `r doi_29975247` -->
 
 `r dimensionBadge_29975247`
 
 `r altmetricBadge_29975247`
+</details>
 
 ---
 
@@ -434,20 +471,23 @@ altmetricBadge_29882997 <- paste0(altmetricString1, PMID_29882997$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29882997$title`**
-
+</summary>
 *`r citation_29882997`*
 
 `r PMID_29882997$abstract`
 
 `r PubMed_29882997`
 
-`r doi_29882997`
+<!-- `r doi_29882997` -->
 
 `r dimensionBadge_29882997`
 
 `r altmetricBadge_29882997`
 
+</details>
 
 
 
@@ -470,19 +510,22 @@ altmetricBadge_29447925 <- paste0(altmetricString1, PMID_29447925$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29447925$title`**
-
+</summary>
 *`r citation_29447925`*
 
 `r PMID_29447925$abstract`
 
 `r PubMed_29447925`
 
-`r doi_29447925`
+<!-- `r doi_29447925` -->
 
 `r dimensionBadge_29447925`
 
 `r altmetricBadge_29447925`
+</details>
 
 ---
 
@@ -524,22 +567,24 @@ altmetricBadge_30001234 <- paste0(altmetricString1,
 
 ```
 
-
+<details open>
+<summary>
 - **`r PMID_30001234$title`**
-
+</summary>
 *`r citation_30001234`*
 
 `r PMID_30001234$abstract`
 
 `r PubMed_30001234`
 
-`r doi_30001234`
+<!-- `r doi_30001234` -->
 
 `r dimensionBadge_30001234`
 
 `r altmetricBadge_30001234`
 
 
+</details>
 
 
 ---
@@ -560,21 +605,24 @@ altmetricBadge_29518820 <- paste0(altmetricString1, PMID_29518820$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29518820$title`**
-
+</summary>
 *`r citation_29518820`*
 
 `r PMID_29518820$abstract`
 
 `r PubMed_29518820`
 
-`r doi_29518820`
+<!-- `r doi_29518820` -->
 
 `r dimensionBadge_29518820`
 
 `r altmetricBadge_29518820`
 
 
+</details>
 
 
 ---
@@ -595,29 +643,35 @@ altmetricBadge_29931295 <- paste0(altmetricString1, PMID_29931295$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29931295$title`**
-
+</summary>
 *`r citation_29931295`*
 
 `r PMID_29931295$abstract`
 
 `r PubMed_29931295`
 
-`r doi_29931295`
+<!-- `r doi_29931295` -->
 
 `r dimensionBadge_29931295`
 
 `r altmetricBadge_29931295`
 
+</details>
 
 ---
 
+<details open>
+<summary>
 - **The Problem of High-Grade Gastroenteropancreatic Neuroendocrine Neoplasms: Well-Differentiated Neuroendocrine Tumors, Neuroendocrine Carcinomas, and Beyond**
-
+</summary>
 https://www.sciencedirect.com/science/article/pii/S0889852918305279?via%3Dihub
 
 https://www.endo.theclinics.com/article/S0889-8529(18)30527-9/fulltext
 
+</details>
 
 ---
 
@@ -637,20 +691,23 @@ altmetricBadge_30043166 <- paste0(altmetricString1, PMID_30043166$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_30043166$title`**
-
+</summary>
 *`r citation_30043166`*
 
 `r PMID_30043166$abstract`
 
 `r PubMed_30043166`
 
-`r doi_30043166`
+<!-- `r doi_30043166` -->
 
 `r dimensionBadge_30043166`
 
 `r altmetricBadge_30043166`
 
+</details>
 
 
 ---
@@ -671,23 +728,26 @@ altmetricBadge_29912000 <- paste0(altmetricString1, PMID_29912000$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29912000$title`**
-
+</summary>
 *`r citation_29912000`*
 
 `r PMID_29912000$abstract`
 
 `r PubMed_29912000`
 
-`r doi_29912000`
+<!-- `r doi_29912000` -->
 
 `r dimensionBadge_29912000`
 
 `r altmetricBadge_29912000`
 
+</details>
 
 
----
+\pagebreak
 
 ## Cytopathology
 
@@ -709,19 +769,22 @@ altmetricBadge_29582676 <- paste0(altmetricString1, PMID_29582676$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29582676$title`**
-
+</summary>
 *`r citation_29582676`*
 
 `r PMID_29582676$abstract`
 
 `r PubMed_29582676`
 
-`r doi_29582676`
+<!-- `r doi_29582676` -->
 
 `r dimensionBadge_29582676`
 
 `r altmetricBadge_29582676`
+</details>
 
 ---
 
@@ -742,19 +805,23 @@ altmetricBadge_29734171 <- paste0(altmetricString1, PMID_29734171$doi, altmetric
 
 ```
 
-- **`r PMID_29734171$title`**
 
+<details open>
+<summary>
+- **`r PMID_29734171$title`**
+</summary>
 *`r citation_29734171`*
 
 `r PMID_29734171$abstract`
 
 `r PubMed_29734171`
 
-`r doi_29734171`
+<!-- `r doi_29734171` -->
 
 `r dimensionBadge_29734171`
 
 `r altmetricBadge_29734171`
+</details>
 
 ---
 
@@ -775,20 +842,24 @@ altmetricBadge_29898439 <- paste0(altmetricString1, PMID_29898439$doi, altmetric
 
 ```
 
-- **`r PMID_29898439$title`**
 
+<details open>
+<summary>
+- **`r PMID_29898439$title`**
+</summary>
 *`r citation_29898439`*
 
 `r PMID_29898439$abstract`
 
 `r PubMed_29898439`
 
-`r doi_29898439`
+<!-- `r doi_29898439` -->
 
 `r dimensionBadge_29898439`
 
 `r altmetricBadge_29898439`
 
+</details>
 
 ---
 
@@ -808,21 +879,25 @@ altmetricBadge_29359517 <- paste0(altmetricString1, PMID_29359517$doi, altmetric
 
 ```
 
-- **`r PMID_29359517$title`**
 
+<details open>
+<summary>
+- **`r PMID_29359517$title`**
+</summary>
 *`r citation_29359517`*
 
 `r PMID_29359517$abstract`
 
 `r PubMed_29359517`
 
-`r doi_29359517`
+<!-- `r doi_29359517` -->
 
 `r dimensionBadge_29359517`
 
 `r altmetricBadge_29359517`
 
 
+</details>
 
 
 
@@ -845,32 +920,38 @@ altmetricBadge_29504276 <- paste0(altmetricString1, PMID_29504276$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29504276$title`**
-
+</summary>
 *`r citation_29504276`*
 
 `r PMID_29504276$abstract`
 
 `r PubMed_29504276`
 
-`r doi_29504276`
+<!-- `r doi_29504276` -->
 
 `r dimensionBadge_29504276`
 
 `r altmetricBadge_29504276`
 
+</details>
 
 ---
 
+<details open>
+<summary>
 - **Immunohistochemical Staining for S100P, SMAD4, and IMP3 on Cell Block Preparations is Sensitive and Highly Specific for Pancreatic Ductal Adenocarcinoma**
-
+</summary>
 https://www.sciencedirect.com/science/article/pii/S2213294518301042
 
----
+</details>
+
+\pagebreak
 
 ## Molecular Pathology
 
----
 
 ```{r 30014466, include=FALSE}
 PMID_30014466 <- RefManageR::ReadPubMed("30014466",
@@ -907,19 +988,22 @@ altmetricBadge_30014466 <- paste0(altmetricString1,
 )
 ```
 
+<details open>
+<summary>
 - **`r PMID_30014466$title`**
-
+</summary>
 *`r citation_30014466`*
 
 `r PMID_30014466$abstract`
 
 `r PubMed_30014466`
 
-`r doi_30014466`
+<!-- `r doi_30014466` -->
 
 `r dimensionBadge_30014466`
 
 `r altmetricBadge_30014466`
+</details>
 
 ---
 
@@ -940,20 +1024,23 @@ altmetricBadge_29596894 <- paste0(altmetricString1, PMID_29596894$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29596894$title`**
-
+</summary>
 *`r citation_29596894`*
 
 `r PMID_29596894$abstract`
 
 `r PubMed_29596894`
 
-`r doi_29596894`
+<!-- `r doi_29596894` -->
 
 `r dimensionBadge_29596894`
 
 `r altmetricBadge_29596894`
 
+</details>
 
 
 
@@ -976,20 +1063,23 @@ altmetricBadge_29731265 <- paste0(altmetricString1, PMID_29731265$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29731265$title`**
-
+</summary>
 *`r citation_29731265`*
 
 `r PMID_29731265$abstract`
 
 `r PubMed_29731265`
 
-`r doi_29731265`
+<!-- `r doi_29731265` -->
 
 `r dimensionBadge_29731265`
 
 `r altmetricBadge_29731265`
 
+</details>
 
 
 ---
@@ -1010,36 +1100,41 @@ altmetricBadge_29229290 <- paste0(altmetricString1, PMID_29229290$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29229290$title`**
-
+</summary>
 *`r citation_29229290`*
 
 `r PMID_29229290$abstract`
 
 `r PubMed_29229290`
 
-`r doi_29229290`
+<!-- `r doi_29229290` -->
 
 `r dimensionBadge_29229290`
 
 `r altmetricBadge_29229290`
 
-
-
-
-
-- **Genomic testing for pancreatic cancer in clinical practice as real-world evidence**
-
-https://www.pancreatology.net/article/S1424-3903(18)30633-1/abstract
-
-
+</details>
 
 
 ---
+
+<details open>
+<summary>
+- **Genomic testing for pancreatic cancer in clinical practice as real-world evidence**
+</summary>
+https://www.pancreatology.net/article/S1424-3903(18)30633-1/abstract
+
+</details>
+
+
+
+\pagebreak
 
 ## Others
 
----
 
 
 ```{r 30027561, include=FALSE}
@@ -1058,20 +1153,23 @@ altmetricBadge_30027561 <- paste0(altmetricString1, PMID_30027561$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_30027561$title`**
-
+</summary>
 *`r citation_30027561`*
 
 `r PMID_30027561$abstract`
 
 `r PubMed_30027561`
 
-`r doi_30027561`
+<!-- `r doi_30027561` -->
 
 `r dimensionBadge_30027561`
 
 `r altmetricBadge_30027561`
 
+</details>
 
 ---
 
@@ -1113,9 +1211,10 @@ altmetricBadge_29684363 <- paste0(altmetricString1,
                                   )
 ```
 
-
+<details open>
+<summary>
 - **`r PMID_29684363$title`**
-
+</summary>
 *`r citation_29684363`*
 
 `r PMID_29684363$abstract`
@@ -1124,11 +1223,13 @@ https://www.sciencedirect.com/science/article/pii/S0002944018300014
 
 `r PubMed_29684363`
 
-`r doi_29684363`
+<!-- `r doi_29684363` -->
 
 `r dimensionBadge_29684363`
 
 `r altmetricBadge_29684363`
+
+</details>
 
 ---
 
@@ -1170,20 +1271,24 @@ altmetricBadge_30010625 <- paste0(altmetricString1,
 )
 ```
 
-
+<details open>
+<summary>
 - **`r PMID_30010625$title`**
-
+</summary>
 *`r citation_30010625`*
 
 `r PMID_30010625$abstract`
 
 `r PubMed_30010625`
 
-`r doi_30010625`
+<!-- `r doi_30010625` -->
 
 `r dimensionBadge_30010625`
 
 `r altmetricBadge_30010625`
+
+</details>
+
 
 ---
 
@@ -1203,19 +1308,23 @@ altmetricBadge_29699458 <- paste0(altmetricString1, PMID_29699458$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29699458$title`**
-
+</summary>
 *`r citation_29699458`*
 
 `r PMID_29699458$abstract`
 
 `r PubMed_29699458`
 
-`r doi_29699458`
+<!-- `r doi_29699458` -->
 
 `r dimensionBadge_29699458`
 
 `r altmetricBadge_29699458`
+
+</details>
 
 
 ---
@@ -1237,24 +1346,27 @@ altmetricBadge_29903803 <- paste0(altmetricString1, PMID_29903803$doi, altmetric
 
 ```
 
+<details open>
+<summary>
 - **`r PMID_29903803$title`**
-
+</summary>
 *`r citation_29903803`*
 
 `r PMID_29903803$abstract`
 
 `r PubMed_29903803`
 
-`r doi_29903803`
+<!-- `r doi_29903803` -->
 
 `r dimensionBadge_29903803`
 
 `r altmetricBadge_29903803`
 
+</details>
 
----
 
 
+\pagebreak
 
 ## Journals Reviewed
 
@@ -1373,3 +1485,12 @@ The Journal of Pathology
 Tissue Antigens
 
 Virchows Archiv
+
+
+\pagebreak
+
+## Feedback
+
+Please send your feedbacks using the forum below:
+
+[Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
