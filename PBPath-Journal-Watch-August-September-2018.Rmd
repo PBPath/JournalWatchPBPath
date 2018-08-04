@@ -883,6 +883,45 @@ altmetricBadge_28259593 <- paste0(altmetricString1, PMID_28259593$doi, altmetric
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
 ```
 
+---
+
+```{r 30074526, include=FALSE}
+
+PMID_30074526 <- RefManageR::ReadPubMed('30074526', database = 'PubMed')
+
+citation_30074526 <- paste0(PMID_30074526$journal,' ', PMID_30074526$year, ' ', PMID_30074526$month,';', PMID_30074526$volume,'(', PMID_30074526$number,'):', PMID_30074526$pages)
+
+PubMed_30074526 <- paste0(PubMedString, PMID_30074526$eprint)
+
+doi_30074526 <- paste0(doiString, PMID_30074526$doi)
+
+dimensionBadge_30074526 <- paste0(dimensionString1, PMID_30074526$doi,dimensionString2)
+
+altmetricBadge_30074526 <- paste0(altmetricString1, PMID_30074526$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30074526$title`**
+</summary> 
+
+*`r citation_30074526`*
+
+`r PMID_30074526$abstract`
+
+`r PubMed_30074526`
+
+<!-- `r doi_30074526` -->
+
+`r dimensionBadge_30074526`
+
+`r altmetricBadge_30074526`
+
+</details>
+
+---
+
+
 <details open>
 <summary>
 - **Overall survival and cancer-specific survival in patients with surgically resected pancreatic head adenocarcinoma: A competing risk nomogram analysis**
@@ -931,17 +970,128 @@ altmetricBadge_30043318 <- paste0(altmetricString1, PMID_30043318$doi, altmetric
 
 ---
 
-
-
 <a href="#top">Back to top</a>
-
 
 \pagebreak
 
 ## Journals Reviewed
 
+Advances in Anatomic Pathology
+
+American Journal of Clinical Pathology
+
+The American Journal of Gastroenterology
+
+The American Journal of Pathology
+
+American Journal of Surgical Pathology
+
+Annals of Diagnostic Pathology
+
+Annals of Surgery
+
+Annals of Surgical Oncology
+
+Annual Review of Pathology-Mechanisms of Disease
+
+APMIS
+
+Applied Immunohistochemistry & Molecular Morphology
+
+Archives of Pathology & Laboratory Medicine
+
+Cancer
+
+Cancer Cell
+
+Cancer Cytopathology
+
+Cell
+
+Cellular Oncology
+
+Clinical Cancer Research
+
+Cochrane Database Systematic Reviews
+
+Cytojournal
+
+Cytopathology
+
+Diagnostic Cytopathology
+
+Diagnostic Pathology
+
+Endocrine Pathology
+
+Experimental and Molecular Pathology
+
+Expert Review of Molecular Diagnostics
+
+Gastroenterology
+
+Gut
+
+Histology and Histopathology
+
+Histopathology
+
+Human Pathology
+
+International Journal of Surgical Pathology
+
+International Journal of Clinical and Experimental Pathology
+
+Journal of Clinical Pathology
+
+Journal of Molecular Diagnostics
+
+Journal of Pathology
+
+Laboratory investigation
+
+Lancet
+
+Medical Molecular Morphology
+
+Modern Pathology
+
+Nature
+
+NEJM
+
+Pancreas
+
+Pancreatology
+
+Pathobiology
+
+Pathologie Biologie
+
+Pathology
+
+Pathology & Oncology Research
+
+Pathology International
+
+Pathology Research and Practice
+
+PNAS
+
+Science
+
+Seminars in Diagnostic Pathology
+
+Seminars in Immunopathology
+
+Tissue Antigens
+
+Trends in Cancer
+
+Virchows Archiv
 
 ---
+
 <a href="#top">Back to top</a>
 
 \pagebreak
