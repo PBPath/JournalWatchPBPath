@@ -2,13 +2,13 @@
 title: "PBPath Journal Watch"
 output:
   html_notebook:
-    code_folding: hide
+    code_folding: none
     fig_caption: yes
-    highlight: kate
+    highlight: null
     theme: paper
-    toc: yes
-    toc_float: yes
   pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
     toc: yes
   html_document:
     df_print: kable
@@ -19,7 +19,7 @@ date: "Last Update on `r format(Sys.Date())`"
 subtitle: "August September 2018"
 ---
 
-[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
+<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
 
 ---
 
@@ -37,23 +37,26 @@ altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.c
 altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 ```
 
+---
+
+# The Current PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
 
 ## Surgical Pathology
 
-```{r Pancreas, include=FALSE}
+```{r Pancreas, eval=FALSE, include=FALSE}
 
 ```
 
 
 ---
 
-```{r Biliary Tract Duct, include=FALSE}
+```{r Biliary Tract Duct, eval=FALSE, include=FALSE}
 
 ```
 
 ---
 
-```{r Bile Duct, include=FALSE}
+```{r Bile Duct, eval=FALSE, include=FALSE}
 
 ```
 
@@ -125,13 +128,13 @@ altmetricBadge_29336183 <- paste0(altmetricString1, PMID_29336183$doi, altmetric
 
 ---
 
-```{r Gallbladder, include=FALSE}
+```{r Gallbladder, eval=FALSE, include=FALSE}
 
 ```
 
 ---
 
-```{r Ampulla of Vater, include=FALSE}
+```{r Ampulla of Vater, eval=FALSE, include=FALSE}
 
 ```
 
@@ -169,7 +172,52 @@ altmetricBadge_29738360 <- paste0(altmetricString1, PMID_29738360$doi, altmetric
 
 `r altmetricBadge_29738360`
 
+```{r Neuroendocrine, eval=FALSE, include=FALSE}
 
+```
+
+---
+
+```{r 29938394, include=FALSE}
+
+PMID_29938394 <- RefManageR::ReadPubMed('29938394', database = 'PubMed')
+
+citation_29938394 <- paste0(PMID_29938394$journal,' ', PMID_29938394$year, ' ', PMID_29938394$month,';', PMID_29938394$volume,'(', PMID_29938394$number,'):', PMID_29938394$pages)
+
+PubMed_29938394 <- paste0(PubMedString, PMID_29938394$eprint)
+
+doi_29938394 <- paste0(doiString, PMID_29938394$doi)
+
+dimensionBadge_29938394 <- paste0(dimensionString1, PMID_29938394$doi,dimensionString2)
+
+altmetricBadge_29938394 <- paste0(altmetricString1, PMID_29938394$doi, altmetricString2 )
+
+```
+
+<details open>
+
+
+<summary>
+
+
+- **`r PMID_29938394$title`**
+
+</summary>
+
+
+*`r citation_29938394`*
+
+`r PMID_29938394$abstract`
+
+`r PubMed_29938394`
+
+<!-- `r doi_29938394` -->
+
+`r dimensionBadge_29938394`
+
+`r altmetricBadge_29938394`
+
+</details>
 
 ---
 
@@ -192,120 +240,141 @@ https://www.sciencedirect.com/science/article/pii/S1931524418301099
 
 ---
 
-## Journals Reviewed
+## Others
 
-Advances in Anatomic Pathology
+---
 
-American Journal of Clinical Pathology
 
-The American Journal of Gastroenterology
 
-The American Journal of Pathology
+```{r 30064727, include=FALSE}
 
-American Journal of Clinical Pathology
+PMID_30064727 <- RefManageR::ReadPubMed('30064727', database = 'PubMed')
 
-American Journal of Pathology
+citation_30064727 <- paste0(PMID_30064727$journal,' ', PMID_30064727$year, ' ', PMID_30064727$month,';', PMID_30064727$volume,'(', PMID_30064727$number,'):', PMID_30064727$pages)
 
-American Journal of Surgical Pathology
+PubMed_30064727 <- paste0(PubMedString, PMID_30064727$eprint)
 
-Annals of Diagnostic Pathology
+doi_30064727 <- paste0(doiString, PMID_30064727$doi)
 
-Annals of Surgery
+dimensionBadge_30064727 <- paste0(dimensionString1, PMID_30064727$doi,dimensionString2)
 
-Annals of Surgical Oncology
+altmetricBadge_30064727 <- paste0(altmetricString1, PMID_30064727$doi, altmetricString2 )
 
-Annual Review of Pathology-Mechanisms of Disease
+```
 
-APMIS
+<details open>
 
-Applied Immunohistochemistry & Molecular Morphology
 
-Archives of Pathology & Laboratory Medicine
+<summary>
 
-Cancer
 
-Cancer Cell
+- **`r PMID_30064727$title`**
 
-Cancer Cytopathology
+</summary>
 
-Cellular Oncology
 
-Clinical Cancer Research
+*`r citation_30064727`*
 
-Cochrane Reviews
+`r PMID_30064727$abstract`
 
-Cytojournal
+`r PubMed_30064727`
 
-Cytopathology
+<!-- `r doi_30064727` -->
 
-Diagnostic Cytopathology
+`r dimensionBadge_30064727`
 
-Diagnostic Pathology
+`r altmetricBadge_30064727`
 
-Endocrine Pathology
+</details>
 
-Experimental and Molecular Pathology
+---
 
-Expert Review of Molecular Diagnostics
 
-Gastroenterology
+```{r 30064387, include=FALSE}
 
-Gut
+PMID_30064387 <- RefManageR::ReadPubMed('30064387', database = 'PubMed')
 
-Histology and Histopathology
+citation_30064387 <- paste0(PMID_30064387$journal,' ', PMID_30064387$year, ' ', PMID_30064387$month,';', PMID_30064387$volume,'(', PMID_30064387$number,'):', PMID_30064387$pages)
 
-Histopathology
+PubMed_30064387 <- paste0(PubMedString, PMID_30064387$eprint)
 
-Human Pathology
+doi_30064387 <- paste0(doiString, PMID_30064387$doi)
 
-International Journal of Surgical Pathology
+dimensionBadge_30064387 <- paste0(dimensionString1, PMID_30064387$doi,dimensionString2)
 
-International Journal of Clinical and Experimental Pathology
+altmetricBadge_30064387 <- paste0(altmetricString1, PMID_30064387$doi, altmetricString2 )
 
-Journal of Clinical Pathology
+```
 
-Journal of Molecular Diagnostics
+<details open>
 
-Journal of Pathology
 
-Laboratory investigation
+<summary>
 
-Lancet
 
-Medical Molecular Morphology
+- **`r PMID_30064387$title`**
 
-Modern Pathology
+</summary>
 
-Nature
 
-NEJM
+*`r citation_30064387`*
 
-Pancreas
+`r PMID_30064387$abstract`
 
-Pancreatology
+`r PubMed_30064387`
 
-Pathobiology
+<!-- `r doi_30064387` -->
 
-Pathologie Biologie
+`r dimensionBadge_30064387`
 
-Pathology
+`r altmetricBadge_30064387`
 
-Pathology & Oncology Research
+</details>
 
-Pathology International
+---
 
-Pathology Research and Practice
 
-PNAS
 
-Science
+```{r 30061263, include=FALSE}
 
-Seminars in Diagnostic Pathology
+PMID_30061263 <- RefManageR::ReadPubMed('30061263', database = 'PubMed')
 
-Seminars in Immunopathology
+citation_30061263 <- paste0(PMID_30061263$journal,' ', PMID_30061263$year, ' ', PMID_30061263$month,';', PMID_30061263$volume,'(', PMID_30061263$number,'):', PMID_30061263$pages)
 
-The Journal of Pathology
+PubMed_30061263 <- paste0(PubMedString, PMID_30061263$eprint)
 
-Tissue Antigens
+doi_30061263 <- paste0(doiString, PMID_30061263$doi)
 
-Virchows Archiv
+dimensionBadge_30061263 <- paste0(dimensionString1, PMID_30061263$doi,dimensionString2)
+
+altmetricBadge_30061263 <- paste0(altmetricString1, PMID_30061263$doi, altmetricString2 )
+
+```
+
+<details open>
+
+
+<summary>
+
+
+- **`r PMID_30061263$title`**
+
+</summary>
+
+
+*`r citation_30061263`*
+
+`r PMID_30061263$abstract`
+
+`r PubMed_30061263`
+
+<!-- `r doi_30061263` -->
+
+`r dimensionBadge_30061263`
+
+`r altmetricBadge_30061263`
+
+</details>
+
+---
+
