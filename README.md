@@ -6,11 +6,9 @@ This is a semi-official effort :)
 
 ---
 
-See the *current official version* here: http://pbpath.org/journal-watch/
+See the *current official version* here: [http://pbpath.org/journal-watch/](http://pbpath.org/journal-watch/)
 
-Previous official versions:
-
-June-July 2018: 
+Previous official versions: [http://pbpath.org/journal-watch-archive/](http://pbpath.org/journal-watch-archive/)
 
 ---
 
