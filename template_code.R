@@ -71,3 +71,35 @@ altmetricBadge_29996669 <- paste0(altmetricString1,
 
 `r altmetricBadge_29996669`
 
+----
+    
+    
+    
+    
+    
+```{r C Pancreas, eval=FALSE, include=FALSE}
+```
+
+```{r C Biliary Tract, eval=FALSE, include=FALSE}
+```
+
+```{r C Gallbladder, eval=FALSE, include=FALSE}
+```
+
+```{r C Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+```{r C PanNET Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+```{r C Techniques, eval=FALSE, include=FALSE}
+```
+
+```{r C Case Report, eval=FALSE, include=FALSE}
+```
+
+```{r S Pancreatitis, eval=FALSE, include=FALSE}
+```
+
+```{r O Animal Studies, eval=FALSE, include=FALSE}
+```
