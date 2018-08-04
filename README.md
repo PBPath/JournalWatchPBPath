@@ -58,5 +58,5 @@ Previous official versions: [http://pbpath.org/journal-watch-archive/](http://pb
 
 
 # To Do List
-- Update Journal Watch formula
+
 - Update Author Search formula
