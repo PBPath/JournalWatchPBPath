@@ -277,6 +277,43 @@ altmetricBadge_28938271 <- paste0(altmetricString1, PMID_28938271$doi, altmetric
 
 </details>
 
+
+---
+
+```{r 29410139, include=FALSE}
+
+PMID_29410139 <- RefManageR::ReadPubMed('29410139', database = 'PubMed')
+
+citation_29410139 <- paste0(PMID_29410139$journal,' ', PMID_29410139$year, ' ', PMID_29410139$month,';', PMID_29410139$volume,'(', PMID_29410139$number,'):', PMID_29410139$pages)
+
+PubMed_29410139 <- paste0(PubMedString, PMID_29410139$eprint)
+
+doi_29410139 <- paste0(doiString, PMID_29410139$doi)
+
+dimensionBadge_29410139 <- paste0(dimensionString1, PMID_29410139$doi,dimensionString2)
+
+altmetricBadge_29410139 <- paste0(altmetricString1, PMID_29410139$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29410139$title`**
+</summary> 
+
+*`r citation_29410139`*
+
+`r PMID_29410139$abstract`
+
+`r PubMed_29410139`
+
+<!-- `r doi_29410139` -->
+
+`r dimensionBadge_29410139`
+
+`r altmetricBadge_29410139`
+
+</details>
+
 ---
 
 ```{r S Biliary Tract, eval=FALSE, include=FALSE}
@@ -355,6 +392,43 @@ altmetricBadge_29336183 <- paste0(altmetricString1, PMID_29336183$doi, altmetric
 
 </details>
 
+
+---
+
+```{r 29698701, include=FALSE}
+
+PMID_29698701 <- RefManageR::ReadPubMed('29698701', database = 'PubMed')
+
+citation_29698701 <- paste0(PMID_29698701$journal,' ', PMID_29698701$year, ' ', PMID_29698701$month,';', PMID_29698701$volume,'(', PMID_29698701$number,'):', PMID_29698701$pages)
+
+PubMed_29698701 <- paste0(PubMedString, PMID_29698701$eprint)
+
+doi_29698701 <- paste0(doiString, PMID_29698701$doi)
+
+dimensionBadge_29698701 <- paste0(dimensionString1, PMID_29698701$doi,dimensionString2)
+
+altmetricBadge_29698701 <- paste0(altmetricString1, PMID_29698701$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29698701$title`**
+</summary> 
+
+*`r citation_29698701`*
+
+`r PMID_29698701$abstract`
+
+`r PubMed_29698701`
+
+<!-- `r doi_29698701` -->
+
+`r dimensionBadge_29698701`
+
+`r altmetricBadge_29698701`
+
+</details>
+
 ---
 
 ```{r S Gallbladder, eval=FALSE, include=FALSE}
@@ -419,7 +493,45 @@ altmetricBadge_29738360 <- paste0(altmetricString1, PMID_29738360$doi, altmetric
 https://www.sciencedirect.com/science/article/pii/S0046817718303009
 
 
+
 ---
+
+```{r 30081149, include=FALSE}
+
+PMID_30081149 <- RefManageR::ReadPubMed('30081149', database = 'PubMed')
+
+citation_30081149 <- paste0(PMID_30081149$journal,' ', PMID_30081149$year, ' ', PMID_30081149$month,';', PMID_30081149$volume,'(', PMID_30081149$number,'):', PMID_30081149$pages)
+
+PubMed_30081149 <- paste0(PubMedString, PMID_30081149$eprint)
+
+doi_30081149 <- paste0(doiString, PMID_30081149$doi)
+
+dimensionBadge_30081149 <- paste0(dimensionString1, PMID_30081149$doi,dimensionString2)
+
+altmetricBadge_30081149 <- paste0(altmetricString1, PMID_30081149$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30081149$title`**
+</summary> 
+
+*`r citation_30081149`*
+
+`r PMID_30081149$abstract`
+
+`r PubMed_30081149`
+
+<!-- `r doi_30081149` -->
+
+`r dimensionBadge_30081149`
+
+`r altmetricBadge_30081149`
+
+</details>
+
+---
+
 
 ```{r 29789972, include=FALSE}
 
@@ -765,6 +877,43 @@ altmetricBadge_28700444 <- paste0(altmetricString1, PMID_28700444$doi, altmetric
 `r dimensionBadge_28700444`
 
 `r altmetricBadge_28700444`
+
+</details>
+
+
+---
+
+```{r 29920275, include=FALSE}
+
+PMID_29920275 <- RefManageR::ReadPubMed('29920275', database = 'PubMed')
+
+citation_29920275 <- paste0(PMID_29920275$journal,' ', PMID_29920275$year, ' ', PMID_29920275$month,';', PMID_29920275$volume,'(', PMID_29920275$number,'):', PMID_29920275$pages)
+
+PubMed_29920275 <- paste0(PubMedString, PMID_29920275$eprint)
+
+doi_29920275 <- paste0(doiString, PMID_29920275$doi)
+
+dimensionBadge_29920275 <- paste0(dimensionString1, PMID_29920275$doi,dimensionString2)
+
+altmetricBadge_29920275 <- paste0(altmetricString1, PMID_29920275$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29920275$title`**
+</summary> 
+
+*`r citation_29920275`*
+
+`r PMID_29920275$abstract`
+
+`r PubMed_29920275`
+
+<!-- `r doi_29920275` -->
+
+`r dimensionBadge_29920275`
+
+`r altmetricBadge_29920275`
 
 </details>
 
@@ -1267,6 +1416,158 @@ https://www.giendo.theclinics.com/article/S1052-5157(18)30724-4/abstract
 https://journals.lww.com/co-gastroenterology/Abstract/2018/09000/To_resect_or_not_to_resect___a_review_of.13.aspx
 
 
+
+---
+
+```{r 29379795, include=FALSE}
+
+PMID_29379795 <- RefManageR::ReadPubMed('29379795', database = 'PubMed')
+
+citation_29379795 <- paste0(PMID_29379795$journal,' ', PMID_29379795$year, ' ', PMID_29379795$month,';', PMID_29379795$volume,'(', PMID_29379795$number,'):', PMID_29379795$pages)
+
+PubMed_29379795 <- paste0(PubMedString, PMID_29379795$eprint)
+
+doi_29379795 <- paste0(doiString, PMID_29379795$doi)
+
+dimensionBadge_29379795 <- paste0(dimensionString1, PMID_29379795$doi,dimensionString2)
+
+altmetricBadge_29379795 <- paste0(altmetricString1, PMID_29379795$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29379795$title`**
+</summary> 
+
+*`r citation_29379795`*
+
+`r PMID_29379795$abstract`
+
+`r PubMed_29379795`
+
+<!-- `r doi_29379795` -->
+
+`r dimensionBadge_29379795`
+
+`r altmetricBadge_29379795`
+
+</details>
+
+
+---
+
+```{r 30080723, include=FALSE}
+
+PMID_30080723 <- RefManageR::ReadPubMed('30080723', database = 'PubMed')
+
+citation_30080723 <- paste0(PMID_30080723$journal,' ', PMID_30080723$year, ' ', PMID_30080723$month,';', PMID_30080723$volume,'(', PMID_30080723$number,'):', PMID_30080723$pages)
+
+PubMed_30080723 <- paste0(PubMedString, PMID_30080723$eprint)
+
+doi_30080723 <- paste0(doiString, PMID_30080723$doi)
+
+dimensionBadge_30080723 <- paste0(dimensionString1, PMID_30080723$doi,dimensionString2)
+
+altmetricBadge_30080723 <- paste0(altmetricString1, PMID_30080723$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30080723$title`**
+</summary> 
+
+*`r citation_30080723`*
+
+`r PMID_30080723$abstract`
+
+`r PubMed_30080723`
+
+<!-- `r doi_30080723` -->
+
+`r dimensionBadge_30080723`
+
+`r altmetricBadge_30080723`
+
+</details>
+
+
+---
+
+```{r 30078614, include=FALSE}
+
+PMID_30078614 <- RefManageR::ReadPubMed('30078614', database = 'PubMed')
+
+citation_30078614 <- paste0(PMID_30078614$journal,' ', PMID_30078614$year, ' ', PMID_30078614$month,';', PMID_30078614$volume,'(', PMID_30078614$number,'):', PMID_30078614$pages)
+
+PubMed_30078614 <- paste0(PubMedString, PMID_30078614$eprint)
+
+doi_30078614 <- paste0(doiString, PMID_30078614$doi)
+
+dimensionBadge_30078614 <- paste0(dimensionString1, PMID_30078614$doi,dimensionString2)
+
+altmetricBadge_30078614 <- paste0(altmetricString1, PMID_30078614$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30078614$title`**
+</summary> 
+
+*`r citation_30078614`*
+
+`r PMID_30078614$abstract`
+
+`r PubMed_30078614`
+
+<!-- `r doi_30078614` -->
+
+`r dimensionBadge_30078614`
+
+`r altmetricBadge_30078614`
+
+</details>
+
+
+```{r O Pancreas Techniques, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30086100, include=FALSE}
+
+PMID_30086100 <- RefManageR::ReadPubMed('30086100', database = 'PubMed')
+
+citation_30086100 <- paste0(PMID_30086100$journal,' ', PMID_30086100$year, ' ', PMID_30086100$month,';', PMID_30086100$volume,'(', PMID_30086100$number,'):', PMID_30086100$pages)
+
+PubMed_30086100 <- paste0(PubMedString, PMID_30086100$eprint)
+
+doi_30086100 <- paste0(doiString, PMID_30086100$doi)
+
+dimensionBadge_30086100 <- paste0(dimensionString1, PMID_30086100$doi,dimensionString2)
+
+altmetricBadge_30086100 <- paste0(altmetricString1, PMID_30086100$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30086100$title`**
+</summary> 
+
+*`r citation_30086100`*
+
+`r PMID_30086100$abstract`
+
+`r PubMed_30086100`
+
+<!-- `r doi_30086100` -->
+
+`r dimensionBadge_30086100`
+
+`r altmetricBadge_30086100`
+
+</details>
+
 ---
 
 ```{r O Pancreas Analogue, eval=FALSE, include=FALSE}
@@ -1385,6 +1686,43 @@ altmetricBadge_29705715 <- paste0(altmetricString1, PMID_29705715$doi, altmetric
 ```
 
 
+```{r 30086262, include=FALSE}
+
+PMID_30086262 <- RefManageR::ReadPubMed('30086262', database = 'PubMed')
+
+citation_30086262 <- paste0(PMID_30086262$journal,' ', PMID_30086262$year, ' ', PMID_30086262$month,';', PMID_30086262$volume,'(', PMID_30086262$number,'):', PMID_30086262$pages)
+
+PubMed_30086262 <- paste0(PubMedString, PMID_30086262$eprint)
+
+doi_30086262 <- paste0(doiString, PMID_30086262$doi)
+
+dimensionBadge_30086262 <- paste0(dimensionString1, PMID_30086262$doi,dimensionString2)
+
+altmetricBadge_30086262 <- paste0(altmetricString1, PMID_30086262$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30086262$title`**
+</summary> 
+
+*`r citation_30086262`*
+
+`r PMID_30086262$abstract`
+
+`r PubMed_30086262`
+
+<!-- `r doi_30086262` -->
+
+`r dimensionBadge_30086262`
+
+`r altmetricBadge_30086262`
+
+</details>
+
+---
+
+
 ```{r 30068705, include=FALSE}
 
 PMID_30068705 <- RefManageR::ReadPubMed('30068705', database = 'PubMed')
@@ -1460,6 +1798,45 @@ altmetricBadge_29975347 <- paste0(altmetricString1, PMID_29975347$doi, altmetric
 
 ```{r O Biliary Tract, eval=FALSE, include=FALSE}
 ```
+
+
+```{r 30084835, include=FALSE}
+
+PMID_30084835 <- RefManageR::ReadPubMed('30084835', database = 'PubMed')
+
+citation_30084835 <- paste0(PMID_30084835$journal,' ', PMID_30084835$year, ' ', PMID_30084835$month,';', PMID_30084835$volume,'(', PMID_30084835$number,'):', PMID_30084835$pages)
+
+PubMed_30084835 <- paste0(PubMedString, PMID_30084835$eprint)
+
+doi_30084835 <- paste0(doiString, PMID_30084835$doi)
+
+dimensionBadge_30084835 <- paste0(dimensionString1, PMID_30084835$doi,dimensionString2)
+
+altmetricBadge_30084835 <- paste0(altmetricString1, PMID_30084835$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30084835$title`**
+</summary> 
+
+*`r citation_30084835`*
+
+`r PMID_30084835$abstract`
+
+`r PubMed_30084835`
+
+<!-- `r doi_30084835` -->
+
+`r dimensionBadge_30084835`
+
+`r altmetricBadge_30084835`
+
+</details>
+
+---
+
+
 
 <details open>
 <summary>
