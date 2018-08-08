@@ -40,9 +40,9 @@ doiString <- "doi: https://doi.org/"
 
 dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='"
 
-dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true'></span>"
+dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>"
 
-altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='"
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='"
 
 altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 ```
@@ -54,6 +54,7 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 ```{r S Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
 
 ```{r 30063495, include=FALSE}
 
@@ -547,6 +548,7 @@ https://link.springer.com/article/10.1186/s12902-018-0274-y
 ```{r C Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
 
 ```{r 29985847, include=FALSE}
 
@@ -609,6 +611,7 @@ altmetricBadge_29985847 <- paste0(altmetricString1, PMID_29985847$doi, altmetric
 ```{r M Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
 
 ```{r 30041660, include=FALSE}
 
@@ -791,6 +794,7 @@ altmetricBadge_28700444 <- paste0(altmetricString1, PMID_28700444$doi, altmetric
 ```{r O Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
 
 ```{r 30064387, include=FALSE}
 
@@ -1837,6 +1841,8 @@ altmetricBadge_29939908 <- paste0(altmetricString1, PMID_29939908$doi, altmetric
 
 ## Journals Reviewed
 
+---
+
 Advances in Anatomic Pathology
 
 American Journal of Clinical Pathology
@@ -1961,6 +1967,8 @@ Virchows Archiv
 
 ## Feedback
 
+---
+
 Please send your feedbacks using the form below:
 
 [Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
@@ -1972,6 +1980,8 @@ Please send your feedbacks using the form below:
 \pagebreak
 
 ## Archive
+
+---
 
 **The PBPath Journal Archive**
 

@@ -17,7 +17,7 @@ output:
     theme: paper
   word_document:
     toc: yes
-date: "Last Update on 2018-08-07"
+date: "Last Update on 2018-08-08"
 subtitle: "June-July 2018"
 ---
 
@@ -45,6 +45,8 @@ subtitle: "June-July 2018"
 
 
 
+---
+
 
 
 <details open>
@@ -60,9 +62,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30031096
 
 <!-- doi: https://doi.org/10.1016/j.humpath.2018.07.006 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.07.006' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.07.006' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.07.006' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.07.006' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -82,9 +84,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30030118
 
 <!-- doi: https://doi.org/10.1016/j.humpath.2018.07.005 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.07.005' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.07.005' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.07.005' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.07.005' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -105,9 +107,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30009399
 
 <!-- doi: https://doi.org/10.1002/1878-0261.12356 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/1878-0261.12356' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/1878-0261.12356' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1002/1878-0261.12356' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/1878-0261.12356' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -128,9 +130,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29961402
 
 <!-- doi: https://doi.org/10.1177/1066896918783468 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1177/1066896918783468' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1177/1066896918783468' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1177/1066896918783468' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1177/1066896918783468' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -155,9 +157,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29873282
 
 <!-- doi: https://doi.org/10.1177/1066896918780343 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1177/1066896918780343' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1177/1066896918780343' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1177/1066896918780343' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1177/1066896918780343' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -181,9 +183,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29738363
 
 <!-- doi: https://doi.org/10.1097/PAS.0000000000001075 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001075' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001075' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001075' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001075' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -208,9 +210,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30018304
 
 <!-- doi: https://doi.org/10.1038/s41395-018-0194-5 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41395-018-0194-5' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41395-018-0194-5' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1038/s41395-018-0194-5' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41395-018-0194-5' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -234,9 +236,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30036595
 
 <!-- doi: https://doi.org/10.1016/j.humpath.2018.07.015 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.07.015' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.07.015' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.07.015' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.07.015' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -260,9 +262,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30020094
 
 <!-- doi: https://doi.org/10.1097/PAS.0000000000001094 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001094' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001094' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001094' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001094' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -284,9 +286,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29975247
 
 <!-- doi: https://doi.org/10.1097/PAS.0000000000001117 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001117' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001117' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001117' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001117' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -311,9 +313,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29882997
 
 <!-- doi: https://doi.org/10.1111/his.13669 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1111/his.13669' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1111/his.13669' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1111/his.13669' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1111/his.13669' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -338,9 +340,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29447925
 
 <!-- doi: https://doi.org/10.1016/j.humpath.2018.02.010 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.02.010' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.02.010' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.02.010' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.02.010' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -364,9 +366,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30001234
 
 <!-- doi: https://doi.org/10.1097/PAS.0000000000001118 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001118' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAS.0000000000001118' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001118' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/PAS.0000000000001118' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -393,9 +395,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29518820
 
 <!-- doi: https://doi.org/10.1002/jso.25021 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/jso.25021' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/jso.25021' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1002/jso.25021' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/jso.25021' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -419,9 +421,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29931295
 
 <!-- doi: https://doi.org/10.1093/jjco/hyy086 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1093/jjco/hyy086' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1093/jjco/hyy086' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1093/jjco/hyy086' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1093/jjco/hyy086' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -461,9 +463,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30043166
 
 <!-- doi: https://doi.org/10.1007/s00423-018-1695-9 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1007/s00423-018-1695-9' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1007/s00423-018-1695-9' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1007/s00423-018-1695-9' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1007/s00423-018-1695-9' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -484,9 +486,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29912000
 
 <!-- doi: https://doi.org/10.1097/PAP.0000000000000201 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAP.0000000000000201' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/PAP.0000000000000201' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1097/PAP.0000000000000201' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/PAP.0000000000000201' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -499,6 +501,8 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29912000
 ## Cytopathology
 
 
+
+---
 
 
 
@@ -518,9 +522,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29898439
 
 <!-- doi: https://doi.org/10.1159/000489549 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1159/000489549' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1159/000489549' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1159/000489549' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1159/000489549' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -558,9 +562,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29582676
 
 <!-- doi: https://doi.org/10.5858/arpa.2017-0150-OA -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.5858/arpa.2017-0150-OA' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.5858/arpa.2017-0150-OA' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.5858/arpa.2017-0150-OA' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.5858/arpa.2017-0150-OA' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -583,9 +587,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29734171
 
 <!-- doi: https://doi.org/10.1159/000488636 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1159/000488636' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1159/000488636' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1159/000488636' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1159/000488636' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -620,9 +624,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29359517
 
 <!-- doi: https://doi.org/10.1002/dc.23892 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/dc.23892' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/dc.23892' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1002/dc.23892' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/dc.23892' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -649,9 +653,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29504276
 
 <!-- doi: https://doi.org/10.1002/dc.23917 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/dc.23917' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/dc.23917' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1002/dc.23917' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/dc.23917' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -665,6 +669,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29504276
 
 
 
+---
 
 
 
@@ -681,9 +686,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29229290
 
 <!-- doi: https://doi.org/10.1016/j.jmoldx.2017.09.006 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.jmoldx.2017.09.006' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.jmoldx.2017.09.006' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.jmoldx.2017.09.006' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.jmoldx.2017.09.006' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -719,9 +724,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29731265
 
 <!-- doi: https://doi.org/10.1016/j.prp.2018.04.018 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.prp.2018.04.018' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.prp.2018.04.018' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.prp.2018.04.018' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.prp.2018.04.018' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -744,9 +749,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30014466
 
 <!-- doi: https://doi.org/10.1002/path.5135 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/path.5135' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/path.5135' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1002/path.5135' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/path.5135' data-hide-no-mentions='true'></span>
 </details>
 
 ---
@@ -767,9 +772,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29596894
 
 <!-- doi: https://doi.org/10.1016/j.humpath.2018.03.018 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.03.018' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.humpath.2018.03.018' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.03.018' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.humpath.2018.03.018' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -782,6 +787,8 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29596894
 ## Others
 
 
+
+---
 
 
 
@@ -798,9 +805,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30027561
 
 <!-- doi: https://doi.org/10.1002/path.5141 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/path.5141' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/path.5141' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1002/path.5141' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/path.5141' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -826,9 +833,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29684363
 
 <!-- doi: https://doi.org/10.1016/j.ajpath.2018.04.002 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.04.002' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.04.002' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.04.002' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.04.002' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -851,9 +858,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30010625
 
 <!-- doi: https://doi.org/10.1172/JCI94287 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1172/JCI94287' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1172/JCI94287' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1172/JCI94287' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1172/JCI94287' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -875,9 +882,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29699458
 
 <!-- doi: https://doi.org/10.1177/0192623318770163 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1177/0192623318770163' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1177/0192623318770163' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1177/0192623318770163' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1177/0192623318770163' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -900,9 +907,9 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29903803
 
 <!-- doi: https://doi.org/10.1242/dmm.034793 -->
 
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1242/dmm.034793' data-style='small_circle' data-hide-zero-citations='true'></span>
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1242/dmm.034793' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='10.1242/dmm.034793' data-hide-no-mentions='true'></span>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='10.1242/dmm.034793' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -914,6 +921,8 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29903803
 \pagebreak
 
 ## Journals Reviewed
+
+---
 
 Advances in Anatomic Pathology
 
@@ -1035,7 +1044,9 @@ Virchows Archiv
 
 ## Feedback
 
-Please send your feedbacks using the form below:
+---
+
+Please submit your feedback using the link below:
 
 [Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
 
@@ -1046,6 +1057,8 @@ Please send your feedbacks using the form below:
 \pagebreak
 
 ## Archive
+
+---
 
 **The PBPath Journal Archive**
 
