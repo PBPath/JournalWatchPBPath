@@ -1,15 +1,15 @@
 ---
 title: "PBPath Journal Watch"
 output:
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
   html_document:
     df_print: kable
     highlight: null
     keep_md: yes
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
   html_notebook:
     code_folding: none
     fig_caption: yes
@@ -44,9 +44,9 @@ doiString <- "doi: https://doi.org/"
 
 dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='"
 
-dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true'></span>"
+dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>"
 
-altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-popover='right' data-badge-type='donut' data-doi='"
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='"
 
 altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 ```
@@ -57,6 +57,8 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ```{r S Pancreas, eval=FALSE, include=FALSE}
 ```
+
+---
 
 ```{r 30031096, include=FALSE}
 
@@ -799,6 +801,8 @@ altmetricBadge_29912000 <- paste0(altmetricString1, PMID_29912000$doi, altmetric
 ```{r C Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
+
 ```{r 29898439, include=FALSE}
 
 PMID_29898439 <- RefManageR::ReadPubMed('29898439', database = 'PubMed')
@@ -1024,6 +1028,7 @@ altmetricBadge_29504276 <- paste0(altmetricString1, PMID_29504276$doi, altmetric
 ```{r M Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
 
 ```{r 29229290, include=FALSE}
 
@@ -1220,6 +1225,8 @@ altmetricBadge_29596894 <- paste0(altmetricString1, PMID_29596894$doi, altmetric
 ```{r O Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
+
 ```{r 30027561, include=FALSE}
 
 PMID_30027561 <- RefManageR::ReadPubMed('30027561', database = 'PubMed')
@@ -1257,7 +1264,7 @@ altmetricBadge_30027561 <- paste0(altmetricString1, PMID_30027561$doi, altmetric
 
 ---
 
-```{r O TEchniques, eval=FALSE, include=FALSE}
+```{r O Techniques, eval=FALSE, include=FALSE}
 ```
 
 
@@ -1465,6 +1472,8 @@ altmetricBadge_29903803 <- paste0(altmetricString1, PMID_29903803$doi, altmetric
 
 ## Journals Reviewed
 
+---
+
 Advances in Anatomic Pathology
 
 American Journal of Clinical Pathology
@@ -1585,7 +1594,9 @@ Virchows Archiv
 
 ## Feedback
 
-Please send your feedbacks using the form below:
+---
+
+Please submit your feedback using the link below:
 
 [Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
 
@@ -1596,6 +1607,8 @@ Please send your feedbacks using the form below:
 \pagebreak
 
 ## Archive
+
+---
 
 **The PBPath Journal Archive**
 
