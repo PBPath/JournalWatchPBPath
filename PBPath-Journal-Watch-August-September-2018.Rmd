@@ -1,18 +1,18 @@
 ---
 title: "PBPath Journal Watch"
 output:
+  html_document:
+    df_print: kable
+    toc: yes
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
   html_notebook:
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-  html_document:
-    df_print: kable
-    toc: yes
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -914,6 +914,43 @@ altmetricBadge_29920275 <- paste0(altmetricString1, PMID_29920275$doi, altmetric
 `r dimensionBadge_29920275`
 
 `r altmetricBadge_29920275`
+
+</details>
+
+
+---
+
+```{r 30088781, include=FALSE}
+
+PMID_30088781 <- RefManageR::ReadPubMed('30088781', database = 'PubMed')
+
+citation_30088781 <- paste0(PMID_30088781$journal,' ', PMID_30088781$year, ' ', PMID_30088781$month,';', PMID_30088781$volume,'(', PMID_30088781$number,'):', PMID_30088781$pages)
+
+PubMed_30088781 <- paste0(PubMedString, PMID_30088781$eprint)
+
+doi_30088781 <- paste0(doiString, PMID_30088781$doi)
+
+dimensionBadge_30088781 <- paste0(dimensionString1, PMID_30088781$doi,dimensionString2)
+
+altmetricBadge_30088781 <- paste0(altmetricString1, PMID_30088781$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30088781$title`**
+</summary> 
+
+*`r citation_30088781`*
+
+`r PMID_30088781$abstract`
+
+`r PubMed_30088781`
+
+<!-- `r doi_30088781` -->
+
+`r dimensionBadge_30088781`
+
+`r altmetricBadge_30088781`
 
 </details>
 
@@ -2085,6 +2122,41 @@ altmetricBadge_29985851 <- paste0(altmetricString1, PMID_29985851$doi, altmetric
 
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
 ```
+
+
+```{r 30088190, include=FALSE}
+
+PMID_30088190 <- RefManageR::ReadPubMed('30088190', database = 'PubMed')
+
+citation_30088190 <- paste0(PMID_30088190$journal,' ', PMID_30088190$year, ' ', PMID_30088190$month,';', PMID_30088190$volume,'(', PMID_30088190$number,'):', PMID_30088190$pages)
+
+PubMed_30088190 <- paste0(PubMedString, PMID_30088190$eprint)
+
+doi_30088190 <- paste0(doiString, PMID_30088190$doi)
+
+dimensionBadge_30088190 <- paste0(dimensionString1, PMID_30088190$doi,dimensionString2)
+
+altmetricBadge_30088190 <- paste0(altmetricString1, PMID_30088190$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30088190$title`**
+</summary> 
+
+*`r citation_30088190`*
+
+`r PMID_30088190$abstract`
+
+`r PubMed_30088190`
+
+<!-- `r doi_30088190` -->
+
+`r dimensionBadge_30088190`
+
+`r altmetricBadge_30088190`
+
+</details>
 
 ---
 
