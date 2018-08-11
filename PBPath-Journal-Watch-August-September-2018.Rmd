@@ -725,7 +725,47 @@ altmetricBadge_29168979 <- paste0(altmetricString1, PMID_29168979$doi, altmetric
 https://link.springer.com/article/10.1186/s12902-018-0274-y
 </details>
 
+
+
 ---
+
+
+```{r 30095460, include=FALSE}
+
+PMID_30095460 <- RefManageR::ReadPubMed('30095460', database = 'PubMed')
+
+citation_30095460 <- paste0(PMID_30095460$journal,' ', PMID_30095460$year, ' ', PMID_30095460$month,';', PMID_30095460$volume,'(', PMID_30095460$number,'):', PMID_30095460$pages)
+
+PubMed_30095460 <- paste0(PubMedString, PMID_30095460$eprint)
+
+doi_30095460 <- paste0(doiString, PMID_30095460$doi)
+
+dimensionBadge_30095460 <- paste0(dimensionString1, PMID_30095460$doi,dimensionString2)
+
+altmetricBadge_30095460 <- paste0(altmetricString1, PMID_30095460$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30095460$title`**
+</summary> 
+
+*`r citation_30095460`*
+
+`r PMID_30095460$abstract`
+
+`r PubMed_30095460`
+
+<!-- `r doi_30095460` -->
+
+`r dimensionBadge_30095460`
+
+`r altmetricBadge_30095460`
+
+</details>
+
+---
+
 
 <a href="#top">Back to top</a>
 
@@ -2237,6 +2277,44 @@ altmetricBadge_29985851 <- paste0(altmetricString1, PMID_29985851$doi, altmetric
 
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
 ```
+
+
+
+```{r 30092011, include=FALSE}
+
+PMID_30092011 <- RefManageR::ReadPubMed('30092011', database = 'PubMed')
+
+citation_30092011 <- paste0(PMID_30092011$journal,' ', PMID_30092011$year, ' ', PMID_30092011$month,';', PMID_30092011$volume,'(', PMID_30092011$number,'):', PMID_30092011$pages)
+
+PubMed_30092011 <- paste0(PubMedString, PMID_30092011$eprint)
+
+doi_30092011 <- paste0(doiString, PMID_30092011$doi)
+
+dimensionBadge_30092011 <- paste0(dimensionString1, PMID_30092011$doi,dimensionString2)
+
+altmetricBadge_30092011 <- paste0(altmetricString1, PMID_30092011$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30092011$title`**
+</summary> 
+
+*`r citation_30092011`*
+
+`r PMID_30092011$abstract`
+
+`r PubMed_30092011`
+
+<!-- `r doi_30092011` -->
+
+`r dimensionBadge_30092011`
+
+`r altmetricBadge_30092011`
+
+</details>
+
+---
 
 
 ```{r 30087052, include=FALSE}

@@ -143,3 +143,43 @@ LOX-1 is a poor prognostic indicator and induces epithelial-mesenchymal transiti
 https://www.ncbi.nlm.nih.gov/pubmed/29168159
 
 ---
+
+
+
+---
+
+```{r 27514845, include=FALSE}
+
+PMID_27514845 <- RefManageR::ReadPubMed('27514845', database = 'PubMed')
+
+citation_27514845 <- paste0(PMID_27514845$journal,' ', PMID_27514845$year, ' ', PMID_27514845$month,';', PMID_27514845$volume,'(', PMID_27514845$number,'):', PMID_27514845$pages)
+
+PubMed_27514845 <- paste0(PubMedString, PMID_27514845$eprint)
+
+doi_27514845 <- paste0(doiString, PMID_27514845$doi)
+
+dimensionBadge_27514845 <- paste0(dimensionString1, PMID_27514845$doi,dimensionString2)
+
+altmetricBadge_27514845 <- paste0(altmetricString1, PMID_27514845$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_27514845$title`**
+</summary> 
+
+*`r citation_27514845`*
+
+`r PMID_27514845$abstract`
+
+`r PubMed_27514845`
+
+<!-- `r doi_27514845` -->
+
+`r dimensionBadge_27514845`
+
+`r altmetricBadge_27514845`
+
+</details>
+
+---
