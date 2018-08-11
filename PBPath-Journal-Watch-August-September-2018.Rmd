@@ -1,25 +1,26 @@
 ---
-title: "PBPath Journal Watch"
+title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_document:
-    df_print: kable
-    highlight: null
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
   html_notebook:
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
 subtitle: "August September 2018"
 ---
 
-<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
+[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
 
 ---
 
@@ -311,6 +312,81 @@ altmetricBadge_29410139 <- paste0(altmetricString1, PMID_29410139$doi, altmetric
 `r dimensionBadge_29410139`
 
 `r altmetricBadge_29410139`
+
+</details>
+
+
+---
+
+```{r 30092175, include=FALSE}
+
+PMID_30092175 <- RefManageR::ReadPubMed('30092175', database = 'PubMed')
+
+citation_30092175 <- paste0(PMID_30092175$journal,' ', PMID_30092175$year, ' ', PMID_30092175$month,';', PMID_30092175$volume,'(', PMID_30092175$number,'):', PMID_30092175$pages)
+
+PubMed_30092175 <- paste0(PubMedString, PMID_30092175$eprint)
+
+doi_30092175 <- paste0(doiString, PMID_30092175$doi)
+
+dimensionBadge_30092175 <- paste0(dimensionString1, PMID_30092175$doi,dimensionString2)
+
+altmetricBadge_30092175 <- paste0(altmetricString1, PMID_30092175$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30092175$title`**
+</summary> 
+
+*`r citation_30092175`*
+
+`r PMID_30092175$abstract`
+
+`r PubMed_30092175`
+
+<!-- `r doi_30092175` -->
+
+`r dimensionBadge_30092175`
+
+`r altmetricBadge_30092175`
+
+</details>
+
+
+---
+
+
+```{r 30091124, include=FALSE}
+
+PMID_30091124 <- RefManageR::ReadPubMed('30091124', database = 'PubMed')
+
+citation_30091124 <- paste0(PMID_30091124$journal,' ', PMID_30091124$year, ' ', PMID_30091124$month,';', PMID_30091124$volume,'(', PMID_30091124$number,'):', PMID_30091124$pages)
+
+PubMed_30091124 <- paste0(PubMedString, PMID_30091124$eprint)
+
+doi_30091124 <- paste0(doiString, PMID_30091124$doi)
+
+dimensionBadge_30091124 <- paste0(dimensionString1, PMID_30091124$doi,dimensionString2)
+
+altmetricBadge_30091124 <- paste0(altmetricString1, PMID_30091124$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30091124$title`**
+</summary> 
+
+*`r citation_30091124`*
+
+`r PMID_30091124$abstract`
+
+`r PubMed_30091124`
+
+<!-- `r doi_30091124` -->
+
+`r dimensionBadge_30091124`
+
+`r altmetricBadge_30091124`
 
 </details>
 
@@ -1565,6 +1641,45 @@ altmetricBadge_30078614 <- paste0(altmetricString1, PMID_30078614$doi, altmetric
 </details>
 
 
+---
+
+```{r 30092185, include=FALSE}
+
+PMID_30092185 <- RefManageR::ReadPubMed('30092185', database = 'PubMed')
+
+citation_30092185 <- paste0(PMID_30092185$journal,' ', PMID_30092185$year, ' ', PMID_30092185$month,';', PMID_30092185$volume,'(', PMID_30092185$number,'):', PMID_30092185$pages)
+
+PubMed_30092185 <- paste0(PubMedString, PMID_30092185$eprint)
+
+doi_30092185 <- paste0(doiString, PMID_30092185$doi)
+
+dimensionBadge_30092185 <- paste0(dimensionString1, PMID_30092185$doi,dimensionString2)
+
+altmetricBadge_30092185 <- paste0(altmetricString1, PMID_30092185$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30092185$title`**
+</summary> 
+
+*`r citation_30092185`*
+
+`r PMID_30092185$abstract`
+
+`r PubMed_30092185`
+
+<!-- `r doi_30092185` -->
+
+`r dimensionBadge_30092185`
+
+`r altmetricBadge_30092185`
+
+</details>
+
+---
+
+
 ```{r O Pancreas Techniques, eval=FALSE, include=FALSE}
 ```
 
@@ -2123,6 +2238,43 @@ altmetricBadge_29985851 <- paste0(altmetricString1, PMID_29985851$doi, altmetric
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
 ```
 
+
+```{r 30087052, include=FALSE}
+
+PMID_30087052 <- RefManageR::ReadPubMed('30087052', database = 'PubMed')
+
+citation_30087052 <- paste0(PMID_30087052$journal,' ', PMID_30087052$year, ' ', PMID_30087052$month,';', PMID_30087052$volume,'(', PMID_30087052$number,'):', PMID_30087052$pages)
+
+PubMed_30087052 <- paste0(PubMedString, PMID_30087052$eprint)
+
+doi_30087052 <- paste0(doiString, PMID_30087052$doi)
+
+dimensionBadge_30087052 <- paste0(dimensionString1, PMID_30087052$doi,dimensionString2)
+
+altmetricBadge_30087052 <- paste0(altmetricString1, PMID_30087052$doi, altmetricString2 )
+
+```
+
+
+<details open> <summary>
+- **`r PMID_30087052$title`**
+</summary> 
+
+*`r citation_30087052`*
+
+`r PMID_30087052$abstract`
+
+`r PubMed_30087052`
+
+<!-- `r doi_30087052` -->
+
+`r dimensionBadge_30087052`
+
+`r altmetricBadge_30087052`
+
+</details>
+
+---
 
 ```{r 30088190, include=FALSE}
 

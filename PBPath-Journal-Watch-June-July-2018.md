@@ -1,5 +1,5 @@
 ---
-title: "PBPath Journal Watch"
+title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
   html_document:
     df_print: kable
@@ -17,11 +17,11 @@ output:
     theme: paper
   word_document:
     toc: yes
-date: "Last Update on 2018-08-08"
+date: "Last Update on 2018-08-11"
 subtitle: "June-July 2018"
 ---
 
-<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
+[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
 
 
 ---
@@ -899,7 +899,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29699458
 - **Orthotopic and heterotopic murine models of pancreatic cancer and their different responses to FOLFIRINOX chemotherapy**
 </summary>
 
-*Disease models & mechanisms 2018 Jul;11(7):*
+*Disease models & mechanisms 2018 07;11(7):*
 
 Syngeneic, immunocompetent allograft tumor models recapitulate important aspects of the tumor microenvironment and have short tumor latency with predictable growth kinetics, making them useful for trialing novel therapeutics. Here, we describe surgical techniques for orthotopic and heterotopic pancreatic ductal adenocarcinoma (PDAC) tumor implantation and characterize phenotypes based on implantation site.Mice (n=8 per group) were implanted with 104 cells in the pancreas or flank. Hy15549 and Han4.13 cell lines were derived from primary murine PDAC (Ptf1-Cre; LSL-KRAS-G12D; Trp53 Lox/+) on C57BL/6 and FVB strains, respectively. Single-cell suspension and solid tumor implants were compared. Tumors were treated with two intravenous doses of FOLFIRINOX and responses evaluated.All mice developed pancreatic tumors within 7 days. Orthotopic tumors grew faster and larger than heterotopic tumors. By 3 weeks, orthotopic mice began losing weight, and showed declines in body condition requiring euthanasia starting at 4 weeks. Single-cell injection into the pancreas had near 100% engraftment, but solid tumor implant engraftment was ∼50% and was associated with growth restriction. Orthotopic tumors were significantly more responsive to intravenous FOLFIRINOX compared with heterotopic tumors, with greater reductions in size and increased apoptosis. Heterotopic tumors were more desmoplastic and hypovascular. However, drug uptake into tumor tissue was equivalent regardless of tumor location or degree of fibrosis, indicating that microenvironment differences between heterotopic and orthotopic tumors influenced response to therapy.Our results show that orthotopic and heterotopic allograft locations confer unique microenvironments that influence growth kinetics, desmoplastic response and angiogenesis. Tumor location influences chemosensitivity to FOLFIRINOX and should inform future preclinical trials.This article has an associated First Person interview with the first author of the paper.
 
