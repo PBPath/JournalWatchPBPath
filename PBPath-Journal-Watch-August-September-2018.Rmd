@@ -392,6 +392,49 @@ altmetricBadge_30091124 <- paste0(altmetricString1, PMID_30091124$doi, altmetric
 
 </details>
 
+
+---
+
+```{r 30105857, include=FALSE}
+
+PMID_30105857 <- RefManageR::ReadPubMed('30105857', database = 'PubMed')
+
+citation_30105857 <- paste0(PMID_30105857$journal,' ', PMID_30105857$year, ' ', PMID_30105857$month,';', PMID_30105857$volume,'(', PMID_30105857$number,'):', PMID_30105857$pages)
+
+PubMed_30105857 <- paste0(PubMedString, PMID_30105857$eprint)
+
+doi_30105857 <- paste0(doiString, PMID_30105857$doi)
+
+dimensionBadge_30105857 <- paste0(dimensionString1, PMID_30105857$doi,dimensionString2)
+
+altmetricBadge_30105857 <- paste0(altmetricString1, PMID_30105857$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30105857$title`**
+</summary> 
+
+*`r citation_30105857`*
+
+`r PMID_30105857$abstract`
+
+`r PubMed_30105857`
+
+<!-- `r doi_30105857` -->
+
+`r dimensionBadge_30105857`
+
+`r altmetricBadge_30105857`
+
+</details>
+
+---
+
+- **Tumour origin and R1 rates in pancreatic resections: towards consilience in pathology reporting**
+
+https://link.springer.com/article/10.1007/s00428-018-2429-7
+
 ---
 
 ```{r S Biliary Tract, eval=FALSE, include=FALSE}
@@ -1074,8 +1117,54 @@ altmetricBadge_30088781 <- paste0(altmetricString1, PMID_30088781$doi, altmetric
 
 ---
 
+- **A systematic review on metabolomics-based diagnostic biomarker discovery and validation in pancreatic cancer**
+
+https://link.springer.com/article/10.1007/s11306-018-1404-2
+
+---
+
+
 ```{r M Biliary Tract, eval=FALSE, include=FALSE}
 ```
+
+
+```{r 30105440, include=FALSE}
+
+PMID_30105440 <- RefManageR::ReadPubMed('30105440', database = 'PubMed')
+
+citation_30105440 <- paste0(PMID_30105440$journal,' ', PMID_30105440$year, ' ', PMID_30105440$month,';', PMID_30105440$volume,'(', PMID_30105440$number,'):', PMID_30105440$pages)
+
+PubMed_30105440 <- paste0(PubMedString, PMID_30105440$eprint)
+
+doi_30105440 <- paste0(doiString, PMID_30105440$doi)
+
+dimensionBadge_30105440 <- paste0(dimensionString1, PMID_30105440$doi,dimensionString2)
+
+altmetricBadge_30105440 <- paste0(altmetricString1, PMID_30105440$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30105440$title`**
+</summary> 
+
+*`r citation_30105440`*
+
+`r PMID_30105440$abstract`
+
+`r PubMed_30105440`
+
+<!-- `r doi_30105440` -->
+
+`r dimensionBadge_30105440`
+
+`r altmetricBadge_30105440`
+
+</details>
+
+---
+
+
 
 ```{r M Gallbladder, eval=FALSE, include=FALSE}
 ```
@@ -1085,6 +1174,11 @@ altmetricBadge_30088781 <- paste0(altmetricString1, PMID_30088781$doi, altmetric
 
 ```{r M PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
+
+- **Molecular Genetic Studies of Pancreatic Neuroendocrine Tumors**
+
+
+https://www.endo.theclinics.com/article/S0889-8529(18)30519-X/abstract
 
 
 ---
@@ -1719,6 +1813,43 @@ altmetricBadge_30092185 <- paste0(altmetricString1, PMID_30092185$doi, altmetric
 
 </details>
 
+
+---
+
+```{r 30104029, include=FALSE}
+
+PMID_30104029 <- RefManageR::ReadPubMed('30104029', database = 'PubMed')
+
+citation_30104029 <- paste0(PMID_30104029$journal,' ', PMID_30104029$year, ' ', PMID_30104029$month,';', PMID_30104029$volume,'(', PMID_30104029$number,'):', PMID_30104029$pages)
+
+PubMed_30104029 <- paste0(PubMedString, PMID_30104029$eprint)
+
+doi_30104029 <- paste0(doiString, PMID_30104029$doi)
+
+dimensionBadge_30104029 <- paste0(dimensionString1, PMID_30104029$doi,dimensionString2)
+
+altmetricBadge_30104029 <- paste0(altmetricString1, PMID_30104029$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30104029$title`**
+</summary> 
+
+*`r citation_30104029`*
+
+`r PMID_30104029$abstract`
+
+`r PubMed_30104029`
+
+<!-- `r doi_30104029` -->
+
+`r dimensionBadge_30104029`
+
+`r altmetricBadge_30104029`
+
+</details>
+
 ---
 
 
@@ -1759,6 +1890,43 @@ altmetricBadge_30086100 <- paste0(altmetricString1, PMID_30086100$doi, altmetric
 `r dimensionBadge_30086100`
 
 `r altmetricBadge_30086100`
+
+</details>
+
+
+---
+
+```{r 29477748, include=FALSE}
+
+PMID_29477748 <- RefManageR::ReadPubMed('29477748', database = 'PubMed')
+
+citation_29477748 <- paste0(PMID_29477748$journal,' ', PMID_29477748$year, ' ', PMID_29477748$month,';', PMID_29477748$volume,'(', PMID_29477748$number,'):', PMID_29477748$pages)
+
+PubMed_29477748 <- paste0(PubMedString, PMID_29477748$eprint)
+
+doi_29477748 <- paste0(doiString, PMID_29477748$doi)
+
+dimensionBadge_29477748 <- paste0(dimensionString1, PMID_29477748$doi,dimensionString2)
+
+altmetricBadge_29477748 <- paste0(altmetricString1, PMID_29477748$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29477748$title`**
+</summary> 
+
+*`r citation_29477748`*
+
+`r PMID_29477748$abstract`
+
+`r PubMed_29477748`
+
+<!-- `r doi_29477748` -->
+
+`r dimensionBadge_29477748`
+
+`r altmetricBadge_29477748`
 
 </details>
 
@@ -2280,6 +2448,11 @@ altmetricBadge_29985851 <- paste0(altmetricString1, PMID_29985851$doi, altmetric
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
 ```
 
+- **Pancreatic cancer survival analysis defines a signature that predicts outcome**
+
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201751
+
+---
 
 
 ```{r 30092011, include=FALSE}
@@ -2512,7 +2685,43 @@ altmetricBadge_29939908 <- paste0(altmetricString1, PMID_29939908$doi, altmetric
 
 </details>
 
+---
 
+```{r 30105523, include=FALSE}
+
+PMID_30105523 <- RefManageR::ReadPubMed('30105523', database = 'PubMed')
+
+citation_30105523 <- paste0(PMID_30105523$journal,' ', PMID_30105523$year, ' ', PMID_30105523$month,';', PMID_30105523$volume,'(', PMID_30105523$number,'):', PMID_30105523$pages)
+
+PubMed_30105523 <- paste0(PubMedString, PMID_30105523$eprint)
+
+doi_30105523 <- paste0(doiString, PMID_30105523$doi)
+
+dimensionBadge_30105523 <- paste0(dimensionString1, PMID_30105523$doi,dimensionString2)
+
+altmetricBadge_30105523 <- paste0(altmetricString1, PMID_30105523$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30105523$title`**
+</summary> 
+
+*`r citation_30105523`*
+
+`r PMID_30105523$abstract`
+
+`r PubMed_30105523`
+
+<!-- `r doi_30105523` -->
+
+`r dimensionBadge_30105523`
+
+`r altmetricBadge_30105523`
+
+</details>
+
+---
 
 ---
 
