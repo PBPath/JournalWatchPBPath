@@ -52,7 +52,11 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ---
 
-## Surgical Pathology
+## Surgical Pathology {.tabset}
+
+---
+
+### Pancreas
 
 ```{r S Pancreas, eval=FALSE, include=FALSE}
 ```
@@ -437,6 +441,17 @@ https://link.springer.com/article/10.1007/s00428-018-2429-7
 
 ---
 
+- **Does Surgical Margin Impact Recurrence in Noninvasive Intraductal Papillary Mucinous Neoplasms?: A Multi-institutional Study**
+
+https://journals.lww.com/annalsofsurgery/Abstract/2018/09000/Does_Surgical_Margin_Impact_Recurrence_in.10.aspx
+
+
+---
+
+
+
+### Biliary Tract
+
 ```{r S Biliary Tract, eval=FALSE, include=FALSE}
 ```
 
@@ -552,6 +567,10 @@ altmetricBadge_29698701 <- paste0(altmetricString1, PMID_29698701$doi, altmetric
 
 ---
 
+
+### Gallbladder
+
+
 ```{r S Gallbladder, eval=FALSE, include=FALSE}
 ```
 
@@ -563,6 +582,7 @@ altmetricBadge_29698701 <- paste0(altmetricString1, PMID_29698701$doi, altmetric
 http://www.ijcep.com/files/ijcep0076184.pdf
 
 
+### Ampulla of Vater
 
 ```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
@@ -604,6 +624,9 @@ altmetricBadge_29738360 <- paste0(altmetricString1, PMID_29738360$doi, altmetric
 </details>
 
 ---
+
+### PanNET Neuroendocrine
+
 
 ```{r S PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
@@ -816,7 +839,11 @@ altmetricBadge_30095460 <- paste0(altmetricString1, PMID_30095460$doi, altmetric
 
 \pagebreak
 
-## Cytopathology
+## Cytopathology {.tabset}
+
+---
+
+### Pancreas
 
 ```{r C Pancreas, eval=FALSE, include=FALSE}
 ```
@@ -859,15 +886,31 @@ altmetricBadge_29985847 <- paste0(altmetricString1, PMID_29985847$doi, altmetric
 
 ---
 
+### Biliary Tract
 
 ```{r C Biliary Tract, eval=FALSE, include=FALSE}
 ```
 
+---
+
+### Gallbladder
+
 ```{r C Gallbladder, eval=FALSE, include=FALSE}
 ```
 
-```{r C Ampulla of Vater, eval=FALSE, include=FALSE}
+
+---
+
+### Ampulla of Vater
+
+```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+### PanNET Neuroendocrine
+
 
 ```{r C PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
@@ -879,12 +922,14 @@ altmetricBadge_29985847 <- paste0(altmetricString1, PMID_29985847$doi, altmetric
 
 \pagebreak
 
-## Molecular Pathology
+## Molecular Pathology {.tabset}
+
+---
 
 ```{r M Pancreas, eval=FALSE, include=FALSE}
 ```
 
----
+### Pancreas
 
 ```{r 30041660, include=FALSE}
 
@@ -1124,6 +1169,68 @@ https://link.springer.com/article/10.1007/s11306-018-1404-2
 ---
 
 
+- **Circulating Tumor Cells Dynamics in Pancreatic Adenocarcinoma Correlate With Disease Status: Results of the Prospective CLUSTER Study**
+
+https://journals.lww.com/annalsofsurgery/Fulltext/2018/09000/Circulating_Tumor_Cells_Dynamics_in_Pancreatic.4.aspx
+
+---
+
+- **From somatic mutation to early detection: Insights from molecular characterization of pancreatic cancer precursor lesions**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/path.5154
+
+
+
+---
+
+```{r 30113427, include=FALSE}
+
+PMID_30113427 <- RefManageR::ReadPubMed('30113427', database = 'PubMed')
+
+citation_30113427 <- paste0(PMID_30113427$journal,' ', PMID_30113427$year, ' ', PMID_30113427$month,';', PMID_30113427$volume,'(', PMID_30113427$number,'):', PMID_30113427$pages)
+
+PubMed_30113427 <- paste0(PubMedString, PMID_30113427$eprint)
+
+doi_30113427 <- paste0(doiString, PMID_30113427$doi)
+
+dimensionBadge_30113427 <- paste0(dimensionString1, PMID_30113427$doi,dimensionString2)
+
+altmetricBadge_30113427 <- paste0(altmetricString1, PMID_30113427$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30113427$title`**
+</summary> 
+
+*`r citation_30113427`*
+
+`r PMID_30113427$abstract`
+
+`r PubMed_30113427`
+
+<!-- `r doi_30113427` -->
+
+`r dimensionBadge_30113427`
+
+`r altmetricBadge_30113427`
+
+</details>
+
+---
+
+
+- **A Highly Verified Assay for KRAS Mutation Detection in Tissue and Plasma of Lung, Colorectal, and Pancreatic Cancer**
+
+http://www.archivesofpathology.org/doi/pdf/10.5858/arpa.2017-0471-OA?code=coap-site
+
+
+---
+
+
+### Biliary Tract
+
 ```{r M Biliary Tract, eval=FALSE, include=FALSE}
 ```
 
@@ -1164,13 +1271,23 @@ altmetricBadge_30105440 <- paste0(altmetricString1, PMID_30105440$doi, altmetric
 
 ---
 
-
+### Gallbladder
 
 ```{r M Gallbladder, eval=FALSE, include=FALSE}
 ```
 
+
+### Ampulla of Vater
+
 ```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+
+### PanNET Neuroendocrine
+
 
 ```{r M PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
@@ -1187,10 +1304,51 @@ https://www.endo.theclinics.com/article/S0889-8529(18)30519-X/abstract
 
 \pagebreak
 
-## Others
+## Others {.tabset}
+
+
+
+---
+
+### Pancreas
 
 ```{r O Pancreas, eval=FALSE, include=FALSE}
 ```
+
+
+```{r 30113430, include=FALSE}
+
+PMID_30113430 <- RefManageR::ReadPubMed('30113430', database = 'PubMed')
+
+citation_30113430 <- paste0(PMID_30113430$journal,' ', PMID_30113430$year, ' ', PMID_30113430$month,';', PMID_30113430$volume,'(', PMID_30113430$number,'):', PMID_30113430$pages)
+
+PubMed_30113430 <- paste0(PubMedString, PMID_30113430$eprint)
+
+doi_30113430 <- paste0(doiString, PMID_30113430$doi)
+
+dimensionBadge_30113430 <- paste0(dimensionString1, PMID_30113430$doi,dimensionString2)
+
+altmetricBadge_30113430 <- paste0(altmetricString1, PMID_30113430$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30113430$title`**
+</summary> 
+
+*`r citation_30113430`*
+
+`r PMID_30113430$abstract`
+
+`r PubMed_30113430`
+
+<!-- `r doi_30113430` -->
+
+`r dimensionBadge_30113430`
+
+`r altmetricBadge_30113430`
+
+</details>
 
 ---
 
@@ -1852,6 +2010,7 @@ altmetricBadge_30104029 <- paste0(altmetricString1, PMID_30104029$doi, altmetric
 
 ---
 
+### Pancreas Techniques
 
 ```{r O Pancreas Techniques, eval=FALSE, include=FALSE}
 ```
@@ -1931,6 +2090,9 @@ altmetricBadge_29477748 <- paste0(altmetricString1, PMID_29477748$doi, altmetric
 </details>
 
 ---
+
+### Pancreas Analogue Tumors
+
 
 ```{r O Pancreas Analogue, eval=FALSE, include=FALSE}
 ```
@@ -2042,7 +2204,46 @@ altmetricBadge_29705715 <- paste0(altmetricString1, PMID_29705715$doi, altmetric
 
 </details>
 
+
 ---
+
+```{r 30110596, include=FALSE}
+
+PMID_30110596 <- RefManageR::ReadPubMed('30110596', database = 'PubMed')
+
+citation_30110596 <- paste0(PMID_30110596$journal,' ', PMID_30110596$year, ' ', PMID_30110596$month,';', PMID_30110596$volume,'(', PMID_30110596$number,'):', PMID_30110596$pages)
+
+PubMed_30110596 <- paste0(PubMedString, PMID_30110596$eprint)
+
+doi_30110596 <- paste0(doiString, PMID_30110596$doi)
+
+dimensionBadge_30110596 <- paste0(dimensionString1, PMID_30110596$doi,dimensionString2)
+
+altmetricBadge_30110596 <- paste0(altmetricString1, PMID_30110596$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30110596$title`**
+</summary> 
+
+*`r citation_30110596`*
+
+`r PMID_30110596$abstract`
+
+`r PubMed_30110596`
+
+<!-- `r doi_30110596` -->
+
+`r dimensionBadge_30110596`
+
+`r altmetricBadge_30110596`
+
+</details>
+
+---
+
+### Animal Studies
 
 ```{r O Pancreas Animal Studies, eval=FALSE, include=FALSE}
 ```
@@ -2158,6 +2359,8 @@ altmetricBadge_29975347 <- paste0(altmetricString1, PMID_29975347$doi, altmetric
 
 ---
 
+### Biliary Tract
+
 ```{r O Biliary Tract, eval=FALSE, include=FALSE}
 ```
 
@@ -2244,10 +2447,60 @@ altmetricBadge_30030718 <- paste0(altmetricString1, PMID_30030718$doi, altmetric
 
 </details>
 
+
 ---
+
+```{r 30112703, include=FALSE}
+
+PMID_30112703 <- RefManageR::ReadPubMed('30112703', database = 'PubMed')
+
+citation_30112703 <- paste0(PMID_30112703$journal,' ', PMID_30112703$year, ' ', PMID_30112703$month,';', PMID_30112703$volume,'(', PMID_30112703$number,'):', PMID_30112703$pages)
+
+PubMed_30112703 <- paste0(PubMedString, PMID_30112703$eprint)
+
+doi_30112703 <- paste0(doiString, PMID_30112703$doi)
+
+dimensionBadge_30112703 <- paste0(dimensionString1, PMID_30112703$doi,dimensionString2)
+
+altmetricBadge_30112703 <- paste0(altmetricString1, PMID_30112703$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30112703$title`**
+</summary> 
+
+*`r citation_30112703`*
+
+`r PMID_30112703$abstract`
+
+`r PubMed_30112703`
+
+<!-- `r doi_30112703` -->
+
+`r dimensionBadge_30112703`
+
+`r altmetricBadge_30112703`
+
+</details>
+
+---
+
+### Gallbladder
+
 
 ```{r O Gallbladder, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+
+- **Incidental Gallbladder Cancer: How Residual Disease Affects Outcome in Two Referral HPB Centers from South America**
+
+https://link.springer.com/article/10.1007/s00268-018-4762-z
+
+
 
 ---
 
@@ -2288,6 +2541,7 @@ altmetricBadge_30054926 <- paste0(altmetricString1, PMID_30054926$doi, altmetric
 
 ---
 
+### Ampulla of Vater
 
 ```{r O Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
@@ -2365,11 +2619,66 @@ altmetricBadge_29946997 <- paste0(altmetricString1, PMID_29946997$doi, altmetric
 
 </details>
 
+
+
 ---
+
+```{r 28693748, include=FALSE}
+
+PMID_28693748 <- RefManageR::ReadPubMed('28693748', database = 'PubMed')
+
+citation_28693748 <- paste0(PMID_28693748$journal,' ', PMID_28693748$year, ' ', PMID_28693748$month,';', PMID_28693748$volume,'(', PMID_28693748$number,'):', PMID_28693748$pages)
+
+PubMed_28693748 <- paste0(PubMedString, PMID_28693748$eprint)
+
+doi_28693748 <- paste0(doiString, PMID_28693748$doi)
+
+dimensionBadge_28693748 <- paste0(dimensionString1, PMID_28693748$doi,dimensionString2)
+
+altmetricBadge_28693748 <- paste0(altmetricString1, PMID_28693748$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_28693748$title`**
+</summary> 
+
+*`r citation_28693748`*
+
+`r PMID_28693748$abstract`
+
+`r PubMed_28693748`
+
+<!-- `r doi_28693748` -->
+
+`r dimensionBadge_28693748`
+
+`r altmetricBadge_28693748`
+
+</details>
+
+---
+
+
+### PanNET Neuroendocrine
 
 
 ```{r O PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
+
+
+
+
+- **The Evolving Treatment Algorithm for Advanced Neuroendocrine Neoplasms: Diversity and Commonalities Across Tumor Types**
+
+
+http://theoncologist.alphamedpress.org/content/early/2018/08/13/theoncologist.2018-0187.abstract
+
+
+
+
+---
+
 
 
 ```{r 30022165, include=FALSE}
@@ -2443,7 +2752,49 @@ altmetricBadge_29985851 <- paste0(altmetricString1, PMID_29985851$doi, altmetric
 
 </details>
 
+
 ---
+
+```{r 30113433, include=FALSE}
+
+PMID_30113433 <- RefManageR::ReadPubMed('30113433', database = 'PubMed')
+
+citation_30113433 <- paste0(PMID_30113433$journal,' ', PMID_30113433$year, ' ', PMID_30113433$month,';', PMID_30113433$volume,'(', PMID_30113433$number,'):', PMID_30113433$pages)
+
+PubMed_30113433 <- paste0(PubMedString, PMID_30113433$eprint)
+
+doi_30113433 <- paste0(doiString, PMID_30113433$doi)
+
+dimensionBadge_30113433 <- paste0(dimensionString1, PMID_30113433$doi,dimensionString2)
+
+altmetricBadge_30113433 <- paste0(altmetricString1, PMID_30113433$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30113433$title`**
+</summary> 
+
+*`r citation_30113433`*
+
+`r PMID_30113433$abstract`
+
+`r PubMed_30113433`
+
+<!-- `r doi_30113433` -->
+
+`r dimensionBadge_30113433`
+
+`r altmetricBadge_30113433`
+
+</details>
+
+---
+
+
+
+### Database SEER, NCDB, TCGA, Oncomine Studies
+
 
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
 ```
