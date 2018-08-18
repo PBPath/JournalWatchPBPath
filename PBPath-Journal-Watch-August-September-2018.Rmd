@@ -61,7 +61,10 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 ```{r S Pancreas, eval=FALSE, include=FALSE}
 ```
 
+
 ---
+
+
 
 ```{r 30063495, include=FALSE}
 
@@ -446,14 +449,90 @@ https://link.springer.com/article/10.1007/s00428-018-2429-7
 https://journals.lww.com/annalsofsurgery/Abstract/2018/09000/Does_Surgical_Margin_Impact_Recurrence_in.10.aspx
 
 
+
 ---
 
+```{r 30118171, include=FALSE}
+
+PMID_30118171 <- RefManageR::ReadPubMed('30118171', database = 'PubMed')
+
+citation_30118171 <- paste0(PMID_30118171$journal,' ', PMID_30118171$year, ' ', PMID_30118171$month,';', PMID_30118171$volume,'(', PMID_30118171$number,'):', PMID_30118171$pages)
+
+PubMed_30118171 <- paste0(PubMedString, PMID_30118171$eprint)
+
+doi_30118171 <- paste0(doiString, PMID_30118171$doi)
+
+dimensionBadge_30118171 <- paste0(dimensionString1, PMID_30118171$doi,dimensionString2)
+
+altmetricBadge_30118171 <- paste0(altmetricString1, PMID_30118171$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30118171$title`**
+</summary> 
+
+*`r citation_30118171`*
+
+`r PMID_30118171$abstract`
+
+`r PubMed_30118171`
+
+<!-- `r doi_30118171` -->
+
+`r dimensionBadge_30118171`
+
+`r altmetricBadge_30118171`
+
+</details>
+
+---
+
+
+
+### IPMN
+
+```{r S IPMN, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+
+
+- **Transmembrane mucin MUC13 distinguishes intraductal papillary mucinous neoplasms from non-mucinous cysts and is associated with high-risk lesions**
+
+https://www.sciencedirect.com/science/article/pii/S1365182X18326947
+
+
+---
+
+
+- **Importance of main pancreatic duct dilatation in IPMN undergoing surveillance**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bjs.10948
+
+
+---
 
 
 ### Biliary Tract
 
 ```{r S Biliary Tract, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+- **Data set for the reporting of intrahepatic cholangiocarcinoma, perihilar cholangiocarcinoma and hepatocellular carcinoma: recommendations from the International Collaboration on Cancer Reporting (ICCR)**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/his.13520?campaign=woletoc
+
+
+---
+
 
 
 ```{r 29675965, include=FALSE}
@@ -574,7 +653,49 @@ altmetricBadge_29698701 <- paste0(altmetricString1, PMID_29698701$doi, altmetric
 ```{r S Gallbladder, eval=FALSE, include=FALSE}
 ```
 
+
+
+
+
 ---
+
+```{r 30100032, include=FALSE}
+
+PMID_30100032 <- RefManageR::ReadPubMed('30100032', database = 'PubMed')
+
+citation_30100032 <- paste0(PMID_30100032$journal,' ', PMID_30100032$year, ' ', PMID_30100032$month,';', PMID_30100032$volume,'(', PMID_30100032$number,'):', PMID_30100032$pages)
+
+PubMed_30100032 <- paste0(PubMedString, PMID_30100032$eprint)
+
+doi_30100032 <- paste0(doiString, PMID_30100032$doi)
+
+dimensionBadge_30100032 <- paste0(dimensionString1, PMID_30100032$doi,dimensionString2)
+
+altmetricBadge_30100032 <- paste0(altmetricString1, PMID_30100032$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30100032$title`**
+</summary> 
+
+*`r citation_30100032`*
+
+`r PMID_30100032$abstract`
+
+`r PubMed_30100032`
+
+<!-- `r doi_30100032` -->
+
+`r dimensionBadge_30100032`
+
+`r altmetricBadge_30100032`
+
+</details>
+
+---
+
+
 
 - **Clinicopathological features and survival of gallbladder squamous cell carcinoma: analysis of 121 cases**
 
@@ -2009,6 +2130,19 @@ altmetricBadge_30104029 <- paste0(altmetricString1, PMID_30104029$doi, altmetric
 </details>
 
 ---
+
+
+- **Immune Checkpoint Inhibition for Pancreatic Ductal Adenocarcinoma: Current Limitations and Future Options**
+
+
+https://www.frontiersin.org/articles/10.3389/fimmu.2018.01878/full
+
+
+
+
+---
+
+
 
 ### Pancreas Techniques
 
