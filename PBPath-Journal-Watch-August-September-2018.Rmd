@@ -64,45 +64,6 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ---
 
-
-
-```{r 30063495, include=FALSE}
-
-PMID_30063495 <- RefManageR::ReadPubMed('30063495', database = 'PubMed')
-
-citation_30063495 <- paste0(PMID_30063495$journal,' ', PMID_30063495$year, ' ', PMID_30063495$month,';', PMID_30063495$volume,'(', PMID_30063495$number,'):', PMID_30063495$pages)
-
-PubMed_30063495 <- paste0(PubMedString, PMID_30063495$eprint)
-
-doi_30063495 <- paste0(doiString, PMID_30063495$doi)
-
-dimensionBadge_30063495 <- paste0(dimensionString1, PMID_30063495$doi,dimensionString2)
-
-altmetricBadge_30063495 <- paste0(altmetricString1, PMID_30063495$doi, altmetricString2 )
-
-```
-
-<details open>
-<summary>
-- **`r PMID_30063495$title`**
-</summary>
-
-*`r citation_30063495`*
-
-`r PMID_30063495$abstract`
-
-`r PubMed_30063495`
-
-<!-- `r doi_30063495` -->
-
-`r dimensionBadge_30063495`
-
-`r altmetricBadge_30063495`
-
-</details>
-
----
-
 ```{r 29664180, include=FALSE}
 
 PMID_29664180 <- RefManageR::ReadPubMed('29664180', database = 'PubMed')
@@ -391,6 +352,8 @@ altmetricBadge_30091124 <- paste0(altmetricString1, PMID_30091124$doi, altmetric
 
 `r PubMed_30091124`
 
+https://link.springer.com/article/10.1007/s00428-018-2429-7
+
 <!-- `r doi_30091124` -->
 
 `r dimensionBadge_30091124`
@@ -398,6 +361,7 @@ altmetricBadge_30091124 <- paste0(altmetricString1, PMID_30091124$doi, altmetric
 `r altmetricBadge_30091124`
 
 </details>
+
 
 
 ---
@@ -435,18 +399,6 @@ altmetricBadge_30105857 <- paste0(altmetricString1, PMID_30105857$doi, altmetric
 `r altmetricBadge_30105857`
 
 </details>
-
----
-
-- **Tumour origin and R1 rates in pancreatic resections: towards consilience in pathology reporting**
-
-https://link.springer.com/article/10.1007/s00428-018-2429-7
-
----
-
-- **Does Surgical Margin Impact Recurrence in Noninvasive Intraductal Papillary Mucinous Neoplasms?: A Multi-institutional Study**
-
-https://journals.lww.com/annalsofsurgery/Abstract/2018/09000/Does_Surgical_Margin_Impact_Recurrence_in.10.aspx
 
 
 
@@ -498,6 +450,48 @@ altmetricBadge_30118171 <- paste0(altmetricString1, PMID_30118171$doi, altmetric
 
 ---
 
+
+
+```{r 30063495, include=FALSE}
+
+PMID_30063495 <- RefManageR::ReadPubMed('30063495', database = 'PubMed')
+
+citation_30063495 <- paste0(PMID_30063495$journal,' ', PMID_30063495$year, ' ', PMID_30063495$month,';', PMID_30063495$volume,'(', PMID_30063495$number,'):', PMID_30063495$pages)
+
+PubMed_30063495 <- paste0(PubMedString, PMID_30063495$eprint)
+
+doi_30063495 <- paste0(doiString, PMID_30063495$doi)
+
+dimensionBadge_30063495 <- paste0(dimensionString1, PMID_30063495$doi,dimensionString2)
+
+altmetricBadge_30063495 <- paste0(altmetricString1, PMID_30063495$doi, altmetricString2 )
+
+```
+
+<details open>
+<summary>
+- **`r PMID_30063495$title`**
+</summary>
+
+*`r citation_30063495`*
+
+`r PMID_30063495$abstract`
+
+`r PubMed_30063495`
+
+https://journals.lww.com/annalsofsurgery/Abstract/2018/09000/Does_Surgical_Margin_Impact_Recurrence_in.10.aspx
+
+
+<!-- `r doi_30063495` -->
+
+`r dimensionBadge_30063495`
+
+`r altmetricBadge_30063495`
+
+</details>
+
+
+---
 
 
 - **Transmembrane mucin MUC13 distinguishes intraductal papillary mucinous neoplasms from non-mucinous cysts and is associated with high-risk lesions**
@@ -2140,17 +2134,127 @@ https://www.frontiersin.org/articles/10.3389/fimmu.2018.01878/full
 
 
 
+
+---
+
+```{r 29630898, include=FALSE}
+
+PMID_29630898 <- RefManageR::ReadPubMed('29630898', database = 'PubMed')
+
+citation_29630898 <- paste0(PMID_29630898$journal,' ', PMID_29630898$year, ' ', PMID_29630898$month,';', PMID_29630898$volume,'(', PMID_29630898$number,'):', PMID_29630898$pages)
+
+PubMed_29630898 <- paste0(PubMedString, PMID_29630898$eprint)
+
+doi_29630898 <- paste0(doiString, PMID_29630898$doi)
+
+dimensionBadge_29630898 <- paste0(dimensionString1, PMID_29630898$doi,dimensionString2)
+
+altmetricBadge_29630898 <- paste0(altmetricString1, PMID_29630898$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29630898$title`**
+</summary> 
+
+*`r citation_29630898`*
+
+`r PMID_29630898$abstract`
+
+`r PubMed_29630898`
+
+<!-- `r doi_29630898` -->
+
+`r dimensionBadge_29630898`
+
+`r altmetricBadge_29630898`
+
+</details>
+
+
+---
+
+```{r 30050994, include=FALSE}
+
+PMID_30050994 <- RefManageR::ReadPubMed('30050994', database = 'PubMed')
+
+citation_30050994 <- paste0(PMID_30050994$journal,' ', PMID_30050994$year, ' ', PMID_30050994$month,';', PMID_30050994$volume,'(', PMID_30050994$number,'):', PMID_30050994$pages)
+
+PubMed_30050994 <- paste0(PubMedString, PMID_30050994$eprint)
+
+doi_30050994 <- paste0(doiString, PMID_30050994$doi)
+
+dimensionBadge_30050994 <- paste0(dimensionString1, PMID_30050994$doi,dimensionString2)
+
+altmetricBadge_30050994 <- paste0(altmetricString1, PMID_30050994$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30050994$title`**
+</summary> 
+
+*`r citation_30050994`*
+
+`r PMID_30050994$abstract`
+
+`r PubMed_30050994`
+
+<!-- `r doi_30050994` -->
+
+`r dimensionBadge_30050994`
+
+`r altmetricBadge_30050994`
+
+</details>
+
 ---
 
 
 
-### Pancreas Techniques
+### Pancreas Techniques & Research Methods
 
-```{r O Pancreas Techniques, eval=FALSE, include=FALSE}
+```{r O Pancreas Techniques & Research Methods, eval=FALSE, include=FALSE}
 ```
 
 
+
+```{r 30046146, include=FALSE}
+
+PMID_30046146 <- RefManageR::ReadPubMed('30046146', database = 'PubMed')
+
+citation_30046146 <- paste0(PMID_30046146$journal,' ', PMID_30046146$year, ' ', PMID_30046146$month,';', PMID_30046146$volume,'(', PMID_30046146$number,'):', PMID_30046146$pages)
+
+PubMed_30046146 <- paste0(PubMedString, PMID_30046146$eprint)
+
+doi_30046146 <- paste0(doiString, PMID_30046146$doi)
+
+dimensionBadge_30046146 <- paste0(dimensionString1, PMID_30046146$doi,dimensionString2)
+
+altmetricBadge_30046146 <- paste0(altmetricString1, PMID_30046146$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30046146$title`**
+</summary> 
+
+*`r citation_30046146`*
+
+`r PMID_30046146$abstract`
+
+`r PubMed_30046146`
+
+<!-- `r doi_30046146` -->
+
+`r dimensionBadge_30046146`
+
+`r altmetricBadge_30046146`
+
+</details>
+
 ---
+
 
 ```{r 30086100, include=FALSE}
 
@@ -3349,6 +3453,8 @@ Medical Molecular Morphology
 Modern Pathology
 
 Nature
+
+Nature Reviews Gastroenterology & Hepatology
 
 NEJM
 
