@@ -438,6 +438,43 @@ altmetricBadge_30118171 <- paste0(altmetricString1, PMID_30118171$doi, altmetric
 
 </details>
 
+
+---
+
+```{r 30130629, include=FALSE}
+
+PMID_30130629 <- RefManageR::ReadPubMed('30130629', database = 'PubMed')
+
+citation_30130629 <- paste0(PMID_30130629$journal,' ', PMID_30130629$year, ' ', PMID_30130629$month,';', PMID_30130629$volume,'(', PMID_30130629$number,'):', PMID_30130629$pages)
+
+PubMed_30130629 <- paste0(PubMedString, PMID_30130629$eprint)
+
+doi_30130629 <- paste0(doiString, PMID_30130629$doi)
+
+dimensionBadge_30130629 <- paste0(dimensionString1, PMID_30130629$doi,dimensionString2)
+
+altmetricBadge_30130629 <- paste0(altmetricString1, PMID_30130629$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30130629$title`**
+</summary> 
+
+*`r citation_30130629`*
+
+`r PMID_30130629$abstract`
+
+`r PubMed_30130629`
+
+<!-- `r doi_30130629` -->
+
+`r dimensionBadge_30130629`
+
+`r altmetricBadge_30130629`
+
+</details>
+
 ---
 
 
@@ -695,6 +732,51 @@ altmetricBadge_30100032 <- paste0(altmetricString1, PMID_30100032$doi, altmetric
 
 
 http://www.ijcep.com/files/ijcep0076184.pdf
+
+
+
+---
+
+```{r 29975247, include=FALSE}
+
+PMID_29975247 <- RefManageR::ReadPubMed('29975247', database = 'PubMed')
+
+citation_29975247 <- paste0(PMID_29975247$journal,' ', PMID_29975247$year, ' ', PMID_29975247$month,';', PMID_29975247$volume,'(', PMID_29975247$number,'):', PMID_29975247$pages)
+
+PubMed_29975247 <- paste0(PubMedString, PMID_29975247$eprint)
+
+doi_29975247 <- paste0(doiString, PMID_29975247$doi)
+
+dimensionBadge_29975247 <- paste0(dimensionString1, PMID_29975247$doi,dimensionString2)
+
+altmetricBadge_29975247 <- paste0(altmetricString1, PMID_29975247$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29975247$title`**
+</summary> 
+
+*`r citation_29975247`*
+
+`r PMID_29975247$abstract`
+
+`r PubMed_29975247`
+
+<!-- `r doi_29975247` -->
+
+https://journals.lww.com/ajsp/Abstract/2018/09000/Pyloric_Gland_Adenoma__PGA__of_the_Gallbladder__A.12.aspx
+
+`r dimensionBadge_29975247`
+
+`r altmetricBadge_29975247`
+
+</details>
+
+---
+
+
+
 
 
 ### Ampulla of Vater
@@ -2210,6 +2292,14 @@ altmetricBadge_30050994 <- paste0(altmetricString1, PMID_30050994$doi, altmetric
 
 ---
 
+- **Intrapancreatic recurrence of intraductal tubulopapillary neoplasm (ITPN) 16 years after the initial surgery for noninvasive ITPN: a case report**
+
+https://surgicalcasereports.springeropen.com/articles/10.1186/s40792-018-0497-1
+
+
+---
+
+
 
 
 ### Pancreas Techniques & Research Methods
@@ -2522,6 +2612,46 @@ altmetricBadge_30120970 <- paste0(altmetricString1, PMID_30120970$doi, altmetric
 
 ```{r O Pancreas Animal Studies, eval=FALSE, include=FALSE}
 ```
+
+
+
+---
+
+```{r 30126547, include=FALSE}
+
+PMID_30126547 <- RefManageR::ReadPubMed('30126547', database = 'PubMed')
+
+citation_30126547 <- paste0(PMID_30126547$journal,' ', PMID_30126547$year, ' ', PMID_30126547$month,';', PMID_30126547$volume,'(', PMID_30126547$number,'):', PMID_30126547$pages)
+
+PubMed_30126547 <- paste0(PubMedString, PMID_30126547$eprint)
+
+doi_30126547 <- paste0(doiString, PMID_30126547$doi)
+
+dimensionBadge_30126547 <- paste0(dimensionString1, PMID_30126547$doi,dimensionString2)
+
+altmetricBadge_30126547 <- paste0(altmetricString1, PMID_30126547$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30126547$title`**
+</summary> 
+
+*`r citation_30126547`*
+
+`r PMID_30126547$abstract`
+
+`r PubMed_30126547`
+
+<!-- `r doi_30126547` -->
+
+`r dimensionBadge_30126547`
+
+`r altmetricBadge_30126547`
+
+</details>
+
+---
 
 
 ```{r 30086262, include=FALSE}
