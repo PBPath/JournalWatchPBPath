@@ -545,7 +545,45 @@ https://www.sciencedirect.com/science/article/pii/S1365182X18326947
 https://onlinelibrary.wiley.com/doi/abs/10.1002/bjs.10948
 
 
+
 ---
+
+```{r 30028445, include=FALSE}
+
+PMID_30028445 <- RefManageR::ReadPubMed('30028445', database = 'PubMed')
+
+citation_30028445 <- paste0(PMID_30028445$journal,' ', PMID_30028445$year, ' ', PMID_30028445$month,';', PMID_30028445$volume,'(', PMID_30028445$number,'):', PMID_30028445$pages)
+
+PubMed_30028445 <- paste0(PubMedString, PMID_30028445$eprint)
+
+doi_30028445 <- paste0(doiString, PMID_30028445$doi)
+
+dimensionBadge_30028445 <- paste0(dimensionString1, PMID_30028445$doi,dimensionString2)
+
+altmetricBadge_30028445 <- paste0(altmetricString1, PMID_30028445$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30028445$title`**
+</summary> 
+
+*`r citation_30028445`*
+
+`r PMID_30028445$abstract`
+
+`r PubMed_30028445`
+
+<!-- `r doi_30028445` -->
+
+`r dimensionBadge_30028445`
+
+`r altmetricBadge_30028445`
+
+</details>
+
+---
+
 
 
 ### Biliary Tract
@@ -1424,6 +1462,13 @@ http://www.archivesofpathology.org/doi/pdf/10.5858/arpa.2017-0471-OA?code=coap-s
 
 
 ---
+
+
+- **PAR1 signaling on tumor cells limits tumor growth by maintaining a mesenchymal phenotype in pancreatic cancer**  
+
+https://www.researchgate.net/profile/Cansu_Tekin2/publication/326967265_PAR1_signaling_on_tumor_cells_limits_tumor_growth_by_maintaining_a_mesenchymal_phenotype_in_pancreatic_cancer/links/5b73188245851546c90320f1/PAR1-signaling-on-tumor-cells-limits-tumor-growth-by-maintaining-a-mesenchymal-phenotype-in-pancreatic-cancer.pdf
+
+
 
 
 ### Biliary Tract
@@ -3491,6 +3536,12 @@ altmetricBadge_30105523 <- paste0(altmetricString1, PMID_30105523$doi, altmetric
 </details>
 
 ---
+
+- **Treatment Outcomes in Patients with Metastatic Neuroendocrine Tumors: a Retrospective Analysis of a Community Oncology Database**
+
+https://link.springer.com/article/10.1007/s12029-018-0160-x
+
+
 
 ---
 
