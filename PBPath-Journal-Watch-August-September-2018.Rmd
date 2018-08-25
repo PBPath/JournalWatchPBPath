@@ -938,6 +938,43 @@ altmetricBadge_29738360 <- paste0(altmetricString1, PMID_29738360$doi, altmetric
 ```
 
 
+
+---
+
+```{r 30140036, include=FALSE}
+
+PMID_30140036 <- RefManageR::ReadPubMed('30140036', database = 'PubMed')
+
+citation_30140036 <- paste0(PMID_30140036$journal,' ', PMID_30140036$year, ' ', PMID_30140036$month,';', PMID_30140036$volume,'(', PMID_30140036$number,'):', PMID_30140036$pages)
+
+PubMed_30140036 <- paste0(PubMedString, PMID_30140036$eprint)
+
+doi_30140036 <- paste0(doiString, PMID_30140036$doi)
+
+dimensionBadge_30140036 <- paste0(dimensionString1, PMID_30140036$doi,dimensionString2)
+
+altmetricBadge_30140036 <- paste0(altmetricString1, PMID_30140036$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30140036$title`**
+</summary> 
+
+*`r citation_30140036`*
+
+`r PMID_30140036$abstract`
+
+`r PubMed_30140036`
+
+<!-- `r doi_30140036` -->
+
+`r dimensionBadge_30140036`
+
+`r altmetricBadge_30140036`
+
+</details>
+
 ---
 
 - **ATRX loss is an independent predictor of poor survival in pancreatic neuroendocrine tumours**
@@ -1638,6 +1675,13 @@ https://www.sciencedirect.com/science/article/pii/S1424390318306331
 
 
 https://www.sciencedirect.com/science/article/pii/S1424390318306070
+
+
+---
+
+- **DNA profile components predict malignant outcomes in select cases of intraductal papillary mucinous neoplasm with negative cytology**
+
+https://www.sciencedirect.com/science/article/pii/S0039606018302836
 
 
 
@@ -2524,10 +2568,75 @@ altmetricBadge_30050994 <- paste0(altmetricString1, PMID_30050994$doi, altmetric
 https://surgicalcasereports.springeropen.com/articles/10.1186/s40792-018-0497-1
 
 
+
+---
+
+```{r 30139657, include=FALSE}
+
+PMID_30139657 <- RefManageR::ReadPubMed('30139657', database = 'PubMed')
+
+citation_30139657 <- paste0(PMID_30139657$journal,' ', PMID_30139657$year, ' ', PMID_30139657$month,';', PMID_30139657$volume,'(', PMID_30139657$number,'):', PMID_30139657$pages)
+
+PubMed_30139657 <- paste0(PubMedString, PMID_30139657$eprint)
+
+doi_30139657 <- paste0(doiString, PMID_30139657$doi)
+
+dimensionBadge_30139657 <- paste0(dimensionString1, PMID_30139657$doi,dimensionString2)
+
+altmetricBadge_30139657 <- paste0(altmetricString1, PMID_30139657$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30139657$title`**
+</summary> 
+
+*`r citation_30139657`*
+
+`r PMID_30139657$abstract`
+
+`r PubMed_30139657`
+
+<!-- `r doi_30139657` -->
+
+`r dimensionBadge_30139657`
+
+`r altmetricBadge_30139657`
+
+</details>
+
 ---
 
 
+### Pancreas Reviews
 
+```{r O Pancreas Reviews, eval=FALSE, include=FALSE}
+```
+
+
+
+- **Prognostic stratification of resected pancreatic ductal adenocarcinoma: past, present, and future**
+
+
+https://www.sciencedirect.com/science/article/pii/S1590865818308892
+
+
+---
+
+- **Pancreatic cancer: French Clinical Practice Guidelines for diagnosis, treatment and follow-up (SNFGE, FFCD, GERCOR, UNICANCER, SFCD, SFED, SFRO, ACHBT, AFC)**
+
+
+https://www.sciencedirect.com/science/article/pii/S1590865818308880
+
+
+---
+
+- **Serous Neoplasms of the Pancreas: A Comprehensive Review**
+
+http://www.archivesofpathology.org/doi/abs/10.5858/arpa.2017-0195-RS
+
+
+---
 
 ### Pancreas Techniques & Research Methods
 
@@ -2845,6 +2954,43 @@ altmetricBadge_30120970 <- paste0(altmetricString1, PMID_30120970$doi, altmetric
 ```
 
 
+
+
+---
+
+```{r 30142336, include=FALSE}
+
+PMID_30142336 <- RefManageR::ReadPubMed('30142336', database = 'PubMed')
+
+citation_30142336 <- paste0(PMID_30142336$journal,' ', PMID_30142336$year, ' ', PMID_30142336$month,';', PMID_30142336$volume,'(', PMID_30142336$number,'):', PMID_30142336$pages)
+
+PubMed_30142336 <- paste0(PubMedString, PMID_30142336$eprint)
+
+doi_30142336 <- paste0(doiString, PMID_30142336$doi)
+
+dimensionBadge_30142336 <- paste0(dimensionString1, PMID_30142336$doi,dimensionString2)
+
+altmetricBadge_30142336 <- paste0(altmetricString1, PMID_30142336$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30142336$title`**
+</summary> 
+
+*`r citation_30142336`*
+
+`r PMID_30142336$abstract`
+
+`r PubMed_30142336`
+
+<!-- `r doi_30142336` -->
+
+`r dimensionBadge_30142336`
+
+`r altmetricBadge_30142336`
+
+</details>
 
 ---
 
@@ -3479,9 +3625,53 @@ altmetricBadge_30136123 <- paste0(altmetricString1, PMID_30136123$doi, altmetric
 
 </details>
 
+
 ---
 
+```{r 30142118, include=FALSE}
 
+PMID_30142118 <- RefManageR::ReadPubMed('30142118', database = 'PubMed')
+
+citation_30142118 <- paste0(PMID_30142118$journal,' ', PMID_30142118$year, ' ', PMID_30142118$month,';', PMID_30142118$volume,'(', PMID_30142118$number,'):', PMID_30142118$pages)
+
+PubMed_30142118 <- paste0(PubMedString, PMID_30142118$eprint)
+
+doi_30142118 <- paste0(doiString, PMID_30142118$doi)
+
+dimensionBadge_30142118 <- paste0(dimensionString1, PMID_30142118$doi,dimensionString2)
+
+altmetricBadge_30142118 <- paste0(altmetricString1, PMID_30142118$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30142118$title`**
+</summary> 
+
+*`r citation_30142118`*
+
+`r PMID_30142118$abstract`
+
+`r PubMed_30142118`
+
+<!-- `r doi_30142118` -->
+
+`r dimensionBadge_30142118`
+
+`r altmetricBadge_30142118`
+
+</details>
+
+---
+
+- **Tissue heterogeneity contributes to suboptimal precision of WHO 2010 scoring criteria for Ki67 labeling index in a subset of neuroendocrine neoplasms of the pancreas**
+
+https://www.termedia.pl/Tissue-heterogeneity-contributes-to-suboptimal-precision-of-WHO-2010-scoring-criteria-for-Ki67-labeling-index-in-a-subset-of-neuroendocrine-neoplasms-of-the-pancreas,55,29474,1,1.html
+
+
+
+
+---
 
 ### Database SEER, NCDB, TCGA, Oncomine Studies
 
@@ -3810,6 +4000,43 @@ altmetricBadge_30127641 <- paste0(altmetricString1, PMID_30127641$doi, altmetric
 </details>
 
 
+
+
+---
+
+```{r 30139566, include=FALSE}
+
+PMID_30139566 <- RefManageR::ReadPubMed('30139566', database = 'PubMed')
+
+citation_30139566 <- paste0(PMID_30139566$journal,' ', PMID_30139566$year, ' ', PMID_30139566$month,';', PMID_30139566$volume,'(', PMID_30139566$number,'):', PMID_30139566$pages)
+
+PubMed_30139566 <- paste0(PubMedString, PMID_30139566$eprint)
+
+doi_30139566 <- paste0(doiString, PMID_30139566$doi)
+
+dimensionBadge_30139566 <- paste0(dimensionString1, PMID_30139566$doi,dimensionString2)
+
+altmetricBadge_30139566 <- paste0(altmetricString1, PMID_30139566$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30139566$title`**
+</summary> 
+
+*`r citation_30139566`*
+
+`r PMID_30139566$abstract`
+
+`r PubMed_30139566`
+
+<!-- `r doi_30139566` -->
+
+`r dimensionBadge_30139566`
+
+`r altmetricBadge_30139566`
+
+</details>
 
 ---
 
