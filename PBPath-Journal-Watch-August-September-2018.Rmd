@@ -20,7 +20,7 @@ date: "Last Update on `r format(Sys.Date())`"
 subtitle: "August September 2018"
 ---
 
-[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
+<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
 
 ---
 
@@ -61,6 +61,81 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 ```{r S Pancreas, eval=FALSE, include=FALSE}
 ```
 
+
+
+---
+
+
+
+```{r 30142869 , include=FALSE}
+
+PMID_30142869 <- RefManageR::ReadPubMed('30142869', database = 'PubMed')
+
+citation_30142869 <- paste0(PMID_30142869$journal,' ', PMID_30142869$year, ' ', PMID_30142869$month,';', PMID_30142869$volume,'(', PMID_30142869$number,'):', PMID_30142869$pages)
+
+PubMed_30142869 <- paste0(PubMedString, PMID_30142869$eprint)
+
+doi_30142869 <- paste0(doiString, PMID_30142869$doi)
+
+dimensionBadge_30142869 <- paste0(dimensionString1, PMID_30142869$doi,dimensionString2)
+
+altmetricBadge_30142869 <- paste0(altmetricString1, PMID_30142869$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30142869$title`**
+</summary> 
+
+*`r citation_30142869`*
+
+`r PMID_30142869$abstract`
+
+`r PubMed_30142869`
+
+<!-- `r doi_30142869` -->
+
+`r dimensionBadge_30142869`
+
+`r altmetricBadge_30142869`
+
+</details>
+
+---
+
+```{r 30179901, include=FALSE}
+
+PMID_30179901 <- RefManageR::ReadPubMed('30179901', database = 'PubMed')
+
+citation_30179901 <- paste0(PMID_30179901$journal,' ', PMID_30179901$year, ' ', PMID_30179901$month,';', PMID_30179901$volume,'(', PMID_30179901$number,'):', PMID_30179901$pages)
+
+PubMed_30179901 <- paste0(PubMedString, PMID_30179901$eprint)
+
+doi_30179901 <- paste0(doiString, PMID_30179901$doi)
+
+dimensionBadge_30179901 <- paste0(dimensionString1, PMID_30179901$doi,dimensionString2)
+
+altmetricBadge_30179901 <- paste0(altmetricString1, PMID_30179901$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30179901$title`**
+</summary> 
+
+*`r citation_30179901`*
+
+`r PMID_30179901$abstract`
+
+`r PubMed_30179901`
+
+<!-- `r doi_30179901` -->
+
+`r dimensionBadge_30179901`
+
+`r altmetricBadge_30179901`
+
+</details>
 
 ---
 
@@ -596,9 +671,13 @@ altmetricBadge_30171511 <- paste0(altmetricString1, PMID_30171511$doi, altmetric
 
 ---
 
+- Prognostic impact of postoperative complication after pancreatoduodenectomy for pancreatic adenocarcinoma stratified by the resectability status
+
+https://onlinelibrary.wiley.com/doi/10.1002/jso.25066
 
 
 
+---
 
 ### IPMN
 
@@ -843,6 +922,12 @@ altmetricBadge_29698701 <- paste0(altmetricString1, PMID_29698701$doi, altmetric
 ```{r S Gallbladder, eval=FALSE, include=FALSE}
 ```
 
+---
+
+- **Significance of HER2 and Ki-67 in Preneoplastic Lesions and Carcinoma of Gallbladder**
+
+https://link.springer.com/article/10.1007/s12029-018-0162-8
+
 
 ---
 
@@ -940,7 +1025,11 @@ https://journals.lww.com/ajsp/Abstract/2018/09000/Pyloric_Gland_Adenoma__PGA__of
 ```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
 
+
+
 ---
+
+
 
 ```{r 29738360, include=FALSE}
 
@@ -976,7 +1065,54 @@ altmetricBadge_29738360 <- paste0(altmetricString1, PMID_29738360$doi, altmetric
 
 </details>
 
+
+
 ---
+
+```{r 30179685, include=FALSE}
+
+PMID_30179685 <- RefManageR::ReadPubMed('30179685', database = 'PubMed')
+
+citation_30179685 <- paste0(PMID_30179685$journal,' ', PMID_30179685$year, ' ', PMID_30179685$month,';', PMID_30179685$volume,'(', PMID_30179685$number,'):', PMID_30179685$pages)
+
+PubMed_30179685 <- paste0(PubMedString, PMID_30179685$eprint)
+
+doi_30179685 <- paste0(doiString, PMID_30179685$doi)
+
+dimensionBadge_30179685 <- paste0(dimensionString1, PMID_30179685$doi,dimensionString2)
+
+altmetricBadge_30179685 <- paste0(altmetricString1, PMID_30179685$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30179685$title`**
+</summary> 
+
+*`r citation_30179685`*
+
+`r PMID_30179685$abstract`
+
+`r PubMed_30179685`
+
+<!-- `r doi_30179685` -->
+
+`r dimensionBadge_30179685`
+
+`r altmetricBadge_30179685`
+
+</details>
+
+---
+
+
+- **Clinicopathological features related to survival in adenocarcinoma of the vaterian system in a Mexican population**
+
+https://www.sciencedirect.com/science/article/pii/S004681771830340X
+
+
+---
+
 
 ### PanNET Neuroendocrine
 
@@ -984,6 +1120,13 @@ altmetricBadge_29738360 <- paste0(altmetricString1, PMID_29738360$doi, altmetric
 ```{r S PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
 
+
+
+---
+
+- **Unmet needs in high-grade gastroenteropancreatic neuroendocrine neoplasms (WHO G3).**
+
+https://www.karger.com/Article/Abstract/493318
 
 
 ---
@@ -1224,7 +1367,84 @@ altmetricBadge_30095460 <- paste0(altmetricString1, PMID_30095460$doi, altmetric
 
 </details>
 
+
+
 ---
+
+```{r 30177687, include=FALSE}
+
+PMID_30177687 <- RefManageR::ReadPubMed('30177687', database = 'PubMed')
+
+citation_30177687 <- paste0(PMID_30177687$journal,' ', PMID_30177687$year, ' ', PMID_30177687$month,';', PMID_30177687$volume,'(', PMID_30177687$number,'):', PMID_30177687$pages)
+
+PubMed_30177687 <- paste0(PubMedString, PMID_30177687$eprint)
+
+doi_30177687 <- paste0(doiString, PMID_30177687$doi)
+
+dimensionBadge_30177687 <- paste0(dimensionString1, PMID_30177687$doi,dimensionString2)
+
+altmetricBadge_30177687 <- paste0(altmetricString1, PMID_30177687$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30177687$title`**
+</summary> 
+
+*`r citation_30177687`*
+
+`r PMID_30177687$abstract`
+
+`r PubMed_30177687`
+
+<!-- `r doi_30177687` -->
+
+`r dimensionBadge_30177687`
+
+`r altmetricBadge_30177687`
+
+</details>
+
+
+---
+
+```{r 30153220, include=FALSE}
+
+PMID_30153220 <- RefManageR::ReadPubMed('30153220', database = 'PubMed')
+
+citation_30153220 <- paste0(PMID_30153220$journal,' ', PMID_30153220$year, ' ', PMID_30153220$month,';', PMID_30153220$volume,'(', PMID_30153220$number,'):', PMID_30153220$pages)
+
+PubMed_30153220 <- paste0(PubMedString, PMID_30153220$eprint)
+
+doi_30153220 <- paste0(doiString, PMID_30153220$doi)
+
+dimensionBadge_30153220 <- paste0(dimensionString1, PMID_30153220$doi,dimensionString2)
+
+altmetricBadge_30153220 <- paste0(altmetricString1, PMID_30153220$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30153220$title`**
+</summary> 
+
+*`r citation_30153220`*
+
+`r PMID_30153220$abstract`
+
+`r PubMed_30153220`
+
+<!-- `r doi_30153220` -->
+
+`r dimensionBadge_30153220`
+
+`r altmetricBadge_30153220`
+
+</details>
+
+---
+
+
 
 
 <a href="#top">Back to top</a>
@@ -1356,9 +1576,19 @@ altmetricBadge_30156777 <- paste0(altmetricString1, PMID_30156777$doi, altmetric
 ---
 
 
-- Ancillary tests in the diagnosis of liver and pancreatic neoplasms
+- **Ancillary tests in the diagnosis of liver and pancreatic neoplasms**
 
 https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22009
+
+
+---
+
+
+- **Comparison between groove carcinoma and groove pancreatitis**
+
+
+https://www.sciencedirect.com/science/article/pii/S142439031830663X
+
 
 
 ---
@@ -1369,7 +1599,86 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22009
 ```
 
 
+
 ---
+
+```{r 30144340, include=FALSE}
+
+PMID_30144340 <- RefManageR::ReadPubMed('30144340', database = 'PubMed')
+
+citation_30144340 <- paste0(PMID_30144340$journal,' ', PMID_30144340$year, ' ', PMID_30144340$month,';', PMID_30144340$volume,'(', PMID_30144340$number,'):', PMID_30144340$pages)
+
+PubMed_30144340 <- paste0(PubMedString, PMID_30144340$eprint)
+
+doi_30144340 <- paste0(doiString, PMID_30144340$doi)
+
+dimensionBadge_30144340 <- paste0(dimensionString1, PMID_30144340$doi,dimensionString2)
+
+altmetricBadge_30144340 <- paste0(altmetricString1, PMID_30144340$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30144340$title`**
+</summary> 
+
+*`r citation_30144340`*
+
+`r PMID_30144340$abstract`
+
+`r PubMed_30144340`
+
+<!-- `r doi_30144340` -->
+
+`r dimensionBadge_30144340`
+
+`r altmetricBadge_30144340`
+
+</details>
+
+
+
+---
+
+```{r 30153349, include=FALSE}
+
+PMID_30153349 <- RefManageR::ReadPubMed('30153349', database = 'PubMed')
+
+citation_30153349 <- paste0(PMID_30153349$journal,' ', PMID_30153349$year, ' ', PMID_30153349$month,';', PMID_30153349$volume,'(', PMID_30153349$number,'):', PMID_30153349$pages)
+
+PubMed_30153349 <- paste0(PubMedString, PMID_30153349$eprint)
+
+doi_30153349 <- paste0(doiString, PMID_30153349$doi)
+
+dimensionBadge_30153349 <- paste0(dimensionString1, PMID_30153349$doi,dimensionString2)
+
+altmetricBadge_30153349 <- paste0(altmetricString1, PMID_30153349$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30153349$title`**
+</summary> 
+
+*`r citation_30153349`*
+
+`r PMID_30153349$abstract`
+
+`r PubMed_30153349`
+
+<!-- `r doi_30153349` -->
+
+`r dimensionBadge_30153349`
+
+`r altmetricBadge_30153349`
+
+</details>
+
+---
+
+
+
+
 
 ### Gallbladder
 
@@ -1413,6 +1722,43 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22009
 
 
 ---
+
+```{r 30177826, include=FALSE}
+
+PMID_30177826 <- RefManageR::ReadPubMed('30177826', database = 'PubMed')
+
+citation_30177826 <- paste0(PMID_30177826$journal,' ', PMID_30177826$year, ' ', PMID_30177826$month,';', PMID_30177826$volume,'(', PMID_30177826$number,'):', PMID_30177826$pages)
+
+PubMed_30177826 <- paste0(PubMedString, PMID_30177826$eprint)
+
+doi_30177826 <- paste0(doiString, PMID_30177826$doi)
+
+dimensionBadge_30177826 <- paste0(dimensionString1, PMID_30177826$doi,dimensionString2)
+
+altmetricBadge_30177826 <- paste0(altmetricString1, PMID_30177826$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30177826$title`**
+</summary> 
+
+*`r citation_30177826`*
+
+`r PMID_30177826$abstract`
+
+`r PubMed_30177826`
+
+<!-- `r doi_30177826` -->
+
+`r dimensionBadge_30177826`
+
+`r altmetricBadge_30177826`
+
+</details>
+
+---
+
 
 ```{r 30165049, include=FALSE}
 
@@ -1851,7 +2197,11 @@ https://www.sciencedirect.com/science/article/pii/S1424390318306070
 
 https://www.sciencedirect.com/science/article/pii/S0039606018302836
 
+---
 
+- **Stratification of Pancreatic Ductal Adenocarcinomas Based on Tumor and Microenvironment Features**
+
+https://www.sciencedirect.com/science/article/pii/S0016508518349199
 
 ---
 
@@ -2810,6 +3160,43 @@ https://www.surgjournal.com/article/S0039-6060(18)30459-8/fulltext
 
 ---
 
+```{r 30177543, include=FALSE}
+
+PMID_30177543 <- RefManageR::ReadPubMed('30177543', database = 'PubMed')
+
+citation_30177543 <- paste0(PMID_30177543$journal,' ', PMID_30177543$year, ' ', PMID_30177543$month,';', PMID_30177543$volume,'(', PMID_30177543$number,'):', PMID_30177543$pages)
+
+PubMed_30177543 <- paste0(PubMedString, PMID_30177543$eprint)
+
+doi_30177543 <- paste0(doiString, PMID_30177543$doi)
+
+dimensionBadge_30177543 <- paste0(dimensionString1, PMID_30177543$doi,dimensionString2)
+
+altmetricBadge_30177543 <- paste0(altmetricString1, PMID_30177543$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30177543$title`**
+</summary> 
+
+*`r citation_30177543`*
+
+`r PMID_30177543$abstract`
+
+`r PubMed_30177543`
+
+<!-- `r doi_30177543` -->
+
+`r dimensionBadge_30177543`
+
+`r altmetricBadge_30177543`
+
+</details>
+
+---
+
+
 ```{r 29578167, include=FALSE}
 
 PMID_29578167 <- RefManageR::ReadPubMed('29578167', database = 'PubMed')
@@ -2985,6 +3372,15 @@ altmetricBadge_29477748 <- paste0(altmetricString1, PMID_29477748$doi, altmetric
 `r altmetricBadge_29477748`
 
 </details>
+
+---
+
+
+- **Human  Organoids  Share  Structural  and  Genetic  Features  with  Primary  Pancreatic Adenocarcinoma Tumors**
+
+
+http://mcr.aacrjournals.org/content/molcanres/early/2018/08/31/1541-7786.MCR-18-0531.full.pdf
+
 
 ---
 
@@ -3187,6 +3583,41 @@ altmetricBadge_30120970 <- paste0(altmetricString1, PMID_30120970$doi, altmetric
 
 
 
+---
+
+```{r 30154150, include=FALSE}
+
+PMID_30154150 <- RefManageR::ReadPubMed('30154150', database = 'PubMed')
+
+citation_30154150 <- paste0(PMID_30154150$journal,' ', PMID_30154150$year, ' ', PMID_30154150$month,';', PMID_30154150$volume,'(', PMID_30154150$number,'):', PMID_30154150$pages)
+
+PubMed_30154150 <- paste0(PubMedString, PMID_30154150$eprint)
+
+doi_30154150 <- paste0(doiString, PMID_30154150$doi)
+
+dimensionBadge_30154150 <- paste0(dimensionString1, PMID_30154150$doi,dimensionString2)
+
+altmetricBadge_30154150 <- paste0(altmetricString1, PMID_30154150$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30154150$title`**
+</summary> 
+
+*`r citation_30154150`*
+
+`r PMID_30154150$abstract`
+
+`r PubMed_30154150`
+
+<!-- `r doi_30154150` -->
+
+`r dimensionBadge_30154150`
+
+`r altmetricBadge_30154150`
+
+</details>
 
 ---
 
@@ -3517,6 +3948,12 @@ altmetricBadge_30112703 <- paste0(altmetricString1, PMID_30112703$doi, altmetric
 https://link.springer.com/article/10.1007/s00268-018-4762-z
 
 
+---
+
+- **The association between preoperative serum interleukin‐6 levels and postoperative prognosis in patients with T2 gallbladder cancer**
+
+https://onlinelibrary.wiley.com/doi/10.1002/jso.25085
+
 
 ---
 
@@ -3602,6 +4039,44 @@ altmetricBadge_29197189 <- paste0(altmetricString1, PMID_29197189$doi, altmetric
 ```{r O Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
 
+
+
+
+---
+
+```{r 29931295, include=FALSE}
+
+PMID_29931295 <- RefManageR::ReadPubMed('29931295', database = 'PubMed')
+
+citation_29931295 <- paste0(PMID_29931295$journal,' ', PMID_29931295$year, ' ', PMID_29931295$month,';', PMID_29931295$volume,'(', PMID_29931295$number,'):', PMID_29931295$pages)
+
+PubMed_29931295 <- paste0(PubMedString, PMID_29931295$eprint)
+
+doi_29931295 <- paste0(doiString, PMID_29931295$doi)
+
+dimensionBadge_29931295 <- paste0(dimensionString1, PMID_29931295$doi,dimensionString2)
+
+altmetricBadge_29931295 <- paste0(altmetricString1, PMID_29931295$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29931295$title`**
+</summary> 
+
+*`r citation_29931295`*
+
+`r PMID_29931295$abstract`
+
+`r PubMed_29931295`
+
+<!-- `r doi_29931295` -->
+
+`r dimensionBadge_29931295`
+
+`r altmetricBadge_29931295`
+
+</details>
 
 ---
 
@@ -3945,6 +4420,46 @@ https://www.termedia.pl/Tissue-heterogeneity-contributes-to-suboptimal-precision
 
 ---
 
+```{r 30145647, include=FALSE}
+
+PMID_30145647 <- RefManageR::ReadPubMed('30145647', database = 'PubMed')
+
+citation_30145647 <- paste0(PMID_30145647$journal,' ', PMID_30145647$year, ' ', PMID_30145647$month,';', PMID_30145647$volume,'(', PMID_30145647$number,'):', PMID_30145647$pages)
+
+PubMed_30145647 <- paste0(PubMedString, PMID_30145647$eprint)
+
+doi_30145647 <- paste0(doiString, PMID_30145647$doi)
+
+dimensionBadge_30145647 <- paste0(dimensionString1, PMID_30145647$doi,dimensionString2)
+
+altmetricBadge_30145647 <- paste0(altmetricString1, PMID_30145647$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30145647$title`**
+</summary> 
+
+*`r citation_30145647`*
+
+`r PMID_30145647$abstract`
+
+`r PubMed_30145647`
+
+<!-- `r doi_30145647` -->
+
+`r dimensionBadge_30145647`
+
+`r altmetricBadge_30145647`
+
+</details>
+
+---
+
+
+
+---
+
 ### Database SEER, NCDB, TCGA, Oncomine Studies
 
 
@@ -3952,7 +4467,46 @@ https://www.termedia.pl/Tissue-heterogeneity-contributes-to-suboptimal-precision
 ```
 
 
+
+
 ---
+
+```{r 30155920, include=FALSE}
+
+PMID_30155920 <- RefManageR::ReadPubMed('30155920', database = 'PubMed')
+
+citation_30155920 <- paste0(PMID_30155920$journal,' ', PMID_30155920$year, ' ', PMID_30155920$month,';', PMID_30155920$volume,'(', PMID_30155920$number,'):', PMID_30155920$pages)
+
+PubMed_30155920 <- paste0(PubMedString, PMID_30155920$eprint)
+
+doi_30155920 <- paste0(doiString, PMID_30155920$doi)
+
+dimensionBadge_30155920 <- paste0(dimensionString1, PMID_30155920$doi,dimensionString2)
+
+altmetricBadge_30155920 <- paste0(altmetricString1, PMID_30155920$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30155920$title`**
+</summary> 
+
+*`r citation_30155920`*
+
+`r PMID_30155920$abstract`
+
+`r PubMed_30155920`
+
+<!-- `r doi_30155920` -->
+
+`r dimensionBadge_30155920`
+
+`r altmetricBadge_30155920`
+
+</details>
+
+---
+
 
 
 - Comparative outcomes of adenosquamous carcinoma of the pancreas: An analysis of the National Cancer Database
