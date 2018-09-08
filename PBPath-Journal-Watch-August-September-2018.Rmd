@@ -679,6 +679,43 @@ https://onlinelibrary.wiley.com/doi/10.1002/jso.25066
 
 ---
 
+```{r 30187215, include=FALSE}
+
+PMID_30187215 <- RefManageR::ReadPubMed('30187215', database = 'PubMed')
+
+citation_30187215 <- paste0(PMID_30187215$journal,' ', PMID_30187215$year, ' ', PMID_30187215$month,';', PMID_30187215$volume,'(', PMID_30187215$number,'):', PMID_30187215$pages)
+
+PubMed_30187215 <- paste0(PubMedString, PMID_30187215$eprint)
+
+doi_30187215 <- paste0(doiString, PMID_30187215$doi)
+
+dimensionBadge_30187215 <- paste0(dimensionString1, PMID_30187215$doi,dimensionString2)
+
+altmetricBadge_30187215 <- paste0(altmetricString1, PMID_30187215$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30187215$title`**
+</summary> 
+
+*`r citation_30187215`*
+
+`r PMID_30187215$abstract`
+
+`r PubMed_30187215`
+
+<!-- `r doi_30187215` -->
+
+`r dimensionBadge_30187215`
+
+`r altmetricBadge_30187215`
+
+</details>
+
+---
+
+
 ### IPMN
 
 ```{r S IPMN, eval=FALSE, include=FALSE}
