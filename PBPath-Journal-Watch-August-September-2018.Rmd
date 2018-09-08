@@ -713,6 +713,14 @@ altmetricBadge_30187215 <- paste0(altmetricString1, PMID_30187215$doi, altmetric
 
 </details>
 
+
+---
+
+- **Stromal biology and therapy in pancreatic cancer: ready for clinical translation?**
+
+
+https://gut.bmj.com/content/early/2018/09/03/gutjnl-2018-316451
+
 ---
 
 
@@ -958,6 +966,14 @@ altmetricBadge_29698701 <- paste0(altmetricString1, PMID_29698701$doi, altmetric
 
 ```{r S Gallbladder, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+- **Gallbladder carcinoma and epithelial dysplasia: Appropriate sampling for histopathology**
+
+https://www.sciencedirect.com/science/article/pii/S1092913418301163
+
 
 ---
 
@@ -1498,6 +1514,47 @@ altmetricBadge_30153220 <- paste0(altmetricString1, PMID_30153220$doi, altmetric
 ```{r C Pancreas, eval=FALSE, include=FALSE}
 ```
 
+
+
+---
+
+```{r 30190141, include=FALSE}
+
+PMID_30190141 <- RefManageR::ReadPubMed('30190141', database = 'PubMed')
+
+citation_30190141 <- paste0(PMID_30190141$journal,' ', PMID_30190141$year, ' ', PMID_30190141$month,';', PMID_30190141$volume,'(', PMID_30190141$number,'):', PMID_30190141$pages)
+
+PubMed_30190141 <- paste0(PubMedString, PMID_30190141$eprint)
+
+doi_30190141 <- paste0(doiString, PMID_30190141$doi)
+
+dimensionBadge_30190141 <- paste0(dimensionString1, PMID_30190141$doi,dimensionString2)
+
+altmetricBadge_30190141 <- paste0(altmetricString1, PMID_30190141$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30190141$title`**
+</summary> 
+
+*`r citation_30190141`*
+
+`r PMID_30190141$abstract`
+
+`r PubMed_30190141`
+
+<!-- `r doi_30190141` -->
+
+`r dimensionBadge_30190141`
+
+`r altmetricBadge_30190141`
+
+
+https://www.surgpath.theclinics.com/article/S1875-9181(18)30029-1/fulltext
+
+
+</details>
 
 ---
 
@@ -3168,6 +3225,68 @@ altmetricBadge_30139657 <- paste0(altmetricString1, PMID_30139657$doi, altmetric
 https://www.sciencedirect.com/science/article/pii/S1542356518308838
 
 
+
+---
+
+```{r 30074477, include=FALSE}
+
+PMID_30074477 <- RefManageR::ReadPubMed('30074477', database = 'PubMed')
+
+citation_30074477 <- paste0(PMID_30074477$journal,' ', PMID_30074477$year, ' ', PMID_30074477$month,';', PMID_30074477$volume,'(', PMID_30074477$number,'):', PMID_30074477$pages)
+
+PubMed_30074477 <- paste0(PubMedString, PMID_30074477$eprint)
+
+doi_30074477 <- paste0(doiString, PMID_30074477$doi)
+
+dimensionBadge_30074477 <- paste0(dimensionString1, PMID_30074477$doi,dimensionString2)
+
+altmetricBadge_30074477 <- paste0(altmetricString1, PMID_30074477$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30074477$title`**
+</summary> 
+
+*`r citation_30074477`*
+
+`r PMID_30074477$abstract`
+
+`r PubMed_30074477`
+
+<!-- `r doi_30074477` -->
+
+`r dimensionBadge_30074477`
+
+`r altmetricBadge_30074477`
+
+</details>
+
+
+---
+
+
+- **Genomic Profiling and Potentially Targetable Alterations in Pancreatic Ductal Adenocarcinoma**
+
+https://link.springer.com/article/10.1007/s11938-018-0195-x
+
+
+---
+
+- **Real-time Genomic Characterization of Advanced Pancreatic Cancer to Enable Precision Medicine**
+
+http://cancerdiscovery.aacrjournals.org/content/8/9/1096?iss=9
+
+---
+
+- **Organoid Profiling Identifies Common Responders to Chemotherapy in Pancreatic Cancer**
+
+http://cancerdiscovery.aacrjournals.org/content/8/9/1112?iss=9
+
+
+
+
+
 ---
 
 ### Pancreas IPMN
@@ -3179,7 +3298,7 @@ https://www.sciencedirect.com/science/article/pii/S1542356518308838
 
 ---
 
-- Surgical overtreatment of pancreatic intraductal papillary mucinous neoplasms: Do the 2017 International Consensus Guidelines improve clinical decision making?
+- **Surgical overtreatment of pancreatic intraductal papillary mucinous neoplasms: Do the 2017 International Consensus Guidelines improve clinical decision making?**
 
 https://www.surgjournal.com/article/S0039-6060(18)30459-8/fulltext
 
@@ -3967,6 +4086,50 @@ altmetricBadge_30112703 <- paste0(altmetricString1, PMID_30112703$doi, altmetric
 `r altmetricBadge_30112703`
 
 </details>
+
+
+---
+
+```{r 30180751, include=FALSE}
+
+PMID_30180751 <- RefManageR::ReadPubMed('30180751', database = 'PubMed')
+
+citation_30180751 <- paste0(PMID_30180751$journal,' ', PMID_30180751$year, ' ', PMID_30180751$month,';', PMID_30180751$volume,'(', PMID_30180751$number,'):', PMID_30180751$pages)
+
+PubMed_30180751 <- paste0(PubMedString, PMID_30180751$eprint)
+
+doi_30180751 <- paste0(doiString, PMID_30180751$doi)
+
+dimensionBadge_30180751 <- paste0(dimensionString1, PMID_30180751$doi,dimensionString2)
+
+altmetricBadge_30180751 <- paste0(altmetricString1, PMID_30180751$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30180751$title`**
+</summary> 
+
+*`r citation_30180751`*
+
+`r PMID_30180751$abstract`
+
+`r PubMed_30180751`
+
+<!-- `r doi_30180751` -->
+
+`r dimensionBadge_30180751`
+
+`r altmetricBadge_30180751`
+
+</details>
+
+---
+
+- **Novel targeted treatment options for advanced cholangiocarcinoma**
+
+https://www.tandfonline.com/doi/abs/10.1080/13543784.2018.1512581
+
 
 ---
 
