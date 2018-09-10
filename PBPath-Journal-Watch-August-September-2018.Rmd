@@ -1684,6 +1684,43 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22009
 https://www.sciencedirect.com/science/article/pii/S142439031830663X
 
 
+---
+
+```{r 30194916, include=FALSE}
+
+PMID_30194916 <- RefManageR::ReadPubMed('30194916', database = 'PubMed')
+
+citation_30194916 <- paste0(PMID_30194916$journal,' ', PMID_30194916$year, ' ', PMID_30194916$month,';', PMID_30194916$volume,'(', PMID_30194916$number,'):', PMID_30194916$pages)
+
+PubMed_30194916 <- paste0(PubMedString, PMID_30194916$eprint)
+
+doi_30194916 <- paste0(doiString, PMID_30194916$doi)
+
+dimensionBadge_30194916 <- paste0(dimensionString1, PMID_30194916$doi,dimensionString2)
+
+altmetricBadge_30194916 <- paste0(altmetricString1, PMID_30194916$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30194916$title`**
+</summary> 
+
+*`r citation_30194916`*
+
+`r PMID_30194916$abstract`
+
+`r PubMed_30194916`
+
+<!-- `r doi_30194916` -->
+
+`r dimensionBadge_30194916`
+
+`r altmetricBadge_30194916`
+
+</details>
+
+
 
 ---
 
