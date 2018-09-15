@@ -1042,6 +1042,47 @@ altmetricBadge_29698701 <- paste0(altmetricString1, PMID_29698701$doi, altmetric
 ```
 
 
+
+
+
+
+
+---
+
+```{r 30216818, include=FALSE}
+
+PMID_30216818 <- RefManageR::ReadPubMed('30216818', database = 'PubMed')
+
+citation_30216818 <- paste0(PMID_30216818$journal,' ', PMID_30216818$year, ' ', PMID_30216818$month,';', PMID_30216818$volume,'(', PMID_30216818$number,'):', PMID_30216818$pages)
+
+PubMed_30216818 <- paste0(PubMedString, PMID_30216818$eprint)
+
+doi_30216818 <- paste0(doiString, PMID_30216818$doi)
+
+dimensionBadge_30216818 <- paste0(dimensionString1, PMID_30216818$doi,dimensionString2)
+
+altmetricBadge_30216818 <- paste0(altmetricString1, PMID_30216818$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30216818$title`**
+</summary> 
+
+*`r citation_30216818`*
+
+`r PMID_30216818$abstract`
+
+`r PubMed_30216818`
+
+<!-- `r doi_30216818` -->
+
+`r dimensionBadge_30216818`
+
+`r altmetricBadge_30216818`
+
+</details>
+
 ---
 
 - **Gallbladder carcinoma and epithelial dysplasia: Appropriate sampling for histopathology**
@@ -1138,6 +1179,43 @@ https://journals.lww.com/ajsp/Abstract/2018/09000/Pyloric_Gland_Adenoma__PGA__of
 `r dimensionBadge_29975247`
 
 `r altmetricBadge_29975247`
+
+</details>
+
+
+---
+
+```{r 30214577, include=FALSE}
+
+PMID_30214577 <- RefManageR::ReadPubMed('30214577', database = 'PubMed')
+
+citation_30214577 <- paste0(PMID_30214577$journal,' ', PMID_30214577$year, ' ', PMID_30214577$month,';', PMID_30214577$volume,'(', PMID_30214577$number,'):', PMID_30214577$pages)
+
+PubMed_30214577 <- paste0(PubMedString, PMID_30214577$eprint)
+
+doi_30214577 <- paste0(doiString, PMID_30214577$doi)
+
+dimensionBadge_30214577 <- paste0(dimensionString1, PMID_30214577$doi,dimensionString2)
+
+altmetricBadge_30214577 <- paste0(altmetricString1, PMID_30214577$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30214577$title`**
+</summary> 
+
+*`r citation_30214577`*
+
+`r PMID_30214577$abstract`
+
+`r PubMed_30214577`
+
+<!-- `r doi_30214577` -->
+
+`r dimensionBadge_30214577`
+
+`r altmetricBadge_30214577`
 
 </details>
 
@@ -2562,6 +2640,44 @@ altmetricBadge_30098926 <- paste0(altmetricString1, PMID_30098926$doi, altmetric
 `r dimensionBadge_30098926`
 
 `r altmetricBadge_30098926`
+
+</details>
+
+
+---
+
+
+```{r 30216219, include=FALSE}
+
+PMID_30216219 <- RefManageR::ReadPubMed('30216219', database = 'PubMed')
+
+citation_30216219 <- paste0(PMID_30216219$journal,' ', PMID_30216219$year, ' ', PMID_30216219$month,';', PMID_30216219$volume,'(', PMID_30216219$number,'):', PMID_30216219$pages)
+
+PubMed_30216219 <- paste0(PubMedString, PMID_30216219$eprint)
+
+doi_30216219 <- paste0(doiString, PMID_30216219$doi)
+
+dimensionBadge_30216219 <- paste0(dimensionString1, PMID_30216219$doi,dimensionString2)
+
+altmetricBadge_30216219 <- paste0(altmetricString1, PMID_30216219$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30216219$title`**
+</summary> 
+
+*`r citation_30216219`*
+
+`r PMID_30216219$abstract`
+
+`r PubMed_30216219`
+
+<!-- `r doi_30216219` -->
+
+`r dimensionBadge_30216219`
+
+`r altmetricBadge_30216219`
 
 </details>
 
@@ -5774,6 +5890,7 @@ altmetricBadge_30210639 <- paste0(altmetricString1, PMID_30210639$doi, altmetric
 </details>
 
 ---
+
 
 - **A Prognostic Nomogram for Disease-Specific Survival in Patients with Pancreatic Ductal Adenocarcinoma of the Head of the Pancreas Following Pancreaticoduodenectomy**
 
