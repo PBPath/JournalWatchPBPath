@@ -4163,6 +4163,44 @@ altmetricBadge_30120970 <- paste0(altmetricString1, PMID_30120970$doi, altmetric
 
 </details>
 
+
+---
+
+```{r 30220022, include=FALSE}
+
+PMID_30220022 <- RefManageR::ReadPubMed('30220022', database = 'PubMed')
+
+citation_30220022 <- paste0(PMID_30220022$journal,' ', PMID_30220022$year, ' ', PMID_30220022$month,';', PMID_30220022$volume,'(', PMID_30220022$number,'):', PMID_30220022$pages)
+
+PubMed_30220022 <- paste0(PubMedString, PMID_30220022$eprint)
+
+doi_30220022 <- paste0(doiString, PMID_30220022$doi)
+
+dimensionBadge_30220022 <- paste0(dimensionString1, PMID_30220022$doi,dimensionString2)
+
+altmetricBadge_30220022 <- paste0(altmetricString1, PMID_30220022$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30220022$title`**
+</summary> 
+
+*`r citation_30220022`*
+
+`r PMID_30220022$abstract`
+
+`r PubMed_30220022`
+
+<!-- `r doi_30220022` -->
+
+`r dimensionBadge_30220022`
+
+`r altmetricBadge_30220022`
+
+</details>
+
+
 ---
 
 ### Animal Studies
