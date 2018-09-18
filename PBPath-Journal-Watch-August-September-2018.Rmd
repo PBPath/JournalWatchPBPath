@@ -3715,6 +3715,55 @@ altmetricBadge_30197477 <- paste0(altmetricString1, PMID_30197477$doi, altmetric
 
 </details>
 
+
+---
+
+
+- **Fluorescent‐guided surgery for sentinel lymph node detection in gastric cancer and carcinoembryonic antigen targeted fluorescent‐guided surgery in colorectal and pancreatic cancer**
+
+https://onlinelibrary.wiley.com/doi/10.1002/jso.25139
+
+
+
+---
+
+```{r 30222940, include=FALSE}
+
+PMID_30222940 <- RefManageR::ReadPubMed('30222940', database = 'PubMed')
+
+citation_30222940 <- paste0(PMID_30222940$journal,' ', PMID_30222940$year, ' ', PMID_30222940$month,';', PMID_30222940$volume,'(', PMID_30222940$number,'):', PMID_30222940$pages)
+
+PubMed_30222940 <- paste0(PubMedString, PMID_30222940$eprint)
+
+doi_30222940 <- paste0(doiString, PMID_30222940$doi)
+
+dimensionBadge_30222940 <- paste0(dimensionString1, PMID_30222940$doi,dimensionString2)
+
+altmetricBadge_30222940 <- paste0(altmetricString1, PMID_30222940$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30222940$title`**
+</summary> 
+
+*`r citation_30222940`*
+
+`r PMID_30222940$abstract`
+
+`r PubMed_30222940`
+
+<!-- `r doi_30222940` -->
+
+`r dimensionBadge_30222940`
+
+`r altmetricBadge_30222940`
+
+</details>
+
+
+
+
 ---
 
 
@@ -5971,10 +6020,56 @@ altmetricBadge_30210639 <- paste0(altmetricString1, PMID_30210639$doi, altmetric
 
 https://www.medscimonit.com/abstract/index/idArt/909649/act/2
 
-
 ---
 
 
+- **Pancreaticoduodenectomy and metastasectomy for metastatic pancreatic neuroendocrine tumors**
+
+https://onlinelibrary.wiley.com/doi/10.1002/jso.25219
+
+
+
+
+---
+
+```{r 30220478, include=FALSE}
+
+PMID_30220478 <- RefManageR::ReadPubMed('30220478', database = 'PubMed')
+
+citation_30220478 <- paste0(PMID_30220478$journal,' ', PMID_30220478$year, ' ', PMID_30220478$month,';', PMID_30220478$volume,'(', PMID_30220478$number,'):', PMID_30220478$pages)
+
+PubMed_30220478 <- paste0(PubMedString, PMID_30220478$eprint)
+
+doi_30220478 <- paste0(doiString, PMID_30220478$doi)
+
+dimensionBadge_30220478 <- paste0(dimensionString1, PMID_30220478$doi,dimensionString2)
+
+altmetricBadge_30220478 <- paste0(altmetricString1, PMID_30220478$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30220478$title`**
+</summary> 
+
+*`r citation_30220478`*
+
+`r PMID_30220478$abstract`
+
+`r PubMed_30220478`
+
+<!-- `r doi_30220478` -->
+
+`r dimensionBadge_30220478`
+
+`r altmetricBadge_30220478`
+
+</details>
+
+
+
+
+---
 
 <a href="#top">Back to top</a>
 
