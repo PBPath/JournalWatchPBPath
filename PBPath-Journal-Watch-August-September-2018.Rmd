@@ -795,7 +795,46 @@ altmetricBadge_30187215 <- paste0(altmetricString1, PMID_30187215$doi, altmetric
 
 https://gut.bmj.com/content/early/2018/09/03/gutjnl-2018-316451
 
+
 ---
+
+```{r 30225835, include=FALSE}
+
+PMID_30225835 <- RefManageR::ReadPubMed('30225835', database = 'PubMed')
+
+citation_30225835 <- paste0(PMID_30225835$journal,' ', PMID_30225835$year, ' ', PMID_30225835$month,';', PMID_30225835$volume,'(', PMID_30225835$number,'):', PMID_30225835$pages)
+
+PubMed_30225835 <- paste0(PubMedString, PMID_30225835$eprint)
+
+doi_30225835 <- paste0(doiString, PMID_30225835$doi)
+
+dimensionBadge_30225835 <- paste0(dimensionString1, PMID_30225835$doi,dimensionString2)
+
+altmetricBadge_30225835 <- paste0(altmetricString1, PMID_30225835$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30225835$title`**
+</summary> 
+
+*`r citation_30225835`*
+
+`r PMID_30225835$abstract`
+
+`r PubMed_30225835`
+
+<!-- `r doi_30225835` -->
+
+`r dimensionBadge_30225835`
+
+`r altmetricBadge_30225835`
+
+</details>
+
+---
+
+
 
 
 ### IPMN
@@ -1325,6 +1364,13 @@ https://www.sciencedirect.com/science/article/pii/S004681771830340X
 ```{r S PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+
+- **The expression of TTF1, CDX2 and ISL1 in 74 poorly differentiated neuroendocrine carcinomas**
+
+https://www.sciencedirect.com/science/article/pii/S1092913418302272
 
 
 ---
@@ -1879,7 +1925,47 @@ altmetricBadge_30194916 <- paste0(altmetricString1, PMID_30194916$doi, altmetric
 
 
 
+
 ---
+
+
+```{r 30224296, include=FALSE}
+
+PMID_30224296 <- RefManageR::ReadPubMed('30224296', database = 'PubMed')
+
+citation_30224296 <- paste0(PMID_30224296$journal,' ', PMID_30224296$year, ' ', PMID_30224296$month,';', PMID_30224296$volume,'(', PMID_30224296$number,'):', PMID_30224296$pages)
+
+PubMed_30224296 <- paste0(PubMedString, PMID_30224296$eprint)
+
+doi_30224296 <- paste0(doiString, PMID_30224296$doi)
+
+dimensionBadge_30224296 <- paste0(dimensionString1, PMID_30224296$doi,dimensionString2)
+
+altmetricBadge_30224296 <- paste0(altmetricString1, PMID_30224296$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30224296$title`**
+</summary> 
+
+*`r citation_30224296`*
+
+`r PMID_30224296$abstract`
+
+`r PubMed_30224296`
+
+<!-- `r doi_30224296` -->
+
+`r dimensionBadge_30224296`
+
+`r altmetricBadge_30224296`
+
+</details>
+
+---
+
+
 
 ### Biliary Tract
 
@@ -2678,6 +2764,43 @@ altmetricBadge_30216219 <- paste0(altmetricString1, PMID_30216219$doi, altmetric
 `r dimensionBadge_30216219`
 
 `r altmetricBadge_30216219`
+
+</details>
+
+
+---
+
+```{r 30227407, include=FALSE}
+
+PMID_30227407 <- RefManageR::ReadPubMed('30227407', database = 'PubMed')
+
+citation_30227407 <- paste0(PMID_30227407$journal,' ', PMID_30227407$year, ' ', PMID_30227407$month,';', PMID_30227407$volume,'(', PMID_30227407$number,'):', PMID_30227407$pages)
+
+PubMed_30227407 <- paste0(PubMedString, PMID_30227407$eprint)
+
+doi_30227407 <- paste0(doiString, PMID_30227407$doi)
+
+dimensionBadge_30227407 <- paste0(dimensionString1, PMID_30227407$doi,dimensionString2)
+
+altmetricBadge_30227407 <- paste0(altmetricString1, PMID_30227407$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30227407$title`**
+</summary> 
+
+*`r citation_30227407`*
+
+`r PMID_30227407$abstract`
+
+`r PubMed_30227407`
+
+<!-- `r doi_30227407` -->
+
+`r dimensionBadge_30227407`
+
+`r altmetricBadge_30227407`
 
 </details>
 
@@ -3899,6 +4022,22 @@ http://www.archivesofpathology.org/doi/abs/10.5858/arpa.2017-0195-RS
 
 ```{r O Pancreas Techniques & Research Methods, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+- **Accurate 3D Reconstruction of a Whole Pancreatic Cancer Tumor from Pathology Images with Different Stains**
+
+
+https://link.springer.com/chapter/10.1007/978-3-030-00949-6_5
+
+
+---
+
+- **Construction of a Generative Model of H&E Stained Pathology Images of Pancreas Tumors Conditioned by a Voxel Value of MRI Image**
+
+
+https://link.springer.com/chapter/10.1007/978-3-030-00949-6_4
 
 
 ---
@@ -6066,7 +6205,17 @@ altmetricBadge_30220478 <- paste0(altmetricString1, PMID_30220478$doi, altmetric
 
 </details>
 
+---
 
+- **A Refined Staging Model for Resectable Pancreatic Ductal Adenocarcinoma Incorporating Examined Lymph Nodes, Location of Tumor and Positive Lymph Nodes Ratio**
+
+https://www.researchgate.net/profile/Chaobin_He/publication/327545050_A_Refined_Staging_Model_for_Resectable_Pancreatic_Ductal_Adenocarcinoma_Incorporating_Examined_Lymph_Nodes_Location_of_Tumor_and_Positive_Lymph_Nodes_Ratio/links/5b952e98299bf14739317b7e/A-Refined-Staging-Model-for-Resectable-Pancreatic-Ductal-Adenocarcinoma-Incorporating-Examined-Lymph-Nodes-Location-of-Tumor-and-Positive-Lymph-Nodes-Ratio.pdf
+
+---
+
+- **Life expectancy in pancreatic neuroendocrine cancer**
+
+https://www.sciencedirect.com/science/article/pii/S2210740118301517
 
 
 ---
