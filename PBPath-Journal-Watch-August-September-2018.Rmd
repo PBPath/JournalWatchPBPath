@@ -1698,7 +1698,46 @@ altmetricBadge_30153220 <- paste0(altmetricString1, PMID_30153220$doi, altmetric
 
 </details>
 
+
 ---
+
+```{r 30236546, include=FALSE}
+
+PMID_30236546 <- RefManageR::ReadPubMed('30236546', database = 'PubMed')
+
+citation_30236546 <- paste0(PMID_30236546$journal,' ', PMID_30236546$year, ' ', PMID_30236546$month,';', PMID_30236546$volume,'(', PMID_30236546$number,'):', PMID_30236546$pages)
+
+PubMed_30236546 <- paste0(PubMedString, PMID_30236546$eprint)
+
+doi_30236546 <- paste0(doiString, PMID_30236546$doi)
+
+dimensionBadge_30236546 <- paste0(dimensionString1, PMID_30236546$doi,dimensionString2)
+
+altmetricBadge_30236546 <- paste0(altmetricString1, PMID_30236546$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30236546$title`**
+</summary> 
+
+*`r citation_30236546`*
+
+`r PMID_30236546$abstract`
+
+`r PubMed_30236546`
+
+<!-- `r doi_30236546` -->
+
+`r dimensionBadge_30236546`
+
+`r altmetricBadge_30236546`
+
+</details>
+
+---
+
+
 
 - **Characterization of the Neuroendocrine Tumor Immune Microenvironment**
 
@@ -2809,9 +2848,62 @@ altmetricBadge_30227407 <- paste0(altmetricString1, PMID_30227407$doi, altmetric
 
 </details>
 
+
+    30240661
+
 ---
 
+```{r 30240661, include=FALSE}
 
+PMID_30240661 <- RefManageR::ReadPubMed('30240661', database = 'PubMed')
+
+citation_30240661 <- paste0(PMID_30240661$journal,' ', PMID_30240661$year, ' ', PMID_30240661$month,';', PMID_30240661$volume,'(', PMID_30240661$number,'):', PMID_30240661$pages)
+
+PubMed_30240661 <- paste0(PubMedString, PMID_30240661$eprint)
+
+doi_30240661 <- paste0(doiString, PMID_30240661$doi)
+
+dimensionBadge_30240661 <- paste0(dimensionString1, PMID_30240661$doi,dimensionString2)
+
+altmetricBadge_30240661 <- paste0(altmetricString1, PMID_30240661$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30240661$title`**
+</summary> 
+
+*`r citation_30240661`*
+
+`r PMID_30240661$abstract`
+
+`r PubMed_30240661`
+
+<!-- `r doi_30240661` -->
+
+`r dimensionBadge_30240661`
+
+`r altmetricBadge_30240661`
+
+</details>
+
+---
+
+- **Next Generation Sequencing of the cellular and liquid fraction of pancreatic cyst fluid supports discrimination of IPMN from pseudocysts and reveals cases with multiple mutated driver clones ‐ first findings from the prospective ZYSTEUS biomarker study**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/gcc.22682
+
+
+---
+
+- **ARID1A, a SWI/SNF subunit, is critical to acinar cell homeostasis and regeneration and is a barrier to transformation and epithelial-mesenchymal transition in the pancreas**
+
+
+https://gut.bmj.com/content/early/2018/09/18/gutjnl-2017-315541
+
+
+
+---
 
 
 ### Biliary Tract
@@ -3897,6 +3989,87 @@ Oncogenevolume 37, pages5248–5256 (2018)
 https://www.nature.com/articles/s41388-018-0346-5  
 
 
+    30236651
+
+---
+
+```{r 30236651, include=FALSE}
+
+PMID_30236651 <- RefManageR::ReadPubMed('30236651', database = 'PubMed')
+
+citation_30236651 <- paste0(PMID_30236651$journal,' ', PMID_30236651$year, ' ', PMID_30236651$month,';', PMID_30236651$volume,'(', PMID_30236651$number,'):', PMID_30236651$pages)
+
+PubMed_30236651 <- paste0(PubMedString, PMID_30236651$eprint)
+
+doi_30236651 <- paste0(doiString, PMID_30236651$doi)
+
+dimensionBadge_30236651 <- paste0(dimensionString1, PMID_30236651$doi,dimensionString2)
+
+altmetricBadge_30236651 <- paste0(altmetricString1, PMID_30236651$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30236651$title`**
+</summary> 
+
+*`r citation_30236651`*
+
+`r PMID_30236651$abstract`
+
+`r PubMed_30236651`
+
+<!-- `r doi_30236651` -->
+
+`r dimensionBadge_30236651`
+
+`r altmetricBadge_30236651`
+
+</details>
+
+
+---
+
+```{r 30240665, include=FALSE}
+
+PMID_30240665 <- RefManageR::ReadPubMed('30240665', database = 'PubMed')
+
+citation_30240665 <- paste0(PMID_30240665$journal,' ', PMID_30240665$year, ' ', PMID_30240665$month,';', PMID_30240665$volume,'(', PMID_30240665$number,'):', PMID_30240665$pages)
+
+PubMed_30240665 <- paste0(PubMedString, PMID_30240665$eprint)
+
+doi_30240665 <- paste0(doiString, PMID_30240665$doi)
+
+dimensionBadge_30240665 <- paste0(dimensionString1, PMID_30240665$doi,dimensionString2)
+
+altmetricBadge_30240665 <- paste0(altmetricString1, PMID_30240665$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30240665$title`**
+</summary> 
+
+*`r citation_30240665`*
+
+`r PMID_30240665$abstract`
+
+`r PubMed_30240665`
+
+<!-- `r doi_30240665` -->
+
+`r dimensionBadge_30240665`
+
+`r altmetricBadge_30240665`
+
+</details>
+
+---
+
+
+
+
+
 ---
 
 
@@ -3928,6 +4101,43 @@ https://link.springer.com/article/10.1007/s11938-018-0190-2
 ```
 
 
+---
+
+```{r 30236555, include=FALSE}
+
+PMID_30236555 <- RefManageR::ReadPubMed('30236555', database = 'PubMed')
+
+citation_30236555 <- paste0(PMID_30236555$journal,' ', PMID_30236555$year, ' ', PMID_30236555$month,';', PMID_30236555$volume,'(', PMID_30236555$number,'):', PMID_30236555$pages)
+
+PubMed_30236555 <- paste0(PubMedString, PMID_30236555$eprint)
+
+doi_30236555 <- paste0(doiString, PMID_30236555$doi)
+
+dimensionBadge_30236555 <- paste0(dimensionString1, PMID_30236555$doi,dimensionString2)
+
+altmetricBadge_30236555 <- paste0(altmetricString1, PMID_30236555$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30236555$title`**
+</summary> 
+
+*`r citation_30236555`*
+
+`r PMID_30236555$abstract`
+
+`r PubMed_30236555`
+
+<!-- `r doi_30236555` -->
+
+`r dimensionBadge_30236555`
+
+`r altmetricBadge_30236555`
+
+</details>
+
+---
 
 ---
 
@@ -4438,6 +4648,16 @@ altmetricBadge_30229909 <- paste0(altmetricString1, PMID_30229909$doi, altmetric
 
 ---
 
+- **Primordial germ cells as a potential shared cell of origin for mucinous cystic neoplasms of the pancreas and mucinous ovarian tumors**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/path.5161
+
+
+---
+
+
+
+
 ### Animal Studies
 
 ```{r O Pancreas Animal Studies, eval=FALSE, include=FALSE}
@@ -4708,7 +4928,11 @@ altmetricBadge_30228219 <- paste0(altmetricString1, PMID_30228219$doi, altmetric
 
 https://ac.els-cdn.com/S2352345X18301255/1-s2.0-S2352345X18301255-main.pdf?_tid=14d4be90-2c1b-4f3e-a7f1-e6472ebc4325&acdnat=1537522502_724a83ab9e728e07620a6f391eb108b4
 
+---
 
+- **Hmga2 is dispensable for pancreatic cancer development, metastasis, and therapy resistance**
+
+https://www.nature.com/articles/s41598-018-32159-x
 
 
 
@@ -5545,6 +5769,11 @@ altmetricBadge_30145647 <- paste0(altmetricString1, PMID_30145647$doi, altmetric
 </details>
 
 ---
+
+- **Pancreatic islet of Langerhans' cytoarchitecture and ultrastructure in normal glucose tolerance and in type 2 diabetes mellitus**
+
+https://onlinelibrary.wiley.com/doi/pdf/10.1111/dom.13380
+
 
 
 
