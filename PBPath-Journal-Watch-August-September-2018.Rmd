@@ -843,6 +843,16 @@ https://www.researchgate.net/publication/327713995_Clinical_Implications_of_Exte
 
 ---
 
+
+- **Serous Neoplasms of the Pancreas: A Comprehensive Review**
+
+http://www.archivesofpathology.org/doi/full/10.5858/arpa.2017-0195-RS?code=coap-site
+
+
+
+
+---
+
 ### IPMN
 
 ```{r S IPMN, eval=FALSE, include=FALSE}
@@ -1276,6 +1286,43 @@ altmetricBadge_30214577 <- paste0(altmetricString1, PMID_30214577$doi, altmetric
 ```
 
 
+
+
+---
+
+```{r 30261192, include=FALSE}
+
+PMID_30261192 <- RefManageR::ReadPubMed('30261192', database = 'PubMed')
+
+citation_30261192 <- paste0(PMID_30261192$journal,' ', PMID_30261192$year, ' ', PMID_30261192$month,';', PMID_30261192$volume,'(', PMID_30261192$number,'):', PMID_30261192$pages)
+
+PubMed_30261192 <- paste0(PubMedString, PMID_30261192$eprint)
+
+doi_30261192 <- paste0(doiString, PMID_30261192$doi)
+
+dimensionBadge_30261192 <- paste0(dimensionString1, PMID_30261192$doi,dimensionString2)
+
+altmetricBadge_30261192 <- paste0(altmetricString1, PMID_30261192$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30261192$title`**
+</summary> 
+
+*`r citation_30261192`*
+
+`r PMID_30261192$abstract`
+
+`r PubMed_30261192`
+
+<!-- `r doi_30261192` -->
+
+`r dimensionBadge_30261192`
+
+`r altmetricBadge_30261192`
+
+</details>
 
 ---
 
@@ -4215,7 +4262,6 @@ altmetricBadge_30236555 <- paste0(altmetricString1, PMID_30236555$doi, altmetric
 
 </details>
 
----
 
 ---
 
@@ -6861,6 +6907,43 @@ altmetricBadge_30233242 <- paste0(altmetricString1, PMID_30233242$doi, altmetric
 
 </details>
 
+
+---
+
+```{r 30254473, include=FALSE}
+
+PMID_30254473 <- RefManageR::ReadPubMed('30254473', database = 'PubMed')
+
+citation_30254473 <- paste0(PMID_30254473$journal,' ', PMID_30254473$year, ' ', PMID_30254473$month,';', PMID_30254473$volume,'(', PMID_30254473$number,'):', PMID_30254473$pages)
+
+PubMed_30254473 <- paste0(PubMedString, PMID_30254473$eprint)
+
+doi_30254473 <- paste0(doiString, PMID_30254473$doi)
+
+dimensionBadge_30254473 <- paste0(dimensionString1, PMID_30254473$doi,dimensionString2)
+
+altmetricBadge_30254473 <- paste0(altmetricString1, PMID_30254473$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30254473$title`**
+</summary> 
+
+*`r citation_30254473`*
+
+`r PMID_30254473$abstract`
+
+`r PubMed_30254473`
+
+<!-- `r doi_30254473` -->
+
+`r dimensionBadge_30254473`
+
+`r altmetricBadge_30254473`
+
+</details>
+
 ---
 
 
@@ -6872,6 +6955,31 @@ altmetricBadge_30233242 <- paste0(altmetricString1, PMID_30233242$doi, altmetric
 <a href="#top">Back to top</a>
 
 \pagebreak
+
+
+## Meeting Abstracts
+
+- **ECP 2018**  
+30th European Congress of Pathology  
+Virchows Archiv Volume 473, Issue 1 Supplement, September 2018  
+https://link.springer.com/article/10.1007/s00428-018-2422-1  
+https://doi.org/10.1007/s00428-018-2422-1  
+
+
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+
+
+
+
+
+
+
 
 ## Journals Reviewed
 
@@ -7000,30 +7108,6 @@ Virchows Archiv
 <a href="#top">Back to top</a>
 
 \pagebreak
-
-
-## Meeting Abstracts
-
-- **ECP 2018**  
-30th European Congress of Pathology  
-Virchows Archiv Volume 473, Issue 1 Supplement, September 2018  
-https://link.springer.com/article/10.1007/s00428-018-2422-1  
-https://doi.org/10.1007/s00428-018-2422-1  
-
-
-
-
-
-
-
-
-
----
-
-<a href="#top">Back to top</a>
-
-\pagebreak
-
 
 
 ## Feedback
