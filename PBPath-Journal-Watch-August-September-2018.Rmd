@@ -850,6 +850,44 @@ http://www.archivesofpathology.org/doi/full/10.5858/arpa.2017-0195-RS?code=coap-
 
 
 
+---
+
+```{r 30264255, include=FALSE}
+
+PMID_30264255 <- RefManageR::ReadPubMed('30264255', database = 'PubMed')
+
+citation_30264255 <- paste0(PMID_30264255$journal,' ', PMID_30264255$year, ' ', PMID_30264255$month,';', PMID_30264255$volume,'(', PMID_30264255$number,'):', PMID_30264255$pages)
+
+PubMed_30264255 <- paste0(PubMedString, PMID_30264255$eprint)
+
+doi_30264255 <- paste0(doiString, PMID_30264255$doi)
+
+dimensionBadge_30264255 <- paste0(dimensionString1, PMID_30264255$doi,dimensionString2)
+
+altmetricBadge_30264255 <- paste0(altmetricString1, PMID_30264255$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30264255$title`**
+</summary> 
+
+*`r citation_30264255`*
+
+`r PMID_30264255$abstract`
+
+`r PubMed_30264255`
+
+<!-- `r doi_30264255` -->
+
+`r dimensionBadge_30264255`
+
+`r altmetricBadge_30264255`
+
+</details>
+
+
+
 
 ---
 
@@ -2987,6 +3025,17 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/gcc.22682
 https://gut.bmj.com/content/early/2018/09/18/gutjnl-2017-315541
 
 
+---
+
+
+- **Gene expression analysis of embryonic pancreas development master regulators and terminal cell fate markers in resected pancreatic cancer: A correlation with clinical outcome**
+
+
+https://www.sciencedirect.com/science/article/pii/S1424390318306835
+
+
+
+
 
 ---
 
@@ -4220,6 +4269,15 @@ https://link.springer.com/article/10.1007/s11938-018-0190-2
 
 ---
 
+
+- **Clinical utility of the guidelines for intraductal papillary mucinous neoplasm: A case series from a medical center in central Taiwan**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/aid2.13095
+
+
+
+---
+
 ### Pancreas Reviews and Meta Analysis
 
 ```{r O Pancreas Reviews and Meta Analysis, eval=FALSE, include=FALSE}
@@ -5098,7 +5156,11 @@ https://ac.els-cdn.com/S2352345X18301255/1-s2.0-S2352345X18301255-main.pdf?_tid=
 
 https://www.nature.com/articles/s41598-018-32159-x
 
+---
 
+- **Inhibition of 15-PGDH causes Kras-driven tumor expansion through prostaglandin E2-ALDH1 signaling in the pancreas**
+
+https://www.nature.com/articles/s41388-018-0510-y
 
 
 
@@ -5421,7 +5483,11 @@ altmetricBadge_29197189 <- paste0(altmetricString1, PMID_29197189$doi, altmetric
 
 ---
 
+- **Gallbladder Cancer in Eastern Province of Saudi Arabia: A Retrospective Cohort Study**
 
+https://www.sciencedirect.com/science/article/pii/S2049080118301845
+
+---
 
 
 ### Ampulla of Vater
