@@ -1,0 +1,620 @@
+---
+title: "Pancreatobiliary Pathology Society Journal Watch"
+output:
+  html_notebook:
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
+  word_document:
+    toc: yes
+date: "Last Update on `r format(Sys.Date())`"
+subtitle: "October November 2018"
+---
+
+<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
+
+---
+
+# The Current PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
+
+```{r include=FALSE}
+PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
+
+doiString <- "doi: https://doi.org/"
+
+dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='"
+
+dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>"
+
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='"
+
+altmetricString2 <- "' data-hide-no-mentions='true'></span>"
+```
+
+
+**Wellcome to our journal watch for pancreatobiliary pathology articles, which is released every other month.**
+
+*We have created several categories for convenience; however, articles in each category are in no particular order.*
+
+*Please feel free to fill out our feedback form. You may also recommend articles to be included.*
+
+\pagebreak
+
+
+---
+
+## Surgical Pathology {.tabset}
+
+---
+
+### Pancreas
+
+```{r S Pancreas, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+```{r 30267303, include=FALSE}
+
+PMID_30267303 <- RefManageR::ReadPubMed('30267303', database = 'PubMed')
+
+citation_30267303 <- paste0(PMID_30267303$journal,' ', PMID_30267303$year, ' ', PMID_30267303$month,';', PMID_30267303$volume,'(', PMID_30267303$number,'):', PMID_30267303$pages)
+
+PubMed_30267303 <- paste0(PubMedString, PMID_30267303$eprint)
+
+doi_30267303 <- paste0(doiString, PMID_30267303$doi)
+
+dimensionBadge_30267303 <- paste0(dimensionString1, PMID_30267303$doi,dimensionString2)
+
+altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30267303$title`**
+</summary> 
+
+*`r citation_30267303`*
+
+`r PMID_30267303$abstract`
+
+`r PubMed_30267303`
+
+<!-- `r doi_30267303` -->
+
+`r dimensionBadge_30267303`
+
+`r altmetricBadge_30267303`
+
+</details>
+
+---
+
+
+
+---
+
+<!-- ### IPMN -->
+
+```{r S IPMN, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+
+<!-- ### Biliary Tract -->
+
+```{r S Biliary Tract, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+
+<!-- ### Gallbladder -->
+
+
+```{r S Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+
+
+
+
+<!-- ### Ampulla of Vater -->
+
+```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+---
+
+
+### PanNET Neuroendocrine
+
+
+```{r S PanNET Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+---
+
+- **The use of Ki-67 labeling index to grade pulmonary well-differentiated neuroendocrine neoplasms: current best evidence**
+
+https://www.nature.com/articles/s41379-018-0076-9
+
+
+
+---
+
+
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+## Cytopathology {.tabset}
+
+
+---
+
+### Pancreas
+
+```{r C Pancreas, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30268674, include=FALSE}
+
+PMID_30268674 <- RefManageR::ReadPubMed('30268674', database = 'PubMed')
+
+citation_30268674 <- paste0(PMID_30268674$journal,' ', PMID_30268674$year, ' ', PMID_30268674$month,';', PMID_30268674$volume,'(', PMID_30268674$number,'):', PMID_30268674$pages)
+
+PubMed_30268674 <- paste0(PubMedString, PMID_30268674$eprint)
+
+doi_30268674 <- paste0(doiString, PMID_30268674$doi)
+
+dimensionBadge_30268674 <- paste0(dimensionString1, PMID_30268674$doi,dimensionString2)
+
+altmetricBadge_30268674 <- paste0(altmetricString1, PMID_30268674$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30268674$title`**
+</summary> 
+
+*`r citation_30268674`*
+
+`r PMID_30268674$abstract`
+
+`r PubMed_30268674`
+
+<!-- `r doi_30268674` -->
+
+`r dimensionBadge_30268674`
+
+`r altmetricBadge_30268674`
+
+</details>
+
+---
+
+
+
+
+
+
+<!-- ### Biliary Tract -->
+
+```{r C Biliary Tract, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+
+
+
+<!-- ### Gallbladder -->
+
+```{r C Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+<!-- ### Ampulla of Vater -->
+
+```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+<!-- ### PanNET Neuroendocrine -->
+
+
+```{r C PanNET Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+<!-- ## Molecular Pathology {.tabset} -->
+
+---
+
+
+<!-- ### Pancreas -->
+
+```{r M Pancreas, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+
+<!-- ### Biliary Tract -->
+
+```{r M Biliary Tract, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+<!-- ### Gallbladder -->
+
+```{r M Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+<!-- ### Ampulla of Vater -->
+
+```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+
+<!-- ### PanNET Neuroendocrine -->
+
+
+```{r M PanNET Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+
+
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+## Others {.tabset}
+
+
+
+---
+
+<!-- ### Pancreas -->
+
+```{r O Pancreas, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+
+<!-- ### Pancreas IPMN -->
+
+
+```{r O Pancreas IPMN, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+<!-- ### Pancreas Reviews and Meta Analysis -->
+
+```{r O Pancreas Reviews and Meta Analysis, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+<!-- ### Pancreas Techniques & Research Methods -->
+
+```{r O Pancreas Techniques & Research Methods, eval=FALSE, include=FALSE}
+```
+
+
+
+
+---
+
+<!-- ### Pancreas Analogue Tumors -->
+
+
+```{r O Pancreas Analogue, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+### Animal Studies
+
+```{r O Pancreas Animal Studies, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+```{r 30266763, include=FALSE}
+
+PMID_30266763 <- RefManageR::ReadPubMed('30266763', database = 'PubMed')
+
+citation_30266763 <- paste0(PMID_30266763$journal,' ', PMID_30266763$year, ' ', PMID_30266763$month,';', PMID_30266763$volume,'(', PMID_30266763$number,'):', PMID_30266763$pages)
+
+PubMed_30266763 <- paste0(PubMedString, PMID_30266763$eprint)
+
+doi_30266763 <- paste0(doiString, PMID_30266763$doi)
+
+dimensionBadge_30266763 <- paste0(dimensionString1, PMID_30266763$doi,dimensionString2)
+
+altmetricBadge_30266763 <- paste0(altmetricString1, PMID_30266763$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30266763$title`**
+</summary> 
+
+*`r citation_30266763`*
+
+`r PMID_30266763$abstract`
+
+`r PubMed_30266763`
+
+<!-- `r doi_30266763` -->
+
+`r dimensionBadge_30266763`
+
+`r altmetricBadge_30266763`
+
+</details>
+
+---
+
+
+
+
+---
+
+<!-- ### Biliary Tract -->
+
+```{r O Biliary Tract, eval=FALSE, include=FALSE}
+```
+
+
+
+
+---
+
+<!-- ### Gallbladder -->
+
+
+```{r O Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+
+<!-- ### Ampulla of Vater -->
+
+```{r O Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+
+
+<!-- ### PanNET Neuroendocrine -->
+
+
+```{r O PanNET Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+---
+
+<!-- ### Database SEER, NCDB, TCGA, Oncomine Studies -->
+
+
+```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
+```
+
+
+
+
+
+
+
+
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+
+<!-- ## Meeting Abstracts -->
+
+
+
+<!-- --- -->
+
+<!-- <a href="#top">Back to top</a> -->
+
+<!-- \pagebreak -->
+
+
+
+
+
+
+
+
+
+## Journals Reviewed
+
+---
+
+Advances in Anatomic Pathology  
+American Journal of Clinical Pathology  
+The American Journal of Gastroenterology  
+The American Journal of Pathology  
+American Journal of Surgical Pathology  
+Annals of Diagnostic Pathology  
+Annals of Surgery  
+Annals of Surgical Oncology  
+Annual Review of Pathology-Mechanisms of Disease  
+APMIS  
+Applied Immunohistochemistry & Molecular Morphology  
+Archives of Pathology & Laboratory Medicine  
+Cancer  
+Cancer Cell  
+Cancer Cytopathology  
+Cell  
+Cellular Oncology  
+Clinical Cancer Research  
+Cochrane Database Systematic Reviews  
+Cytojournal  
+Cytopathology  
+Diagnostic Cytopathology  
+Diagnostic Pathology  
+Endocrine Pathology  
+Experimental and Molecular Pathology  
+Expert Review of Molecular Diagnostics  
+Gastroenterology  
+Gut  
+Histology and Histopathology  
+Histopathology  
+Human Pathology  
+International Journal of Surgical Pathology  
+International Journal of Clinical and Experimental Pathology  
+Journal of Clinical Pathology  
+Journal of Molecular Diagnostics  
+Journal of Pathology  
+Laboratory investigation  
+Lancet  
+Medical Molecular Morphology  
+Modern Pathology  
+Nature  
+Nature Reviews Gastroenterology & Hepatology  
+NEJM  
+Pancreas  
+Pancreatology  
+Pathobiology  
+Pathologie Biologie  
+Pathology  
+Pathology & Oncology Research  
+Pathology International  
+Pathology Research and Practice  
+PNAS  
+Science  
+Seminars in Diagnostic Pathology  
+Seminars in Immunopathology  
+Surgical pathology clinics  
+Tissue Antigens  
+Trends in Cancer  
+Virchows Archiv  
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+
+## Feedback
+
+---
+
+Please send your feedbacks using the form below:
+
+[Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+## Archive
+
+---
+
+**The PBPath Journal Archive**
+
+- [Current Issue](http://pbpath.org/journal-watch/)
+
+- [Older Issues](http://pbpath.org/journal-watch-archive/)
+
+   - [June-July-2018](http://pbpath.org/pbpath-journal-watch-june-july-2018/)
+   
+   - [August-September-2018](http://pbpath.org/pbpath-journal-watch-august-september-2018/)
+
+   - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/).
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak

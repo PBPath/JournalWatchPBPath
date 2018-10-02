@@ -10,6 +10,7 @@ output:
     keep_tex: yes
     latex_engine: xelatex
     toc: yes
+    toc_depth: 5
   html_document:
     df_print: kable
     highlight: null
@@ -20,7 +21,7 @@ date: "Last Update on `r format(Sys.Date())`"
 subtitle: "August September 2018"
 ---
 
-<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
+[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
 
 ---
 
@@ -60,8 +61,6 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 ```{r S Pancreas, eval=FALSE, include=FALSE}
 ```
-
-
 
 
 
