@@ -46,7 +46,7 @@ altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
 *We have created several categories for convenience; however, articles in each category are in no particular order.*
 
-*Please feel free to fill out our feedback form. You may also recommend articles to be included.*
+*Please feel free to [fill out our feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform). You may also recommend articles to be included.*
 
 \pagebreak
 
@@ -82,8 +82,28 @@ altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetric
 
 ```
 
-<details open> <summary>
-- **`r PMID_30267303$title`**
+<details> <summary>
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/?term=30267303'>1 **`r PMID_30267303$title`**</a>
+</summary> 
+
+*`r citation_30267303`*
+
+`r PMID_30267303$abstract`
+
+`r PubMed_30267303`
+
+<!-- `r doi_30267303` -->
+
+`r dimensionBadge_30267303`
+
+`r altmetricBadge_30267303`
+
+</details>
+
+---
+
+<details> <summary>
+2 **`r PMID_30267303$title`**
 </summary> 
 
 *`r citation_30267303`*
@@ -103,8 +123,24 @@ altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetric
 ---
 
 
+<a href='https://www.ncbi.nlm.nih.gov/pubmed/?term=30267303'>3 **`r PMID_30267303$title`**</a>
+
+
+*`r citation_30267303`*
+
+`r PMID_30267303$abstract`
+
+`r PubMed_30267303`
+
+<!-- `r doi_30267303` -->
+
+`r dimensionBadge_30267303`
+
+`r altmetricBadge_30267303`
+
 
 ---
+
 
 <!-- ### IPMN -->
 
