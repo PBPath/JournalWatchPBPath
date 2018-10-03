@@ -139,6 +139,43 @@ altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetric
 `r altmetricBadge_30267303`
 
 
+
+---
+
+```{r 30275097, include=FALSE}
+
+PMID_30275097 <- RefManageR::ReadPubMed('30275097', database = 'PubMed')
+
+citation_30275097 <- paste0(PMID_30275097$journal,' ', PMID_30275097$year, ' ', PMID_30275097$month,';', PMID_30275097$volume,'(', PMID_30275097$number,'):', PMID_30275097$pages)
+
+PubMed_30275097 <- paste0(PubMedString, PMID_30275097$eprint)
+
+doi_30275097 <- paste0(doiString, PMID_30275097$doi)
+
+dimensionBadge_30275097 <- paste0(dimensionString1, PMID_30275097$doi,dimensionString2)
+
+altmetricBadge_30275097 <- paste0(altmetricString1, PMID_30275097$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30275097$title`**
+</summary> 
+
+*`r citation_30275097`*
+
+`r PMID_30275097$abstract`
+
+`r PubMed_30275097`
+
+<!-- `r doi_30275097` -->
+
+`r dimensionBadge_30275097`
+
+`r altmetricBadge_30275097`
+
+</details>
+
 ---
 
 
@@ -350,13 +387,51 @@ https://link.springer.com/article/10.1007/s10689-018-0106-2
 
 ---
 
-<!-- ### Ampulla of Vater -->
+### Ampulla of Vater
 
 ```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
 
 
 ---
+
+```{r 29731265, include=FALSE}
+
+PMID_29731265 <- RefManageR::ReadPubMed('29731265', database = 'PubMed')
+
+citation_29731265 <- paste0(PMID_29731265$journal,' ', PMID_29731265$year, ' ', PMID_29731265$month,';', PMID_29731265$volume,'(', PMID_29731265$number,'):', PMID_29731265$pages)
+
+PubMed_29731265 <- paste0(PubMedString, PMID_29731265$eprint)
+
+doi_29731265 <- paste0(doiString, PMID_29731265$doi)
+
+dimensionBadge_29731265 <- paste0(dimensionString1, PMID_29731265$doi,dimensionString2)
+
+altmetricBadge_29731265 <- paste0(altmetricString1, PMID_29731265$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29731265$title`**
+</summary> 
+
+*`r citation_29731265`*
+
+`r PMID_29731265$abstract`
+
+`r PubMed_29731265`
+
+<!-- `r doi_29731265` -->
+
+`r dimensionBadge_29731265`
+
+`r altmetricBadge_29731265`
+
+</details>
+
+---
+
+
 
 
 <!-- ### PanNET Neuroendocrine -->
@@ -380,10 +455,53 @@ https://link.springer.com/article/10.1007/s10689-018-0106-2
 
 ---
 
-<!-- ### Pancreas -->
+### Pancreas
 
 ```{r O Pancreas, eval=FALSE, include=FALSE}
 ```
+
+
+
+---
+
+
+```{r 30274883, include=FALSE}
+
+PMID_30274883 <- RefManageR::ReadPubMed('30274883', database = 'PubMed')
+
+citation_30274883 <- paste0(PMID_30274883$journal,' ', PMID_30274883$year, ' ', PMID_30274883$month,';', PMID_30274883$volume,'(', PMID_30274883$number,'):', PMID_30274883$pages)
+
+PubMed_30274883 <- paste0(PubMedString, PMID_30274883$eprint)
+
+doi_30274883 <- paste0(doiString, PMID_30274883$doi)
+
+dimensionBadge_30274883 <- paste0(dimensionString1, PMID_30274883$doi,dimensionString2)
+
+altmetricBadge_30274883 <- paste0(altmetricString1, PMID_30274883$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30274883$title`**
+</summary> 
+
+*`r citation_30274883`*
+
+`r PMID_30274883$abstract`
+
+`r PubMed_30274883`
+
+<!-- `r doi_30274883` -->
+
+`r dimensionBadge_30274883`
+
+`r altmetricBadge_30274883`
+
+</details>
+
+
+
+
 
 
 ---
@@ -504,6 +622,43 @@ altmetricBadge_30266763 <- paste0(altmetricString1, PMID_30266763$doi, altmetric
 https://link.springer.com/article/10.1186/s40792-018-0524-2
 
 
+
+---
+
+```{r 29391332, include=FALSE}
+
+PMID_29391332 <- RefManageR::ReadPubMed('29391332', database = 'PubMed')
+
+citation_29391332 <- paste0(PMID_29391332$journal,' ', PMID_29391332$year, ' ', PMID_29391332$month,';', PMID_29391332$volume,'(', PMID_29391332$number,'):', PMID_29391332$pages)
+
+PubMed_29391332 <- paste0(PubMedString, PMID_29391332$eprint)
+
+doi_29391332 <- paste0(doiString, PMID_29391332$doi)
+
+dimensionBadge_29391332 <- paste0(dimensionString1, PMID_29391332$doi,dimensionString2)
+
+altmetricBadge_29391332 <- paste0(altmetricString1, PMID_29391332$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29391332$title`**
+</summary> 
+
+*`r citation_29391332`*
+
+`r PMID_29391332$abstract`
+
+`r PubMed_29391332`
+
+<!-- `r doi_29391332` -->
+
+`r dimensionBadge_29391332`
+
+`r altmetricBadge_29391332`
+
+</details>
+
 ---
 
 
@@ -525,12 +680,52 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25186
 ---
 
 
-<!-- ### Ampulla of Vater -->
+### Ampulla of Vater
 
 ```{r O Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
 
 
+---
+
+```{r 30269771, include=FALSE}
+
+PMID_30269771 <- RefManageR::ReadPubMed('30269771', database = 'PubMed')
+
+citation_30269771 <- paste0(PMID_30269771$journal,' ', PMID_30269771$year, ' ', PMID_30269771$month,';', PMID_30269771$volume,'(', PMID_30269771$number,'):', PMID_30269771$pages)
+
+PubMed_30269771 <- paste0(PubMedString, PMID_30269771$eprint)
+
+doi_30269771 <- paste0(doiString, PMID_30269771$doi)
+
+dimensionBadge_30269771 <- paste0(dimensionString1, PMID_30269771$doi,dimensionString2)
+
+altmetricBadge_30269771 <- paste0(altmetricString1, PMID_30269771$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30269771$title`**  
+[Prognostic factors in adenocarcinoma of the ampulla of Vater].  
+</summary> 
+
+https://www.ncbi.nlm.nih.gov/pubmed/?term=30269771
+
+*`r citation_30269771`*
+
+`r PMID_30269771$abstract`
+
+`r PubMed_30269771`
+
+<!-- `r doi_30269771` -->
+
+`r dimensionBadge_30269771`
+
+`r altmetricBadge_30269771`
+
+</details>
+
+---
 
 
 
@@ -567,6 +762,120 @@ https://onlinelibrary.wiley.com/doi/pdf/10.1002/cam4.1795
 https://www.sciencedirect.com/science/article/pii/S1365182X18339352
 
 
+
+---
+
+```{r 29395269, include=FALSE}
+
+PMID_29395269 <- RefManageR::ReadPubMed('29395269', database = 'PubMed')
+
+citation_29395269 <- paste0(PMID_29395269$journal,' ', PMID_29395269$year, ' ', PMID_29395269$month,';', PMID_29395269$volume,'(', PMID_29395269$number,'):', PMID_29395269$pages)
+
+PubMed_29395269 <- paste0(PubMedString, PMID_29395269$eprint)
+
+doi_29395269 <- paste0(doiString, PMID_29395269$doi)
+
+dimensionBadge_29395269 <- paste0(dimensionString1, PMID_29395269$doi,dimensionString2)
+
+altmetricBadge_29395269 <- paste0(altmetricString1, PMID_29395269$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29395269$title`**
+</summary> 
+
+*`r citation_29395269`*
+
+`r PMID_29395269$abstract`
+
+`r PubMed_29395269`
+
+<!-- `r doi_29395269` -->
+
+`r dimensionBadge_29395269`
+
+`r altmetricBadge_29395269`
+
+</details>
+
+
+---
+
+```{r 29395271, include=FALSE}
+
+PMID_29395271 <- RefManageR::ReadPubMed('29395271', database = 'PubMed')
+
+citation_29395271 <- paste0(PMID_29395271$journal,' ', PMID_29395271$year, ' ', PMID_29395271$month,';', PMID_29395271$volume,'(', PMID_29395271$number,'):', PMID_29395271$pages)
+
+PubMed_29395271 <- paste0(PubMedString, PMID_29395271$eprint)
+
+doi_29395271 <- paste0(doiString, PMID_29395271$doi)
+
+dimensionBadge_29395271 <- paste0(dimensionString1, PMID_29395271$doi,dimensionString2)
+
+altmetricBadge_29395271 <- paste0(altmetricString1, PMID_29395271$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29395271$title`**
+</summary> 
+
+*`r citation_29395271`*
+
+`r PMID_29395271$abstract`
+
+`r PubMed_29395271`
+
+<!-- `r doi_29395271` -->
+
+`r dimensionBadge_29395271`
+
+`r altmetricBadge_29395271`
+
+</details>
+
+
+
+
+---
+
+```{r 30277653, include=FALSE}
+
+PMID_30277653 <- RefManageR::ReadPubMed('30277653', database = 'PubMed')
+
+citation_30277653 <- paste0(PMID_30277653$journal,' ', PMID_30277653$year, ' ', PMID_30277653$month,';', PMID_30277653$volume,'(', PMID_30277653$number,'):', PMID_30277653$pages)
+
+PubMed_30277653 <- paste0(PubMedString, PMID_30277653$eprint)
+
+doi_30277653 <- paste0(doiString, PMID_30277653$doi)
+
+dimensionBadge_30277653 <- paste0(dimensionString1, PMID_30277653$doi,dimensionString2)
+
+altmetricBadge_30277653 <- paste0(altmetricString1, PMID_30277653$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30277653$title`**
+</summary> 
+
+*`r citation_30277653`*
+
+`r PMID_30277653$abstract`
+
+`r PubMed_30277653`
+
+<!-- `r doi_30277653` -->
+
+`r dimensionBadge_30277653`
+
+`r altmetricBadge_30277653`
+
+</details>
+
+---
 
 ---
 
