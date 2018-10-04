@@ -514,15 +514,98 @@ altmetricBadge_30274883 <- paste0(altmetricString1, PMID_30274883$doi, altmetric
 ```
 
 
+### Pancreas Microenvironment
+
+
+```{r O Pancreas Microenvironment, eval=FALSE, include=FALSE}
+```
+
+
+```{r 29495889, include=FALSE}
+
+PMID_29495889 <- RefManageR::ReadPubMed('29495889', database = 'PubMed')
+
+citation_29495889 <- paste0(PMID_29495889$journal,' ', PMID_29495889$year, ' ', PMID_29495889$month,';', PMID_29495889$volume,'(', PMID_29495889$number,'):', PMID_29495889$pages)
+
+PubMed_29495889 <- paste0(PubMedString, PMID_29495889$eprint)
+
+doi_29495889 <- paste0(doiString, PMID_29495889$doi)
+
+dimensionBadge_29495889 <- paste0(dimensionString1, PMID_29495889$doi,dimensionString2)
+
+altmetricBadge_29495889 <- paste0(altmetricString1, PMID_29495889$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29495889$title`**
+</summary> 
+
+*`r citation_29495889`*
+
+`r PMID_29495889$abstract`
+
+`r PubMed_29495889`
+
+<!-- `r doi_29495889` -->
+
+`r dimensionBadge_29495889`
+
+`r altmetricBadge_29495889`
+
+</details>
 
 ---
 
-<!-- ### Pancreas Reviews and Meta Analysis -->
+
+
+---
+
+### Pancreas Reviews and Meta Analysis
 
 ```{r O Pancreas Reviews and Meta Analysis, eval=FALSE, include=FALSE}
 ```
 
 
+    30269131
+
+---
+
+```{r 30269131, include=FALSE}
+
+PMID_30269131 <- RefManageR::ReadPubMed('30269131', database = 'PubMed')
+
+citation_30269131 <- paste0(PMID_30269131$journal,' ', PMID_30269131$year, ' ', PMID_30269131$month,';', PMID_30269131$volume,'(', PMID_30269131$number,'):', PMID_30269131$pages)
+
+PubMed_30269131 <- paste0(PubMedString, PMID_30269131$eprint)
+
+doi_30269131 <- paste0(doiString, PMID_30269131$doi)
+
+dimensionBadge_30269131 <- paste0(dimensionString1, PMID_30269131$doi,dimensionString2)
+
+altmetricBadge_30269131 <- paste0(altmetricString1, PMID_30269131$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30269131$title`**
+</summary> 
+
+*`r citation_30269131`*
+
+`r PMID_30269131$abstract`
+
+`r PubMed_30269131`
+
+<!-- `r doi_30269131` -->
+
+`r dimensionBadge_30269131`
+
+`r altmetricBadge_30269131`
+
+</details>
+
+---
 
 ---
 
@@ -876,6 +959,16 @@ altmetricBadge_30277653 <- paste0(altmetricString1, PMID_30277653$doi, altmetric
 </details>
 
 ---
+
+
+- **Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches: Autoimmune diseases and pancreatic cancer risk**
+
+https://www.researchgate.net/publication/327754246_Pancreatic_cancer_and_autoimmune_diseases_An_association_sustained_by_computational_and_epidemiological_case-control_approaches_Autoimmune_diseases_and_pancreatic_cancer_risk
+
+
+
+
+
 
 ---
 
