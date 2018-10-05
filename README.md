@@ -2,7 +2,16 @@
 
 This code is intended to gather PubMed articles and form a Journal Watch for Pancreatobiliary Pathology Society [PBPath.org](http://pbpath.org/)
 
-This is a semi-official effort :)
+**Wellcome to our journal watch for pancreatobiliary pathology articles, which is released every other month. You may find the previous issues in the [archive](http://pbpath.org/journal-watch-archive/).**
+
+
+*We are reviewing the journals to select the articles about  pancreas, gallbladder and biliary system pathologies. Original research articles, case series and reviews in the surgical pathology, cytopathology, and molecular pathology as well as related fields (i.e. novel methods, database studies) are included.*
+
+*We have created several categories for convenience; however, articles in each category are in no particular order.*
+
+*Please feel free to [fill out our feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform). You may also recommend articles to be included.*
+
+
 
 ---
 
