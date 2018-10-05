@@ -1,16 +1,16 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-    toc_depth: 5
   html_notebook:
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
   html_document:
     df_print: kable
     highlight: null
@@ -202,12 +202,53 @@ altmetricBadge_30275097 <- paste0(altmetricString1, PMID_30275097$doi, altmetric
 ---
 
 
-<!-- ### Gallbladder -->
+### Gallbladder
 
 
 ```{r S Gallbladder, eval=FALSE, include=FALSE}
 ```
 
+
+
+
+---
+
+
+```{r 30285068, include=FALSE}
+
+PMID_30285068 <- RefManageR::ReadPubMed('30285068', database = 'PubMed')
+
+citation_30285068 <- paste0(PMID_30285068$journal,' ', PMID_30285068$year, ' ', PMID_30285068$month,';', PMID_30285068$volume,'(', PMID_30285068$number,'):', PMID_30285068$pages)
+
+PubMed_30285068 <- paste0(PubMedString, PMID_30285068$eprint)
+
+doi_30285068 <- paste0(doiString, PMID_30285068$doi)
+
+dimensionBadge_30285068 <- paste0(dimensionString1, PMID_30285068$doi,dimensionString2)
+
+altmetricBadge_30285068 <- paste0(altmetricString1, PMID_30285068$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30285068$title`**
+</summary> 
+
+*`r citation_30285068`*
+
+`r PMID_30285068$abstract`
+
+`r PubMed_30285068`
+
+<!-- `r doi_30285068` -->
+
+`r dimensionBadge_30285068`
+
+`r altmetricBadge_30285068`
+
+</details>
+
+---
 
 
 
@@ -241,6 +282,42 @@ altmetricBadge_30275097 <- paste0(altmetricString1, PMID_30275097$doi, altmetric
 https://www.nature.com/articles/s41379-018-0076-9
 
 
+
+---
+
+```{r 30284410, include=FALSE}
+
+PMID_30284410 <- RefManageR::ReadPubMed('30284410', database = 'PubMed')
+
+citation_30284410 <- paste0(PMID_30284410$journal,' ', PMID_30284410$year, ' ', PMID_30284410$month,';', PMID_30284410$volume,'(', PMID_30284410$number,'):', PMID_30284410$pages)
+
+PubMed_30284410 <- paste0(PubMedString, PMID_30284410$eprint)
+
+doi_30284410 <- paste0(doiString, PMID_30284410$doi)
+
+dimensionBadge_30284410 <- paste0(dimensionString1, PMID_30284410$doi,dimensionString2)
+
+altmetricBadge_30284410 <- paste0(altmetricString1, PMID_30284410$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30284410$title`**
+</summary> 
+
+*`r citation_30284410`*
+
+`r PMID_30284410$abstract`
+
+`r PubMed_30284410`
+
+<!-- `r doi_30284410` -->
+
+`r dimensionBadge_30284410`
+
+`r altmetricBadge_30284410`
+
+</details>
 
 ---
 
@@ -304,6 +381,42 @@ altmetricBadge_30268674 <- paste0(altmetricString1, PMID_30268674$doi, altmetric
 https://www.sciencedirect.com/science/article/pii/S1424390318306859
 
 
+
+---
+
+```{r 30284406, include=FALSE}
+
+PMID_30284406 <- RefManageR::ReadPubMed('30284406', database = 'PubMed')
+
+citation_30284406 <- paste0(PMID_30284406$journal,' ', PMID_30284406$year, ' ', PMID_30284406$month,';', PMID_30284406$volume,'(', PMID_30284406$number,'):', PMID_30284406$pages)
+
+PubMed_30284406 <- paste0(PubMedString, PMID_30284406$eprint)
+
+doi_30284406 <- paste0(doiString, PMID_30284406$doi)
+
+dimensionBadge_30284406 <- paste0(dimensionString1, PMID_30284406$doi,dimensionString2)
+
+altmetricBadge_30284406 <- paste0(altmetricString1, PMID_30284406$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30284406$title`**
+</summary> 
+
+*`r citation_30284406`*
+
+`r PMID_30284406$abstract`
+
+`r PubMed_30284406`
+
+<!-- `r doi_30284406` -->
+
+`r dimensionBadge_30284406`
+
+`r altmetricBadge_30284406`
+
+</details>
 
 ---
 
@@ -469,6 +582,43 @@ altmetricBadge_29731265 <- paste0(altmetricString1, PMID_29731265$doi, altmetric
 ---
 
 
+```{r 30286011, include=FALSE}
+
+PMID_30286011 <- RefManageR::ReadPubMed('30286011', database = 'PubMed')
+
+citation_30286011 <- paste0(PMID_30286011$journal,' ', PMID_30286011$year, ' ', PMID_30286011$month,';', PMID_30286011$volume,'(', PMID_30286011$number,'):', PMID_30286011$pages)
+
+PubMed_30286011 <- paste0(PubMedString, PMID_30286011$eprint)
+
+doi_30286011 <- paste0(doiString, PMID_30286011$doi)
+
+dimensionBadge_30286011 <- paste0(dimensionString1, PMID_30286011$doi,dimensionString2)
+
+altmetricBadge_30286011 <- paste0(altmetricString1, PMID_30286011$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30286011$title`**
+</summary> 
+
+*`r citation_30286011`*
+
+`r PMID_30286011$abstract`
+
+`r PubMed_30286011`
+
+<!-- `r doi_30286011` -->
+
+`r dimensionBadge_30286011`
+
+`r altmetricBadge_30286011`
+
+</details>
+
+---
+
+
 ```{r 30274883, include=FALSE}
 
 PMID_30274883 <- RefManageR::ReadPubMed('30274883', database = 'PubMed')
@@ -505,7 +655,81 @@ altmetricBadge_30274883 <- paste0(altmetricString1, PMID_30274883$doi, altmetric
 
 
 
+---
 
+```{r 30286010, include=FALSE}
+
+PMID_30286010 <- RefManageR::ReadPubMed('30286010', database = 'PubMed')
+
+citation_30286010 <- paste0(PMID_30286010$journal,' ', PMID_30286010$year, ' ', PMID_30286010$month,';', PMID_30286010$volume,'(', PMID_30286010$number,'):', PMID_30286010$pages)
+
+PubMed_30286010 <- paste0(PubMedString, PMID_30286010$eprint)
+
+doi_30286010 <- paste0(doiString, PMID_30286010$doi)
+
+dimensionBadge_30286010 <- paste0(dimensionString1, PMID_30286010$doi,dimensionString2)
+
+altmetricBadge_30286010 <- paste0(altmetricString1, PMID_30286010$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30286010$title`**
+</summary> 
+
+*`r citation_30286010`*
+
+`r PMID_30286010$abstract`
+
+`r PubMed_30286010`
+
+<!-- `r doi_30286010` -->
+
+`r dimensionBadge_30286010`
+
+`r altmetricBadge_30286010`
+
+</details>
+
+
+
+---
+
+```{r 30286013, include=FALSE}
+
+PMID_30286013 <- RefManageR::ReadPubMed('30286013', database = 'PubMed')
+
+citation_30286013 <- paste0(PMID_30286013$journal,' ', PMID_30286013$year, ' ', PMID_30286013$month,';', PMID_30286013$volume,'(', PMID_30286013$number,'):', PMID_30286013$pages)
+
+PubMed_30286013 <- paste0(PubMedString, PMID_30286013$eprint)
+
+doi_30286013 <- paste0(doiString, PMID_30286013$doi)
+
+dimensionBadge_30286013 <- paste0(dimensionString1, PMID_30286013$doi,dimensionString2)
+
+altmetricBadge_30286013 <- paste0(altmetricString1, PMID_30286013$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30286013$title`**
+</summary> 
+
+*`r citation_30286013`*
+
+`r PMID_30286013$abstract`
+
+`r PubMed_30286013`
+
+<!-- `r doi_30286013` -->
+
+`r dimensionBadge_30286013`
+
+`r altmetricBadge_30286013`
+
+</details>
+
+---
 
 
 ---
@@ -571,9 +795,45 @@ altmetricBadge_29495889 <- paste0(altmetricString1, PMID_29495889$doi, altmetric
 ```
 
 
-    30269131
 
 ---
+
+```{r 30284129, include=FALSE}
+
+PMID_30284129 <- RefManageR::ReadPubMed('30284129', database = 'PubMed')
+
+citation_30284129 <- paste0(PMID_30284129$journal,' ', PMID_30284129$year, ' ', PMID_30284129$month,';', PMID_30284129$volume,'(', PMID_30284129$number,'):', PMID_30284129$pages)
+
+PubMed_30284129 <- paste0(PubMedString, PMID_30284129$eprint)
+
+doi_30284129 <- paste0(doiString, PMID_30284129$doi)
+
+dimensionBadge_30284129 <- paste0(dimensionString1, PMID_30284129$doi,dimensionString2)
+
+altmetricBadge_30284129 <- paste0(altmetricString1, PMID_30284129$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30284129$title`**
+</summary> 
+
+*`r citation_30284129`*
+
+`r PMID_30284129$abstract`
+
+`r PubMed_30284129`
+
+<!-- `r doi_30284129` -->
+
+`r dimensionBadge_30284129`
+
+`r altmetricBadge_30284129`
+
+</details>
+
+---
+
 
 ```{r 30269131, include=FALSE}
 
@@ -619,7 +879,7 @@ altmetricBadge_30269131 <- paste0(altmetricString1, PMID_30269131$doi, altmetric
 ```
 
 
-- ** A "Clearer" View of Pancreatic Pathology: A Review of Tissue Clearing and Advanced Microscopy Techniques. **
+- **A "Clearer" View of Pancreatic Pathology: A Review of Tissue Clearing and Advanced Microscopy Techniques.**
 
 https://europepmc.org/abstract/med/30256228
 
@@ -836,6 +1096,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=30269771
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
 ```
 
+
+---
 
 - **The incidence and survival of pancreatic cancer by histology, including rare subtypes: a nation‐wide cancer registry‐based study from Taiwan**
 
