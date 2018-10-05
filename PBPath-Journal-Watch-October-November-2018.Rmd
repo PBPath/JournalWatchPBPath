@@ -1,16 +1,16 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook:
-    code_folding: none
-    fig_caption: yes
-    highlight: null
-    theme: paper
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
     toc: yes
     toc_depth: 5
+  html_notebook:
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
   html_document:
     df_print: kable
     highlight: null
@@ -84,15 +84,17 @@ altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetric
 
 ```
 
-<details> <summary>
-<a href='https://www.ncbi.nlm.nih.gov/pubmed/?term=30267303'>1 **`r PMID_30267303$title`**</a>
+<details open> <summary>
+**`r PMID_30267303$title`**
 </summary> 
+
+[Link to full abstract](https://www.ncbi.nlm.nih.gov/pubmed/?term=30267303)
 
 *`r citation_30267303`*
 
 `r PMID_30267303$abstract`
 
-`r PubMed_30267303`
+<!-- `r PubMed_30267303` -->
 
 <!-- `r doi_30267303` -->
 
