@@ -183,3 +183,47 @@ altmetricBadge_27514845 <- paste0(altmetricString1, PMID_27514845$doi, altmetric
 </details>
 
 ---
+
+
+
+
+
+28802189
+
+---
+
+```{r 28802189, include=FALSE}
+
+PMID_28802189 <- RefManageR::ReadPubMed('28802189', database = 'PubMed')
+
+citation_28802189 <- paste0(PMID_28802189$journal,' ', PMID_28802189$year, ' ', PMID_28802189$month,';', PMID_28802189$volume,'(', PMID_28802189$number,'):', PMID_28802189$pages)
+
+PubMed_28802189 <- paste0(PubMedString, PMID_28802189$eprint)
+
+doi_28802189 <- paste0(doiString, PMID_28802189$doi)
+
+dimensionBadge_28802189 <- paste0(dimensionString1, PMID_28802189$doi,dimensionString2)
+
+altmetricBadge_28802189 <- paste0(altmetricString1, PMID_28802189$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_28802189$title`**
+</summary> 
+
+*`r citation_28802189`*
+
+`r PubMed_28802189`
+
+`r PMID_28802189$abstract`
+
+<!-- `r doi_28802189` -->
+
+`r dimensionBadge_28802189`
+
+`r altmetricBadge_28802189`
+
+</details>
+
+---
