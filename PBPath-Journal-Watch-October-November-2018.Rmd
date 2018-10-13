@@ -27,6 +27,8 @@ subtitle: "October November 2018"
 
 # The Current PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
 
+<base target="_blank"/>
+
 ```{r include=FALSE}
 PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
 
@@ -36,9 +38,12 @@ dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensi
 
 dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>"
 
-altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-badge-details='right' data-badge-type='donut' data-doi='"
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='"
 
 altmetricString2 <- "' data-hide-no-mentions='true'></span>"
+
+# addthis <- "<script type='text/javascript' src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc232f0bccda768'></script><div class='addthis_inline_share_toolbox'></div>"
+
 ```
 
 
@@ -336,6 +341,43 @@ altmetricBadge_30285076 <- paste0(altmetricString1, PMID_30285076$doi, altmetric
 </details>
 
 
+---
+
+```{r 30310507, include=FALSE}
+
+PMID_30310507 <- RefManageR::ReadPubMed('30310507', database = 'PubMed')
+
+citation_30310507 <- paste0(PMID_30310507$journal,' ', PMID_30310507$year, ' ', PMID_30310507$month,';', PMID_30310507$volume,'(', PMID_30310507$number,'):', PMID_30310507$pages)
+
+PubMed_30310507 <- paste0(PubMedString, PMID_30310507$eprint)
+
+doi_30310507 <- paste0(doiString, PMID_30310507$doi)
+
+dimensionBadge_30310507 <- paste0(dimensionString1, PMID_30310507$doi,dimensionString2)
+
+altmetricBadge_30310507 <- paste0(altmetricString1, PMID_30310507$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30310507$title`**
+</summary> 
+
+*`r citation_30310507`*
+
+`r PubMed_30310507`
+
+`r PMID_30310507$abstract`
+
+<!-- `r doi_30310507` -->
+
+`r dimensionBadge_30310507`
+
+`r altmetricBadge_30310507`
+
+</details>
+
+---
 
 
 
@@ -537,7 +579,11 @@ altmetricBadge_30285068 <- paste0(altmetricString1, PMID_30285068$doi, altmetric
 
 ---
 
+- **Intracholecystic papillary-tubular neoplasm in a patient with choledochal cyst and anomalous pancreaticobiliary junction: case report**
 
+https://www.birpublications.org/doi/pdfplus/10.1259/bjrcr.20180079
+
+---
 
 
 
@@ -766,6 +812,52 @@ altmetricBadge_30302430 <- paste0(altmetricString1, PMID_30302430$doi, altmetric
 - **COMPETITIVE TESTING THE WHO 2010 VS THE WHO 2017 GRADING OF PANCREAS NEUROENDOCRINE NEOPLASIA: DATA FROM A LARGE INTERNATIONAL COHORT STUDY**
 
 https://www.researchgate.net/publication/328199727_COMPETITIVE_TESTING_THE_WHO_2010_VS_THE_WHO_2017_GRADING_OF_PANCREAS_NEUROENDOCRINE_NEOPLASIA_DATA_FROM_A_LARGE_INTERNATIONAL_COHORT_STUDY
+
+
+https://www.karger.com/Article/Abstract/494355
+
+
+
+
+---
+
+```{r 30300897, include=FALSE}
+
+PMID_30300897 <- RefManageR::ReadPubMed('30300897', database = 'PubMed')
+
+citation_30300897 <- paste0(PMID_30300897$journal,' ', PMID_30300897$year, ' ', PMID_30300897$month,';', PMID_30300897$volume,'(', PMID_30300897$number,'):', PMID_30300897$pages)
+
+PubMed_30300897 <- paste0(PubMedString, PMID_30300897$eprint)
+
+doi_30300897 <- paste0(doiString, PMID_30300897$doi)
+
+dimensionBadge_30300897 <- paste0(dimensionString1, PMID_30300897$doi,dimensionString2)
+
+altmetricBadge_30300897 <- paste0(altmetricString1, PMID_30300897$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30300897$title`**
+</summary> 
+
+*`r citation_30300897`*
+
+`r PubMed_30300897`
+
+`r PMID_30300897$abstract`
+
+<!-- `r doi_30300897` -->
+
+`r dimensionBadge_30300897`
+
+`r altmetricBadge_30300897`
+
+</details>
+
+---
+
+
 
 ---
 
@@ -1560,6 +1652,51 @@ altmetricBadge_30302427 <- paste0(altmetricString1, PMID_30302427$doi, altmetric
 
 ---
 
+- **ASO Author Reflections: Do Distinct Patterns of Recurrence Impact the Prognosis of Patients With Resected Pancreatic Ductal Adenocarcinoma?**
+
+https://link.springer.com/article/10.1245/s10434-018-6820-z
+
+
+---
+
+```{r 30312198, include=FALSE}
+
+PMID_30312198 <- RefManageR::ReadPubMed('30312198', database = 'PubMed')
+
+citation_30312198 <- paste0(PMID_30312198$journal,' ', PMID_30312198$year, ' ', PMID_30312198$month,';', PMID_30312198$volume,'(', PMID_30312198$number,'):', PMID_30312198$pages)
+
+PubMed_30312198 <- paste0(PubMedString, PMID_30312198$eprint)
+
+doi_30312198 <- paste0(doiString, PMID_30312198$doi)
+
+dimensionBadge_30312198 <- paste0(dimensionString1, PMID_30312198$doi,dimensionString2)
+
+altmetricBadge_30312198 <- paste0(altmetricString1, PMID_30312198$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30312198$title`**
+</summary> 
+
+*`r citation_30312198`*
+
+`r PubMed_30312198`
+
+`r PMID_30312198$abstract`
+
+<!-- `r doi_30312198` -->
+
+`r dimensionBadge_30312198`
+
+`r altmetricBadge_30312198`
+
+</details>
+
+---
+
+
+
 
 ### Pancreas IPMN
 
@@ -1601,6 +1738,43 @@ altmetricBadge_30308608 <- paste0(altmetricString1, PMID_30308608$doi, altmetric
 `r dimensionBadge_30308608`
 
 `r altmetricBadge_30308608`
+
+</details>
+
+
+---
+
+```{r 30311163, include=FALSE}
+
+PMID_30311163 <- RefManageR::ReadPubMed('30311163', database = 'PubMed')
+
+citation_30311163 <- paste0(PMID_30311163$journal,' ', PMID_30311163$year, ' ', PMID_30311163$month,';', PMID_30311163$volume,'(', PMID_30311163$number,'):', PMID_30311163$pages)
+
+PubMed_30311163 <- paste0(PubMedString, PMID_30311163$eprint)
+
+doi_30311163 <- paste0(doiString, PMID_30311163$doi)
+
+dimensionBadge_30311163 <- paste0(dimensionString1, PMID_30311163$doi,dimensionString2)
+
+altmetricBadge_30311163 <- paste0(altmetricString1, PMID_30311163$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30311163$title`**
+</summary> 
+
+*`r citation_30311163`*
+
+`r PubMed_30311163`
+
+`r PMID_30311163$abstract`
+
+<!-- `r doi_30311163` -->
+
+`r dimensionBadge_30311163`
+
+`r altmetricBadge_30311163`
 
 </details>
 
@@ -1766,13 +1940,20 @@ altmetricBadge_29853732 <- paste0(altmetricString1, PMID_29853732$doi, altmetric
 
 </details>
 
+
+---
+
+- **Combination treatment of advanced pancreatic cancer using novel vaccine and traditional therapies**
+
+https://www.tandfonline.com/doi/abs/10.1080/14737140.2018.1531707
+
 ---
 
 
 
 
 
----
+
 
 
 ### Pancreas Stage
@@ -1888,6 +2069,13 @@ altmetricBadge_30300611 <- paste0(altmetricString1, PMID_30300611$doi, altmetric
 
 ---
 
+
+- **The impact of cancer-associated fibroblasts on major hallmarks of pancreatic cancer**  
+
+http://www.thno.org/v08p5072.pdf
+
+
+
 ---
 
 ### Pancreas Reviews and Meta Analysis
@@ -1978,6 +2166,13 @@ altmetricBadge_30297095 <- paste0(altmetricString1, PMID_30297095$doi, altmetric
 
 https://www.sciencedirect.com/science/article/pii/S1424390318306914
 
+---
+
+- **Small molecule tyrosine kinase inhibitors and pancreatic cancer—Trials and troubles**
+
+https://www.sciencedirect.com/science/article/pii/S1044579X18301342
+
+---
 
 
 ---
@@ -2304,6 +2499,17 @@ altmetricBadge_30306370 <- paste0(altmetricString1, PMID_30306370$doi, altmetric
 
 </details>
 
+---
+
+- **Gastroenteropancreatic Neuroendocrine Tumors**
+
+https://onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21493
+
+---
+
+- **Imaging presentation of pancreatic neuroendocrine neoplasms**
+
+https://link.springer.com/article/10.1007/s13244-018-0658-6
 
 
 
