@@ -29,8 +29,8 @@ subtitle: "October November 2018"
 <!-- https://www.addthis.com/academy/setting-the-url-title-to-share/ -->  
 
 <!-- Go to www.addthis.com/dashboard to customize your tools  Journal Watch2 floating-->    
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc">
-</script>
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc"> -->
+<!-- </script> -->
 
 
 <!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
@@ -103,6 +103,8 @@ dimensionBadge_30267303 <- paste0(dimensionString1, PMID_30267303$doi,dimensionS
 
 altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetricString2 )
 
+addthis_inline_30267303 <- paste0("<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='", PMID_30267303$title, "' data-description= ' deneme '></div>")
+
 ```
 
 <details open> <summary>
@@ -127,8 +129,10 @@ altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetric
 <!-- <div class="addthis_inline_share_toolbox">   -->
 <!-- </div>   -->
 
-<div class="addthis_inline_share_toolbox" data-url="THE URL" data-title="THE TITLE" data-description="THE DESCRIPTION">  
-</div> 
+`r addthis_inline_30267303`
+
+<!-- <div class="addthis_inline_share_toolbox" data-url="THE URL" data-title="THE TITLE" data-description="THE DESCRIPTION"> -->
+<!-- </div> -->
 
 
 
