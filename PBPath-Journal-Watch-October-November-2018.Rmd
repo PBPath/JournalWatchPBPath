@@ -21,6 +21,7 @@ date: "Last Update on `r format(Sys.Date())`"
 subtitle: "October November 2018"
 ---
 
+
 <!-- Open all links in new tab-->  
 <base target="_blank"/>  
 
@@ -28,8 +29,8 @@ subtitle: "October November 2018"
 <!-- https://www.addthis.com/academy/setting-the-url-title-to-share/ -->  
 
 <!-- Go to www.addthis.com/dashboard to customize your tools  Journal Watch2 floating-->    
-<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc">   -->
-<!-- </script> -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc">
+</script>
 
 
 <!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
@@ -1112,6 +1113,12 @@ altmetricBadge_30308535 <- paste0(altmetricString1, PMID_30308535$doi, altmetric
 ```{r C Neuroendocrine, eval=FALSE, include=FALSE}
 ```
 
+---
+
+- **Accuracy of Grading Pancreatic Neuroendocrine Neoplasms with Ki‐67 Index in Fine‐Needle Aspiration Cellblock Material**
+
+https://onlinelibrary.wiley.com/doi/10.1111/cyt.12643
+
 
 ---
 
@@ -1193,6 +1200,7 @@ altmetricBadge_30303569 <- paste0(altmetricString1, PMID_30303569$doi, altmetric
 
 </details>
 
+
 ---
 
 <a href="#top">Back to top</a>
@@ -1258,6 +1266,43 @@ altmetricBadge_30293872 <- paste0(altmetricString1, PMID_30293872$doi, altmetric
 `r dimensionBadge_30293872`
 
 `r altmetricBadge_30293872`
+
+</details>
+
+
+---
+
+```{r 30316690, include=FALSE}
+
+PMID_30316690 <- RefManageR::ReadPubMed('30316690', database = 'PubMed')
+
+citation_30316690 <- paste0(PMID_30316690$journal,' ', PMID_30316690$year, ' ', PMID_30316690$month,';', PMID_30316690$volume,'(', PMID_30316690$number,'):', PMID_30316690$pages)
+
+PubMed_30316690 <- paste0(PubMedString, PMID_30316690$eprint)
+
+doi_30316690 <- paste0(doiString, PMID_30316690$doi)
+
+dimensionBadge_30316690 <- paste0(dimensionString1, PMID_30316690$doi,dimensionString2)
+
+altmetricBadge_30316690 <- paste0(altmetricString1, PMID_30316690$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30316690$title`**
+</summary> 
+
+*`r citation_30316690`*
+
+`r PubMed_30316690`
+
+`r PMID_30316690$abstract`
+
+<!-- `r doi_30316690` -->
+
+`r dimensionBadge_30316690`
+
+`r altmetricBadge_30316690`
 
 </details>
 
@@ -1724,7 +1769,163 @@ altmetricBadge_30312198 <- paste0(altmetricString1, PMID_30312198$doi, altmetric
 https://www.researchgate.net/publication/328061700_Clinicopathological_characteristics_of_pancreatic_cancer_with_normal_level_of_serum_CA19-9
 
 
+
 ---
+
+```{r 30315385, include=FALSE}
+
+PMID_30315385 <- RefManageR::ReadPubMed('30315385', database = 'PubMed')
+
+citation_30315385 <- paste0(PMID_30315385$journal,' ', PMID_30315385$year, ' ', PMID_30315385$month,';', PMID_30315385$volume,'(', PMID_30315385$number,'):', PMID_30315385$pages)
+
+PubMed_30315385 <- paste0(PubMedString, PMID_30315385$eprint)
+
+doi_30315385 <- paste0(doiString, PMID_30315385$doi)
+
+dimensionBadge_30315385 <- paste0(dimensionString1, PMID_30315385$doi,dimensionString2)
+
+altmetricBadge_30315385 <- paste0(altmetricString1, PMID_30315385$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315385$title`**
+</summary> 
+
+*`r citation_30315385`*
+
+`r PubMed_30315385`
+
+`r PMID_30315385$abstract`
+
+<!-- `r doi_30315385` -->
+
+`r dimensionBadge_30315385`
+
+`r altmetricBadge_30315385`
+
+</details>
+
+
+---
+
+```{r 30315384, include=FALSE}
+
+PMID_30315384 <- RefManageR::ReadPubMed('30315384', database = 'PubMed')
+
+citation_30315384 <- paste0(PMID_30315384$journal,' ', PMID_30315384$year, ' ', PMID_30315384$month,';', PMID_30315384$volume,'(', PMID_30315384$number,'):', PMID_30315384$pages)
+
+PubMed_30315384 <- paste0(PubMedString, PMID_30315384$eprint)
+
+doi_30315384 <- paste0(doiString, PMID_30315384$doi)
+
+dimensionBadge_30315384 <- paste0(dimensionString1, PMID_30315384$doi,dimensionString2)
+
+altmetricBadge_30315384 <- paste0(altmetricString1, PMID_30315384$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315384$title`**
+</summary> 
+
+*`r citation_30315384`*
+
+`r PubMed_30315384`
+
+`r PMID_30315384$abstract`
+
+<!-- `r doi_30315384` -->
+
+`r dimensionBadge_30315384`
+
+`r altmetricBadge_30315384`
+
+</details>
+
+---
+
+---
+
+```{r 30315779, include=FALSE}
+
+PMID_30315779 <- RefManageR::ReadPubMed('30315779', database = 'PubMed')
+
+citation_30315779 <- paste0(PMID_30315779$journal,' ', PMID_30315779$year, ' ', PMID_30315779$month,';', PMID_30315779$volume,'(', PMID_30315779$number,'):', PMID_30315779$pages)
+
+PubMed_30315779 <- paste0(PubMedString, PMID_30315779$eprint)
+
+doi_30315779 <- paste0(doiString, PMID_30315779$doi)
+
+dimensionBadge_30315779 <- paste0(dimensionString1, PMID_30315779$doi,dimensionString2)
+
+altmetricBadge_30315779 <- paste0(altmetricString1, PMID_30315779$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315779$title`**
+</summary> 
+
+*`r citation_30315779`*
+
+`r PubMed_30315779`
+
+`r PMID_30315779$abstract`
+
+<!-- `r doi_30315779` -->
+
+`r dimensionBadge_30315779`
+
+`r altmetricBadge_30315779`
+
+</details>
+
+
+---
+
+```{r 30315287, include=FALSE}
+
+PMID_30315287 <- RefManageR::ReadPubMed('30315287', database = 'PubMed')
+
+citation_30315287 <- paste0(PMID_30315287$journal,' ', PMID_30315287$year, ' ', PMID_30315287$month,';', PMID_30315287$volume,'(', PMID_30315287$number,'):', PMID_30315287$pages)
+
+PubMed_30315287 <- paste0(PubMedString, PMID_30315287$eprint)
+
+doi_30315287 <- paste0(doiString, PMID_30315287$doi)
+
+dimensionBadge_30315287 <- paste0(dimensionString1, PMID_30315287$doi,dimensionString2)
+
+altmetricBadge_30315287 <- paste0(altmetricString1, PMID_30315287$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315287$title`**
+</summary> 
+
+*`r citation_30315287`*
+
+`r PubMed_30315287`
+
+`r PMID_30315287$abstract`
+
+<!-- `r doi_30315287` -->
+
+`r dimensionBadge_30315287`
+
+`r altmetricBadge_30315287`
+
+</details>
+
+---
+
+- **Biomarker panel predicts survival after resection in pancreatic ductal adenocarcinoma: A multi-institutional cohort study**
+
+https://www.researchgate.net/publication/328246979_Biomarker_panel_predicts_survival_after_resection_in_pancreatic_ductal_adenocarcinoma_A_multi-institutional_cohort_study
+
+---
+
 
 
 ### Pancreas IPMN
@@ -2310,8 +2511,44 @@ altmetricBadge_30296435 <- paste0(altmetricString1, PMID_30296435$doi, altmetric
 
 </details>
 
+
 ---
 
+```{r 30315093, include=FALSE}
+
+PMID_30315093 <- RefManageR::ReadPubMed('30315093', database = 'PubMed')
+
+citation_30315093 <- paste0(PMID_30315093$journal,' ', PMID_30315093$year, ' ', PMID_30315093$month,';', PMID_30315093$volume,'(', PMID_30315093$number,'):', PMID_30315093$pages)
+
+PubMed_30315093 <- paste0(PubMedString, PMID_30315093$eprint)
+
+doi_30315093 <- paste0(doiString, PMID_30315093$doi)
+
+dimensionBadge_30315093 <- paste0(dimensionString1, PMID_30315093$doi,dimensionString2)
+
+altmetricBadge_30315093 <- paste0(altmetricString1, PMID_30315093$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315093$title`**
+</summary> 
+
+*`r citation_30315093`*
+
+`r PubMed_30315093`
+
+`r PMID_30315093$abstract`
+
+<!-- `r doi_30315093` -->
+
+`r dimensionBadge_30315093`
+
+`r altmetricBadge_30315093`
+
+</details>
+
+---
 
 
 
@@ -2393,6 +2630,43 @@ altmetricBadge_29391332 <- paste0(altmetricString1, PMID_29391332$doi, altmetric
 https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25186
 
 
+---
+
+```{r 30315386, include=FALSE}
+
+PMID_30315386 <- RefManageR::ReadPubMed('30315386', database = 'PubMed')
+
+citation_30315386 <- paste0(PMID_30315386$journal,' ', PMID_30315386$year, ' ', PMID_30315386$month,';', PMID_30315386$volume,'(', PMID_30315386$number,'):', PMID_30315386$pages)
+
+PubMed_30315386 <- paste0(PubMedString, PMID_30315386$eprint)
+
+doi_30315386 <- paste0(doiString, PMID_30315386$doi)
+
+dimensionBadge_30315386 <- paste0(dimensionString1, PMID_30315386$doi,dimensionString2)
+
+altmetricBadge_30315386 <- paste0(altmetricString1, PMID_30315386$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315386$title`**
+</summary> 
+
+*`r citation_30315386`*
+
+`r PubMed_30315386`
+
+`r PMID_30315386$abstract`
+
+<!-- `r doi_30315386` -->
+
+`r dimensionBadge_30315386`
+
+`r altmetricBadge_30315386`
+
+</details>
+
+---
 
 ---
 
@@ -2540,6 +2814,42 @@ https://onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21493
 
 https://link.springer.com/article/10.1007/s13244-018-0658-6
 
+
+---
+
+```{r 30315383, include=FALSE}
+
+PMID_30315383 <- RefManageR::ReadPubMed('30315383', database = 'PubMed')
+
+citation_30315383 <- paste0(PMID_30315383$journal,' ', PMID_30315383$year, ' ', PMID_30315383$month,';', PMID_30315383$volume,'(', PMID_30315383$number,'):', PMID_30315383$pages)
+
+PubMed_30315383 <- paste0(PubMedString, PMID_30315383$eprint)
+
+doi_30315383 <- paste0(doiString, PMID_30315383$doi)
+
+dimensionBadge_30315383 <- paste0(dimensionString1, PMID_30315383$doi,dimensionString2)
+
+altmetricBadge_30315383 <- paste0(altmetricString1, PMID_30315383$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315383$title`**
+</summary> 
+
+*`r citation_30315383`*
+
+`r PubMed_30315383`
+
+`r PMID_30315383$abstract`
+
+<!-- `r doi_30315383` -->
+
+`r dimensionBadge_30315383`
+
+`r altmetricBadge_30315383`
+
+</details>
 
 
 ---
@@ -2832,6 +3142,43 @@ altmetricBadge_30278585 <- paste0(altmetricString1, PMID_30278585$doi, altmetric
 `r dimensionBadge_30278585`
 
 `r altmetricBadge_30278585`
+
+</details>
+
+
+---
+
+```{r 30315778, include=FALSE}
+
+PMID_30315778 <- RefManageR::ReadPubMed('30315778', database = 'PubMed')
+
+citation_30315778 <- paste0(PMID_30315778$journal,' ', PMID_30315778$year, ' ', PMID_30315778$month,';', PMID_30315778$volume,'(', PMID_30315778$number,'):', PMID_30315778$pages)
+
+PubMed_30315778 <- paste0(PubMedString, PMID_30315778$eprint)
+
+doi_30315778 <- paste0(doiString, PMID_30315778$doi)
+
+dimensionBadge_30315778 <- paste0(dimensionString1, PMID_30315778$doi,dimensionString2)
+
+altmetricBadge_30315778 <- paste0(altmetricString1, PMID_30315778$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315778$title`**
+</summary> 
+
+*`r citation_30315778`*
+
+`r PubMed_30315778`
+
+`r PMID_30315778$abstract`
+
+<!-- `r doi_30315778` -->
+
+`r dimensionBadge_30315778`
+
+`r altmetricBadge_30315778`
 
 </details>
 
