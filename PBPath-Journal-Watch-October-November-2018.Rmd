@@ -59,6 +59,10 @@ altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.c
 
 altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
+addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch "
+
+addthis_String2 <- "'></div>"
+
 ```
 
 
@@ -103,7 +107,7 @@ dimensionBadge_30267303 <- paste0(dimensionString1, PMID_30267303$doi,dimensionS
 
 altmetricBadge_30267303 <- paste0(altmetricString1, PMID_30267303$doi, altmetricString2 )
 
-addthis_inline_30267303 <- paste0("<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='", PMID_30267303$title, "' data-description= ' deneme '></div>")
+addthis_inline_30267303 <- paste0("<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title=' See this abstract on #PBPath #JournalWatch ", PMID_30267303$title, "'></div>")
 
 ```
 
@@ -268,8 +272,16 @@ altmetricBadge_30306561 <- paste0(altmetricString1, PMID_30306561$doi, altmetric
 
 ---
 
+- **Biomarker panel predicts survival after resection in pancreatic ductal adenocarcinoma: A multi-institutional cohort study**
+
+https://www.ejso.com/article/S0748-7983(18)31450-1/fulltext
 
 
+---
+
+- **Residual Tumor Index: A Prognostically Significant Pathologic Parameter in Neoadjuvant-treated Pancreatic Ductal Adenocarcinoma**
+
+https://journals.lww.com/ajsp/Abstract/2018/11000/Residual_Tumor_Index__A_Prognostically_Significant.7.aspx
 
 
 ---
@@ -408,10 +420,19 @@ altmetricBadge_30310507 <- paste0(altmetricString1, PMID_30310507$doi, altmetric
 
 ---
 
+- **Evaluation of the prognostic value of the new AJCC 8th edition staging system for patients with pancreatic adenocarcinoma; a need to subclassify stage III?**
+
+https://www.sciencedirect.com/science/article/pii/S0959804918313686
+
+---
 
 
+- **Cancerization of the Pancreatic Ducts: Demonstration of a Common and Under-recognized Process Using Immunolabeling of Paired Duct Lesions and Invasive Pancreatic Ductal Adenocarcinoma for p53 and Smad4 Expression**
+
+https://journals.lww.com/ajsp/Fulltext/2018/11000/Cancerization_of_the_Pancreatic_Ducts_.16.aspx
 
 
+---
 
 
 
@@ -426,7 +447,15 @@ altmetricBadge_30310507 <- paste0(altmetricString1, PMID_30310507$doi, altmetric
 ```
 
 
+---
 
+
+- **Total Pancreatectomy for Presumed Intraductal Papillary Mucinous Neoplasms: A Multicentric Study of the French Surgical Association (AFC)**
+
+https://journals.lww.com/annalsofsurgery/Abstract/2018/11000/Total_Pancreatectomy_for_Presumed_Intraductal.17.aspx
+
+
+---
 
 
 
@@ -614,18 +643,28 @@ https://www.birpublications.org/doi/pdfplus/10.1259/bjrcr.20180079
 
 ---
 
+- **Intracholecystic papillary–tubular neoplasm of gallbladder: A 5-year retrospective pathological study**
+
+
+http://www.ijpmonline.org/article.asp?issn=0377-4929;year=2018;volume=61;issue=4;spage=516;epage=519;aulast=Hazarika
+
+
+---
 
 
 
 
-
-<!-- ### Ampulla of Vater -->
+### Ampulla of Vater
 
 ```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
 
 
+---
 
+- **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
+
+http://cancer-research-frontiers.org/wp-content/uploads/2018/10/CRF-1833-4-1.pdf
 
 
 ---
@@ -886,6 +925,10 @@ altmetricBadge_30300897 <- paste0(altmetricString1, PMID_30300897$doi, altmetric
 
 ---
 
+- **Ki-67 and presence of liver metastases identify different progression-risk classes in pancreatic neuroendocrine neoplasms (pNEN) undergoing resection**
+
+
+https://www.ejso.com/article/S0748-7983(18)31452-5/fulltext
 
 
 ---
@@ -1312,7 +1355,11 @@ altmetricBadge_30316690 <- paste0(altmetricString1, PMID_30316690$doi, altmetric
 
 ---
 
+- **MicroRNA therapeutics: design of single-stranded miR-216b mimics to target KRAS in pancreatic cancer cells**
 
+https://www.tandfonline.com/doi/full/10.1080/15476286.2018.1526536
+
+---
 
 
 
@@ -2184,8 +2231,18 @@ https://www.tandfonline.com/doi/abs/10.1080/14737140.2018.1531707
 ---
 
 
+- **Clinical and in vitro studies of the correlation between MGMT and the effect of streptozocin in pancreatic NET**
 
 
+https://link.springer.com/article/10.1007/s00280-018-3700-y
+
+---
+
+- **Current approaches to immunotherapy in noncolorectal gastrointestinal malignancies**
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6173942/
+
+---
 
 
 
@@ -2554,6 +2611,9 @@ altmetricBadge_30315093 <- paste0(altmetricString1, PMID_30315093$doi, altmetric
 
 ---
 
+-**SWI/SNF component ARID1A restrains pancreatic neoplasia formation**
+
+https://gut.bmj.com/content/early/2018/10/12/gutjnl-2017-315490
 
 
 ---
@@ -3186,8 +3246,52 @@ altmetricBadge_30315778 <- paste0(altmetricString1, PMID_30315778$doi, altmetric
 
 </details>
 
+
+
 ---
 
+```{r 29521943, include=FALSE}
+
+PMID_29521943 <- RefManageR::ReadPubMed('29521943', database = 'PubMed')
+
+citation_29521943 <- paste0(PMID_29521943$journal,' ', PMID_29521943$year, ' ', PMID_29521943$month,';', PMID_29521943$volume,'(', PMID_29521943$number,'):', PMID_29521943$pages)
+
+PubMed_29521943 <- paste0(PubMedString, PMID_29521943$eprint)
+
+doi_29521943 <- paste0(doiString, PMID_29521943$doi)
+
+dimensionBadge_29521943 <- paste0(dimensionString1, PMID_29521943$doi,dimensionString2)
+
+altmetricBadge_29521943 <- paste0(altmetricString1, PMID_29521943$doi, altmetricString2 )
+
+addthis_inline_29521943 <- paste0(addthis_String1, PMID_29521943$title , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29521943$title`**
+</summary> 
+
+*`r citation_29521943`*
+
+`r PubMed_29521943`
+
+`r addthis_inline_29521943`
+
+`r PMID_29521943$abstract`
+
+<!-- `r doi_29521943` -->
+
+`r dimensionBadge_29521943`
+
+`r altmetricBadge_29521943`
+
+</details>
+
+---
+
+
+---
 
 
 
