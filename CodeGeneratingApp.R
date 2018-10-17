@@ -1,6 +1,7 @@
 ui <- fluidPage(
     textInput("PMID", ""),
     tags$br(),
+    p("---"),
     textOutput("CodeStart"),
     tags$br(),
     textOutput("PubMedSearch"),
@@ -15,21 +16,23 @@ ui <- fluidPage(
     tags$br(),
     textOutput("altmetric"),
     tags$br(),
+    textOutput("addthis1"),
+    tags$br(),
     textOutput("CodeEnd"),
     tags$br(),
-    p("<details open>"),
-    tags$br(),
-    p("<summary>"),
-    tags$br(),
+    ("<details open>"),
+    ("<summary>"),
     textOutput("title"),
+    ("</summary>"),
     tags$br(),
-    p("</summary>"),
     tags$br(),
     textOutput("cit"),
     tags$br(),
-    textOutput("abstract"),
-    tags$br(),
     textOutput("PubMedLink"),
+    tags$br(),
+    textOutput("addthis2"),
+    tags$br(),
+    textOutput("abstract"),
     tags$br(),
     textOutput("doiLink"),
     tags$br(),
@@ -38,7 +41,7 @@ ui <- fluidPage(
     textOutput("alt"),
     tags$br(),
     p("</details>"),
-    tags$br()
+    p("---")
 )
 
 server <-
@@ -131,6 +134,18 @@ server <-
         })
         
         
+        output$addthis1 <- renderText({
+            paste0("addthis_inline_",
+                   trimws(input$PMID),
+                   " <- paste0(addthis_String1, PMID_",
+                   trimws(input$PMID),
+                   "$title",
+                   " , \" PMID: ",
+                   trimws(input$PMID),
+                   " \" , addthis_String2)"
+            )
+        })
+        
         output$CodeEnd <- renderText({
             paste0("```")
             
@@ -152,6 +167,11 @@ server <-
             
         })
         
+        output$addthis2 <- renderText({
+            paste0("`r addthis_inline_",
+                   trimws(input$PMID),
+                   "`")
+        })
         
         output$abstract <- renderText({
             paste0("`r PMID_",
@@ -187,6 +207,10 @@ server <-
                    trimws(input$PMID),
                    "`")
         })
+        
+        
+        
+
     }
 
 shinyApp(ui = ui, server = server)
