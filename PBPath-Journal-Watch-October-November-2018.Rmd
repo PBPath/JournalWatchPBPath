@@ -2188,6 +2188,47 @@ https://www.researchgate.net/publication/327754246_Pancreatic_cancer_and_autoimm
 
 https://www.wjgnet.com/1948-5204/full/v10/i10/317.htm
 
+
+---
+
+```{r 30323973, include=FALSE}
+
+PMID_30323973 <- RefManageR::ReadPubMed('30323973', database = 'PubMed')
+
+citation_30323973 <- paste0(PMID_30323973$journal,' ', PMID_30323973$year, ' ', PMID_30323973$month,';', PMID_30323973$volume,'(', PMID_30323973$number,'):', PMID_30323973$pages)
+
+PubMed_30323973 <- paste0(PubMedString, PMID_30323973$eprint)
+
+doi_30323973 <- paste0(doiString, PMID_30323973$doi)
+
+dimensionBadge_30323973 <- paste0(dimensionString1, PMID_30323973$doi,dimensionString2)
+
+altmetricBadge_30323973 <- paste0(altmetricString1, PMID_30323973$doi, altmetricString2 )
+
+addthis_inline_30323973 <- paste0(addthis_String1, PMID_30323973$title , " PMID: 30323973 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30323973$title`**
+</summary> 
+
+*`r citation_30323973`*
+
+`r PubMed_30323973`
+
+`r addthis_inline_30323973`
+
+`r PMID_30323973$abstract`
+
+<!-- `r doi_30323973` -->
+
+`r dimensionBadge_30323973`
+
+`r altmetricBadge_30323973`
+
+</details>
+
 ---
 
 
@@ -3165,6 +3206,47 @@ altmetricBadge_30303155 <- paste0(altmetricString1, PMID_30303155$doi, altmetric
 - **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
 
 https://www.researchgate.net/publication/328235099_Prognostic_role_of_metastatic_lymph_node_number_and_lymph_node_ratio_in_ampullary_adenocarcinoma
+
+
+---
+
+```{r 30327972, include=FALSE}
+
+PMID_30327972 <- RefManageR::ReadPubMed('30327972', database = 'PubMed')
+
+citation_30327972 <- paste0(PMID_30327972$journal,' ', PMID_30327972$year, ' ', PMID_30327972$month,';', PMID_30327972$volume,'(', PMID_30327972$number,'):', PMID_30327972$pages)
+
+PubMed_30327972 <- paste0(PubMedString, PMID_30327972$eprint)
+
+doi_30327972 <- paste0(doiString, PMID_30327972$doi)
+
+dimensionBadge_30327972 <- paste0(dimensionString1, PMID_30327972$doi,dimensionString2)
+
+altmetricBadge_30327972 <- paste0(altmetricString1, PMID_30327972$doi, altmetricString2 )
+
+addthis_inline_30327972 <- paste0(addthis_String1, PMID_30327972$title , " PMID: 30327972 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30327972$title`**
+</summary> 
+
+*`r citation_30327972`*
+
+`r PubMed_30327972`
+
+`r addthis_inline_30327972`
+
+`r PMID_30327972$abstract`
+
+<!-- `r doi_30327972` -->
+
+`r dimensionBadge_30327972`
+
+`r altmetricBadge_30327972`
+
+</details>
 
 ---
 
