@@ -429,6 +429,46 @@ https://journals.lww.com/ajsp/Fulltext/2018/11000/Cancerization_of_the_Pancreati
 
 ---
 
+```{r 30326370, include=FALSE}
+
+PMID_30326370 <- RefManageR::ReadPubMed('30326370', database = 'PubMed')
+
+citation_30326370 <- paste0(PMID_30326370$journal,' ', PMID_30326370$year, ' ', PMID_30326370$month,';', PMID_30326370$volume,'(', PMID_30326370$number,'):', PMID_30326370$pages)
+
+PubMed_30326370 <- paste0(PubMedString, PMID_30326370$eprint)
+
+doi_30326370 <- paste0(doiString, PMID_30326370$doi)
+
+dimensionBadge_30326370 <- paste0(dimensionString1, PMID_30326370$doi,dimensionString2)
+
+altmetricBadge_30326370 <- paste0(altmetricString1, PMID_30326370$doi, altmetricString2 )
+
+addthis_inline_30326370 <- paste0(addthis_String1, PMID_30326370$title , " PMID: 30326370 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30326370$title`**
+</summary> 
+
+*`r citation_30326370`*
+
+`r PubMed_30326370`
+
+`r addthis_inline_30326370`
+
+`r PMID_30326370$abstract`
+
+<!-- `r doi_30326370` -->
+
+`r dimensionBadge_30326370`
+
+`r altmetricBadge_30326370`
+
+</details>
+
+---
+
 
 
 
@@ -575,6 +615,48 @@ altmetricBadge_30301635 <- paste0(altmetricString1, PMID_30301635$doi, altmetric
 `r dimensionBadge_30301635`
 
 `r altmetricBadge_30301635`
+
+</details>
+
+
+
+---
+
+```{r 29450978, include=FALSE}
+
+PMID_29450978 <- RefManageR::ReadPubMed('29450978', database = 'PubMed')
+
+citation_29450978 <- paste0(PMID_29450978$journal,' ', PMID_29450978$year, ' ', PMID_29450978$month,';', PMID_29450978$volume,'(', PMID_29450978$number,'):', PMID_29450978$pages)
+
+PubMed_29450978 <- paste0(PubMedString, PMID_29450978$eprint)
+
+doi_29450978 <- paste0(doiString, PMID_29450978$doi)
+
+dimensionBadge_29450978 <- paste0(dimensionString1, PMID_29450978$doi,dimensionString2)
+
+altmetricBadge_29450978 <- paste0(altmetricString1, PMID_29450978$doi, altmetricString2 )
+
+addthis_inline_29450978 <- paste0(addthis_String1, PMID_29450978$title , " PMID: 29450978 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29450978$title`**
+</summary> 
+
+*`r citation_29450978`*
+
+`r PubMed_29450978`
+
+`r addthis_inline_29450978`
+
+`r PMID_29450978$abstract`
+
+<!-- `r doi_29450978` -->
+
+`r dimensionBadge_29450978`
+
+`r altmetricBadge_29450978`
 
 </details>
 
@@ -925,6 +1007,47 @@ altmetricBadge_30300897 <- paste0(altmetricString1, PMID_30300897$doi, altmetric
 
 https://www.ejso.com/article/S0748-7983(18)31452-5/fulltext
 
+
+
+---
+
+```{r 30339629, include=FALSE}
+
+PMID_30339629 <- RefManageR::ReadPubMed('30339629', database = 'PubMed')
+
+citation_30339629 <- paste0(PMID_30339629$journal,' ', PMID_30339629$year, ' ', PMID_30339629$month,';', PMID_30339629$volume,'(', PMID_30339629$number,'):', PMID_30339629$pages)
+
+PubMed_30339629 <- paste0(PubMedString, PMID_30339629$eprint)
+
+doi_30339629 <- paste0(doiString, PMID_30339629$doi)
+
+dimensionBadge_30339629 <- paste0(dimensionString1, PMID_30339629$doi,dimensionString2)
+
+altmetricBadge_30339629 <- paste0(altmetricString1, PMID_30339629$doi, altmetricString2 )
+
+addthis_inline_30339629 <- paste0(addthis_String1, PMID_30339629$title , " PMID: 30339629 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30339629$title`**
+</summary> 
+
+*`r citation_30339629`*
+
+`r PubMed_30339629`
+
+`r addthis_inline_30339629`
+
+`r PMID_30339629$abstract`
+
+<!-- `r doi_30339629` -->
+
+`r dimensionBadge_30339629`
+
+`r altmetricBadge_30339629`
+
+</details>
 
 ---
 
@@ -2231,6 +2354,11 @@ addthis_inline_30323973 <- paste0(addthis_String1, PMID_30323973$title , " PMID:
 
 ---
 
+- **Impact of tumor size on survival of patients with resected pancreatic ductal adenocarcinoma: a systematic review and meta-analysis**
+
+https://bmccancer.biomedcentral.com/articles/10.1186/s12885-018-4901-9
+
+---
 
 
 
@@ -2356,6 +2484,15 @@ addthis_inline_30324467 <- paste0(addthis_String1, PMID_30324467$title , " PMID:
 </details>
 
 ---
+
+- **Intraductal papillary mucinous neoplasm to pancreas ductal adenocarcinoma sequence and pancreas cancer screening**
+
+http://www.eusjournal.com/article.asp?issn=2303-9027;year=2018;volume=7;issue=5;spage=314;epage=318;aulast=Farrell
+
+
+---
+
+
 
 
 ### Pancreas Oncology
@@ -2662,6 +2799,54 @@ altmetricBadge_30300611 <- paste0(altmetricString1, PMID_30300611$doi, altmetric
 http://www.thno.org/v08p5072.pdf
 
 
+
+---
+
+```{r 30098910, include=FALSE}
+
+PMID_30098910 <- RefManageR::ReadPubMed('30098910', database = 'PubMed')
+
+citation_30098910 <- paste0(PMID_30098910$journal,' ', PMID_30098910$year, ' ', PMID_30098910$month,';', PMID_30098910$volume,'(', PMID_30098910$number,'):', PMID_30098910$pages)
+
+PubMed_30098910 <- paste0(PubMedString, PMID_30098910$eprint)
+
+doi_30098910 <- paste0(doiString, PMID_30098910$doi)
+
+dimensionBadge_30098910 <- paste0(dimensionString1, PMID_30098910$doi,dimensionString2)
+
+altmetricBadge_30098910 <- paste0(altmetricString1, PMID_30098910$doi, altmetricString2 )
+
+addthis_inline_30098910 <- paste0(addthis_String1, PMID_30098910$title , " PMID: 30098910 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30098910$title`**
+</summary> 
+
+*`r citation_30098910`*
+
+`r PubMed_30098910`
+
+`r addthis_inline_30098910`
+
+`r PMID_30098910$abstract`
+
+<!-- `r doi_30098910` -->
+
+`r dimensionBadge_30098910`
+
+`r altmetricBadge_30098910`
+
+</details>
+
+---
+
+
+
+
+
+
 ---
 
 ```{r 30324470, include=FALSE}
@@ -2815,6 +3000,48 @@ https://www.sciencedirect.com/science/article/pii/S1044579X18301342
 
 https://europepmc.org/abstract/med/30256228
 
+
+---
+
+```{r 30339622, include=FALSE}
+
+PMID_30339622 <- RefManageR::ReadPubMed('30339622', database = 'PubMed')
+
+citation_30339622 <- paste0(PMID_30339622$journal,' ', PMID_30339622$year, ' ', PMID_30339622$month,';', PMID_30339622$volume,'(', PMID_30339622$number,'):', PMID_30339622$pages)
+
+PubMed_30339622 <- paste0(PubMedString, PMID_30339622$eprint)
+
+doi_30339622 <- paste0(doiString, PMID_30339622$doi)
+
+dimensionBadge_30339622 <- paste0(dimensionString1, PMID_30339622$doi,dimensionString2)
+
+altmetricBadge_30339622 <- paste0(altmetricString1, PMID_30339622$doi, altmetricString2 )
+
+addthis_inline_30339622 <- paste0(addthis_String1, PMID_30339622$title , " PMID: 30339622 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30339622$title`**
+</summary> 
+
+*`r citation_30339622`*
+
+`r PubMed_30339622`
+
+`r addthis_inline_30339622`
+
+`r PMID_30339622$abstract`
+
+<!-- `r doi_30339622` -->
+
+`r dimensionBadge_30339622`
+
+`r altmetricBadge_30339622`
+
+</details>
+
+---
 
 
 ---
@@ -3735,6 +3962,19 @@ https://www.researchgate.net/publication/327545050_A_Refined_Staging_Model_for_R
 - **Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis**
 
 https://www.researchgate.net/publication/328335210_Nomogram_to_Predict_Cancer-Specific_Survival_in_Patients_with_Pancreatic_Acinar_Cell_Carcinoma_A_Competing_Risk_Analysis
+
+
+---
+
+- **A prospective clinical and biological database for pancreatic adenocarcinoma: the BACAP cohort**
+
+
+https://bmccancer.biomedcentral.com/articles/10.1186/s12885-018-4906-4
+
+
+---
+
+
 
 
 ---
