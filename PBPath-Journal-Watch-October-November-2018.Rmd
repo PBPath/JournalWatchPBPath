@@ -492,6 +492,46 @@ https://journals.lww.com/annalsofsurgery/Abstract/2018/11000/Total_Pancreatectom
 
 ---
 
+```{r 30342036, include=FALSE}
+
+PMID_30342036 <- RefManageR::ReadPubMed('30342036', database = 'PubMed')
+
+citation_30342036 <- paste0(PMID_30342036$journal,' ', PMID_30342036$year, ' ', PMID_30342036$month,';', PMID_30342036$volume,'(', PMID_30342036$number,'):', PMID_30342036$pages)
+
+PubMed_30342036 <- paste0(PubMedString, PMID_30342036$eprint)
+
+doi_30342036 <- paste0(doiString, PMID_30342036$doi)
+
+dimensionBadge_30342036 <- paste0(dimensionString1, PMID_30342036$doi,dimensionString2)
+
+altmetricBadge_30342036 <- paste0(altmetricString1, PMID_30342036$doi, altmetricString2 )
+
+addthis_inline_30342036 <- paste0(addthis_String1, PMID_30342036$title , " PMID: 30342036 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30342036$title`**
+</summary> 
+
+*`r citation_30342036`*
+
+`r PubMed_30342036`
+
+`r addthis_inline_30342036`
+
+`r PMID_30342036$abstract`
+
+<!-- `r doi_30342036` -->
+
+`r dimensionBadge_30342036`
+
+`r altmetricBadge_30342036`
+
+</details>
+
+---
+
 
 
 ### Bile Ducts
@@ -3173,7 +3213,90 @@ altmetricBadge_30315093 <- paste0(altmetricString1, PMID_30315093$doi, altmetric
 
 </details>
 
+
 ---
+
+```{r 30342032, include=FALSE}
+
+PMID_30342032 <- RefManageR::ReadPubMed('30342032', database = 'PubMed')
+
+citation_30342032 <- paste0(PMID_30342032$journal,' ', PMID_30342032$year, ' ', PMID_30342032$month,';', PMID_30342032$volume,'(', PMID_30342032$number,'):', PMID_30342032$pages)
+
+PubMed_30342032 <- paste0(PubMedString, PMID_30342032$eprint)
+
+doi_30342032 <- paste0(doiString, PMID_30342032$doi)
+
+dimensionBadge_30342032 <- paste0(dimensionString1, PMID_30342032$doi,dimensionString2)
+
+altmetricBadge_30342032 <- paste0(altmetricString1, PMID_30342032$doi, altmetricString2 )
+
+addthis_inline_30342032 <- paste0(addthis_String1, PMID_30342032$title , " PMID: 30342032 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30342032$title`**
+</summary> 
+
+*`r citation_30342032`*
+
+`r PubMed_30342032`
+
+`r addthis_inline_30342032`
+
+`r PMID_30342032$abstract`
+
+<!-- `r doi_30342032` -->
+
+`r dimensionBadge_30342032`
+
+`r altmetricBadge_30342032`
+
+</details>
+
+
+---
+
+```{r 30343272, include=FALSE}
+
+PMID_30343272 <- RefManageR::ReadPubMed('30343272', database = 'PubMed')
+
+citation_30343272 <- paste0(PMID_30343272$journal,' ', PMID_30343272$year, ' ', PMID_30343272$month,';', PMID_30343272$volume,'(', PMID_30343272$number,'):', PMID_30343272$pages)
+
+PubMed_30343272 <- paste0(PubMedString, PMID_30343272$eprint)
+
+doi_30343272 <- paste0(doiString, PMID_30343272$doi)
+
+dimensionBadge_30343272 <- paste0(dimensionString1, PMID_30343272$doi,dimensionString2)
+
+altmetricBadge_30343272 <- paste0(altmetricString1, PMID_30343272$doi, altmetricString2 )
+
+addthis_inline_30343272 <- paste0(addthis_String1, PMID_30343272$title , " PMID: 30343272 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30343272$title`**
+</summary> 
+
+*`r citation_30343272`*
+
+`r PubMed_30343272`
+
+`r addthis_inline_30343272`
+
+`r PMID_30343272$abstract`
+
+<!-- `r doi_30343272` -->
+
+`r dimensionBadge_30343272`
+
+`r altmetricBadge_30343272`
+
+</details>
+
+---
+
 
 -**SWI/SNF component ARID1A restrains pancreatic neoplasia formation**
 
