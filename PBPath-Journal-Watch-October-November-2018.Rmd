@@ -282,6 +282,14 @@ https://www.ncbi.nlm.nih.gov/pubmed/30325866
 
 ---
 
+- **PD-L1 expression in pancreatic adenosquamous carcinoma: PD-L1 expression is limited to the squamous component**
+
+https://www.sciencedirect.com/science/article/pii/S0344033818307076
+
+---
+
+
+
 ### Pancreas Stage
 
 
@@ -2715,8 +2723,56 @@ https://link.springer.com/article/10.1007/s00280-018-3700-y
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6173942/
 
+
+
+
 ---
 
+```{r 29242097, include=FALSE}
+
+PMID_29242097 <- RefManageR::ReadPubMed('29242097', database = 'PubMed')
+
+citation_29242097 <- paste0(PMID_29242097$journal,' ', PMID_29242097$year, ' ', PMID_29242097$month,';', PMID_29242097$volume,'(', PMID_29242097$number,'):', PMID_29242097$pages)
+
+PubMed_29242097 <- paste0(PubMedString, PMID_29242097$eprint)
+
+doi_29242097 <- paste0(doiString, PMID_29242097$doi)
+
+dimensionBadge_29242097 <- paste0(dimensionString1, PMID_29242097$doi,dimensionString2)
+
+altmetricBadge_29242097 <- paste0(altmetricString1, PMID_29242097$doi, altmetricString2 )
+
+addthis_inline_29242097 <- paste0(addthis_String1, PMID_29242097$title , " PMID: 29242097 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29242097$title`**
+</summary> 
+
+*`r citation_29242097`*
+
+`r PubMed_29242097`
+
+`r addthis_inline_29242097`
+
+`r PMID_29242097$abstract`
+
+<!-- `r doi_29242097` -->
+
+`r dimensionBadge_29242097`
+
+`r altmetricBadge_29242097`
+
+</details>
+
+---
+
+- **Screening and surveillance in hereditary gastrointestinal cancers: Recommendations from the European Society of Digestive Oncology (ESDO) expert discussion at the 20th European Society for Medical Oncology (ESMO)/World Congress on Gastrointestinal Cancer, Barcelona, June 2018**
+
+https://www.sciencedirect.com/science/article/pii/S0959804918313741
+
+---
 
 
 
@@ -3316,7 +3372,11 @@ https://gut.bmj.com/content/early/2018/10/12/gutjnl-2017-315490
 
 https://www.researchgate.net/publication/328293566_When_the_immune_system_is_away_biliary_cancer_cells_may_come_back_to_play
 
+---
 
+- **Patterns of gene mutations in bile duct cancers: is it time to overcome the anatomical classification?**
+
+https://www.hpbonline.org/article/S1365-182X(18)30877-3/abstract
 
 
 ---
@@ -3693,6 +3753,13 @@ altmetricBadge_30315383 <- paste0(altmetricString1, PMID_30315383$doi, altmetric
 `r altmetricBadge_30315383`
 
 </details>
+
+---
+
+
+- **DAXX Mutation Status of Embolization-Treated Neuroendocrine Tumors Predicts Shorter Time to Hepatic Progression**
+
+https://www.sciencedirect.com/science/article/pii/S1051044318312491
 
 
 ---
