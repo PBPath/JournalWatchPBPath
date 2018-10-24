@@ -708,6 +708,47 @@ addthis_inline_29450978 <- paste0(addthis_String1, PMID_29450978$title , " PMID:
 
 </details>
 
+
+---
+
+```{r 30349952, include=FALSE}
+
+PMID_30349952 <- RefManageR::ReadPubMed('30349952', database = 'PubMed')
+
+citation_30349952 <- paste0(PMID_30349952$journal,' ', PMID_30349952$year, ' ', PMID_30349952$month,';', PMID_30349952$volume,'(', PMID_30349952$number,'):', PMID_30349952$pages)
+
+PubMed_30349952 <- paste0(PubMedString, PMID_30349952$eprint)
+
+doi_30349952 <- paste0(doiString, PMID_30349952$doi)
+
+dimensionBadge_30349952 <- paste0(dimensionString1, PMID_30349952$doi,dimensionString2)
+
+altmetricBadge_30349952 <- paste0(altmetricString1, PMID_30349952$doi, altmetricString2 )
+
+addthis_inline_30349952 <- paste0(addthis_String1, PMID_30349952$title , " PMID: 30349952 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30349952$title`**
+</summary> 
+
+*`r citation_30349952`*
+
+`r PubMed_30349952`
+
+`r addthis_inline_30349952`
+
+`r PMID_30349952$abstract`
+
+<!-- `r doi_30349952` -->
+
+`r dimensionBadge_30349952`
+
+`r altmetricBadge_30349952`
+
+</details>
+
 ---
 
 
@@ -3351,7 +3392,49 @@ addthis_inline_30343272 <- paste0(addthis_String1, PMID_30343272$title , " PMID:
 
 </details>
 
+
 ---
+
+```{r 29928898, include=FALSE}
+
+PMID_29928898 <- RefManageR::ReadPubMed('29928898', database = 'PubMed')
+
+citation_29928898 <- paste0(PMID_29928898$journal,' ', PMID_29928898$year, ' ', PMID_29928898$month,';', PMID_29928898$volume,'(', PMID_29928898$number,'):', PMID_29928898$pages)
+
+PubMed_29928898 <- paste0(PubMedString, PMID_29928898$eprint)
+
+doi_29928898 <- paste0(doiString, PMID_29928898$doi)
+
+dimensionBadge_29928898 <- paste0(dimensionString1, PMID_29928898$doi,dimensionString2)
+
+altmetricBadge_29928898 <- paste0(altmetricString1, PMID_29928898$doi, altmetricString2 )
+
+addthis_inline_29928898 <- paste0(addthis_String1, PMID_29928898$title , " PMID: 29928898 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29928898$title`**
+</summary> 
+
+*`r citation_29928898`*
+
+`r PubMed_29928898`
+
+`r addthis_inline_29928898`
+
+`r PMID_29928898$abstract`
+
+<!-- `r doi_29928898` -->
+
+`r dimensionBadge_29928898`
+
+`r altmetricBadge_29928898`
+
+</details>
+
+---
+
 
 
 -**SWI/SNF component ARID1A restrains pancreatic neoplasia formation**

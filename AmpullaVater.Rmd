@@ -205,7 +205,86 @@ Cellular localization of PD-L1 expression in mismatch-repair-deficient and profi
 
 https://www.nature.com/articles/s41379-018-0114-7
 
+
 ---
 
+```{r 27732711, include=FALSE}
+
+PMID_27732711 <- RefManageR::ReadPubMed('27732711', database = 'PubMed')
+
+citation_27732711 <- paste0(PMID_27732711$journal,' ', PMID_27732711$year, ' ', PMID_27732711$month,';', PMID_27732711$volume,'(', PMID_27732711$number,'):', PMID_27732711$pages)
+
+PubMed_27732711 <- paste0(PubMedString, PMID_27732711$eprint)
+
+doi_27732711 <- paste0(doiString, PMID_27732711$doi)
+
+dimensionBadge_27732711 <- paste0(dimensionString1, PMID_27732711$doi,dimensionString2)
+
+altmetricBadge_27732711 <- paste0(altmetricString1, PMID_27732711$doi, altmetricString2 )
+
+addthis_inline_27732711 <- paste0(addthis_String1, PMID_27732711$title , " PMID: 27732711 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_27732711$title`**
+</summary> 
+
+*`r citation_27732711`*
+
+`r PubMed_27732711`
+
+`r addthis_inline_27732711`
+
+`r PMID_27732711$abstract`
+
+<!-- `r doi_27732711` -->
+
+`r dimensionBadge_27732711`
+
+`r altmetricBadge_27732711`
+
+</details>
 
 
+---
+
+```{r 27732696, include=FALSE}
+
+PMID_27732696 <- RefManageR::ReadPubMed('27732696', database = 'PubMed')
+
+citation_27732696 <- paste0(PMID_27732696$journal,' ', PMID_27732696$year, ' ', PMID_27732696$month,';', PMID_27732696$volume,'(', PMID_27732696$number,'):', PMID_27732696$pages)
+
+PubMed_27732696 <- paste0(PubMedString, PMID_27732696$eprint)
+
+doi_27732696 <- paste0(doiString, PMID_27732696$doi)
+
+dimensionBadge_27732696 <- paste0(dimensionString1, PMID_27732696$doi,dimensionString2)
+
+altmetricBadge_27732696 <- paste0(altmetricString1, PMID_27732696$doi, altmetricString2 )
+
+addthis_inline_27732696 <- paste0(addthis_String1, PMID_27732696$title , " PMID: 27732696 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_27732696$title`**
+</summary> 
+
+*`r citation_27732696`*
+
+`r PubMed_27732696`
+
+`r addthis_inline_27732696`
+
+`r PMID_27732696$abstract`
+
+<!-- `r doi_27732696` -->
+
+`r dimensionBadge_27732696`
+
+`r altmetricBadge_27732696`
+
+</details>
+
+---
