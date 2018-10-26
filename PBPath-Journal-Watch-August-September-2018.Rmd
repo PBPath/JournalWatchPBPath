@@ -6,15 +6,15 @@ output:
     fig_caption: yes
     highlight: null
     theme: paper
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
     toc: yes
     toc_depth: 5
-  html_document:
-    df_print: kable
-    highlight: null
-    keep_md: yes
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
