@@ -794,16 +794,8 @@ altmetricBadge_30187215 <- paste0(altmetricString1, PMID_30187215$doi, altmetric
 
 </details>
 
-
 ---
 
-- **Stromal biology and therapy in pancreatic cancer: ready for clinical translation?**
-
-
-https://gut.bmj.com/content/early/2018/09/03/gutjnl-2018-316451
-
-
----
 
 ```{r 30225835, include=FALSE}
 
@@ -839,21 +831,47 @@ altmetricBadge_30225835 <- paste0(altmetricString1, PMID_30225835$doi, altmetric
 
 </details>
 
----
-
-- **Clinical Implications of Extensive Lymph Node Metastases for Resected Pancreatic Cancer**
-
-https://link.springer.com/article/10.1245/s10434-018-6763-4  
-
-https://www.researchgate.net/publication/327713995_Clinical_Implications_of_Extensive_Lymph_Node_Metastases_for_Resected_Pancreatic_Cancer  
-
 
 ---
 
+```{r 30141993, include=FALSE}
 
-- **Serous Neoplasms of the Pancreas: A Comprehensive Review**
+PMID_30141993 <- RefManageR::ReadPubMed('30141993', database = 'PubMed')
 
-http://www.archivesofpathology.org/doi/full/10.5858/arpa.2017-0195-RS?code=coap-site
+citation_30141993 <- paste0(PMID_30141993$journal,' ', PMID_30141993$year, ' ', PMID_30141993$month,';', PMID_30141993$volume,'(', PMID_30141993$number,'):', PMID_30141993$pages)
+
+PubMed_30141993 <- paste0(PubMedString, PMID_30141993$eprint)
+
+doi_30141993 <- paste0(doiString, PMID_30141993$doi)
+
+dimensionBadge_30141993 <- paste0(dimensionString1, PMID_30141993$doi,dimensionString2)
+
+altmetricBadge_30141993 <- paste0(altmetricString1, PMID_30141993$doi, altmetricString2 )
+
+addthis_inline_30141993 <- paste0(addthis_String1, PMID_30141993$title , " PMID: 30141993 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30141993$title`**
+</summary> 
+
+*`r citation_30141993`*
+
+`r PubMed_30141993`
+
+`r addthis_inline_30141993`
+
+`r PMID_30141993$abstract`
+
+<!-- `r doi_30141993` -->
+
+`r dimensionBadge_30141993`
+
+`r altmetricBadge_30141993`
+
+</details>
+
 
 
 
