@@ -1706,13 +1706,46 @@ altmetricBadge_29477748 <- paste0(altmetricString1, PMID_29477748$doi, altmetric
 
 </details>
 
+
 ---
 
+```{r 30171177, include=FALSE}
 
-- **Human  Organoids  Share  Structural  and  Genetic  Features  with  Primary  Pancreatic Adenocarcinoma Tumors**
+PMID_30171177 <- RefManageR::ReadPubMed('30171177', database = 'PubMed')
 
+citation_30171177 <- paste0(PMID_30171177$journal,' ', PMID_30171177$year, ' ', PMID_30171177$month,';', PMID_30171177$volume,'(', PMID_30171177$number,'):', PMID_30171177$pages)
 
-http://mcr.aacrjournals.org/content/molcanres/early/2018/08/31/1541-7786.MCR-18-0531.full.pdf
+PubMed_30171177 <- paste0(PubMedString, PMID_30171177$eprint)
+
+doi_30171177 <- paste0(doiString, PMID_30171177$doi)
+
+dimensionBadge_30171177 <- paste0(dimensionString1, PMID_30171177$doi,dimensionString2)
+
+altmetricBadge_30171177 <- paste0(altmetricString1, PMID_30171177$doi, altmetricString2 )
+
+addthis_inline_30171177 <- paste0(addthis_String1, PMID_30171177$title , " PMID: 30171177 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30171177$title`**
+</summary> 
+
+*`r citation_30171177`*
+
+`r PubMed_30171177`
+
+`r addthis_inline_30171177`
+
+`r PMID_30171177$abstract`
+
+<!-- `r doi_30171177` -->
+
+`r dimensionBadge_30171177`
+
+`r altmetricBadge_30171177`
+
+</details>
 
 ---
 
@@ -1988,8 +2021,8 @@ altmetricBadge_30228219 <- paste0(altmetricString1, PMID_30228219$doi, altmetric
 
 - **The loss of ATRX increases susceptibility to pancreatic injury and oncogenic KRAS in female but not male mice**
 
+https://www.sciencedirect.com/science/article/pii/S2352345X18301255
 
-https://ac.els-cdn.com/S2352345X18301255/1-s2.0-S2352345X18301255-main.pdf?_tid=14d4be90-2c1b-4f3e-a7f1-e6472ebc4325&acdnat=1537522502_724a83ab9e728e07620a6f391eb108b4
 
 ---
 
@@ -1997,20 +2030,46 @@ https://ac.els-cdn.com/S2352345X18301255/1-s2.0-S2352345X18301255-main.pdf?_tid=
 
 https://www.nature.com/articles/s41598-018-32159-x
 
----
-
-- **Inhibition of 15-PGDH causes Kras-driven tumor expansion through prostaglandin E2-ALDH1 signaling in the pancreas**
-
-https://www.nature.com/articles/s41388-018-0510-y
-
-
-
 
 ---
 
+```{r 30250298, include=FALSE}
 
+PMID_30250298 <- RefManageR::ReadPubMed('30250298', database = 'PubMed')
 
+citation_30250298 <- paste0(PMID_30250298$journal,' ', PMID_30250298$year, ' ', PMID_30250298$month,';', PMID_30250298$volume,'(', PMID_30250298$number,'):', PMID_30250298$pages)
 
+PubMed_30250298 <- paste0(PubMedString, PMID_30250298$eprint)
+
+doi_30250298 <- paste0(doiString, PMID_30250298$doi)
+
+dimensionBadge_30250298 <- paste0(dimensionString1, PMID_30250298$doi,dimensionString2)
+
+altmetricBadge_30250298 <- paste0(altmetricString1, PMID_30250298$doi, altmetricString2 )
+
+addthis_inline_30250298 <- paste0(addthis_String1, PMID_30250298$title , " PMID: 30250298 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30250298$title`**
+</summary> 
+
+*`r citation_30250298`*
+
+`r PubMed_30250298`
+
+`r addthis_inline_30250298`
+
+`r PMID_30250298$abstract`
+
+<!-- `r doi_30250298` -->
+
+`r dimensionBadge_30250298`
+
+`r altmetricBadge_30250298`
+
+</details>
 
 
 ---
@@ -2024,10 +2083,10 @@ https://www.nature.com/articles/s41388-018-0510-y
 
 #### Database
 
-```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
+Database SEER, NCDB, TCGA, Oncomine Studies
+
+```{r O Database SEER, NCDB, TCGA, Oncomine Studies, eval=FALSE, include=FALSE}
 ```
-
-
 
 
 
