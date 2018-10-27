@@ -77,11 +77,10 @@ We encourage members to actively participate by recommending new articles and pr
 **We hope that you will enjoy the new PBPath Journal Watch!**  
 
 
+---
 
 \pagebreak
 
-
----
 
 ## Surgical Pathology {.tabset}
 
@@ -169,42 +168,6 @@ altmetricBadge_30179901 <- paste0(altmetricString1, PMID_30179901$doi, altmetric
 
 </details>
 
-
----
-
-```{r 30212393, include=FALSE}
-
-PMID_30212393 <- RefManageR::ReadPubMed('30212393', database = 'PubMed')
-
-citation_30212393 <- paste0(PMID_30212393$journal,' ', PMID_30212393$year, ' ', PMID_30212393$month,';', PMID_30212393$volume,'(', PMID_30212393$number,'):', PMID_30212393$pages)
-
-PubMed_30212393 <- paste0(PubMedString, PMID_30212393$eprint)
-
-doi_30212393 <- paste0(doiString, PMID_30212393$doi)
-
-dimensionBadge_30212393 <- paste0(dimensionString1, PMID_30212393$doi,dimensionString2)
-
-altmetricBadge_30212393 <- paste0(altmetricString1, PMID_30212393$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30212393$title`**
-</summary> 
-
-*`r citation_30212393`*
-
-`r PMID_30212393$abstract`
-
-`r PubMed_30212393`
-
-<!-- `r doi_30212393` -->
-
-`r dimensionBadge_30212393`
-
-`r altmetricBadge_30212393`
-
-</details>
 
 ---
 
@@ -530,8 +493,7 @@ altmetricBadge_27840110 <- paste0(altmetricString1, PMID_27840110$doi, altmetric
 
 ```
 
-<details open>
-<summary>
+<details open> <summary>
 - **`r PMID_27840110$title`**
 </summary>
 
@@ -546,6 +508,9 @@ altmetricBadge_27840110 <- paste0(altmetricString1, PMID_27840110$doi, altmetric
 `r dimensionBadge_27840110`
 
 `r altmetricBadge_27840110`
+
+</details>
+
 
 ---
 
@@ -586,9 +551,12 @@ altmetricBadge_29985850 <- paste0(altmetricString1, PMID_29985850$doi, altmetric
 ---
 
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
+
 
 #### Staging
 
@@ -597,7 +565,7 @@ Pancreas TNM staging, Margins, Survival
 ```{r S Pancreas TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
 
-
+---
 
 ```{r 30142869 , include=FALSE}
 
@@ -967,18 +935,6 @@ altmetricBadge_30074526 <- paste0(altmetricString1, PMID_30074526$doi, altmetric
 
 </details>
 
----
-
-<details open>
-<summary>
-- **Overall survival and cancer-specific survival in patients with surgically resected pancreatic head adenocarcinoma: A competing risk nomogram analysis**
-</summary>
-
-https://www.researchgate.net/publication/326829548_Overall_survival_and_cancer-specific_survival_in_patients_with_surgically_resected_pancreatic_head_adenocarcinoma_A_competing_risk_nomogram_analysis
-
-</details>
-
-
 
 ---
 
@@ -1152,7 +1108,9 @@ https://link.springer.com/article/10.1007/s11605-018-3953-0
 ---
 
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -1240,23 +1198,60 @@ https://link.springer.com/article/10.1007/s00428-018-2429-7
 
 </details>
 
+
+
 ---
 
-
+<a href="#top" target="_self">Back to top</a>
 
 ---
-
-<a href="#top">Back to top</a>
 
 \pagebreak
 
-#### Preinvasive Lesions 
 
-Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
+#### Preneoplastic and Preinvasive Lesions 
+
+Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 
 
-```{r S Pancreas Preinvasive Lesions, eval=FALSE, include=FALSE}
+```{r S Pancreas Preneoplastic and Preinvasive Lesions, eval=FALSE, include=FALSE}
 ```
+
+---
+
+```{r 30212393, include=FALSE}
+
+PMID_30212393 <- RefManageR::ReadPubMed('30212393', database = 'PubMed')
+
+citation_30212393 <- paste0(PMID_30212393$journal,' ', PMID_30212393$year, ' ', PMID_30212393$month,';', PMID_30212393$volume,'(', PMID_30212393$number,'):', PMID_30212393$pages)
+
+PubMed_30212393 <- paste0(PubMedString, PMID_30212393$eprint)
+
+doi_30212393 <- paste0(doiString, PMID_30212393$doi)
+
+dimensionBadge_30212393 <- paste0(dimensionString1, PMID_30212393$doi,dimensionString2)
+
+altmetricBadge_30212393 <- paste0(altmetricString1, PMID_30212393$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30212393$title`**
+</summary> 
+
+*`r citation_30212393`*
+
+`r PMID_30212393$abstract`
+
+`r PubMed_30212393`
+
+<!-- `r doi_30212393` -->
+
+`r dimensionBadge_30212393`
+
+`r altmetricBadge_30212393`
+
+</details>
 
 
 ---
@@ -1566,31 +1561,56 @@ altmetricBadge_30064727 <- paste0(altmetricString1, PMID_30064727$doi, altmetric
 ---
 
 
+- **Intrapancreatic recurrence of intraductal tubulopapillary neoplasm (ITPN) 16 years after the initial surgery for noninvasive ITPN: a case report**
 
+https://surgicalcasereports.springeropen.com/articles/10.1186/s40792-018-0497-1
 
-<details open>
-<summary>
-- **Progression to pancreatic ductal adenocarcinoma from pancreatic intraepithelial neoplasia: Results of a simulation model**
-</summary>
+---
 
-https://www.pancreatology.net/article/S1424-3903(18)30636-7/abstract
+```{r 29939908, include=FALSE}
+
+PMID_29939908 <- RefManageR::ReadPubMed('29939908', database = 'PubMed')
+
+citation_29939908 <- paste0(PMID_29939908$journal,' ', PMID_29939908$year, ' ', PMID_29939908$month,';', PMID_29939908$volume,'(', PMID_29939908$number,'):', PMID_29939908$pages)
+
+PubMed_29939908 <- paste0(PubMedString, PMID_29939908$eprint)
+
+doi_29939908 <- paste0(doiString, PMID_29939908$doi)
+
+dimensionBadge_29939908 <- paste0(dimensionString1, PMID_29939908$doi,dimensionString2)
+
+altmetricBadge_29939908 <- paste0(altmetricString1, PMID_29939908$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29939908$title`**
+</summary> 
+
+*`r citation_29939908`*
+
+`r PMID_29939908$abstract`
+
+`r PubMed_29939908`
+
+<!-- `r doi_29939908` -->
+
+`r dimensionBadge_29939908`
+
+`r altmetricBadge_29939908`
 
 </details>
 
 ---
 
 
-- **Intrapancreatic recurrence of intraductal tubulopapillary neoplasm (ITPN) 16 years after the initial surgery for noninvasive ITPN: a case report**
-
-https://surgicalcasereports.springeropen.com/articles/10.1186/s40792-018-0497-1
-
-
-
 
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -1801,9 +1821,21 @@ altmetricBadge_30197477 <- paste0(altmetricString1, PMID_30197477$doi, altmetric
 ---
 
 
-<a href="#top">Back to top</a>
+- **The Gut Microbiome in Pancreatic Disease**
+
+https://www.sciencedirect.com/science/article/pii/S1542356518308838
+
+
+
+---
+
+
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
+
 
 #### SPN
 
@@ -1928,7 +1960,9 @@ altmetricBadge_30104029 <- paste0(altmetricString1, PMID_30104029$doi, altmetric
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -2163,9 +2197,12 @@ altmetricBadge_30229909 <- paste0(altmetricString1, PMID_30229909$doi, altmetric
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
+
 
 #### SCA
 
@@ -2252,7 +2289,9 @@ altmetricBadge_30056739 <- paste0(altmetricString1, PMID_30056739$doi, altmetric
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -2300,43 +2339,6 @@ altmetricBadge_30236555 <- paste0(altmetricString1, PMID_30236555$doi, altmetric
 </details>
 
 ---
-
-```{r 29939908, include=FALSE}
-
-PMID_29939908 <- RefManageR::ReadPubMed('29939908', database = 'PubMed')
-
-citation_29939908 <- paste0(PMID_29939908$journal,' ', PMID_29939908$year, ' ', PMID_29939908$month,';', PMID_29939908$volume,'(', PMID_29939908$number,'):', PMID_29939908$pages)
-
-PubMed_29939908 <- paste0(PubMedString, PMID_29939908$eprint)
-
-doi_29939908 <- paste0(doiString, PMID_29939908$doi)
-
-dimensionBadge_29939908 <- paste0(dimensionString1, PMID_29939908$doi,dimensionString2)
-
-altmetricBadge_29939908 <- paste0(altmetricString1, PMID_29939908$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_29939908$title`**
-</summary> 
-
-*`r citation_29939908`*
-
-`r PMID_29939908$abstract`
-
-`r PubMed_29939908`
-
-<!-- `r doi_29939908` -->
-
-`r dimensionBadge_29939908`
-
-`r altmetricBadge_29939908`
-
-</details>
-
----
-
 
 
 ```{r 29975348, include=FALSE}
@@ -2484,12 +2486,6 @@ altmetricBadge_30139657 <- paste0(altmetricString1, PMID_30139657$doi, altmetric
 
 </details>
 
----
-
-
-- **The Gut Microbiome in Pancreatic Disease**
-
-https://www.sciencedirect.com/science/article/pii/S1542356518308838
 
 
 ---
@@ -2570,9 +2566,12 @@ altmetricBadge_30236651 <- paste0(altmetricString1, PMID_30236651$doi, altmetric
 ---
 
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
+
 
 #### Techniques & Research Methods
 
@@ -2873,7 +2872,9 @@ altmetricBadge_30240665 <- paste0(altmetricString1, PMID_30240665$doi, altmetric
 
 
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -3271,9 +3272,13 @@ altmetricBadge_30050994 <- paste0(altmetricString1, PMID_30050994$doi, altmetric
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
+
+
 
 ### Bile Ducts
 
@@ -3309,8 +3314,7 @@ altmetricBadge_29675965 <- paste0(altmetricString1, PMID_29675965$doi, altmetric
 
 ```
 
-<details open>
-<summary>
+<details open> <summary>
 - **`r PMID_29675965$title`**
 <summary>
 
@@ -3325,7 +3329,6 @@ altmetricBadge_29675965 <- paste0(altmetricString1, PMID_29675965$doi, altmetric
 `r dimensionBadge_29675965`
 
 `r altmetricBadge_29675965`
-
 
 </details>
 
@@ -3684,22 +3687,13 @@ altmetricBadge_30207026 <- paste0(altmetricString1, PMID_30207026$doi, altmetric
 
 </details>
 
-
 ---
 
-
-
-
-
-
-
+<a href="#top" target="_self">Back to top</a>
 
 ---
-
-<a href="#top">Back to top</a>
 
 \pagebreak
-
 
 
 ### Gallbladder
@@ -3707,11 +3701,6 @@ altmetricBadge_30207026 <- paste0(altmetricString1, PMID_30207026$doi, altmetric
 
 ```{r S Gallbladder, eval=FALSE, include=FALSE}
 ```
-
-
-
-
-
 
 
 ---
@@ -3749,13 +3738,6 @@ altmetricBadge_30216818 <- paste0(altmetricString1, PMID_30216818$doi, altmetric
 `r altmetricBadge_30216818`
 
 </details>
-
----
-
-- **Gallbladder carcinoma and epithelial dysplasia: Appropriate sampling for histopathology**
-
-https://www.sciencedirect.com/science/article/pii/S1092913418301163
-
 
 ---
 
@@ -4002,9 +3984,12 @@ https://onlinelibrary.wiley.com/doi/10.1002/jso.25050
 ---
 
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
+
 
 ### Ampulla of Vater
 
@@ -4126,15 +4111,6 @@ altmetricBadge_30179685 <- paste0(altmetricString1, PMID_30179685$doi, altmetric
 `r altmetricBadge_30179685`
 
 </details>
-
----
-
-
-- **Clinicopathological features related to survival in adenocarcinoma of the vaterian system in a Mexican population**
-
-https://www.sciencedirect.com/science/article/pii/S004681771830340X
-
-
 
 
 
@@ -4363,44 +4339,6 @@ altmetricBadge_30203717 <- paste0(altmetricString1, PMID_30203717$doi, altmetric
 
 </details>
 
-
----
-
-```{r 29341470, include=FALSE}
-
-PMID_29341470 <- RefManageR::ReadPubMed('29341470', database = 'PubMed')
-
-citation_29341470 <- paste0(PMID_29341470$journal,' ', PMID_29341470$year, ' ', PMID_29341470$month,';', PMID_29341470$volume,'(', PMID_29341470$number,'):', PMID_29341470$pages)
-
-PubMed_29341470 <- paste0(PubMedString, PMID_29341470$eprint)
-
-doi_29341470 <- paste0(doiString, PMID_29341470$doi)
-
-dimensionBadge_29341470 <- paste0(dimensionString1, PMID_29341470$doi,dimensionString2)
-
-altmetricBadge_29341470 <- paste0(altmetricString1, PMID_29341470$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_29341470$title`**
-</summary> 
-
-*`r citation_29341470`*
-
-`r PMID_29341470$abstract`
-
-`r PubMed_29341470`
-
-<!-- `r doi_29341470` -->
-
-`r dimensionBadge_29341470`
-
-`r altmetricBadge_29341470`
-
-</details>
-
-
 ---
 
 ```{r 30253977, include=FALSE}
@@ -4513,34 +4451,20 @@ altmetricBadge_30088190 <- paste0(altmetricString1, PMID_30088190$doi, altmetric
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<a href="#top" target="_self">Back to top</a>
 
 ---
 
-<a href="#top">Back to top</a>
-
 \pagebreak
+
 
 ### Neuroendocrine
 
+
+
+#### PanNet
+
+PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
 
 ```{r S Neuroendocrine, eval=FALSE, include=FALSE}
 ```
@@ -4596,13 +4520,6 @@ altmetricBadge_30140036 <- paste0(altmetricString1, PMID_30140036$doi, altmetric
 `r altmetricBadge_30140036`
 
 </details>
-
----
-
-- **ATRX loss is an independent predictor of poor survival in pancreatic neuroendocrine tumours**
-
-https://www.sciencedirect.com/science/article/pii/S0046817718303009
-
 
 
 ---
@@ -4801,82 +4718,6 @@ altmetricBadge_30095460 <- paste0(altmetricString1, PMID_30095460$doi, altmetric
 
 </details>
 
-
-
----
-
-```{r 30177687, include=FALSE}
-
-PMID_30177687 <- RefManageR::ReadPubMed('30177687', database = 'PubMed')
-
-citation_30177687 <- paste0(PMID_30177687$journal,' ', PMID_30177687$year, ' ', PMID_30177687$month,';', PMID_30177687$volume,'(', PMID_30177687$number,'):', PMID_30177687$pages)
-
-PubMed_30177687 <- paste0(PubMedString, PMID_30177687$eprint)
-
-doi_30177687 <- paste0(doiString, PMID_30177687$doi)
-
-dimensionBadge_30177687 <- paste0(dimensionString1, PMID_30177687$doi,dimensionString2)
-
-altmetricBadge_30177687 <- paste0(altmetricString1, PMID_30177687$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30177687$title`**
-</summary> 
-
-*`r citation_30177687`*
-
-`r PMID_30177687$abstract`
-
-`r PubMed_30177687`
-
-<!-- `r doi_30177687` -->
-
-`r dimensionBadge_30177687`
-
-`r altmetricBadge_30177687`
-
-</details>
-
-
----
-
-```{r 30153220, include=FALSE}
-
-PMID_30153220 <- RefManageR::ReadPubMed('30153220', database = 'PubMed')
-
-citation_30153220 <- paste0(PMID_30153220$journal,' ', PMID_30153220$year, ' ', PMID_30153220$month,';', PMID_30153220$volume,'(', PMID_30153220$number,'):', PMID_30153220$pages)
-
-PubMed_30153220 <- paste0(PubMedString, PMID_30153220$eprint)
-
-doi_30153220 <- paste0(doiString, PMID_30153220$doi)
-
-dimensionBadge_30153220 <- paste0(dimensionString1, PMID_30153220$doi,dimensionString2)
-
-altmetricBadge_30153220 <- paste0(altmetricString1, PMID_30153220$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30153220$title`**
-</summary> 
-
-*`r citation_30153220`*
-
-`r PMID_30153220$abstract`
-
-`r PubMed_30153220`
-
-<!-- `r doi_30153220` -->
-
-`r dimensionBadge_30153220`
-
-`r altmetricBadge_30153220`
-
-</details>
-
-
 ---
 
 ```{r 30236546, include=FALSE}
@@ -4913,24 +4754,6 @@ altmetricBadge_30236546 <- paste0(altmetricString1, PMID_30236546$doi, altmetric
 
 </details>
 
----
-
-
-
-- **Characterization of the Neuroendocrine Tumor Immune Microenvironment**
-
-https://journals.lww.com/pancreasjournal/Abstract/2018/10000/Characterization_of_the_Neuroendocrine_Tumor.10.aspx
-
----
-
-
-- **Periampullary neuroendocrine tumor with large intracellular mucin globules, an amphicrine tumor?**
-
-
-
-https://www.sciencedirect.com/science/article/pii/S2214330018300063#
-
-
 
 ---
 
@@ -4938,85 +4761,6 @@ https://www.sciencedirect.com/science/article/pii/S2214330018300063#
 
 
 http://theoncologist.alphamedpress.org/content/early/2018/08/13/theoncologist.2018-0187.abstract
-
-
-
-
----
-
-
-
-```{r 30022165, include=FALSE}
-
-PMID_30022165 <- RefManageR::ReadPubMed('30022165', database = 'PubMed')
-
-citation_30022165 <- paste0(PMID_30022165$journal,' ', PMID_30022165$year, ' ', PMID_30022165$month,';', PMID_30022165$volume,'(', PMID_30022165$number,'):', PMID_30022165$pages)
-
-PubMed_30022165 <- paste0(PubMedString, PMID_30022165$eprint)
-
-doi_30022165 <- paste0(doiString, PMID_30022165$doi)
-
-dimensionBadge_30022165 <- paste0(dimensionString1, PMID_30022165$doi,dimensionString2)
-
-altmetricBadge_30022165 <- paste0(altmetricString1, PMID_30022165$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30022165$title`**
-</summary> 
-
-*`r citation_30022165`*
-
-`r PMID_30022165$abstract`
-
-`r PubMed_30022165`
-
-<!-- `r doi_30022165` -->
-
-`r dimensionBadge_30022165`
-
-`r altmetricBadge_30022165`
-
-</details>
-
-
----
-
-```{r 29985851, include=FALSE}
-
-PMID_29985851 <- RefManageR::ReadPubMed('29985851', database = 'PubMed')
-
-citation_29985851 <- paste0(PMID_29985851$journal,' ', PMID_29985851$year, ' ', PMID_29985851$month,';', PMID_29985851$volume,'(', PMID_29985851$number,'):', PMID_29985851$pages)
-
-PubMed_29985851 <- paste0(PubMedString, PMID_29985851$eprint)
-
-doi_29985851 <- paste0(doiString, PMID_29985851$doi)
-
-dimensionBadge_29985851 <- paste0(dimensionString1, PMID_29985851$doi,dimensionString2)
-
-altmetricBadge_29985851 <- paste0(altmetricString1, PMID_29985851$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_29985851$title`**
-</summary> 
-
-*`r citation_29985851`*
-
-`r PMID_29985851$abstract`
-
-`r PubMed_29985851`
-
-<!-- `r doi_29985851` -->
-
-`r dimensionBadge_29985851`
-
-`r altmetricBadge_29985851`
-
-</details>
-
 
 ---
 
@@ -5091,50 +4835,11 @@ altmetricBadge_30136123 <- paste0(altmetricString1, PMID_30136123$doi, altmetric
 
 </details>
 
-
----
-
-```{r 30142118, include=FALSE}
-
-PMID_30142118 <- RefManageR::ReadPubMed('30142118', database = 'PubMed')
-
-citation_30142118 <- paste0(PMID_30142118$journal,' ', PMID_30142118$year, ' ', PMID_30142118$month,';', PMID_30142118$volume,'(', PMID_30142118$number,'):', PMID_30142118$pages)
-
-PubMed_30142118 <- paste0(PubMedString, PMID_30142118$eprint)
-
-doi_30142118 <- paste0(doiString, PMID_30142118$doi)
-
-dimensionBadge_30142118 <- paste0(dimensionString1, PMID_30142118$doi,dimensionString2)
-
-altmetricBadge_30142118 <- paste0(altmetricString1, PMID_30142118$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30142118$title`**
-</summary> 
-
-*`r citation_30142118`*
-
-`r PMID_30142118$abstract`
-
-`r PubMed_30142118`
-
-<!-- `r doi_30142118` -->
-
-`r dimensionBadge_30142118`
-
-`r altmetricBadge_30142118`
-
-</details>
-
 ---
 
 - **Tissue heterogeneity contributes to suboptimal precision of WHO 2010 scoring criteria for Ki67 labeling index in a subset of neuroendocrine neoplasms of the pancreas**
 
 https://www.termedia.pl/Tissue-heterogeneity-contributes-to-suboptimal-precision-of-WHO-2010-scoring-criteria-for-Ki67-labeling-index-in-a-subset-of-neuroendocrine-neoplasms-of-the-pancreas,55,29474,1,1.html
-
-
 
 
 ---
@@ -5178,7 +4883,6 @@ altmetricBadge_30145647 <- paste0(altmetricString1, PMID_30145647$doi, altmetric
 - **Pancreatic islet of Langerhans' cytoarchitecture and ultrastructure in normal glucose tolerance and in type 2 diabetes mellitus**
 
 https://onlinelibrary.wiley.com/doi/pdf/10.1111/dom.13380
-
 
 
 ---
@@ -5304,20 +5008,235 @@ altmetricBadge_30220478 <- paste0(altmetricString1, PMID_30220478$doi, altmetric
 
 </details>
 
----
-
-
-
-
-
-
 
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
+
+
+#### Microenvironment 
+
+Neuroendocrine Tumor Stroma Interactions, Microenvironment, Inflammatory Response
+
+```{r Neuroendocrine Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30177687, include=FALSE}
+
+PMID_30177687 <- RefManageR::ReadPubMed('30177687', database = 'PubMed')
+
+citation_30177687 <- paste0(PMID_30177687$journal,' ', PMID_30177687$year, ' ', PMID_30177687$month,';', PMID_30177687$volume,'(', PMID_30177687$number,'):', PMID_30177687$pages)
+
+PubMed_30177687 <- paste0(PubMedString, PMID_30177687$eprint)
+
+doi_30177687 <- paste0(doiString, PMID_30177687$doi)
+
+dimensionBadge_30177687 <- paste0(dimensionString1, PMID_30177687$doi,dimensionString2)
+
+altmetricBadge_30177687 <- paste0(altmetricString1, PMID_30177687$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30177687$title`**
+</summary> 
+
+*`r citation_30177687`*
+
+`r PMID_30177687$abstract`
+
+`r PubMed_30177687`
+
+<!-- `r doi_30177687` -->
+
+`r dimensionBadge_30177687`
+
+`r altmetricBadge_30177687`
+
+</details>
+
+
+---
+
+
+```{r 30153220, include=FALSE}
+
+PMID_30153220 <- RefManageR::ReadPubMed('30153220', database = 'PubMed')
+
+citation_30153220 <- paste0(PMID_30153220$journal,' ', PMID_30153220$year, ' ', PMID_30153220$month,';', PMID_30153220$volume,'(', PMID_30153220$number,'):', PMID_30153220$pages)
+
+PubMed_30153220 <- paste0(PubMedString, PMID_30153220$eprint)
+
+doi_30153220 <- paste0(doiString, PMID_30153220$doi)
+
+dimensionBadge_30153220 <- paste0(dimensionString1, PMID_30153220$doi,dimensionString2)
+
+altmetricBadge_30153220 <- paste0(altmetricString1, PMID_30153220$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30153220$title`**
+</summary> 
+
+*`r citation_30153220`*
+
+`r PMID_30153220$abstract`
+
+`r PubMed_30153220`
+
+<!-- `r doi_30153220` -->
+
+`r dimensionBadge_30153220`
+
+`r altmetricBadge_30153220`
+
+</details>
+
+---
+
+
+```{r 30022165, include=FALSE}
+
+PMID_30022165 <- RefManageR::ReadPubMed('30022165', database = 'PubMed')
+
+citation_30022165 <- paste0(PMID_30022165$journal,' ', PMID_30022165$year, ' ', PMID_30022165$month,';', PMID_30022165$volume,'(', PMID_30022165$number,'):', PMID_30022165$pages)
+
+PubMed_30022165 <- paste0(PubMedString, PMID_30022165$eprint)
+
+doi_30022165 <- paste0(doiString, PMID_30022165$doi)
+
+dimensionBadge_30022165 <- paste0(dimensionString1, PMID_30022165$doi,dimensionString2)
+
+altmetricBadge_30022165 <- paste0(altmetricString1, PMID_30022165$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30022165$title`**
+</summary> 
+
+*`r citation_30022165`*
+
+`r PMID_30022165$abstract`
+
+`r PubMed_30022165`
+
+<!-- `r doi_30022165` -->
+
+`r dimensionBadge_30022165`
+
+`r altmetricBadge_30022165`
+
+</details>
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+#### Techniques & Research Methods
+
+Neuroendocrine Techniques & Research Methods
+
+```{r Neuroendocrine Techniques & Research Methods, eval=FALSE, include=FALSE}
+```
+
+---
+
+```{r 29985851, include=FALSE}
+
+PMID_29985851 <- RefManageR::ReadPubMed('29985851', database = 'PubMed')
+
+citation_29985851 <- paste0(PMID_29985851$journal,' ', PMID_29985851$year, ' ', PMID_29985851$month,';', PMID_29985851$volume,'(', PMID_29985851$number,'):', PMID_29985851$pages)
+
+PubMed_29985851 <- paste0(PubMedString, PMID_29985851$eprint)
+
+doi_29985851 <- paste0(doiString, PMID_29985851$doi)
+
+dimensionBadge_29985851 <- paste0(dimensionString1, PMID_29985851$doi,dimensionString2)
+
+altmetricBadge_29985851 <- paste0(altmetricString1, PMID_29985851$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29985851$title`**
+</summary> 
+
+*`r citation_29985851`*
+
+`r PMID_29985851$abstract`
+
+`r PubMed_29985851`
+
+<!-- `r doi_29985851` -->
+
+`r dimensionBadge_29985851`
+
+`r altmetricBadge_29985851`
+
+</details>
+
+
+---
+
+```{r 30142118, include=FALSE}
+
+PMID_30142118 <- RefManageR::ReadPubMed('30142118', database = 'PubMed')
+
+citation_30142118 <- paste0(PMID_30142118$journal,' ', PMID_30142118$year, ' ', PMID_30142118$month,';', PMID_30142118$volume,'(', PMID_30142118$number,'):', PMID_30142118$pages)
+
+PubMed_30142118 <- paste0(PubMedString, PMID_30142118$eprint)
+
+doi_30142118 <- paste0(doiString, PMID_30142118$doi)
+
+dimensionBadge_30142118 <- paste0(dimensionString1, PMID_30142118$doi,dimensionString2)
+
+altmetricBadge_30142118 <- paste0(altmetricString1, PMID_30142118$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30142118$title`**
+</summary> 
+
+*`r citation_30142118`*
+
+`r PMID_30142118$abstract`
+
+`r PubMed_30142118`
+
+<!-- `r doi_30142118` -->
+
+`r dimensionBadge_30142118`
+
+`r altmetricBadge_30142118`
+
+</details>
+
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
 
 ## Cytopathology {.tabset}
 
@@ -5484,23 +5403,6 @@ altmetricBadge_30156777 <- paste0(altmetricString1, PMID_30156777$doi, altmetric
 
 ---
 
-
-- **Ancillary tests in the diagnosis of liver and pancreatic neoplasms**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22009
-
-
----
-
-
-- **Comparison between groove carcinoma and groove pancreatitis**
-
-
-https://www.sciencedirect.com/science/article/pii/S142439031830663X
-
-
----
-
 ```{r 30194916, include=FALSE}
 
 PMID_30194916 <- RefManageR::ReadPubMed('30194916', database = 'PubMed')
@@ -5534,9 +5436,6 @@ altmetricBadge_30194916 <- paste0(altmetricString1, PMID_30194916$doi, altmetric
 `r altmetricBadge_30194916`
 
 </details>
-
-
-
 
 ---
 
@@ -5633,8 +5532,6 @@ https://journals.lww.com/co-gastroenterology/Abstract/2018/09000/To_resect_or_no
 
 ---
 
----
-
 ```{r 30080723, include=FALSE}
 
 PMID_30080723 <- RefManageR::ReadPubMed('30080723', database = 'PubMed')
@@ -5674,7 +5571,9 @@ altmetricBadge_30080723 <- paste0(altmetricString1, PMID_30080723$doi, altmetric
 
 
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -5761,8 +5660,54 @@ altmetricBadge_30153349 <- paste0(altmetricString1, PMID_30153349$doi, altmetric
 
 ---
 
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+### Ampulla of Vater
 
 
+```{r C Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 29341470, include=FALSE}
+
+PMID_29341470 <- RefManageR::ReadPubMed('29341470', database = 'PubMed')
+
+citation_29341470 <- paste0(PMID_29341470$journal,' ', PMID_29341470$year, ' ', PMID_29341470$month,';', PMID_29341470$volume,'(', PMID_29341470$number,'):', PMID_29341470$pages)
+
+PubMed_29341470 <- paste0(PubMedString, PMID_29341470$eprint)
+
+doi_29341470 <- paste0(doiString, PMID_29341470$doi)
+
+dimensionBadge_29341470 <- paste0(dimensionString1, PMID_29341470$doi,dimensionString2)
+
+altmetricBadge_29341470 <- paste0(altmetricString1, PMID_29341470$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29341470$title`**
+</summary> 
+
+*`r citation_29341470`*
+
+`r PMID_29341470$abstract`
+
+`r PubMed_29341470`
+
+<!-- `r doi_29341470` -->
+
+`r dimensionBadge_29341470`
+
+`r altmetricBadge_29341470`
+
+</details>
 
 
 
@@ -5772,7 +5717,9 @@ altmetricBadge_30153349 <- paste0(altmetricString1, PMID_30153349$doi, altmetric
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -5781,6 +5728,7 @@ altmetricBadge_30153349 <- paste0(altmetricString1, PMID_30153349$doi, altmetric
 
 ```{r C Neuroendocrine, eval=FALSE, include=FALSE}
 ```
+
 
 
 
@@ -5825,7 +5773,9 @@ altmetricBadge_30211805 <- paste0(altmetricString1, PMID_30211805$doi, altmetric
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -6988,7 +6938,9 @@ https://www.spandidos-publications.com/or/40/5/3015
 ---
 
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -7075,7 +7027,10 @@ altmetricBadge_30105440 <- paste0(altmetricString1, PMID_30105440$doi, altmetric
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
+
 
 \pagebreak
 
@@ -7096,7 +7051,9 @@ https://www.endo.theclinics.com/article/S0889-8529(18)30519-X/abstract
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -7226,7 +7183,9 @@ Virchows Archiv
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -7241,7 +7200,9 @@ Please send your feedbacks using the form below:
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
+
+---
 
 \pagebreak
 
@@ -7261,5 +7222,5 @@ Please send your feedbacks using the form below:
 
 ---
 
-<a href="#top">Back to top</a>
+<a href="#top" target="_self">Back to top</a>
 
