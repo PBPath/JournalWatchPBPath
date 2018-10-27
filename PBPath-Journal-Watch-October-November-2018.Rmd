@@ -93,6 +93,9 @@ We encourage members to actively participate by recommending new articles and pr
 
 ### Pancreas
 
+
+#### Morphology, Diagnostics, IHC
+
 ```{r S Pancreas Morphology, Diagnostics, IHC, eval=FALSE, include=FALSE}
 ```
 
@@ -334,15 +337,33 @@ addthis_inline_30357962 <- paste0(addthis_String1, PMID_30357962$title , " PMID:
 
 </details>
 
+
+
 ---
 
+<a href="#top">Back to top</a>
 
+\pagebreak
 
-<!-- ### Pancreas Stage -->
+#### Staging
 
-
-```{r S Pancreas Stage, eval=FALSE, include=FALSE}
+```{r S Pancreas Staging, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+#### Macroscopy 
+
+```{r S Macroscopy, Grossing, eval=FALSE, include=FALSE}
+```
+
+
+
 
 ---
 
@@ -531,8 +552,12 @@ addthis_inline_30326370 <- paste0(addthis_String1, PMID_30326370$title , " PMID:
 
 ---
 
+<a href="#top">Back to top</a>
 
-<!-- ### IPMN -->
+\pagebreak
+
+
+#### Preinvasive Lesions
 
 ```{r S Pancreas Preinvasive Lesions IPMN, MCN, ITPN,  eval=FALSE, include=FALSE}
 ```
@@ -630,1171 +655,7 @@ addthis_inline_30357576 <- paste0(addthis_String1, PMID_30357576$title , " PMID:
 ---
 
 
-
-### Bile Ducts
-
-```{r S Bile Ducts, eval=FALSE, include=FALSE}
-```
-
-
----
-
-```{r 30288652, include=FALSE}
-
-PMID_30288652 <- RefManageR::ReadPubMed('30288652', database = 'PubMed')
-
-citation_30288652 <- paste0(PMID_30288652$journal,' ', PMID_30288652$year, ' ', PMID_30288652$month,';', PMID_30288652$volume,'(', PMID_30288652$number,'):', PMID_30288652$pages)
-
-PubMed_30288652 <- paste0(PubMedString, PMID_30288652$eprint)
-
-doi_30288652 <- paste0(doiString, PMID_30288652$doi)
-
-dimensionBadge_30288652 <- paste0(dimensionString1, PMID_30288652$doi,dimensionString2)
-
-altmetricBadge_30288652 <- paste0(altmetricString1, PMID_30288652$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30288652$title`**
-</summary> 
-
-*`r citation_30288652`*
-
-`r PMID_30288652$abstract`
-
-`r PubMed_30288652`
-
-<!-- `r doi_30288652` -->
-
-`r dimensionBadge_30288652`
-
-`r altmetricBadge_30288652`
-
-</details>
-
-
----
-
-```{r 29751883, include=FALSE}
-
-PMID_29751883 <- RefManageR::ReadPubMed('29751883', database = 'PubMed')
-
-citation_29751883 <- paste0(PMID_29751883$journal,' ', PMID_29751883$year, ' ', PMID_29751883$month,';', PMID_29751883$volume,'(', PMID_29751883$number,'):', PMID_29751883$pages)
-
-PubMed_29751883 <- paste0(PubMedString, PMID_29751883$eprint)
-
-doi_29751883 <- paste0(doiString, PMID_29751883$doi)
-
-dimensionBadge_29751883 <- paste0(dimensionString1, PMID_29751883$doi,dimensionString2)
-
-altmetricBadge_29751883 <- paste0(altmetricString1, PMID_29751883$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_29751883$title`**
-</summary> 
-
-*`r citation_29751883`*
-
-`r PMID_29751883$abstract`
-
-`r PubMed_29751883`
-
-<!-- `r doi_29751883` -->
-
-`r dimensionBadge_29751883`
-
-`r altmetricBadge_29751883`
-
-</details>
-
----
-
-- **Comparison of the Clinicopathologic Characteristics of Intraductal Papillary Neoplasm of the Bile Duct according to Morphological and Anatomical Classifications**
-
-
-https://www.jkms.org/search.php?where=aview&id=10.3346/jkms.2018.33.e266&code=0063JKMS&vmode=FULL
-
-
-
----
-
-```{r 30301635, include=FALSE}
-
-PMID_30301635 <- RefManageR::ReadPubMed('30301635', database = 'PubMed')
-
-citation_30301635 <- paste0(PMID_30301635$journal,' ', PMID_30301635$year, ' ', PMID_30301635$month,';', PMID_30301635$volume,'(', PMID_30301635$number,'):', PMID_30301635$pages)
-
-PubMed_30301635 <- paste0(PubMedString, PMID_30301635$eprint)
-
-doi_30301635 <- paste0(doiString, PMID_30301635$doi)
-
-dimensionBadge_30301635 <- paste0(dimensionString1, PMID_30301635$doi,dimensionString2)
-
-altmetricBadge_30301635 <- paste0(altmetricString1, PMID_30301635$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30301635$title`**
-</summary> 
-
-*`r citation_30301635`*
-
-`r PubMed_30301635`
-
-`r PMID_30301635$abstract`
-
-<!-- `r doi_30301635` -->
-
-`r dimensionBadge_30301635`
-
-`r altmetricBadge_30301635`
-
-</details>
-
-
-
----
-
-```{r 29450978, include=FALSE}
-
-PMID_29450978 <- RefManageR::ReadPubMed('29450978', database = 'PubMed')
-
-citation_29450978 <- paste0(PMID_29450978$journal,' ', PMID_29450978$year, ' ', PMID_29450978$month,';', PMID_29450978$volume,'(', PMID_29450978$number,'):', PMID_29450978$pages)
-
-PubMed_29450978 <- paste0(PubMedString, PMID_29450978$eprint)
-
-doi_29450978 <- paste0(doiString, PMID_29450978$doi)
-
-dimensionBadge_29450978 <- paste0(dimensionString1, PMID_29450978$doi,dimensionString2)
-
-altmetricBadge_29450978 <- paste0(altmetricString1, PMID_29450978$doi, altmetricString2 )
-
-addthis_inline_29450978 <- paste0(addthis_String1, PMID_29450978$title , " PMID: 29450978 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_29450978$title`**
-</summary> 
-
-*`r citation_29450978`*
-
-`r PubMed_29450978`
-
-`r addthis_inline_29450978`
-
-`r PMID_29450978$abstract`
-
-<!-- `r doi_29450978` -->
-
-`r dimensionBadge_29450978`
-
-`r altmetricBadge_29450978`
-
-</details>
-
-
----
-
-```{r 30349952, include=FALSE}
-
-PMID_30349952 <- RefManageR::ReadPubMed('30349952', database = 'PubMed')
-
-citation_30349952 <- paste0(PMID_30349952$journal,' ', PMID_30349952$year, ' ', PMID_30349952$month,';', PMID_30349952$volume,'(', PMID_30349952$number,'):', PMID_30349952$pages)
-
-PubMed_30349952 <- paste0(PubMedString, PMID_30349952$eprint)
-
-doi_30349952 <- paste0(doiString, PMID_30349952$doi)
-
-dimensionBadge_30349952 <- paste0(dimensionString1, PMID_30349952$doi,dimensionString2)
-
-altmetricBadge_30349952 <- paste0(altmetricString1, PMID_30349952$doi, altmetricString2 )
-
-addthis_inline_30349952 <- paste0(addthis_String1, PMID_30349952$title , " PMID: 30349952 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_30349952$title`**
-</summary> 
-
-*`r citation_30349952`*
-
-`r PubMed_30349952`
-
-`r addthis_inline_30349952`
-
-`r PMID_30349952$abstract`
-
-<!-- `r doi_30349952` -->
-
-`r dimensionBadge_30349952`
-
-`r altmetricBadge_30349952`
-
-</details>
-
----
-
-
-
-
-
-### Gallbladder
-
-
-```{r S Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
-
-
----
-
-
-```{r 30285068, include=FALSE}
-
-PMID_30285068 <- RefManageR::ReadPubMed('30285068', database = 'PubMed')
-
-citation_30285068 <- paste0(PMID_30285068$journal,' ', PMID_30285068$year, ' ', PMID_30285068$month,';', PMID_30285068$volume,'(', PMID_30285068$number,'):', PMID_30285068$pages)
-
-PubMed_30285068 <- paste0(PubMedString, PMID_30285068$eprint)
-
-doi_30285068 <- paste0(doiString, PMID_30285068$doi)
-
-dimensionBadge_30285068 <- paste0(dimensionString1, PMID_30285068$doi,dimensionString2)
-
-altmetricBadge_30285068 <- paste0(altmetricString1, PMID_30285068$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30285068$title`**
-</summary> 
-
-*`r citation_30285068`*
-
-`r PMID_30285068$abstract`
-
-`r PubMed_30285068`
-
-<!-- `r doi_30285068` -->
-
-`r dimensionBadge_30285068`
-
-`r altmetricBadge_30285068`
-
-</details>
-
----
-
-- **Intracholecystic papillary-tubular neoplasm in a patient with choledochal cyst and anomalous pancreaticobiliary junction: case report**
-
-https://www.birpublications.org/doi/pdfplus/10.1259/bjrcr.20180079
-
----
-
-- **Intracholecystic papillary–tubular neoplasm of gallbladder: A 5-year retrospective pathological study**
-
-
-http://www.ijpmonline.org/article.asp?issn=0377-4929;year=2018;volume=61;issue=4;spage=516;epage=519;aulast=Hazarika
-
-
----
-
-
-
-
-### Ampulla of Vater
-
-```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
-
----
-
-- **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
-
-http://cancer-research-frontiers.org/wp-content/uploads/2018/10/CRF-1833-4-1.pdf
-
-
----
-
-
-### Neuroendocrine
-
-
-```{r S Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-```{r 30282083, include=FALSE}
-
-PMID_30282083 <- RefManageR::ReadPubMed('30282083', database = 'PubMed')
-
-citation_30282083 <- paste0(PMID_30282083$journal,' ', PMID_30282083$year, ' ', PMID_30282083$month,';', PMID_30282083$volume,'(', PMID_30282083$number,'):', PMID_30282083$pages)
-
-PubMed_30282083 <- paste0(PubMedString, PMID_30282083$eprint)
-
-doi_30282083 <- paste0(doiString, PMID_30282083$doi)
-
-dimensionBadge_30282083 <- paste0(dimensionString1, PMID_30282083$doi,dimensionString2)
-
-altmetricBadge_30282083 <- paste0(altmetricString1, PMID_30282083$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30282083$title`**
-</summary> 
-
-*`r citation_30282083`*
-
-`r PubMed_30282083`
-
-`r PMID_30282083$abstract`
-
-<!-- `r doi_30282083` -->
-
-`r dimensionBadge_30282083`
-
-`r altmetricBadge_30282083`
-
-</details>
-
-
-
-
-
-
----
-
-- **The use of Ki-67 labeling index to grade pulmonary well-differentiated neuroendocrine neoplasms: current best evidence**
-
-https://www.nature.com/articles/s41379-018-0076-9
-
-
-
----
-
-```{r 30284410, include=FALSE}
-
-PMID_30284410 <- RefManageR::ReadPubMed('30284410', database = 'PubMed')
-
-citation_30284410 <- paste0(PMID_30284410$journal,' ', PMID_30284410$year, ' ', PMID_30284410$month,';', PMID_30284410$volume,'(', PMID_30284410$number,'):', PMID_30284410$pages)
-
-PubMed_30284410 <- paste0(PubMedString, PMID_30284410$eprint)
-
-doi_30284410 <- paste0(doiString, PMID_30284410$doi)
-
-dimensionBadge_30284410 <- paste0(dimensionString1, PMID_30284410$doi,dimensionString2)
-
-altmetricBadge_30284410 <- paste0(altmetricString1, PMID_30284410$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30284410$title`**
-</summary> 
-
-*`r citation_30284410`*
-
-`r PMID_30284410$abstract`
-
-`r PubMed_30284410`
-
-<!-- `r doi_30284410` -->
-
-`r dimensionBadge_30284410`
-
-`r altmetricBadge_30284410`
-
-</details>
-
-
----
-
-```{r 30302639, include=FALSE}
-
-PMID_30302639 <- RefManageR::ReadPubMed('30302639', database = 'PubMed')
-
-citation_30302639 <- paste0(PMID_30302639$journal,' ', PMID_30302639$year, ' ', PMID_30302639$month,';', PMID_30302639$volume,'(', PMID_30302639$number,'):', PMID_30302639$pages)
-
-PubMed_30302639 <- paste0(PubMedString, PMID_30302639$eprint)
-
-doi_30302639 <- paste0(doiString, PMID_30302639$doi)
-
-dimensionBadge_30302639 <- paste0(dimensionString1, PMID_30302639$doi,dimensionString2)
-
-altmetricBadge_30302639 <- paste0(altmetricString1, PMID_30302639$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30302639$title`**
-</summary> 
-
-*`r citation_30302639`*
-
-`r PubMed_30302639`
-
-`r PMID_30302639$abstract`
-
-<!-- `r doi_30302639` -->
-
-`r dimensionBadge_30302639`
-
-`r altmetricBadge_30302639`
-
-</details>
-
-
----
-
-```{r 30308537, include=FALSE}
-
-PMID_30308537 <- RefManageR::ReadPubMed('30308537', database = 'PubMed')
-
-citation_30308537 <- paste0(PMID_30308537$journal,' ', PMID_30308537$year, ' ', PMID_30308537$month,';', PMID_30308537$volume,'(', PMID_30308537$number,'):', PMID_30308537$pages)
-
-PubMed_30308537 <- paste0(PubMedString, PMID_30308537$eprint)
-
-doi_30308537 <- paste0(doiString, PMID_30308537$doi)
-
-dimensionBadge_30308537 <- paste0(dimensionString1, PMID_30308537$doi,dimensionString2)
-
-altmetricBadge_30308537 <- paste0(altmetricString1, PMID_30308537$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30308537$title`**
-</summary> 
-
-*`r citation_30308537`*
-
-`r PubMed_30308537`
-
-`r PMID_30308537$abstract`
-
-<!-- `r doi_30308537` -->
-
-`r dimensionBadge_30308537`
-
-`r altmetricBadge_30308537`
-
-</details>
-
-
----
-
-```{r 30302430, include=FALSE}
-
-PMID_30302430 <- RefManageR::ReadPubMed('30302430', database = 'PubMed')
-
-citation_30302430 <- paste0(PMID_30302430$journal,' ', PMID_30302430$year, ' ', PMID_30302430$month,';', PMID_30302430$volume,'(', PMID_30302430$number,'):', PMID_30302430$pages)
-
-PubMed_30302430 <- paste0(PubMedString, PMID_30302430$eprint)
-
-doi_30302430 <- paste0(doiString, PMID_30302430$doi)
-
-dimensionBadge_30302430 <- paste0(dimensionString1, PMID_30302430$doi,dimensionString2)
-
-altmetricBadge_30302430 <- paste0(altmetricString1, PMID_30302430$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30302430$title`**
-</summary> 
-
-*`r citation_30302430`*
-
-`r PubMed_30302430`
-
-`r PMID_30302430$abstract`
-
-<!-- `r doi_30302430` -->
-
-`r dimensionBadge_30302430`
-
-`r altmetricBadge_30302430`
-
-</details>
-
----
-
-
-- **COMPETITIVE TESTING THE WHO 2010 VS THE WHO 2017 GRADING OF PANCREAS NEUROENDOCRINE NEOPLASIA: DATA FROM A LARGE INTERNATIONAL COHORT STUDY**
-
-https://www.researchgate.net/publication/328199727_COMPETITIVE_TESTING_THE_WHO_2010_VS_THE_WHO_2017_GRADING_OF_PANCREAS_NEUROENDOCRINE_NEOPLASIA_DATA_FROM_A_LARGE_INTERNATIONAL_COHORT_STUDY
-
-
-https://www.karger.com/Article/Abstract/494355
-
-
-
-
----
-
-```{r 30300897, include=FALSE}
-
-PMID_30300897 <- RefManageR::ReadPubMed('30300897', database = 'PubMed')
-
-citation_30300897 <- paste0(PMID_30300897$journal,' ', PMID_30300897$year, ' ', PMID_30300897$month,';', PMID_30300897$volume,'(', PMID_30300897$number,'):', PMID_30300897$pages)
-
-PubMed_30300897 <- paste0(PubMedString, PMID_30300897$eprint)
-
-doi_30300897 <- paste0(doiString, PMID_30300897$doi)
-
-dimensionBadge_30300897 <- paste0(dimensionString1, PMID_30300897$doi,dimensionString2)
-
-altmetricBadge_30300897 <- paste0(altmetricString1, PMID_30300897$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30300897$title`**
-</summary> 
-
-*`r citation_30300897`*
-
-`r PubMed_30300897`
-
-`r PMID_30300897$abstract`
-
-<!-- `r doi_30300897` -->
-
-`r dimensionBadge_30300897`
-
-`r altmetricBadge_30300897`
-
-</details>
-
----
-
-- **Ki-67 and presence of liver metastases identify different progression-risk classes in pancreatic neuroendocrine neoplasms (pNEN) undergoing resection**
-
-
-https://www.ejso.com/article/S0748-7983(18)31452-5/fulltext
-
-
-
----
-
-```{r 30339629, include=FALSE}
-
-PMID_30339629 <- RefManageR::ReadPubMed('30339629', database = 'PubMed')
-
-citation_30339629 <- paste0(PMID_30339629$journal,' ', PMID_30339629$year, ' ', PMID_30339629$month,';', PMID_30339629$volume,'(', PMID_30339629$number,'):', PMID_30339629$pages)
-
-PubMed_30339629 <- paste0(PubMedString, PMID_30339629$eprint)
-
-doi_30339629 <- paste0(doiString, PMID_30339629$doi)
-
-dimensionBadge_30339629 <- paste0(dimensionString1, PMID_30339629$doi,dimensionString2)
-
-altmetricBadge_30339629 <- paste0(altmetricString1, PMID_30339629$doi, altmetricString2 )
-
-addthis_inline_30339629 <- paste0(addthis_String1, PMID_30339629$title , " PMID: 30339629 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_30339629$title`**
-</summary> 
-
-*`r citation_30339629`*
-
-`r PubMed_30339629`
-
-`r addthis_inline_30339629`
-
-`r PMID_30339629$abstract`
-
-<!-- `r doi_30339629` -->
-
-`r dimensionBadge_30339629`
-
-`r altmetricBadge_30339629`
-
-</details>
-
----
-
-
-
-
-<a href="#top">Back to top</a>
-
-\pagebreak
-
-## Cytopathology {.tabset}
-
-
----
-
-### Pancreas
-
-```{r C Pancreas, eval=FALSE, include=FALSE}
-```
-
-
----
-
-```{r 30268674, include=FALSE}
-
-PMID_30268674 <- RefManageR::ReadPubMed('30268674', database = 'PubMed')
-
-citation_30268674 <- paste0(PMID_30268674$journal,' ', PMID_30268674$year, ' ', PMID_30268674$month,';', PMID_30268674$volume,'(', PMID_30268674$number,'):', PMID_30268674$pages)
-
-PubMed_30268674 <- paste0(PubMedString, PMID_30268674$eprint)
-
-doi_30268674 <- paste0(doiString, PMID_30268674$doi)
-
-dimensionBadge_30268674 <- paste0(dimensionString1, PMID_30268674$doi,dimensionString2)
-
-altmetricBadge_30268674 <- paste0(altmetricString1, PMID_30268674$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30268674$title`**
-</summary> 
-
-*`r citation_30268674`*
-
-`r PMID_30268674$abstract`
-
-`r PubMed_30268674`
-
-<!-- `r doi_30268674` -->
-
-`r dimensionBadge_30268674`
-
-`r altmetricBadge_30268674`
-
-</details>
-
----
-
-- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
-
-https://www.sciencedirect.com/science/article/pii/S1424390318306859
-
-
-
----
-
-```{r 30284406, include=FALSE}
-
-PMID_30284406 <- RefManageR::ReadPubMed('30284406', database = 'PubMed')
-
-citation_30284406 <- paste0(PMID_30284406$journal,' ', PMID_30284406$year, ' ', PMID_30284406$month,';', PMID_30284406$volume,'(', PMID_30284406$number,'):', PMID_30284406$pages)
-
-PubMed_30284406 <- paste0(PubMedString, PMID_30284406$eprint)
-
-doi_30284406 <- paste0(doiString, PMID_30284406$doi)
-
-dimensionBadge_30284406 <- paste0(dimensionString1, PMID_30284406$doi,dimensionString2)
-
-altmetricBadge_30284406 <- paste0(altmetricString1, PMID_30284406$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30284406$title`**
-</summary> 
-
-*`r citation_30284406`*
-
-`r PMID_30284406$abstract`
-
-`r PubMed_30284406`
-
-<!-- `r doi_30284406` -->
-
-`r dimensionBadge_30284406`
-
-`r altmetricBadge_30284406`
-
-</details>
-
----
-
-
-- **Pancreaticobiliary cytopathology: an update**
-
-https://www.sciencedirect.com/science/article/pii/S1756231718301397
-
-
----
-
-- **Histologic retrieval rate of a newly designed side-bevelled 20G needle for EUS-guided tissue acquisition of solid pancreatic lesions**
-
-http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443
-
-
-
----
-
-```{r 30301772, include=FALSE}
-
-PMID_30301772 <- RefManageR::ReadPubMed('30301772', database = 'PubMed')
-
-citation_30301772 <- paste0(PMID_30301772$journal,' ', PMID_30301772$year, ' ', PMID_30301772$month,';', PMID_30301772$volume,'(', PMID_30301772$number,'):', PMID_30301772$pages)
-
-PubMed_30301772 <- paste0(PubMedString, PMID_30301772$eprint)
-
-doi_30301772 <- paste0(doiString, PMID_30301772$doi)
-
-dimensionBadge_30301772 <- paste0(dimensionString1, PMID_30301772$doi,dimensionString2)
-
-altmetricBadge_30301772 <- paste0(altmetricString1, PMID_30301772$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30301772$title`**
-</summary> 
-
-*`r citation_30301772`*
-
-`r PubMed_30301772`
-
-`r PMID_30301772$abstract`
-
-<!-- `r doi_30301772` -->
-
-`r dimensionBadge_30301772`
-
-`r altmetricBadge_30301772`
-
-</details>
-
-
----
-
-```{r 30308535, include=FALSE}
-
-PMID_30308535 <- RefManageR::ReadPubMed('30308535', database = 'PubMed')
-
-citation_30308535 <- paste0(PMID_30308535$journal,' ', PMID_30308535$year, ' ', PMID_30308535$month,';', PMID_30308535$volume,'(', PMID_30308535$number,'):', PMID_30308535$pages)
-
-PubMed_30308535 <- paste0(PubMedString, PMID_30308535$eprint)
-
-doi_30308535 <- paste0(doiString, PMID_30308535$doi)
-
-dimensionBadge_30308535 <- paste0(dimensionString1, PMID_30308535$doi,dimensionString2)
-
-altmetricBadge_30308535 <- paste0(altmetricString1, PMID_30308535$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30308535$title`**
-</summary> 
-
-*`r citation_30308535`*
-
-`r PubMed_30308535`
-
-`r PMID_30308535$abstract`
-
-<!-- `r doi_30308535` -->
-
-`r dimensionBadge_30308535`
-
-`r altmetricBadge_30308535`
-
-</details>
-
----
-
-
----
-
-
-<!-- ### Bile Ducts -->
-
-```{r C Bile Ducts, eval=FALSE, include=FALSE}
-```
-
-
-
-
-
-
-
-
-<!-- ### Gallbladder -->
-
-```{r C Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
----
-
-<!-- ### Ampulla of Vater -->
-
-```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
-
----
-
-### Neuroendocrine
-
-
-```{r C Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
----
-
-- **Accuracy of Grading Pancreatic Neuroendocrine Neoplasms with Ki‐67 Index in Fine‐Needle Aspiration Cellblock Material**
-
-https://onlinelibrary.wiley.com/doi/10.1111/cyt.12643
-
-
----
-
-```{r 30290028, include=FALSE}
-
-PMID_30290028 <- RefManageR::ReadPubMed('30290028', database = 'PubMed')
-
-citation_30290028 <- paste0(PMID_30290028$journal,' ', PMID_30290028$year, ' ', PMID_30290028$month,';', PMID_30290028$volume,'(', PMID_30290028$number,'):', PMID_30290028$pages)
-
-PubMed_30290028 <- paste0(PubMedString, PMID_30290028$eprint)
-
-doi_30290028 <- paste0(doiString, PMID_30290028$doi)
-
-dimensionBadge_30290028 <- paste0(dimensionString1, PMID_30290028$doi,dimensionString2)
-
-altmetricBadge_30290028 <- paste0(altmetricString1, PMID_30290028$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30290028$title`**
-</summary> 
-
-*`r citation_30290028`*
-
-`r PMID_30290028$abstract`
-
-`r PubMed_30290028`
-
-<!-- `r doi_30290028` -->
-
-`r dimensionBadge_30290028`
-
-`r altmetricBadge_30290028`
-
-</details>
-
----
-
-- **Pancreatic mixed acinar‐neuroendocrine carcinoma, a unique diagnostic challenge on FNA cytology: A small series of two cases with literature review**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/dc.23981
-
-
-
----
-
-```{r 30303569, include=FALSE}
-
-PMID_30303569 <- RefManageR::ReadPubMed('30303569', database = 'PubMed')
-
-citation_30303569 <- paste0(PMID_30303569$journal,' ', PMID_30303569$year, ' ', PMID_30303569$month,';', PMID_30303569$volume,'(', PMID_30303569$number,'):', PMID_30303569$pages)
-
-PubMed_30303569 <- paste0(PubMedString, PMID_30303569$eprint)
-
-doi_30303569 <- paste0(doiString, PMID_30303569$doi)
-
-dimensionBadge_30303569 <- paste0(dimensionString1, PMID_30303569$doi,dimensionString2)
-
-altmetricBadge_30303569 <- paste0(altmetricString1, PMID_30303569$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30303569$title`**
-</summary> 
-
-*`r citation_30303569`*
-
-`r PubMed_30303569`
-
-`r PMID_30303569$abstract`
-
-<!-- `r doi_30303569` -->
-
-`r dimensionBadge_30303569`
-
-`r altmetricBadge_30303569`
-
-</details>
-
-
-
----
-
-```{r 30353700, include=FALSE}
-
-PMID_30353700 <- RefManageR::ReadPubMed('30353700', database = 'PubMed')
-
-citation_30353700 <- paste0(PMID_30353700$journal,' ', PMID_30353700$year, ' ', PMID_30353700$month,';', PMID_30353700$volume,'(', PMID_30353700$number,'):', PMID_30353700$pages)
-
-PubMed_30353700 <- paste0(PubMedString, PMID_30353700$eprint)
-
-doi_30353700 <- paste0(doiString, PMID_30353700$doi)
-
-dimensionBadge_30353700 <- paste0(dimensionString1, PMID_30353700$doi,dimensionString2)
-
-altmetricBadge_30353700 <- paste0(altmetricString1, PMID_30353700$doi, altmetricString2 )
-
-addthis_inline_30353700 <- paste0(addthis_String1, PMID_30353700$title , " PMID: 30353700 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_30353700$title`**
-</summary> 
-
-*`r citation_30353700`*
-
-`r PubMed_30353700`
-
-`r addthis_inline_30353700`
-
-`r PMID_30353700$abstract`
-
-<!-- `r doi_30353700` -->
-
-`r dimensionBadge_30353700`
-
-`r altmetricBadge_30353700`
-
-</details>
-
----
-
-<a href="#top">Back to top</a>
-
-\pagebreak
-
-## Molecular Pathology {.tabset}
-
----
-
-
-### Pancreas
-
-```{r M Pancreas, eval=FALSE, include=FALSE}
-```
-
----
-
-- **Referral frequency, attrition rate, and outcomes of germline testing in patients with pancreatic adenocarcinoma**
-
-
-https://link.springer.com/article/10.1007/s10689-018-0106-2
-
-
----
-
-
-- **Metastasis and chemoresistance in CD133 expressing pancreatic cancer cells are dependent on their lipid raft integrity**
-
-https://www.sciencedirect.com/science/article/pii/S0304383518305949
-
-
----
-
-```{r 30293872, include=FALSE}
-
-PMID_30293872 <- RefManageR::ReadPubMed('30293872', database = 'PubMed')
-
-citation_30293872 <- paste0(PMID_30293872$journal,' ', PMID_30293872$year, ' ', PMID_30293872$month,';', PMID_30293872$volume,'(', PMID_30293872$number,'):', PMID_30293872$pages)
-
-PubMed_30293872 <- paste0(PubMedString, PMID_30293872$eprint)
-
-doi_30293872 <- paste0(doiString, PMID_30293872$doi)
-
-dimensionBadge_30293872 <- paste0(dimensionString1, PMID_30293872$doi,dimensionString2)
-
-altmetricBadge_30293872 <- paste0(altmetricString1, PMID_30293872$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30293872$title`**
-</summary> 
-
-*`r citation_30293872`*
-
-`r PubMed_30293872`
-
-`r PMID_30293872$abstract`
-
-<!-- `r doi_30293872` -->
-
-`r dimensionBadge_30293872`
-
-`r altmetricBadge_30293872`
-
-</details>
-
-
----
-
-```{r 30316690, include=FALSE}
-
-PMID_30316690 <- RefManageR::ReadPubMed('30316690', database = 'PubMed')
-
-citation_30316690 <- paste0(PMID_30316690$journal,' ', PMID_30316690$year, ' ', PMID_30316690$month,';', PMID_30316690$volume,'(', PMID_30316690$number,'):', PMID_30316690$pages)
-
-PubMed_30316690 <- paste0(PubMedString, PMID_30316690$eprint)
-
-doi_30316690 <- paste0(doiString, PMID_30316690$doi)
-
-dimensionBadge_30316690 <- paste0(dimensionString1, PMID_30316690$doi,dimensionString2)
-
-altmetricBadge_30316690 <- paste0(altmetricString1, PMID_30316690$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30316690$title`**
-</summary> 
-
-*`r citation_30316690`*
-
-`r PubMed_30316690`
-
-`r PMID_30316690$abstract`
-
-<!-- `r doi_30316690` -->
-
-`r dimensionBadge_30316690`
-
-`r altmetricBadge_30316690`
-
-</details>
-
----
-
-- **MicroRNA therapeutics: design of single-stranded miR-216b mimics to target KRAS in pancreatic cancer cells**
-
-https://www.tandfonline.com/doi/full/10.1080/15476286.2018.1526536
-
----
-
-
-
-
-<!-- ### Bile Ducts -->
-
-```{r M Bile Ducts, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<!-- ### Gallbladder -->
-
-```{r M Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
----
-
-### Ampulla of Vater
-
-```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
-
----
-
-```{r 29731265, include=FALSE}
-
-PMID_29731265 <- RefManageR::ReadPubMed('29731265', database = 'PubMed')
-
-citation_29731265 <- paste0(PMID_29731265$journal,' ', PMID_29731265$year, ' ', PMID_29731265$month,';', PMID_29731265$volume,'(', PMID_29731265$number,'):', PMID_29731265$pages)
-
-PubMed_29731265 <- paste0(PubMedString, PMID_29731265$eprint)
-
-doi_29731265 <- paste0(doiString, PMID_29731265$doi)
-
-dimensionBadge_29731265 <- paste0(dimensionString1, PMID_29731265$doi,dimensionString2)
-
-altmetricBadge_29731265 <- paste0(altmetricString1, PMID_29731265$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_29731265$title`**
-</summary> 
-
-*`r citation_29731265`*
-
-`r PMID_29731265$abstract`
-
-`r PubMed_29731265`
-
-<!-- `r doi_29731265` -->
-
-`r dimensionBadge_29731265`
-
-`r altmetricBadge_29731265`
-
-</details>
-
----
-
-
-
-
-### Neuroendocrine
-
-
-```{r M Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
----
-
-
-- **Genetic Analysis of Small Well-differentiated Pancreatic Neuroendocrine Tumors Identifies Subgroups With Differing Risks of Liver Metastases**
-
-https://journals.lww.com/annalsofsurgery/Abstract/publishahead/Genetic_Analysis_of_Small_Well_differentiated.95354.aspx
-
-
----
-
-
----
-
-<a href="#top">Back to top</a>
-
-\pagebreak
-
-## Others will move {.tabset}
-
-
-
----
-
-### Pancreas
+#### Pancreas
 
 ```{r O Pancreas, eval=FALSE, include=FALSE}
 ```
@@ -3355,452 +2216,10 @@ https://www.sciencedirect.com/science/article/pii/S1044579X18301342
 
 ---
 
-### Bile Ducts
 
-```{r O Bile Ducts, eval=FALSE, include=FALSE}
-```
 
----
 
-- **When the immune system is away biliary cancer cells may come back to play**
-
-https://www.researchgate.net/publication/328293566_When_the_immune_system_is_away_biliary_cancer_cells_may_come_back_to_play
-
----
-
-- **Patterns of gene mutations in bile duct cancers: is it time to overcome the anatomical classification?**
-
-https://www.hpbonline.org/article/S1365-182X(18)30877-3/abstract
-
-
----
-
-### Gallbladder
-
-
-```{r O Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
-- **A case report of intracholecystic papillary neoplasm of the gallbladder resembling a submucosal tumor**
-
-https://link.springer.com/article/10.1186/s40792-018-0524-2
-
-
-
----
-
-```{r 29391332, include=FALSE}
-
-PMID_29391332 <- RefManageR::ReadPubMed('29391332', database = 'PubMed')
-
-citation_29391332 <- paste0(PMID_29391332$journal,' ', PMID_29391332$year, ' ', PMID_29391332$month,';', PMID_29391332$volume,'(', PMID_29391332$number,'):', PMID_29391332$pages)
-
-PubMed_29391332 <- paste0(PubMedString, PMID_29391332$eprint)
-
-doi_29391332 <- paste0(doiString, PMID_29391332$doi)
-
-dimensionBadge_29391332 <- paste0(dimensionString1, PMID_29391332$doi,dimensionString2)
-
-altmetricBadge_29391332 <- paste0(altmetricString1, PMID_29391332$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_29391332$title`**
-</summary> 
-
-*`r citation_29391332`*
-
-`r PMID_29391332$abstract`
-
-`r PubMed_29391332`
-
-<!-- `r doi_29391332` -->
-
-`r dimensionBadge_29391332`
-
-`r altmetricBadge_29391332`
-
-</details>
-
-
----
-
-```{r 28958638, include=FALSE}
-
-PMID_28958638 <- RefManageR::ReadPubMed('28958638', database = 'PubMed')
-
-citation_28958638 <- paste0(PMID_28958638$journal,' ', PMID_28958638$year, ' ', PMID_28958638$month,';', PMID_28958638$volume,'(', PMID_28958638$number,'):', PMID_28958638$pages)
-
-PubMed_28958638 <- paste0(PubMedString, PMID_28958638$eprint)
-
-doi_28958638 <- paste0(doiString, PMID_28958638$doi)
-
-dimensionBadge_28958638 <- paste0(dimensionString1, PMID_28958638$doi,dimensionString2)
-
-altmetricBadge_28958638 <- paste0(altmetricString1, PMID_28958638$doi, altmetricString2 )
-
-addthis_inline_28958638 <- paste0(addthis_String1, PMID_28958638$title , " PMID: 28958638 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_28958638$title`**
-</summary> 
-
-*`r citation_28958638`*
-
-`r PubMed_28958638`
-
-`r addthis_inline_28958638`
-
-`r PMID_28958638$abstract`
-
-<!-- `r doi_28958638` -->
-
-`r dimensionBadge_28958638`
-
-`r altmetricBadge_28958638`
-
-</details>
-
----
-
-
-
-<!-- ### Gallbladder Reviews and Meta Analysis   -->
-
-
-```{r O Gallbladder Reviews and Meta Analysis, eval=FALSE, include=FALSE}
-```
-
-
-
-- **Outcomes of surgical resection of gallbladder cancer in patients presenting with jaundice: A systematic review and meta‐analysis**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25186
-
-
----
-
-```{r 30315386, include=FALSE}
-
-PMID_30315386 <- RefManageR::ReadPubMed('30315386', database = 'PubMed')
-
-citation_30315386 <- paste0(PMID_30315386$journal,' ', PMID_30315386$year, ' ', PMID_30315386$month,';', PMID_30315386$volume,'(', PMID_30315386$number,'):', PMID_30315386$pages)
-
-PubMed_30315386 <- paste0(PubMedString, PMID_30315386$eprint)
-
-doi_30315386 <- paste0(doiString, PMID_30315386$doi)
-
-dimensionBadge_30315386 <- paste0(dimensionString1, PMID_30315386$doi,dimensionString2)
-
-altmetricBadge_30315386 <- paste0(altmetricString1, PMID_30315386$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30315386$title`**
-</summary> 
-
-*`r citation_30315386`*
-
-`r PubMed_30315386`
-
-`r PMID_30315386$abstract`
-
-<!-- `r doi_30315386` -->
-
-`r dimensionBadge_30315386`
-
-`r altmetricBadge_30315386`
-
-</details>
-
----
-
----
-
-
-### Ampulla of Vater
-
-```{r O Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
-
----
-
-```{r 30269771, include=FALSE}
-
-PMID_30269771 <- RefManageR::ReadPubMed('30269771', database = 'PubMed')
-
-citation_30269771 <- paste0(PMID_30269771$journal,' ', PMID_30269771$year, ' ', PMID_30269771$month,';', PMID_30269771$volume,'(', PMID_30269771$number,'):', PMID_30269771$pages)
-
-PubMed_30269771 <- paste0(PubMedString, PMID_30269771$eprint)
-
-doi_30269771 <- paste0(doiString, PMID_30269771$doi)
-
-dimensionBadge_30269771 <- paste0(dimensionString1, PMID_30269771$doi,dimensionString2)
-
-altmetricBadge_30269771 <- paste0(altmetricString1, PMID_30269771$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30269771$title`**  
-[Prognostic factors in adenocarcinoma of the ampulla of Vater].  
-</summary> 
-
-https://www.ncbi.nlm.nih.gov/pubmed/?term=30269771
-
-*`r citation_30269771`*
-
-`r PMID_30269771$abstract`
-
-`r PubMed_30269771`
-
-<!-- `r doi_30269771` -->
-
-`r dimensionBadge_30269771`
-
-`r altmetricBadge_30269771`
-
-</details>
-
-
----
-
-```{r 30303155, include=FALSE}
-
-PMID_30303155 <- RefManageR::ReadPubMed('30303155', database = 'PubMed')
-
-citation_30303155 <- paste0(PMID_30303155$journal,' ', PMID_30303155$year, ' ', PMID_30303155$month,';', PMID_30303155$volume,'(', PMID_30303155$number,'):', PMID_30303155$pages)
-
-PubMed_30303155 <- paste0(PubMedString, PMID_30303155$eprint)
-
-doi_30303155 <- paste0(doiString, PMID_30303155$doi)
-
-dimensionBadge_30303155 <- paste0(dimensionString1, PMID_30303155$doi,dimensionString2)
-
-altmetricBadge_30303155 <- paste0(altmetricString1, PMID_30303155$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30303155$title`**
-</summary> 
-
-*`r citation_30303155`*
-
-`r PubMed_30303155`
-
-`r PMID_30303155$abstract`
-
-<!-- `r doi_30303155` -->
-
-`r dimensionBadge_30303155`
-
-`r altmetricBadge_30303155`
-
-</details>
-
----
-
-- **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
-
-https://www.researchgate.net/publication/328235099_Prognostic_role_of_metastatic_lymph_node_number_and_lymph_node_ratio_in_ampullary_adenocarcinoma
-
-
----
-
-```{r 30327972, include=FALSE}
-
-PMID_30327972 <- RefManageR::ReadPubMed('30327972', database = 'PubMed')
-
-citation_30327972 <- paste0(PMID_30327972$journal,' ', PMID_30327972$year, ' ', PMID_30327972$month,';', PMID_30327972$volume,'(', PMID_30327972$number,'):', PMID_30327972$pages)
-
-PubMed_30327972 <- paste0(PubMedString, PMID_30327972$eprint)
-
-doi_30327972 <- paste0(doiString, PMID_30327972$doi)
-
-dimensionBadge_30327972 <- paste0(dimensionString1, PMID_30327972$doi,dimensionString2)
-
-altmetricBadge_30327972 <- paste0(altmetricString1, PMID_30327972$doi, altmetricString2 )
-
-addthis_inline_30327972 <- paste0(addthis_String1, PMID_30327972$title , " PMID: 30327972 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_30327972$title`**
-</summary> 
-
-*`r citation_30327972`*
-
-`r PubMed_30327972`
-
-`r addthis_inline_30327972`
-
-`r PMID_30327972$abstract`
-
-<!-- `r doi_30327972` -->
-
-`r dimensionBadge_30327972`
-
-`r altmetricBadge_30327972`
-
-</details>
-
----
-
-
-
-### Neuroendocrine
-
-
-```{r O Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
-
----
-
-```{r 30306370, include=FALSE}
-
-PMID_30306370 <- RefManageR::ReadPubMed('30306370', database = 'PubMed')
-
-citation_30306370 <- paste0(PMID_30306370$journal,' ', PMID_30306370$year, ' ', PMID_30306370$month,';', PMID_30306370$volume,'(', PMID_30306370$number,'):', PMID_30306370$pages)
-
-PubMed_30306370 <- paste0(PubMedString, PMID_30306370$eprint)
-
-doi_30306370 <- paste0(doiString, PMID_30306370$doi)
-
-dimensionBadge_30306370 <- paste0(dimensionString1, PMID_30306370$doi,dimensionString2)
-
-altmetricBadge_30306370 <- paste0(altmetricString1, PMID_30306370$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30306370$title`**
-</summary> 
-
-*`r citation_30306370`*
-
-`r PubMed_30306370`
-
-`r PMID_30306370$abstract`
-
-<!-- `r doi_30306370` -->
-
-`r dimensionBadge_30306370`
-
-`r altmetricBadge_30306370`
-
-</details>
-
----
-
-- **Gastroenteropancreatic Neuroendocrine Tumors**
-
-https://onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21493
-
----
-
-- **Imaging presentation of pancreatic neuroendocrine neoplasms**
-
-https://link.springer.com/article/10.1007/s13244-018-0658-6
-
-
----
-
-```{r 30315383, include=FALSE}
-
-PMID_30315383 <- RefManageR::ReadPubMed('30315383', database = 'PubMed')
-
-citation_30315383 <- paste0(PMID_30315383$journal,' ', PMID_30315383$year, ' ', PMID_30315383$month,';', PMID_30315383$volume,'(', PMID_30315383$number,'):', PMID_30315383$pages)
-
-PubMed_30315383 <- paste0(PubMedString, PMID_30315383$eprint)
-
-doi_30315383 <- paste0(doiString, PMID_30315383$doi)
-
-dimensionBadge_30315383 <- paste0(dimensionString1, PMID_30315383$doi,dimensionString2)
-
-altmetricBadge_30315383 <- paste0(altmetricString1, PMID_30315383$doi, altmetricString2 )
-
-```
-
-<details open> <summary>
-- **`r PMID_30315383$title`**
-</summary> 
-
-*`r citation_30315383`*
-
-`r PubMed_30315383`
-
-`r PMID_30315383$abstract`
-
-<!-- `r doi_30315383` -->
-
-`r dimensionBadge_30315383`
-
-`r altmetricBadge_30315383`
-
-</details>
-
----
-
-
-- **DAXX Mutation Status of Embolization-Treated Neuroendocrine Tumors Predicts Shorter Time to Hepatic Progression**
-
-https://www.sciencedirect.com/science/article/pii/S1051044318312491
-
-
----
-
-```{r 30353397, include=FALSE}
-
-PMID_30353397 <- RefManageR::ReadPubMed('30353397', database = 'PubMed')
-
-citation_30353397 <- paste0(PMID_30353397$journal,' ', PMID_30353397$year, ' ', PMID_30353397$month,';', PMID_30353397$volume,'(', PMID_30353397$number,'):', PMID_30353397$pages)
-
-PubMed_30353397 <- paste0(PubMedString, PMID_30353397$eprint)
-
-doi_30353397 <- paste0(doiString, PMID_30353397$doi)
-
-dimensionBadge_30353397 <- paste0(dimensionString1, PMID_30353397$doi,dimensionString2)
-
-altmetricBadge_30353397 <- paste0(altmetricString1, PMID_30353397$doi, altmetricString2 )
-
-addthis_inline_30353397 <- paste0(addthis_String1, PMID_30353397$title , " PMID: 30353397 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_30353397$title`**
-</summary> 
-
-*`r citation_30353397`*
-
-`r PubMed_30353397`
-
-`r addthis_inline_30353397`
-
-`r PMID_30353397$abstract`
-
-<!-- `r doi_30353397` -->
-
-`r dimensionBadge_30353397`
-
-`r altmetricBadge_30353397`
-
-</details>
-
----
-
-
-
-### Techniques & Research Methods
+#### Techniques & Research Methods
 
 ```{r O Techniques & Research Methods, eval=FALSE, include=FALSE}
 ```
@@ -3853,7 +2272,9 @@ addthis_inline_30339622 <- paste0(addthis_String1, PMID_30339622$title , " PMID:
 
 ---
 
-### Animal Studies
+
+
+#### Animal Studies
 
 ```{r O Pancreas Animal Studies, eval=FALSE, include=FALSE}
 ```
@@ -4150,7 +2571,9 @@ https://gut.bmj.com/content/early/2018/10/12/gutjnl-2017-315490
 
 ---
 
-### Database Studies
+
+
+#### Database Studies
 
 
 ```{r O Database SEER, NCDB, TCGA, Oncomine Studies}
@@ -4669,6 +3092,1682 @@ addthis_inline_30334579 <- paste0(addthis_String1, PMID_30334579$title , " PMID:
 `r altmetricBadge_30334579`
 
 </details>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### Bile Ducts
+
+```{r S Bile Ducts, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30288652, include=FALSE}
+
+PMID_30288652 <- RefManageR::ReadPubMed('30288652', database = 'PubMed')
+
+citation_30288652 <- paste0(PMID_30288652$journal,' ', PMID_30288652$year, ' ', PMID_30288652$month,';', PMID_30288652$volume,'(', PMID_30288652$number,'):', PMID_30288652$pages)
+
+PubMed_30288652 <- paste0(PubMedString, PMID_30288652$eprint)
+
+doi_30288652 <- paste0(doiString, PMID_30288652$doi)
+
+dimensionBadge_30288652 <- paste0(dimensionString1, PMID_30288652$doi,dimensionString2)
+
+altmetricBadge_30288652 <- paste0(altmetricString1, PMID_30288652$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30288652$title`**
+</summary> 
+
+*`r citation_30288652`*
+
+`r PMID_30288652$abstract`
+
+`r PubMed_30288652`
+
+<!-- `r doi_30288652` -->
+
+`r dimensionBadge_30288652`
+
+`r altmetricBadge_30288652`
+
+</details>
+
+
+---
+
+```{r 29751883, include=FALSE}
+
+PMID_29751883 <- RefManageR::ReadPubMed('29751883', database = 'PubMed')
+
+citation_29751883 <- paste0(PMID_29751883$journal,' ', PMID_29751883$year, ' ', PMID_29751883$month,';', PMID_29751883$volume,'(', PMID_29751883$number,'):', PMID_29751883$pages)
+
+PubMed_29751883 <- paste0(PubMedString, PMID_29751883$eprint)
+
+doi_29751883 <- paste0(doiString, PMID_29751883$doi)
+
+dimensionBadge_29751883 <- paste0(dimensionString1, PMID_29751883$doi,dimensionString2)
+
+altmetricBadge_29751883 <- paste0(altmetricString1, PMID_29751883$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29751883$title`**
+</summary> 
+
+*`r citation_29751883`*
+
+`r PMID_29751883$abstract`
+
+`r PubMed_29751883`
+
+<!-- `r doi_29751883` -->
+
+`r dimensionBadge_29751883`
+
+`r altmetricBadge_29751883`
+
+</details>
+
+---
+
+- **Comparison of the Clinicopathologic Characteristics of Intraductal Papillary Neoplasm of the Bile Duct according to Morphological and Anatomical Classifications**
+
+
+https://www.jkms.org/search.php?where=aview&id=10.3346/jkms.2018.33.e266&code=0063JKMS&vmode=FULL
+
+
+
+---
+
+```{r 30301635, include=FALSE}
+
+PMID_30301635 <- RefManageR::ReadPubMed('30301635', database = 'PubMed')
+
+citation_30301635 <- paste0(PMID_30301635$journal,' ', PMID_30301635$year, ' ', PMID_30301635$month,';', PMID_30301635$volume,'(', PMID_30301635$number,'):', PMID_30301635$pages)
+
+PubMed_30301635 <- paste0(PubMedString, PMID_30301635$eprint)
+
+doi_30301635 <- paste0(doiString, PMID_30301635$doi)
+
+dimensionBadge_30301635 <- paste0(dimensionString1, PMID_30301635$doi,dimensionString2)
+
+altmetricBadge_30301635 <- paste0(altmetricString1, PMID_30301635$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30301635$title`**
+</summary> 
+
+*`r citation_30301635`*
+
+`r PubMed_30301635`
+
+`r PMID_30301635$abstract`
+
+<!-- `r doi_30301635` -->
+
+`r dimensionBadge_30301635`
+
+`r altmetricBadge_30301635`
+
+</details>
+
+
+
+---
+
+```{r 29450978, include=FALSE}
+
+PMID_29450978 <- RefManageR::ReadPubMed('29450978', database = 'PubMed')
+
+citation_29450978 <- paste0(PMID_29450978$journal,' ', PMID_29450978$year, ' ', PMID_29450978$month,';', PMID_29450978$volume,'(', PMID_29450978$number,'):', PMID_29450978$pages)
+
+PubMed_29450978 <- paste0(PubMedString, PMID_29450978$eprint)
+
+doi_29450978 <- paste0(doiString, PMID_29450978$doi)
+
+dimensionBadge_29450978 <- paste0(dimensionString1, PMID_29450978$doi,dimensionString2)
+
+altmetricBadge_29450978 <- paste0(altmetricString1, PMID_29450978$doi, altmetricString2 )
+
+addthis_inline_29450978 <- paste0(addthis_String1, PMID_29450978$title , " PMID: 29450978 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29450978$title`**
+</summary> 
+
+*`r citation_29450978`*
+
+`r PubMed_29450978`
+
+`r addthis_inline_29450978`
+
+`r PMID_29450978$abstract`
+
+<!-- `r doi_29450978` -->
+
+`r dimensionBadge_29450978`
+
+`r altmetricBadge_29450978`
+
+</details>
+
+
+---
+
+```{r 30349952, include=FALSE}
+
+PMID_30349952 <- RefManageR::ReadPubMed('30349952', database = 'PubMed')
+
+citation_30349952 <- paste0(PMID_30349952$journal,' ', PMID_30349952$year, ' ', PMID_30349952$month,';', PMID_30349952$volume,'(', PMID_30349952$number,'):', PMID_30349952$pages)
+
+PubMed_30349952 <- paste0(PubMedString, PMID_30349952$eprint)
+
+doi_30349952 <- paste0(doiString, PMID_30349952$doi)
+
+dimensionBadge_30349952 <- paste0(dimensionString1, PMID_30349952$doi,dimensionString2)
+
+altmetricBadge_30349952 <- paste0(altmetricString1, PMID_30349952$doi, altmetricString2 )
+
+addthis_inline_30349952 <- paste0(addthis_String1, PMID_30349952$title , " PMID: 30349952 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30349952$title`**
+</summary> 
+
+*`r citation_30349952`*
+
+`r PubMed_30349952`
+
+`r addthis_inline_30349952`
+
+`r PMID_30349952$abstract`
+
+<!-- `r doi_30349952` -->
+
+`r dimensionBadge_30349952`
+
+`r altmetricBadge_30349952`
+
+</details>
+
+---
+
+
+#### Bile Ducts
+
+```{r O Bile Ducts, eval=FALSE, include=FALSE}
+```
+
+---
+
+- **When the immune system is away biliary cancer cells may come back to play**
+
+https://www.researchgate.net/publication/328293566_When_the_immune_system_is_away_biliary_cancer_cells_may_come_back_to_play
+
+---
+
+- **Patterns of gene mutations in bile duct cancers: is it time to overcome the anatomical classification?**
+
+https://www.hpbonline.org/article/S1365-182X(18)30877-3/abstract
+
+
+---
+
+
+
+
+
+
+
+
+---
+
+### Gallbladder
+
+
+```{r S Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+
+
+---
+
+
+```{r 30285068, include=FALSE}
+
+PMID_30285068 <- RefManageR::ReadPubMed('30285068', database = 'PubMed')
+
+citation_30285068 <- paste0(PMID_30285068$journal,' ', PMID_30285068$year, ' ', PMID_30285068$month,';', PMID_30285068$volume,'(', PMID_30285068$number,'):', PMID_30285068$pages)
+
+PubMed_30285068 <- paste0(PubMedString, PMID_30285068$eprint)
+
+doi_30285068 <- paste0(doiString, PMID_30285068$doi)
+
+dimensionBadge_30285068 <- paste0(dimensionString1, PMID_30285068$doi,dimensionString2)
+
+altmetricBadge_30285068 <- paste0(altmetricString1, PMID_30285068$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30285068$title`**
+</summary> 
+
+*`r citation_30285068`*
+
+`r PMID_30285068$abstract`
+
+`r PubMed_30285068`
+
+<!-- `r doi_30285068` -->
+
+`r dimensionBadge_30285068`
+
+`r altmetricBadge_30285068`
+
+</details>
+
+---
+
+- **Intracholecystic papillary-tubular neoplasm in a patient with choledochal cyst and anomalous pancreaticobiliary junction: case report**
+
+https://www.birpublications.org/doi/pdfplus/10.1259/bjrcr.20180079
+
+---
+
+- **Intracholecystic papillary–tubular neoplasm of gallbladder: A 5-year retrospective pathological study**
+
+
+http://www.ijpmonline.org/article.asp?issn=0377-4929;year=2018;volume=61;issue=4;spage=516;epage=519;aulast=Hazarika
+
+
+---
+
+
+
+#### Gallbladder
+
+
+```{r O Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+- **A case report of intracholecystic papillary neoplasm of the gallbladder resembling a submucosal tumor**
+
+https://link.springer.com/article/10.1186/s40792-018-0524-2
+
+
+
+---
+
+```{r 29391332, include=FALSE}
+
+PMID_29391332 <- RefManageR::ReadPubMed('29391332', database = 'PubMed')
+
+citation_29391332 <- paste0(PMID_29391332$journal,' ', PMID_29391332$year, ' ', PMID_29391332$month,';', PMID_29391332$volume,'(', PMID_29391332$number,'):', PMID_29391332$pages)
+
+PubMed_29391332 <- paste0(PubMedString, PMID_29391332$eprint)
+
+doi_29391332 <- paste0(doiString, PMID_29391332$doi)
+
+dimensionBadge_29391332 <- paste0(dimensionString1, PMID_29391332$doi,dimensionString2)
+
+altmetricBadge_29391332 <- paste0(altmetricString1, PMID_29391332$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29391332$title`**
+</summary> 
+
+*`r citation_29391332`*
+
+`r PMID_29391332$abstract`
+
+`r PubMed_29391332`
+
+<!-- `r doi_29391332` -->
+
+`r dimensionBadge_29391332`
+
+`r altmetricBadge_29391332`
+
+</details>
+
+
+---
+
+```{r 28958638, include=FALSE}
+
+PMID_28958638 <- RefManageR::ReadPubMed('28958638', database = 'PubMed')
+
+citation_28958638 <- paste0(PMID_28958638$journal,' ', PMID_28958638$year, ' ', PMID_28958638$month,';', PMID_28958638$volume,'(', PMID_28958638$number,'):', PMID_28958638$pages)
+
+PubMed_28958638 <- paste0(PubMedString, PMID_28958638$eprint)
+
+doi_28958638 <- paste0(doiString, PMID_28958638$doi)
+
+dimensionBadge_28958638 <- paste0(dimensionString1, PMID_28958638$doi,dimensionString2)
+
+altmetricBadge_28958638 <- paste0(altmetricString1, PMID_28958638$doi, altmetricString2 )
+
+addthis_inline_28958638 <- paste0(addthis_String1, PMID_28958638$title , " PMID: 28958638 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_28958638$title`**
+</summary> 
+
+*`r citation_28958638`*
+
+`r PubMed_28958638`
+
+`r addthis_inline_28958638`
+
+`r PMID_28958638$abstract`
+
+<!-- `r doi_28958638` -->
+
+`r dimensionBadge_28958638`
+
+`r altmetricBadge_28958638`
+
+</details>
+
+---
+
+
+
+<!-- ### Gallbladder Reviews and Meta Analysis   -->
+
+
+```{r O Gallbladder Reviews and Meta Analysis, eval=FALSE, include=FALSE}
+```
+
+
+
+- **Outcomes of surgical resection of gallbladder cancer in patients presenting with jaundice: A systematic review and meta‐analysis**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25186
+
+
+---
+
+```{r 30315386, include=FALSE}
+
+PMID_30315386 <- RefManageR::ReadPubMed('30315386', database = 'PubMed')
+
+citation_30315386 <- paste0(PMID_30315386$journal,' ', PMID_30315386$year, ' ', PMID_30315386$month,';', PMID_30315386$volume,'(', PMID_30315386$number,'):', PMID_30315386$pages)
+
+PubMed_30315386 <- paste0(PubMedString, PMID_30315386$eprint)
+
+doi_30315386 <- paste0(doiString, PMID_30315386$doi)
+
+dimensionBadge_30315386 <- paste0(dimensionString1, PMID_30315386$doi,dimensionString2)
+
+altmetricBadge_30315386 <- paste0(altmetricString1, PMID_30315386$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315386$title`**
+</summary> 
+
+*`r citation_30315386`*
+
+`r PubMed_30315386`
+
+`r PMID_30315386$abstract`
+
+<!-- `r doi_30315386` -->
+
+`r dimensionBadge_30315386`
+
+`r altmetricBadge_30315386`
+
+</details>
+
+---
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### Ampulla of Vater
+
+```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+- **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
+
+http://cancer-research-frontiers.org/wp-content/uploads/2018/10/CRF-1833-4-1.pdf
+
+
+---
+
+
+#### Ampulla of Vater
+
+```{r O Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30269771, include=FALSE}
+
+PMID_30269771 <- RefManageR::ReadPubMed('30269771', database = 'PubMed')
+
+citation_30269771 <- paste0(PMID_30269771$journal,' ', PMID_30269771$year, ' ', PMID_30269771$month,';', PMID_30269771$volume,'(', PMID_30269771$number,'):', PMID_30269771$pages)
+
+PubMed_30269771 <- paste0(PubMedString, PMID_30269771$eprint)
+
+doi_30269771 <- paste0(doiString, PMID_30269771$doi)
+
+dimensionBadge_30269771 <- paste0(dimensionString1, PMID_30269771$doi,dimensionString2)
+
+altmetricBadge_30269771 <- paste0(altmetricString1, PMID_30269771$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30269771$title`**  
+[Prognostic factors in adenocarcinoma of the ampulla of Vater].  
+</summary> 
+
+https://www.ncbi.nlm.nih.gov/pubmed/?term=30269771
+
+*`r citation_30269771`*
+
+`r PMID_30269771$abstract`
+
+`r PubMed_30269771`
+
+<!-- `r doi_30269771` -->
+
+`r dimensionBadge_30269771`
+
+`r altmetricBadge_30269771`
+
+</details>
+
+
+---
+
+```{r 30303155, include=FALSE}
+
+PMID_30303155 <- RefManageR::ReadPubMed('30303155', database = 'PubMed')
+
+citation_30303155 <- paste0(PMID_30303155$journal,' ', PMID_30303155$year, ' ', PMID_30303155$month,';', PMID_30303155$volume,'(', PMID_30303155$number,'):', PMID_30303155$pages)
+
+PubMed_30303155 <- paste0(PubMedString, PMID_30303155$eprint)
+
+doi_30303155 <- paste0(doiString, PMID_30303155$doi)
+
+dimensionBadge_30303155 <- paste0(dimensionString1, PMID_30303155$doi,dimensionString2)
+
+altmetricBadge_30303155 <- paste0(altmetricString1, PMID_30303155$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30303155$title`**
+</summary> 
+
+*`r citation_30303155`*
+
+`r PubMed_30303155`
+
+`r PMID_30303155$abstract`
+
+<!-- `r doi_30303155` -->
+
+`r dimensionBadge_30303155`
+
+`r altmetricBadge_30303155`
+
+</details>
+
+---
+
+- **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
+
+https://www.researchgate.net/publication/328235099_Prognostic_role_of_metastatic_lymph_node_number_and_lymph_node_ratio_in_ampullary_adenocarcinoma
+
+
+---
+
+```{r 30327972, include=FALSE}
+
+PMID_30327972 <- RefManageR::ReadPubMed('30327972', database = 'PubMed')
+
+citation_30327972 <- paste0(PMID_30327972$journal,' ', PMID_30327972$year, ' ', PMID_30327972$month,';', PMID_30327972$volume,'(', PMID_30327972$number,'):', PMID_30327972$pages)
+
+PubMed_30327972 <- paste0(PubMedString, PMID_30327972$eprint)
+
+doi_30327972 <- paste0(doiString, PMID_30327972$doi)
+
+dimensionBadge_30327972 <- paste0(dimensionString1, PMID_30327972$doi,dimensionString2)
+
+altmetricBadge_30327972 <- paste0(altmetricString1, PMID_30327972$doi, altmetricString2 )
+
+addthis_inline_30327972 <- paste0(addthis_String1, PMID_30327972$title , " PMID: 30327972 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30327972$title`**
+</summary> 
+
+*`r citation_30327972`*
+
+`r PubMed_30327972`
+
+`r addthis_inline_30327972`
+
+`r PMID_30327972$abstract`
+
+<!-- `r doi_30327972` -->
+
+`r dimensionBadge_30327972`
+
+`r altmetricBadge_30327972`
+
+</details>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### Neuroendocrine
+
+
+```{r S Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+```{r 30282083, include=FALSE}
+
+PMID_30282083 <- RefManageR::ReadPubMed('30282083', database = 'PubMed')
+
+citation_30282083 <- paste0(PMID_30282083$journal,' ', PMID_30282083$year, ' ', PMID_30282083$month,';', PMID_30282083$volume,'(', PMID_30282083$number,'):', PMID_30282083$pages)
+
+PubMed_30282083 <- paste0(PubMedString, PMID_30282083$eprint)
+
+doi_30282083 <- paste0(doiString, PMID_30282083$doi)
+
+dimensionBadge_30282083 <- paste0(dimensionString1, PMID_30282083$doi,dimensionString2)
+
+altmetricBadge_30282083 <- paste0(altmetricString1, PMID_30282083$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30282083$title`**
+</summary> 
+
+*`r citation_30282083`*
+
+`r PubMed_30282083`
+
+`r PMID_30282083$abstract`
+
+<!-- `r doi_30282083` -->
+
+`r dimensionBadge_30282083`
+
+`r altmetricBadge_30282083`
+
+</details>
+
+
+
+
+
+
+---
+
+- **The use of Ki-67 labeling index to grade pulmonary well-differentiated neuroendocrine neoplasms: current best evidence**
+
+https://www.nature.com/articles/s41379-018-0076-9
+
+
+
+---
+
+```{r 30284410, include=FALSE}
+
+PMID_30284410 <- RefManageR::ReadPubMed('30284410', database = 'PubMed')
+
+citation_30284410 <- paste0(PMID_30284410$journal,' ', PMID_30284410$year, ' ', PMID_30284410$month,';', PMID_30284410$volume,'(', PMID_30284410$number,'):', PMID_30284410$pages)
+
+PubMed_30284410 <- paste0(PubMedString, PMID_30284410$eprint)
+
+doi_30284410 <- paste0(doiString, PMID_30284410$doi)
+
+dimensionBadge_30284410 <- paste0(dimensionString1, PMID_30284410$doi,dimensionString2)
+
+altmetricBadge_30284410 <- paste0(altmetricString1, PMID_30284410$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30284410$title`**
+</summary> 
+
+*`r citation_30284410`*
+
+`r PMID_30284410$abstract`
+
+`r PubMed_30284410`
+
+<!-- `r doi_30284410` -->
+
+`r dimensionBadge_30284410`
+
+`r altmetricBadge_30284410`
+
+</details>
+
+
+---
+
+```{r 30302639, include=FALSE}
+
+PMID_30302639 <- RefManageR::ReadPubMed('30302639', database = 'PubMed')
+
+citation_30302639 <- paste0(PMID_30302639$journal,' ', PMID_30302639$year, ' ', PMID_30302639$month,';', PMID_30302639$volume,'(', PMID_30302639$number,'):', PMID_30302639$pages)
+
+PubMed_30302639 <- paste0(PubMedString, PMID_30302639$eprint)
+
+doi_30302639 <- paste0(doiString, PMID_30302639$doi)
+
+dimensionBadge_30302639 <- paste0(dimensionString1, PMID_30302639$doi,dimensionString2)
+
+altmetricBadge_30302639 <- paste0(altmetricString1, PMID_30302639$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30302639$title`**
+</summary> 
+
+*`r citation_30302639`*
+
+`r PubMed_30302639`
+
+`r PMID_30302639$abstract`
+
+<!-- `r doi_30302639` -->
+
+`r dimensionBadge_30302639`
+
+`r altmetricBadge_30302639`
+
+</details>
+
+
+---
+
+```{r 30308537, include=FALSE}
+
+PMID_30308537 <- RefManageR::ReadPubMed('30308537', database = 'PubMed')
+
+citation_30308537 <- paste0(PMID_30308537$journal,' ', PMID_30308537$year, ' ', PMID_30308537$month,';', PMID_30308537$volume,'(', PMID_30308537$number,'):', PMID_30308537$pages)
+
+PubMed_30308537 <- paste0(PubMedString, PMID_30308537$eprint)
+
+doi_30308537 <- paste0(doiString, PMID_30308537$doi)
+
+dimensionBadge_30308537 <- paste0(dimensionString1, PMID_30308537$doi,dimensionString2)
+
+altmetricBadge_30308537 <- paste0(altmetricString1, PMID_30308537$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30308537$title`**
+</summary> 
+
+*`r citation_30308537`*
+
+`r PubMed_30308537`
+
+`r PMID_30308537$abstract`
+
+<!-- `r doi_30308537` -->
+
+`r dimensionBadge_30308537`
+
+`r altmetricBadge_30308537`
+
+</details>
+
+
+---
+
+```{r 30302430, include=FALSE}
+
+PMID_30302430 <- RefManageR::ReadPubMed('30302430', database = 'PubMed')
+
+citation_30302430 <- paste0(PMID_30302430$journal,' ', PMID_30302430$year, ' ', PMID_30302430$month,';', PMID_30302430$volume,'(', PMID_30302430$number,'):', PMID_30302430$pages)
+
+PubMed_30302430 <- paste0(PubMedString, PMID_30302430$eprint)
+
+doi_30302430 <- paste0(doiString, PMID_30302430$doi)
+
+dimensionBadge_30302430 <- paste0(dimensionString1, PMID_30302430$doi,dimensionString2)
+
+altmetricBadge_30302430 <- paste0(altmetricString1, PMID_30302430$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30302430$title`**
+</summary> 
+
+*`r citation_30302430`*
+
+`r PubMed_30302430`
+
+`r PMID_30302430$abstract`
+
+<!-- `r doi_30302430` -->
+
+`r dimensionBadge_30302430`
+
+`r altmetricBadge_30302430`
+
+</details>
+
+---
+
+
+- **COMPETITIVE TESTING THE WHO 2010 VS THE WHO 2017 GRADING OF PANCREAS NEUROENDOCRINE NEOPLASIA: DATA FROM A LARGE INTERNATIONAL COHORT STUDY**
+
+https://www.researchgate.net/publication/328199727_COMPETITIVE_TESTING_THE_WHO_2010_VS_THE_WHO_2017_GRADING_OF_PANCREAS_NEUROENDOCRINE_NEOPLASIA_DATA_FROM_A_LARGE_INTERNATIONAL_COHORT_STUDY
+
+
+https://www.karger.com/Article/Abstract/494355
+
+
+
+
+---
+
+```{r 30300897, include=FALSE}
+
+PMID_30300897 <- RefManageR::ReadPubMed('30300897', database = 'PubMed')
+
+citation_30300897 <- paste0(PMID_30300897$journal,' ', PMID_30300897$year, ' ', PMID_30300897$month,';', PMID_30300897$volume,'(', PMID_30300897$number,'):', PMID_30300897$pages)
+
+PubMed_30300897 <- paste0(PubMedString, PMID_30300897$eprint)
+
+doi_30300897 <- paste0(doiString, PMID_30300897$doi)
+
+dimensionBadge_30300897 <- paste0(dimensionString1, PMID_30300897$doi,dimensionString2)
+
+altmetricBadge_30300897 <- paste0(altmetricString1, PMID_30300897$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30300897$title`**
+</summary> 
+
+*`r citation_30300897`*
+
+`r PubMed_30300897`
+
+`r PMID_30300897$abstract`
+
+<!-- `r doi_30300897` -->
+
+`r dimensionBadge_30300897`
+
+`r altmetricBadge_30300897`
+
+</details>
+
+---
+
+- **Ki-67 and presence of liver metastases identify different progression-risk classes in pancreatic neuroendocrine neoplasms (pNEN) undergoing resection**
+
+
+https://www.ejso.com/article/S0748-7983(18)31452-5/fulltext
+
+
+
+---
+
+```{r 30339629, include=FALSE}
+
+PMID_30339629 <- RefManageR::ReadPubMed('30339629', database = 'PubMed')
+
+citation_30339629 <- paste0(PMID_30339629$journal,' ', PMID_30339629$year, ' ', PMID_30339629$month,';', PMID_30339629$volume,'(', PMID_30339629$number,'):', PMID_30339629$pages)
+
+PubMed_30339629 <- paste0(PubMedString, PMID_30339629$eprint)
+
+doi_30339629 <- paste0(doiString, PMID_30339629$doi)
+
+dimensionBadge_30339629 <- paste0(dimensionString1, PMID_30339629$doi,dimensionString2)
+
+altmetricBadge_30339629 <- paste0(altmetricString1, PMID_30339629$doi, altmetricString2 )
+
+addthis_inline_30339629 <- paste0(addthis_String1, PMID_30339629$title , " PMID: 30339629 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30339629$title`**
+</summary> 
+
+*`r citation_30339629`*
+
+`r PubMed_30339629`
+
+`r addthis_inline_30339629`
+
+`r PMID_30339629$abstract`
+
+<!-- `r doi_30339629` -->
+
+`r dimensionBadge_30339629`
+
+`r altmetricBadge_30339629`
+
+</details>
+
+---
+
+
+
+### Neuroendocrine
+
+
+```{r O Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30306370, include=FALSE}
+
+PMID_30306370 <- RefManageR::ReadPubMed('30306370', database = 'PubMed')
+
+citation_30306370 <- paste0(PMID_30306370$journal,' ', PMID_30306370$year, ' ', PMID_30306370$month,';', PMID_30306370$volume,'(', PMID_30306370$number,'):', PMID_30306370$pages)
+
+PubMed_30306370 <- paste0(PubMedString, PMID_30306370$eprint)
+
+doi_30306370 <- paste0(doiString, PMID_30306370$doi)
+
+dimensionBadge_30306370 <- paste0(dimensionString1, PMID_30306370$doi,dimensionString2)
+
+altmetricBadge_30306370 <- paste0(altmetricString1, PMID_30306370$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30306370$title`**
+</summary> 
+
+*`r citation_30306370`*
+
+`r PubMed_30306370`
+
+`r PMID_30306370$abstract`
+
+<!-- `r doi_30306370` -->
+
+`r dimensionBadge_30306370`
+
+`r altmetricBadge_30306370`
+
+</details>
+
+---
+
+- **Gastroenteropancreatic Neuroendocrine Tumors**
+
+https://onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21493
+
+---
+
+- **Imaging presentation of pancreatic neuroendocrine neoplasms**
+
+https://link.springer.com/article/10.1007/s13244-018-0658-6
+
+
+---
+
+```{r 30315383, include=FALSE}
+
+PMID_30315383 <- RefManageR::ReadPubMed('30315383', database = 'PubMed')
+
+citation_30315383 <- paste0(PMID_30315383$journal,' ', PMID_30315383$year, ' ', PMID_30315383$month,';', PMID_30315383$volume,'(', PMID_30315383$number,'):', PMID_30315383$pages)
+
+PubMed_30315383 <- paste0(PubMedString, PMID_30315383$eprint)
+
+doi_30315383 <- paste0(doiString, PMID_30315383$doi)
+
+dimensionBadge_30315383 <- paste0(dimensionString1, PMID_30315383$doi,dimensionString2)
+
+altmetricBadge_30315383 <- paste0(altmetricString1, PMID_30315383$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30315383$title`**
+</summary> 
+
+*`r citation_30315383`*
+
+`r PubMed_30315383`
+
+`r PMID_30315383$abstract`
+
+<!-- `r doi_30315383` -->
+
+`r dimensionBadge_30315383`
+
+`r altmetricBadge_30315383`
+
+</details>
+
+---
+
+
+- **DAXX Mutation Status of Embolization-Treated Neuroendocrine Tumors Predicts Shorter Time to Hepatic Progression**
+
+https://www.sciencedirect.com/science/article/pii/S1051044318312491
+
+
+---
+
+```{r 30353397, include=FALSE}
+
+PMID_30353397 <- RefManageR::ReadPubMed('30353397', database = 'PubMed')
+
+citation_30353397 <- paste0(PMID_30353397$journal,' ', PMID_30353397$year, ' ', PMID_30353397$month,';', PMID_30353397$volume,'(', PMID_30353397$number,'):', PMID_30353397$pages)
+
+PubMed_30353397 <- paste0(PubMedString, PMID_30353397$eprint)
+
+doi_30353397 <- paste0(doiString, PMID_30353397$doi)
+
+dimensionBadge_30353397 <- paste0(dimensionString1, PMID_30353397$doi,dimensionString2)
+
+altmetricBadge_30353397 <- paste0(altmetricString1, PMID_30353397$doi, altmetricString2 )
+
+addthis_inline_30353397 <- paste0(addthis_String1, PMID_30353397$title , " PMID: 30353397 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30353397$title`**
+</summary> 
+
+*`r citation_30353397`*
+
+`r PubMed_30353397`
+
+`r addthis_inline_30353397`
+
+`r PMID_30353397$abstract`
+
+<!-- `r doi_30353397` -->
+
+`r dimensionBadge_30353397`
+
+`r altmetricBadge_30353397`
+
+</details>
+
+---
+
+
+
+
+
+
+
+
+
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+## Cytopathology {.tabset}
+
+
+---
+
+### Pancreas
+
+```{r C Pancreas, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30268674, include=FALSE}
+
+PMID_30268674 <- RefManageR::ReadPubMed('30268674', database = 'PubMed')
+
+citation_30268674 <- paste0(PMID_30268674$journal,' ', PMID_30268674$year, ' ', PMID_30268674$month,';', PMID_30268674$volume,'(', PMID_30268674$number,'):', PMID_30268674$pages)
+
+PubMed_30268674 <- paste0(PubMedString, PMID_30268674$eprint)
+
+doi_30268674 <- paste0(doiString, PMID_30268674$doi)
+
+dimensionBadge_30268674 <- paste0(dimensionString1, PMID_30268674$doi,dimensionString2)
+
+altmetricBadge_30268674 <- paste0(altmetricString1, PMID_30268674$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30268674$title`**
+</summary> 
+
+*`r citation_30268674`*
+
+`r PMID_30268674$abstract`
+
+`r PubMed_30268674`
+
+<!-- `r doi_30268674` -->
+
+`r dimensionBadge_30268674`
+
+`r altmetricBadge_30268674`
+
+</details>
+
+---
+
+- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
+
+https://www.sciencedirect.com/science/article/pii/S1424390318306859
+
+
+
+---
+
+```{r 30284406, include=FALSE}
+
+PMID_30284406 <- RefManageR::ReadPubMed('30284406', database = 'PubMed')
+
+citation_30284406 <- paste0(PMID_30284406$journal,' ', PMID_30284406$year, ' ', PMID_30284406$month,';', PMID_30284406$volume,'(', PMID_30284406$number,'):', PMID_30284406$pages)
+
+PubMed_30284406 <- paste0(PubMedString, PMID_30284406$eprint)
+
+doi_30284406 <- paste0(doiString, PMID_30284406$doi)
+
+dimensionBadge_30284406 <- paste0(dimensionString1, PMID_30284406$doi,dimensionString2)
+
+altmetricBadge_30284406 <- paste0(altmetricString1, PMID_30284406$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30284406$title`**
+</summary> 
+
+*`r citation_30284406`*
+
+`r PMID_30284406$abstract`
+
+`r PubMed_30284406`
+
+<!-- `r doi_30284406` -->
+
+`r dimensionBadge_30284406`
+
+`r altmetricBadge_30284406`
+
+</details>
+
+---
+
+
+- **Pancreaticobiliary cytopathology: an update**
+
+https://www.sciencedirect.com/science/article/pii/S1756231718301397
+
+
+---
+
+- **Histologic retrieval rate of a newly designed side-bevelled 20G needle for EUS-guided tissue acquisition of solid pancreatic lesions**
+
+http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443
+
+
+
+---
+
+```{r 30301772, include=FALSE}
+
+PMID_30301772 <- RefManageR::ReadPubMed('30301772', database = 'PubMed')
+
+citation_30301772 <- paste0(PMID_30301772$journal,' ', PMID_30301772$year, ' ', PMID_30301772$month,';', PMID_30301772$volume,'(', PMID_30301772$number,'):', PMID_30301772$pages)
+
+PubMed_30301772 <- paste0(PubMedString, PMID_30301772$eprint)
+
+doi_30301772 <- paste0(doiString, PMID_30301772$doi)
+
+dimensionBadge_30301772 <- paste0(dimensionString1, PMID_30301772$doi,dimensionString2)
+
+altmetricBadge_30301772 <- paste0(altmetricString1, PMID_30301772$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30301772$title`**
+</summary> 
+
+*`r citation_30301772`*
+
+`r PubMed_30301772`
+
+`r PMID_30301772$abstract`
+
+<!-- `r doi_30301772` -->
+
+`r dimensionBadge_30301772`
+
+`r altmetricBadge_30301772`
+
+</details>
+
+
+---
+
+```{r 30308535, include=FALSE}
+
+PMID_30308535 <- RefManageR::ReadPubMed('30308535', database = 'PubMed')
+
+citation_30308535 <- paste0(PMID_30308535$journal,' ', PMID_30308535$year, ' ', PMID_30308535$month,';', PMID_30308535$volume,'(', PMID_30308535$number,'):', PMID_30308535$pages)
+
+PubMed_30308535 <- paste0(PubMedString, PMID_30308535$eprint)
+
+doi_30308535 <- paste0(doiString, PMID_30308535$doi)
+
+dimensionBadge_30308535 <- paste0(dimensionString1, PMID_30308535$doi,dimensionString2)
+
+altmetricBadge_30308535 <- paste0(altmetricString1, PMID_30308535$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30308535$title`**
+</summary> 
+
+*`r citation_30308535`*
+
+`r PubMed_30308535`
+
+`r PMID_30308535$abstract`
+
+<!-- `r doi_30308535` -->
+
+`r dimensionBadge_30308535`
+
+`r altmetricBadge_30308535`
+
+</details>
+
+---
+
+
+---
+
+
+<!-- ### Bile Ducts -->
+
+```{r C Bile Ducts, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+
+
+
+<!-- ### Gallbladder -->
+
+```{r C Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+<!-- ### Ampulla of Vater -->
+
+```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+### Neuroendocrine
+
+
+```{r C Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+---
+
+- **Accuracy of Grading Pancreatic Neuroendocrine Neoplasms with Ki‐67 Index in Fine‐Needle Aspiration Cellblock Material**
+
+https://onlinelibrary.wiley.com/doi/10.1111/cyt.12643
+
+
+---
+
+```{r 30290028, include=FALSE}
+
+PMID_30290028 <- RefManageR::ReadPubMed('30290028', database = 'PubMed')
+
+citation_30290028 <- paste0(PMID_30290028$journal,' ', PMID_30290028$year, ' ', PMID_30290028$month,';', PMID_30290028$volume,'(', PMID_30290028$number,'):', PMID_30290028$pages)
+
+PubMed_30290028 <- paste0(PubMedString, PMID_30290028$eprint)
+
+doi_30290028 <- paste0(doiString, PMID_30290028$doi)
+
+dimensionBadge_30290028 <- paste0(dimensionString1, PMID_30290028$doi,dimensionString2)
+
+altmetricBadge_30290028 <- paste0(altmetricString1, PMID_30290028$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30290028$title`**
+</summary> 
+
+*`r citation_30290028`*
+
+`r PMID_30290028$abstract`
+
+`r PubMed_30290028`
+
+<!-- `r doi_30290028` -->
+
+`r dimensionBadge_30290028`
+
+`r altmetricBadge_30290028`
+
+</details>
+
+---
+
+- **Pancreatic mixed acinar‐neuroendocrine carcinoma, a unique diagnostic challenge on FNA cytology: A small series of two cases with literature review**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/dc.23981
+
+
+
+---
+
+```{r 30303569, include=FALSE}
+
+PMID_30303569 <- RefManageR::ReadPubMed('30303569', database = 'PubMed')
+
+citation_30303569 <- paste0(PMID_30303569$journal,' ', PMID_30303569$year, ' ', PMID_30303569$month,';', PMID_30303569$volume,'(', PMID_30303569$number,'):', PMID_30303569$pages)
+
+PubMed_30303569 <- paste0(PubMedString, PMID_30303569$eprint)
+
+doi_30303569 <- paste0(doiString, PMID_30303569$doi)
+
+dimensionBadge_30303569 <- paste0(dimensionString1, PMID_30303569$doi,dimensionString2)
+
+altmetricBadge_30303569 <- paste0(altmetricString1, PMID_30303569$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30303569$title`**
+</summary> 
+
+*`r citation_30303569`*
+
+`r PubMed_30303569`
+
+`r PMID_30303569$abstract`
+
+<!-- `r doi_30303569` -->
+
+`r dimensionBadge_30303569`
+
+`r altmetricBadge_30303569`
+
+</details>
+
+
+
+---
+
+```{r 30353700, include=FALSE}
+
+PMID_30353700 <- RefManageR::ReadPubMed('30353700', database = 'PubMed')
+
+citation_30353700 <- paste0(PMID_30353700$journal,' ', PMID_30353700$year, ' ', PMID_30353700$month,';', PMID_30353700$volume,'(', PMID_30353700$number,'):', PMID_30353700$pages)
+
+PubMed_30353700 <- paste0(PubMedString, PMID_30353700$eprint)
+
+doi_30353700 <- paste0(doiString, PMID_30353700$doi)
+
+dimensionBadge_30353700 <- paste0(dimensionString1, PMID_30353700$doi,dimensionString2)
+
+altmetricBadge_30353700 <- paste0(altmetricString1, PMID_30353700$doi, altmetricString2 )
+
+addthis_inline_30353700 <- paste0(addthis_String1, PMID_30353700$title , " PMID: 30353700 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30353700$title`**
+</summary> 
+
+*`r citation_30353700`*
+
+`r PubMed_30353700`
+
+`r addthis_inline_30353700`
+
+`r PMID_30353700$abstract`
+
+<!-- `r doi_30353700` -->
+
+`r dimensionBadge_30353700`
+
+`r altmetricBadge_30353700`
+
+</details>
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+## Molecular Pathology {.tabset}
+
+---
+
+
+### Pancreas
+
+```{r M Pancreas, eval=FALSE, include=FALSE}
+```
+
+---
+
+- **Referral frequency, attrition rate, and outcomes of germline testing in patients with pancreatic adenocarcinoma**
+
+
+https://link.springer.com/article/10.1007/s10689-018-0106-2
+
+
+---
+
+
+- **Metastasis and chemoresistance in CD133 expressing pancreatic cancer cells are dependent on their lipid raft integrity**
+
+https://www.sciencedirect.com/science/article/pii/S0304383518305949
+
+
+---
+
+```{r 30293872, include=FALSE}
+
+PMID_30293872 <- RefManageR::ReadPubMed('30293872', database = 'PubMed')
+
+citation_30293872 <- paste0(PMID_30293872$journal,' ', PMID_30293872$year, ' ', PMID_30293872$month,';', PMID_30293872$volume,'(', PMID_30293872$number,'):', PMID_30293872$pages)
+
+PubMed_30293872 <- paste0(PubMedString, PMID_30293872$eprint)
+
+doi_30293872 <- paste0(doiString, PMID_30293872$doi)
+
+dimensionBadge_30293872 <- paste0(dimensionString1, PMID_30293872$doi,dimensionString2)
+
+altmetricBadge_30293872 <- paste0(altmetricString1, PMID_30293872$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30293872$title`**
+</summary> 
+
+*`r citation_30293872`*
+
+`r PubMed_30293872`
+
+`r PMID_30293872$abstract`
+
+<!-- `r doi_30293872` -->
+
+`r dimensionBadge_30293872`
+
+`r altmetricBadge_30293872`
+
+</details>
+
+
+---
+
+```{r 30316690, include=FALSE}
+
+PMID_30316690 <- RefManageR::ReadPubMed('30316690', database = 'PubMed')
+
+citation_30316690 <- paste0(PMID_30316690$journal,' ', PMID_30316690$year, ' ', PMID_30316690$month,';', PMID_30316690$volume,'(', PMID_30316690$number,'):', PMID_30316690$pages)
+
+PubMed_30316690 <- paste0(PubMedString, PMID_30316690$eprint)
+
+doi_30316690 <- paste0(doiString, PMID_30316690$doi)
+
+dimensionBadge_30316690 <- paste0(dimensionString1, PMID_30316690$doi,dimensionString2)
+
+altmetricBadge_30316690 <- paste0(altmetricString1, PMID_30316690$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_30316690$title`**
+</summary> 
+
+*`r citation_30316690`*
+
+`r PubMed_30316690`
+
+`r PMID_30316690$abstract`
+
+<!-- `r doi_30316690` -->
+
+`r dimensionBadge_30316690`
+
+`r altmetricBadge_30316690`
+
+</details>
+
+---
+
+- **MicroRNA therapeutics: design of single-stranded miR-216b mimics to target KRAS in pancreatic cancer cells**
+
+https://www.tandfonline.com/doi/full/10.1080/15476286.2018.1526536
+
+---
+
+
+
+
+<!-- ### Bile Ducts -->
+
+```{r M Bile Ducts, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+<!-- ### Gallbladder -->
+
+```{r M Gallbladder, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+### Ampulla of Vater
+
+```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 29731265, include=FALSE}
+
+PMID_29731265 <- RefManageR::ReadPubMed('29731265', database = 'PubMed')
+
+citation_29731265 <- paste0(PMID_29731265$journal,' ', PMID_29731265$year, ' ', PMID_29731265$month,';', PMID_29731265$volume,'(', PMID_29731265$number,'):', PMID_29731265$pages)
+
+PubMed_29731265 <- paste0(PubMedString, PMID_29731265$eprint)
+
+doi_29731265 <- paste0(doiString, PMID_29731265$doi)
+
+dimensionBadge_29731265 <- paste0(dimensionString1, PMID_29731265$doi,dimensionString2)
+
+altmetricBadge_29731265 <- paste0(altmetricString1, PMID_29731265$doi, altmetricString2 )
+
+```
+
+<details open> <summary>
+- **`r PMID_29731265$title`**
+</summary> 
+
+*`r citation_29731265`*
+
+`r PMID_29731265$abstract`
+
+`r PubMed_29731265`
+
+<!-- `r doi_29731265` -->
+
+`r dimensionBadge_29731265`
+
+`r altmetricBadge_29731265`
+
+</details>
+
+---
+
+
+
+
+### Neuroendocrine
+
+
+```{r M Neuroendocrine, eval=FALSE, include=FALSE}
+```
+
+---
+
+
+- **Genetic Analysis of Small Well-differentiated Pancreatic Neuroendocrine Tumors Identifies Subgroups With Differing Risks of Liver Metastases**
+
+https://journals.lww.com/annalsofsurgery/Abstract/publishahead/Genetic_Analysis_of_Small_Well_differentiated.95354.aspx
+
+
+---
+
+
+---
+
+<a href="#top">Back to top</a>
+
+\pagebreak
+
+
+
 
 ---
 
