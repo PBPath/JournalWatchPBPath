@@ -1781,6 +1781,49 @@ addthis_inline_29242097 <- paste0(addthis_String1, PMID_29242097$title , " PMID:
 ```
 
 
+
+---
+
+```{r 29611542, include=FALSE}
+
+PMID_29611542 <- RefManageR::ReadPubMed('29611542', database = 'PubMed')
+
+citation_29611542 <- paste0(PMID_29611542$journal,' ', PMID_29611542$year, ' ', PMID_29611542$month,';', PMID_29611542$volume,'(', PMID_29611542$number,'):', PMID_29611542$pages)
+
+PubMed_29611542 <- paste0(PubMedString, PMID_29611542$eprint)
+
+doi_29611542 <- paste0(doiString, PMID_29611542$doi)
+
+dimensionBadge_29611542 <- paste0(dimensionString1, PMID_29611542$doi,dimensionString2)
+
+altmetricBadge_29611542 <- paste0(altmetricString1, PMID_29611542$doi, altmetricString2 )
+
+addthis_inline_29611542 <- paste0(addthis_String1, PMID_29611542$title , " PMID: 29611542 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29611542$title`**
+</summary> 
+
+*`r citation_29611542`*
+
+`r PubMed_29611542`
+
+`r addthis_inline_29611542`
+
+`r PMID_29611542$abstract`
+
+<!-- `r doi_29611542` -->
+
+`r dimensionBadge_29611542`
+
+`r altmetricBadge_29611542`
+
+</details>
+
+---
+
 ```{r 29495889, include=FALSE}
 
 PMID_29495889 <- RefManageR::ReadPubMed('29495889', database = 'PubMed')
@@ -4309,6 +4352,46 @@ altmetricBadge_30316690 <- paste0(altmetricString1, PMID_30316690$doi, altmetric
 
 ---
 
+```{r 30361898, include=FALSE}
+
+PMID_30361898 <- RefManageR::ReadPubMed('30361898', database = 'PubMed')
+
+citation_30361898 <- paste0(PMID_30361898$journal,' ', PMID_30361898$year, ' ', PMID_30361898$month,';', PMID_30361898$volume,'(', PMID_30361898$number,'):', PMID_30361898$pages)
+
+PubMed_30361898 <- paste0(PubMedString, PMID_30361898$eprint)
+
+doi_30361898 <- paste0(doiString, PMID_30361898$doi)
+
+dimensionBadge_30361898 <- paste0(dimensionString1, PMID_30361898$doi,dimensionString2)
+
+altmetricBadge_30361898 <- paste0(altmetricString1, PMID_30361898$doi, altmetricString2 )
+
+addthis_inline_30361898 <- paste0(addthis_String1, PMID_30361898$title , " PMID: 30361898 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30361898$title`**
+</summary> 
+
+*`r citation_30361898`*
+
+`r PubMed_30361898`
+
+`r addthis_inline_30361898`
+
+`r PMID_30361898$abstract`
+
+<!-- `r doi_30361898` -->
+
+`r dimensionBadge_30361898`
+
+`r altmetricBadge_30361898`
+
+</details>
+
+---
+
 
 
 
@@ -4400,6 +4483,22 @@ altmetricBadge_29731265 <- paste0(altmetricString1, PMID_29731265$doi, altmetric
 ---
 
 ## Articles not yet in PubMed
+
+---
+
+- **Impact of Ethnicity on Somatic Mutation Rates of Pancreatic Adenocarcinoma**
+
+http://iv.iiarjournals.org/content/32/6/1527.full
+
+
+---
+
+- **Usefulness of indocyanine green‐fluorescence imaging for real‐time visualization of pancreas neuroendocrine tumor and cystic neoplasm**
+
+https://onlinelibrary.wiley.com/doi/10.1002/jso.25231
+
+
+
 
 ---
 
@@ -4520,7 +4619,7 @@ https://www.sciencedirect.com/science/article/pii/S0344033818307076
 
 
 
-
+---
 
 
 - **The New American Joint Committee on Cancer TNM Staging System for Pancreatic Cancer—Balancing Usefulness With Prognostication**
@@ -4550,14 +4649,14 @@ https://www.sciencedirect.com/science/article/pii/S0959804918313686
 
 https://journals.lww.com/ajsp/Fulltext/2018/11000/Cancerization_of_the_Pancreatic_Ducts_.16.aspx
 
-
+---
 
 - **Total Pancreatectomy for Presumed Intraductal Papillary Mucinous Neoplasms: A Multicentric Study of the French Surgical Association (AFC)**
 
 https://journals.lww.com/annalsofsurgery/Abstract/2018/11000/Total_Pancreatectomy_for_Presumed_Intraductal.17.aspx
 
 
-
+---
 
 
 - **Glycemic Variability Promotes Both Local Invasion and Metastatic Colonization by Pancreatic Ductal Adenocarcinoma**
@@ -4573,7 +4672,7 @@ https://www.researchgate.net/profile/Joerg_Kleeff/publication/326628000_Glycemic
 https://link.springer.com/article/10.1007/s12328-018-0913-x
 
 
-
+---
 
 
 - **ASO Author Reflections: Do Distinct Patterns of Recurrence Impact the Prognosis of Patients With Resected Pancreatic Ductal Adenocarcinoma?**
@@ -4658,7 +4757,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6173942/
 
 https://www.sciencedirect.com/science/article/pii/S0959804918313741
 
----
 
 
 
@@ -4683,7 +4781,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6156365/
 https://www.sciencedirect.com/science/article/pii/S0144861718311846
 
 
-
+---
 
 
 - **The impact of cancer-associated fibroblasts on major hallmarks of pancreatic cancer**  
@@ -4703,13 +4801,13 @@ https://www.sciencedirect.com/science/article/pii/S1424390318306914
 
 https://www.sciencedirect.com/science/article/pii/S1044579X18301342
 
-
+---
 
 - **A "Clearer" View of Pancreatic Pathology: A Review of Tissue Clearing and Advanced Microscopy Techniques.**
 
 https://europepmc.org/abstract/med/30256228
 
-
+---
 
 
 -**SWI/SNF component ARID1A restrains pancreatic neoplasia formation**
@@ -4733,7 +4831,7 @@ https://www.sciencedirect.com/science/article/pii/S1365182X18339352
 
 
 
-
+---
 
 
 - **Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches: Autoimmune diseases and pancreatic cancer risk**
@@ -4776,7 +4874,7 @@ https://bmccancer.biomedcentral.com/articles/10.1186/s12885-018-4906-4
 
 https://www.jkms.org/search.php?where=aview&id=10.3346/jkms.2018.33.e266&code=0063JKMS&vmode=FULL
 
-
+---
 
 
 - **When the immune system is away biliary cancer cells may come back to play**
@@ -4789,8 +4887,6 @@ https://www.researchgate.net/publication/328293566_When_the_immune_system_is_awa
 
 https://www.hpbonline.org/article/S1365-182X(18)30877-3/abstract
 
-
----
 
 
 
@@ -4808,25 +4904,27 @@ https://www.birpublications.org/doi/pdfplus/10.1259/bjrcr.20180079
 http://www.ijpmonline.org/article.asp?issn=0377-4929;year=2018;volume=61;issue=4;spage=516;epage=519;aulast=Hazarika
 
 
-
+---
 
 - **A case report of intracholecystic papillary neoplasm of the gallbladder resembling a submucosal tumor**
 
 https://link.springer.com/article/10.1186/s40792-018-0524-2
 
 
-
+---
 
 - **Outcomes of surgical resection of gallbladder cancer in patients presenting with jaundice: A systematic review and meta‐analysis**
 
 https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25186
 
 
+---
+
 - **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
 
 http://cancer-research-frontiers.org/wp-content/uploads/2018/10/CRF-1833-4-1.pdf
 
-
+---
 
 - **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
 
@@ -4844,7 +4942,7 @@ https://www.researchgate.net/publication/328235099_Prognostic_role_of_metastatic
 https://www.nature.com/articles/s41379-018-0076-9
 
 
-
+---
 
 
 - **COMPETITIVE TESTING THE WHO 2010 VS THE WHO 2017 GRADING OF PANCREAS NEUROENDOCRINE NEOPLASIA: DATA FROM A LARGE INTERNATIONAL COHORT STUDY**
@@ -4879,6 +4977,7 @@ https://onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21493
 https://link.springer.com/article/10.1007/s13244-018-0658-6
 
 
+---
 
 
 - **DAXX Mutation Status of Embolization-Treated Neuroendocrine Tumors Predicts Shorter Time to Hepatic Progression**
@@ -4910,7 +5009,7 @@ https://www.sciencedirect.com/science/article/pii/S1756231718301397
 http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443
 
 
-
+---
 
 - **Accuracy of Grading Pancreatic Neuroendocrine Neoplasms with Ki‐67 Index in Fine‐Needle Aspiration Cellblock Material**
 
@@ -4953,7 +5052,11 @@ https://www.tandfonline.com/doi/full/10.1080/15476286.2018.1526536
 
 
 
+---
 
+- **Prospective Evaluation of Germline Alterations in Patients With Exocrine Pancreatic Neoplasms**
+
+https://academic.oup.com/jnci/article-abstract/110/10/1067/4915401?redirectedFrom=fulltext
 
 
 

@@ -305,3 +305,44 @@ https://www.sciencedirect.com/science/article/pii/S221433001730158X
 
 
 
+---
+
+```{r 28030664, include=FALSE}
+
+PMID_28030664 <- RefManageR::ReadPubMed('28030664', database = 'PubMed')
+
+citation_28030664 <- paste0(PMID_28030664$journal,' ', PMID_28030664$year, ' ', PMID_28030664$month,';', PMID_28030664$volume,'(', PMID_28030664$number,'):', PMID_28030664$pages)
+
+PubMed_28030664 <- paste0(PubMedString, PMID_28030664$eprint)
+
+doi_28030664 <- paste0(doiString, PMID_28030664$doi)
+
+dimensionBadge_28030664 <- paste0(dimensionString1, PMID_28030664$doi,dimensionString2)
+
+altmetricBadge_28030664 <- paste0(altmetricString1, PMID_28030664$doi, altmetricString2 )
+
+addthis_inline_28030664 <- paste0(addthis_String1, PMID_28030664$title , " PMID: 28030664 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_28030664$title`**
+</summary> 
+
+*`r citation_28030664`*
+
+`r PubMed_28030664`
+
+`r addthis_inline_28030664`
+
+`r PMID_28030664$abstract`
+
+<!-- `r doi_28030664` -->
+
+`r dimensionBadge_28030664`
+
+`r altmetricBadge_28030664`
+
+</details>
+
+---
