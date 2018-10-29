@@ -96,6 +96,9 @@ We encourage members to actively participate by recommending new articles and pr
 
 #### Morphology, Diagnostics, IHC
 
+Morphology, Diagnostics, IHC
+
+
 ```{r S Pancreas Morphology, Diagnostics, IHC, eval=FALSE, include=FALSE}
 ```
 
@@ -157,11 +160,11 @@ addthis_inline_30366677 <- paste0(addthis_String1, PMID_30366677$title , " PMID:
 
 #### Staging
 
+Pancreas TNM staging, Margins, Survival
+
 ```{r S Pancreas Staging, eval=FALSE, include=FALSE}
 ```
 
-
-30284129
 
 ---
 
@@ -244,6 +247,129 @@ addthis_inline_30285076 <- paste0(addthis_String1, PMID_30285076$title , " PMID:
 
 </details>
 
+
+---
+
+```{r 30310507, include=FALSE}
+
+PMID_30310507 <- RefManageR::ReadPubMed('30310507', database = 'PubMed')
+
+citation_30310507 <- paste0(PMID_30310507$journal,' ', PMID_30310507$year, ' ', PMID_30310507$month,';', PMID_30310507$volume,'(', PMID_30310507$number,'):', PMID_30310507$pages)
+
+PubMed_30310507 <- paste0(PubMedString, PMID_30310507$eprint)
+
+doi_30310507 <- paste0(doiString, PMID_30310507$doi)
+
+dimensionBadge_30310507 <- paste0(dimensionString1, PMID_30310507$doi,dimensionString2)
+
+altmetricBadge_30310507 <- paste0(altmetricString1, PMID_30310507$doi, altmetricString2 )
+
+addthis_inline_30310507 <- paste0(addthis_String1, PMID_30310507$title , " PMID: 30310507 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30310507$title`**
+</summary> 
+
+*`r citation_30310507`*
+
+`r PubMed_30310507`
+
+`r addthis_inline_30310507`
+
+`r PMID_30310507$abstract`
+
+<!-- `r doi_30310507` -->
+
+`r dimensionBadge_30310507`
+
+`r altmetricBadge_30310507`
+
+</details>
+
+
+---
+
+```{r 30326370, include=FALSE}
+
+PMID_30326370 <- RefManageR::ReadPubMed('30326370', database = 'PubMed')
+
+citation_30326370 <- paste0(PMID_30326370$journal,' ', PMID_30326370$year, ' ', PMID_30326370$month,';', PMID_30326370$volume,'(', PMID_30326370$number,'):', PMID_30326370$pages)
+
+PubMed_30326370 <- paste0(PubMedString, PMID_30326370$eprint)
+
+doi_30326370 <- paste0(doiString, PMID_30326370$doi)
+
+dimensionBadge_30326370 <- paste0(dimensionString1, PMID_30326370$doi,dimensionString2)
+
+altmetricBadge_30326370 <- paste0(altmetricString1, PMID_30326370$doi, altmetricString2 )
+
+addthis_inline_30326370 <- paste0(addthis_String1, PMID_30326370$title , " PMID: 30326370 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30326370$title`**
+</summary> 
+
+*`r citation_30326370`*
+
+`r PubMed_30326370`
+
+`r addthis_inline_30326370`
+
+`r PMID_30326370$abstract`
+
+<!-- `r doi_30326370` -->
+
+`r dimensionBadge_30326370`
+
+`r altmetricBadge_30326370`
+
+</details>
+
+
+---
+
+```{r 30286011, include=FALSE}
+
+PMID_30286011 <- RefManageR::ReadPubMed('30286011', database = 'PubMed')
+
+citation_30286011 <- paste0(PMID_30286011$journal,' ', PMID_30286011$year, ' ', PMID_30286011$month,';', PMID_30286011$volume,'(', PMID_30286011$number,'):', PMID_30286011$pages)
+
+PubMed_30286011 <- paste0(PubMedString, PMID_30286011$eprint)
+
+doi_30286011 <- paste0(doiString, PMID_30286011$doi)
+
+dimensionBadge_30286011 <- paste0(dimensionString1, PMID_30286011$doi,dimensionString2)
+
+altmetricBadge_30286011 <- paste0(altmetricString1, PMID_30286011$doi, altmetricString2 )
+
+addthis_inline_30286011 <- paste0(addthis_String1, PMID_30286011$title , " PMID: 30286011 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30286011$title`**
+</summary> 
+
+*`r citation_30286011`*
+
+`r PubMed_30286011`
+
+`r addthis_inline_30286011`
+
+`r PMID_30286011$abstract`
+
+<!-- `r doi_30286011` -->
+
+`r dimensionBadge_30286011`
+
+`r altmetricBadge_30286011`
+
+</details>
+
 ---
 
 ---
@@ -255,6 +381,9 @@ addthis_inline_30285076 <- paste0(addthis_String1, PMID_30285076$title , " PMID:
 \pagebreak
 
 #### Macroscopy 
+
+Macroscopy / Grossing
+
 
 ```{r S Macroscopy, Grossing, eval=FALSE, include=FALSE}
 ```
@@ -269,9 +398,11 @@ addthis_inline_30285076 <- paste0(addthis_String1, PMID_30285076$title , " PMID:
 \pagebreak
 
 
-#### Preinvasive Lesions
+#### Preneoplastic and Preinvasive Lesions 
 
-```{r S Pancreas Preinvasive Lesions IPMN, MCN, ITPN,  eval=FALSE, include=FALSE}
+Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
+
+```{r S Pancreas Preneoplastic and Preinvasive Lesions IPMN, MCN, ITPN,  eval=FALSE, include=FALSE}
 ```
 
 
@@ -315,75 +446,89 @@ addthis_inline_30357962 <- paste0(addthis_String1, PMID_30357962$title , " PMID:
 
 </details>
 
----
 
 ---
 
-<a href="#top" target="_self">Back to top</a>
+```{r 30342036, include=FALSE}
 
----
+PMID_30342036 <- RefManageR::ReadPubMed('30342036', database = 'PubMed')
 
-\pagebreak
+citation_30342036 <- paste0(PMID_30342036$journal,' ', PMID_30342036$year, ' ', PMID_30342036$month,';', PMID_30342036$volume,'(', PMID_30342036$number,'):', PMID_30342036$pages)
 
+PubMed_30342036 <- paste0(PubMedString, PMID_30342036$eprint)
 
+doi_30342036 <- paste0(doiString, PMID_30342036$doi)
 
-#### Morphology, Diagnostics, IHC
+dimensionBadge_30342036 <- paste0(dimensionString1, PMID_30342036$doi,dimensionString2)
 
-```{r S Pancreas Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
+altmetricBadge_30342036 <- paste0(altmetricString1, PMID_30342036$doi, altmetricString2 )
+
+addthis_inline_30342036 <- paste0(addthis_String1, PMID_30342036$title , " PMID: 30342036 " , addthis_String2)
+
 ```
 
+<details open> <summary>
+- **`r PMID_30342036$title`**
+</summary> 
+
+*`r citation_30342036`*
+
+`r PubMed_30342036`
+
+`r addthis_inline_30342036`
+
+`r PMID_30342036$abstract`
+
+<!-- `r doi_30342036` -->
+
+`r dimensionBadge_30342036`
+
+`r altmetricBadge_30342036`
+
+</details>
+
 
 ---
 
-<a href="#top" target="_self">Back to top</a>
+```{r 30357576, include=FALSE}
 
----
+PMID_30357576 <- RefManageR::ReadPubMed('30357576', database = 'PubMed')
 
-\pagebreak
+citation_30357576 <- paste0(PMID_30357576$journal,' ', PMID_30357576$year, ' ', PMID_30357576$month,';', PMID_30357576$volume,'(', PMID_30357576$number,'):', PMID_30357576$pages)
 
+PubMed_30357576 <- paste0(PubMedString, PMID_30357576$eprint)
 
-#### Staging
+doi_30357576 <- paste0(doiString, PMID_30357576$doi)
 
-Pancreas TNM staging, Margins, Survival
+dimensionBadge_30357576 <- paste0(dimensionString1, PMID_30357576$doi,dimensionString2)
 
-```{r S Pancreas TNM staging Margins Survival, eval=FALSE, include=FALSE}
+altmetricBadge_30357576 <- paste0(altmetricString1, PMID_30357576$doi, altmetricString2 )
+
+addthis_inline_30357576 <- paste0(addthis_String1, PMID_30357576$title , " PMID: 30357576 " , addthis_String2)
+
 ```
 
+<details open> <summary>
+- **`r PMID_30357576$title`**
+</summary> 
+
+*`r citation_30357576`*
+
+`r PubMed_30357576`
+
+`r addthis_inline_30357576`
+
+`r PMID_30357576$abstract`
+
+<!-- `r doi_30357576` -->
+
+`r dimensionBadge_30357576`
+
+`r altmetricBadge_30357576`
+
+</details>
 
 ---
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-#### Macroscopy 
-
-Macroscopy / Grossing 
-
-```{r S Macroscopy Grossing, eval=FALSE, include=FALSE}
-```
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
-#### Preneoplastic and Preinvasive Lesions 
-
-Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
-
-
-```{r S Pancreas Preneoplastic and Preinvasive Lesions, eval=FALSE, include=FALSE}
-```
-
 
 ---
 
@@ -550,11 +695,93 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=30325866
 \pagebreak
 
 
-#### Pancreatitis & Other Benign Diseases
+#### Pancreatitis & Other Diseases
 
-```{r Pancreas Pancreatitis & Other Benign Diseases, eval=FALSE, include=FALSE}
+```{r Pancreas Pancreatitis & Other Diseases, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30286010, include=FALSE}
+
+PMID_30286010 <- RefManageR::ReadPubMed('30286010', database = 'PubMed')
+
+citation_30286010 <- paste0(PMID_30286010$journal,' ', PMID_30286010$year, ' ', PMID_30286010$month,';', PMID_30286010$volume,'(', PMID_30286010$number,'):', PMID_30286010$pages)
+
+PubMed_30286010 <- paste0(PubMedString, PMID_30286010$eprint)
+
+doi_30286010 <- paste0(doiString, PMID_30286010$doi)
+
+dimensionBadge_30286010 <- paste0(dimensionString1, PMID_30286010$doi,dimensionString2)
+
+altmetricBadge_30286010 <- paste0(altmetricString1, PMID_30286010$doi, altmetricString2 )
+
+addthis_inline_30286010 <- paste0(addthis_String1, PMID_30286010$title , " PMID: 30286010 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30286010$title`**
+</summary> 
+
+*`r citation_30286010`*
+
+`r PubMed_30286010`
+
+`r addthis_inline_30286010`
+
+`r PMID_30286010$abstract`
+
+<!-- `r doi_30286010` -->
+
+`r dimensionBadge_30286010`
+
+`r altmetricBadge_30286010`
+
+</details>
+
+---
+
+```{r 30274883, include=FALSE}
+
+PMID_30274883 <- RefManageR::ReadPubMed('30274883', database = 'PubMed')
+
+citation_30274883 <- paste0(PMID_30274883$journal,' ', PMID_30274883$year, ' ', PMID_30274883$month,';', PMID_30274883$volume,'(', PMID_30274883$number,'):', PMID_30274883$pages)
+
+PubMed_30274883 <- paste0(PubMedString, PMID_30274883$eprint)
+
+doi_30274883 <- paste0(doiString, PMID_30274883$doi)
+
+dimensionBadge_30274883 <- paste0(dimensionString1, PMID_30274883$doi,dimensionString2)
+
+altmetricBadge_30274883 <- paste0(altmetricString1, PMID_30274883$doi, altmetricString2 )
+
+addthis_inline_30274883 <- paste0(addthis_String1, PMID_30274883$title , " PMID: 30274883 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30274883$title`**
+</summary> 
+
+*`r citation_30274883`*
+
+`r PubMed_30274883`
+
+`r addthis_inline_30274883`
+
+`r PMID_30274883$abstract`
+
+<!-- `r doi_30274883` -->
+
+`r dimensionBadge_30274883`
+
+`r altmetricBadge_30274883`
+
+</details>
+
+---
 
 ---
 
@@ -572,6 +799,48 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=30325866
 ```{r Pancreas Techniques & Research Methods, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30286013, include=FALSE}
+
+PMID_30286013 <- RefManageR::ReadPubMed('30286013', database = 'PubMed')
+
+citation_30286013 <- paste0(PMID_30286013$journal,' ', PMID_30286013$year, ' ', PMID_30286013$month,';', PMID_30286013$volume,'(', PMID_30286013$number,'):', PMID_30286013$pages)
+
+PubMed_30286013 <- paste0(PubMedString, PMID_30286013$eprint)
+
+doi_30286013 <- paste0(doiString, PMID_30286013$doi)
+
+dimensionBadge_30286013 <- paste0(dimensionString1, PMID_30286013$doi,dimensionString2)
+
+altmetricBadge_30286013 <- paste0(altmetricString1, PMID_30286013$doi, altmetricString2 )
+
+addthis_inline_30286013 <- paste0(addthis_String1, PMID_30286013$title , " PMID: 30286013 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30286013$title`**
+</summary> 
+
+*`r citation_30286013`*
+
+`r PubMed_30286013`
+
+`r addthis_inline_30286013`
+
+`r PMID_30286013$abstract`
+
+<!-- `r doi_30286013` -->
+
+`r dimensionBadge_30286013`
+
+`r altmetricBadge_30286013`
+
+</details>
+
+---
 
 
 ---
@@ -1030,597 +1299,6 @@ addthis_inline_30306561 <- paste0(addthis_String1, PMID_30306561$title , " PMID:
 ---
 
 \pagebreak
----
-
-
-
-## Articles not yet in PubMed
-
----
-
-- **Impact of Ethnicity on Somatic Mutation Rates of Pancreatic Adenocarcinoma**
-
-http://iv.iiarjournals.org/content/32/6/1527.full
-
-
----
-
-- **Usefulness of indocyanine green‐fluorescence imaging for real‐time visualization of pancreas neuroendocrine tumor and cystic neoplasm**
-
-https://onlinelibrary.wiley.com/doi/10.1002/jso.25231
-
-
-
-
----
-
-- **The epithelial-mesenchymal transition induces aggressivity of mucinous cystic neoplasm of the pancreas with neuroendocrine component: an immunohistochemistry study**
-
-https://www.sciencedirect.com/science/article/pii/S034403381831077X
-
-
----
-
-- **Epidermoid cyst in intrapancreatic accessory spleen: A systematic review**
-
-https://www.sciencedirect.com/science/article/pii/S1424390318307026
-
----
-
-- **Minimally Invasive Staging Surgery for Cancer**
-
-https://www.surgonc.theclinics.com/article/S1055-3207(18)30677-X/fulltext
-
----
-
-- **Adjuvant chemotherapy is associated with improved postoperative survival in specific subtypes of invasive intraductal papillary mucinous neoplasms (IPMN) of the pancreas: it is time for randomized controlled data**
-
-https://www.sciencedirect.com/science/article/abs/pii/S1365182X18344630
-
----
-
-- **Cyst location and presence of high grade dysplasia or invasive cancer in intraductal papillary mucinous neoplasms of the pancreas: a seven institution study from the central pancreas consortium**
-
-https://www.sciencedirect.com/science/article/abs/pii/S1365182X1834468X
-
----
-
-- **Needle-based confocal laser endomicroscopy of pancreatic cystic lesions: a prospective multicenter validation study in patients with definite diagnosis**
-
-https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0732-5356
-
----
-
-- **DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth**
-
-https://gut.bmj.com/content/early/2018/10/20/gutjnl-2018-316128
-
----
-
-- **EZH2-Mediated microRNA-139-5p Regulates Epithelial-Mesenchymal Transition and Lymph Node Metastasis of Pancreatic Cancer**
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6182224/
-
----
-
-- **Identification of Cystic Lesions by Secondary Screening of Familial Pancreatic Cancer (FPC) Kindreds Is Not Associated with the Stratified Risk of Cancer**
-
-https://www.nature.com/articles/s41395-018-0395-y
-
----
-
-- **Limited role of Chromogranin A as clinical biomarker for pancreatic neuroendocrine tumors**
-
-https://www.sciencedirect.com/science/article/abs/pii/S1365182X18344666
-
----
-
-
-
-- **Genetic Analysis of Small Well-differentiated Pancreatic Neuroendocrine Tumors Identifies Subgroups With Differing Risks of Liver Metastases**
-
-https://journals.lww.com/annalsofsurgery/Abstract/publishahead/Genetic_Analysis_of_Small_Well_differentiated.95354.aspx
-
-
----
-
----
-
-- **High prevalence of Hereditary Cancer Syndromes and Outcomes in Adults with Early-Onset Pancreatic Cancer**
-
-http://cancerpreventionresearch.aacrjournals.org/content/early/2018/09/29/1940-6207.CAPR-18-0014
-
-
----
-
-- **Molecular alterations associated with metastases of solid pseudopapillary neoplasms of the pancreas**
-
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/path.5180
-
-
-
----
-
-- **Biomarker panel predicts survival after resection in pancreatic ductal adenocarcinoma: A multi-institutional cohort study**
-
-https://www.ejso.com/article/S0748-7983(18)31450-1/fulltext
-
-
----
-
-- **Residual Tumor Index: A Prognostically Significant Pathologic Parameter in Neoadjuvant-treated Pancreatic Ductal Adenocarcinoma**
-
-https://journals.lww.com/ajsp/Abstract/2018/11000/Residual_Tumor_Index__A_Prognostically_Significant.7.aspx
-
-
-
-
----
-
-- **Solid Pseudopapillary Neoplasm of the Pancreas in a Young Pediatric Patient: A Case Report and Systematic Review of the Literature.**
-
-https://www.ncbi.nlm.nih.gov/pubmed/30325866
-
----
-
-- **PD-L1 expression in pancreatic adenosquamous carcinoma: PD-L1 expression is limited to the squamous component**
-
-https://www.sciencedirect.com/science/article/pii/S0344033818307076
-
-
-
-
----
-
-
-- **The New American Joint Committee on Cancer TNM Staging System for Pancreatic Cancer—Balancing Usefulness With Prognostication**
-
-https://jamanetwork.com/journals/jamasurgery/fullarticle/2705293
-
-
----
-
-- **International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer**
-
-
-https://jamanetwork.com/journals/jamasurgery/fullarticle/2705296
-
-
-
----
-
-- **Evaluation of the prognostic value of the new AJCC 8th edition staging system for patients with pancreatic adenocarcinoma; a need to subclassify stage III?**
-
-https://www.sciencedirect.com/science/article/pii/S0959804918313686
-
----
-
-
-- **Cancerization of the Pancreatic Ducts: Demonstration of a Common and Under-recognized Process Using Immunolabeling of Paired Duct Lesions and Invasive Pancreatic Ductal Adenocarcinoma for p53 and Smad4 Expression**
-
-https://journals.lww.com/ajsp/Fulltext/2018/11000/Cancerization_of_the_Pancreatic_Ducts_.16.aspx
-
----
-
-- **Total Pancreatectomy for Presumed Intraductal Papillary Mucinous Neoplasms: A Multicentric Study of the French Surgical Association (AFC)**
-
-https://journals.lww.com/annalsofsurgery/Abstract/2018/11000/Total_Pancreatectomy_for_Presumed_Intraductal.17.aspx
-
-
----
-
-
-- **Glycemic Variability Promotes Both Local Invasion and Metastatic Colonization by Pancreatic Ductal Adenocarcinoma**
-
-https://www.researchgate.net/profile/Joerg_Kleeff/publication/326628000_Glycemic_Variability_Promotes_Both_Local_Invasion_and_Metastatic_Colonization_by_Pancreatic_Ductal_Adenocarcinoma/links/5b784be14585151fd11f7713/Glycemic-Variability-Promotes-Both-Local-Invasion-and-Metastatic-Colonization-by-Pancreatic-Ductal-Adenocarcinoma.pdf
-
-
-
----
-
-- **An extremely rare case who underwent total remnant pancreatectomy due to recurrent pancreatic metastasis of intraductal tubulopapillary neoplasm**
-
-https://link.springer.com/article/10.1007/s12328-018-0913-x
-
-
----
-
-
-- **ASO Author Reflections: Do Distinct Patterns of Recurrence Impact the Prognosis of Patients With Resected Pancreatic Ductal Adenocarcinoma?**
-
-https://link.springer.com/article/10.1245/s10434-018-6820-z
-
-
-
----
-
-- **Clinicopathological characteristics of pancreatic cancer with normal level of serum CA19-9**
-
-https://www.researchgate.net/publication/328061700_Clinicopathological_characteristics_of_pancreatic_cancer_with_normal_level_of_serum_CA19-9
-
-
----
-
-- **Biomarker panel predicts survival after resection in pancreatic ductal adenocarcinoma: A multi-institutional cohort study**
-
-https://www.researchgate.net/publication/328246979_Biomarker_panel_predicts_survival_after_resection_in_pancreatic_ductal_adenocarcinoma_A_multi-institutional_cohort_study
-
-
----
-
-- **Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches: Autoimmune diseases and pancreatic cancer risk**
-
-https://www.researchgate.net/publication/327754246_Pancreatic_cancer_and_autoimmune_diseases_An_association_sustained_by_computational_and_epidemiological_case-control_approaches_Autoimmune_diseases_and_pancreatic_cancer_risk
-
-
----
-
-- **Histo-molecular oncogenesis of pancreatic cancer: From precancerous lesions to invasive ductal adenocarcinoma**
-
-https://www.wjgnet.com/1948-5204/full/v10/i10/317.htm
-
-
-
-
----
-
-- **Impact of tumor size on survival of patients with resected pancreatic ductal adenocarcinoma: a systematic review and meta-analysis**
-
-https://bmccancer.biomedcentral.com/articles/10.1186/s12885-018-4901-9
-
-
-
-
----
-
-- **Intraductal papillary mucinous neoplasm to pancreas ductal adenocarcinoma sequence and pancreas cancer screening**
-
-http://www.eusjournal.com/article.asp?issn=2303-9027;year=2018;volume=7;issue=5;spage=314;epage=318;aulast=Farrell
-
-
-
----
-
-- **Combination treatment of advanced pancreatic cancer using novel vaccine and traditional therapies**
-
-https://www.tandfonline.com/doi/abs/10.1080/14737140.2018.1531707
-
----
-
-
-- **Clinical and in vitro studies of the correlation between MGMT and the effect of streptozocin in pancreatic NET**
-
-
-https://link.springer.com/article/10.1007/s00280-018-3700-y
-
----
-
-- **Current approaches to immunotherapy in noncolorectal gastrointestinal malignancies**
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6173942/
-
-
-
-
----
-
-- **Screening and surveillance in hereditary gastrointestinal cancers: Recommendations from the European Society of Digestive Oncology (ESDO) expert discussion at the 20th European Society for Medical Oncology (ESMO)/World Congress on Gastrointestinal Cancer, Barcelona, June 2018**
-
-https://www.sciencedirect.com/science/article/pii/S0959804918313741
-
-
-
-
----
-
-- **Risk factors related to metastasis of para-aortic lymph nodes in pancreatic ductal adenocarcinoma: A retrospective observational study**
-
-https://journals.lww.com/md-journal/Fulltext/2018/10050/Risk_factors_related_to_metastasis_of_para_aortic.9.aspx
-
-
----
-
-- **KRAS RENAISSANCE(S) in Tumor Infiltrating B Cells in Pancreatic Cancer**
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6156365/
-
-
----
-
-- **HH1-1, a novel Galectin-3 inhibitor, exerts anti-pancreatic cancer activity by blocking Galectin-3/EGFR/AKT/FOXO3 signaling pathway**
-
-https://www.sciencedirect.com/science/article/pii/S0144861718311846
-
-
----
-
-
-- **The impact of cancer-associated fibroblasts on major hallmarks of pancreatic cancer**  
-
-http://www.thno.org/v08p5072.pdf
-
----
-
-
-- **Higher notch expression implies poor survival in pancreatic ductal adenocarcinoma: A systematic review and meta-analysis**
-
-https://www.sciencedirect.com/science/article/pii/S1424390318306914
-
----
-
-- **Small molecule tyrosine kinase inhibitors and pancreatic cancer—Trials and troubles**
-
-https://www.sciencedirect.com/science/article/pii/S1044579X18301342
-
----
-
-- **A "Clearer" View of Pancreatic Pathology: A Review of Tissue Clearing and Advanced Microscopy Techniques.**
-
-https://europepmc.org/abstract/med/30256228
-
----
-
-
--**SWI/SNF component ARID1A restrains pancreatic neoplasia formation**
-
-https://gut.bmj.com/content/early/2018/10/12/gutjnl-2017-315490
-
-
-
----
-
-- **The incidence and survival of pancreatic cancer by histology, including rare subtypes: a nation‐wide cancer registry‐based study from Taiwan**
-
-
-https://onlinelibrary.wiley.com/doi/pdf/10.1002/cam4.1795
-
----
-
-- **Surgical resection of lymph node positive intrahepatic cholangiocarcinoma may not improve survival**
-
-https://www.sciencedirect.com/science/article/pii/S1365182X18339352
-
-
-
----
-
-
-- **Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches: Autoimmune diseases and pancreatic cancer risk**
-
-https://www.researchgate.net/publication/327754246_Pancreatic_cancer_and_autoimmune_diseases_An_association_sustained_by_computational_and_epidemiological_case-control_approaches_Autoimmune_diseases_and_pancreatic_cancer_risk
-
----
-
-- **Definition of an extended minimum level of lymphadenectomy in non-pancreatic periampullary cancer resections**
-
-https://www.researchgate.net/publication/325862954_Definition_of_an_extended_minimum_level_of_lymphadenectomy_in_non-pancreatic_periampullary_cancer_resections
-
-
----
-
-- **A Refined Staging Model for Resectable Pancreatic Ductal Adenocarcinoma Incorporating Examined Lymph Nodes, Location of Tumor and Positive Lymph Nodes Ratio**
-
-https://www.researchgate.net/publication/327545050_A_Refined_Staging_Model_for_Resectable_Pancreatic_Ductal_Adenocarcinoma_Incorporating_Examined_Lymph_Nodes_Location_of_Tumor_and_Positive_Lymph_Nodes_Ratio
-
----
-
-- **Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis**
-
-https://www.researchgate.net/publication/328335210_Nomogram_to_Predict_Cancer-Specific_Survival_in_Patients_with_Pancreatic_Acinar_Cell_Carcinoma_A_Competing_Risk_Analysis
-
-
----
-
-- **A prospective clinical and biological database for pancreatic adenocarcinoma: the BACAP cohort**
-
-
-https://bmccancer.biomedcentral.com/articles/10.1186/s12885-018-4906-4
-
-
-
----
-
-- **Comparison of the Clinicopathologic Characteristics of Intraductal Papillary Neoplasm of the Bile Duct according to Morphological and Anatomical Classifications**
-
-
-https://www.jkms.org/search.php?where=aview&id=10.3346/jkms.2018.33.e266&code=0063JKMS&vmode=FULL
-
----
-
-
-- **When the immune system is away biliary cancer cells may come back to play**
-
-https://www.researchgate.net/publication/328293566_When_the_immune_system_is_away_biliary_cancer_cells_may_come_back_to_play
-
----
-
-- **Patterns of gene mutations in bile duct cancers: is it time to overcome the anatomical classification?**
-
-https://www.hpbonline.org/article/S1365-182X(18)30877-3/abstract
-
-
-
-
----
-
-- **Intracholecystic papillary-tubular neoplasm in a patient with choledochal cyst and anomalous pancreaticobiliary junction: case report**
-
-https://www.birpublications.org/doi/pdfplus/10.1259/bjrcr.20180079
-
----
-
-- **Intracholecystic papillary–tubular neoplasm of gallbladder: A 5-year retrospective pathological study**
-
-
-http://www.ijpmonline.org/article.asp?issn=0377-4929;year=2018;volume=61;issue=4;spage=516;epage=519;aulast=Hazarika
-
-
----
-
-- **A case report of intracholecystic papillary neoplasm of the gallbladder resembling a submucosal tumor**
-
-https://link.springer.com/article/10.1186/s40792-018-0524-2
-
-
----
-
-- **Outcomes of surgical resection of gallbladder cancer in patients presenting with jaundice: A systematic review and meta‐analysis**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25186
-
-
----
-
-- **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
-
-http://cancer-research-frontiers.org/wp-content/uploads/2018/10/CRF-1833-4-1.pdf
-
----
-
-- **Prognostic role of metastatic lymph node number and lymph node ratio in ampullary adenocarcinoma**
-
-https://www.researchgate.net/publication/328235099_Prognostic_role_of_metastatic_lymph_node_number_and_lymph_node_ratio_in_ampullary_adenocarcinoma
-
-
-
-
-
-
----
-
-- **The use of Ki-67 labeling index to grade pulmonary well-differentiated neuroendocrine neoplasms: current best evidence**
-
-https://www.nature.com/articles/s41379-018-0076-9
-
-
----
-
-
-- **COMPETITIVE TESTING THE WHO 2010 VS THE WHO 2017 GRADING OF PANCREAS NEUROENDOCRINE NEOPLASIA: DATA FROM A LARGE INTERNATIONAL COHORT STUDY**
-
-https://www.researchgate.net/publication/328199727_COMPETITIVE_TESTING_THE_WHO_2010_VS_THE_WHO_2017_GRADING_OF_PANCREAS_NEUROENDOCRINE_NEOPLASIA_DATA_FROM_A_LARGE_INTERNATIONAL_COHORT_STUDY
-
-
-https://www.karger.com/Article/Abstract/494355
-
-
-
----
-
-- **Ki-67 and presence of liver metastases identify different progression-risk classes in pancreatic neuroendocrine neoplasms (pNEN) undergoing resection**
-
-
-https://www.ejso.com/article/S0748-7983(18)31452-5/fulltext
-
-
-
-
----
-
-- **Gastroenteropancreatic Neuroendocrine Tumors**
-
-https://onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21493
-
----
-
-- **Imaging presentation of pancreatic neuroendocrine neoplasms**
-
-https://link.springer.com/article/10.1007/s13244-018-0658-6
-
-
----
-
-
-- **DAXX Mutation Status of Embolization-Treated Neuroendocrine Tumors Predicts Shorter Time to Hepatic Progression**
-
-https://www.sciencedirect.com/science/article/pii/S1051044318312491
-
-
-
----
-
-- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
-
-https://www.sciencedirect.com/science/article/pii/S1424390318306859
-
-
-
----
-
-
-- **Pancreaticobiliary cytopathology: an update**
-
-https://www.sciencedirect.com/science/article/pii/S1756231718301397
-
-
----
-
-- **Histologic retrieval rate of a newly designed side-bevelled 20G needle for EUS-guided tissue acquisition of solid pancreatic lesions**
-
-http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443
-
-
----
-
-- **Accuracy of Grading Pancreatic Neuroendocrine Neoplasms with Ki‐67 Index in Fine‐Needle Aspiration Cellblock Material**
-
-https://onlinelibrary.wiley.com/doi/10.1111/cyt.12643
-
-
-
----
-
-- **Pancreatic mixed acinar‐neuroendocrine carcinoma, a unique diagnostic challenge on FNA cytology: A small series of two cases with literature review**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/dc.23981
-
-
-
-
----
-
-
-- **Referral frequency, attrition rate, and outcomes of germline testing in patients with pancreatic adenocarcinoma**
-
-
-https://link.springer.com/article/10.1007/s10689-018-0106-2
-
-
----
-
-
-- **Metastasis and chemoresistance in CD133 expressing pancreatic cancer cells are dependent on their lipid raft integrity**
-
-https://www.sciencedirect.com/science/article/pii/S0304383518305949
-
-
-
----
-
-- **MicroRNA therapeutics: design of single-stranded miR-216b mimics to target KRAS in pancreatic cancer cells**
-
-https://www.tandfonline.com/doi/full/10.1080/15476286.2018.1526536
-
-
-
----
-
-- **Prospective Evaluation of Germline Alterations in Patients With Exocrine Pancreatic Neoplasms**
-
-https://academic.oup.com/jnci/article-abstract/110/10/1067/4915401?redirectedFrom=fulltext
-
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
-\pagebreak
-
-
-
 
 
 ## Journals Reviewed
