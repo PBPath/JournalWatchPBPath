@@ -1,6 +1,11 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
   html_notebook: 
     code_folding: none
     fig_caption: yes
@@ -10,11 +15,6 @@ output:
     df_print: kable
     highlight: null
     keep_md: yes
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-    toc_depth: 5
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
