@@ -783,6 +783,46 @@ addthis_inline_30274883 <- paste0(addthis_String1, PMID_30274883$title , " PMID:
 
 ---
 
+```{r 30296438, include=FALSE}
+
+PMID_30296438 <- RefManageR::ReadPubMed('30296438', database = 'PubMed')
+
+citation_30296438 <- paste0(PMID_30296438$journal,' ', PMID_30296438$year, ' ', PMID_30296438$month,';', PMID_30296438$volume,'(', PMID_30296438$number,'):', PMID_30296438$pages)
+
+PubMed_30296438 <- paste0(PubMedString, PMID_30296438$eprint)
+
+doi_30296438 <- paste0(doiString, PMID_30296438$doi)
+
+dimensionBadge_30296438 <- paste0(dimensionString1, PMID_30296438$doi,dimensionString2)
+
+altmetricBadge_30296438 <- paste0(altmetricString1, PMID_30296438$doi, altmetricString2 )
+
+addthis_inline_30296438 <- paste0(addthis_String1, PMID_30296438$title , " PMID: 30296438 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30296438$title`**
+</summary> 
+
+*`r citation_30296438`*
+
+`r PubMed_30296438`
+
+`r addthis_inline_30296438`
+
+`r PMID_30296438$abstract`
+
+<!-- `r doi_30296438` -->
+
+`r dimensionBadge_30296438`
+
+`r altmetricBadge_30296438`
+
+</details>
+
+---
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
