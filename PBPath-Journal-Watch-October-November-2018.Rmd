@@ -2248,6 +2248,66 @@ addthis_inline_30365134 <- paste0(addthis_String1, PMID_30365134$title , " PMID:
 ---
 
 
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+#### Preneoplastic and Preinvasive Lesions 
+
+Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
+
+```{r Molecular Pancreas Preneoplastic and Preinvasive Lesions IPMN, MCN, ITPN,  eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30385653, include=FALSE}
+
+PMID_30385653 <- RefManageR::ReadPubMed('30385653', database = 'PubMed')
+
+citation_30385653 <- paste0(PMID_30385653$journal,' ', PMID_30385653$year, ' ', PMID_30385653$month,';', PMID_30385653$volume,'(', PMID_30385653$number,'):', PMID_30385653$pages)
+
+PubMed_30385653 <- paste0(PubMedString, PMID_30385653$eprint)
+
+doi_30385653 <- paste0(doiString, PMID_30385653$doi)
+
+dimensionBadge_30385653 <- paste0(dimensionString1, PMID_30385653$doi,dimensionString2)
+
+altmetricBadge_30385653 <- paste0(altmetricString1, PMID_30385653$doi, altmetricString2 )
+
+addthis_inline_30385653 <- paste0(addthis_String1, PMID_30385653$title , " PMID: 30385653 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30385653$title`**
+</summary> 
+
+*`r citation_30385653`*
+
+`r PubMed_30385653`
+
+`r addthis_inline_30385653`
+
+`r PMID_30385653$abstract`
+
+<!-- `r doi_30385653` -->
+
+`r dimensionBadge_30385653`
+
+`r altmetricBadge_30385653`
+
+</details>
+
+---
+
+
 
 ---
 
