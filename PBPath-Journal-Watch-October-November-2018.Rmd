@@ -666,6 +666,23 @@ addthis_inline_30007990 <- paste0(addthis_String1, PMID_30007990$title , " PMID:
 
 ---
 
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+#### Macroscopy 
+
+Macroscopy / Grossing
+
+
+```{r S Macroscopy, Grossing, eval=FALSE, include=FALSE}
+```
+
+
+---
+
 ```{r 29630087, include=FALSE}
 
 PMID_29630087 <- RefManageR::ReadPubMed('29630087', database = 'PubMed')
@@ -746,23 +763,48 @@ addthis_inline_30380143 <- paste0(addthis_String1, PMID_30380143$title , " PMID:
 
 </details>
 
----
 
 ---
 
-<a href="#top" target="_self">Back to top</a>
+```{r 30406483, include=FALSE}
 
----
+PMID_30406483 <- RefManageR::ReadPubMed('30406483', database = 'PubMed')
 
-\pagebreak
+citation_30406483 <- paste0(PMID_30406483$journal,' ', PMID_30406483$year, ' ', PMID_30406483$month,';', PMID_30406483$volume,'(', PMID_30406483$number,'):', PMID_30406483$pages)
 
-#### Macroscopy 
+PubMed_30406483 <- paste0(PubMedString, PMID_30406483$eprint)
 
-Macroscopy / Grossing
+doi_30406483 <- paste0(doiString, PMID_30406483$doi)
 
+dimensionBadge_30406483 <- paste0(dimensionString1, PMID_30406483$doi,dimensionString2)
 
-```{r S Macroscopy, Grossing, eval=FALSE, include=FALSE}
+altmetricBadge_30406483 <- paste0(altmetricString1, PMID_30406483$doi, altmetricString2 )
+
+addthis_inline_30406483 <- paste0(addthis_String1, PMID_30406483$title , " PMID: 30406483 " , addthis_String2)
+
 ```
+
+<details open> <summary>
+- **`r PMID_30406483$title`**
+</summary> 
+
+*`r citation_30406483`*
+
+`r PubMed_30406483`
+
+`r addthis_inline_30406483`
+
+`r PMID_30406483$abstract`
+
+<!-- `r doi_30406483` -->
+
+`r dimensionBadge_30406483`
+
+`r altmetricBadge_30406483`
+
+</details>
+
+
 
 
 ---
@@ -1782,6 +1824,10 @@ addthis_inline_30325853 <- paste0(addthis_String1, PMID_30325853$title , " PMID:
 
 ---
 
+- **Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer**
+
+https://www.nature.com/articles/s41416-018-0298-0
+
 
 ---
 
@@ -2749,6 +2795,58 @@ https://gut.bmj.com/content/early/2018/11/05/gutjnl-2018-316822
 
 ---
 
+- **The role of GLI-SOX2 signaling axis for gemcitabine resistance in pancreatic cancer**
+
+
+https://www.nature.com/articles/s41388-018-0553-0
+
+
+---
+
+```{r 30406400, include=FALSE}
+
+PMID_30406400 <- RefManageR::ReadPubMed('30406400', database = 'PubMed')
+
+citation_30406400 <- paste0(PMID_30406400$journal,' ', PMID_30406400$year, ' ', PMID_30406400$month,';', PMID_30406400$volume,'(', PMID_30406400$number,'):', PMID_30406400$pages)
+
+PubMed_30406400 <- paste0(PubMedString, PMID_30406400$eprint)
+
+doi_30406400 <- paste0(doiString, PMID_30406400$doi)
+
+dimensionBadge_30406400 <- paste0(dimensionString1, PMID_30406400$doi,dimensionString2)
+
+altmetricBadge_30406400 <- paste0(altmetricString1, PMID_30406400$doi, altmetricString2 )
+
+addthis_inline_30406400 <- paste0(addthis_String1, PMID_30406400$title , " PMID: 30406400 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30406400$title`**
+</summary> 
+
+*`r citation_30406400`*
+
+`r PubMed_30406400`
+
+`r addthis_inline_30406400`
+
+`r PMID_30406400$abstract`
+
+<!-- `r doi_30406400` -->
+
+`r dimensionBadge_30406400`
+
+`r altmetricBadge_30406400`
+
+</details>
+
+---
+
+
+---
+
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -3058,6 +3156,50 @@ addthis_inline_30306561 <- paste0(addthis_String1, PMID_30306561$title , " PMID:
 
 ```{r M Bile Ducts, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+```{r 30404735, include=FALSE}
+
+PMID_30404735 <- RefManageR::ReadPubMed('30404735', database = 'PubMed')
+
+citation_30404735 <- paste0(PMID_30404735$journal,' ', PMID_30404735$year, ' ', PMID_30404735$month,';', PMID_30404735$volume,'(', PMID_30404735$number,'):', PMID_30404735$pages)
+
+PubMed_30404735 <- paste0(PubMedString, PMID_30404735$eprint)
+
+doi_30404735 <- paste0(doiString, PMID_30404735$doi)
+
+dimensionBadge_30404735 <- paste0(dimensionString1, PMID_30404735$doi,dimensionString2)
+
+altmetricBadge_30404735 <- paste0(altmetricString1, PMID_30404735$doi, altmetricString2 )
+
+addthis_inline_30404735 <- paste0(addthis_String1, PMID_30404735$title , " PMID: 30404735 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30404735$title`**
+</summary> 
+
+*`r citation_30404735`*
+
+`r PubMed_30404735`
+
+`r addthis_inline_30404735`
+
+`r PMID_30404735$abstract`
+
+<!-- `r doi_30404735` -->
+
+`r dimensionBadge_30404735`
+
+`r altmetricBadge_30404735`
+
+</details>
+
+
+
 
 ---
 
