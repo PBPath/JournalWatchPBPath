@@ -1006,7 +1006,90 @@ addthis_inline_30391209 <- paste0(addthis_String1, PMID_30391209$title , " PMID:
 
 </details>
 
+
 ---
+
+```{r 30366881, include=FALSE}
+
+PMID_30366881 <- RefManageR::ReadPubMed('30366881', database = 'PubMed')
+
+citation_30366881 <- paste0(PMID_30366881$journal,' ', PMID_30366881$year, ' ', PMID_30366881$month,';', PMID_30366881$volume,'(', PMID_30366881$number,'):', PMID_30366881$pages)
+
+PubMed_30366881 <- paste0(PubMedString, PMID_30366881$eprint)
+
+doi_30366881 <- paste0(doiString, PMID_30366881$doi)
+
+dimensionBadge_30366881 <- paste0(dimensionString1, PMID_30366881$doi,dimensionString2)
+
+altmetricBadge_30366881 <- paste0(altmetricString1, PMID_30366881$doi, altmetricString2 )
+
+addthis_inline_30366881 <- paste0(addthis_String1, PMID_30366881$title , " PMID: 30366881 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30366881$title`**
+</summary> 
+
+*`r citation_30366881`*
+
+`r PubMed_30366881`
+
+`r addthis_inline_30366881`
+
+`r PMID_30366881$abstract`
+
+<!-- `r doi_30366881` -->
+
+`r dimensionBadge_30366881`
+
+`r altmetricBadge_30366881`
+
+</details>
+
+
+---
+
+```{r 30413822, include=FALSE}
+
+PMID_30413822 <- RefManageR::ReadPubMed('30413822', database = 'PubMed')
+
+citation_30413822 <- paste0(PMID_30413822$journal,' ', PMID_30413822$year, ' ', PMID_30413822$month,';', PMID_30413822$volume,'(', PMID_30413822$number,'):', PMID_30413822$pages)
+
+PubMed_30413822 <- paste0(PubMedString, PMID_30413822$eprint)
+
+doi_30413822 <- paste0(doiString, PMID_30413822$doi)
+
+dimensionBadge_30413822 <- paste0(dimensionString1, PMID_30413822$doi,dimensionString2)
+
+altmetricBadge_30413822 <- paste0(altmetricString1, PMID_30413822$doi, altmetricString2 )
+
+addthis_inline_30413822 <- paste0(addthis_String1, PMID_30413822$title , " PMID: 30413822 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30413822$title`**
+</summary> 
+
+*`r citation_30413822`*
+
+`r PubMed_30413822`
+
+`r addthis_inline_30413822`
+
+`r PMID_30413822$abstract`
+
+<!-- `r doi_30413822` -->
+
+`r dimensionBadge_30413822`
+
+`r altmetricBadge_30413822`
+
+</details>
+
+---
+
 
 ---
 
@@ -1024,8 +1107,49 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response
 ```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
 ```
 
+
+
 ---
 
+```{r 30415234, include=FALSE}
+
+PMID_30415234 <- RefManageR::ReadPubMed('30415234', database = 'PubMed')
+
+citation_30415234 <- paste0(PMID_30415234$journal,' ', PMID_30415234$year, ' ', PMID_30415234$month,';', PMID_30415234$volume,'(', PMID_30415234$number,'):', PMID_30415234$pages)
+
+PubMed_30415234 <- paste0(PubMedString, PMID_30415234$eprint)
+
+doi_30415234 <- paste0(doiString, PMID_30415234$doi)
+
+dimensionBadge_30415234 <- paste0(dimensionString1, PMID_30415234$doi,dimensionString2)
+
+altmetricBadge_30415234 <- paste0(altmetricString1, PMID_30415234$doi, altmetricString2 )
+
+addthis_inline_30415234 <- paste0(addthis_String1, PMID_30415234$title , " PMID: 30415234 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30415234$title`**
+</summary> 
+
+*`r citation_30415234`*
+
+`r PubMed_30415234`
+
+`r addthis_inline_30415234`
+
+`r PMID_30415234$abstract`
+
+<!-- `r doi_30415234` -->
+
+`r dimensionBadge_30415234`
+
+`r altmetricBadge_30415234`
+
+</details>
+
+---
 
 - **Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling**
 
@@ -1144,6 +1268,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=30325866
 </details>
 
 ---
+
+- **Suppression of stromal-derived Dickkopf-3 (DKK3) inhibits tumor progression and prolongs survival in pancreatic ductal adenocarcinoma**
+
+
+http://stm.sciencemag.org/content/10/464/eaat3487
 
 
 ---
@@ -1951,6 +2080,19 @@ https://www.nature.com/articles/s41416-018-0199-2
 
 https://www.researchgate.net/publication/328618448_Prognostic_role_of_BAP-1_and_PBRM-1_expression_in_intrahepatic_cholangiocarcinoma
 
+---
+
+- **Double Trouble: A Rare Case of Concurrent Biliary Adenofibroma and Hepatobiliary Mucinous Cystic Neoplasm**
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6195646/
+
+
+Outcomes of surgery for 2010 WHO classification-based intraductal papillary neoplasm of the bile duct: Case–control study of a single Japanese institution's experience with special attention to mucin expression patterns
+
+https://www.ejso.com/article/S0748-7983(18)31936-X/fulltext
+
+---
+
 
 ---
 
@@ -1990,12 +2132,17 @@ https://www.kjpbt.org/upload/pdf/kpba-23-4-182.pdf
 
 ---
 
-- **Double Trouble: A Rare Case of Concurrent Biliary Adenofibroma and Hepatobiliary Mucinous Cystic Neoplasm**
+- **Differential diagnosis of gallbladder ascariasis debris: the added value of contrast enhanced ultrasound with high frequency transducer**
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6195646/
+https://www.researchgate.net/publication/328763772_Differential_diagnosis_of_gallbladder_ascariasis_debris_the_added_value_of_contrast_enhanced_ultrasound_with_high_frequency_transducer
 
 ---
 
+- **Diffuse Intracystic Papillary Neoplasm Indistinguishable from Gallbladder Cancer: A Case Report**
+
+https://www.jstage.jst.go.jp/article/twmuj/advpub/0/advpub_2018006/_pdf
+
+---
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2421,9 +2568,55 @@ https://link.springer.com/article/10.1007/s00428-018-2407-0
 
 https://link.springer.com/article/10.1007/s12022-018-9554-3
 
+
 ---
 
+```{r 29520563, include=FALSE}
 
+PMID_29520563 <- RefManageR::ReadPubMed('29520563', database = 'PubMed')
+
+citation_29520563 <- paste0(PMID_29520563$journal,' ', PMID_29520563$year, ' ', PMID_29520563$month,';', PMID_29520563$volume,'(', PMID_29520563$number,'):', PMID_29520563$pages)
+
+PubMed_29520563 <- paste0(PubMedString, PMID_29520563$eprint)
+
+doi_29520563 <- paste0(doiString, PMID_29520563$doi)
+
+dimensionBadge_29520563 <- paste0(dimensionString1, PMID_29520563$doi,dimensionString2)
+
+altmetricBadge_29520563 <- paste0(altmetricString1, PMID_29520563$doi, altmetricString2 )
+
+addthis_inline_29520563 <- paste0(addthis_String1, PMID_29520563$title , " PMID: 29520563 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29520563$title`**
+</summary> 
+
+*`r citation_29520563`*
+
+`r PubMed_29520563`
+
+`r addthis_inline_29520563`
+
+`r PMID_29520563$abstract`
+
+<!-- `r doi_29520563` -->
+
+`r dimensionBadge_29520563`
+
+`r altmetricBadge_29520563`
+
+</details>
+
+---
+
+- **Increased incidence trend of low-grade and high-grade neuroendocrine neoplasms**
+
+https://cyberleninka.org/article/n/1491696
+
+
+---
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2531,9 +2724,28 @@ addthis_inline_30308535 <- paste0(addthis_String1, PMID_30308535$title , " PMID:
 
 https://link.springer.com/chapter/10.1007/978-3-319-97376-0_12
 
+---
+
+- **Pancreatic mixed acinar‐neuroendocrine carcinoma, a unique diagnostic challenge on FNA cytology: A small series of two cases with literature review**
+    
+https://onlinelibrary.wiley.com/doi/abs/10.1002/dc.23981
+
+---
+
+- **Histologic retrieval rate of a newly designed side-bevelled 20G needle for EUS-guided tissue acquisition of solid pancreatic lesions**
+    
+http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443
 
 
+---
 
+    
+- **Pancreaticobiliary cytopathology: an update**
+    
+https://www.sciencedirect.com/science/article/pii/S1756231718301397
+
+
+---
 
 
 ---
@@ -2690,6 +2902,10 @@ addthis_inline_30211805 <- paste0(addthis_String1, PMID_30211805$title , " PMID:
 </details>
 
 ---
+
+- **Accuracy of Grading Pancreatic Neuroendocrine Neoplasms with Ki‐67 Index in Fine‐Needle Aspiration Cellblock Material**
+    
+https://onlinelibrary.wiley.com/doi/10.1111/cyt.12643
 
 ---
 
@@ -2980,6 +3196,86 @@ addthis_inline_30411297 <- paste0(addthis_String1, PMID_30411297$title , " PMID:
 `r altmetricBadge_30411297`
 
 </details>
+
+---
+
+PIN1 maintains redox balance via the c-Myc/NRF2 axis to counteract Kras-induced mitochondrial respiratory injury in pancreatic cancer cells
+
+
+http://cancerres.aacrjournals.org/content/canres/early/2018/10/24/0008-5472.CAN-18-1968.full.pdf
+
+
+---
+
+Disruption of stromal hedgehog signaling initiates RNF5-mediated proteasomal degradation of PTEN and accelerates pancreatic tumor growth
+
+
+http://www.life-science-alliance.org/content/1/5/e201800190
+
+
+---
+
+
+Subcutaneous Inoculation of 3D Pancreatic Cancer Spheroids Results in Development of Reproducible Stroma-Rich Tumors
+
+
+https://www.sciencedirect.com/science/article/pii/S1936523318304121
+
+
+---
+
+
+- **Prospective Evaluation of Germline Alterations in Patients With Exocrine Pancreatic Neoplasms**
+    
+https://academic.oup.com/jnci/article-abstract/110/10/1067/4915401?redirectedFrom=fulltext
+
+---
+
+- **MicroRNA therapeutics: design of single-stranded miR-216b mimics to target KRAS in pancreatic cancer cells**
+    
+https://www.tandfonline.com/doi/full/10.1080/15476286.2018.1526536
+
+
+
+---
+
+- **Referral frequency, attrition rate, and outcomes of germline testing in patients with pancreatic adenocarcinoma**
+    
+    
+https://link.springer.com/article/10.1007/s10689-018-0106-2
+
+
+---
+    
+    
+- **Metastasis and chemoresistance in CD133 expressing pancreatic cancer cells are dependent on their lipid raft integrity**
+    
+https://www.sciencedirect.com/science/article/pii/S0304383518305949
+
+
+
+---
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
