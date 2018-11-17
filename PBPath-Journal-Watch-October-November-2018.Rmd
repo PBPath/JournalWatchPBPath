@@ -418,6 +418,12 @@ https://onlinelibrary.wiley.com/doi/10.1002/jso.25253
 
 https://www.nature.com/articles/s41388-018-0403-0
 
+---
+
+- **Epidermoid cyst in intrapancreatic accessory spleen: A systematic review**
+    
+https://www.sciencedirect.com/science/article/pii/S1424390318307026
+
 
 ---
 
@@ -767,6 +773,47 @@ https://www.researchgate.net/publication/327754246_Pancreatic_cancer_and_autoimm
 
 
 
+---
+
+```{r 30430323, include=FALSE}
+
+PMID_30430323 <- RefManageR::ReadPubMed('30430323', database = 'PubMed')
+
+citation_30430323 <- paste0(PMID_30430323$journal,' ', PMID_30430323$year, ' ', PMID_30430323$month,';', PMID_30430323$volume,'(', PMID_30430323$number,'):', PMID_30430323$pages)
+
+PubMed_30430323 <- paste0(PubMedString, PMID_30430323$eprint)
+
+doi_30430323 <- paste0(doiString, PMID_30430323$doi)
+
+dimensionBadge_30430323 <- paste0(dimensionString1, PMID_30430323$doi,dimensionString2)
+
+altmetricBadge_30430323 <- paste0(altmetricString1, PMID_30430323$doi, altmetricString2 )
+
+addthis_inline_30430323 <- paste0(addthis_String1, PMID_30430323$title , " PMID: 30430323 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30430323$title`**
+</summary> 
+
+*`r citation_30430323`*
+
+`r PubMed_30430323`
+
+`r addthis_inline_30430323`
+
+`r PMID_30430323$abstract`
+
+<!-- `r doi_30430323` -->
+
+`r dimensionBadge_30430323`
+
+`r altmetricBadge_30430323`
+
+</details>
+
+---
 
 
 ---
@@ -1199,6 +1246,11 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response
 ```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
 ```
 
+---
+
+- **Epithelial-Stromal Interactions in Pancreatic Cancer**
+
+https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114515
 
 
 ---
@@ -2253,6 +2305,30 @@ addthis_inline_29249692 <- paste0(addthis_String1, PMID_29249692$title , " PMID:
 ---
 
 
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+#### Epidemiology, Cancer Risk Factors
+
+
+```{r Pancreas Epidemiology Cancer Risk Factors, eval=FALSE, include=FALSE}
+```
+
+---
+
+- **Coffee and pancreatic cancer risk among never‐smokers in the UK prospective Million Women Study**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/ijc.31994
+
+
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -2749,7 +2825,49 @@ addthis_inline_28846834 <- paste0(addthis_String1, PMID_28846834$title , " PMID:
 
 </details>
 
+
 ---
+
+```{r 29607953, include=FALSE}
+
+PMID_29607953 <- RefManageR::ReadPubMed('29607953', database = 'PubMed')
+
+citation_29607953 <- paste0(PMID_29607953$journal,' ', PMID_29607953$year, ' ', PMID_29607953$month,';', PMID_29607953$volume,'(', PMID_29607953$number,'):', PMID_29607953$pages)
+
+PubMed_29607953 <- paste0(PubMedString, PMID_29607953$eprint)
+
+doi_29607953 <- paste0(doiString, PMID_29607953$doi)
+
+dimensionBadge_29607953 <- paste0(dimensionString1, PMID_29607953$doi,dimensionString2)
+
+altmetricBadge_29607953 <- paste0(altmetricString1, PMID_29607953$doi, altmetricString2 )
+
+addthis_inline_29607953 <- paste0(addthis_String1, PMID_29607953$title , " PMID: 29607953 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29607953$title`**
+</summary> 
+
+*`r citation_29607953`*
+
+`r PubMed_29607953`
+
+`r addthis_inline_29607953`
+
+`r PMID_29607953$abstract`
+
+<!-- `r doi_29607953` -->
+
+`r dimensionBadge_29607953`
+
+`r altmetricBadge_29607953`
+
+</details>
+
+---
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -3077,6 +3195,18 @@ https://onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21493
 https://link.springer.com/article/10.1007/s13244-018-0658-6
 
     
+---
+
+- **Case Report: Can a high-grade neuroendocrine carcinoma be functional?**
+
+https://www.sciencedirect.com/science/article/abs/pii/S0002962918304142
+
+
+---
+
+- **Association between preoperative Vasostatin-1 and pathological features of aggressiveness in localized nonfunctioning pancreatic neuroendocrine tumors (NF-PanNET)**
+
+https://www.sciencedirect.com/science/article/pii/S142439031830752X
 
 
  
@@ -3155,6 +3285,13 @@ https://onlinelibrary.wiley.com/doi/10.1002/jso.25231
 
 ```{r C Pancreas, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+- **Abnormal Immunolabeling of SMAD4 in Cell Block Specimens Distinguish Malignant and Benign Pancreatic Cells**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12653
 
 
 
@@ -3456,6 +3593,15 @@ https://onlinelibrary.wiley.com/doi/10.1111/cyt.12643
 
 ```{r M Pancreas, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+- **TP63-Mediated Enhancer Reprogramming Drives the Squamous Subtype of Pancreatic Ductal Adenocarcinoma**
+
+https://www.sciencedirect.com/science/article/pii/S2211124718316401
+
+
 
 
 ---
@@ -3937,6 +4083,94 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205177/
     
 http://iv.iiarjournals.org/content/32/6/1527.full
 
+
+---
+
+```{r 30410422, include=FALSE}
+
+PMID_30410422 <- RefManageR::ReadPubMed('30410422', database = 'PubMed')
+
+citation_30410422 <- paste0(PMID_30410422$journal,' ', PMID_30410422$year, ' ', PMID_30410422$month,';', PMID_30410422$volume,'(', PMID_30410422$number,'):', PMID_30410422$pages)
+
+PubMed_30410422 <- paste0(PubMedString, PMID_30410422$eprint)
+
+doi_30410422 <- paste0(doiString, PMID_30410422$doi)
+
+dimensionBadge_30410422 <- paste0(dimensionString1, PMID_30410422$doi,dimensionString2)
+
+altmetricBadge_30410422 <- paste0(altmetricString1, PMID_30410422$doi, altmetricString2 )
+
+addthis_inline_30410422 <- paste0(addthis_String1, PMID_30410422$title , " PMID: 30410422 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30410422$title`**
+</summary> 
+
+*`r citation_30410422`*
+
+`r PubMed_30410422`
+
+`r addthis_inline_30410422`
+
+`r PMID_30410422$abstract`
+
+<!-- `r doi_30410422` -->
+
+`r dimensionBadge_30410422`
+
+`r altmetricBadge_30410422`
+
+</details>
+
+---
+
+```{r 30428899, include=FALSE}
+
+PMID_30428899 <- RefManageR::ReadPubMed('30428899', database = 'PubMed')
+
+citation_30428899 <- paste0(PMID_30428899$journal,' ', PMID_30428899$year, ' ', PMID_30428899$month,';', PMID_30428899$volume,'(', PMID_30428899$number,'):', PMID_30428899$pages)
+
+PubMed_30428899 <- paste0(PubMedString, PMID_30428899$eprint)
+
+doi_30428899 <- paste0(doiString, PMID_30428899$doi)
+
+dimensionBadge_30428899 <- paste0(dimensionString1, PMID_30428899$doi,dimensionString2)
+
+altmetricBadge_30428899 <- paste0(altmetricString1, PMID_30428899$doi, altmetricString2 )
+
+addthis_inline_30428899 <- paste0(addthis_String1, PMID_30428899$title , " PMID: 30428899 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30428899$title`**
+</summary> 
+
+*`r citation_30428899`*
+
+`r PubMed_30428899`
+
+`r addthis_inline_30428899`
+
+`r PMID_30428899$abstract`
+
+<!-- `r doi_30428899` -->
+
+`r dimensionBadge_30428899`
+
+`r altmetricBadge_30428899`
+
+</details>
+
+---
+
+- **Chemoresistance Transmission via Exosome-Mediated EphA2 Transfer in Pancreatic Cancer**
+
+http://www.thno.org/v08p5986.pdf
+
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -4235,7 +4469,52 @@ addthis_inline_29092903 <- paste0(addthis_String1, PMID_29092903$title , " PMID:
 
 </details>
 
+
 ---
+
+```{r 29956814, include=FALSE}
+
+PMID_29956814 <- RefManageR::ReadPubMed('29956814', database = 'PubMed')
+
+citation_29956814 <- paste0(PMID_29956814$journal,' ', PMID_29956814$year, ' ', PMID_29956814$month,';', PMID_29956814$volume,'(', PMID_29956814$number,'):', PMID_29956814$pages)
+
+PubMed_29956814 <- paste0(PubMedString, PMID_29956814$eprint)
+
+doi_29956814 <- paste0(doiString, PMID_29956814$doi)
+
+dimensionBadge_29956814 <- paste0(dimensionString1, PMID_29956814$doi,dimensionString2)
+
+altmetricBadge_29956814 <- paste0(altmetricString1, PMID_29956814$doi, altmetricString2 )
+
+addthis_inline_29956814 <- paste0(addthis_String1, PMID_29956814$title , " PMID: 29956814 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29956814$title`**
+</summary> 
+
+*`r citation_29956814`*
+
+`r PubMed_29956814`
+
+`r addthis_inline_29956814`
+
+`r PMID_29956814$abstract`
+
+<!-- `r doi_29956814` -->
+
+`r dimensionBadge_29956814`
+
+`r altmetricBadge_29956814`
+
+</details>
+
+---
+
+- **Stromal protein βig-h3 reprogrammes tumour microenvironment in pancreatic cancer**
+
+https://gut.bmj.com/content/early/2018/11/10/gutjnl-2018-317570
 
 
 ---
@@ -4254,6 +4533,47 @@ Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICP
 ```{r Molecular Pancreas Preneoplastic and Preinvasive Lesions IPMN, MCN, ITPN,  eval=FALSE, include=FALSE}
 ```
 
+
+
+---
+
+```{r 30430578, include=FALSE}
+
+PMID_30430578 <- RefManageR::ReadPubMed('30430578', database = 'PubMed')
+
+citation_30430578 <- paste0(PMID_30430578$journal,' ', PMID_30430578$year, ' ', PMID_30430578$month,';', PMID_30430578$volume,'(', PMID_30430578$number,'):', PMID_30430578$pages)
+
+PubMed_30430578 <- paste0(PubMedString, PMID_30430578$eprint)
+
+doi_30430578 <- paste0(doiString, PMID_30430578$doi)
+
+dimensionBadge_30430578 <- paste0(dimensionString1, PMID_30430578$doi,dimensionString2)
+
+altmetricBadge_30430578 <- paste0(altmetricString1, PMID_30430578$doi, altmetricString2 )
+
+addthis_inline_30430578 <- paste0(addthis_String1, PMID_30430578$title , " PMID: 30430578 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30430578$title`**
+</summary> 
+
+*`r citation_30430578`*
+
+`r PubMed_30430578`
+
+`r addthis_inline_30430578`
+
+`r PMID_30430578$abstract`
+
+<!-- `r doi_30430578` -->
+
+`r dimensionBadge_30430578`
+
+`r altmetricBadge_30430578`
+
+</details>
 
 ---
 
@@ -4383,6 +4703,15 @@ addthis_inline_30306561 <- paste0(addthis_String1, PMID_30306561$title , " PMID:
 
 ---
 
+- **Recurrent Mutations in APC and CTNNB1 and Activated Wnt/β-catenin Signaling in Intraductal Papillary Neoplasms of the Bile Duct A Whole Exome Sequencing Study**
+
+
+https://journals.lww.com/ajsp/Abstract/2018/12000/Recurrent_Mutations_in_APC_and_CTNNB1_and.11.aspx
+
+
+
+---
+
 ```{r 30404735, include=FALSE}
 
 PMID_30404735 <- RefManageR::ReadPubMed('30404735', database = 'PubMed')
@@ -4438,6 +4767,9 @@ addthis_inline_30404735 <- paste0(addthis_String1, PMID_30404735$title , " PMID:
 
 ```{r M Gallbladder, eval=FALSE, include=FALSE}
 ```
+
+
+
 
 
 ---
