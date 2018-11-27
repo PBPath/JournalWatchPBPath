@@ -603,6 +603,45 @@ https://www.medical.theclinics.com/article/S0025-7125(18)30095-6/fulltext
 
 
 
+---
+
+```{r 28811077, include=FALSE}
+
+PMID_28811077 <- RefManageR::ReadPubMed('28811077', database = 'PubMed')
+
+citation_28811077 <- paste0(PMID_28811077$journal,' ', PMID_28811077$year, ' ', PMID_28811077$month,';', PMID_28811077$volume,'(', PMID_28811077$number,'):', PMID_28811077$pages)
+
+PubMed_28811077 <- paste0(PubMedString, PMID_28811077$eprint)
+
+doi_28811077 <- paste0(doiString, PMID_28811077$doi)
+
+dimensionBadge_28811077 <- paste0(dimensionString1, PMID_28811077$doi,dimensionString2)
+
+altmetricBadge_28811077 <- paste0(altmetricString1, PMID_28811077$doi, altmetricString2 )
+
+addthis_inline_28811077 <- paste0(addthis_String1, PMID_28811077$title , " PMID: 28811077 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_28811077$title`**
+</summary> 
+
+*`r citation_28811077`*
+
+`r PubMed_28811077`
+
+`r addthis_inline_28811077`
+
+`r PMID_28811077$abstract`
+
+<!-- `r doi_28811077` -->
+
+`r dimensionBadge_28811077`
+
+`r altmetricBadge_28811077`
+
+</details>
 
 ---
 
@@ -1247,6 +1286,15 @@ Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 
 ---
 
+- **Subtyping of intraductal papillary mucinous neoplasms – pitfalls of MUC1 immunohistochemistry**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/apm.12900
+
+
+---
+
+
     
     
 - **Cancerization of the Pancreatic Ducts: Demonstration of a Common and Under-recognized Process Using Immunolabeling of Paired Duct Lesions and Invasive Pancreatic Ductal Adenocarcinoma for p53 and Smad4 Expression**
@@ -1590,7 +1638,9 @@ addthis_inline_30451795 <- paste0(addthis_String1, PMID_30451795$title , " PMID:
 
 ---
 
+- **Cystic tumors of the pancreas. An update of the surgical experience in a single institution**
 
+https://online.reed.es/DOI/PDF/ArticuloDOI_5798.pdf
 
 
 ---
@@ -2565,6 +2615,46 @@ https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0732-5356
 
 ---
 
+```{r 28029673, include=FALSE}
+
+PMID_28029673 <- RefManageR::ReadPubMed('28029673', database = 'PubMed')
+
+citation_28029673 <- paste0(PMID_28029673$journal,' ', PMID_28029673$year, ' ', PMID_28029673$month,';', PMID_28029673$volume,'(', PMID_28029673$number,'):', PMID_28029673$pages)
+
+PubMed_28029673 <- paste0(PubMedString, PMID_28029673$eprint)
+
+doi_28029673 <- paste0(doiString, PMID_28029673$doi)
+
+dimensionBadge_28029673 <- paste0(dimensionString1, PMID_28029673$doi,dimensionString2)
+
+altmetricBadge_28029673 <- paste0(altmetricString1, PMID_28029673$doi, altmetricString2 )
+
+addthis_inline_28029673 <- paste0(addthis_String1, PMID_28029673$title , " PMID: 28029673 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_28029673$title`**
+</summary> 
+
+*`r citation_28029673`*
+
+`r PubMed_28029673`
+
+`r addthis_inline_28029673`
+
+`r PMID_28029673$abstract`
+
+<!-- `r doi_28029673` -->
+
+`r dimensionBadge_28029673`
+
+`r altmetricBadge_28029673`
+
+</details>
+
+---
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -3271,6 +3361,15 @@ https://link.springer.com/article/10.1007/s12253-018-0491-8
 
 ---
 
+- **Impact of microvascular invasion on clinical outcomes after curative‐intent resection for intrahepatic cholangiocarcinoma**
+
+https://onlinelibrary.wiley.com/doi/10.1002/jso.25305
+
+---
+
+
+
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -3355,6 +3454,18 @@ Morphology, Diagnostics, IHC
 ```{r S Gallbladder Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
 ```
 
+---
+
+
+
+- **MUC5B, CA9 and CLDN18 are potential theranostic markers of gallbladder carcinoma**
+
+
+https://onlinelibrary.wiley.com/doi/10.1111/his.13797
+
+
+
+
 
 ---
 
@@ -3426,6 +3537,14 @@ Gallbladder TNM staging, Margins, Survival
 
 ```{r Gallbladder TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+- **Optimal Surgical Treatment in Patients with T1b Gallbladder Cancer: An International Multicenter Study**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jhbp.593
+
 
 
 ---
@@ -3797,7 +3916,53 @@ https://www.wjgnet.com/1948-5204/full/v10/i11/370.htm
 
 ---
 
+```{r 29780117, include=FALSE}
 
+PMID_29780117 <- RefManageR::ReadPubMed('29780117', database = 'PubMed')
+
+citation_29780117 <- paste0(PMID_29780117$journal,' ', PMID_29780117$year, ' ', PMID_29780117$month,';', PMID_29780117$volume,'(', PMID_29780117$number,'):', PMID_29780117$pages)
+
+PubMed_29780117 <- paste0(PubMedString, PMID_29780117$eprint)
+
+doi_29780117 <- paste0(doiString, PMID_29780117$doi)
+
+dimensionBadge_29780117 <- paste0(dimensionString1, PMID_29780117$doi,dimensionString2)
+
+altmetricBadge_29780117 <- paste0(altmetricString1, PMID_29780117$doi, altmetricString2 )
+
+addthis_inline_29780117 <- paste0(addthis_String1, PMID_29780117$title , " PMID: 29780117 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29780117$title`**
+</summary> 
+
+*`r citation_29780117`*
+
+`r PubMed_29780117`
+
+`r addthis_inline_29780117`
+
+`r PMID_29780117$abstract`
+
+<!-- `r doi_29780117` -->
+
+`r dimensionBadge_29780117`
+
+`r altmetricBadge_29780117`
+
+</details>
+
+---
+
+- **Adenosquamous carcinoma of the papilla of Vater: A phenotypic heterogeneity characterized by a common molecular landscape**
+
+
+https://onlinelibrary.wiley.com/doi/10.1111/pin.12731
+
+
+---
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -4410,6 +4575,47 @@ addthis_inline_30456697 <- paste0(addthis_String1, PMID_30456697$title , " PMID:
 
 https://link.springer.com/article/10.1007/s12022-018-9558-z
 
+
+---
+
+```{r 30470614, include=FALSE}
+
+PMID_30470614 <- RefManageR::ReadPubMed('30470614', database = 'PubMed')
+
+citation_30470614 <- paste0(PMID_30470614$journal,' ', PMID_30470614$year, ' ', PMID_30470614$month,';', PMID_30470614$volume,'(', PMID_30470614$number,'):', PMID_30470614$pages)
+
+PubMed_30470614 <- paste0(PubMedString, PMID_30470614$eprint)
+
+doi_30470614 <- paste0(doiString, PMID_30470614$doi)
+
+dimensionBadge_30470614 <- paste0(dimensionString1, PMID_30470614$doi,dimensionString2)
+
+altmetricBadge_30470614 <- paste0(altmetricString1, PMID_30470614$doi, altmetricString2 )
+
+addthis_inline_30470614 <- paste0(addthis_String1, PMID_30470614$title , " PMID: 30470614 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30470614$title`**
+</summary> 
+
+*`r citation_30470614`*
+
+`r PubMed_30470614`
+
+`r addthis_inline_30470614`
+
+`r PMID_30470614$abstract`
+
+<!-- `r doi_30470614` -->
+
+`r dimensionBadge_30470614`
+
+`r altmetricBadge_30470614`
+
+</details>
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -4633,7 +4839,11 @@ https://www.sciencedirect.com/science/article/pii/S1424390318306859
 ```{r C Bile Ducts, eval=FALSE, include=FALSE}
 ```
 
+---
 
+- **Molecular Diagnostics in Pancreatic and Biliary Cytology**
+
+https://link.springer.com/chapter/10.1007/978-3-319-97397-5_15
 
 ---
 
@@ -5418,6 +5628,58 @@ https://gut.bmj.com/content/early/2018/10/20/gutjnl-2018-316128
 
 https://wjso.biomedcentral.com/articles/10.1186/s12957-018-1519-y
 
+---
+
+- **miRNA-1290 Promotes Aggressiveness in Pancreatic Ductal Adenocarcinoma by Targeting IKK1**
+
+https://www.karger.com/Article/PDF/495328
+
+
+---
+
+```{r 30472231, include=FALSE}
+
+PMID_30472231 <- RefManageR::ReadPubMed('30472231', database = 'PubMed')
+
+citation_30472231 <- paste0(PMID_30472231$journal,' ', PMID_30472231$year, ' ', PMID_30472231$month,';', PMID_30472231$volume,'(', PMID_30472231$number,'):', PMID_30472231$pages)
+
+PubMed_30472231 <- paste0(PubMedString, PMID_30472231$eprint)
+
+doi_30472231 <- paste0(doiString, PMID_30472231$doi)
+
+dimensionBadge_30472231 <- paste0(dimensionString1, PMID_30472231$doi,dimensionString2)
+
+altmetricBadge_30472231 <- paste0(altmetricString1, PMID_30472231$doi, altmetricString2 )
+
+addthis_inline_30472231 <- paste0(addthis_String1, PMID_30472231$title , " PMID: 30472231 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30472231$title`**
+</summary> 
+
+*`r citation_30472231`*
+
+`r PubMed_30472231`
+
+`r addthis_inline_30472231`
+
+`r PMID_30472231$abstract`
+
+<!-- `r doi_30472231` -->
+
+`r dimensionBadge_30472231`
+
+`r altmetricBadge_30472231`
+
+</details>
+
+---
+
+- **New Horizons in the Treatment of Metastatic Pancreatic Cancer: A Review of the Key Biology Features and the Most Recent Advances to Treat Metastatic Pancreatic Cancer**
+
+https://link.springer.com/article/10.1007/s11523-018-0609-7
 
 
 ---
@@ -6080,7 +6342,11 @@ addthis_inline_30404735 <- paste0(addthis_String1, PMID_30404735$title , " PMID:
 
 https://onlinelibrary.wiley.com/doi/abs/10.1002/cncr.31850
 
+---
 
+- **Molecular Diagnostics in Pancreatic and Biliary Cytology**
+
+https://link.springer.com/chapter/10.1007/978-3-319-97397-5_15
 
 ---
 
@@ -6139,6 +6405,46 @@ addthis_inline_30427539 <- paste0(addthis_String1, PMID_30427539$title , " PMID:
 ```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 29807574, include=FALSE}
+
+PMID_29807574 <- RefManageR::ReadPubMed('29807574', database = 'PubMed')
+
+citation_29807574 <- paste0(PMID_29807574$journal,' ', PMID_29807574$year, ' ', PMID_29807574$month,';', PMID_29807574$volume,'(', PMID_29807574$number,'):', PMID_29807574$pages)
+
+PubMed_29807574 <- paste0(PubMedString, PMID_29807574$eprint)
+
+doi_29807574 <- paste0(doiString, PMID_29807574$doi)
+
+dimensionBadge_29807574 <- paste0(dimensionString1, PMID_29807574$doi,dimensionString2)
+
+altmetricBadge_29807574 <- paste0(altmetricString1, PMID_29807574$doi, altmetricString2 )
+
+addthis_inline_29807574 <- paste0(addthis_String1, PMID_29807574$title , " PMID: 29807574 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_29807574$title`**
+</summary> 
+
+*`r citation_29807574`*
+
+`r PubMed_29807574`
+
+`r addthis_inline_29807574`
+
+`r PMID_29807574$abstract`
+
+<!-- `r doi_29807574` -->
+
+`r dimensionBadge_29807574`
+
+`r altmetricBadge_29807574`
+
+</details>
 
 ---
 
