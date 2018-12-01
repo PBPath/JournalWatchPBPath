@@ -170,5 +170,45 @@ Chilean Registry for Neuroendocrine Tumors: A Latin American Perspective
 
 https://link.springer.com/article/10.1007/s12672-018-0354-5
 
+
 ---
 
+```{r 30231344, include=FALSE}
+
+PMID_30231344 <- RefManageR::ReadPubMed('30231344', database = 'PubMed')
+
+citation_30231344 <- paste0(PMID_30231344$journal,' ', PMID_30231344$year, ' ', PMID_30231344$month,';', PMID_30231344$volume,'(', PMID_30231344$number,'):', PMID_30231344$pages)
+
+PubMed_30231344 <- paste0(PubMedString, PMID_30231344$eprint)
+
+doi_30231344 <- paste0(doiString, PMID_30231344$doi)
+
+dimensionBadge_30231344 <- paste0(dimensionString1, PMID_30231344$doi,dimensionString2)
+
+altmetricBadge_30231344 <- paste0(altmetricString1, PMID_30231344$doi, altmetricString2 )
+
+addthis_inline_30231344 <- paste0(addthis_String1, PMID_30231344$title , " PMID: 30231344 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30231344$title`**
+</summary> 
+
+*`r citation_30231344`*
+
+`r PubMed_30231344`
+
+`r addthis_inline_30231344`
+
+`r PMID_30231344$abstract`
+
+<!-- `r doi_30231344` -->
+
+`r dimensionBadge_30231344`
+
+`r altmetricBadge_30231344`
+
+</details>
+
+---

@@ -5931,6 +5931,46 @@ https://link.springer.com/article/10.1007/s11523-018-0609-7
 
 ---
 
+```{r 30474270, include=FALSE}
+
+PMID_30474270 <- RefManageR::ReadPubMed('30474270', database = 'PubMed')
+
+citation_30474270 <- paste0(PMID_30474270$journal,' ', PMID_30474270$year, ' ', PMID_30474270$month,';', PMID_30474270$volume,'(', PMID_30474270$number,'):', PMID_30474270$pages)
+
+PubMed_30474270 <- paste0(PubMedString, PMID_30474270$eprint)
+
+doi_30474270 <- paste0(doiString, PMID_30474270$doi)
+
+dimensionBadge_30474270 <- paste0(dimensionString1, PMID_30474270$doi,dimensionString2)
+
+altmetricBadge_30474270 <- paste0(altmetricString1, PMID_30474270$doi, altmetricString2 )
+
+addthis_inline_30474270 <- paste0(addthis_String1, PMID_30474270$title , " PMID: 30474270 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30474270$title`**
+</summary> 
+
+*`r citation_30474270`*
+
+`r PubMed_30474270`
+
+`r addthis_inline_30474270`
+
+`r PMID_30474270$abstract`
+
+<!-- `r doi_30474270` -->
+
+`r dimensionBadge_30474270`
+
+`r altmetricBadge_30474270`
+
+</details>
+
+---
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -6730,6 +6770,47 @@ addthis_inline_30417956 <- paste0(addthis_String1, PMID_30417956$title , " PMID:
 `r dimensionBadge_30417956`
 
 `r altmetricBadge_30417956`
+
+</details>
+
+
+---
+
+```{r 30487949, include=FALSE}
+
+PMID_30487949 <- RefManageR::ReadPubMed('30487949', database = 'PubMed')
+
+citation_30487949 <- paste0(PMID_30487949$journal,' ', PMID_30487949$year, ' ', PMID_30487949$month,';', PMID_30487949$volume,'(', PMID_30487949$number,'):', PMID_30487949$pages)
+
+PubMed_30487949 <- paste0(PubMedString, PMID_30487949$eprint)
+
+doi_30487949 <- paste0(doiString, PMID_30487949$doi)
+
+dimensionBadge_30487949 <- paste0(dimensionString1, PMID_30487949$doi,dimensionString2)
+
+altmetricBadge_30487949 <- paste0(altmetricString1, PMID_30487949$doi, altmetricString2 )
+
+addthis_inline_30487949 <- paste0(addthis_String1, PMID_30487949$title , " PMID: 30487949 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30487949$title`**
+</summary> 
+
+*`r citation_30487949`*
+
+`r PubMed_30487949`
+
+`r addthis_inline_30487949`
+
+`r PMID_30487949$abstract`
+
+<!-- `r doi_30487949` -->
+
+`r dimensionBadge_30487949`
+
+`r altmetricBadge_30487949`
 
 </details>
 

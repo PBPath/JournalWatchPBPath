@@ -103,6 +103,56 @@ Morphology, Diagnostics, IHC
 ```
 
 
+---
+
+```{r 30482417, include=FALSE}
+
+PMID_30482417 <- RefManageR::ReadPubMed('30482417', database = 'PubMed')
+
+citation_30482417 <- paste0(PMID_30482417$journal,' ', PMID_30482417$year, ' ', PMID_30482417$month,';', PMID_30482417$volume,'(', PMID_30482417$number,'):', PMID_30482417$pages)
+
+PubMed_30482417 <- paste0(PubMedString, PMID_30482417$eprint)
+
+doi_30482417 <- paste0(doiString, PMID_30482417$doi)
+
+dimensionBadge_30482417 <- paste0(dimensionString1, PMID_30482417$doi,dimensionString2)
+
+altmetricBadge_30482417 <- paste0(altmetricString1, PMID_30482417$doi, altmetricString2 )
+
+addthis_inline_30482417 <- paste0(addthis_String1, PMID_30482417$title , " PMID: 30482417 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30482417$title`**
+</summary> 
+
+*`r citation_30482417`*
+
+`r PubMed_30482417`
+
+`r addthis_inline_30482417`
+
+`r PMID_30482417$abstract`
+
+<!-- `r doi_30482417` -->
+
+`r dimensionBadge_30482417`
+
+`r altmetricBadge_30482417`
+
+</details>
+
+---
+
+- **Pancreatic ductal adenocarcinoma harboring microsatellite instability / DNA mismatch repair deficiency. Towards personalized medicine.**
+
+https://www.sciencedirect.com/science/article/pii/S0960740418301245
+
+
+
+
+
 
 ---
 
@@ -428,7 +478,52 @@ Morphology, Diagnostics, IHC
 ```{r S Gallbladder Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
 ```
 
+
 ---
+
+```{r 30488851, include=FALSE}
+
+PMID_30488851 <- RefManageR::ReadPubMed('30488851', database = 'PubMed')
+
+citation_30488851 <- paste0(PMID_30488851$journal,' ', PMID_30488851$year, ' ', PMID_30488851$month,';', PMID_30488851$volume,'(', PMID_30488851$number,'):', PMID_30488851$pages)
+
+PubMed_30488851 <- paste0(PubMedString, PMID_30488851$eprint)
+
+doi_30488851 <- paste0(doiString, PMID_30488851$doi)
+
+dimensionBadge_30488851 <- paste0(dimensionString1, PMID_30488851$doi,dimensionString2)
+
+altmetricBadge_30488851 <- paste0(altmetricString1, PMID_30488851$doi, altmetricString2 )
+
+addthis_inline_30488851 <- paste0(addthis_String1, PMID_30488851$title , " PMID: 30488851 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30488851$title`**
+</summary> 
+
+*`r citation_30488851`*
+
+`r PubMed_30488851`
+
+`r addthis_inline_30488851`
+
+`r PMID_30488851$abstract`
+
+<!-- `r doi_30488851` -->
+
+`r dimensionBadge_30488851`
+
+`r altmetricBadge_30488851`
+
+</details>
+
+---
+
+
+
+
 
 
 
@@ -451,6 +546,89 @@ Gallbladder TNM staging, Margins, Survival
 ```
 
 
+
+---
+
+```{r 30488679, include=FALSE}
+
+PMID_30488679 <- RefManageR::ReadPubMed('30488679', database = 'PubMed')
+
+citation_30488679 <- paste0(PMID_30488679$journal,' ', PMID_30488679$year, ' ', PMID_30488679$month,';', PMID_30488679$volume,'(', PMID_30488679$number,'):', PMID_30488679$pages)
+
+PubMed_30488679 <- paste0(PubMedString, PMID_30488679$eprint)
+
+doi_30488679 <- paste0(doiString, PMID_30488679$doi)
+
+dimensionBadge_30488679 <- paste0(dimensionString1, PMID_30488679$doi,dimensionString2)
+
+altmetricBadge_30488679 <- paste0(altmetricString1, PMID_30488679$doi, altmetricString2 )
+
+addthis_inline_30488679 <- paste0(addthis_String1, PMID_30488679$title , " PMID: 30488679 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30488679$title`**
+</summary> 
+
+*`r citation_30488679`*
+
+`r PubMed_30488679`
+
+`r addthis_inline_30488679`
+
+`r PMID_30488679$abstract`
+
+<!-- `r doi_30488679` -->
+
+`r dimensionBadge_30488679`
+
+`r altmetricBadge_30488679`
+
+</details>
+
+
+---
+
+```{r 28367607, include=FALSE}
+
+PMID_28367607 <- RefManageR::ReadPubMed('28367607', database = 'PubMed')
+
+citation_28367607 <- paste0(PMID_28367607$journal,' ', PMID_28367607$year, ' ', PMID_28367607$month,';', PMID_28367607$volume,'(', PMID_28367607$number,'):', PMID_28367607$pages)
+
+PubMed_28367607 <- paste0(PubMedString, PMID_28367607$eprint)
+
+doi_28367607 <- paste0(doiString, PMID_28367607$doi)
+
+dimensionBadge_28367607 <- paste0(dimensionString1, PMID_28367607$doi,dimensionString2)
+
+altmetricBadge_28367607 <- paste0(altmetricString1, PMID_28367607$doi, altmetricString2 )
+
+addthis_inline_28367607 <- paste0(addthis_String1, PMID_28367607$title , " PMID: 28367607 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_28367607$title`**
+</summary> 
+
+*`r citation_28367607`*
+
+`r PubMed_28367607`
+
+`r addthis_inline_28367607`
+
+`r PMID_28367607$abstract`
+
+<!-- `r doi_28367607` -->
+
+`r dimensionBadge_28367607`
+
+`r altmetricBadge_28367607`
+
+</details>
+
+---
 
 
 ---
@@ -494,6 +672,47 @@ Ampulla of Vater TNM staging, Margins, Survival
 ```
 
 
+---
+
+```{r 30488680, include=FALSE}
+
+PMID_30488680 <- RefManageR::ReadPubMed('30488680', database = 'PubMed')
+
+citation_30488680 <- paste0(PMID_30488680$journal,' ', PMID_30488680$year, ' ', PMID_30488680$month,';', PMID_30488680$volume,'(', PMID_30488680$number,'):', PMID_30488680$pages)
+
+PubMed_30488680 <- paste0(PubMedString, PMID_30488680$eprint)
+
+doi_30488680 <- paste0(doiString, PMID_30488680$doi)
+
+dimensionBadge_30488680 <- paste0(dimensionString1, PMID_30488680$doi,dimensionString2)
+
+altmetricBadge_30488680 <- paste0(altmetricString1, PMID_30488680$doi, altmetricString2 )
+
+addthis_inline_30488680 <- paste0(addthis_String1, PMID_30488680$title , " PMID: 30488680 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30488680$title`**
+</summary> 
+
+*`r citation_30488680`*
+
+`r PubMed_30488680`
+
+`r addthis_inline_30488680`
+
+`r PMID_30488680$abstract`
+
+<!-- `r doi_30488680` -->
+
+`r dimensionBadge_30488680`
+
+`r altmetricBadge_30488680`
+
+</details>
+
+---
 
 
 ---
@@ -515,7 +734,20 @@ PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
 ```{r S PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
 
+---
 
+- **A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal**
+
+
+https://www.nature.com/articles/s41379-018-0110-y
+
+
+---
+
+- **Insulinoma-associated protein 1 immunostaining on cytology specimens: an institutional experience**
+
+
+https://www.sciencedirect.com/science/article/pii/S0046817718304350
 
 ---
 
@@ -582,6 +814,87 @@ Neuroendocrine Tumor Stroma Interactions, Microenvironment, Inflammatory Respons
 ```
 
 
+---
+
+```{r 30484917, include=FALSE}
+
+PMID_30484917 <- RefManageR::ReadPubMed('30484917', database = 'PubMed')
+
+citation_30484917 <- paste0(PMID_30484917$journal,' ', PMID_30484917$year, ' ', PMID_30484917$month,';', PMID_30484917$volume,'(', PMID_30484917$number,'):', PMID_30484917$pages)
+
+PubMed_30484917 <- paste0(PubMedString, PMID_30484917$eprint)
+
+doi_30484917 <- paste0(doiString, PMID_30484917$doi)
+
+dimensionBadge_30484917 <- paste0(dimensionString1, PMID_30484917$doi,dimensionString2)
+
+altmetricBadge_30484917 <- paste0(altmetricString1, PMID_30484917$doi, altmetricString2 )
+
+addthis_inline_30484917 <- paste0(addthis_String1, PMID_30484917$title , " PMID: 30484917 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30484917$title`**
+</summary> 
+
+*`r citation_30484917`*
+
+`r PubMed_30484917`
+
+`r addthis_inline_30484917`
+
+`r PMID_30484917$abstract`
+
+<!-- `r doi_30484917` -->
+
+`r dimensionBadge_30484917`
+
+`r altmetricBadge_30484917`
+
+</details>
+
+---
+
+```{r 30498299, include=FALSE}
+
+PMID_30498299 <- RefManageR::ReadPubMed('30498299', database = 'PubMed')
+
+citation_30498299 <- paste0(PMID_30498299$journal,' ', PMID_30498299$year, ' ', PMID_30498299$month,';', PMID_30498299$volume,'(', PMID_30498299$number,'):', PMID_30498299$pages)
+
+PubMed_30498299 <- paste0(PubMedString, PMID_30498299$eprint)
+
+doi_30498299 <- paste0(doiString, PMID_30498299$doi)
+
+dimensionBadge_30498299 <- paste0(dimensionString1, PMID_30498299$doi,dimensionString2)
+
+altmetricBadge_30498299 <- paste0(altmetricString1, PMID_30498299$doi, altmetricString2 )
+
+addthis_inline_30498299 <- paste0(addthis_String1, PMID_30498299$title , " PMID: 30498299 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30498299$title`**
+</summary> 
+
+*`r citation_30498299`*
+
+`r PubMed_30498299`
+
+`r addthis_inline_30498299`
+
+`r PMID_30498299$abstract`
+
+<!-- `r doi_30498299` -->
+
+`r dimensionBadge_30498299`
+
+`r altmetricBadge_30498299`
+
+</details>
+
+---
 
 ---
 
@@ -655,6 +968,47 @@ Neuroendocrine Tumor Stroma Interactions, Microenvironment, Inflammatory Respons
 ```
 
 
+---
+
+```{r 30485690, include=FALSE}
+
+PMID_30485690 <- RefManageR::ReadPubMed('30485690', database = 'PubMed')
+
+citation_30485690 <- paste0(PMID_30485690$journal,' ', PMID_30485690$year, ' ', PMID_30485690$month,';', PMID_30485690$volume,'(', PMID_30485690$number,'):', PMID_30485690$pages)
+
+PubMed_30485690 <- paste0(PubMedString, PMID_30485690$eprint)
+
+doi_30485690 <- paste0(doiString, PMID_30485690$doi)
+
+dimensionBadge_30485690 <- paste0(dimensionString1, PMID_30485690$doi,dimensionString2)
+
+altmetricBadge_30485690 <- paste0(altmetricString1, PMID_30485690$doi, altmetricString2 )
+
+addthis_inline_30485690 <- paste0(addthis_String1, PMID_30485690$title , " PMID: 30485690 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30485690$title`**
+</summary> 
+
+*`r citation_30485690`*
+
+`r PubMed_30485690`
+
+`r addthis_inline_30485690`
+
+`r PMID_30485690$abstract`
+
+<!-- `r doi_30485690` -->
+
+`r dimensionBadge_30485690`
+
+`r altmetricBadge_30485690`
+
+</details>
+
+---
 
 
 
@@ -678,6 +1032,50 @@ Neuroendocrine Tumor Stroma Interactions, Microenvironment, Inflammatory Respons
 
 
 ---
+
+```{r 30487608, include=FALSE}
+
+PMID_30487608 <- RefManageR::ReadPubMed('30487608', database = 'PubMed')
+
+citation_30487608 <- paste0(PMID_30487608$journal,' ', PMID_30487608$year, ' ', PMID_30487608$month,';', PMID_30487608$volume,'(', PMID_30487608$number,'):', PMID_30487608$pages)
+
+PubMed_30487608 <- paste0(PubMedString, PMID_30487608$eprint)
+
+doi_30487608 <- paste0(doiString, PMID_30487608$doi)
+
+dimensionBadge_30487608 <- paste0(dimensionString1, PMID_30487608$doi,dimensionString2)
+
+altmetricBadge_30487608 <- paste0(altmetricString1, PMID_30487608$doi, altmetricString2 )
+
+addthis_inline_30487608 <- paste0(addthis_String1, PMID_30487608$title , " PMID: 30487608 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30487608$title`**
+</summary> 
+
+*`r citation_30487608`*
+
+`r PubMed_30487608`
+
+`r addthis_inline_30487608`
+
+`r PMID_30487608$abstract`
+
+<!-- `r doi_30487608` -->
+
+`r dimensionBadge_30487608`
+
+`r altmetricBadge_30487608`
+
+</details>
+
+---
+
+- **Genetic assessment of recurrent pancreatic high-risk lesions in the remnant pancreas: Metachronous multifocal lesion or local recurrence?**
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307402
 
 
 
