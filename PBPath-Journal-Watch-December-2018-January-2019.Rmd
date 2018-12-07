@@ -41,6 +41,74 @@ subtitle: "December 2018 - January 2019"
 <!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
 
 
+<!-- back to top -->
+
+<script>
+jQuery(document).ready(function() {
+    
+var offset = 220;
+var duration = 500;
+    
+jQuery(window).scroll(function() {
+      if (jQuery(this).scrollTop() > offset) {
+        jQuery('.back-to-top').fadeIn(duration);
+      } else {
+          jQuery('.back-to-top').fadeOut(duration);
+      }
+    });
+
+jQuery('.back-to-top').click(function(event) {
+      event.preventDefault();
+      jQuery('html, body').animate({scrollTop: 0}, duration);
+      return false;
+    })
+    
+  });
+</script>
+
+<style>
+  <!-- h1, h2, h3, h4, .TOC > li { -->
+  <!--   font-family : "Playfair Display", serif; -->
+  <!--   color: #b58863; -->
+  <!-- }  -->
+
+  <!-- a { -->
+  <!--   color: #b58863; -->
+  <!-- } -->
+
+  <!-- .level2 { -->
+  <!--   padding-top: 20px; -->
+  <!-- } -->
+
+
+  .back-to-top {
+    font-family : "Playfair Display", serif;
+    position: fixed;
+    bottom: 4em;
+    right: 0px;
+    text-decoration: none;
+    color : #b58863;
+    background-color : #f0d9b5;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+  }
+  
+  <!-- .html-widget-static-bound { -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+
+  <!-- .main-container { -->
+  <!--   max-width: 700px; -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+  
+</style>
+<p><a href="#" class="back-to-top">Back to Top</a></p>
+
+
 ---
 
 # The Current PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
@@ -156,6 +224,14 @@ https://www.sciencedirect.com/science/article/pii/S0960740418301245
 
 https://www.researchgate.net/publication/329122741_Pancreatic_cancer_arising_in_the_remnant_pancreas_is_not_always_a_relapse_of_the_preceding_primary
 
+---
+
+- **Undifferentiated carcinoma with osteoclast-like giant cells of pancreas A case report with review of the computed tomography findings**
+
+https://journals.lww.com/md-journal/Fulltext/2018/11300/Undifferentiated_carcinoma_with_osteoclast_like.100.aspx
+
+---
+
 
 ---
 
@@ -171,6 +247,14 @@ Pancreas TNM staging, Margins, Survival
 
 ```{r S Pancreas TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
+
+---
+
+- **Clinico‐pathological features and survival of patients with malignant exocrine pancreatic neoplasms: The AC Camargo Cancer Center experience**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25312
+
+
 
 
 ---
@@ -333,6 +417,13 @@ https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_po
 
 ---
 
+
+- **Pancreatic Choristoma in a Canine Gallbladder**
+
+https://www.sciencedirect.com/science/article/pii/S0021997518302020
+
+---
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -367,6 +458,45 @@ https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_po
 
 ---
 
+```{r 30515871, include=FALSE}
+
+PMID_30515871 <- RefManageR::ReadPubMed('30515871', database = 'PubMed')
+
+citation_30515871 <- paste0(PMID_30515871$journal,' ', PMID_30515871$year, ' ', PMID_30515871$month,';', PMID_30515871$volume,'(', PMID_30515871$number,'):', PMID_30515871$pages)
+
+PubMed_30515871 <- paste0(PubMedString, PMID_30515871$eprint)
+
+doi_30515871 <- paste0(doiString, PMID_30515871$doi)
+
+dimensionBadge_30515871 <- paste0(dimensionString1, PMID_30515871$doi,dimensionString2)
+
+altmetricBadge_30515871 <- paste0(altmetricString1, PMID_30515871$doi, altmetricString2 )
+
+addthis_inline_30515871 <- paste0(addthis_String1, PMID_30515871$title , " PMID: 30515871 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30515871$title`**
+</summary> 
+
+*`r citation_30515871`*
+
+`r PubMed_30515871`
+
+`r addthis_inline_30515871`
+
+`r PMID_30515871$abstract`
+
+<!-- `r doi_30515871` -->
+
+`r dimensionBadge_30515871`
+
+`r altmetricBadge_30515871`
+
+</details>
+
+---
 
 
 ---
@@ -388,6 +518,9 @@ https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_po
 
 ---
 
+- **Mass Spectrometry-Based Comprehensive Analysis of Pancreatic Cyst Fluids**
+
+https://www.hindawi.com/journals/bmri/2018/7169595/
 
 ---
 
@@ -503,6 +636,14 @@ addthis_inline_30497874 <- paste0(addthis_String1, PMID_30497874$title , " PMID:
 
 ---
 
+- **German National Case Collection for familial pancreatic Cancer (FaPaCa) - acceptance and psychological aspects of a pancreatic cancer screening program**
+
+https://hccpjournal.biomedcentral.com/articles/10.1186/s13053-018-0100-6
+
+
+
+---
+
 ```{r 30489447, include=FALSE}
 
 PMID_30489447 <- RefManageR::ReadPubMed('30489447', database = 'PubMed')
@@ -562,6 +703,12 @@ addthis_inline_30489447 <- paste0(addthis_String1, PMID_30489447$title , " PMID:
 ```{r S Bile Ducts, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+- **Heterotopic chondroid tissue of the main bile duct mimicking Klatskin tumor: case report and review of the literature**
+
+https://link.springer.com/article/10.1007/s12328-018-00928-w
 
 
 
@@ -702,7 +849,15 @@ addthis_inline_30488851 <- paste0(addthis_String1, PMID_30488851$title , " PMID:
 - **Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations: Locality of Gallbladder Tumor Mutations**
 
 
+https://www.researchgate.net/publication/328947053_Regional_differences_in_gallbladder_cancer_pathogenesis_Insights_from_a_multi-institutional_comparison_of_tumor_mutations_Locality_of_Gallbladder_Tumor_Mutations
 
+
+
+---
+
+- **Intracholecystic papillary-tubular neoplasm of the gallbladder originating in the cystic duct with extensive intraepithelial progress in the common bile duct**
+
+https://link.springer.com/article/10.1007/s12328-018-0927-4
 
 
 
@@ -851,6 +1006,11 @@ addthis_inline_30499077 <- paste0(addthis_String1, PMID_30499077$title , " PMID:
 </details>
 
 ---
+
+- **National Failure of Surgical Staging for T1b Gallbladder Cancer**
+
+https://link.springer.com/article/10.1245/s10434-018-7064-7
+
 
 
 ---
@@ -1159,6 +1319,14 @@ addthis_inline_30498299 <- paste0(addthis_String1, PMID_30498299$title , " PMID:
 
 ---
 
+- **Touch imprint cytology on endoscopic ultrasound fine‐needle biopsy provides comparable sample quality and diagnostic yield to standard eus‐fna specimens in the evaluation of solid pancreatic lesions**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12662
+
+
+
+
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -1273,6 +1441,9 @@ addthis_inline_30485690 <- paste0(addthis_String1, PMID_30485690$title , " PMID:
 
 ---
 
+- **Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22073
 
 
 ---
@@ -1346,6 +1517,20 @@ https://www.sciencedirect.com/science/article/pii/S0039606018307402
 - **ROBO2 is a stroma suppressor gene in the pancreas and acts via TGF-β signalling**
 
 https://www.researchgate.net/publication/329324877_ROBO2_is_a_stroma_suppressor_gene_in_the_pancreas_and_acts_via_TGF-b_signalling
+
+
+---
+
+- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-26526-x
+
+
+https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
+
+
 
 
 ---
@@ -1478,6 +1663,13 @@ Solid Pseudopapillary Neoplasm
 
 ---
 
+- **Genetic alterations analysis in prognostic stratified groups identified TP53 and ARID1A as poor clinical performance markers in intrahepatic cholangiocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-25669-1
+
+https://www.researchgate.net/publication/325020651_Genetic_alterations_analysis_in_prognostic_stratified_groups_identified_TP53_and_ARID1A_as_poor_clinical_performance_markers_in_intrahepatic_cholangiocarcinoma
 
 ---
 
@@ -1554,6 +1746,10 @@ addthis_inline_30497876 <- paste0(addthis_String1, PMID_30497876$title , " PMID:
 
 ---
 
+- **KRAS, NRAS and BRAF analysis of ampullary adenocarcinoma classified using CK7, CK20, MUC1 and MUC2**
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219964/
 
 
 
