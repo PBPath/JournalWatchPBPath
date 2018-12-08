@@ -31,6 +31,7 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(RefManageR)
 ```
 
 
@@ -672,6 +673,11 @@ https://www.researchgate.net/publication/328947053_Regional_differences_in_gallb
 https://link.springer.com/article/10.1007/s12328-018-0927-4
 
 
+---
+
+- **Distribution of dysplasia and cancer in the gallbladder: an analysis from a high cancer-risk population**
+
+https://www.sciencedirect.com/science/article/pii/S004681771830282X?dgcid=raven_sd_via_email
 
 
 ---
@@ -890,6 +896,9 @@ addthis_inline_30488680 <- paste0(addthis_String1, PMID_30488680$title , " PMID:
 PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
 
 
+---
+
+
 
 ```{r 30497875, include=FALSE}
 
@@ -908,6 +917,7 @@ altmetricBadge_30497875 <- paste0(altmetricString1, PMID_30497875$doi, altmetric
 addthis_inline_30497875 <- paste0(addthis_String1, PMID_30497875$title , " PMID: 30497875 " , addthis_String2)
 
 ```
+
 
 <details open> <summary>
 - **`r PMID_30497875$title`**
@@ -975,6 +985,104 @@ Row {.tabset .tabset-fade .tabset-pills}
 #### Morphology, Diagnostics, IHC
 
 
+---
+
+
+```{r 30484917, include=FALSE}
+
+PMID_30484917 <- RefManageR::ReadPubMed('30484917', database = 'PubMed')
+
+citation_30484917 <- paste0(PMID_30484917$journal,' ', PMID_30484917$year, ' ', PMID_30484917$month,';', PMID_30484917$volume,'(', PMID_30484917$number,'):', PMID_30484917$pages)
+
+PubMed_30484917 <- paste0(PubMedString, PMID_30484917$eprint)
+
+doi_30484917 <- paste0(doiString, PMID_30484917$doi)
+
+dimensionBadge_30484917 <- paste0(dimensionString1, PMID_30484917$doi,dimensionString2)
+
+altmetricBadge_30484917 <- paste0(altmetricString1, PMID_30484917$doi, altmetricString2 )
+
+addthis_inline_30484917 <- paste0(addthis_String1, PMID_30484917$title , " PMID: 30484917 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30484917$title`**
+</summary> 
+
+*`r citation_30484917`*
+
+`r PubMed_30484917`
+
+`r addthis_inline_30484917`
+
+`r PMID_30484917$abstract`
+
+<!-- `r doi_30484917` -->
+
+`r dimensionBadge_30484917`
+
+`r altmetricBadge_30484917`
+
+</details>
+
+
+---
+
+
+```{r 30498299, include=FALSE}
+
+PMID_30498299 <- RefManageR::ReadPubMed('30498299', database = 'PubMed')
+
+citation_30498299 <- paste0(PMID_30498299$journal,' ', PMID_30498299$year, ' ', PMID_30498299$month,';', PMID_30498299$volume,'(', PMID_30498299$number,'):', PMID_30498299$pages)
+
+PubMed_30498299 <- paste0(PubMedString, PMID_30498299$eprint)
+
+doi_30498299 <- paste0(doiString, PMID_30498299$doi)
+
+dimensionBadge_30498299 <- paste0(dimensionString1, PMID_30498299$doi,dimensionString2)
+
+altmetricBadge_30498299 <- paste0(altmetricString1, PMID_30498299$doi, altmetricString2 )
+
+addthis_inline_30498299 <- paste0(addthis_String1, PMID_30498299$title , " PMID: 30498299 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30498299$title`**
+</summary> 
+
+*`r citation_30498299`*
+
+`r PubMed_30498299`
+
+`r addthis_inline_30498299`
+
+`r PMID_30498299$abstract`
+
+<!-- `r doi_30498299` -->
+
+`r dimensionBadge_30498299`
+
+`r altmetricBadge_30498299`
+
+</details>
+
+---
+
+- **Touch imprint cytology on endoscopic ultrasound fine‐needle biopsy provides comparable sample quality and diagnostic yield to standard eus‐fna specimens in the evaluation of solid pancreatic lesions**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12662
+
+
+
+
+
+
+
+
+
+
 
 ### Bile Ducts
 
@@ -996,6 +1104,57 @@ Row {.tabset .tabset-fade .tabset-pills}
 #### Morphology, Diagnostics, IHC
 
 
+
+---
+
+
+```{r 30485690, include=FALSE}
+
+PMID_30485690 <- RefManageR::ReadPubMed('30485690', database = 'PubMed')
+
+citation_30485690 <- paste0(PMID_30485690$journal,' ', PMID_30485690$year, ' ', PMID_30485690$month,';', PMID_30485690$volume,'(', PMID_30485690$number,'):', PMID_30485690$pages)
+
+PubMed_30485690 <- paste0(PubMedString, PMID_30485690$eprint)
+
+doi_30485690 <- paste0(doiString, PMID_30485690$doi)
+
+dimensionBadge_30485690 <- paste0(dimensionString1, PMID_30485690$doi,dimensionString2)
+
+altmetricBadge_30485690 <- paste0(altmetricString1, PMID_30485690$doi, altmetricString2 )
+
+addthis_inline_30485690 <- paste0(addthis_String1, PMID_30485690$title , " PMID: 30485690 " , addthis_String2)
+
+```
+
+
+<details open> <summary>
+- **`r PMID_30485690$title`**
+</summary> 
+
+*`r citation_30485690`*
+
+`r PubMed_30485690`
+
+`r addthis_inline_30485690`
+
+`r PMID_30485690$abstract`
+
+<!-- `r doi_30485690` -->
+
+`r dimensionBadge_30485690`
+
+`r altmetricBadge_30485690`
+
+</details>
+
+---
+
+- **Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22073
+
+
+---
 
 
 
@@ -1019,15 +1178,159 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 
 
+---
+
+
+```{r 30487608, include=FALSE}
+
+PMID_30487608 <- RefManageR::ReadPubMed('30487608', database = 'PubMed')
+
+citation_30487608 <- paste0(PMID_30487608$journal,' ', PMID_30487608$year, ' ', PMID_30487608$month,';', PMID_30487608$volume,'(', PMID_30487608$number,'):', PMID_30487608$pages)
+
+PubMed_30487608 <- paste0(PubMedString, PMID_30487608$eprint)
+
+doi_30487608 <- paste0(doiString, PMID_30487608$doi)
+
+dimensionBadge_30487608 <- paste0(dimensionString1, PMID_30487608$doi,dimensionString2)
+
+altmetricBadge_30487608 <- paste0(altmetricString1, PMID_30487608$doi, altmetricString2 )
+
+addthis_inline_30487608 <- paste0(addthis_String1, PMID_30487608$title , " PMID: 30487608 " , addthis_String2)
+
+```
+
+
+<details open> <summary>
+- **`r PMID_30487608$title`**
+</summary> 
+
+*`r citation_30487608`*
+
+`r PubMed_30487608`
+
+`r addthis_inline_30487608`
+
+`r PMID_30487608$abstract`
+
+<!-- `r doi_30487608` -->
+
+`r dimensionBadge_30487608`
+
+`r altmetricBadge_30487608`
+
+</details>
+
+---
+
+- **Genetic assessment of recurrent pancreatic high-risk lesions in the remnant pancreas: Metachronous multifocal lesion or local recurrence?**
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307402
+
+
+---
+
+- **ROBO2 is a stroma suppressor gene in the pancreas and acts via TGF-β signalling**
+
+https://www.researchgate.net/publication/329324877_ROBO2_is_a_stroma_suppressor_gene_in_the_pancreas_and_acts_via_TGF-b_signalling
+
+
+---
+
+- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-26526-x
+
+
+https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
+
+
+---
+
+
+
+
 
 ### Bile Ducts
+
+
+
+---
+
+- **Genetic alterations analysis in prognostic stratified groups identified TP53 and ARID1A as poor clinical performance markers in intrahepatic cholangiocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-25669-1
+
+https://www.researchgate.net/publication/325020651_Genetic_alterations_analysis_in_prognostic_stratified_groups_identified_TP53_and_ARID1A_as_poor_clinical_performance_markers_in_intrahepatic_cholangiocarcinoma
+
+---
+
 
 
 
 ### Gallbladder
 
 
+---
+
+
+```{r 30497876, include=FALSE}
+
+PMID_30497876 <- RefManageR::ReadPubMed('30497876', database = 'PubMed')
+
+citation_30497876 <- paste0(PMID_30497876$journal,' ', PMID_30497876$year, ' ', PMID_30497876$month,';', PMID_30497876$volume,'(', PMID_30497876$number,'):', PMID_30497876$pages)
+
+PubMed_30497876 <- paste0(PubMedString, PMID_30497876$eprint)
+
+doi_30497876 <- paste0(doiString, PMID_30497876$doi)
+
+dimensionBadge_30497876 <- paste0(dimensionString1, PMID_30497876$doi,dimensionString2)
+
+altmetricBadge_30497876 <- paste0(altmetricString1, PMID_30497876$doi, altmetricString2 )
+
+addthis_inline_30497876 <- paste0(addthis_String1, PMID_30497876$title , " PMID: 30497876 " , addthis_String2)
+
+```
+
+
+<details open> <summary>
+- **`r PMID_30497876$title`**
+</summary> 
+
+*`r citation_30497876`*
+
+`r PubMed_30497876`
+
+`r addthis_inline_30497876`
+
+`r PMID_30497876$abstract`
+
+<!-- `r doi_30497876` -->
+
+`r dimensionBadge_30497876`
+
+`r altmetricBadge_30497876`
+
+</details>
+
+---
+
+
+
+
 ### Ampulla of Vater
+
+
+---
+
+- **KRAS, NRAS and BRAF analysis of ampullary adenocarcinoma classified using CK7, CK20, MUC1 and MUC2**
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219964/
+
 
 
 
@@ -1038,4 +1341,124 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 
 
+
+Journals Reviewed
+==================================================
+
+
+<br>
+<br>
+
+
+---
+
+Advances in Anatomic Pathology  
+American Journal of Clinical Pathology  
+The American Journal of Gastroenterology  
+The American Journal of Pathology  
+American Journal of Surgical Pathology  
+Annals of Diagnostic Pathology  
+Annals of Surgery  
+Annals of Surgical Oncology  
+Annual Review of Pathology-Mechanisms of Disease  
+APMIS  
+Applied Immunohistochemistry & Molecular Morphology  
+Archives of Pathology & Laboratory Medicine  
+Cancer  
+Cancer Cell  
+Cancer Cytopathology  
+Cell  
+Cellular Oncology  
+Clinical Cancer Research  
+Cochrane Database Systematic Reviews  
+Cytojournal  
+Cytopathology  
+Diagnostic Cytopathology  
+Diagnostic Pathology  
+Endocrine Pathology  
+Experimental and Molecular Pathology  
+Expert Review of Molecular Diagnostics  
+Gastroenterology  
+Gut  
+Histology and Histopathology  
+Histopathology  
+Human Pathology  
+International Journal of Surgical Pathology  
+International Journal of Clinical and Experimental Pathology  
+Journal of Clinical Pathology  
+Journal of Molecular Diagnostics  
+Journal of Pathology  
+Laboratory investigation  
+Lancet  
+Medical Molecular Morphology  
+Modern Pathology  
+Nature  
+Nature Reviews Gastroenterology & Hepatology  
+NEJM  
+Pancreas  
+Pancreatology  
+Pathobiology  
+Pathologie Biologie  
+Pathology  
+Pathology & Oncology Research  
+Pathology International  
+Pathology Research and Practice  
+PNAS  
+Science  
+Seminars in Diagnostic Pathology  
+Seminars in Immunopathology  
+Surgical pathology clinics  
+Tissue Antigens  
+Trends in Cancer  
+Virchows Archiv  
+
+<br>
+<br>
+
+---
+
+
+Feedback
+===============================================
+
+<br>
+<br>
+
+Please send your feedbacks using the form below:
+
+[Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
+
+<br>
+<br>
+
+---
+
+Archive
+================================================
+
+
+<br>
+<br>
+
+
+---
+
+**The PBPath Journal Archive**
+
+- [Current Issue](http://pbpath.org/journal-watch/)
+
+- [Older Issues](http://pbpath.org/journal-watch-archive/)
+
+   - [June-July-2018](http://pbpath.org/pbpath-journal-watch-june-july-2018/)
+   
+   - [August-September-2018](http://pbpath.org/pbpath-journal-watch-august-september-2018/)
+   
+   - [October-November-2018](http://pbpath.org/pbpath-journal-watch-october-november-2018/)
+
+   <!-- - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
+
+<br>
+<br>
+
+---
 

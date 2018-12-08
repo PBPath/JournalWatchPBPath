@@ -8,10 +8,7 @@ output:
     toc_float: yes
 ---
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(cache = TRUE, error = FALSE, warning = FALSE, comment = FALSE)
-options(Encoding="UTF-8")
-```
+
 
 
 
