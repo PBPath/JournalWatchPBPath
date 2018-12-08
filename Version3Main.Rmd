@@ -1,0 +1,366 @@
+---
+title: "PBPath Society Journal Watch"
+# title: "Pancreatobiliary Pathology Society Journal Watch"
+output: 
+  flexdashboard::flex_dashboard:
+    # orientation: rows
+    # social: menu
+    # logo: figures/PBP_header_logo.jpg
+    # favicon: figures/PBP_header_logo.jpg
+    # toc: true
+    # toc_float: true
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
+  html_notebook: 
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
+  word_document:
+    toc: yes
+# date: "Last Update on `r format(Sys.Date())`"
+# subtitle: "December 2018 - January 2019"
+---
+
+```{r library, include=FALSE}
+library(flexdashboard)
+```
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE, error = FALSE, warning = FALSE, comment = FALSE)
+options(Encoding="UTF-8")
+```
+
+
+
+```{r strings , include=FALSE}
+
+
+PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
+
+doiString <- "doi: https://doi.org/"
+
+dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='"
+
+dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>"
+
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='"
+
+altmetricString2 <- "' data-hide-no-mentions='true'></span>"
+
+addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : "
+
+addthis_String2 <- "'></div>"
+
+```
+
+
+
+
+
+
+
+
+
+
+
+<!-- Open all links in new tab-->  
+<base target="_blank"/>  
+
+
+<!-- https://www.addthis.com/academy/setting-the-url-title-to-share/ -->  
+<!-- Go to www.addthis.com/dashboard to customize your tools  Journal Watch2 floating-->    
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc">
+</script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b82d0a9c18d">   -->
+<!-- </script>  -->
+
+
+<!-- back to top -->
+
+<!-- <script> -->
+<!-- jQuery(document).ready(function() { -->
+
+<!-- var offset = 220; -->
+<!-- var duration = 500; -->
+
+<!-- jQuery(window).scroll(function() { -->
+<!--       if (jQuery(this).scrollTop() > offset) { -->
+<!--         jQuery('.back-to-top').fadeIn(duration); -->
+<!--       } else { -->
+<!--           jQuery('.back-to-top').fadeOut(duration); -->
+<!--       } -->
+<!--     }); -->
+
+<!-- jQuery('.back-to-top').click(function(event) { -->
+<!--       event.preventDefault(); -->
+<!--       jQuery('html, body').animate({scrollTop: 0}, duration); -->
+<!--       return false; -->
+<!--     }) -->
+
+<!--   }); -->
+<!-- </script> -->
+
+<!-- <style> -->
+  <!-- h1, h2, h3, h4, .TOC > li { -->
+  <!--   font-family : "Playfair Display", serif; -->
+  <!--   color: #b58863; -->
+  <!-- }  -->
+
+  <!-- a { -->
+  <!--   color: #b58863; -->
+  <!-- } -->
+
+  <!-- .level2 { -->
+  <!--   padding-top: 20px; -->
+  <!-- } -->
+
+
+  <!-- .back-to-top { -->
+  <!--   font-family : "Playfair Display", serif; -->
+  <!--   position: fixed; -->
+  <!--   bottom: 4em; -->
+  <!--   right: 0px; -->
+  <!--   text-decoration: none; -->
+  <!--   color : #b58863; -->
+  <!--   background-color : #f0d9b5; -->
+  <!--   font-size: 12px; -->
+  <!--   padding: 1em; -->
+  <!--   display: none; -->
+  <!-- } -->
+  
+  <!-- .html-widget-static-bound { -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+
+  <!-- .main-container { -->
+  <!--   max-width: 700px; -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+  
+<!-- </style> -->
+<!-- <p><a href="#" class="back-to-top">Back to Top</a></p> -->
+
+
+
+
+
+December 2018 - January 2019
+=============================================================================================
+
+
+
+
+
+[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
+
+
+
+
+**Wellcome to the PBPath Journal Watch!** 
+
+This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, molecular pathology and cytopathology among others. The articles in each category are in no particular order.  
+
+Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)*.  
+
+We encourage members to actively participate by recommending new articles and providing feedback using *[the forms provided](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)*.  
+
+
+**We hope that you will enjoy the new PBPath Journal Watch!**  
+
+
+
+\pagebreak
+
+
+Surgical Pathology
+===================================== 
+
+<br>
+<br>    
+
+
+<br>
+<br>
+
+
+
+```{r, child = 'Version3ChildSurgPath.Rmd', results='asis'}
+```
+
+
+
+
+   
+Cytopathology
+=====================================     
+
+
+<br>
+<br>
+
+
+Row {.tabset .tabset-fade .tabset-pills}
+-----------------------------------------------------
+
+<br>
+<br>
+
+
+```{r, child = 'Version3ChildCytopath.Rmd'}
+```
+
+
+
+Molecular Pathology
+=====================================     
+
+<br>
+<br>
+
+
+Row {.tabset .tabset-fade .tabset-pills}
+-----------------------------------------------------
+
+<br>
+<br>
+
+
+```{r, child = 'Version3ChildMolPath.Rmd'}
+```
+
+
+
+
+Journals Reviewed
+==================================================
+
+
+<br>
+<br>
+
+
+---
+
+Advances in Anatomic Pathology  
+American Journal of Clinical Pathology  
+The American Journal of Gastroenterology  
+The American Journal of Pathology  
+American Journal of Surgical Pathology  
+Annals of Diagnostic Pathology  
+Annals of Surgery  
+Annals of Surgical Oncology  
+Annual Review of Pathology-Mechanisms of Disease  
+APMIS  
+Applied Immunohistochemistry & Molecular Morphology  
+Archives of Pathology & Laboratory Medicine  
+Cancer  
+Cancer Cell  
+Cancer Cytopathology  
+Cell  
+Cellular Oncology  
+Clinical Cancer Research  
+Cochrane Database Systematic Reviews  
+Cytojournal  
+Cytopathology  
+Diagnostic Cytopathology  
+Diagnostic Pathology  
+Endocrine Pathology  
+Experimental and Molecular Pathology  
+Expert Review of Molecular Diagnostics  
+Gastroenterology  
+Gut  
+Histology and Histopathology  
+Histopathology  
+Human Pathology  
+International Journal of Surgical Pathology  
+International Journal of Clinical and Experimental Pathology  
+Journal of Clinical Pathology  
+Journal of Molecular Diagnostics  
+Journal of Pathology  
+Laboratory investigation  
+Lancet  
+Medical Molecular Morphology  
+Modern Pathology  
+Nature  
+Nature Reviews Gastroenterology & Hepatology  
+NEJM  
+Pancreas  
+Pancreatology  
+Pathobiology  
+Pathologie Biologie  
+Pathology  
+Pathology & Oncology Research  
+Pathology International  
+Pathology Research and Practice  
+PNAS  
+Science  
+Seminars in Diagnostic Pathology  
+Seminars in Immunopathology  
+Surgical pathology clinics  
+Tissue Antigens  
+Trends in Cancer  
+Virchows Archiv  
+
+<br>
+<br>
+
+---
+
+
+Feedback
+===============================================
+
+<br>
+<br>
+
+Please send your feedbacks using the form below:
+
+[Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
+
+<br>
+<br>
+
+---
+
+Archive
+================================================
+
+
+<br>
+<br>
+
+
+---
+
+**The PBPath Journal Archive**
+
+- [Current Issue](http://pbpath.org/journal-watch/)
+
+- [Older Issues](http://pbpath.org/journal-watch-archive/)
+
+   - [June-July-2018](http://pbpath.org/pbpath-journal-watch-june-july-2018/)
+   
+   - [August-September-2018](http://pbpath.org/pbpath-journal-watch-august-september-2018/)
+   
+   - [October-November-2018](http://pbpath.org/pbpath-journal-watch-october-november-2018/)
+
+   <!-- - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
+
+<br>
+<br>
+
+---

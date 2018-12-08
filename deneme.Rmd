@@ -7,118 +7,43 @@ output:
     # social: menu
     # logo: figures/PBP_header_logo.jpg
     # favicon: figures/PBP_header_logo.jpg
-    toc: true
-    toc_float: true
-  html_notebook: 
-    code_folding: none
-    fig_caption: yes
+    # toc: true
+    # toc_float: true
+  html_document:
+    df_print: kable
     highlight: null
-    theme: paper
-    toc: yes
+    keep_md: yes
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
     toc: yes
     toc_depth: 5
-  html_document:
-    df_print: kable
+  html_notebook: 
+    code_folding: none
+    fig_caption: yes
     highlight: null
-    keep_md: yes
+    theme: paper
   word_document:
     toc: yes
 # date: "Last Update on `r format(Sys.Date())`"
 # subtitle: "December 2018 - January 2019"
 ---
 
-
-<!-- Open all links in new tab-->  
-<base target="_blank"/>  
-
-
-<!-- https://www.addthis.com/academy/setting-the-url-title-to-share/ -->  
-
-<!-- Go to www.addthis.com/dashboard to customize your tools  Journal Watch2 floating-->    
-<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc"> -->
-<!-- </script> -->
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
 
 
-<!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
-<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b82d0a9c18d">   -->
-<!-- </script>  -->
+```{r, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE, error = FALSE, warning = FALSE, comment = FALSE)
+options(Encoding="UTF-8")
+```
 
-
-<!-- back to top -->
-
-<script>
-jQuery(document).ready(function() {
-    
-var offset = 220;
-var duration = 500;
-    
-jQuery(window).scroll(function() {
-      if (jQuery(this).scrollTop() > offset) {
-        jQuery('.back-to-top').fadeIn(duration);
-      } else {
-          jQuery('.back-to-top').fadeOut(duration);
-      }
-    });
-
-jQuery('.back-to-top').click(function(event) {
-      event.preventDefault();
-      jQuery('html, body').animate({scrollTop: 0}, duration);
-      return false;
-    })
-    
-  });
-</script>
-
-<style>
-  <!-- h1, h2, h3, h4, .TOC > li { -->
-  <!--   font-family : "Playfair Display", serif; -->
-  <!--   color: #b58863; -->
-  <!-- }  -->
-
-  <!-- a { -->
-  <!--   color: #b58863; -->
-  <!-- } -->
-
-  <!-- .level2 { -->
-  <!--   padding-top: 20px; -->
-  <!-- } -->
-
-
-  .back-to-top {
-    font-family : "Playfair Display", serif;
-    position: fixed;
-    bottom: 4em;
-    right: 0px;
-    text-decoration: none;
-    color : #b58863;
-    background-color : #f0d9b5;
-    font-size: 12px;
-    padding: 1em;
-    display: none;
-  }
-  
-  <!-- .html-widget-static-bound { -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-
-  <!-- .main-container { -->
-  <!--   max-width: 700px; -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-  
-</style>
-<p><a href="#" class="back-to-top">Back to Top</a></p>
-
-
-# December 2018 - January 2019
 
 
 ```{r strings , include=FALSE}
+
+
 PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
 
 doiString <- "doi: https://doi.org/"
@@ -138,11 +63,111 @@ addthis_String2 <- "'></div>"
 ```
 
 
----
+
+
+
+
+
+
+
+
+
+<!-- Open all links in new tab-->  
+<base target="_blank"/>  
+
+
+<!-- https://www.addthis.com/academy/setting-the-url-title-to-share/ -->  
+<!-- Go to www.addthis.com/dashboard to customize your tools  Journal Watch2 floating-->    
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc">
+</script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b82d0a9c18d">   -->
+<!-- </script>  -->
+
+
+<!-- back to top -->
+
+<!-- <script> -->
+<!-- jQuery(document).ready(function() { -->
+
+<!-- var offset = 220; -->
+<!-- var duration = 500; -->
+
+<!-- jQuery(window).scroll(function() { -->
+<!--       if (jQuery(this).scrollTop() > offset) { -->
+<!--         jQuery('.back-to-top').fadeIn(duration); -->
+<!--       } else { -->
+<!--           jQuery('.back-to-top').fadeOut(duration); -->
+<!--       } -->
+<!--     }); -->
+
+<!-- jQuery('.back-to-top').click(function(event) { -->
+<!--       event.preventDefault(); -->
+<!--       jQuery('html, body').animate({scrollTop: 0}, duration); -->
+<!--       return false; -->
+<!--     }) -->
+
+<!--   }); -->
+<!-- </script> -->
+
+<!-- <style> -->
+  <!-- h1, h2, h3, h4, .TOC > li { -->
+  <!--   font-family : "Playfair Display", serif; -->
+  <!--   color: #b58863; -->
+  <!-- }  -->
+
+  <!-- a { -->
+  <!--   color: #b58863; -->
+  <!-- } -->
+
+  <!-- .level2 { -->
+  <!--   padding-top: 20px; -->
+  <!-- } -->
+
+
+  <!-- .back-to-top { -->
+  <!--   font-family : "Playfair Display", serif; -->
+  <!--   position: fixed; -->
+  <!--   bottom: 4em; -->
+  <!--   right: 0px; -->
+  <!--   text-decoration: none; -->
+  <!--   color : #b58863; -->
+  <!--   background-color : #f0d9b5; -->
+  <!--   font-size: 12px; -->
+  <!--   padding: 1em; -->
+  <!--   display: none; -->
+  <!-- } -->
+  
+  <!-- .html-widget-static-bound { -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+
+  <!-- .main-container { -->
+  <!--   max-width: 700px; -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+  
+<!-- </style> -->
+<!-- <p><a href="#" class="back-to-top">Back to Top</a></p> -->
+
+
+
+
+
+December 2018 - January 2019
+=============================================================================================
+
+
 
 
 
 [![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
+
+
 
 
 **Wellcome to the PBPath Journal Watch!** 
@@ -153,9 +178,10 @@ Previous months’ issues may be found in our *[archive](http://pbpath.org/journ
 
 We encourage members to actively participate by recommending new articles and providing feedback using *[the forms provided](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)*.  
 
+
 **We hope that you will enjoy the new PBPath Journal Watch!**  
 
----
+
 
 \pagebreak
 
@@ -163,63 +189,776 @@ We encourage members to actively participate by recommending new articles and pr
 
 
 Surgical Pathology
-=====================================  
+=============================================================================================  
 
 
 <br>
 <br>
+
 
 Row {.tabset .tabset-fade .tabset-pills}
-------------------------------------------
+-----------------------------------------------------
+
+<br>
+<br>
+
 
 ### Pancreas
 
+#### Morphology, Diagnostics, IHC
 
-aaaaaaaaaaaaaaaaaaaaa
+
+---
+
+```{r 30482417, include=FALSE}
+
+PMID_30482417 <- RefManageR::ReadPubMed('30482417', database = 'PubMed')
+
+citation_30482417 <- paste0(PMID_30482417$journal,' ', PMID_30482417$year, ' ', PMID_30482417$month,';', PMID_30482417$volume,'(', PMID_30482417$number,'):', PMID_30482417$pages)
+
+PubMed_30482417 <- paste0(PubMedString, PMID_30482417$eprint)
+
+doi_30482417 <- paste0(doiString, PMID_30482417$doi)
+
+dimensionBadge_30482417 <- paste0(dimensionString1, PMID_30482417$doi,dimensionString2)
+
+altmetricBadge_30482417 <- paste0(altmetricString1, PMID_30482417$doi, altmetricString2 )
+
+addthis_inline_30482417 <- paste0(addthis_String1, PMID_30482417$title , " PMID: 30482417 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30482417$title`**
+</summary> 
+
+*`r citation_30482417`*
+
+`r PubMed_30482417`
+
+`r addthis_inline_30482417`
+
+`r PMID_30482417$abstract`
+
+<!-- `r doi_30482417` -->
+
+`r dimensionBadge_30482417`
+
+`r altmetricBadge_30482417`
+
+</details>
+
+---
+
+
+- **Pancreatic ductal adenocarcinoma harboring microsatellite instability / DNA mismatch repair deficiency. Towards personalized medicine.**
+
+https://www.sciencedirect.com/science/article/pii/S0960740418301245
+
+
+---
+
+- **Pancreatic cancer arising in the remnant pancreas is not always a relapse of the preceding primary**
+
+[link](https://www.researchgate.net/publication/329122741_Pancreatic_cancer_arising_in_the_remnant_pancreas_is_not_always_a_relapse_of_the_preceding_primary)
+
+---
+
+- **Undifferentiated carcinoma with osteoclast-like giant cells of pancreas A case report with review of the computed tomography findings**
+
+https://journals.lww.com/md-journal/Fulltext/2018/11300/Undifferentiated_carcinoma_with_osteoclast_like.100.aspx
+
+---
+
+
+#### Staging
+
+Pancreas TNM staging, Margins, Survival
+
+
+---
+
+- **Clinico‐pathological features and survival of patients with malignant exocrine pancreatic neoplasms: The AC Camargo Cancer Center experience**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25312
+
+
+
+
+---
+
+- **Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer: Adjuvant therapy for subcentimeter PDAC**
+
+
+[link](https://www.researchgate.net/publication/329079327_Role_of_adjuvant_therapy_in_resected_stage_IA_subcentimeter_T1aT1b_pancreatic_cancer_Adjuvant_therapy_for_subcentimeter_PDAC)
+
+
+---
+
+#### Preneoplastic and Preinvasive Lesions 
+
+Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
+
+
+---
+
+
+```{r 30499803, include=FALSE}
+
+PMID_30499803 <- RefManageR::ReadPubMed('30499803', database = 'PubMed')
+
+citation_30499803 <- paste0(PMID_30499803$journal,' ', PMID_30499803$year, ' ', PMID_30499803$month,';', PMID_30499803$volume,'(', PMID_30499803$number,'):', PMID_30499803$pages)
+
+PubMed_30499803 <- paste0(PubMedString, PMID_30499803$eprint)
+
+doi_30499803 <- paste0(doiString, PMID_30499803$doi)
+
+dimensionBadge_30499803 <- paste0(dimensionString1, PMID_30499803$doi,dimensionString2)
+
+altmetricBadge_30499803 <- paste0(altmetricString1, PMID_30499803$doi, altmetricString2 )
+
+addthis_inline_30499803 <- paste0(addthis_String1, PMID_30499803$title , " PMID: 30499803 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30499803$title`**
+</summary> 
+
+*`r citation_30499803`*
+
+`r PubMed_30499803`
+
+`r addthis_inline_30499803`
+
+`r PMID_30499803$abstract`
+
+<!-- `r doi_30499803` -->
+
+`r dimensionBadge_30499803`
+
+`r altmetricBadge_30499803`
+
+</details>
+
+
+---
+
+- **Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma**
+
+[link](https://www.researchgate.net/publication/329302661_Diagnostic_and_Prognostic_Impact_of_Neutrophil-to-Lymphocyte_Ratio_for_Intraductal_Papillary_Mucinous_Neoplasms_of_the_Pancreas_With_High-Grade_Dysplasia_and_Associated_Invasive_Carcinoma)
+
+
+---
+
+#### Analogue Tumors
+
+
+---
+
+- **Primordial germ cells as a potential shared cell of origin for mucinous cystic neoplasms of the pancreas and mucinous ovarian tumors**
+
+[link](https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_potential_shared_cell_of_origin_for_mucinous_cystic_neoplasms_of_the_pancreas_and_mucinous_ovarian_tumors)
+
+
+---
+
+
+- **Pancreatic Choristoma in a Canine Gallbladder**
+
+https://www.sciencedirect.com/science/article/pii/S0021997518302020
+
+
+---
+
+#### Pancreatitis & Other Diseases
+
+
+---
+
+
+```{r 30515871, include=FALSE}
+
+PMID_30515871 <- RefManageR::ReadPubMed('30515871', database = 'PubMed')
+
+citation_30515871 <- paste0(PMID_30515871$journal,' ', PMID_30515871$year, ' ', PMID_30515871$month,';', PMID_30515871$volume,'(', PMID_30515871$number,'):', PMID_30515871$pages)
+
+PubMed_30515871 <- paste0(PubMedString, PMID_30515871$eprint)
+
+doi_30515871 <- paste0(doiString, PMID_30515871$doi)
+
+dimensionBadge_30515871 <- paste0(dimensionString1, PMID_30515871$doi,dimensionString2)
+
+altmetricBadge_30515871 <- paste0(altmetricString1, PMID_30515871$doi, altmetricString2 )
+
+addthis_inline_30515871 <- paste0(addthis_String1, PMID_30515871$title , " PMID: 30515871 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30515871$title`**
+</summary> 
+
+*`r citation_30515871`*
+
+`r PubMed_30515871`
+
+`r addthis_inline_30515871`
+
+`r PMID_30515871$abstract`
+
+<!-- `r doi_30515871` -->
+
+`r dimensionBadge_30515871`
+
+`r altmetricBadge_30515871`
+
+</details>
+
+
+---
+
+
+#### Techniques & Research Methods
+
+
+---
+
+- **Mass Spectrometry-Based Comprehensive Analysis of Pancreatic Cyst Fluids**
+
+https://www.hindawi.com/journals/bmri/2018/7169595/
+
+---
+
+
+#### Oncology and serum marker studies
+
+
+---
+
+
+
+```{r 30497874, include=FALSE}
+
+PMID_30497874 <- RefManageR::ReadPubMed('30497874', database = 'PubMed')
+
+citation_30497874 <- paste0(PMID_30497874$journal,' ', PMID_30497874$year, ' ', PMID_30497874$month,';', PMID_30497874$volume,'(', PMID_30497874$number,'):', PMID_30497874$pages)
+
+PubMed_30497874 <- paste0(PubMedString, PMID_30497874$eprint)
+
+doi_30497874 <- paste0(doiString, PMID_30497874$doi)
+
+dimensionBadge_30497874 <- paste0(dimensionString1, PMID_30497874$doi,dimensionString2)
+
+altmetricBadge_30497874 <- paste0(altmetricString1, PMID_30497874$doi, altmetricString2 )
+
+addthis_inline_30497874 <- paste0(addthis_String1, PMID_30497874$title , " PMID: 30497874 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30497874$title`**
+</summary> 
+
+*`r citation_30497874`*
+
+`r PubMed_30497874`
+
+`r addthis_inline_30497874`
+
+`r PMID_30497874$abstract`
+
+<!-- `r doi_30497874` -->
+
+`r dimensionBadge_30497874`
+
+`r altmetricBadge_30497874`
+
+</details>
+
+---
+
+
+#### Epidemiology, Screening, Cancer Risk Factors
+
+
+---
+
+
+- **German National Case Collection for familial pancreatic Cancer (FaPaCa) - acceptance and psychological aspects of a pancreatic cancer screening program**
+
+https://hccpjournal.biomedcentral.com/articles/10.1186/s13053-018-0100-6
+
+
+
+
+---
+
+
+
+
+```{r 30489447, include=FALSE}
+
+PMID_30489447 <- RefManageR::ReadPubMed('30489447', database = 'PubMed')
+
+citation_30489447 <- paste0(PMID_30489447$journal,' ', PMID_30489447$year, ' ', PMID_30489447$month,';', PMID_30489447$volume,'(', PMID_30489447$number,'):', PMID_30489447$pages)
+
+PubMed_30489447 <- paste0(PubMedString, PMID_30489447$eprint)
+
+doi_30489447 <- paste0(doiString, PMID_30489447$doi)
+
+dimensionBadge_30489447 <- paste0(dimensionString1, PMID_30489447$doi,dimensionString2)
+
+altmetricBadge_30489447 <- paste0(altmetricString1, PMID_30489447$doi, altmetricString2 )
+
+addthis_inline_30489447 <- paste0(addthis_String1, PMID_30489447$title , " PMID: 30489447 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30489447$title`**
+</summary> 
+
+*`r citation_30489447`*
+
+`r PubMed_30489447`
+
+`r addthis_inline_30489447`
+
+`r PMID_30489447$abstract`
+
+<!-- `r doi_30489447` -->
+
+`r dimensionBadge_30489447`
+
+`r altmetricBadge_30489447`
+
+</details>
+
+---
+
+
 
 
 
 ### Bile Ducts
 
 
-aaaaaaaaaaaaaaaaaa
+
+#### Morphology, Diagnostics, IHC
 
 
 
+- **Heterotopic chondroid tissue of the main bile duct mimicking Klatskin tumor: case report and review of the literature**
 
+https://link.springer.com/article/10.1007/s12328-018-00928-w
+
+
+
+#### Epidemiology, Screening, Cancer Risk Factors
 
 
 
 ---
+
+
+
+
+```{r 30497878, include=FALSE}
+
+PMID_30497878 <- RefManageR::ReadPubMed('30497878', database = 'PubMed')
+
+citation_30497878 <- paste0(PMID_30497878$journal,' ', PMID_30497878$year, ' ', PMID_30497878$month,';', PMID_30497878$volume,'(', PMID_30497878$number,'):', PMID_30497878$pages)
+
+PubMed_30497878 <- paste0(PubMedString, PMID_30497878$eprint)
+
+doi_30497878 <- paste0(doiString, PMID_30497878$doi)
+
+dimensionBadge_30497878 <- paste0(dimensionString1, PMID_30497878$doi,dimensionString2)
+
+altmetricBadge_30497878 <- paste0(altmetricString1, PMID_30497878$doi, altmetricString2 )
+
+addthis_inline_30497878 <- paste0(addthis_String1, PMID_30497878$title , " PMID: 30497878 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30497878$title`**
+</summary> 
+
+*`r citation_30497878`*
+
+`r PubMed_30497878`
+
+`r addthis_inline_30497878`
+
+`r PMID_30497878$abstract`
+
+<!-- `r doi_30497878` -->
+
+`r dimensionBadge_30497878`
+
+`r altmetricBadge_30497878`
+
+</details>
+
+---
+
+
 
 ### Gallbladder
 
+#### Morphology, Diagnostics, IHC
 
-aaaaaaaaaaaaaaaaaa
+
+---
+
+
+
+```{r 30488851, include=FALSE}
+
+PMID_30488851 <- RefManageR::ReadPubMed('30488851', database = 'PubMed')
+
+citation_30488851 <- paste0(PMID_30488851$journal,' ', PMID_30488851$year, ' ', PMID_30488851$month,';', PMID_30488851$volume,'(', PMID_30488851$number,'):', PMID_30488851$pages)
+
+PubMed_30488851 <- paste0(PubMedString, PMID_30488851$eprint)
+
+doi_30488851 <- paste0(doiString, PMID_30488851$doi)
+
+dimensionBadge_30488851 <- paste0(dimensionString1, PMID_30488851$doi,dimensionString2)
+
+altmetricBadge_30488851 <- paste0(altmetricString1, PMID_30488851$doi, altmetricString2 )
+
+addthis_inline_30488851 <- paste0(addthis_String1, PMID_30488851$title , " PMID: 30488851 " , addthis_String2)
+
+```
+
+
+
+<details open> <summary>
+- **`r PMID_30488851$title`**
+</summary> 
+
+*`r citation_30488851`*
+
+`r PubMed_30488851`
+
+`r addthis_inline_30488851`
+
+`r PMID_30488851$abstract`
+
+<!-- `r doi_30488851` -->
+
+`r dimensionBadge_30488851`
+
+`r altmetricBadge_30488851`
+
+</details>
+
+---
+
+- **Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations: Locality of Gallbladder Tumor Mutations**
+
+
+https://www.researchgate.net/publication/328947053_Regional_differences_in_gallbladder_cancer_pathogenesis_Insights_from_a_multi-institutional_comparison_of_tumor_mutations_Locality_of_Gallbladder_Tumor_Mutations
 
 
 
 ---
+
+
+- **Intracholecystic papillary-tubular neoplasm of the gallbladder originating in the cystic duct with extensive intraepithelial progress in the common bile duct**
+
+https://link.springer.com/article/10.1007/s12328-018-0927-4
+
+
+
+
+---
+
+
+#### Staging
+
+Gallbladder TNM staging, Margins, Survival
+
+
+---
+
+
+
+```{r 30488679, include=FALSE}
+
+PMID_30488679 <- RefManageR::ReadPubMed('30488679', database = 'PubMed')
+
+citation_30488679 <- paste0(PMID_30488679$journal,' ', PMID_30488679$year, ' ', PMID_30488679$month,';', PMID_30488679$volume,'(', PMID_30488679$number,'):', PMID_30488679$pages)
+
+PubMed_30488679 <- paste0(PubMedString, PMID_30488679$eprint)
+
+doi_30488679 <- paste0(doiString, PMID_30488679$doi)
+
+dimensionBadge_30488679 <- paste0(dimensionString1, PMID_30488679$doi,dimensionString2)
+
+altmetricBadge_30488679 <- paste0(altmetricString1, PMID_30488679$doi, altmetricString2 )
+
+addthis_inline_30488679 <- paste0(addthis_String1, PMID_30488679$title , " PMID: 30488679 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30488679$title`**
+</summary> 
+
+*`r citation_30488679`*
+
+`r PubMed_30488679`
+
+`r addthis_inline_30488679`
+
+`r PMID_30488679$abstract`
+
+<!-- `r doi_30488679` -->
+
+`r dimensionBadge_30488679`
+
+`r altmetricBadge_30488679`
+
+</details>
+
+
+---
+
+
+```{r 28367607, include=FALSE}
+
+PMID_28367607 <- RefManageR::ReadPubMed('28367607', database = 'PubMed')
+
+citation_28367607 <- paste0(PMID_28367607$journal,' ', PMID_28367607$year, ' ', PMID_28367607$month,';', PMID_28367607$volume,'(', PMID_28367607$number,'):', PMID_28367607$pages)
+
+PubMed_28367607 <- paste0(PubMedString, PMID_28367607$eprint)
+
+doi_28367607 <- paste0(doiString, PMID_28367607$doi)
+
+dimensionBadge_28367607 <- paste0(dimensionString1, PMID_28367607$doi,dimensionString2)
+
+altmetricBadge_28367607 <- paste0(altmetricString1, PMID_28367607$doi, altmetricString2 )
+
+addthis_inline_28367607 <- paste0(addthis_String1, PMID_28367607$title , " PMID: 28367607 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_28367607$title`**
+</summary> 
+
+*`r citation_28367607`*
+
+`r PubMed_28367607`
+
+`r addthis_inline_28367607`
+
+`r PMID_28367607$abstract`
+
+<!-- `r doi_28367607` -->
+
+`r dimensionBadge_28367607`
+
+`r altmetricBadge_28367607`
+
+</details>
+
+
+
+
+
+```{r 30499077, include=FALSE}
+
+PMID_30499077 <- RefManageR::ReadPubMed('30499077', database = 'PubMed')
+
+citation_30499077 <- paste0(PMID_30499077$journal,' ', PMID_30499077$year, ' ', PMID_30499077$month,';', PMID_30499077$volume,'(', PMID_30499077$number,'):', PMID_30499077$pages)
+
+PubMed_30499077 <- paste0(PubMedString, PMID_30499077$eprint)
+
+doi_30499077 <- paste0(doiString, PMID_30499077$doi)
+
+dimensionBadge_30499077 <- paste0(dimensionString1, PMID_30499077$doi,dimensionString2)
+
+altmetricBadge_30499077 <- paste0(altmetricString1, PMID_30499077$doi, altmetricString2 )
+
+addthis_inline_30499077 <- paste0(addthis_String1, PMID_30499077$title , " PMID: 30499077 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30499077$title`**
+</summary> 
+
+*`r citation_30499077`*
+
+`r PubMed_30499077`
+
+`r addthis_inline_30499077`
+
+`r PMID_30499077$abstract`
+
+<!-- `r doi_30499077` -->
+
+`r dimensionBadge_30499077`
+
+`r altmetricBadge_30499077`
+
+</details>
+
+---
+
+
+- **National Failure of Surgical Staging for T1b Gallbladder Cancer**
+
+https://link.springer.com/article/10.1245/s10434-018-7064-7
+
+
+
+---
+
+
+
 
 ### Ampulla of Vater
 
+#### Morphology, Diagnostics, IHC
 
-
-aaaaaaaaaaaaaa
 
 ---
+
+
+#### Staging
+
+Ampulla of Vater TNM staging, Margins, Survival
+
+
+
+---
+
+
+
+
+```{r 30488680, include=FALSE}
+
+PMID_30488680 <- RefManageR::ReadPubMed('30488680', database = 'PubMed')
+
+citation_30488680 <- paste0(PMID_30488680$journal,' ', PMID_30488680$year, ' ', PMID_30488680$month,';', PMID_30488680$volume,'(', PMID_30488680$number,'):', PMID_30488680$pages)
+
+PubMed_30488680 <- paste0(PubMedString, PMID_30488680$eprint)
+
+doi_30488680 <- paste0(doiString, PMID_30488680$doi)
+
+dimensionBadge_30488680 <- paste0(dimensionString1, PMID_30488680$doi,dimensionString2)
+
+altmetricBadge_30488680 <- paste0(altmetricString1, PMID_30488680$doi, altmetricString2 )
+
+addthis_inline_30488680 <- paste0(addthis_String1, PMID_30488680$title , " PMID: 30488680 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30488680$title`**
+</summary> 
+
+*`r citation_30488680`*
+
+`r PubMed_30488680`
+
+`r addthis_inline_30488680`
+
+`r PMID_30488680$abstract`
+
+<!-- `r doi_30488680` -->
+
+`r dimensionBadge_30488680`
+
+`r altmetricBadge_30488680`
+
+</details>
+
+---
+
+
 
 ### Neuroendocrine
 
+#### PanNet Morphology, Diagnostics, IHC
 
-aaaaaaaaaaaaaaaaaaa
+PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
+
+
+
+```{r 30497875, include=FALSE}
+
+PMID_30497875 <- RefManageR::ReadPubMed('30497875', database = 'PubMed')
+
+citation_30497875 <- paste0(PMID_30497875$journal,' ', PMID_30497875$year, ' ', PMID_30497875$month,';', PMID_30497875$volume,'(', PMID_30497875$number,'):', PMID_30497875$pages)
+
+PubMed_30497875 <- paste0(PubMedString, PMID_30497875$eprint)
+
+doi_30497875 <- paste0(doiString, PMID_30497875$doi)
+
+dimensionBadge_30497875 <- paste0(dimensionString1, PMID_30497875$doi,dimensionString2)
+
+altmetricBadge_30497875 <- paste0(altmetricString1, PMID_30497875$doi, altmetricString2 )
+
+addthis_inline_30497875 <- paste0(addthis_String1, PMID_30497875$title , " PMID: 30497875 " , addthis_String2)
+
+```
+
+<details open> <summary>
+- **`r PMID_30497875$title`**
+</summary> 
+
+*`r citation_30497875`*
+
+`r PubMed_30497875`
+
+`r addthis_inline_30497875`
+
+`r PMID_30497875$abstract`
+
+<!-- `r doi_30497875` -->
+
+`r dimensionBadge_30497875`
+
+`r altmetricBadge_30497875`
+
+</details>
 
 ---
+
+- **A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal**
+
+
+https://www.nature.com/articles/s41379-018-0110-y
+
+
+---
+
+- **Insulinoma-associated protein 1 immunostaining on cytology specimens: an institutional experience**
+
+
+https://www.sciencedirect.com/science/article/pii/S0046817718304350
+
+
+
+
+---
+
+
+
+
+
+
+
 
 
 Cytopathology
-=====================================  
-
+=============================================================  
 
 <br>
 <br>
@@ -227,329 +966,76 @@ Cytopathology
 Row {.tabset .tabset-fade .tabset-pills}
 ------------------------------------------
 
+<br>
+<br>
+
+
 ### Pancreas
 
+#### Morphology, Diagnostics, IHC
 
----
 
-aaaaaaaaaaaaaaaa
+
+### Bile Ducts
+
+#### Morphology, Diagnostics, IHC
+
+
+### Gallbladder
+
+#### Morphology, Diagnostics, IHC
+
+
+### Ampulla of Vater
+
+#### Morphology, Diagnostics, IHC
+
+
+### Neuroendocrine
+
+#### Morphology, Diagnostics, IHC
+
+
+
+
+
+Molecular Pathology
+===================================================================================  
+
+<br>
+<br>
+
+Row {.tabset .tabset-fade .tabset-pills}
+------------------------------------------
+
+
+<br>
+<br>
+
+
+
+
+### Pancreas
 
 
 
 
 ### Bile Ducts
 
-aaaaaaaaaaaaaaaaaa
 
----
 
 ### Gallbladder
 
-aaaaaaaaaaaaaaaaaa
-
----
 
 ### Ampulla of Vater
 
-aaaaaaaaaaaaaaaa
 
----
 
 ### Neuroendocrine
 
 
-aaaaaaaaaaaaaaa
 
----
 
-Molecular Pathology
-=====================================  
 
-
-<br>
-<br>
-
-Row {.tabset .tabset-fade .tabset-pills}
-------------------------------------------
-
-
-
-
-### Pancreas
-
-
----
-
-```{r 30487608, include=FALSE}
-
-PMID_30487608 <- RefManageR::ReadPubMed('30487608', database = 'PubMed')
-
-citation_30487608 <- paste0(PMID_30487608$journal,' ', PMID_30487608$year, ' ', PMID_30487608$month,';', PMID_30487608$volume,'(', PMID_30487608$number,'):', PMID_30487608$pages)
-
-PubMed_30487608 <- paste0(PubMedString, PMID_30487608$eprint)
-
-doi_30487608 <- paste0(doiString, PMID_30487608$doi)
-
-dimensionBadge_30487608 <- paste0(dimensionString1, PMID_30487608$doi,dimensionString2)
-
-altmetricBadge_30487608 <- paste0(altmetricString1, PMID_30487608$doi, altmetricString2 )
-
-addthis_inline_30487608 <- paste0(addthis_String1, PMID_30487608$title , " PMID: 30487608 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_30487608$title`**
-</summary> 
-
-*`r citation_30487608`*
-
-`r PubMed_30487608`
-
-`r addthis_inline_30487608`
-
-`r PMID_30487608$abstract`
-
-<!-- `r doi_30487608` -->
-
-`r dimensionBadge_30487608`
-
-`r altmetricBadge_30487608`
-
-</details>
-
----
-
-- **Genetic assessment of recurrent pancreatic high-risk lesions in the remnant pancreas: Metachronous multifocal lesion or local recurrence?**
-
-https://www.sciencedirect.com/science/article/pii/S0039606018307402
-
-
----
-
-- **ROBO2 is a stroma suppressor gene in the pancreas and acts via TGF-β signalling**
-
-https://www.researchgate.net/publication/329324877_ROBO2_is_a_stroma_suppressor_gene_in_the_pancreas_and_acts_via_TGF-b_signalling
-
-
----
-
-- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
-
-December 2018Scientific Reports 8(1)
-
-DOI: 10.1038/s41598-018-26526-x
-
-
-https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
-
-
-
-
-
-### Bile Ducts
-
-
----
-
-- **Genetic alterations analysis in prognostic stratified groups identified TP53 and ARID1A as poor clinical performance markers in intrahepatic cholangiocarcinoma**
-
-December 2018Scientific Reports 8(1)
-
-DOI: 10.1038/s41598-018-25669-1
-
-https://www.researchgate.net/publication/325020651_Genetic_alterations_analysis_in_prognostic_stratified_groups_identified_TP53_and_ARID1A_as_poor_clinical_performance_markers_in_intrahepatic_cholangiocarcinoma
-
-
-
-
-
-### Gallbladder
-
-
----
-
-```{r 30497876, include=FALSE}
-
-PMID_30497876 <- RefManageR::ReadPubMed('30497876', database = 'PubMed')
-
-citation_30497876 <- paste0(PMID_30497876$journal,' ', PMID_30497876$year, ' ', PMID_30497876$month,';', PMID_30497876$volume,'(', PMID_30497876$number,'):', PMID_30497876$pages)
-
-PubMed_30497876 <- paste0(PubMedString, PMID_30497876$eprint)
-
-doi_30497876 <- paste0(doiString, PMID_30497876$doi)
-
-dimensionBadge_30497876 <- paste0(dimensionString1, PMID_30497876$doi,dimensionString2)
-
-altmetricBadge_30497876 <- paste0(altmetricString1, PMID_30497876$doi, altmetricString2 )
-
-addthis_inline_30497876 <- paste0(addthis_String1, PMID_30497876$title , " PMID: 30497876 " , addthis_String2)
-
-```
-
-<details open> <summary>
-- **`r PMID_30497876$title`**
-</summary> 
-
-*`r citation_30497876`*
-
-`r PubMed_30497876`
-
-`r addthis_inline_30497876`
-
-`r PMID_30497876$abstract`
-
-<!-- `r doi_30497876` -->
-
-`r dimensionBadge_30497876`
-
-`r altmetricBadge_30497876`
-
-</details>
-
-
-
-### Ampulla of Vater
-
-
-
----
-
-- **KRAS, NRAS and BRAF analysis of ampullary adenocarcinoma classified using CK7, CK20, MUC1 and MUC2**
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219964/
-
-
-
-
-
-
-
-
-Journals Reviewed
-=====================================  
-
----
-
-
-
-**Journals Reviewed**
-
-Advances in Anatomic Pathology  
-American Journal of Clinical Pathology  
-The American Journal of Gastroenterology  
-The American Journal of Pathology  
-American Journal of Surgical Pathology  
-Annals of Diagnostic Pathology  
-Annals of Surgery  
-Annals of Surgical Oncology  
-Annual Review of Pathology-Mechanisms of Disease  
-APMIS  
-Applied Immunohistochemistry & Molecular Morphology  
-Archives of Pathology & Laboratory Medicine  
-Cancer  
-Cancer Cell  
-Cancer Cytopathology  
-Cell  
-Cellular Oncology  
-Clinical Cancer Research  
-Cochrane Database Systematic Reviews  
-Cytojournal  
-Cytopathology  
-Diagnostic Cytopathology  
-Diagnostic Pathology  
-Endocrine Pathology  
-Experimental and Molecular Pathology  
-Expert Review of Molecular Diagnostics  
-Gastroenterology  
-Gut  
-Histology and Histopathology  
-Histopathology  
-Human Pathology  
-International Journal of Surgical Pathology  
-International Journal of Clinical and Experimental Pathology  
-Journal of Clinical Pathology  
-Journal of Molecular Diagnostics  
-Journal of Pathology  
-Laboratory investigation  
-Lancet  
-Medical Molecular Morphology  
-Modern Pathology  
-Nature  
-Nature Reviews Gastroenterology & Hepatology  
-NEJM  
-Pancreas  
-Pancreatology  
-Pathobiology  
-Pathologie Biologie  
-Pathology  
-Pathology & Oncology Research  
-Pathology International  
-Pathology Research and Practice  
-PNAS  
-Science  
-Seminars in Diagnostic Pathology  
-Seminars in Immunopathology  
-Surgical pathology clinics  
-Tissue Antigens  
-Trends in Cancer  
-Virchows Archiv  
-
-
-<br>
-<br>
-
-
-
-
-
----
-
-
-
-
-\pagebreak
-
-
-<!-- Feedback -->
-<!-- =====================================   -->
-
-
-<!-- --- -->
-
-<!-- Please send your feedbacks using the form below: -->
-
-<!-- [Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform) -->
-
-
-
-<!-- --- -->
-
-<!-- \pagebreak -->
-
-Archive
-=====================================  
-
----
-
-**The PBPath Journal Archive**
-
-- [Current Issue](http://pbpath.org/journal-watch/)
-
-- [Older Issues](http://pbpath.org/journal-watch-archive/)
-
-   - [June-July-2018](http://pbpath.org/pbpath-journal-watch-june-july-2018/)
-   
-   - [August-September-2018](http://pbpath.org/pbpath-journal-watch-august-september-2018/)
-   
-   - [October-November-2018](http://pbpath.org/pbpath-journal-watch-october-november-2018/)
-
-   <!-- - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
-
-
----
-
-\pagebreak
 
 
