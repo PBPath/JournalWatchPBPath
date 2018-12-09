@@ -29,16 +29,87 @@ output:
 # subtitle: "December 2018 - January 2019"
 ---
 
-```{r setup, include=FALSE}
-library(flexdashboard)
-library(RefManageR)
-```
+
+<!-- Open all links in new tab-->  
+<base target="_blank"/>  
 
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(cache = TRUE, error = FALSE, warning = FALSE, comment = FALSE)
-options(Encoding="UTF-8")
-```
+<!-- https://www.addthis.com/academy/setting-the-url-title-to-share/ -->  
+
+<!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b82d0a9c18d">  
+</script> 
+
+
+<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
+
+
+<!-- back to top -->
+
+<script>
+jQuery(document).ready(function() {
+    
+var offset = 220;
+var duration = 500;
+    
+jQuery(window).scroll(function() {
+      if (jQuery(this).scrollTop() > offset) {
+        jQuery('.back-to-top').fadeIn(duration);
+      } else {
+          jQuery('.back-to-top').fadeOut(duration);
+      }
+    });
+
+jQuery('.back-to-top').click(function(event) {
+      event.preventDefault();
+      jQuery('html, body').animate({scrollTop: 0}, duration);
+      return false;
+    })
+    
+  });
+</script>
+
+<style>
+  <!-- h1, h2, h3, h4, .TOC > li { -->
+  <!--   font-family : "Playfair Display", serif; -->
+  <!--   color: #b58863; -->
+  <!-- }  -->
+
+  <!-- a { -->
+  <!--   color: #b58863; -->
+  <!-- } -->
+
+  <!-- .level2 { -->
+  <!--   padding-top: 20px; -->
+  <!-- } -->
+
+
+  .back-to-top {
+    font-family : "Playfair Display", serif;
+    position: fixed;
+    bottom: 4em;
+    right: 0px;
+    text-decoration: none;
+    color : #b58863;
+    background-color : #f0d9b5;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+  }
+  
+  <!-- .html-widget-static-bound { -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+
+  <!-- .main-container { -->
+  <!--   max-width: 700px; -->
+  <!--   margin-left: auto; -->
+  <!--   margin-right: auto; -->
+  <!-- } -->
+  
+</style>
+<p><a href="#" class="back-to-top">Back to Top</a></p>
 
 
 
@@ -62,99 +133,6 @@ addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.o
 addthis_String2 <- "'></div>"
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-<!-- Open all links in new tab-->  
-<base target="_blank"/>  
-
-
-<!-- https://www.addthis.com/academy/setting-the-url-title-to-share/ -->  
-<!-- Go to www.addthis.com/dashboard to customize your tools  Journal Watch2 floating-->    
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b9b9eef17fc">
-</script>
-
-
-<!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
-<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b82d0a9c18d">   -->
-<!-- </script>  -->
-
-
-<!-- back to top -->
-
-<!-- <script> -->
-<!-- jQuery(document).ready(function() { -->
-
-<!-- var offset = 220; -->
-<!-- var duration = 500; -->
-
-<!-- jQuery(window).scroll(function() { -->
-<!--       if (jQuery(this).scrollTop() > offset) { -->
-<!--         jQuery('.back-to-top').fadeIn(duration); -->
-<!--       } else { -->
-<!--           jQuery('.back-to-top').fadeOut(duration); -->
-<!--       } -->
-<!--     }); -->
-
-<!-- jQuery('.back-to-top').click(function(event) { -->
-<!--       event.preventDefault(); -->
-<!--       jQuery('html, body').animate({scrollTop: 0}, duration); -->
-<!--       return false; -->
-<!--     }) -->
-
-<!--   }); -->
-<!-- </script> -->
-
-<!-- <style> -->
-  <!-- h1, h2, h3, h4, .TOC > li { -->
-  <!--   font-family : "Playfair Display", serif; -->
-  <!--   color: #b58863; -->
-  <!-- }  -->
-
-  <!-- a { -->
-  <!--   color: #b58863; -->
-  <!-- } -->
-
-  <!-- .level2 { -->
-  <!--   padding-top: 20px; -->
-  <!-- } -->
-
-
-  <!-- .back-to-top { -->
-  <!--   font-family : "Playfair Display", serif; -->
-  <!--   position: fixed; -->
-  <!--   bottom: 4em; -->
-  <!--   right: 0px; -->
-  <!--   text-decoration: none; -->
-  <!--   color : #b58863; -->
-  <!--   background-color : #f0d9b5; -->
-  <!--   font-size: 12px; -->
-  <!--   padding: 1em; -->
-  <!--   display: none; -->
-  <!-- } -->
-  
-  <!-- .html-widget-static-bound { -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-
-  <!-- .main-container { -->
-  <!--   max-width: 700px; -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-  
-<!-- </style> -->
-<!-- <p><a href="#" class="back-to-top">Back to Top</a></p> -->
-
 
 
 
@@ -226,6 +204,8 @@ dimensionBadge_30482417 <- paste0(dimensionString1, PMID_30482417$doi,dimensionS
 altmetricBadge_30482417 <- paste0(altmetricString1, PMID_30482417$doi, altmetricString2 )
 
 addthis_inline_30482417 <- paste0(addthis_String1, PMID_30482417$title , " PMID: 30482417 " , addthis_String2)
+
+Sys.sleep(1)
 
 ```
 
@@ -320,6 +300,8 @@ altmetricBadge_30499803 <- paste0(altmetricString1, PMID_30499803$doi, altmetric
 
 addthis_inline_30499803 <- paste0(addthis_String1, PMID_30499803$title , " PMID: 30499803 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -348,6 +330,17 @@ addthis_inline_30499803 <- paste0(addthis_String1, PMID_30499803$title , " PMID:
 - **Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma**
 
 [link](https://www.researchgate.net/publication/329302661_Diagnostic_and_Prognostic_Impact_of_Neutrophil-to-Lymphocyte_Ratio_for_Intraductal_Papillary_Mucinous_Neoplasms_of_the_Pancreas_With_High-Grade_Dysplasia_and_Associated_Invasive_Carcinoma)
+
+
+
+---
+
+- **The efficacy and safety of endoscopic ultrasound-guided ablation of pancreatic cysts with alcohol and paclitaxel a systematic review**
+
+
+https://journals.lww.com/eurojgh/Abstract/2019/01000/The_efficacy_and_safety_of_endoscopic.1.aspx
+
+
 
 
 ---
@@ -393,6 +386,8 @@ dimensionBadge_30515871 <- paste0(dimensionString1, PMID_30515871$doi,dimensionS
 altmetricBadge_30515871 <- paste0(altmetricString1, PMID_30515871$doi, altmetricString2 )
 
 addthis_inline_30515871 <- paste0(addthis_String1, PMID_30515871$title , " PMID: 30515871 " , addthis_String2)
+
+Sys.sleep(1)
 
 ```
 
@@ -455,6 +450,8 @@ altmetricBadge_30497874 <- paste0(altmetricString1, PMID_30497874$doi, altmetric
 
 addthis_inline_30497874 <- paste0(addthis_String1, PMID_30497874$title , " PMID: 30497874 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -514,6 +511,8 @@ altmetricBadge_30489447 <- paste0(altmetricString1, PMID_30489447$doi, altmetric
 
 addthis_inline_30489447 <- paste0(addthis_String1, PMID_30489447$title , " PMID: 30489447 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -536,8 +535,150 @@ addthis_inline_30489447 <- paste0(addthis_String1, PMID_30489447$title , " PMID:
 
 </details>
 
+
 ---
 
+
+
+```{r 30519311, include=FALSE}
+
+PMID_30519311 <- RefManageR::ReadPubMed('30519311', database = 'PubMed')
+
+citation_30519311 <- paste0(PMID_30519311$journal,' ', PMID_30519311$year, ' ', PMID_30519311$month,';', PMID_30519311$volume,'(', PMID_30519311$number,'):', PMID_30519311$pages)
+
+PubMed_30519311 <- paste0(PubMedString, PMID_30519311$eprint)
+
+doi_30519311 <- paste0(doiString, PMID_30519311$doi)
+
+dimensionBadge_30519311 <- paste0(dimensionString1, PMID_30519311$doi,dimensionString2)
+
+altmetricBadge_30519311 <- paste0(altmetricString1, PMID_30519311$doi, altmetricString2 )
+
+addthis_inline_30519311 <- paste0(addthis_String1, PMID_30519311$title , " PMID: 30519311 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30519311$title`**
+</summary> 
+
+*`r citation_30519311`*
+
+`r PubMed_30519311`
+
+`r addthis_inline_30519311`
+
+`r PMID_30519311$abstract`
+
+<!-- `r doi_30519311` -->
+
+`r dimensionBadge_30519311`
+
+`r altmetricBadge_30519311`
+
+</details>
+
+
+---
+
+
+
+```{r 30503370, include=FALSE}
+
+PMID_30503370 <- RefManageR::ReadPubMed('30503370', database = 'PubMed')
+
+citation_30503370 <- paste0(PMID_30503370$journal,' ', PMID_30503370$year, ' ', PMID_30503370$month,';', PMID_30503370$volume,'(', PMID_30503370$number,'):', PMID_30503370$pages)
+
+PubMed_30503370 <- paste0(PubMedString, PMID_30503370$eprint)
+
+doi_30503370 <- paste0(doiString, PMID_30503370$doi)
+
+dimensionBadge_30503370 <- paste0(dimensionString1, PMID_30503370$doi,dimensionString2)
+
+altmetricBadge_30503370 <- paste0(altmetricString1, PMID_30503370$doi, altmetricString2 )
+
+addthis_inline_30503370 <- paste0(addthis_String1, PMID_30503370$title , " PMID: 30503370 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30503370$title`**
+</summary> 
+
+*`r citation_30503370`*
+
+`r PubMed_30503370`
+
+`r addthis_inline_30503370`
+
+`r PMID_30503370$abstract`
+
+<!-- `r doi_30503370` -->
+
+`r dimensionBadge_30503370`
+
+`r altmetricBadge_30503370`
+
+</details>
+
+
+---
+
+
+
+```{r 30503637, include=FALSE}
+
+PMID_30503637 <- RefManageR::ReadPubMed('30503637', database = 'PubMed')
+
+citation_30503637 <- paste0(PMID_30503637$journal,' ', PMID_30503637$year, ' ', PMID_30503637$month,';', PMID_30503637$volume,'(', PMID_30503637$number,'):', PMID_30503637$pages)
+
+PubMed_30503637 <- paste0(PubMedString, PMID_30503637$eprint)
+
+doi_30503637 <- paste0(doiString, PMID_30503637$doi)
+
+dimensionBadge_30503637 <- paste0(dimensionString1, PMID_30503637$doi,dimensionString2)
+
+altmetricBadge_30503637 <- paste0(altmetricString1, PMID_30503637$doi, altmetricString2 )
+
+addthis_inline_30503637 <- paste0(addthis_String1, PMID_30503637$title , " PMID: 30503637 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30503637$title`**
+</summary> 
+
+*`r citation_30503637`*
+
+`r PubMed_30503637`
+
+`r addthis_inline_30503637`
+
+`r PMID_30503637$abstract`
+
+<!-- `r doi_30503637` -->
+
+`r dimensionBadge_30503637`
+
+`r altmetricBadge_30503637`
+
+</details>
+
+---
+
+
+- **Recent treatment patterns and survival outcomes in pancreatic cancer according to clinical stage based on single-center large-cohort data**
+
+https://synapse.koreamed.org/search.php?where=aview&id=10.14701/ahbps.2018.22.4.386&code=2110AHBPS&vmode=FULL
+
+
+---
 
 
 
@@ -550,10 +691,70 @@ addthis_inline_30489447 <- paste0(addthis_String1, PMID_30489447$title , " PMID:
 
 
 
+---
+
+
+
+```{r 30520820, include=FALSE}
+
+PMID_30520820 <- RefManageR::ReadPubMed('30520820', database = 'PubMed')
+
+citation_30520820 <- paste0(PMID_30520820$journal,' ', PMID_30520820$year, ' ', PMID_30520820$month,';', PMID_30520820$volume,'(', PMID_30520820$number,'):', PMID_30520820$pages)
+
+PubMed_30520820 <- paste0(PubMedString, PMID_30520820$eprint)
+
+doi_30520820 <- paste0(doiString, PMID_30520820$doi)
+
+dimensionBadge_30520820 <- paste0(dimensionString1, PMID_30520820$doi,dimensionString2)
+
+altmetricBadge_30520820 <- paste0(altmetricString1, PMID_30520820$doi, altmetricString2 )
+
+addthis_inline_30520820 <- paste0(addthis_String1, PMID_30520820$title , " PMID: 30520820 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30520820$title`**
+</summary> 
+
+*`r citation_30520820`*
+
+`r PubMed_30520820`
+
+`r addthis_inline_30520820`
+
+`r PMID_30520820$abstract`
+
+<!-- `r doi_30520820` -->
+
+`r dimensionBadge_30520820`
+
+`r altmetricBadge_30520820`
+
+</details>
+
+
+---
+
+
+
 - **Heterotopic chondroid tissue of the main bile duct mimicking Klatskin tumor: case report and review of the literature**
 
 https://link.springer.com/article/10.1007/s12328-018-00928-w
 
+
+
+---
+
+- **Prognostic Significance of the Lymph Node Ratio in Surgical Patients With Distal Cholangiocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0022480418307753
+
+
+---
 
 
 #### Epidemiology, Screening, Cancer Risk Factors
@@ -581,6 +782,8 @@ altmetricBadge_30497878 <- paste0(altmetricString1, PMID_30497878$doi, altmetric
 
 addthis_inline_30497878 <- paste0(addthis_String1, PMID_30497878$title , " PMID: 30497878 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -602,6 +805,52 @@ addthis_inline_30497878 <- paste0(addthis_String1, PMID_30497878$title , " PMID:
 `r altmetricBadge_30497878`
 
 </details>
+
+
+---
+
+
+
+```{r 30505597, include=FALSE}
+
+PMID_30505597 <- RefManageR::ReadPubMed('30505597', database = 'PubMed')
+
+citation_30505597 <- paste0(PMID_30505597$journal,' ', PMID_30505597$year, ' ', PMID_30505597$month,';', PMID_30505597$volume,'(', PMID_30505597$number,'):', PMID_30505597$pages)
+
+PubMed_30505597 <- paste0(PubMedString, PMID_30505597$eprint)
+
+doi_30505597 <- paste0(doiString, PMID_30505597$doi)
+
+dimensionBadge_30505597 <- paste0(dimensionString1, PMID_30505597$doi,dimensionString2)
+
+altmetricBadge_30505597 <- paste0(altmetricString1, PMID_30505597$doi, altmetricString2 )
+
+addthis_inline_30505597 <- paste0(addthis_String1, PMID_30505597$title , " PMID: 30505597 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30505597$title`**
+</summary> 
+
+*`r citation_30505597`*
+
+`r PubMed_30505597`
+
+`r addthis_inline_30505597`
+
+`r PMID_30505597$abstract`
+
+<!-- `r doi_30505597` -->
+
+`r dimensionBadge_30505597`
+
+`r altmetricBadge_30505597`
+
+</details>
+
 
 ---
 
@@ -631,6 +880,8 @@ dimensionBadge_30488851 <- paste0(dimensionString1, PMID_30488851$doi,dimensionS
 altmetricBadge_30488851 <- paste0(altmetricString1, PMID_30488851$doi, altmetricString2 )
 
 addthis_inline_30488851 <- paste0(addthis_String1, PMID_30488851$title , " PMID: 30488851 " , addthis_String2)
+
+Sys.sleep(1)
 
 ```
 
@@ -708,6 +959,8 @@ altmetricBadge_30488679 <- paste0(altmetricString1, PMID_30488679$doi, altmetric
 
 addthis_inline_30488679 <- paste0(addthis_String1, PMID_30488679$title , " PMID: 30488679 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -750,6 +1003,8 @@ altmetricBadge_28367607 <- paste0(altmetricString1, PMID_28367607$doi, altmetric
 
 addthis_inline_28367607 <- paste0(addthis_String1, PMID_28367607$title , " PMID: 28367607 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -791,6 +1046,8 @@ dimensionBadge_30499077 <- paste0(dimensionString1, PMID_30499077$doi,dimensionS
 altmetricBadge_30499077 <- paste0(altmetricString1, PMID_30499077$doi, altmetricString2 )
 
 addthis_inline_30499077 <- paste0(addthis_String1, PMID_30499077$title , " PMID: 30499077 " , addthis_String2)
+
+Sys.sleep(1)
 
 ```
 
@@ -863,6 +1120,8 @@ altmetricBadge_30488680 <- paste0(altmetricString1, PMID_30488680$doi, altmetric
 
 addthis_inline_30488680 <- paste0(addthis_String1, PMID_30488680$title , " PMID: 30488680 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -916,6 +1175,8 @@ altmetricBadge_30497875 <- paste0(altmetricString1, PMID_30497875$doi, altmetric
 
 addthis_inline_30497875 <- paste0(addthis_String1, PMID_30497875$title , " PMID: 30497875 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 
@@ -955,6 +1216,104 @@ https://www.nature.com/articles/s41379-018-0110-y
 https://www.sciencedirect.com/science/article/pii/S0046817718304350
 
 
+
+---
+
+
+
+```{r 30519109, include=FALSE}
+
+PMID_30519109 <- RefManageR::ReadPubMed('30519109', database = 'PubMed')
+
+citation_30519109 <- paste0(PMID_30519109$journal,' ', PMID_30519109$year, ' ', PMID_30519109$month,';', PMID_30519109$volume,'(', PMID_30519109$number,'):', PMID_30519109$pages)
+
+PubMed_30519109 <- paste0(PubMedString, PMID_30519109$eprint)
+
+doi_30519109 <- paste0(doiString, PMID_30519109$doi)
+
+dimensionBadge_30519109 <- paste0(dimensionString1, PMID_30519109$doi,dimensionString2)
+
+altmetricBadge_30519109 <- paste0(altmetricString1, PMID_30519109$doi, altmetricString2 )
+
+addthis_inline_30519109 <- paste0(addthis_String1, PMID_30519109$title , " PMID: 30519109 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30519109$title`**
+</summary> 
+
+*`r citation_30519109`*
+
+`r PubMed_30519109`
+
+`r addthis_inline_30519109`
+
+`r PMID_30519109$abstract`
+
+<!-- `r doi_30519109` -->
+
+`r dimensionBadge_30519109`
+
+`r altmetricBadge_30519109`
+
+</details>
+
+
+---
+
+
+
+```{r 30519760, include=FALSE}
+
+PMID_30519760 <- RefManageR::ReadPubMed('30519760', database = 'PubMed')
+
+citation_30519760 <- paste0(PMID_30519760$journal,' ', PMID_30519760$year, ' ', PMID_30519760$month,';', PMID_30519760$volume,'(', PMID_30519760$number,'):', PMID_30519760$pages)
+
+PubMed_30519760 <- paste0(PubMedString, PMID_30519760$eprint)
+
+doi_30519760 <- paste0(doiString, PMID_30519760$doi)
+
+dimensionBadge_30519760 <- paste0(dimensionString1, PMID_30519760$doi,dimensionString2)
+
+altmetricBadge_30519760 <- paste0(altmetricString1, PMID_30519760$doi, altmetricString2 )
+
+addthis_inline_30519760 <- paste0(addthis_String1, PMID_30519760$title , " PMID: 30519760 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30519760$title`**
+</summary> 
+
+*`r citation_30519760`*
+
+`r PubMed_30519760`
+
+`r addthis_inline_30519760`
+
+`r PMID_30519760$abstract`
+
+<!-- `r doi_30519760` -->
+
+`r dimensionBadge_30519760`
+
+`r altmetricBadge_30519760`
+
+</details>
+
+
+---
+
+
+- **ATRX loss is an independent predictor of poor survival in pancreatic neuroendocrine tumors**
+
+
+https://www.sciencedirect.com/science/article/pii/S0046817718303009
 
 
 ---
@@ -1004,6 +1363,8 @@ altmetricBadge_30484917 <- paste0(altmetricString1, PMID_30484917$doi, altmetric
 
 addthis_inline_30484917 <- paste0(addthis_String1, PMID_30484917$title , " PMID: 30484917 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 <details open> <summary>
@@ -1045,6 +1406,8 @@ dimensionBadge_30498299 <- paste0(dimensionString1, PMID_30498299$doi,dimensionS
 altmetricBadge_30498299 <- paste0(altmetricString1, PMID_30498299$doi, altmetricString2 )
 
 addthis_inline_30498299 <- paste0(addthis_String1, PMID_30498299$title , " PMID: 30498299 " , addthis_String2)
+
+Sys.sleep(1)
 
 ```
 
@@ -1124,6 +1487,8 @@ altmetricBadge_30485690 <- paste0(altmetricString1, PMID_30485690$doi, altmetric
 
 addthis_inline_30485690 <- paste0(addthis_String1, PMID_30485690$title , " PMID: 30485690 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 
@@ -1197,6 +1562,8 @@ altmetricBadge_30487608 <- paste0(altmetricString1, PMID_30487608$doi, altmetric
 
 addthis_inline_30487608 <- paste0(addthis_String1, PMID_30487608$title , " PMID: 30487608 " , addthis_String2)
 
+Sys.sleep(1)
+
 ```
 
 
@@ -1246,6 +1613,52 @@ DOI: 10.1038/s41598-018-26526-x
 https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
 
 
+
+---
+
+
+
+```{r 30506130, include=FALSE}
+
+PMID_30506130 <- RefManageR::ReadPubMed('30506130', database = 'PubMed')
+
+citation_30506130 <- paste0(PMID_30506130$journal,' ', PMID_30506130$year, ' ', PMID_30506130$month,';', PMID_30506130$volume,'(', PMID_30506130$number,'):', PMID_30506130$pages)
+
+PubMed_30506130 <- paste0(PubMedString, PMID_30506130$eprint)
+
+doi_30506130 <- paste0(doiString, PMID_30506130$doi)
+
+dimensionBadge_30506130 <- paste0(dimensionString1, PMID_30506130$doi,dimensionString2)
+
+altmetricBadge_30506130 <- paste0(altmetricString1, PMID_30506130$doi, altmetricString2 )
+
+addthis_inline_30506130 <- paste0(addthis_String1, PMID_30506130$title , " PMID: 30506130 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30506130$title`**
+</summary> 
+
+*`r citation_30506130`*
+
+`r PubMed_30506130`
+
+`r addthis_inline_30506130`
+
+`r PMID_30506130$abstract`
+
+<!-- `r doi_30506130` -->
+
+`r dimensionBadge_30506130`
+
+`r altmetricBadge_30506130`
+
+</details>
+
+
 ---
 
 
@@ -1292,6 +1705,8 @@ dimensionBadge_30497876 <- paste0(dimensionString1, PMID_30497876$doi,dimensionS
 altmetricBadge_30497876 <- paste0(altmetricString1, PMID_30497876$doi, altmetricString2 )
 
 addthis_inline_30497876 <- paste0(addthis_String1, PMID_30497876$title , " PMID: 30497876 " , addthis_String2)
+
+Sys.sleep(1)
 
 ```
 
