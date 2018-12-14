@@ -1,20 +1,20 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook:
-    code_folding: none
-    fig_caption: yes
+  html_document:
+    df_print: kable
     highlight: null
-    theme: paper
+    keep_md: yes
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
     toc: yes
     toc_depth: 5
-  html_document:
-    df_print: kable
+  html_notebook:
+    code_folding: none
+    fig_caption: yes
     highlight: null
-    keep_md: yes
+    theme: paper
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -139,7 +139,7 @@ jQuery('.back-to-top').click(function(event) {
 
 
 
-<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
+[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
 
 
 ---
@@ -212,10 +212,6 @@ Morphology, Diagnostics, IHC
 https://www.nature.com/articles/s41379-018-0183-7
 
 https://www.ncbi.nlm.nih.gov/pubmed/30467323
-
-
-
-Also see **"`r PMID_30308608$title`"**  `r PubMed_30308608`
 
 
 
