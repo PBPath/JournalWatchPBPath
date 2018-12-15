@@ -1,20 +1,20 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_document:
-    df_print: kable
-    highlight: null
-    keep_md: yes
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-    toc_depth: 5
   html_notebook: 
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -195,6 +195,8 @@ Morphology, Diagnostics, IHC
 ```
 
 
+
+
 ---
 
 ```{r 30482417, include=FALSE}
@@ -344,7 +346,21 @@ Sys.sleep(1)
 
 </details>
 
+
 ---
+
+
+
+- **Prognostic significance of the degree of lymphatic vessel invasion in locally advanced, surgically resectable pancreatic head cancer**
+
+
+https://journals.lww.com/md-journal/Fulltext/2018/12070/Prognostic_significance_of_the_degree_of_lymphatic.68.aspx
+
+
+
+
+
+
 
 
 ---
@@ -469,6 +485,18 @@ Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 
 ---
 
+
+- **Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301512
+
+
+
+
+
+---
+
 ```{r 30499803, include=FALSE}
 
 PMID_30499803 <- RefManageR::ReadPubMed('30499803', database = 'PubMed')
@@ -577,6 +605,59 @@ Sys.sleep(1)
 </details>
 
 
+---
+
+```{r 30549137, include=FALSE}
+
+PMID_30549137 <- RefManageR::ReadPubMed('30549137', database = 'PubMed')
+
+citation_30549137 <- paste0(PMID_30549137$journal,' ', PMID_30549137$year, ' ', PMID_30549137$month,';', PMID_30549137$volume,'(', PMID_30549137$number,'):', PMID_30549137$pages)
+
+PubMed_30549137 <- paste0(PubMedString, PMID_30549137$eprint)
+
+doi_30549137 <- paste0(doiString, PMID_30549137$doi)
+
+dimensionBadge_30549137 <- paste0(dimensionString1, PMID_30549137$doi,dimensionString2)
+
+altmetricBadge_30549137 <- paste0(altmetricString1, PMID_30549137$doi, altmetricString2 )
+
+addthis_inline_30549137 <- paste0(addthis_String1, PMID_30549137$title , " PMID: 30549137 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30549137$title`**
+</summary> 
+
+*`r citation_30549137`*
+
+`r PubMed_30549137`
+
+`r addthis_inline_30549137`
+
+`r PMID_30549137$abstract`
+
+<!-- `r doi_30549137` -->
+
+`r dimensionBadge_30549137`
+
+`r altmetricBadge_30549137`
+
+</details>
+
+---
+
+- **Risk of advanced lesions in patients with branch-duct IPMN and relative indications for surgery according to European evidence-based guidelines**
+
+
+https://www.sciencedirect.com/science/article/pii/S1590865818312672
+
+
+
+
 
 
 
@@ -595,6 +676,18 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response
 
 ```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+- **The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301561
+
+
+
+
 
 
 ---
@@ -912,6 +1005,16 @@ Sys.sleep(1)
 ---
 
 
+- **Tumefactive Inflammatory Diseases of the Pancreas**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302025
+
+
+
+
+
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -959,6 +1062,21 @@ https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_
 
 
 ---
+
+
+
+- **Pancreatic Ductal Adenocarcinoma: Recent Updates**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018308551
+
+
+
+
+
+
+
+
 
 
 ---
@@ -1346,6 +1464,44 @@ Sys.sleep(1)
 </details>
 
 ---
+
+
+- **PANCREATIC CANCER IN BRAZIL: MORTALITY TRENDS AND PROJECTIONS UNTIL 2029**
+
+
+http://www.scielo.br/scielo.php?pid=S0004-28032018002300230&script=sci_arttext
+
+
+---
+
+
+- **Results of First-round of Surveillance in Individuals at High-risk of Pancreatic Cancer from the AISP (Italian Association for the Study of the Pancreas) Registry**
+
+
+https://www.nature.com/articles/s41395-018-0414-z
+
+
+---
+
+- **Familial Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302062
+
+
+---
+
+
+- **Current Approaches to Pancreatic Cancer Screening**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302529
+
+
+
+---
+
+
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -1892,6 +2048,50 @@ Sys.sleep(1)
 `r dimensionBadge_30181528`
 
 `r altmetricBadge_30181528`
+
+</details>
+
+
+---
+
+```{r 30548547, include=FALSE}
+
+PMID_30548547 <- RefManageR::ReadPubMed('30548547', database = 'PubMed')
+
+citation_30548547 <- paste0(PMID_30548547$journal,' ', PMID_30548547$year, ' ', PMID_30548547$month,';', PMID_30548547$volume,'(', PMID_30548547$number,'):', PMID_30548547$pages)
+
+PubMed_30548547 <- paste0(PubMedString, PMID_30548547$eprint)
+
+doi_30548547 <- paste0(doiString, PMID_30548547$doi)
+
+dimensionBadge_30548547 <- paste0(dimensionString1, PMID_30548547$doi,dimensionString2)
+
+altmetricBadge_30548547 <- paste0(altmetricString1, PMID_30548547$doi, altmetricString2 )
+
+addthis_inline_30548547 <- paste0(addthis_String1, PMID_30548547$title , " PMID: 30548547 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30548547$title`**
+</summary> 
+
+*`r citation_30548547`*
+
+`r PubMed_30548547`
+
+`r addthis_inline_30548547`
+
+`r PMID_30548547$abstract`
+
+<!-- `r doi_30548547` -->
+
+`r dimensionBadge_30548547`
+
+`r altmetricBadge_30548547`
 
 </details>
 
@@ -2885,6 +3085,24 @@ Sys.sleep(1)
 ---
 
 
+- **Coordinately targeting cell cycle checkpoint functions in integrated models of pancreatic cancer**
+
+
+http://clincancerres.aacrjournals.org/content/early/2018/12/11/1078-0432.CCR-18-1620
+
+
+---
+
+- **miRNA and Gene Expression in Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018305571
+
+
+
+
+
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -2933,6 +3151,16 @@ Molecular Techniques & Research Methods, Liquid Biopsy
 ```
 
 ---
+
+
+- **Circulating Tumor Cells and Cell-Free DNA in Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944017311811
+
+
+
+
 
 ---
 
@@ -2999,6 +3227,17 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
 ```
 
 ---
+
+
+- **GPER is a mechanoregulator of pancreatic stellate cells and the tumor microenvironment**
+
+
+http://embor.embopress.org/content/early/2018/12/06/embr.201846556
+
+
+
+
+
 
 
 

@@ -96,3 +96,58 @@ altmetricBadge_28984336 <- paste0(altmetricString1, PMID_28984336$doi, altmetric
 
 ---
 
+
+
+
+    28812197
+
+---
+
+```{r 28812197, include=FALSE}
+
+PMID_28812197 <- RefManageR::ReadPubMed('28812197', database = 'PubMed')
+
+citation_28812197 <- paste0(PMID_28812197$journal,' ', PMID_28812197$year, ' ', PMID_28812197$month,';', PMID_28812197$volume,'(', PMID_28812197$number,'):', PMID_28812197$pages)
+
+PubMed_28812197 <- paste0(PubMedString, PMID_28812197$eprint)
+
+doi_28812197 <- paste0(doiString, PMID_28812197$doi)
+
+dimensionBadge_28812197 <- paste0(dimensionString1, PMID_28812197$doi,dimensionString2)
+
+altmetricBadge_28812197 <- paste0(altmetricString1, PMID_28812197$doi, altmetricString2 )
+
+addthis_inline_28812197 <- paste0(addthis_String1, PMID_28812197$title , " PMID: 28812197 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_28812197$title`**
+</summary> 
+
+*`r citation_28812197`*
+
+`r PubMed_28812197`
+
+`r addthis_inline_28812197`
+
+`r PMID_28812197$abstract`
+
+<!-- `r doi_28812197` -->
+
+`r dimensionBadge_28812197`
+
+`r altmetricBadge_28812197`
+
+</details>
+
+---
+
+
+
+
+
+
