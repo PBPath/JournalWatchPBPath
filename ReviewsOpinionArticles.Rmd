@@ -1,0 +1,656 @@
+---
+title: "Reviews, Opinion Articles"
+output: html_notebook
+---
+
+
+
+### Reviews, Opinion Articles
+
+
+```{r Pancreas Reviews Opinion Articles, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+```{r 30325859, include=FALSE}
+
+PMID_30325859 <- RefManageR::ReadPubMed('30325859', database = 'PubMed')
+
+citation_30325859 <- paste0(PMID_30325859$journal,' ', PMID_30325859$year, ' ', PMID_30325859$month,';', PMID_30325859$volume,'(', PMID_30325859$number,'):', PMID_30325859$pages)
+
+PubMed_30325859 <- paste0(PubMedString, PMID_30325859$eprint)
+
+doi_30325859 <- paste0(doiString, PMID_30325859$doi)
+
+dimensionBadge_30325859 <- paste0(dimensionString1, PMID_30325859$doi,dimensionString2)
+
+altmetricBadge_30325859 <- paste0(altmetricString1, PMID_30325859$doi, altmetricString2 )
+
+addthis_inline_30325859 <- paste0(addthis_String1, PMID_30325859$title , " PMID: 30325859 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30325859$title`**
+</summary> 
+
+*`r citation_30325859`*
+
+`r PubMed_30325859`
+
+`r addthis_inline_30325859`
+
+`r PMID_30325859$abstract`
+
+<!-- `r doi_30325859` -->
+
+`r dimensionBadge_30325859`
+
+`r altmetricBadge_30325859`
+
+</details>
+
+---
+
+```{r 30325854, include=FALSE}
+
+PMID_30325854 <- RefManageR::ReadPubMed('30325854', database = 'PubMed')
+
+citation_30325854 <- paste0(PMID_30325854$journal,' ', PMID_30325854$year, ' ', PMID_30325854$month,';', PMID_30325854$volume,'(', PMID_30325854$number,'):', PMID_30325854$pages)
+
+PubMed_30325854 <- paste0(PubMedString, PMID_30325854$eprint)
+
+doi_30325854 <- paste0(doiString, PMID_30325854$doi)
+
+dimensionBadge_30325854 <- paste0(dimensionString1, PMID_30325854$doi,dimensionString2)
+
+altmetricBadge_30325854 <- paste0(altmetricString1, PMID_30325854$doi, altmetricString2 )
+
+addthis_inline_30325854 <- paste0(addthis_String1, PMID_30325854$title , " PMID: 30325854 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30325854$title`**
+</summary> 
+
+*`r citation_30325854`*
+
+`r PubMed_30325854`
+
+`r addthis_inline_30325854`
+
+`r PMID_30325854$abstract`
+
+<!-- `r doi_30325854` -->
+
+`r dimensionBadge_30325854`
+
+`r altmetricBadge_30325854`
+
+</details>
+
+---
+
+```{r 30325852, include=FALSE}
+
+PMID_30325852 <- RefManageR::ReadPubMed('30325852', database = 'PubMed')
+
+citation_30325852 <- paste0(PMID_30325852$journal,' ', PMID_30325852$year, ' ', PMID_30325852$month,';', PMID_30325852$volume,'(', PMID_30325852$number,'):', PMID_30325852$pages)
+
+PubMed_30325852 <- paste0(PubMedString, PMID_30325852$eprint)
+
+doi_30325852 <- paste0(doiString, PMID_30325852$doi)
+
+dimensionBadge_30325852 <- paste0(dimensionString1, PMID_30325852$doi,dimensionString2)
+
+altmetricBadge_30325852 <- paste0(altmetricString1, PMID_30325852$doi, altmetricString2 )
+
+addthis_inline_30325852 <- paste0(addthis_String1, PMID_30325852$title , " PMID: 30325852 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30325852$title`**
+</summary> 
+
+*`r citation_30325852`*
+
+`r PubMed_30325852`
+
+`r addthis_inline_30325852`
+
+`r PMID_30325852$abstract`
+
+<!-- `r doi_30325852` -->
+
+`r dimensionBadge_30325852`
+
+`r altmetricBadge_30325852`
+
+</details>
+
+---
+
+```{r 30325853, include=FALSE}
+
+PMID_30325853 <- RefManageR::ReadPubMed('30325853', database = 'PubMed')
+
+citation_30325853 <- paste0(PMID_30325853$journal,' ', PMID_30325853$year, ' ', PMID_30325853$month,';', PMID_30325853$volume,'(', PMID_30325853$number,'):', PMID_30325853$pages)
+
+PubMed_30325853 <- paste0(PubMedString, PMID_30325853$eprint)
+
+doi_30325853 <- paste0(doiString, PMID_30325853$doi)
+
+dimensionBadge_30325853 <- paste0(dimensionString1, PMID_30325853$doi,dimensionString2)
+
+altmetricBadge_30325853 <- paste0(altmetricString1, PMID_30325853$doi, altmetricString2 )
+
+addthis_inline_30325853 <- paste0(addthis_String1, PMID_30325853$title , " PMID: 30325853 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30325853$title`**
+</summary> 
+
+*`r citation_30325853`*
+
+`r PubMed_30325853`
+
+`r addthis_inline_30325853`
+
+`r PMID_30325853$abstract`
+
+<!-- `r doi_30325853` -->
+
+`r dimensionBadge_30325853`
+
+`r altmetricBadge_30325853`
+
+</details>
+
+---
+
+- **Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer**
+
+https://www.nature.com/articles/s41416-018-0298-0
+
+
+---
+
+```{r 29946776, include=FALSE}
+
+PMID_29946776 <- RefManageR::ReadPubMed('29946776', database = 'PubMed')
+
+citation_29946776 <- paste0(PMID_29946776$journal,' ', PMID_29946776$year, ' ', PMID_29946776$month,';', PMID_29946776$volume,'(', PMID_29946776$number,'):', PMID_29946776$pages)
+
+PubMed_29946776 <- paste0(PubMedString, PMID_29946776$eprint)
+
+doi_29946776 <- paste0(doiString, PMID_29946776$doi)
+
+dimensionBadge_29946776 <- paste0(dimensionString1, PMID_29946776$doi,dimensionString2)
+
+altmetricBadge_29946776 <- paste0(altmetricString1, PMID_29946776$doi, altmetricString2 )
+
+addthis_inline_29946776 <- paste0(addthis_String1, PMID_29946776$title , " PMID: 29946776 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29946776$title`**
+</summary> 
+
+*`r citation_29946776`*
+
+`r PubMed_29946776`
+
+`r addthis_inline_29946776`
+
+`r PMID_29946776$abstract`
+
+<!-- `r doi_29946776` -->
+
+`r dimensionBadge_29946776`
+
+`r altmetricBadge_29946776`
+
+</details>
+
+---
+
+    
+- **ASO Author Reflections: Do Distinct Patterns of Recurrence Impact the Prognosis of Patients With Resected Pancreatic Ductal Adenocarcinoma?**
+    
+https://link.springer.com/article/10.1245/s10434-018-6820-z
+
+
+---
+
+```{r 30456669, include=FALSE}
+
+PMID_30456669 <- RefManageR::ReadPubMed('30456669', database = 'PubMed')
+
+citation_30456669 <- paste0(PMID_30456669$journal,' ', PMID_30456669$year, ' ', PMID_30456669$month,';', PMID_30456669$volume,'(', PMID_30456669$number,'):', PMID_30456669$pages)
+
+PubMed_30456669 <- paste0(PubMedString, PMID_30456669$eprint)
+
+doi_30456669 <- paste0(doiString, PMID_30456669$doi)
+
+dimensionBadge_30456669 <- paste0(dimensionString1, PMID_30456669$doi,dimensionString2)
+
+altmetricBadge_30456669 <- paste0(altmetricString1, PMID_30456669$doi, altmetricString2 )
+
+addthis_inline_30456669 <- paste0(addthis_String1, PMID_30456669$title , " PMID: 30456669 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30456669$title`**
+</summary> 
+
+*`r citation_30456669`*
+
+`r PubMed_30456669`
+
+`r addthis_inline_30456669`
+
+`r PMID_30456669$abstract`
+
+<!-- `r doi_30456669` -->
+
+`r dimensionBadge_30456669`
+
+`r altmetricBadge_30456669`
+
+</details>
+
+---
+
+```{r 30315385, include=FALSE}
+
+PMID_30315385 <- RefManageR::ReadPubMed('30315385', database = 'PubMed')
+
+citation_30315385 <- paste0(PMID_30315385$journal,' ', PMID_30315385$year, ' ', PMID_30315385$month,';', PMID_30315385$volume,'(', PMID_30315385$number,'):', PMID_30315385$pages)
+
+PubMed_30315385 <- paste0(PubMedString, PMID_30315385$eprint)
+
+doi_30315385 <- paste0(doiString, PMID_30315385$doi)
+
+dimensionBadge_30315385 <- paste0(dimensionString1, PMID_30315385$doi,dimensionString2)
+
+altmetricBadge_30315385 <- paste0(altmetricString1, PMID_30315385$doi, altmetricString2 )
+
+addthis_inline_30315385 <- paste0(addthis_String1, PMID_30315385$title , " PMID: 30315385 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30315385$title`**
+</summary> 
+
+*`r citation_30315385`*
+
+`r PubMed_30315385`
+
+`r addthis_inline_30315385`
+
+`r PMID_30315385$abstract`
+
+<!-- `r doi_30315385` -->
+
+`r dimensionBadge_30315385`
+
+`r altmetricBadge_30315385`
+
+</details>
+
+
+---
+
+```{r 30311163, include=FALSE}
+
+PMID_30311163 <- RefManageR::ReadPubMed('30311163', database = 'PubMed')
+
+citation_30311163 <- paste0(PMID_30311163$journal,' ', PMID_30311163$year, ' ', PMID_30311163$month,';', PMID_30311163$volume,'(', PMID_30311163$number,'):', PMID_30311163$pages)
+
+PubMed_30311163 <- paste0(PubMedString, PMID_30311163$eprint)
+
+doi_30311163 <- paste0(doiString, PMID_30311163$doi)
+
+dimensionBadge_30311163 <- paste0(dimensionString1, PMID_30311163$doi,dimensionString2)
+
+altmetricBadge_30311163 <- paste0(altmetricString1, PMID_30311163$doi, altmetricString2 )
+
+addthis_inline_30311163 <- paste0(addthis_String1, PMID_30311163$title , " PMID: 30311163 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30311163$title`**
+</summary> 
+
+*`r citation_30311163`*
+
+`r PubMed_30311163`
+
+`r addthis_inline_30311163`
+
+`r PMID_30311163$abstract`
+
+<!-- `r doi_30311163` -->
+
+`r dimensionBadge_30311163`
+
+`r altmetricBadge_30311163`
+
+</details>
+
+
+---
+
+```{r 30324467, include=FALSE}
+
+PMID_30324467 <- RefManageR::ReadPubMed('30324467', database = 'PubMed')
+
+citation_30324467 <- paste0(PMID_30324467$journal,' ', PMID_30324467$year, ' ', PMID_30324467$month,';', PMID_30324467$volume,'(', PMID_30324467$number,'):', PMID_30324467$pages)
+
+PubMed_30324467 <- paste0(PubMedString, PMID_30324467$eprint)
+
+doi_30324467 <- paste0(doiString, PMID_30324467$doi)
+
+dimensionBadge_30324467 <- paste0(dimensionString1, PMID_30324467$doi,dimensionString2)
+
+altmetricBadge_30324467 <- paste0(altmetricString1, PMID_30324467$doi, altmetricString2 )
+
+addthis_inline_30324467 <- paste0(addthis_String1, PMID_30324467$title , " PMID: 30324467 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30324467$title`**
+</summary> 
+
+*`r citation_30324467`*
+
+`r PubMed_30324467`
+
+`r addthis_inline_30324467`
+
+`r PMID_30324467$abstract`
+
+<!-- `r doi_30324467` -->
+
+`r dimensionBadge_30324467`
+
+`r altmetricBadge_30324467`
+
+</details>
+
+
+---
+
+
+```{r 30286472, include=FALSE}
+
+PMID_30286472 <- RefManageR::ReadPubMed('30286472', database = 'PubMed')
+
+citation_30286472 <- paste0(PMID_30286472$journal,' ', PMID_30286472$year, ' ', PMID_30286472$month,';', PMID_30286472$volume,'(', PMID_30286472$number,'):', PMID_30286472$pages)
+
+PubMed_30286472 <- paste0(PubMedString, PMID_30286472$eprint)
+
+doi_30286472 <- paste0(doiString, PMID_30286472$doi)
+
+dimensionBadge_30286472 <- paste0(dimensionString1, PMID_30286472$doi,dimensionString2)
+
+altmetricBadge_30286472 <- paste0(altmetricString1, PMID_30286472$doi, altmetricString2 )
+
+addthis_inline_30286472 <- paste0(addthis_String1, PMID_30286472$title , " PMID: 30286472 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30286472$title`**
+</summary> 
+
+*`r citation_30286472`*
+
+`r PubMed_30286472`
+
+`r addthis_inline_30286472`
+
+`r PMID_30286472$abstract`
+
+<!-- `r doi_30286472` -->
+
+`r dimensionBadge_30286472`
+
+`r altmetricBadge_30286472`
+
+</details>
+
+
+
+---
+
+
+
+```{r 30298312, include=FALSE}
+
+PMID_30298312 <- RefManageR::ReadPubMed('30298312', database = 'PubMed')
+
+citation_30298312 <- paste0(PMID_30298312$journal,' ', PMID_30298312$year, ' ', PMID_30298312$month,';', PMID_30298312$volume,'(', PMID_30298312$number,'):', PMID_30298312$pages)
+
+PubMed_30298312 <- paste0(PubMedString, PMID_30298312$eprint)
+
+doi_30298312 <- paste0(doiString, PMID_30298312$doi)
+
+dimensionBadge_30298312 <- paste0(dimensionString1, PMID_30298312$doi,dimensionString2)
+
+altmetricBadge_30298312 <- paste0(altmetricString1, PMID_30298312$doi, altmetricString2 )
+
+addthis_inline_30298312 <- paste0(addthis_String1, PMID_30298312$title , " PMID: 30298312 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30298312$title`**
+</summary> 
+
+*`r citation_30298312`*
+
+`r PubMed_30298312`
+
+`r addthis_inline_30298312`
+
+`r PMID_30298312$abstract`
+
+<!-- `r doi_30298312` -->
+
+`r dimensionBadge_30298312`
+
+`r altmetricBadge_30298312`
+
+</details>
+
+
+
+
+---
+
+
+
+```{r 29853732, include=FALSE}
+
+PMID_29853732 <- RefManageR::ReadPubMed('29853732', database = 'PubMed')
+
+citation_29853732 <- paste0(PMID_29853732$journal,' ', PMID_29853732$year, ' ', PMID_29853732$month,';', PMID_29853732$volume,'(', PMID_29853732$number,'):', PMID_29853732$pages)
+
+PubMed_29853732 <- paste0(PubMedString, PMID_29853732$eprint)
+
+doi_29853732 <- paste0(doiString, PMID_29853732$doi)
+
+dimensionBadge_29853732 <- paste0(dimensionString1, PMID_29853732$doi,dimensionString2)
+
+altmetricBadge_29853732 <- paste0(altmetricString1, PMID_29853732$doi, altmetricString2 )
+
+addthis_inline_29853732 <- paste0(addthis_String1, PMID_29853732$title , " PMID: 29853732 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29853732$title`**
+</summary> 
+
+*`r citation_29853732`*
+
+`r PubMed_29853732`
+
+`r addthis_inline_29853732`
+
+`r PMID_29853732$abstract`
+
+<!-- `r doi_29853732` -->
+
+`r dimensionBadge_29853732`
+
+`r altmetricBadge_29853732`
+
+</details>
+
+---
+
+```{r 29242097, include=FALSE}
+
+PMID_29242097 <- RefManageR::ReadPubMed('29242097', database = 'PubMed')
+
+citation_29242097 <- paste0(PMID_29242097$journal,' ', PMID_29242097$year, ' ', PMID_29242097$month,';', PMID_29242097$volume,'(', PMID_29242097$number,'):', PMID_29242097$pages)
+
+PubMed_29242097 <- paste0(PubMedString, PMID_29242097$eprint)
+
+doi_29242097 <- paste0(doiString, PMID_29242097$doi)
+
+dimensionBadge_29242097 <- paste0(dimensionString1, PMID_29242097$doi,dimensionString2)
+
+altmetricBadge_29242097 <- paste0(altmetricString1, PMID_29242097$doi, altmetricString2 )
+
+addthis_inline_29242097 <- paste0(addthis_String1, PMID_29242097$title , " PMID: 29242097 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29242097$title`**
+</summary> 
+
+*`r citation_29242097`*
+
+`r PubMed_29242097`
+
+`r addthis_inline_29242097`
+
+`r PMID_29242097$abstract`
+
+<!-- `r doi_29242097` -->
+
+`r dimensionBadge_29242097`
+
+`r altmetricBadge_29242097`
+
+</details>
+
+
+
+
+
+
+
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
+
+### Oncology and serum marker studies
+
+
+```{r Pancreas Oncology and serum marker studies, eval=FALSE, include=FALSE}
+```
+
+---
+
+- **Clinicopathological characteristics of pancreatic cancer with normal level of serum CA19-9**
+    
+https://www.researchgate.net/publication/328061700_Clinicopathological_characteristics_of_pancreatic_cancer_with_normal_level_of_serum_CA19-9
+
+---
+
+- **Biomarker panel predicts survival after resection in pancreatic ductal adenocarcinoma: A multi-institutional cohort study**
+    
+https://www.ejso.com/article/S0748-7983(18)31450-1/fulltext
+
+
+https://www.researchgate.net/publication/328246979_Biomarker_panel_predicts_survival_after_resection_in_pancreatic_ductal_adenocarcinoma_A_multi-institutional_cohort_study
+
+---
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
+
+
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
