@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2018-09-11" />
+<meta name="date" content="2018-12-18" />
 
 <title>PBPath Journal Watch</title>
 
@@ -99,7 +99,7 @@ display: none;
 padding: 0 4px 0 4px;
 }
 .pagedtable .even {
-background-color: #fcfcfc;
+background-color: rgba(140, 140, 140, 0.1);
 }
 .pagedtable-padding-col {
 display: none;
@@ -2690,6 +2690,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 <style type="text/css">
@@ -2721,9 +2724,70 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
@@ -2737,7 +2801,6 @@ $(document).ready(function () {
   window.initializeCodeFolding("hide" === "show");
 });
 </script>
-
 
 
 
@@ -2854,7 +2917,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">PBPath Journal Watch</h1>
 <h3 class="subtitle"><em>Top Articles</em></h3>
-<h4 class="date"><em>2018-09-11</em></h4>
+<h4 class="date"><em>2018-12-18</em></h4>
 
 </div>
 
@@ -2871,9 +2934,19 @@ div.tocify {
 <li><strong>Cancer immunophenotyping by 7 colour multispectral imaging without tyramide signal amplification</strong></li>
 </ul>
 <p><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/cjp2.113" class="uri">https://onlinelibrary.wiley.com/doi/pdf/10.1002/cjp2.113</a></p>
+<hr />
+<ul>
+<li><strong>EUS-Guided Enhanced Imaging and Sampling of Neoplastic Pancreatic Cysts</strong></li>
+</ul>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-319-97376-0_12" class="uri">https://link.springer.com/chapter/10.1007/978-3-319-97376-0_12</a></p>
+<hr />
+<ul>
+<li><strong>Histologic retrieval rate of a newly designed side-bevelled 20G needle for EUS-guided tissue acquisition of solid pancreatic lesions</strong></li>
+</ul>
+<p><a href="http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443" class="uri">http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443</a></p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUEJQYXRoIEpvdXJuYWwgV2F0Y2giCm91dHB1dDoKICBwZGZfZG9jdW1lbnQ6CiAgICB0b2M6IHllcwogIGh0bWxfbm90ZWJvb2s6CiAgICBjb2RlX2ZvbGRpbmc6IGhpZGUKICAgIGZpZ19jYXB0aW9uOiB5ZXMKICAgIGhpZ2hsaWdodDoga2F0ZQogICAgdGhlbWU6IHBhcGVyCiAgICB0b2M6IHllcwogICAgdG9jX2Zsb2F0OiB5ZXMKICBodG1sX2RvY3VtZW50OgogICAgZGZfcHJpbnQ6IGthYmxlCiAgICB0b2M6IHllcwpkYXRlOiAnYHIgZm9ybWF0KFN5cy5EYXRlKCkpYCcKc3VidGl0bGU6IFRvcCBBcnRpY2xlcwotLS0KCgpbIVtdKGh0dHA6Ly9wYnBhdGgub3JnL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE3LzA1L2Nyb3BwZWQtUEJQX2hlYWRlcl9sb2dvX3ZlY3Rvcl9saWdodGVyLTEuanBnKV0oaHR0cDovL3BicGF0aC5vcmcvKQoKCi0tLQoKLSAqKkxpcXVpZCBCaW9wc2llcyBmb3IgTWFuYWdlbWVudCBvZiBQYW5jcmVhdGljIENhbmNlcioqCgpodHRwczovL3d3dy5zY2llbmNlZGlyZWN0LmNvbS9zY2llbmNlL2FydGljbGUvcGlpL1MxOTMxNTI0NDE4MzAxMDk5CgotLS0KCgotICoqQ2FuY2VyIGltbXVub3BoZW5vdHlwaW5nIGJ5IDcgY29sb3VyIG11bHRpc3BlY3RyYWwgaW1hZ2luZyB3aXRob3V0IHR5cmFtaWRlIHNpZ25hbCBhbXBsaWZpY2F0aW9uKioKCgpodHRwczovL29ubGluZWxpYnJhcnkud2lsZXkuY29tL2RvaS9wZGYvMTAuMTAwMi9janAyLjExMwoKCgo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUEJQYXRoIEpvdXJuYWwgV2F0Y2giCm91dHB1dDoKICBwZGZfZG9jdW1lbnQ6CiAgICB0b2M6IHllcwogIGh0bWxfbm90ZWJvb2s6CiAgICBjb2RlX2ZvbGRpbmc6IGhpZGUKICAgIGZpZ19jYXB0aW9uOiB5ZXMKICAgIGhpZ2hsaWdodDoga2F0ZQogICAgdGhlbWU6IHBhcGVyCiAgICB0b2M6IHllcwogICAgdG9jX2Zsb2F0OiB5ZXMKICBodG1sX2RvY3VtZW50OgogICAgZGZfcHJpbnQ6IGthYmxlCiAgICB0b2M6IHllcwpkYXRlOiAnYHIgZm9ybWF0KFN5cy5EYXRlKCkpYCcKc3VidGl0bGU6IFRvcCBBcnRpY2xlcwotLS0KCgpbIVtdKGh0dHA6Ly9wYnBhdGgub3JnL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE3LzA1L2Nyb3BwZWQtUEJQX2hlYWRlcl9sb2dvX3ZlY3Rvcl9saWdodGVyLTEuanBnKV0oaHR0cDovL3BicGF0aC5vcmcvKQoKCi0tLQoKLSAqKkxpcXVpZCBCaW9wc2llcyBmb3IgTWFuYWdlbWVudCBvZiBQYW5jcmVhdGljIENhbmNlcioqCgpodHRwczovL3d3dy5zY2llbmNlZGlyZWN0LmNvbS9zY2llbmNlL2FydGljbGUvcGlpL1MxOTMxNTI0NDE4MzAxMDk5CgotLS0KCgotICoqQ2FuY2VyIGltbXVub3BoZW5vdHlwaW5nIGJ5IDcgY29sb3VyIG11bHRpc3BlY3RyYWwgaW1hZ2luZyB3aXRob3V0IHR5cmFtaWRlIHNpZ25hbCBhbXBsaWZpY2F0aW9uKioKCgpodHRwczovL29ubGluZWxpYnJhcnkud2lsZXkuY29tL2RvaS9wZGYvMTAuMTAwMi9janAyLjExMwoKCi0tLQoKLSAqKkVVUy1HdWlkZWQgRW5oYW5jZWQgSW1hZ2luZyBhbmQgU2FtcGxpbmcgb2YgTmVvcGxhc3RpYyBQYW5jcmVhdGljIEN5c3RzKioKCmh0dHBzOi8vbGluay5zcHJpbmdlci5jb20vY2hhcHRlci8xMC4xMDA3Lzk3OC0zLTMxOS05NzM3Ni0wXzEyCgoKCi0tLQoKLSAqKkhpc3RvbG9naWMgcmV0cmlldmFsIHJhdGUgb2YgYSBuZXdseSBkZXNpZ25lZCBzaWRlLWJldmVsbGVkIDIwRyBuZWVkbGUgZm9yIEVVUy1ndWlkZWQgdGlzc3VlIGFjcXVpc2l0aW9uIG9mIHNvbGlkIHBhbmNyZWF0aWMgbGVzaW9ucyoqCiAgICAKaHR0cDovL2pvdXJuYWxzLnNhZ2VwdWIuY29tL2RvaS9wZGYvMTAuMTE3Ny8yMDUwNjQwNjE4ODA0NDQzCgoKCgoK</div>
 
 
 </div>

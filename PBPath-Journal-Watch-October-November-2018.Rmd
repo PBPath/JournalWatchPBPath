@@ -5333,13 +5333,6 @@ https://onlinelibrary.wiley.com/doi/10.1002/jso.25231
 
 ---
 
-- **Abnormal Immunolabeling of SMAD4 in Cell Block Specimens Distinguish Malignant and Benign Pancreatic Cells**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12653
-
-
-
----
 
 ```{r 30308535, include=FALSE}
 
@@ -5381,42 +5374,71 @@ Sys.sleep(1)
 
 </details>
 
----
 
-- **EUS-Guided Enhanced Imaging and Sampling of Neoplastic Pancreatic Cysts**
 
-https://link.springer.com/chapter/10.1007/978-3-319-97376-0_12
 
----
-
-- **Pancreatic mixed acinar‐neuroendocrine carcinoma, a unique diagnostic challenge on FNA cytology: A small series of two cases with literature review**
-    
-https://onlinelibrary.wiley.com/doi/abs/10.1002/dc.23981
-
----
-
-- **Histologic retrieval rate of a newly designed side-bevelled 20G needle for EUS-guided tissue acquisition of solid pancreatic lesions**
-    
-http://journals.sagepub.com/doi/pdf/10.1177/2050640618804443
 
 
 ---
 
     
 - **Pancreaticobiliary cytopathology: an update**
-    
+
+Diagnostic Histopathology Volume 24, Issue 10, October 2018, Pages 397-408
+
 https://www.sciencedirect.com/science/article/pii/S1756231718301397
 
 
----
-
-- **Reclassification of lesions in biopsies by fine-needle aspiration of pancreas and biliary tree using Papanicolaou classification**
-
-
-http://jgo.amegroups.com/article/view/22469/html
-
 
 ---
+
+```{r 30505584, include=FALSE}
+
+PMID_30505584 <- RefManageR::ReadPubMed('30505584', database = 'PubMed')
+
+citation_30505584 <- paste0(PMID_30505584$journal,' ', PMID_30505584$year, ' ', PMID_30505584$month,';', PMID_30505584$volume,'(', PMID_30505584$number,'):', PMID_30505584$pages)
+
+PubMed_30505584 <- paste0(PubMedString, PMID_30505584$eprint)
+
+doi_30505584 <- paste0(doiString, PMID_30505584$doi)
+
+dimensionBadge_30505584 <- paste0(dimensionString1, PMID_30505584$doi,dimensionString2)
+
+altmetricBadge_30505584 <- paste0(altmetricString1, PMID_30505584$doi, altmetricString2 )
+
+addthis_inline_30505584 <- paste0(addthis_String1, PMID_30505584$title , " PMID: 30505584 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30505584$title`**
+</summary> 
+
+*`r citation_30505584`*
+
+`r PubMed_30505584`
+
+`r addthis_inline_30505584`
+
+`r PMID_30505584$abstract`
+
+<!-- `r doi_30505584` -->
+
+`r dimensionBadge_30505584`
+
+`r altmetricBadge_30505584`
+
+</details>
+
+---
+
+
+
+
+
 
 ```{r 30421464, include=FALSE}
 
@@ -5458,14 +5480,12 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
-    
-https://www.sciencedirect.com/science/article/pii/S1424390318306859
 
 
 ---
+
+
+
 
 ```{r 30479026, include=FALSE}
 
@@ -6058,11 +6078,52 @@ Sys.sleep(1)
 ```
 
 
+
 ---
 
-- **TP63-Mediated Enhancer Reprogramming Drives the Squamous Subtype of Pancreatic Ductal Adenocarcinoma**
+```{r 30428345, include=FALSE}
 
-https://www.sciencedirect.com/science/article/pii/S2211124718316401
+PMID_30428345 <- RefManageR::ReadPubMed('30428345', database = 'PubMed')
+
+citation_30428345 <- paste0(PMID_30428345$journal,' ', PMID_30428345$year, ' ', PMID_30428345$month,';', PMID_30428345$volume,'(', PMID_30428345$number,'):', PMID_30428345$pages)
+
+PubMed_30428345 <- paste0(PubMedString, PMID_30428345$eprint)
+
+doi_30428345 <- paste0(doiString, PMID_30428345$doi)
+
+dimensionBadge_30428345 <- paste0(dimensionString1, PMID_30428345$doi,dimensionString2)
+
+altmetricBadge_30428345 <- paste0(altmetricString1, PMID_30428345$doi, altmetricString2 )
+
+addthis_inline_30428345 <- paste0(addthis_String1, PMID_30428345$title , " PMID: 30428345 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30428345$title`**
+</summary> 
+
+*`r citation_30428345`*
+
+`r PubMed_30428345`
+
+`r addthis_inline_30428345`
+
+`r PMID_30428345$abstract`
+
+<!-- `r doi_30428345` -->
+
+`r dimensionBadge_30428345`
+
+`r altmetricBadge_30428345`
+
+</details>
+
+---
+
 
 
 
