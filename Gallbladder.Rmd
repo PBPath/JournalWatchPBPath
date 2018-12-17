@@ -150,4 +150,145 @@ Sys.sleep(1)
 
 
 
+---
+
+- **Intracystic Papillary Neoplasm of the Gallbladder Arising from a Localized Adenomyomatous Hyperplasia**
+
+
+https://www.kjpbt.org/upload/pdf/kpba-23-4-182.pdf
+
+
+
+
+---
+
+- **Differential diagnosis of gallbladder ascariasis debris: the added value of contrast enhanced ultrasound with high frequency transducer**
+
+https://www.researchgate.net/publication/328763772_Differential_diagnosis_of_gallbladder_ascariasis_debris_the_added_value_of_contrast_enhanced_ultrasound_with_high_frequency_transducer
+
+---
+
+- **Diffuse Intracystic Papillary Neoplasm Indistinguishable from Gallbladder Cancer: A Case Report**
+
+https://www.jstage.jst.go.jp/article/twmuj/advpub/0/advpub_2018006/_pdf
+
+---
+
+- **Five year experience of gallbladder polyp surveillance and cost effective analysis against new European consensus guidelines**
+
+https://www.sciencedirect.com/science/article/abs/pii/S1365182X18344873
+
+
+
+---
+
+- **Intracholecystic papillary-tubular neoplasm in a patient with choledochal cyst and anomalous pancreaticobiliary junction: case report**
+    
+https://www.birpublications.org/doi/pdfplus/10.1259/bjrcr.20180079
+
+
+
+
+---
+    
+- **A case report of intracholecystic papillary neoplasm of the gallbladder resembling a submucosal tumor**
+    
+https://link.springer.com/article/10.1186/s40792-018-0524-2
+
+
+---
+    
+- **Outcomes of surgical resection of gallbladder cancer in patients presenting with jaundice: A systematic review and meta‐analysis**
+    
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25186
+
+
+
+
+```{r 30285068, include=FALSE}
+
+PMID_30285068 <- RefManageR::ReadPubMed('30285068', database = 'PubMed')
+
+citation_30285068 <- paste0(PMID_30285068$journal,' ', PMID_30285068$year, ' ', PMID_30285068$month,';', PMID_30285068$volume,'(', PMID_30285068$number,'):', PMID_30285068$pages)
+
+PubMed_30285068 <- paste0(PubMedString, PMID_30285068$eprint)
+
+doi_30285068 <- paste0(doiString, PMID_30285068$doi)
+
+dimensionBadge_30285068 <- paste0(dimensionString1, PMID_30285068$doi,dimensionString2)
+
+altmetricBadge_30285068 <- paste0(altmetricString1, PMID_30285068$doi, altmetricString2 )
+
+addthis_inline_30285068 <- paste0(addthis_String1, PMID_30285068$title , " PMID: 30285068 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30285068$title`**
+</summary> 
+
+*`r citation_30285068`*
+
+`r PubMed_30285068`
+
+`r addthis_inline_30285068`
+
+`r PMID_30285068$abstract`
+
+<!-- `r doi_30285068` -->
+
+`r dimensionBadge_30285068`
+
+`r altmetricBadge_30285068`
+
+</details>
+
+
+
+
+
+```{r 29391332, include=FALSE}
+
+PMID_29391332 <- RefManageR::ReadPubMed('29391332', database = 'PubMed')
+
+citation_29391332 <- paste0(PMID_29391332$journal,' ', PMID_29391332$year, ' ', PMID_29391332$month,';', PMID_29391332$volume,'(', PMID_29391332$number,'):', PMID_29391332$pages)
+
+PubMed_29391332 <- paste0(PubMedString, PMID_29391332$eprint)
+
+doi_29391332 <- paste0(doiString, PMID_29391332$doi)
+
+dimensionBadge_29391332 <- paste0(dimensionString1, PMID_29391332$doi,dimensionString2)
+
+altmetricBadge_29391332 <- paste0(altmetricString1, PMID_29391332$doi, altmetricString2 )
+
+addthis_inline_29391332 <- paste0(addthis_String1, PMID_29391332$title , " PMID: 29391332 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29391332$title`**
+</summary> 
+
+*`r citation_29391332`*
+
+`r PubMed_29391332`
+
+`r addthis_inline_29391332`
+
+`r PMID_29391332$abstract`
+
+<!-- `r doi_29391332` -->
+
+`r dimensionBadge_29391332`
+
+`r altmetricBadge_29391332`
+
+</details>
+
+
+
 

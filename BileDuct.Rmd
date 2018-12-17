@@ -17,3 +17,114 @@ output:
 
 [![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)](http://pbpath.org/)
 
+
+
+
+---
+
+- **Pancreatic-Type Mixed Acinar Neuroendocrine Carcinoma Arising in the Common Bile Duct: A Case Report**
+
+https://journals.lww.com/pathologycasereviews/Abstract/2018/11000/Pancreatic_Type_Mixed_Acinar_Neuroendocrine.6.aspx
+
+
+
+    
+- **When the immune system is away biliary cancer cells may come back to play**
+    
+https://www.researchgate.net/publication/328293566_When_the_immune_system_is_away_biliary_cancer_cells_may_come_back_to_play
+
+
+
+    
+- **Surgical resection of lymph node positive intrahepatic cholangiocarcinoma may not improve survival**
+    
+https://www.sciencedirect.com/science/article/pii/S1365182X18339352
+
+
+
+```{r 30288652, include=FALSE}
+
+PMID_30288652 <- RefManageR::ReadPubMed('30288652', database = 'PubMed')
+
+citation_30288652 <- paste0(PMID_30288652$journal,' ', PMID_30288652$year, ' ', PMID_30288652$month,';', PMID_30288652$volume,'(', PMID_30288652$number,'):', PMID_30288652$pages)
+
+PubMed_30288652 <- paste0(PubMedString, PMID_30288652$eprint)
+
+doi_30288652 <- paste0(doiString, PMID_30288652$doi)
+
+dimensionBadge_30288652 <- paste0(dimensionString1, PMID_30288652$doi,dimensionString2)
+
+altmetricBadge_30288652 <- paste0(altmetricString1, PMID_30288652$doi, altmetricString2 )
+
+addthis_inline_30288652 <- paste0(addthis_String1, PMID_30288652$title , " PMID: 30288652 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30288652$title`**
+</summary> 
+
+*`r citation_30288652`*
+
+`r PubMed_30288652`
+
+`r addthis_inline_30288652`
+
+`r PMID_30288652$abstract`
+
+<!-- `r doi_30288652` -->
+
+`r dimensionBadge_30288652`
+
+`r altmetricBadge_30288652`
+
+</details>
+
+
+
+
+
+```{r 29751883, include=FALSE}
+
+PMID_29751883 <- RefManageR::ReadPubMed('29751883', database = 'PubMed')
+
+citation_29751883 <- paste0(PMID_29751883$journal,' ', PMID_29751883$year, ' ', PMID_29751883$month,';', PMID_29751883$volume,'(', PMID_29751883$number,'):', PMID_29751883$pages)
+
+PubMed_29751883 <- paste0(PubMedString, PMID_29751883$eprint)
+
+doi_29751883 <- paste0(doiString, PMID_29751883$doi)
+
+dimensionBadge_29751883 <- paste0(dimensionString1, PMID_29751883$doi,dimensionString2)
+
+altmetricBadge_29751883 <- paste0(altmetricString1, PMID_29751883$doi, altmetricString2 )
+
+addthis_inline_29751883 <- paste0(addthis_String1, PMID_29751883$title , " PMID: 29751883 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29751883$title`**
+</summary> 
+
+*`r citation_29751883`*
+
+`r PubMed_29751883`
+
+`r addthis_inline_29751883`
+
+`r PMID_29751883$abstract`
+
+<!-- `r doi_29751883` -->
+
+`r dimensionBadge_29751883`
+
+`r altmetricBadge_29751883`
+
+</details>
+
+
+

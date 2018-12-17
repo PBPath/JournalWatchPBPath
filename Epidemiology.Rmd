@@ -1,0 +1,408 @@
+---
+title: "Epidemiology"
+output: html_notebook
+---
+
+#### Epidemiology, Screening, Cancer Risk Factors
+
+
+```{r Pancreas Epidemiology Screening Cancer Risk Factors, eval=FALSE, include=FALSE}
+```
+
+
+
+
+
+- **High prevalence of Hereditary Cancer Syndromes and Outcomes in Adults with Early-Onset Pancreatic Cancer**
+    
+http://cancerpreventionresearch.aacrjournals.org/content/early/2018/09/29/1940-6207.CAPR-18-0014
+
+
+
+
+---
+
+- **Identification of Cystic Lesions by Secondary Screening of Familial Pancreatic Cancer (FPC) Kindreds Is Not Associated with the Stratified Risk of Cancer**
+    
+https://www.nature.com/articles/s41395-018-0395-y
+
+
+
+---
+
+- **Coffee and pancreatic cancer risk among never‐smokers in the UK prospective Million Women Study**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/ijc.31994
+
+---
+
+- **Screening and surveillance in hereditary gastrointestinal cancers: Recommendations from the European Society of Digestive Oncology (ESDO) expert discussion at the 20th European Society for Medical Oncology (ESMO)/World Congress on Gastrointestinal Cancer, Barcelona, June 2018**
+    
+https://www.sciencedirect.com/science/article/pii/S0959804918313741
+
+---
+
+- **Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches: Autoimmune diseases and pancreatic cancer risk**
+    
+https://www.researchgate.net/publication/327754246_Pancreatic_cancer_and_autoimmune_diseases_An_association_sustained_by_computational_and_epidemiological_case-control_approaches_Autoimmune_diseases_and_pancreatic_cancer_risk
+
+
+---
+
+```{r 30448085, include=FALSE}
+
+PMID_30448085 <- RefManageR::ReadPubMed('30448085', database = 'PubMed')
+
+citation_30448085 <- paste0(PMID_30448085$journal,' ', PMID_30448085$year, ' ', PMID_30448085$month,';', PMID_30448085$volume,'(', PMID_30448085$number,'):', PMID_30448085$pages)
+
+PubMed_30448085 <- paste0(PubMedString, PMID_30448085$eprint)
+
+doi_30448085 <- paste0(doiString, PMID_30448085$doi)
+
+dimensionBadge_30448085 <- paste0(dimensionString1, PMID_30448085$doi,dimensionString2)
+
+altmetricBadge_30448085 <- paste0(altmetricString1, PMID_30448085$doi, altmetricString2 )
+
+addthis_inline_30448085 <- paste0(addthis_String1, PMID_30448085$title , " PMID: 30448085 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30448085$title`**
+</summary> 
+
+*`r citation_30448085`*
+
+`r PubMed_30448085`
+
+`r addthis_inline_30448085`
+
+`r PMID_30448085$abstract`
+
+<!-- `r doi_30448085` -->
+
+`r dimensionBadge_30448085`
+
+`r altmetricBadge_30448085`
+
+</details>
+
+
+
+---
+
+- **Evaluating Susceptibility to Pancreatic Cancer: ASCO Provisional Clinical Opinion**
+
+http://ascopubs.org/doi/abs/10.1200/JCO.18.01489
+
+
+---
+
+```{r 30477640, include=FALSE}
+
+PMID_30477640 <- RefManageR::ReadPubMed('30477640', database = 'PubMed')
+
+citation_30477640 <- paste0(PMID_30477640$journal,' ', PMID_30477640$year, ' ', PMID_30477640$month,';', PMID_30477640$volume,'(', PMID_30477640$number,'):', PMID_30477640$pages)
+
+PubMed_30477640 <- paste0(PubMedString, PMID_30477640$eprint)
+
+doi_30477640 <- paste0(doiString, PMID_30477640$doi)
+
+dimensionBadge_30477640 <- paste0(dimensionString1, PMID_30477640$doi,dimensionString2)
+
+altmetricBadge_30477640 <- paste0(altmetricString1, PMID_30477640$doi, altmetricString2 )
+
+addthis_inline_30477640 <- paste0(addthis_String1, PMID_30477640$title , " PMID: 30477640 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30477640$title`**
+</summary> 
+
+*`r citation_30477640`*
+
+`r PubMed_30477640`
+
+`r addthis_inline_30477640`
+
+`r PMID_30477640$abstract`
+
+<!-- `r doi_30477640` -->
+
+`r dimensionBadge_30477640`
+
+`r altmetricBadge_30477640`
+
+</details>
+
+---
+
+```{r 30353057, include=FALSE}
+
+PMID_30353057 <- RefManageR::ReadPubMed('30353057', database = 'PubMed')
+
+citation_30353057 <- paste0(PMID_30353057$journal,' ', PMID_30353057$year, ' ', PMID_30353057$month,';', PMID_30353057$volume,'(', PMID_30353057$number,'):', PMID_30353057$pages)
+
+PubMed_30353057 <- paste0(PubMedString, PMID_30353057$eprint)
+
+doi_30353057 <- paste0(doiString, PMID_30353057$doi)
+
+dimensionBadge_30353057 <- paste0(dimensionString1, PMID_30353057$doi,dimensionString2)
+
+altmetricBadge_30353057 <- paste0(altmetricString1, PMID_30353057$doi, altmetricString2 )
+
+addthis_inline_30353057 <- paste0(addthis_String1, PMID_30353057$title , " PMID: 30353057 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30353057$title`**
+</summary> 
+
+*`r citation_30353057`*
+
+`r PubMed_30353057`
+
+`r addthis_inline_30353057`
+
+`r PMID_30353057$abstract`
+
+<!-- `r doi_30353057` -->
+
+`r dimensionBadge_30353057`
+
+`r altmetricBadge_30353057`
+
+</details>
+
+
+---
+
+```{r 29395269, include=FALSE}
+
+PMID_29395269 <- RefManageR::ReadPubMed('29395269', database = 'PubMed')
+
+citation_29395269 <- paste0(PMID_29395269$journal,' ', PMID_29395269$year, ' ', PMID_29395269$month,';', PMID_29395269$volume,'(', PMID_29395269$number,'):', PMID_29395269$pages)
+
+PubMed_29395269 <- paste0(PubMedString, PMID_29395269$eprint)
+
+doi_29395269 <- paste0(doiString, PMID_29395269$doi)
+
+dimensionBadge_29395269 <- paste0(dimensionString1, PMID_29395269$doi,dimensionString2)
+
+altmetricBadge_29395269 <- paste0(altmetricString1, PMID_29395269$doi, altmetricString2 )
+
+addthis_inline_29395269 <- paste0(addthis_String1, PMID_29395269$title , " PMID: 29395269 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29395269$title`**
+</summary> 
+
+*`r citation_29395269`*
+
+`r PubMed_29395269`
+
+`r addthis_inline_29395269`
+
+`r PMID_29395269$abstract`
+
+<!-- `r doi_29395269` -->
+
+`r dimensionBadge_29395269`
+
+`r altmetricBadge_29395269`
+
+</details>
+
+
+---
+
+```{r 29395271, include=FALSE}
+
+PMID_29395271 <- RefManageR::ReadPubMed('29395271', database = 'PubMed')
+
+citation_29395271 <- paste0(PMID_29395271$journal,' ', PMID_29395271$year, ' ', PMID_29395271$month,';', PMID_29395271$volume,'(', PMID_29395271$number,'):', PMID_29395271$pages)
+
+PubMed_29395271 <- paste0(PubMedString, PMID_29395271$eprint)
+
+doi_29395271 <- paste0(doiString, PMID_29395271$doi)
+
+dimensionBadge_29395271 <- paste0(dimensionString1, PMID_29395271$doi,dimensionString2)
+
+altmetricBadge_29395271 <- paste0(altmetricString1, PMID_29395271$doi, altmetricString2 )
+
+addthis_inline_29395271 <- paste0(addthis_String1, PMID_29395271$title , " PMID: 29395271 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29395271$title`**
+</summary> 
+
+*`r citation_29395271`*
+
+`r PubMed_29395271`
+
+`r addthis_inline_29395271`
+
+`r PMID_29395271$abstract`
+
+<!-- `r doi_29395271` -->
+
+`r dimensionBadge_29395271`
+
+`r altmetricBadge_29395271`
+
+</details>
+
+
+---
+
+```{r 30315778, include=FALSE}
+
+PMID_30315778 <- RefManageR::ReadPubMed('30315778', database = 'PubMed')
+
+citation_30315778 <- paste0(PMID_30315778$journal,' ', PMID_30315778$year, ' ', PMID_30315778$month,';', PMID_30315778$volume,'(', PMID_30315778$number,'):', PMID_30315778$pages)
+
+PubMed_30315778 <- paste0(PubMedString, PMID_30315778$eprint)
+
+doi_30315778 <- paste0(doiString, PMID_30315778$doi)
+
+dimensionBadge_30315778 <- paste0(dimensionString1, PMID_30315778$doi,dimensionString2)
+
+altmetricBadge_30315778 <- paste0(altmetricString1, PMID_30315778$doi, altmetricString2 )
+
+addthis_inline_30315778 <- paste0(addthis_String1, PMID_30315778$title , " PMID: 30315778 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30315778$title`**
+</summary> 
+
+*`r citation_30315778`*
+
+`r PubMed_30315778`
+
+`r addthis_inline_30315778`
+
+`r PMID_30315778$abstract`
+
+<!-- `r doi_30315778` -->
+
+`r dimensionBadge_30315778`
+
+`r altmetricBadge_30315778`
+
+</details>
+
+
+---
+
+```{r 29521943, include=FALSE}
+
+PMID_29521943 <- RefManageR::ReadPubMed('29521943', database = 'PubMed')
+
+citation_29521943 <- paste0(PMID_29521943$journal,' ', PMID_29521943$year, ' ', PMID_29521943$month,';', PMID_29521943$volume,'(', PMID_29521943$number,'):', PMID_29521943$pages)
+
+PubMed_29521943 <- paste0(PubMedString, PMID_29521943$eprint)
+
+doi_29521943 <- paste0(doiString, PMID_29521943$doi)
+
+dimensionBadge_29521943 <- paste0(dimensionString1, PMID_29521943$doi,dimensionString2)
+
+altmetricBadge_29521943 <- paste0(altmetricString1, PMID_29521943$doi, altmetricString2 )
+
+addthis_inline_29521943 <- paste0(addthis_String1, PMID_29521943$title , " PMID: 29521943 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29521943$title`**
+</summary> 
+
+*`r citation_29521943`*
+
+`r PubMed_29521943`
+
+`r addthis_inline_29521943`
+
+`r PMID_29521943$abstract`
+
+<!-- `r doi_29521943` -->
+
+`r dimensionBadge_29521943`
+
+`r altmetricBadge_29521943`
+
+</details>
+
+
+---
+
+```{r 30417331, include=FALSE}
+
+PMID_30417331 <- RefManageR::ReadPubMed('30417331', database = 'PubMed')
+
+citation_30417331 <- paste0(PMID_30417331$journal,' ', PMID_30417331$year, ' ', PMID_30417331$month,';', PMID_30417331$volume,'(', PMID_30417331$number,'):', PMID_30417331$pages)
+
+PubMed_30417331 <- paste0(PubMedString, PMID_30417331$eprint)
+
+doi_30417331 <- paste0(doiString, PMID_30417331$doi)
+
+dimensionBadge_30417331 <- paste0(dimensionString1, PMID_30417331$doi,dimensionString2)
+
+altmetricBadge_30417331 <- paste0(altmetricString1, PMID_30417331$doi, altmetricString2 )
+
+addthis_inline_30417331 <- paste0(addthis_String1, PMID_30417331$title , " PMID: 30417331 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30417331$title`**
+</summary> 
+
+*`r citation_30417331`*
+
+`r PubMed_30417331`
+
+`r addthis_inline_30417331`
+
+`r PMID_30417331$abstract`
+
+<!-- `r doi_30417331` -->
+
+`r dimensionBadge_30417331`
+
+`r altmetricBadge_30417331`
+
+</details>
+
+
+---
+
+    
+- **A prospective clinical and biological database for pancreatic adenocarcinoma: the BACAP cohort**
+    
+    
+https://bmccancer.biomedcentral.com/articles/10.1186/s12885-018-4906-4
+

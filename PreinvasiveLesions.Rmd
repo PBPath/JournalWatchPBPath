@@ -17,3 +17,107 @@ output:
 
 [![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)](http://pbpath.org/)
 
+
+
+
+
+```{r 30269131, include=FALSE}
+
+PMID_30269131 <- RefManageR::ReadPubMed('30269131', database = 'PubMed')
+
+citation_30269131 <- paste0(PMID_30269131$journal,' ', PMID_30269131$year, ' ', PMID_30269131$month,';', PMID_30269131$volume,'(', PMID_30269131$number,'):', PMID_30269131$pages)
+
+PubMed_30269131 <- paste0(PubMedString, PMID_30269131$eprint)
+
+doi_30269131 <- paste0(doiString, PMID_30269131$doi)
+
+dimensionBadge_30269131 <- paste0(dimensionString1, PMID_30269131$doi,dimensionString2)
+
+altmetricBadge_30269131 <- paste0(altmetricString1, PMID_30269131$doi, altmetricString2 )
+
+addthis_inline_30269131 <- paste0(addthis_String1, PMID_30269131$title , " PMID: 30269131 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30269131$title`**
+</summary> 
+
+*`r citation_30269131`*
+
+`r PubMed_30269131`
+
+`r addthis_inline_30269131`
+
+`r PMID_30269131$abstract`
+
+<!-- `r doi_30269131` -->
+
+`r dimensionBadge_30269131`
+
+`r altmetricBadge_30269131`
+
+</details>
+
+
+
+
+---
+
+- **Clinical Management and Surgical Decision-Making of IPMN of the Pancreas**
+
+https://link.springer.com/protocol/10.1007/978-1-4939-8879-2_2
+
+
+
+---
+
+
+---
+
+- **An extremely rare case who underwent total remnant pancreatectomy due to recurrent pancreatic metastasis of intraductal tubulopapillary neoplasm**
+    
+https://link.springer.com/article/10.1007/s12328-018-0913-x
+
+
+
+---
+
+
+
+---
+
+- **Total Pancreatectomy for Presumed Intraductal Papillary Mucinous Neoplasms: A Multicentric Study of the French Surgical Association (AFC)**
+    
+https://journals.lww.com/annalsofsurgery/Abstract/2018/11000/Total_Pancreatectomy_for_Presumed_Intraductal.17.aspx
+
+
+
+---
+
+
+---
+
+- **Cystic tumors of the pancreas. An update of the surgical experience in a single institution**
+
+https://online.reed.es/DOI/PDF/ArticuloDOI_5798.pdf
+
+
+---
+
+
+---
+
+- **Pancreatic Cysts Sinister Findings or Incidentalomas?**
+
+https://www.medical.theclinics.com/article/S0025-7125(18)30095-6/fulltext
+
+
+---
+
+
+
+
+

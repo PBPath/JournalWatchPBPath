@@ -23,3 +23,50 @@ A preliminary study on fetal lung injury in a rat model of acute pancreatitis in
 https://www.ncbi.nlm.nih.gov/pubmed/29033186
 
 ---
+
+
+
+
+
+```{r 30315779, include=FALSE}
+
+PMID_30315779 <- RefManageR::ReadPubMed('30315779', database = 'PubMed')
+
+citation_30315779 <- paste0(PMID_30315779$journal,' ', PMID_30315779$year, ' ', PMID_30315779$month,';', PMID_30315779$volume,'(', PMID_30315779$number,'):', PMID_30315779$pages)
+
+PubMed_30315779 <- paste0(PubMedString, PMID_30315779$eprint)
+
+doi_30315779 <- paste0(doiString, PMID_30315779$doi)
+
+dimensionBadge_30315779 <- paste0(dimensionString1, PMID_30315779$doi,dimensionString2)
+
+altmetricBadge_30315779 <- paste0(altmetricString1, PMID_30315779$doi, altmetricString2 )
+
+addthis_inline_30315779 <- paste0(addthis_String1, PMID_30315779$title , " PMID: 30315779 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30315779$title`**
+</summary> 
+
+*`r citation_30315779`*
+
+`r PubMed_30315779`
+
+`r addthis_inline_30315779`
+
+`r PMID_30315779$abstract`
+
+<!-- `r doi_30315779` -->
+
+`r dimensionBadge_30315779`
+
+`r altmetricBadge_30315779`
+
+</details>
+
+
+
