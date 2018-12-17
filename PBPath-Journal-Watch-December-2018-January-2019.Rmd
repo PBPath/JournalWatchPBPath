@@ -33,103 +33,6 @@ subtitle: "December 2018 - January 2019"
 </script> 
 
 
-
-<!-- back to top -->
-
-<script>
-jQuery(document).ready(function() {
-    
-var offset = 220;
-var duration = 500;
-    
-jQuery(window).scroll(function() {
-      if (jQuery(this).scrollTop() > offset) {
-        jQuery('.back-to-top').fadeIn(duration);
-      } else {
-          jQuery('.back-to-top').fadeOut(duration);
-      }
-    });
-
-jQuery('.back-to-top').click(function(event) {
-      event.preventDefault();
-      jQuery('html, body').animate({scrollTop: 0}, duration);
-      return false;
-    })
-    
-  });
-</script>
-
-<style>
-  <!-- h1, h2, h3, h4, .TOC > li { -->
-  <!--   font-family : "Playfair Display", serif; -->
-  <!--   color: #b58863; -->
-  <!-- }  -->
-
-  <!-- a { -->
-  <!--   color: #b58863; -->
-  <!-- } -->
-
-  <!-- .level2 { -->
-  <!--   padding-top: 20px; -->
-  <!-- } -->
-
-.main-container {
-  max-width: 1800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  .back-to-top {
-    font-family : "Playfair Display", serif;
-    position: fixed;
-    bottom: 4em;
-    right: 0px;
-    text-decoration: none;
-    color : white;
-    background-color : red;
-    font-size: 16px;
-    padding: 1em;
-    display: none;
-  }
-  
-  .dont-break-out {
-
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-
-}
-
-  
-  <!-- .html-widget-static-bound { -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-
-  <!-- .main-container { -->
-  <!--   max-width: 700px; -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-  
-</style>
-<p><a href="#" class="back-to-top">Back to Top</a></p>
-
-<!-- line wrap -->
-
-
 <!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
 
 
@@ -1071,8 +974,50 @@ https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_
 https://www.sciencedirect.com/science/article/pii/S0002944018308551
 
 
+---
+
+```{r 30553775, include=FALSE}
+
+PMID_30553775 <- RefManageR::ReadPubMed('30553775', database = 'PubMed')
+
+citation_30553775 <- paste0(PMID_30553775$journal,' ', PMID_30553775$year, ' ', PMID_30553775$month,';', PMID_30553775$volume,'(', PMID_30553775$number,'):', PMID_30553775$pages)
+
+PubMed_30553775 <- paste0(PubMedString, PMID_30553775$eprint)
+
+doi_30553775 <- paste0(doiString, PMID_30553775$doi)
+
+dimensionBadge_30553775 <- paste0(dimensionString1, PMID_30553775$doi,dimensionString2)
+
+altmetricBadge_30553775 <- paste0(altmetricString1, PMID_30553775$doi, altmetricString2 )
+
+addthis_inline_30553775 <- paste0(addthis_String1, PMID_30553775$title , " PMID: 30553775 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
+
+<details open> <summary>
+- **`r PMID_30553775$title`**
+</summary> 
+
+*`r citation_30553775`*
+
+`r PubMed_30553775`
+
+`r addthis_inline_30553775`
+
+`r PMID_30553775$abstract`
+
+<!-- `r doi_30553775` -->
+
+`r dimensionBadge_30553775`
+
+`r altmetricBadge_30553775`
+
+</details>
+
+---
 
 
 
@@ -1579,6 +1524,52 @@ Sys.sleep(1)
 
 
 https://www.sciencedirect.com/science/article/pii/S0022480418307753
+
+
+---
+
+```{r 29573451, include=FALSE}
+
+PMID_29573451 <- RefManageR::ReadPubMed('29573451', database = 'PubMed')
+
+citation_29573451 <- paste0(PMID_29573451$journal,' ', PMID_29573451$year, ' ', PMID_29573451$month,';', PMID_29573451$volume,'(', PMID_29573451$number,'):', PMID_29573451$pages)
+
+PubMed_29573451 <- paste0(PubMedString, PMID_29573451$eprint)
+
+doi_29573451 <- paste0(doiString, PMID_29573451$doi)
+
+dimensionBadge_29573451 <- paste0(dimensionString1, PMID_29573451$doi,dimensionString2)
+
+altmetricBadge_29573451 <- paste0(altmetricString1, PMID_29573451$doi, altmetricString2 )
+
+addthis_inline_29573451 <- paste0(addthis_String1, PMID_29573451$title , " PMID: 29573451 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_29573451$title`**
+</summary> 
+
+*`r citation_29573451`*
+
+`r PubMed_29573451`
+
+`r addthis_inline_29573451`
+
+`r PMID_29573451$abstract`
+
+<!-- `r doi_29573451` -->
+
+`r dimensionBadge_29573451`
+
+`r altmetricBadge_29573451`
+
+</details>
+
+
 
 
 ---
@@ -2609,6 +2600,50 @@ Sys.sleep(1)
 [link](https://www.researchgate.net/publication/327877645_Rationale_and_feasibility_of_mucin_expression_profiling_by_qRT-PCR_as_diagnostic_biomarkers_in_cytology_specimens_of_pancreatic_cancer)
 
 
+---
+
+```{r 30552752, include=FALSE}
+
+PMID_30552752 <- RefManageR::ReadPubMed('30552752', database = 'PubMed')
+
+citation_30552752 <- paste0(PMID_30552752$journal,' ', PMID_30552752$year, ' ', PMID_30552752$month,';', PMID_30552752$volume,'(', PMID_30552752$number,'):', PMID_30552752$pages)
+
+PubMed_30552752 <- paste0(PubMedString, PMID_30552752$eprint)
+
+doi_30552752 <- paste0(doiString, PMID_30552752$doi)
+
+dimensionBadge_30552752 <- paste0(dimensionString1, PMID_30552752$doi,dimensionString2)
+
+altmetricBadge_30552752 <- paste0(altmetricString1, PMID_30552752$doi, altmetricString2 )
+
+addthis_inline_30552752 <- paste0(addthis_String1, PMID_30552752$title , " PMID: 30552752 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30552752$title`**
+</summary> 
+
+*`r citation_30552752`*
+
+`r PubMed_30552752`
+
+`r addthis_inline_30552752`
+
+`r PMID_30552752$abstract`
+
+<!-- `r doi_30552752` -->
+
+`r dimensionBadge_30552752`
+
+`r altmetricBadge_30552752`
+
+</details>
+
+---
 
 
 ---
@@ -3097,6 +3132,97 @@ http://clincancerres.aacrjournals.org/content/early/2018/12/11/1078-0432.CCR-18-
 
 
 https://www.sciencedirect.com/science/article/pii/S0002944018305571
+
+
+---
+
+```{r 30552236, include=FALSE}
+
+PMID_30552236 <- RefManageR::ReadPubMed('30552236', database = 'PubMed')
+
+citation_30552236 <- paste0(PMID_30552236$journal,' ', PMID_30552236$year, ' ', PMID_30552236$month,';', PMID_30552236$volume,'(', PMID_30552236$number,'):', PMID_30552236$pages)
+
+PubMed_30552236 <- paste0(PubMedString, PMID_30552236$eprint)
+
+doi_30552236 <- paste0(doiString, PMID_30552236$doi)
+
+dimensionBadge_30552236 <- paste0(dimensionString1, PMID_30552236$doi,dimensionString2)
+
+altmetricBadge_30552236 <- paste0(altmetricString1, PMID_30552236$doi, altmetricString2 )
+
+addthis_inline_30552236 <- paste0(addthis_String1, PMID_30552236$title , " PMID: 30552236 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30552236$title`**
+</summary> 
+
+*`r citation_30552236`*
+
+`r PubMed_30552236`
+
+`r addthis_inline_30552236`
+
+`r PMID_30552236$abstract`
+
+<!-- `r doi_30552236` -->
+
+`r dimensionBadge_30552236`
+
+`r altmetricBadge_30552236`
+
+</details>
+
+
+
+---
+
+```{r 30552237, include=FALSE}
+
+PMID_30552237 <- RefManageR::ReadPubMed('30552237', database = 'PubMed')
+
+citation_30552237 <- paste0(PMID_30552237$journal,' ', PMID_30552237$year, ' ', PMID_30552237$month,';', PMID_30552237$volume,'(', PMID_30552237$number,'):', PMID_30552237$pages)
+
+PubMed_30552237 <- paste0(PubMedString, PMID_30552237$eprint)
+
+doi_30552237 <- paste0(doiString, PMID_30552237$doi)
+
+dimensionBadge_30552237 <- paste0(dimensionString1, PMID_30552237$doi,dimensionString2)
+
+altmetricBadge_30552237 <- paste0(altmetricString1, PMID_30552237$doi, altmetricString2 )
+
+addthis_inline_30552237 <- paste0(addthis_String1, PMID_30552237$title , " PMID: 30552237 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30552237$title`**
+</summary> 
+
+*`r citation_30552237`*
+
+`r PubMed_30552237`
+
+`r addthis_inline_30552237`
+
+`r PMID_30552237$abstract`
+
+<!-- `r doi_30552237` -->
+
+`r dimensionBadge_30552237`
+
+`r altmetricBadge_30552237`
+
+</details>
+
+---
 
 
 
