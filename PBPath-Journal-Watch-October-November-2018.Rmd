@@ -451,6 +451,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 30256228, include=FALSE}
+
+PMID_30256228 <- RefManageR::ReadPubMed('30256228', database = 'PubMed')
+
+citation_30256228 <- paste0(PMID_30256228$journal,' ', PMID_30256228$year, ' ', PMID_30256228$month,';', PMID_30256228$volume,'(', PMID_30256228$number,'):', PMID_30256228$pages)
+
+PubMed_30256228 <- paste0(PubMedString, PMID_30256228$eprint)
+
+doi_30256228 <- paste0(doiString, PMID_30256228$doi)
+
+dimensionBadge_30256228 <- paste0(dimensionString1, PMID_30256228$doi,dimensionString2)
+
+altmetricBadge_30256228 <- paste0(altmetricString1, PMID_30256228$doi, altmetricString2 )
+
+addthis_inline_30256228 <- paste0(addthis_String1, PMID_30256228$title , " PMID: 30256228 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30256228$title`**
+</summary> 
+
+*`r citation_30256228`*
+
+`r PubMed_30256228`
+
+`r addthis_inline_30256228`
+
+`r PMID_30256228$abstract`
+
+<!-- `r doi_30256228` -->
+
+`r dimensionBadge_30256228`
+
+`r altmetricBadge_30256228`
+
+</details>
+
+---
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -1761,10 +1804,6 @@ Sys.sleep(1)
 ---
 
 \pagebreak
-
-
-
----
 
 
 ### Bile Ducts
@@ -3969,9 +4008,48 @@ Sys.sleep(1)
 
 </details>
 
+---
+
+```{r 30347425, include=FALSE}
+
+PMID_30347425 <- RefManageR::ReadPubMed('30347425', database = 'PubMed')
+
+citation_30347425 <- paste0(PMID_30347425$journal,' ', PMID_30347425$year, ' ', PMID_30347425$month,';', PMID_30347425$volume,'(', PMID_30347425$number,'):', PMID_30347425$pages)
+
+PubMed_30347425 <- paste0(PubMedString, PMID_30347425$eprint)
+
+doi_30347425 <- paste0(doiString, PMID_30347425$doi)
+
+dimensionBadge_30347425 <- paste0(dimensionString1, PMID_30347425$doi,dimensionString2)
+
+altmetricBadge_30347425 <- paste0(altmetricString1, PMID_30347425$doi, altmetricString2 )
+
+addthis_inline_30347425 <- paste0(addthis_String1, PMID_30347425$title , " PMID: 30347425 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
 
+<details open> <summary>
+- **`r PMID_30347425$title`**
+</summary> 
+
+*`r citation_30347425`*
+
+`r PubMed_30347425`
+
+`r addthis_inline_30347425`
+
+`r PMID_30347425$abstract`
+
+<!-- `r doi_30347425` -->
+
+`r dimensionBadge_30347425`
+
+`r altmetricBadge_30347425`
+
+</details>
 
 ---
 
@@ -4032,8 +4110,6 @@ Sys.sleep(1)
 `r altmetricBadge_30375181`
 
 </details>
-
----
 
 
 
@@ -4695,49 +4771,6 @@ Sys.sleep(1)
 </details>
 
 
-
-
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Pancreatitis & Other Diseases
-
-Molecular Studies on Pancreatitis & Other Diseases
-
-```{r Molecular Studies on Pancreatitis & Other Diseases, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 
@@ -4820,6 +4853,92 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Epithelial M
 ```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response Epithelial Mesenchymal Transition, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30416314, include=FALSE}
+
+PMID_30416314 <- RefManageR::ReadPubMed('30416314', database = 'PubMed')
+
+citation_30416314 <- paste0(PMID_30416314$journal,' ', PMID_30416314$year, ' ', PMID_30416314$month,';', PMID_30416314$volume,'(', PMID_30416314$number,'):', PMID_30416314$pages)
+
+PubMed_30416314 <- paste0(PubMedString, PMID_30416314$eprint)
+
+doi_30416314 <- paste0(doiString, PMID_30416314$doi)
+
+dimensionBadge_30416314 <- paste0(dimensionString1, PMID_30416314$doi,dimensionString2)
+
+altmetricBadge_30416314 <- paste0(altmetricString1, PMID_30416314$doi, altmetricString2 )
+
+addthis_inline_30416314 <- paste0(addthis_String1, PMID_30416314$title , " PMID: 30416314 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30416314$title`**
+</summary> 
+
+*`r citation_30416314`*
+
+`r PubMed_30416314`
+
+`r addthis_inline_30416314`
+
+`r PMID_30416314$abstract`
+
+<!-- `r doi_30416314` -->
+
+`r dimensionBadge_30416314`
+
+`r altmetricBadge_30416314`
+
+</details>
+
+---
+
+```{r 29980787, include=FALSE}
+
+PMID_29980787 <- RefManageR::ReadPubMed('29980787', database = 'PubMed')
+
+citation_29980787 <- paste0(PMID_29980787$journal,' ', PMID_29980787$year, ' ', PMID_29980787$month,';', PMID_29980787$volume,'(', PMID_29980787$number,'):', PMID_29980787$pages)
+
+PubMed_29980787 <- paste0(PubMedString, PMID_29980787$eprint)
+
+doi_29980787 <- paste0(doiString, PMID_29980787$doi)
+
+dimensionBadge_29980787 <- paste0(dimensionString1, PMID_29980787$doi,dimensionString2)
+
+altmetricBadge_29980787 <- paste0(altmetricString1, PMID_29980787$doi, altmetricString2 )
+
+addthis_inline_29980787 <- paste0(addthis_String1, PMID_29980787$title , " PMID: 29980787 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_29980787$title`**
+</summary> 
+
+*`r citation_29980787`*
+
+`r PubMed_29980787`
+
+`r addthis_inline_29980787`
+
+`r PMID_29980787$abstract`
+
+<!-- `r doi_29980787` -->
+
+`r dimensionBadge_29980787`
+
+`r altmetricBadge_29980787`
+
+</details>
 
 ---
 
@@ -5915,6 +6034,19 @@ Sys.sleep(1)
 
 
 
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
+
+
 ### Bile Ducts
 
 ```{r M Bile Ducts, eval=FALSE, include=FALSE}
@@ -6695,6 +6827,50 @@ Sys.sleep(1)
 ```{r Molecular Studies, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30355799, include=FALSE}
+
+PMID_30355799 <- RefManageR::ReadPubMed('30355799', database = 'PubMed')
+
+citation_30355799 <- paste0(PMID_30355799$journal,' ', PMID_30355799$year, ' ', PMID_30355799$month,';', PMID_30355799$volume,'(', PMID_30355799$number,'):', PMID_30355799$pages)
+
+PubMed_30355799 <- paste0(PubMedString, PMID_30355799$eprint)
+
+doi_30355799 <- paste0(doiString, PMID_30355799$doi)
+
+dimensionBadge_30355799 <- paste0(dimensionString1, PMID_30355799$doi,dimensionString2)
+
+altmetricBadge_30355799 <- paste0(altmetricString1, PMID_30355799$doi, altmetricString2 )
+
+addthis_inline_30355799 <- paste0(addthis_String1, PMID_30355799$title , " PMID: 30355799 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30355799$title`**
+</summary> 
+
+*`r citation_30355799`*
+
+`r PubMed_30355799`
+
+`r addthis_inline_30355799`
+
+`r PMID_30355799$abstract`
+
+<!-- `r doi_30355799` -->
+
+`r dimensionBadge_30355799`
+
+`r altmetricBadge_30355799`
+
+</details>
+
 ---
 
 ```{r 30428345, include=FALSE}
@@ -6968,7 +7144,14 @@ Sys.sleep(1)
 
 </details>
 
+
 ---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
 
 
 
@@ -7466,7 +7649,15 @@ Sys.sleep(1)
 </details>
 
 
+
 ---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
 
 
 ### Techniques & Research Methods

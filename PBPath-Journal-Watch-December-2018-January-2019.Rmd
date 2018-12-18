@@ -142,24 +142,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **Pancreatic ductal adenocarcinoma harboring microsatellite instability / DNA mismatch repair deficiency. Towards personalized medicine.**
-
-https://www.sciencedirect.com/science/article/pii/S0960740418301245
-
-
----
-
-- **Pancreatic cancer arising in the remnant pancreas is not always a relapse of the preceding primary**
-
-https://www.researchgate.net/publication/329122741_Pancreatic_cancer_arising_in_the_remnant_pancreas_is_not_always_a_relapse_of_the_preceding_primary
-
----
-
-- **Undifferentiated carcinoma with osteoclast-like giant cells of pancreas A case report with review of the computed tomography findings**
-
-https://journals.lww.com/md-journal/Fulltext/2018/11300/Undifferentiated_carcinoma_with_osteoclast_like.100.aspx
 
 ---
 
@@ -252,15 +234,46 @@ Sys.sleep(1)
 
 ---
 
+```{r 30477643, include=FALSE}
+
+PMID_30477643 <- RefManageR::ReadPubMed('30477643', database = 'PubMed')
+
+citation_30477643 <- paste0(PMID_30477643$journal,' ', PMID_30477643$year, ' ', PMID_30477643$month,';', PMID_30477643$volume,'(', PMID_30477643$number,'):', PMID_30477643$pages)
+
+PubMed_30477643 <- paste0(PubMedString, PMID_30477643$eprint)
+
+doi_30477643 <- paste0(doiString, PMID_30477643$doi)
+
+dimensionBadge_30477643 <- paste0(dimensionString1, PMID_30477643$doi,dimensionString2)
+
+altmetricBadge_30477643 <- paste0(altmetricString1, PMID_30477643$doi, altmetricString2 )
+
+addthis_inline_30477643 <- paste0(addthis_String1, PMID_30477643$title , " PMID: 30477643 " , addthis_String2)
+
+Sys.sleep(1)
 
 
-- **Prognostic significance of the degree of lymphatic vessel invasion in locally advanced, surgically resectable pancreatic head cancer**
+```
 
+<details open> <summary>
+- **`r PMID_30477643$title`**
+</summary> 
 
-https://journals.lww.com/md-journal/Fulltext/2018/12070/Prognostic_significance_of_the_degree_of_lymphatic.68.aspx
+*`r citation_30477643`*
 
+`r PubMed_30477643`
 
+`r addthis_inline_30477643`
 
+`r PMID_30477643$abstract`
+
+<!-- `r doi_30477643` -->
+
+`r dimensionBadge_30477643`
+
+`r altmetricBadge_30477643`
+
+</details>
 
 
 
@@ -280,29 +293,6 @@ Pancreas TNM staging, Margins, Survival
 
 ```{r S Pancreas TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
-
----
-
-- **Clinico‐pathological features and survival of patients with malignant exocrine pancreatic neoplasms: The AC Camargo Cancer Center experience**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25312
-
-
-
-
----
-
-- **Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer: Adjuvant therapy for subcentimeter PDAC**
-
-
-https://www.researchgate.net/publication/329079327_Role_of_adjuvant_therapy_in_resected_stage_IA_subcentimeter_T1aT1b_pancreatic_cancer_Adjuvant_therapy_for_subcentimeter_PDAC
-
-
----
-
-- **International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer**
-
-[link](https://www.researchgate.net/profile/Matteo_De_Pastena/publication/328053361_International_Validation_of_the_Eighth_Edition_of_the_American_Joint_Committee_on_Cancer_AJCC_TNM_Staging_System_in_Patients_With_Resected_Pancreatic_Cancer/links/5bca125fa6fdcc03c7960174/International-Validation-of-the-Eighth-Edition-of-the-American-Joint-Committee-on-Cancer-AJCC-TNM-Staging-System-in-Patients-With-Resected-Pancreatic-Cancer.pdf)
 
 
 ---
@@ -429,16 +419,6 @@ Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 ```
 
 
----
-
-
-- **Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology**
-
-
-https://www.sciencedirect.com/science/article/pii/S0002944018301512
-
-
-
 
 
 ---
@@ -482,27 +462,6 @@ Sys.sleep(1)
 `r altmetricBadge_30499803`
 
 </details>
-
----
-
-- **Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma**
-
-https://www.researchgate.net/publication/329302661_Diagnostic_and_Prognostic_Impact_of_Neutrophil-to-Lymphocyte_Ratio_for_Intraductal_Papillary_Mucinous_Neoplasms_of_the_Pancreas_With_High-Grade_Dysplasia_and_Associated_Invasive_Carcinoma
-
-
----
-
-- **The efficacy and safety of endoscopic ultrasound-guided ablation of pancreatic cysts with alcohol and paclitaxel a systematic review**
-
-
-https://journals.lww.com/eurojgh/Abstract/2019/01000/The_efficacy_and_safety_of_endoscopic.1.aspx
-
-
----
-
-- **Intraductal papillary mucinous neoplasm complicated by a gastropancreatic fistula**
-
-https://www.sciencedirect.com/science/article/pii/S193004331830373X
 
 
 ---
@@ -594,16 +553,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **Risk of advanced lesions in patients with branch-duct IPMN and relative indications for surgery according to European evidence-based guidelines**
-
-
-https://www.sciencedirect.com/science/article/pii/S1590865818312672
-
-
-
-
 
 
 
@@ -622,18 +571,6 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response
 
 ```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
 ```
-
-
----
-
-- **The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment**
-
-
-https://www.sciencedirect.com/science/article/pii/S0002944018301561
-
-
-
-
 
 
 ---
@@ -682,11 +619,6 @@ Sys.sleep(1)
 </details>
 
 
----
-
-- **Immunosuppressive βig-h3 links tumour stroma and dysfunctional T cells in pancreatic cancer**
-
-https://gut.bmj.com/content/early/2018/12/07/gutjnl-2018-317735
 
 ---
 
@@ -776,6 +708,137 @@ Sys.sleep(1)
 
 </details>
 
+
+---
+
+```{r 30418798, include=FALSE}
+
+PMID_30418798 <- RefManageR::ReadPubMed('30418798', database = 'PubMed')
+
+citation_30418798 <- paste0(PMID_30418798$journal,' ', PMID_30418798$year, ' ', PMID_30418798$month,';', PMID_30418798$volume,'(', PMID_30418798$number,'):', PMID_30418798$pages)
+
+PubMed_30418798 <- paste0(PubMedString, PMID_30418798$eprint)
+
+doi_30418798 <- paste0(doiString, PMID_30418798$doi)
+
+dimensionBadge_30418798 <- paste0(dimensionString1, PMID_30418798$doi,dimensionString2)
+
+altmetricBadge_30418798 <- paste0(altmetricString1, PMID_30418798$doi, altmetricString2 )
+
+addthis_inline_30418798 <- paste0(addthis_String1, PMID_30418798$title , " PMID: 30418798 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30418798$title`**
+</summary> 
+
+*`r citation_30418798`*
+
+`r PubMed_30418798`
+
+`r addthis_inline_30418798`
+
+`r PMID_30418798$abstract`
+
+<!-- `r doi_30418798` -->
+
+`r dimensionBadge_30418798`
+
+`r altmetricBadge_30418798`
+
+</details>
+
+---
+
+```{r 30165049, include=FALSE}
+
+PMID_30165049 <- RefManageR::ReadPubMed('30165049', database = 'PubMed')
+
+citation_30165049 <- paste0(PMID_30165049$journal,' ', PMID_30165049$year, ' ', PMID_30165049$month,';', PMID_30165049$volume,'(', PMID_30165049$number,'):', PMID_30165049$pages)
+
+PubMed_30165049 <- paste0(PubMedString, PMID_30165049$eprint)
+
+doi_30165049 <- paste0(doiString, PMID_30165049$doi)
+
+dimensionBadge_30165049 <- paste0(dimensionString1, PMID_30165049$doi,dimensionString2)
+
+altmetricBadge_30165049 <- paste0(altmetricString1, PMID_30165049$doi, altmetricString2 )
+
+addthis_inline_30165049 <- paste0(addthis_String1, PMID_30165049$title , " PMID: 30165049 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30165049$title`**
+</summary> 
+
+*`r citation_30165049`*
+
+`r PubMed_30165049`
+
+`r addthis_inline_30165049`
+
+`r PMID_30165049$abstract`
+
+<!-- `r doi_30165049` -->
+
+`r dimensionBadge_30165049`
+
+`r altmetricBadge_30165049`
+
+</details>
+
+
+---
+
+```{r 30419209, include=FALSE}
+
+PMID_30419209 <- RefManageR::ReadPubMed('30419209', database = 'PubMed')
+
+citation_30419209 <- paste0(PMID_30419209$journal,' ', PMID_30419209$year, ' ', PMID_30419209$month,';', PMID_30419209$volume,'(', PMID_30419209$number,'):', PMID_30419209$pages)
+
+PubMed_30419209 <- paste0(PubMedString, PMID_30419209$eprint)
+
+doi_30419209 <- paste0(doiString, PMID_30419209$doi)
+
+dimensionBadge_30419209 <- paste0(dimensionString1, PMID_30419209$doi,dimensionString2)
+
+altmetricBadge_30419209 <- paste0(altmetricString1, PMID_30419209$doi, altmetricString2 )
+
+addthis_inline_30419209 <- paste0(addthis_String1, PMID_30419209$title , " PMID: 30419209 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30419209$title`**
+</summary> 
+
+*`r citation_30419209`*
+
+`r PubMed_30419209`
+
+`r addthis_inline_30419209`
+
+`r PMID_30419209$abstract`
+
+<!-- `r doi_30419209` -->
+
+`r dimensionBadge_30419209`
+
+`r altmetricBadge_30419209`
+
+</details>
+
 ---
 
 
@@ -812,19 +875,6 @@ Solid Pseudopapillary Neoplasm
 ```{r S Pancreas Analogue Tumors, eval=FALSE, include=FALSE}
 ```
 
----
-
-- **Primordial germ cells as a potential shared cell of origin for mucinous cystic neoplasms of the pancreas and mucinous ovarian tumors**
-
-https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_potential_shared_cell_of_origin_for_mucinous_cystic_neoplasms_of_the_pancreas_and_mucinous_ovarian_tumors
-
-
----
-
-
-- **Pancreatic Choristoma in a Canine Gallbladder**
-
-https://www.sciencedirect.com/science/article/pii/S0021997518302020
 
 
 ---
@@ -846,6 +896,8 @@ dimensionBadge_30525934 <- paste0(dimensionString1, PMID_30525934$doi,dimensionS
 altmetricBadge_30525934 <- paste0(altmetricString1, PMID_30525934$doi, altmetricString2 )
 
 addthis_inline_30525934 <- paste0(addthis_String1, PMID_30525934$title , " PMID: 30525934 " , addthis_String2)
+
+Sys.sleep(1)
 
 ```
 
@@ -869,8 +921,6 @@ addthis_inline_30525934 <- paste0(addthis_String1, PMID_30525934$title , " PMID:
 
 </details>
 
-
-Sys.sleep(1)
 
 ---
 
@@ -948,16 +998,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-
-- **Tumefactive Inflammatory Diseases of the Pancreas**
-
-
-https://www.sciencedirect.com/science/article/pii/S0002944018302025
-
-
-
 
 
 
@@ -977,12 +1017,6 @@ https://www.sciencedirect.com/science/article/pii/S0002944018302025
 ```{r S Bile Ducts, eval=FALSE, include=FALSE}
 ```
 
-
----
-
-- **Heterotopic chondroid tissue of the main bile duct mimicking Klatskin tumor: case report and review of the literature**
-
-https://link.springer.com/article/10.1007/s12328-018-00928-w
 
 
 ---
@@ -1028,15 +1062,6 @@ Sys.sleep(1)
 `r altmetricBadge_30520820`
 
 </details>
-
-
----
-
-
-- **Prognostic Significance of the Lymph Node Ratio in Surgical Patients With Distal Cholangiocarcinoma**
-
-
-https://www.sciencedirect.com/science/article/pii/S0022480418307753
 
 
 ---
@@ -1279,16 +1304,12 @@ Sys.sleep(1)
 
 ---
 
----
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
 
 \pagebreak
 
-
----
 
 ### Gallbladder
 
@@ -1349,31 +1370,6 @@ Sys.sleep(1)
 `r altmetricBadge_30488851`
 
 </details>
-
----
-
-- **Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations: Locality of Gallbladder Tumor Mutations**
-
-
-https://www.researchgate.net/publication/328947053_Regional_differences_in_gallbladder_cancer_pathogenesis_Insights_from_a_multi-institutional_comparison_of_tumor_mutations_Locality_of_Gallbladder_Tumor_Mutations
-
-
-
----
-
-
-- **Intracholecystic papillary-tubular neoplasm of the gallbladder originating in the cystic duct with extensive intraepithelial progress in the common bile duct**
-
-https://link.springer.com/article/10.1007/s12328-018-0927-4
-
-
----
-
-- **Distribution of dysplasia and cancer in the gallbladder: an analysis from a high cancer-risk population**
-
-https://www.sciencedirect.com/science/article/pii/S004681771830282X?dgcid=raven_sd_via_email
-
-
 
 ---
 
@@ -1523,12 +1519,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **National Failure of Surgical Staging for T1b Gallbladder Cancer**
-
-https://link.springer.com/article/10.1245/s10434-018-7064-7
-
 
 
 ---
@@ -1645,7 +1635,7 @@ Sys.sleep(1)
 
 ---
 
----
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -1706,7 +1696,7 @@ Sys.sleep(1)
 ---
 
 
----
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -1714,7 +1704,6 @@ Sys.sleep(1)
 
 \pagebreak
 
----
 
 ### Neuroendocrine
 
@@ -1768,24 +1757,6 @@ Sys.sleep(1)
 `r altmetricBadge_30497875`
 
 </details>
-
----
-
-- **A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal**
-
-
-https://www.nature.com/articles/s41379-018-0110-y
-
-
-
----
-
-- **Insulinoma-associated protein 1 immunostaining on cytology specimens: an institutional experience**
-
-
-https://www.sciencedirect.com/science/article/pii/S0046817718304350
-
-
 
 ---
 
@@ -1876,23 +1847,6 @@ Sys.sleep(1)
 
 </details>
 
-
----
-
-
-- **ATRX loss is an independent predictor of poor survival in pancreatic neuroendocrine tumors**
-
-
-https://www.sciencedirect.com/science/article/pii/S0046817718303009
-
-
----
-
-- **Neoplasms of the Neuroendocrine Pancreas An Update in the Classification, Definition, and Molecular Genetic Advances**
-
-https://journals.lww.com/anatomicpathology/Abstract/2019/01000/Neoplasms_of_the_Neuroendocrine_Pancreas___An.2.aspx
-
-
 ---
 
 
@@ -1937,15 +1891,6 @@ Sys.sleep(1)
 `r altmetricBadge_30531243`
 
 </details>
-
-
----
-
-- **Patterns of recurrence after resection for pancreatic neuroendocrine tumors: who, when, and where?**
-
-[link](https://www.researchgate.net/publication/329247683_Patterns_of_recurrence_after_resection_for_pancreatic_neuroendocrine_tumors_who_when_and_where)
-
-
 
 ---
 
@@ -2098,12 +2043,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **Touch imprint cytology on endoscopic ultrasound fine‐needle biopsy provides comparable sample quality and diagnostic yield to standard eus‐fna specimens in the evaluation of solid pancreatic lesions**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12662
-
 
 ---
 
@@ -2149,13 +2088,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-
-- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
-
-[link](https://www.researchgate.net/publication/327877645_Rationale_and_feasibility_of_mucin_expression_profiling_by_qRT-PCR_as_diagnostic_biomarkers_in_cytology_specimens_of_pancreatic_cancer)
-
 
 ---
 
@@ -2199,8 +2131,6 @@ Sys.sleep(1)
 `r altmetricBadge_30552752`
 
 </details>
-
----
 
 
 ---
@@ -2318,11 +2248,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22073
 
 
 ---
@@ -2386,31 +2311,6 @@ Sys.sleep(1)
 `r altmetricBadge_30487608`
 
 </details>
-
----
-
-- **Genetic assessment of recurrent pancreatic high-risk lesions in the remnant pancreas: Metachronous multifocal lesion or local recurrence?**
-
-https://www.sciencedirect.com/science/article/pii/S0039606018307402
-
-
----
-
-- **ROBO2 is a stroma suppressor gene in the pancreas and acts via TGF-β signalling**
-
-https://www.researchgate.net/publication/329324877_ROBO2_is_a_stroma_suppressor_gene_in_the_pancreas_and_acts_via_TGF-b_signalling
-
-
----
-
-- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
-
-December 2018Scientific Reports 8(1)
-
-DOI: 10.1038/s41598-018-26526-x
-
-
-https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
 
 
 ---
@@ -2674,22 +2574,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-
-- **Coordinately targeting cell cycle checkpoint functions in integrated models of pancreatic cancer**
-
-
-http://clincancerres.aacrjournals.org/content/early/2018/12/11/1078-0432.CCR-18-1620
-
-
----
-
-- **miRNA and Gene Expression in Pancreatic Ductal Adenocarcinoma**
-
-
-https://www.sciencedirect.com/science/article/pii/S0002944018305571
-
 
 ---
 
@@ -2880,13 +2764,6 @@ Molecular Techniques & Research Methods, Liquid Biopsy
 ---
 
 
-- **Circulating Tumor Cells and Cell-Free DNA in Pancreatic Ductal Adenocarcinoma**
-
-
-https://www.sciencedirect.com/science/article/pii/S0002944017311811
-
-
-
 
 
 ---
@@ -2937,8 +2814,6 @@ Sys.sleep(1)
 
 ---
 
----
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -2954,16 +2829,6 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
 ```
 
 ---
-
-
-- **GPER is a mechanoregulator of pancreatic stellate cells and the tumor microenvironment**
-
-
-http://embor.embopress.org/content/early/2018/12/06/embr.201846556
-
-
-
-
 
 
 
@@ -3026,14 +2891,6 @@ Solid Pseudopapillary Neoplasm
 
 
 ---
-
-- **Genetic alterations analysis in prognostic stratified groups identified TP53 and ARID1A as poor clinical performance markers in intrahepatic cholangiocarcinoma**
-
-December 2018Scientific Reports 8(1)
-
-DOI: 10.1038/s41598-018-25669-1
-
-https://www.researchgate.net/publication/325020651_Genetic_alterations_analysis_in_prognostic_stratified_groups_identified_TP53_and_ARID1A_as_poor_clinical_performance_markers_in_intrahepatic_cholangiocarcinoma
 
 ---
 
@@ -3155,12 +3012,6 @@ Sys.sleep(1)
 
 ---
 
-- **KRAS, NRAS and BRAF analysis of ampullary adenocarcinoma classified using CK7, CK20, MUC1 and MUC2**
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219964/
-
-
 
 ---
 
@@ -3223,273 +3074,6 @@ Sys.sleep(1)
 </details>
 
 
----
-
-## No Abstract yet {.tabset}
-
-No abstract yet, not in PubMed yet
-
-
-### Pancreas 
-
----
-
-- **Subtyping of intraductal papillary mucinous neoplasms – pitfalls of MUC1 immunohistochemistry**
-
-
-https://onlinelibrary.wiley.com/doi/abs/10.1111/apm.12900
-
-
-
-
----
-
-- **Overexpression of folate receptor alpha is an independent prognostic factor for outcomes of pancreatic cancer patients**
-
-https://link.springer.com/article/10.1007/s00795-018-0197-8
-
-
----
-
-
-- **Subcutaneous Inoculation of 3D Pancreatic Cancer Spheroids Results in Development of Reproducible Stroma-Rich Tumors**
-
-
-https://www.sciencedirect.com/science/article/pii/S1936523318304121
-
-
----
-
-Loss of TLR3 and its downstream signaling accelerates acinar cell damage in the acute phase of pancreatitis
-
-
-https://www.researchgate.net/publication/329674475_Loss_of_TLR3_and_its_downstream_signaling_accelerates_acinar_cell_damage_in_the_acute_phase_of_pancreatitis
-
-
----
-
-Prognostic Value of Metastatic Lymph Node Ratio in Pancreatic Cancer
-
-
-https://www.researchgate.net/publication/328541573_Prognostic_Value_of_Metastatic_Lymph_Node_Ratio_in_Pancreatic_Cancer
-
-
----
-
-
-The Actual Prevalence of Symptoms in Pancreatic Cystic Neoplasms: A Prospective Propensity Matched Cohort Analysis
-
-https://www.karger.com/Article/Abstract/495039
-
----
-
-
-Pancreatic cancer chemo-resistance is driven by tumor phenotype rather than tumor genotype
-
-https://www.heliyon.com/article/e01055/
-
----
-
-Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma
-
-https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Diagnostic_and_Prognostic_Impact_of.15.aspx
-
----
-
-
-DeltaNp63-dependent super enhancers define molecular identity in pancreatic cancer by an interconnected transcription factor network
-
-https://www.pnas.org/content/early/2018/12/11/1812915116.short
-
----
-
-Prognostic value of progesterone receptor in solid pseudopapillary neoplasm of the pancreas: evaluation of a pooled case series
-
-https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-018-0914-8
-
----
-
-Agnostic Pathway/Gene Set Analysis of Genome-Wide Association Data Identifies Associations for Pancreatic Cancer 
-
-https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djy155/5240954
-
-
----
-
-Familial Pancreatic Ductal Adenocarcinoma
-
-https://www.sciencedirect.com/science/article/pii/S0002944018302062
-
----
-
-Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology
-
-https://www.sciencedirect.com/science/article/pii/S0002944018301512
-
----
-
-Current Approaches to Pancreatic Cancer Screening
-
-https://www.sciencedirect.com/science/article/pii/S0002944018302529
-
----
-
-The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment
-
-https://www.sciencedirect.com/science/article/pii/S0002944018301561
-
----
-
-Development of a class prediction model to discriminate pancreatic ductal adenocarcinoma from pancreatic neuroendocrine tumor by MALDI mass spectrometry imaging
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/prca.201800046
-
----
-
-Tumefactive Inflammatory Diseases of the Pancreas
-
-https://www.sciencedirect.com/science/article/pii/S0002944018302025
-
----
-
-Therapeutic trends in pancreatic ductal adenocarcinoma (PDAC)
-
-https://www.tandfonline.com/doi/abs/10.1080/13543784.2019.1557145
-
-
----
-
-
-- **Silencing of MUC20 suppresses the malignant character of pancreatic ductal adenocarcinoma cells through inhibition of the HGF/MET pathway**
-
-
-Oncogene volume 37, pages 6041–6053 (2018) 
-
-https://www.nature.com/articles/s41388-018-0403-0
-
-
----
-
-- **Combating pancreatic cancer with PI3K pathway inhibitors in the era of personalised medicine**
-
-
-https://gut.bmj.com/content/early/2018/11/05/gutjnl-2018-316822
-
-
-
----
-
-- **The role of GLI-SOX2 signaling axis for gemcitabine resistance in pancreatic cancer**
-
-
-https://www.nature.com/articles/s41388-018-0553-0
-
-
----
-
-- **PIN1 maintains redox balance via the c-Myc/NRF2 axis to counteract Kras-induced mitochondrial respiratory injury in pancreatic cancer cells**
-
-
-http://cancerres.aacrjournals.org/content/canres/early/2018/10/24/0008-5472.CAN-18-1968.full.pdf
-
-
----
-    
-
-- **DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth**
-    
-https://gut.bmj.com/content/early/2018/10/20/gutjnl-2018-316128
-
-
-
-
----
-
-
-### Bile Ducts
-
----
-
-
-Intraductal Papillary Neoplasm of the Bile Duct: Assessment of Invasive Carcinoma and Long-Term Outcomes using MRI
-
-
-https://www.researchgate.net/publication/329664727_Intraductal_Papillary_Neoplasm_of_the_Bile_Duct_Assessment_of_Invasive_Carcinoma_and_Long-Term_Outcomes_using_MRI
-
-
----
-
-### Gallbladder
-
----
-
-
-- **MUC5B, CA9 and CLDN18 are potential theranostic markers of gallbladder carcinoma**
-
-
-https://onlinelibrary.wiley.com/doi/10.1111/his.13797
-
----
-
-
-- **Optimal Surgical Treatment in Patients with T1b Gallbladder Cancer: An International Multicenter Study**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/jhbp.593
-
-
-
-
-
----
-
-### Ampulla of Vater
-
----
-
-Identification of ampullary carcinoma mixed subtype using a panel of six antibodies and its clinical significance
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25311
-
----
-
-
-### Neuroendocrine
-
----
-
-Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
-
-https://www.sciencedirect.com/science/article/pii/S0039606018307475
-
----
-
-Serum chromogranin A for the diagnosis of gastroenteropancreatic neuroendocrine neoplasms and its association with tumour expression
-
-https://www.spandidos-publications.com/10.3892/ol.2018.9795
-
-
----
-
-Endoscopic Ultrasound Assessment of Pancreatic Duct Diameter Predicts Neuroendocrine Tumors and Other Pancreas Masses
-
-https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Endoscopic_Ultrasound_Assessment_of_Pancreatic.9.aspx
-
----
-
-The Molecular and Clinical Landscape of Pancreatic Neuroendocrine Tumors
-
-https://journals.lww.com/pancreasjournal/Abstract/2019/01000/The_Molecular_and_Clinical_Landscape_of_Pancreatic.2.aspx
-
----
-
-Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
-
-https://www.sciencedirect.com/science/article/pii/S0039606018307475
-
-
-## Others / Experimental Studies  {.tabset}
-
-
 
 ---
 
@@ -3498,6 +3082,11 @@ https://www.sciencedirect.com/science/article/pii/S0039606018307475
 ---
 
 \pagebreak
+
+## Others / Experimental Studies  {.tabset}
+
+
+
 
 
 
@@ -3509,16 +3098,6 @@ https://www.sciencedirect.com/science/article/pii/S0039606018307475
 
 
 ---
-
-- **Mass Spectrometry-Based Comprehensive Analysis of Pancreatic Cyst Fluids**
-
-https://www.hindawi.com/journals/bmri/2018/7169595/
-
----
-
-- **A “Clearer” View of Pancreatic Pathology A Review of Tissue Clearing and Advanced Microscopy Techniques**
-
-https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_of_Pancreatic_Pathology___A.3.aspx
 
 ---
 
@@ -3539,12 +3118,6 @@ https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_
 
 ---
 
-
-
-- **Pancreatic Ductal Adenocarcinoma: Recent Updates**
-
-
-https://www.sciencedirect.com/science/article/pii/S0002944018308551
 
 
 ---
@@ -3690,12 +3263,6 @@ Sys.sleep(1)
 ```{r Pancreas Epidemiology Screening Cancer Risk Factors, eval=FALSE, include=FALSE}
 ```
 
-
----
-
-- **German National Case Collection for familial pancreatic Cancer (FaPaCa) - acceptance and psychological aspects of a pancreatic cancer screening program**
-
-https://hccpjournal.biomedcentral.com/articles/10.1186/s13053-018-0100-6
 
 
 
@@ -3880,14 +3447,6 @@ Sys.sleep(1)
 ---
 
 
-- **Recent treatment patterns and survival outcomes in pancreatic cancer according to clinical stage based on single-center large-cohort data**
-
-https://synapse.koreamed.org/search.php?where=aview&id=10.14701/ahbps.2018.22.4.386&code=2110AHBPS&vmode=FULL
-
-
----
-
-
 ```{r 30531246, include=FALSE}
 
 PMID_30531246 <- RefManageR::ReadPubMed('30531246', database = 'PubMed')
@@ -3928,13 +3487,6 @@ Sys.sleep(1)
 `r altmetricBadge_30531246`
 
 </details>
-
----
-
-
-- **A systematic assessment of statistics, risk factors, and underlying features involved in pancreatic cancer**
-
-https://www.sciencedirect.com/science/article/pii/S1877782118305101
 
 
 
@@ -3984,6 +3536,777 @@ Sys.sleep(1)
 ---
 
 
+---
+
+
+
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
+
+## No Abstract yet {.tabset}
+
+No abstract yet, not in PubMed yet
+
+
+### Pancreas 
+
+---
+
+
+
+- **Prognostic significance of the degree of lymphatic vessel invasion in locally advanced, surgically resectable pancreatic head cancer**
+
+
+https://journals.lww.com/md-journal/Fulltext/2018/12070/Prognostic_significance_of_the_degree_of_lymphatic.68.aspx
+
+
+
+
+
+---
+
+- **Subtyping of intraductal papillary mucinous neoplasms – pitfalls of MUC1 immunohistochemistry**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/apm.12900
+
+
+
+
+---
+
+- **Overexpression of folate receptor alpha is an independent prognostic factor for outcomes of pancreatic cancer patients**
+
+https://link.springer.com/article/10.1007/s00795-018-0197-8
+
+
+---
+
+
+- **Subcutaneous Inoculation of 3D Pancreatic Cancer Spheroids Results in Development of Reproducible Stroma-Rich Tumors**
+
+
+https://www.sciencedirect.com/science/article/pii/S1936523318304121
+
+
+---
+
+Loss of TLR3 and its downstream signaling accelerates acinar cell damage in the acute phase of pancreatitis
+
+
+https://www.researchgate.net/publication/329674475_Loss_of_TLR3_and_its_downstream_signaling_accelerates_acinar_cell_damage_in_the_acute_phase_of_pancreatitis
+
+
+---
+
+Prognostic Value of Metastatic Lymph Node Ratio in Pancreatic Cancer
+
+
+https://www.researchgate.net/publication/328541573_Prognostic_Value_of_Metastatic_Lymph_Node_Ratio_in_Pancreatic_Cancer
+
+
+---
+
+
+The Actual Prevalence of Symptoms in Pancreatic Cystic Neoplasms: A Prospective Propensity Matched Cohort Analysis
+
+https://www.karger.com/Article/Abstract/495039
+
+---
+
+
+Pancreatic cancer chemo-resistance is driven by tumor phenotype rather than tumor genotype
+
+https://www.heliyon.com/article/e01055/
+
+---
+
+Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Diagnostic_and_Prognostic_Impact_of.15.aspx
+
+---
+
+
+DeltaNp63-dependent super enhancers define molecular identity in pancreatic cancer by an interconnected transcription factor network
+
+https://www.pnas.org/content/early/2018/12/11/1812915116.short
+
+---
+
+Prognostic value of progesterone receptor in solid pseudopapillary neoplasm of the pancreas: evaluation of a pooled case series
+
+https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-018-0914-8
+
+---
+
+Agnostic Pathway/Gene Set Analysis of Genome-Wide Association Data Identifies Associations for Pancreatic Cancer 
+
+https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djy155/5240954
+
+
+---
+
+Familial Pancreatic Ductal Adenocarcinoma
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302062
+
+---
+
+Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301512
+
+---
+
+Current Approaches to Pancreatic Cancer Screening
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302529
+
+---
+
+The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301561
+
+---
+
+Development of a class prediction model to discriminate pancreatic ductal adenocarcinoma from pancreatic neuroendocrine tumor by MALDI mass spectrometry imaging
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/prca.201800046
+
+---
+
+Tumefactive Inflammatory Diseases of the Pancreas
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302025
+
+---
+
+Therapeutic trends in pancreatic ductal adenocarcinoma (PDAC)
+
+https://www.tandfonline.com/doi/abs/10.1080/13543784.2019.1557145
+
+
+---
+
+
+- **Silencing of MUC20 suppresses the malignant character of pancreatic ductal adenocarcinoma cells through inhibition of the HGF/MET pathway**
+
+
+Oncogene volume 37, pages 6041–6053 (2018) 
+
+https://www.nature.com/articles/s41388-018-0403-0
+
+
+---
+
+- **Combating pancreatic cancer with PI3K pathway inhibitors in the era of personalised medicine**
+
+
+https://gut.bmj.com/content/early/2018/11/05/gutjnl-2018-316822
+
+
+
+---
+
+- **The role of GLI-SOX2 signaling axis for gemcitabine resistance in pancreatic cancer**
+
+
+https://www.nature.com/articles/s41388-018-0553-0
+
+
+---
+
+- **PIN1 maintains redox balance via the c-Myc/NRF2 axis to counteract Kras-induced mitochondrial respiratory injury in pancreatic cancer cells**
+
+
+http://cancerres.aacrjournals.org/content/canres/early/2018/10/24/0008-5472.CAN-18-1968.full.pdf
+
+
+---
+    
+
+- **DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth**
+    
+https://gut.bmj.com/content/early/2018/10/20/gutjnl-2018-316128
+
+
+---
+
+- **ADAM12 is a circulating marker for stromal activation in pancreatic cancer and predicts response to chemotherapy**
+
+https://www.nature.com/articles/s41389-018-0096-9
+
+---
+
+- **Neoepitope targets of tumour-infiltrating lymphocytes from patients with pancreatic cancer**
+
+
+https://www.nature.com/articles/s41416-018-0262-z
+
+
+---
+
+
+
+- **Pancreatic ductal adenocarcinoma harboring microsatellite instability / DNA mismatch repair deficiency. Towards personalized medicine.**
+
+https://www.sciencedirect.com/science/article/pii/S0960740418301245
+
+
+---
+
+- **Pancreatic cancer arising in the remnant pancreas is not always a relapse of the preceding primary**
+
+https://www.researchgate.net/publication/329122741_Pancreatic_cancer_arising_in_the_remnant_pancreas_is_not_always_a_relapse_of_the_preceding_primary
+
+---
+
+- **Undifferentiated carcinoma with osteoclast-like giant cells of pancreas A case report with review of the computed tomography findings**
+
+https://journals.lww.com/md-journal/Fulltext/2018/11300/Undifferentiated_carcinoma_with_osteoclast_like.100.aspx
+
+
+
+
+
+- **Clinico‐pathological features and survival of patients with malignant exocrine pancreatic neoplasms: The AC Camargo Cancer Center experience**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25312
+
+
+
+
+---
+
+- **Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer: Adjuvant therapy for subcentimeter PDAC**
+
+
+https://www.researchgate.net/publication/329079327_Role_of_adjuvant_therapy_in_resected_stage_IA_subcentimeter_T1aT1b_pancreatic_cancer_Adjuvant_therapy_for_subcentimeter_PDAC
+
+
+---
+
+- **International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer**
+
+[link](https://www.researchgate.net/profile/Matteo_De_Pastena/publication/328053361_International_Validation_of_the_Eighth_Edition_of_the_American_Joint_Committee_on_Cancer_AJCC_TNM_Staging_System_in_Patients_With_Resected_Pancreatic_Cancer/links/5bca125fa6fdcc03c7960174/International-Validation-of-the-Eighth-Edition-of-the-American-Joint-Committee-on-Cancer-AJCC-TNM-Staging-System-in-Patients-With-Resected-Pancreatic-Cancer.pdf)
+
+
+
+---
+
+- **Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301512
+
+
+---
+
+
+- **Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma**
+
+https://www.researchgate.net/publication/329302661_Diagnostic_and_Prognostic_Impact_of_Neutrophil-to-Lymphocyte_Ratio_for_Intraductal_Papillary_Mucinous_Neoplasms_of_the_Pancreas_With_High-Grade_Dysplasia_and_Associated_Invasive_Carcinoma
+
+
+---
+
+- **The efficacy and safety of endoscopic ultrasound-guided ablation of pancreatic cysts with alcohol and paclitaxel a systematic review**
+
+
+https://journals.lww.com/eurojgh/Abstract/2019/01000/The_efficacy_and_safety_of_endoscopic.1.aspx
+
+
+---
+
+- **Intraductal papillary mucinous neoplasm complicated by a gastropancreatic fistula**
+
+https://www.sciencedirect.com/science/article/pii/S193004331830373X
+
+---
+
+
+- **Risk of advanced lesions in patients with branch-duct IPMN and relative indications for surgery according to European evidence-based guidelines**
+
+
+https://www.sciencedirect.com/science/article/pii/S1590865818312672
+
+
+
+---
+
+
+
+- **The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301561
+
+
+
+
+---
+
+
+- **Immunosuppressive βig-h3 links tumour stroma and dysfunctional T cells in pancreatic cancer**
+
+https://gut.bmj.com/content/early/2018/12/07/gutjnl-2018-317735
+
+
+---
+
+
+- **Primordial germ cells as a potential shared cell of origin for mucinous cystic neoplasms of the pancreas and mucinous ovarian tumors**
+
+https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_potential_shared_cell_of_origin_for_mucinous_cystic_neoplasms_of_the_pancreas_and_mucinous_ovarian_tumors
+
+
+---
+
+
+
+- **Pancreatic Choristoma in a Canine Gallbladder**
+
+https://www.sciencedirect.com/science/article/pii/S0021997518302020
+
+
+---
+
+
+
+
+- **Tumefactive Inflammatory Diseases of the Pancreas**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302025
+
+
+
+---
+
+
+
+
+
+---
+
+
+### Bile Ducts
+
+---
+
+
+Intraductal Papillary Neoplasm of the Bile Duct: Assessment of Invasive Carcinoma and Long-Term Outcomes using MRI
+
+
+https://www.researchgate.net/publication/329664727_Intraductal_Papillary_Neoplasm_of_the_Bile_Duct_Assessment_of_Invasive_Carcinoma_and_Long-Term_Outcomes_using_MRI
+
+---
+
+
+- **Heterotopic chondroid tissue of the main bile duct mimicking Klatskin tumor: case report and review of the literature**
+
+https://link.springer.com/article/10.1007/s12328-018-00928-w
+
+---
+
+
+
+- **Prognostic Significance of the Lymph Node Ratio in Surgical Patients With Distal Cholangiocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0022480418307753
+
+
+
+
+
+
+---
+
+### Gallbladder
+
+---
+
+
+- **MUC5B, CA9 and CLDN18 are potential theranostic markers of gallbladder carcinoma**
+
+
+https://onlinelibrary.wiley.com/doi/10.1111/his.13797
+
+---
+
+
+- **Optimal Surgical Treatment in Patients with T1b Gallbladder Cancer: An International Multicenter Study**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jhbp.593
+
+
+
+
+
+---
+
+### Ampulla of Vater
+
+---
+
+Identification of ampullary carcinoma mixed subtype using a panel of six antibodies and its clinical significance
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25311
+
+---
+
+
+### Neuroendocrine
+
+---
+
+Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307475
+
+---
+
+Serum chromogranin A for the diagnosis of gastroenteropancreatic neuroendocrine neoplasms and its association with tumour expression
+
+https://www.spandidos-publications.com/10.3892/ol.2018.9795
+
+
+---
+
+Endoscopic Ultrasound Assessment of Pancreatic Duct Diameter Predicts Neuroendocrine Tumors and Other Pancreas Masses
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Endoscopic_Ultrasound_Assessment_of_Pancreatic.9.aspx
+
+---
+
+The Molecular and Clinical Landscape of Pancreatic Neuroendocrine Tumors
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/The_Molecular_and_Clinical_Landscape_of_Pancreatic.2.aspx
+
+---
+
+Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307475
+
+
+
+
+- **Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations: Locality of Gallbladder Tumor Mutations**
+
+
+https://www.researchgate.net/publication/328947053_Regional_differences_in_gallbladder_cancer_pathogenesis_Insights_from_a_multi-institutional_comparison_of_tumor_mutations_Locality_of_Gallbladder_Tumor_Mutations
+
+
+
+
+- **Intracholecystic papillary-tubular neoplasm of the gallbladder originating in the cystic duct with extensive intraepithelial progress in the common bile duct**
+
+https://link.springer.com/article/10.1007/s12328-018-0927-4
+
+
+---
+
+- **Distribution of dysplasia and cancer in the gallbladder: an analysis from a high cancer-risk population**
+
+https://www.sciencedirect.com/science/article/pii/S004681771830282X?dgcid=raven_sd_via_email
+
+
+
+---
+
+
+- **National Failure of Surgical Staging for T1b Gallbladder Cancer**
+
+https://link.springer.com/article/10.1245/s10434-018-7064-7
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- **A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal**
+
+
+https://www.nature.com/articles/s41379-018-0110-y
+
+
+
+---
+
+- **Insulinoma-associated protein 1 immunostaining on cytology specimens: an institutional experience**
+
+
+https://www.sciencedirect.com/science/article/pii/S0046817718304350
+
+---
+
+
+- **ATRX loss is an independent predictor of poor survival in pancreatic neuroendocrine tumors**
+
+
+https://www.sciencedirect.com/science/article/pii/S0046817718303009
+
+
+---
+
+- **Neoplasms of the Neuroendocrine Pancreas An Update in the Classification, Definition, and Molecular Genetic Advances**
+
+https://journals.lww.com/anatomicpathology/Abstract/2019/01000/Neoplasms_of_the_Neuroendocrine_Pancreas___An.2.aspx
+
+---
+
+
+
+- **Patterns of recurrence after resection for pancreatic neuroendocrine tumors: who, when, and where?**
+
+[link](https://www.researchgate.net/publication/329247683_Patterns_of_recurrence_after_resection_for_pancreatic_neuroendocrine_tumors_who_when_and_where)
+
+
+
+
+---
+
+
+
+
+
+
+
+
+- **Touch imprint cytology on endoscopic ultrasound fine‐needle biopsy provides comparable sample quality and diagnostic yield to standard eus‐fna specimens in the evaluation of solid pancreatic lesions**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12662
+
+
+
+
+
+- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
+
+[link](https://www.researchgate.net/publication/327877645_Rationale_and_feasibility_of_mucin_expression_profiling_by_qRT-PCR_as_diagnostic_biomarkers_in_cytology_specimens_of_pancreatic_cancer)
+
+
+
+
+
+
+
+
+
+
+
+- **Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- **Genetic assessment of recurrent pancreatic high-risk lesions in the remnant pancreas: Metachronous multifocal lesion or local recurrence?**
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307402
+
+
+---
+
+- **ROBO2 is a stroma suppressor gene in the pancreas and acts via TGF-β signalling**
+
+https://www.researchgate.net/publication/329324877_ROBO2_is_a_stroma_suppressor_gene_in_the_pancreas_and_acts_via_TGF-b_signalling
+
+
+---
+
+- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-26526-x
+
+
+https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- **Coordinately targeting cell cycle checkpoint functions in integrated models of pancreatic cancer**
+
+
+http://clincancerres.aacrjournals.org/content/early/2018/12/11/1078-0432.CCR-18-1620
+
+
+---
+
+- **miRNA and Gene Expression in Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018305571
+
+
+
+
+
+
+
+
+
+- **Circulating Tumor Cells and Cell-Free DNA in Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944017311811
+
+
+
+
+
+
+
+
+
+
+- **GPER is a mechanoregulator of pancreatic stellate cells and the tumor microenvironment**
+
+
+http://embor.embopress.org/content/early/2018/12/06/embr.201846556
+
+
+
+
+
+
+
+
+- **Genetic alterations analysis in prognostic stratified groups identified TP53 and ARID1A as poor clinical performance markers in intrahepatic cholangiocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-25669-1
+
+https://www.researchgate.net/publication/325020651_Genetic_alterations_analysis_in_prognostic_stratified_groups_identified_TP53_and_ARID1A_as_poor_clinical_performance_markers_in_intrahepatic_cholangiocarcinoma
+
+
+
+
+
+
+- **KRAS, NRAS and BRAF analysis of ampullary adenocarcinoma classified using CK7, CK20, MUC1 and MUC2**
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219964/
+
+
+
+
+
+
+
+- **Mass Spectrometry-Based Comprehensive Analysis of Pancreatic Cyst Fluids**
+
+https://www.hindawi.com/journals/bmri/2018/7169595/
+
+---
+
+- **A “Clearer” View of Pancreatic Pathology A Review of Tissue Clearing and Advanced Microscopy Techniques**
+
+https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_of_Pancreatic_Pathology___A.3.aspx
+
+
+
+
+- **Pancreatic Ductal Adenocarcinoma: Recent Updates**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018308551
+
+
+
+
+
+- **German National Case Collection for familial pancreatic Cancer (FaPaCa) - acceptance and psychological aspects of a pancreatic cancer screening program**
+
+https://hccpjournal.biomedcentral.com/articles/10.1186/s13053-018-0100-6
+
+
+
+
+
+- **Recent treatment patterns and survival outcomes in pancreatic cancer according to clinical stage based on single-center large-cohort data**
+
+https://synapse.koreamed.org/search.php?where=aview&id=10.14701/ahbps.2018.22.4.386&code=2110AHBPS&vmode=FULL
+
+
+
+
+
+- **A systematic assessment of statistics, risk factors, and underlying features involved in pancreatic cancer**
+
+https://www.sciencedirect.com/science/article/pii/S1877782118305101
+
+
+
+
+
+
 - **PANCREATIC CANCER IN BRAZIL: MORTALITY TRENDS AND PROJECTIONS UNTIL 2029**
 
 
@@ -4017,20 +4340,20 @@ https://www.sciencedirect.com/science/article/pii/S0002944018302529
 
 
 
+
+
+
+
+
+
+
 ---
-
-
-
 
 <a href="#top" target="_self">Back to top</a>
 
 ---
 
 \pagebreak
-
-
-
-
 
 
 
@@ -4142,7 +4465,7 @@ Please send your feedbacks using the form below:
    
    - [October-November-2018](http://pbpath.org/pbpath-journal-watch-october-november-2018/)
 
-   <!-- - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
+   <!-- - February-March 2019 issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
 
 ---
 
