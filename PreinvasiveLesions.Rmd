@@ -119,5 +119,104 @@ https://www.medical.theclinics.com/article/S0025-7125(18)30095-6/fulltext
 
 
 
+```{r 30391209, include=FALSE}
+
+PMID_30391209 <- RefManageR::ReadPubMed('30391209', database = 'PubMed')
+
+citation_30391209 <- paste0(PMID_30391209$journal,' ', PMID_30391209$year, ' ', PMID_30391209$month,';', PMID_30391209$volume,'(', PMID_30391209$number,'):', PMID_30391209$pages)
+
+PubMed_30391209 <- paste0(PubMedString, PMID_30391209$eprint)
+
+doi_30391209 <- paste0(doiString, PMID_30391209$doi)
+
+dimensionBadge_30391209 <- paste0(dimensionString1, PMID_30391209$doi,dimensionString2)
+
+altmetricBadge_30391209 <- paste0(altmetricString1, PMID_30391209$doi, altmetricString2 )
+
+addthis_inline_30391209 <- paste0(addthis_String1, PMID_30391209$title , " PMID: 30391209 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30391209$title`**
+</summary> 
+
+*`r citation_30391209`*
+
+`r PubMed_30391209`
+
+`r addthis_inline_30391209`
+
+`r PMID_30391209$abstract`
+
+<!-- `r doi_30391209` -->
+
+`r dimensionBadge_30391209`
+
+`r altmetricBadge_30391209`
+
+</details>
+
+
+---
+
+- **Intraductal papillary mucinous neoplasm to pancreas ductal adenocarcinoma sequence and pancreas cancer screening**
+    
+http://www.eusjournal.com/article.asp?issn=2303-9027;year=2018;volume=7;issue=5;spage=314;epage=318;aulast=Farrell
+
+
+
+- **Histo-molecular oncogenesis of pancreatic cancer: From precancerous lesions to invasive ductal adenocarcinoma**
+    
+https://www.wjgnet.com/1948-5204/full/v10/i10/317.htm
+
+
+---
+
+
+```{r 30451795, include=FALSE}
+
+PMID_30451795 <- RefManageR::ReadPubMed('30451795', database = 'PubMed')
+
+citation_30451795 <- paste0(PMID_30451795$journal,' ', PMID_30451795$year, ' ', PMID_30451795$month,';', PMID_30451795$volume,'(', PMID_30451795$number,'):', PMID_30451795$pages)
+
+PubMed_30451795 <- paste0(PubMedString, PMID_30451795$eprint)
+
+doi_30451795 <- paste0(doiString, PMID_30451795$doi)
+
+dimensionBadge_30451795 <- paste0(dimensionString1, PMID_30451795$doi,dimensionString2)
+
+altmetricBadge_30451795 <- paste0(altmetricString1, PMID_30451795$doi, altmetricString2 )
+
+addthis_inline_30451795 <- paste0(addthis_String1, PMID_30451795$title , " PMID: 30451795 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30451795$title`**
+</summary> 
+
+*`r citation_30451795`*
+
+`r PubMed_30451795`
+
+`r addthis_inline_30451795`
+
+`r PMID_30451795$abstract`
+
+<!-- `r doi_30451795` -->
+
+`r dimensionBadge_30451795`
+
+`r altmetricBadge_30451795`
+
+</details>
+
+---
+
 
 

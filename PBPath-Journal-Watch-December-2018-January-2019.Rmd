@@ -1233,6 +1233,50 @@ Sys.sleep(1)
 
 </details>
 
+
+---
+
+```{r 30466151, include=FALSE}
+
+PMID_30466151 <- RefManageR::ReadPubMed('30466151', database = 'PubMed')
+
+citation_30466151 <- paste0(PMID_30466151$journal,' ', PMID_30466151$year, ' ', PMID_30466151$month,';', PMID_30466151$volume,'(', PMID_30466151$number,'):', PMID_30466151$pages)
+
+PubMed_30466151 <- paste0(PubMedString, PMID_30466151$eprint)
+
+doi_30466151 <- paste0(doiString, PMID_30466151$doi)
+
+dimensionBadge_30466151 <- paste0(dimensionString1, PMID_30466151$doi,dimensionString2)
+
+altmetricBadge_30466151 <- paste0(altmetricString1, PMID_30466151$doi, altmetricString2 )
+
+addthis_inline_30466151 <- paste0(addthis_String1, PMID_30466151$title , " PMID: 30466151 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30466151$title`**
+</summary> 
+
+*`r citation_30466151`*
+
+`r PubMed_30466151`
+
+`r addthis_inline_30466151`
+
+`r PMID_30466151$abstract`
+
+<!-- `r doi_30466151` -->
+
+`r dimensionBadge_30466151`
+
+`r altmetricBadge_30466151`
+
+</details>
+
 ---
 
 ---
@@ -3287,6 +3331,26 @@ https://www.researchgate.net/publication/329664727_Intraductal_Papillary_Neoplas
 
 ### Gallbladder
 
+---
+
+
+- **MUC5B, CA9 and CLDN18 are potential theranostic markers of gallbladder carcinoma**
+
+
+https://onlinelibrary.wiley.com/doi/10.1111/his.13797
+
+---
+
+
+- **Optimal Surgical Treatment in Patients with T1b Gallbladder Cancer: An International Multicenter Study**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jhbp.593
+
+
+
+
+
+---
 
 ### Ampulla of Vater
 
