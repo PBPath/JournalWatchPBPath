@@ -351,6 +351,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 30380143, include=FALSE}
+
+PMID_30380143 <- RefManageR::ReadPubMed('30380143', database = 'PubMed')
+
+citation_30380143 <- paste0(PMID_30380143$journal,' ', PMID_30380143$year, ' ', PMID_30380143$month,';', PMID_30380143$volume,'(', PMID_30380143$number,'):', PMID_30380143$pages)
+
+PubMed_30380143 <- paste0(PubMedString, PMID_30380143$eprint)
+
+doi_30380143 <- paste0(doiString, PMID_30380143$doi)
+
+dimensionBadge_30380143 <- paste0(dimensionString1, PMID_30380143$doi,dimensionString2)
+
+altmetricBadge_30380143 <- paste0(altmetricString1, PMID_30380143$doi, altmetricString2 )
+
+addthis_inline_30380143 <- paste0(addthis_String1, PMID_30380143$title , " PMID: 30380143 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30380143$title`**
+</summary> 
+
+*`r citation_30380143`*
+
+`r PubMed_30380143`
+
+`r addthis_inline_30380143`
+
+`r PMID_30380143$abstract`
+
+<!-- `r doi_30380143` -->
+
+`r dimensionBadge_30380143`
+
+`r altmetricBadge_30380143`
+
+</details>
+
+---
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -3626,12 +3669,19 @@ Sys.sleep(1)
 
 ## Others {.tabset}
 
-Not in Journal List OR No abstract
+No abstract yet, not in PubMed yet
 
 
 ### Pancreas 
 
 ---
+
+- **Subtyping of intraductal papillary mucinous neoplasms – pitfalls of MUC1 immunohistochemistry**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/apm.12900
+
+
 
 
 ---
@@ -3644,7 +3694,7 @@ https://link.springer.com/article/10.1007/s00795-018-0197-8
 ---
 
 
-Subcutaneous Inoculation of 3D Pancreatic Cancer Spheroids Results in Development of Reproducible Stroma-Rich Tumors
+- **Subcutaneous Inoculation of 3D Pancreatic Cancer Spheroids Results in Development of Reproducible Stroma-Rich Tumors**
 
 
 https://www.sciencedirect.com/science/article/pii/S1936523318304121
@@ -3652,21 +3702,165 @@ https://www.sciencedirect.com/science/article/pii/S1936523318304121
 
 ---
 
+Loss of TLR3 and its downstream signaling accelerates acinar cell damage in the acute phase of pancreatitis
+
+
+https://www.researchgate.net/publication/329674475_Loss_of_TLR3_and_its_downstream_signaling_accelerates_acinar_cell_damage_in_the_acute_phase_of_pancreatitis
+
+
+---
+
+Prognostic Value of Metastatic Lymph Node Ratio in Pancreatic Cancer
+
+
+https://www.researchgate.net/publication/328541573_Prognostic_Value_of_Metastatic_Lymph_Node_Ratio_in_Pancreatic_Cancer
+
+
+---
+
+
+The Actual Prevalence of Symptoms in Pancreatic Cystic Neoplasms: A Prospective Propensity Matched Cohort Analysis
+
+https://www.karger.com/Article/Abstract/495039
+
+---
+
+
+Pancreatic cancer chemo-resistance is driven by tumor phenotype rather than tumor genotype
+
+https://www.heliyon.com/article/e01055/
+
+---
+
+Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Diagnostic_and_Prognostic_Impact_of.15.aspx
+
+---
+
+
+DeltaNp63-dependent super enhancers define molecular identity in pancreatic cancer by an interconnected transcription factor network
+
+https://www.pnas.org/content/early/2018/12/11/1812915116.short
+
+---
+
+Prognostic value of progesterone receptor in solid pseudopapillary neoplasm of the pancreas: evaluation of a pooled case series
+
+https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-018-0914-8
+
+---
+
+Agnostic Pathway/Gene Set Analysis of Genome-Wide Association Data Identifies Associations for Pancreatic Cancer 
+
+https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djy155/5240954
+
+
+---
+
+Familial Pancreatic Ductal Adenocarcinoma
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302062
+
+---
+
+Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301512
+
+---
+
+Current Approaches to Pancreatic Cancer Screening
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302529
+
+---
+
+The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301561
+
+---
+
+Development of a class prediction model to discriminate pancreatic ductal adenocarcinoma from pancreatic neuroendocrine tumor by MALDI mass spectrometry imaging
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/prca.201800046
+
+---
+
+Tumefactive Inflammatory Diseases of the Pancreas
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302025
+
+---
+
+Therapeutic trends in pancreatic ductal adenocarcinoma (PDAC)
+
+https://www.tandfonline.com/doi/abs/10.1080/13543784.2019.1557145
+
 
 
 
 
 ### Bile Ducts
 
+---
+
+
+Intraductal Papillary Neoplasm of the Bile Duct: Assessment of Invasive Carcinoma and Long-Term Outcomes using MRI
+
+
+https://www.researchgate.net/publication/329664727_Intraductal_Papillary_Neoplasm_of_the_Bile_Duct_Assessment_of_Invasive_Carcinoma_and_Long-Term_Outcomes_using_MRI
+
+
+---
 
 ### Gallbladder
 
 
 ### Ampulla of Vater
 
+---
+
+Identification of ampullary carcinoma mixed subtype using a panel of six antibodies and its clinical significance
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25311
+
+---
+
 
 ### Neuroendocrine
 
+---
+
+Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307475
+
+---
+
+Serum chromogranin A for the diagnosis of gastroenteropancreatic neuroendocrine neoplasms and its association with tumour expression
+
+https://www.spandidos-publications.com/10.3892/ol.2018.9795
+
+
+---
+
+Endoscopic Ultrasound Assessment of Pancreatic Duct Diameter Predicts Neuroendocrine Tumors and Other Pancreas Masses
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Endoscopic_Ultrasound_Assessment_of_Pancreatic.9.aspx
+
+---
+
+The Molecular and Clinical Landscape of Pancreatic Neuroendocrine Tumors
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/The_Molecular_and_Clinical_Landscape_of_Pancreatic.2.aspx
+
+---
+
+Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307475
 
 
 
