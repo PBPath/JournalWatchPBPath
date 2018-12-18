@@ -366,15 +366,6 @@ Sys.sleep(1)
 
 ---
 
-- **Overexpression of folate receptor alpha is an independent prognostic factor for outcomes of pancreatic cancer patients**
-
-https://link.springer.com/article/10.1007/s00795-018-0197-8
-
-
-
-
----
-
 ```{r 30477643, include=FALSE}
 
 PMID_30477643 <- RefManageR::ReadPubMed('30477643', database = 'PubMed')
@@ -606,49 +597,6 @@ Sys.sleep(1)
 
 ---
 
-```{r 30286011, include=FALSE}
-
-PMID_30286011 <- RefManageR::ReadPubMed('30286011', database = 'PubMed')
-
-citation_30286011 <- paste0(PMID_30286011$journal,' ', PMID_30286011$year, ' ', PMID_30286011$month,';', PMID_30286011$volume,'(', PMID_30286011$number,'):', PMID_30286011$pages)
-
-PubMed_30286011 <- paste0(PubMedString, PMID_30286011$eprint)
-
-doi_30286011 <- paste0(doiString, PMID_30286011$doi)
-
-dimensionBadge_30286011 <- paste0(dimensionString1, PMID_30286011$doi,dimensionString2)
-
-altmetricBadge_30286011 <- paste0(altmetricString1, PMID_30286011$doi, altmetricString2 )
-
-addthis_inline_30286011 <- paste0(addthis_String1, PMID_30286011$title , " PMID: 30286011 " , addthis_String2)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_30286011$title`**
-</summary> 
-
-*`r citation_30286011`*
-
-`r PubMed_30286011`
-
-`r addthis_inline_30286011`
-
-`r PMID_30286011$abstract`
-
-<!-- `r doi_30286011` -->
-
-`r dimensionBadge_30286011`
-
-`r altmetricBadge_30286011`
-
-</details>
-
-
----
-
 ```{r 30007990, include=FALSE}
 
 PMID_30007990 <- RefManageR::ReadPubMed('30007990', database = 'PubMed')
@@ -692,55 +640,224 @@ Sys.sleep(1)
 
 ---
 
-- **Definition of an extended minimum level of lymphadenectomy in non-pancreatic periampullary cancer resections**
-    
-https://www.researchgate.net/publication/325862954_Definition_of_an_extended_minimum_level_of_lymphadenectomy_in_non-pancreatic_periampullary_cancer_resections
+```{r 29929786, include=FALSE}
+
+PMID_29929786 <- RefManageR::ReadPubMed('29929786', database = 'PubMed')
+
+citation_29929786 <- paste0(PMID_29929786$journal,' ', PMID_29929786$year, ' ', PMID_29929786$month,';', PMID_29929786$volume,'(', PMID_29929786$number,'):', PMID_29929786$pages)
+
+PubMed_29929786 <- paste0(PubMedString, PMID_29929786$eprint)
+
+doi_29929786 <- paste0(doiString, PMID_29929786$doi)
+
+dimensionBadge_29929786 <- paste0(dimensionString1, PMID_29929786$doi,dimensionString2)
+
+altmetricBadge_29929786 <- paste0(altmetricString1, PMID_29929786$doi, altmetricString2 )
+
+addthis_inline_29929786 <- paste0(addthis_String1, PMID_29929786$title , " PMID: 29929786 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_29929786$title`**
+</summary> 
+
+*`r citation_29929786`*
+
+`r PubMed_29929786`
+
+`r addthis_inline_29929786`
+
+`r PMID_29929786$abstract`
+
+<!-- `r doi_29929786` -->
+
+`r dimensionBadge_29929786`
+
+`r altmetricBadge_29929786`
+
+</details>
 
 
 ---
-    
-- **A Refined Staging Model for Resectable Pancreatic Ductal Adenocarcinoma Incorporating Examined Lymph Nodes, Location of Tumor and Positive Lymph Nodes Ratio**
-    
-https://www.researchgate.net/publication/327545050_A_Refined_Staging_Model_for_Resectable_Pancreatic_Ductal_Adenocarcinoma_Incorporating_Examined_Lymph_Nodes_Location_of_Tumor_and_Positive_Lymph_Nodes_Ratio
+
+```{r 30519311, include=FALSE}
+
+PMID_30519311 <- RefManageR::ReadPubMed('30519311', database = 'PubMed')
+
+citation_30519311 <- paste0(PMID_30519311$journal,' ', PMID_30519311$year, ' ', PMID_30519311$month,';', PMID_30519311$volume,'(', PMID_30519311$number,'):', PMID_30519311$pages)
+
+PubMed_30519311 <- paste0(PubMedString, PMID_30519311$eprint)
+
+doi_30519311 <- paste0(doiString, PMID_30519311$doi)
+
+dimensionBadge_30519311 <- paste0(dimensionString1, PMID_30519311$doi,dimensionString2)
+
+altmetricBadge_30519311 <- paste0(altmetricString1, PMID_30519311$doi, altmetricString2 )
+
+addthis_inline_30519311 <- paste0(addthis_String1, PMID_30519311$title , " PMID: 30519311 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30519311$title`**
+</summary> 
+
+*`r citation_30519311`*
+
+`r PubMed_30519311`
+
+`r addthis_inline_30519311`
+
+`r PMID_30519311$abstract`
+
+<!-- `r doi_30519311` -->
+
+`r dimensionBadge_30519311`
+
+`r altmetricBadge_30519311`
+
+</details>
+
 
 ---
-    
-- **Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis**
-    
-https://www.researchgate.net/publication/328335210_Nomogram_to_Predict_Cancer-Specific_Survival_in_Patients_with_Pancreatic_Acinar_Cell_Carcinoma_A_Competing_Risk_Analysis
+
+```{r 30229903, include=FALSE}
+
+PMID_30229903 <- RefManageR::ReadPubMed('30229903', database = 'PubMed')
+
+citation_30229903 <- paste0(PMID_30229903$journal,' ', PMID_30229903$year, ' ', PMID_30229903$month,';', PMID_30229903$volume,'(', PMID_30229903$number,'):', PMID_30229903$pages)
+
+PubMed_30229903 <- paste0(PubMedString, PMID_30229903$eprint)
+
+doi_30229903 <- paste0(doiString, PMID_30229903$doi)
+
+dimensionBadge_30229903 <- paste0(dimensionString1, PMID_30229903$doi,dimensionString2)
+
+altmetricBadge_30229903 <- paste0(altmetricString1, PMID_30229903$doi, altmetricString2 )
+
+addthis_inline_30229903 <- paste0(addthis_String1, PMID_30229903$title , " PMID: 30229903 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
+
+<details open> <summary>
+- **`r PMID_30229903$title`**
+</summary> 
+
+*`r citation_30229903`*
+
+`r PubMed_30229903`
+
+`r addthis_inline_30229903`
+
+`r PMID_30229903$abstract`
+
+<!-- `r doi_30229903` -->
+
+`r dimensionBadge_30229903`
+
+`r altmetricBadge_30229903`
+
+</details>
+
+---
+
+```{r 30326871, include=FALSE}
+
+PMID_30326871 <- RefManageR::ReadPubMed('30326871', database = 'PubMed')
+
+citation_30326871 <- paste0(PMID_30326871$journal,' ', PMID_30326871$year, ' ', PMID_30326871$month,';', PMID_30326871$volume,'(', PMID_30326871$number,'):', PMID_30326871$pages)
+
+PubMed_30326871 <- paste0(PubMedString, PMID_30326871$eprint)
+
+doi_30326871 <- paste0(doiString, PMID_30326871$doi)
+
+dimensionBadge_30326871 <- paste0(dimensionString1, PMID_30326871$doi,dimensionString2)
+
+altmetricBadge_30326871 <- paste0(altmetricString1, PMID_30326871$doi, altmetricString2 )
+
+addthis_inline_30326871 <- paste0(addthis_String1, PMID_30326871$title , " PMID: 30326871 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30326871$title`**
+</summary> 
+
+*`r citation_30326871`*
+
+`r PubMed_30326871`
+
+`r addthis_inline_30326871`
+
+`r PMID_30326871$abstract`
+
+<!-- `r doi_30326871` -->
+
+`r dimensionBadge_30326871`
+
+`r altmetricBadge_30326871`
+
+</details>
 
 
 ---
-    
-    
-- **Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches: Autoimmune diseases and pancreatic cancer risk**
-    
-https://www.researchgate.net/publication/327754246_Pancreatic_cancer_and_autoimmune_diseases_An_association_sustained_by_computational_and_epidemiological_case-control_approaches_Autoimmune_diseases_and_pancreatic_cancer_risk
+
+```{r 30285059, include=FALSE}
+
+PMID_30285059 <- RefManageR::ReadPubMed('30285059', database = 'PubMed')
+
+citation_30285059 <- paste0(PMID_30285059$journal,' ', PMID_30285059$year, ' ', PMID_30285059$month,';', PMID_30285059$volume,'(', PMID_30285059$number,'):', PMID_30285059$pages)
+
+PubMed_30285059 <- paste0(PubMedString, PMID_30285059$eprint)
+
+doi_30285059 <- paste0(doiString, PMID_30285059$doi)
+
+dimensionBadge_30285059 <- paste0(dimensionString1, PMID_30285059$doi,dimensionString2)
+
+altmetricBadge_30285059 <- paste0(altmetricString1, PMID_30285059$doi, altmetricString2 )
+
+addthis_inline_30285059 <- paste0(addthis_String1, PMID_30285059$title , " PMID: 30285059 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30285059$title`**
+</summary> 
+
+*`r citation_30285059`*
+
+`r PubMed_30285059`
+
+`r addthis_inline_30285059`
+
+`r PMID_30285059$abstract`
+
+<!-- `r doi_30285059` -->
+
+`r dimensionBadge_30285059`
+
+`r altmetricBadge_30285059`
+
+</details>
 
 
 
----
-
-
-
----
-
-- **Impact of tumor size on survival of patients with resected pancreatic ductal adenocarcinoma: a systematic review and meta-analysis**
-    
-https://bmccancer.biomedcentral.com/articles/10.1186/s12885-018-4901-9
-
-
----
-    
-    
-- **The New American Joint Committee on Cancer TNM Staging System for Pancreatic Cancer—Balancing Usefulness With Prognostication**
-    
-https://jamanetwork.com/journals/jamasurgery/fullarticle/2705293
-
-
----
     
 - **International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer**
     
