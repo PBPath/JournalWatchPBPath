@@ -4257,51 +4257,6 @@ Sys.sleep(1)
 
 
 
-
-
----
-
-```{r 29492715, include=FALSE}
-
-PMID_29492715 <- RefManageR::ReadPubMed('29492715', database = 'PubMed')
-
-citation_29492715 <- paste0(PMID_29492715$journal,' ', PMID_29492715$year, ' ', PMID_29492715$month,';', PMID_29492715$volume,'(', PMID_29492715$number,'):', PMID_29492715$pages)
-
-PubMed_29492715 <- paste0(PubMedString, PMID_29492715$eprint)
-
-doi_29492715 <- paste0(doiString, PMID_29492715$doi)
-
-dimensionBadge_29492715 <- paste0(dimensionString1, PMID_29492715$doi,dimensionString2)
-
-altmetricBadge_29492715 <- paste0(altmetricString1, PMID_29492715$doi, altmetricString2 )
-
-addthis_inline_29492715 <- paste0(addthis_String1, PMID_29492715$title , " PMID: 29492715 " , addthis_String2)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_29492715$title`**
-</summary> 
-
-*`r citation_29492715`*
-
-`r PubMed_29492715`
-
-`r addthis_inline_29492715`
-
-`r PMID_29492715$abstract`
-
-<!-- `r doi_29492715` -->
-
-`r dimensionBadge_29492715`
-
-`r altmetricBadge_29492715`
-
-</details>
-
-
 ---
 
 ```{r 30365134, include=FALSE}
@@ -4765,13 +4720,6 @@ Molecular Studies on Pancreatitis & Other Diseases
 
 
 
-- **The common truncation variant in pancreatic lipase related protein 2 (PNLIPRP2) is expressed poorly and does not alter risk for chronic pancreatitis**
-
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206869
-
-
-
-
 
 
 
@@ -4808,11 +4756,6 @@ Molecular Techniques & Research Methods, Liquid Biopsy
 ```{r Molecular Techniques & Research Methods Liquid Biopsy, eval=FALSE, include=FALSE}
 ```
 
----
-
-- **ADAM12 is a circulating marker for stromal activation in pancreatic cancer and predicts response to chemotherapy**
-
-https://www.nature.com/articles/s41389-018-0096-9
 
 ---
 
@@ -4856,12 +4799,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **Liquid biopsy-based biomarkers for early detection of pancreatic cancer**
-
-http://pcm.amegroups.com/article/view/4588
-
 
 
 
@@ -4883,6 +4820,49 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Epithelial M
 ```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response Epithelial Mesenchymal Transition, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+
+```{r 29492715, include=FALSE}
+
+PMID_29492715 <- RefManageR::ReadPubMed('29492715', database = 'PubMed')
+
+citation_29492715 <- paste0(PMID_29492715$journal,' ', PMID_29492715$year, ' ', PMID_29492715$month,';', PMID_29492715$volume,'(', PMID_29492715$number,'):', PMID_29492715$pages)
+
+PubMed_29492715 <- paste0(PubMedString, PMID_29492715$eprint)
+
+doi_29492715 <- paste0(doiString, PMID_29492715$doi)
+
+dimensionBadge_29492715 <- paste0(dimensionString1, PMID_29492715$doi,dimensionString2)
+
+altmetricBadge_29492715 <- paste0(altmetricString1, PMID_29492715$doi, altmetricString2 )
+
+addthis_inline_29492715 <- paste0(addthis_String1, PMID_29492715$title , " PMID: 29492715 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29492715$title`**
+</summary> 
+
+*`r citation_29492715`*
+
+`r PubMed_29492715`
+
+`r addthis_inline_29492715`
+
+`r PMID_29492715$abstract`
+
+<!-- `r doi_29492715` -->
+
+`r dimensionBadge_29492715`
+
+`r altmetricBadge_29492715`
+
+</details>
 
 
 
@@ -5103,50 +5083,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **PD-L1 expression in pancreatic adenosquamous carcinoma: PD-L1 expression is limited to the squamous component**
-    
-https://www.sciencedirect.com/science/article/pii/S0344033818307076
-
-
----
-
-- **Epithelial-Stromal Interactions in Pancreatic Cancer**
-
-https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114515
-
-
----
-
-- **Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling**
-
-
-https://www.nature.com/articles/s41388-018-0392-z
-
-
----
-
-- **Neoepitope targets of tumour-infiltrating lymphocytes from patients with pancreatic cancer**
-
-
-https://www.nature.com/articles/s41416-018-0262-z
-
-
----
-
-- **Typing of pancreatic cancer-associated fibroblasts identifies different subpopulations**
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6224473/
-
----
-
-- **Pancreatic Cancer Subtypes: Beyond Lumping and Splitting**
-
-https://www.gastrojournal.org/article/S0016-5085(18)35213-2/pdf
-
-https://www.ncbi.nlm.nih.gov/pubmed/30419209
-
 
 ---
 
@@ -5189,19 +5125,6 @@ Sys.sleep(1)
 `r altmetricBadge_30455857`
 
 </details>
-
----
-
-- **Pancreatic stellate cells derived from human pancreatic cancer demonstrate aberrant SPARC-dependent ECM remodeling in 3D engineered fibrotic tissue of clinically relevant thickness**
-
-https://www.sciencedirect.com/science/article/pii/S0142961218308007
-
-
----
-
-- **CMV and EBV targets recognized by tumor-infiltrating B lymphocytes in pancreatic cancer and brain tumors**
-
-https://www.nature.com/articles/s41598-018-34710-2
 
 
 
@@ -5439,15 +5362,6 @@ Sys.sleep(1)
 
 ---
 
----
-
-- **Suppression of stromal-derived Dickkopf-3 (DKK3) inhibits tumor progression and prolongs survival in pancreatic ductal adenocarcinoma**
-
-
-http://stm.sciencemag.org/content/10/464/eaat3487
-
-
----
 
 
 
@@ -5460,36 +5374,12 @@ http://stm.sciencemag.org/content/10/464/eaat3487
 
 
 
-
-
-
 #### Molecular Research on Microenvironment 
 
 Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
 
 ```{r Molecular Tumor Stroma Interactions Microenvironment Inflammatory Response Microbiome, eval=FALSE, include=FALSE}
 ```
-
----
-
-- **EZH2-Mediated microRNA-139-5p Regulates Epithelial-Mesenchymal Transition and Lymph Node Metastasis of Pancreatic Cancer**
-    
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6182224/
-
-
----
-
-
-    
-- **The impact of cancer-associated fibroblasts on major hallmarks of pancreatic cancer**  
-    
-http://www.thno.org/v08p5072.pdf
-
----
-
-- **HH1-1, a novel Galectin-3 inhibitor, exerts anti-pancreatic cancer activity by blocking Galectin-3/EGFR/AKT/FOXO3 signaling pathway**
-    
-https://www.sciencedirect.com/science/article/pii/S0144861718311846
 
 
 
@@ -6162,51 +6052,6 @@ Sys.sleep(1)
 </details>
 
 
----
-
-```{r 30301635, include=FALSE}
-
-PMID_30301635 <- RefManageR::ReadPubMed('30301635', database = 'PubMed')
-
-citation_30301635 <- paste0(PMID_30301635$journal,' ', PMID_30301635$year, ' ', PMID_30301635$month,';', PMID_30301635$volume,'(', PMID_30301635$number,'):', PMID_30301635$pages)
-
-PubMed_30301635 <- paste0(PubMedString, PMID_30301635$eprint)
-
-doi_30301635 <- paste0(doiString, PMID_30301635$doi)
-
-dimensionBadge_30301635 <- paste0(dimensionString1, PMID_30301635$doi,dimensionString2)
-
-altmetricBadge_30301635 <- paste0(altmetricString1, PMID_30301635$doi, altmetricString2 )
-
-addthis_inline_30301635 <- paste0(addthis_String1, PMID_30301635$title , " PMID: 30301635 " , addthis_String2)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_30301635$title`**
-</summary> 
-
-*`r citation_30301635`*
-
-`r PubMed_30301635`
-
-`r addthis_inline_30301635`
-
-`r PMID_30301635$abstract`
-
-<!-- `r doi_30301635` -->
-
-`r dimensionBadge_30301635`
-
-`r altmetricBadge_30301635`
-
-</details>
-
-
-
-
 
 
 
@@ -6840,9 +6685,17 @@ Sys.sleep(1)
 
 
 
-## Experimental / Others
+## Experimental / Others  {.tabset}
+
+---
+
+### Pancreas Molecular Studies
 
 
+```{r Molecular Studies, eval=FALSE, include=FALSE}
+```
+
+---
 
 ```{r 30428345, include=FALSE}
 
@@ -7071,7 +6924,55 @@ Sys.sleep(1)
 
 
 
-#### Animal Studies
+### Bile Duct Molecular Studies
+
+---
+
+```{r 30301635, include=FALSE}
+
+PMID_30301635 <- RefManageR::ReadPubMed('30301635', database = 'PubMed')
+
+citation_30301635 <- paste0(PMID_30301635$journal,' ', PMID_30301635$year, ' ', PMID_30301635$month,';', PMID_30301635$volume,'(', PMID_30301635$number,'):', PMID_30301635$pages)
+
+PubMed_30301635 <- paste0(PubMedString, PMID_30301635$eprint)
+
+doi_30301635 <- paste0(doiString, PMID_30301635$doi)
+
+dimensionBadge_30301635 <- paste0(dimensionString1, PMID_30301635$doi,dimensionString2)
+
+altmetricBadge_30301635 <- paste0(altmetricString1, PMID_30301635$doi, altmetricString2 )
+
+addthis_inline_30301635 <- paste0(addthis_String1, PMID_30301635$title , " PMID: 30301635 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30301635$title`**
+</summary> 
+
+*`r citation_30301635`*
+
+`r PubMed_30301635`
+
+`r addthis_inline_30301635`
+
+`r PMID_30301635$abstract`
+
+<!-- `r doi_30301635` -->
+
+`r dimensionBadge_30301635`
+
+`r altmetricBadge_30301635`
+
+</details>
+
+---
+
+
+
+### Animal Studies
 
 
 ```{r Pancreas Animal Studies, eval=FALSE, include=FALSE}
@@ -7568,7 +7469,7 @@ Sys.sleep(1)
 ---
 
 
-#### Techniques & Research Methods
+### Techniques & Research Methods
 
 
 ```{r Pancreas Techniques & Research Methods, eval=FALSE, include=FALSE}
@@ -7660,46 +7561,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-- **Subtyping of IPMN**
-
-https://link.springer.com/protocol/10.1007/978-1-4939-8879-2_1
-
-
----
-
-- **Generation of Induced Pluripotent Stem Cell-Like Lines from Human Pancreatic Ductal Adenocarcinoma**
-
-https://link.springer.com/protocol/10.1007/978-1-4939-8879-2_4
-
----
-
-- **Generation and Culture of Human Pancreatic Ductal Adenocarcinoma Organoids from Resected Tumor Specimens**
-
-https://link.springer.com/protocol/10.1007/978-1-4939-8879-2_9
-
----
-
-
-- **Spheroid Culture of Human Pancreatic Ductal Cells to Reconstitute Development of Pancreatic Intraepithelial Neoplasia**
-
-
-https://link.springer.com/protocol/10.1007/978-1-4939-8879-2_6
-
----
-
-- **Generation and Culture of Tumor and Metastatic Organoids from Murine Models of Pancreatic Ductal Adenocarcinoma**
-
-https://link.springer.com/protocol/10.1007/978-1-4939-8879-2_10
-
----
-
-- **An In Vitro Three-Dimensional Organotypic Model to Analyze Peripancreatic Fat Invasion in Pancreatic Cancer: A Culture System Based on Collagen Gel Embedding**
-
-https://link.springer.com/protocol/10.1007/978-1-4939-8879-2_11
-
-
 
 ---
 
@@ -7742,21 +7603,6 @@ Sys.sleep(1)
 `r altmetricBadge_30325860`
 
 </details>
-
----
-
-- **A "Clearer" View of Pancreatic Pathology: A Review of Tissue Clearing and Advanced Microscopy Techniques.**
-    
-https://europepmc.org/abstract/med/30256228
-
-
----
-
-- **Needle-based confocal laser endomicroscopy of pancreatic cystic lesions: a prospective multicenter validation study in patients with definite diagnosis**
-    
-https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0732-5356
-
-
 
 ---
 
@@ -7807,11 +7653,6 @@ Sys.sleep(1)
 ---
 
 \pagebreak
-
-
-
-
-
 
 
 
@@ -7918,7 +7759,8 @@ Please send your feedbacks using the form below:
    
    - [August-September-2018](http://pbpath.org/pbpath-journal-watch-august-september-2018/)
 
-   <!-- - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
+   - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/).
+
 
 ---
 
@@ -7927,3 +7769,5 @@ Please send your feedbacks using the form below:
 ---
 
 \pagebreak
+
+
