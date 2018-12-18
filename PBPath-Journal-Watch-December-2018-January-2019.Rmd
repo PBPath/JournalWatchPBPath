@@ -2779,7 +2779,51 @@ Sys.sleep(1)
 
 </details>
 
+
 ---
+
+```{r 30297095, include=FALSE}
+
+PMID_30297095 <- RefManageR::ReadPubMed('30297095', database = 'PubMed')
+
+citation_30297095 <- paste0(PMID_30297095$journal,' ', PMID_30297095$year, ' ', PMID_30297095$month,';', PMID_30297095$volume,'(', PMID_30297095$number,'):', PMID_30297095$pages)
+
+PubMed_30297095 <- paste0(PubMedString, PMID_30297095$eprint)
+
+doi_30297095 <- paste0(doiString, PMID_30297095$doi)
+
+dimensionBadge_30297095 <- paste0(dimensionString1, PMID_30297095$doi,dimensionString2)
+
+altmetricBadge_30297095 <- paste0(altmetricString1, PMID_30297095$doi, altmetricString2 )
+
+addthis_inline_30297095 <- paste0(addthis_String1, PMID_30297095$title , " PMID: 30297095 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30297095$title`**
+</summary> 
+
+*`r citation_30297095`*
+
+`r PubMed_30297095`
+
+`r addthis_inline_30297095`
+
+`r PMID_30297095$abstract`
+
+<!-- `r doi_30297095` -->
+
+`r dimensionBadge_30297095`
+
+`r altmetricBadge_30297095`
+
+</details>
+
+
 
 
 
@@ -3313,7 +3357,53 @@ Therapeutic trends in pancreatic ductal adenocarcinoma (PDAC)
 https://www.tandfonline.com/doi/abs/10.1080/13543784.2019.1557145
 
 
+---
 
+
+- **Silencing of MUC20 suppresses the malignant character of pancreatic ductal adenocarcinoma cells through inhibition of the HGF/MET pathway**
+
+
+Oncogene volume 37, pages 6041–6053 (2018) 
+
+https://www.nature.com/articles/s41388-018-0403-0
+
+
+---
+
+- **Combating pancreatic cancer with PI3K pathway inhibitors in the era of personalised medicine**
+
+
+https://gut.bmj.com/content/early/2018/11/05/gutjnl-2018-316822
+
+
+
+---
+
+- **The role of GLI-SOX2 signaling axis for gemcitabine resistance in pancreatic cancer**
+
+
+https://www.nature.com/articles/s41388-018-0553-0
+
+
+---
+
+- **PIN1 maintains redox balance via the c-Myc/NRF2 axis to counteract Kras-induced mitochondrial respiratory injury in pancreatic cancer cells**
+
+
+http://cancerres.aacrjournals.org/content/canres/early/2018/10/24/0008-5472.CAN-18-1968.full.pdf
+
+
+---
+    
+
+- **DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth**
+    
+https://gut.bmj.com/content/early/2018/10/20/gutjnl-2018-316128
+
+
+
+
+---
 
 
 ### Bile Ducts
