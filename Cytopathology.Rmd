@@ -67,3 +67,95 @@ altmetricBadge_29882285 <- paste0(altmetricString1, PMID_29882285$doi, altmetric
 
 ---
 
+```{r 30284406, include=FALSE}
+
+PMID_30284406 <- RefManageR::ReadPubMed('30284406', database = 'PubMed')
+
+citation_30284406 <- paste0(PMID_30284406$journal,' ', PMID_30284406$year, ' ', PMID_30284406$month,';', PMID_30284406$volume,'(', PMID_30284406$number,'):', PMID_30284406$pages)
+
+PubMed_30284406 <- paste0(PubMedString, PMID_30284406$eprint)
+
+doi_30284406 <- paste0(doiString, PMID_30284406$doi)
+
+dimensionBadge_30284406 <- paste0(dimensionString1, PMID_30284406$doi,dimensionString2)
+
+altmetricBadge_30284406 <- paste0(altmetricString1, PMID_30284406$doi, altmetricString2 )
+
+addthis_inline_30284406 <- paste0(addthis_String1, PMID_30284406$title , " PMID: 30284406 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30284406$title`**
+</summary> 
+
+*`r citation_30284406`*
+
+`r PubMed_30284406`
+
+`r addthis_inline_30284406`
+
+`r PMID_30284406$abstract`
+
+<!-- `r doi_30284406` -->
+
+`r dimensionBadge_30284406`
+
+`r altmetricBadge_30284406`
+
+</details>
+
+
+---
+
+
+    
+- **Pancreaticobiliary cytopathology: an update**
+
+Diagnostic Histopathology Volume 24, Issue 10, October 2018, Pages 397-408
+
+https://www.sciencedirect.com/science/article/pii/S1756231718301397
+
+
+```{r 30479026, include=FALSE}
+
+PMID_30479026 <- RefManageR::ReadPubMed('30479026', database = 'PubMed')
+
+citation_30479026 <- paste0(PMID_30479026$journal,' ', PMID_30479026$year, ' ', PMID_30479026$month,';', PMID_30479026$volume,'(', PMID_30479026$number,'):', PMID_30479026$pages)
+
+PubMed_30479026 <- paste0(PubMedString, PMID_30479026$eprint)
+
+doi_30479026 <- paste0(doiString, PMID_30479026$doi)
+
+dimensionBadge_30479026 <- paste0(dimensionString1, PMID_30479026$doi,dimensionString2)
+
+altmetricBadge_30479026 <- paste0(altmetricString1, PMID_30479026$doi, altmetricString2 )
+
+addthis_inline_30479026 <- paste0(addthis_String1, PMID_30479026$title , " PMID: 30479026 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30479026$title`**
+</summary> 
+
+*`r citation_30479026`*
+
+`r PubMed_30479026`
+
+`r addthis_inline_30479026`
+
+`r PMID_30479026$abstract`
+
+<!-- `r doi_30479026` -->
+
+`r dimensionBadge_30479026`
+
+`r altmetricBadge_30479026`
+
+</details>
+

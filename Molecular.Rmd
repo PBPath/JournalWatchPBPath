@@ -8,3 +8,153 @@ output: html_notebook
 - **Genetic Drivers of Pancreatic Cancer Are Identical Between the Primary Tumor and a Secondary Lesion in a Long-Term (>5 Years) Survivor After a Whipple Procedure**
 
 https://www.liebertpub.com/doi/abs/10.1089/pancan.2018.0015
+
+
+---
+
+- **Caveolin-1 Modulates Mechanotransduction Responses to Substrate Stiffness through Actin-Dependent Control of YAP**
+
+https://www.sciencedirect.com/science/article/pii/S2211124718316000
+
+
+
+---
+
+
+
+- **Rigidity controls human desmoplastic matrix anisotropy to enable pancreatic cancer cell spread via extracellular signal-regulated kinase 2**
+
+https://www.sciencedirect.com/science/article/pii/S0945053X18302841
+
+
+
+---
+
+
+
+
+---
+
+- **Epigenetic Targeting DNMT1 of Pancreatic Ductal Adenocarcinoma using interstitial control release biodegrading polymer reduced tumor growth through Hedgehog pathway inhibition**
+
+https://www.sciencedirect.com/science/article/pii/S1043661818306947
+
+
+
+
+
+
+---
+
+- **IL-1-induced  JAK/STAT  signaling  is  antagonized  by  TGF-ß  to  shape  CAF  heterogeneity  in pancreatic ductal adenocarcinoma** 
+
+http://cancerdiscovery.aacrjournals.org/content/candisc/early/2018/10/25/2159-8290.CD-18-0710.full.pdf
+
+---
+
+- **Therapeutic potential of targeting the Wnt/β‐catenin pathway in the treatment of pancreatic cancer**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jcb.27835
+
+
+---
+
+
+
+
+- **Referral frequency, attrition rate, and outcomes of germline testing in patients with pancreatic adenocarcinoma**
+    
+    
+https://link.springer.com/article/10.1007/s10689-018-0106-2
+
+
+
+
+- **Response of germline BRCA2-mutated advanced pancreatic acinar cell carcinoma to olaparib**
+
+https://journals.lww.com/md-journal/Fulltext/2018/11090/Response_of_germline_BRCA2_mutated_advanced.48.aspx
+
+
+
+
+---
+
+- **Targeting Purinergic Receptor P2Y2 prevents the growth of pancreatic ductal adenocarcinoma by inhibiting cancer cell glycolysis**
+
+http://clincancerres.aacrjournals.org/content/early/2018/11/10/1078-0432.CCR-18-2297?papetoc=
+
+---
+
+- **SRC-3 Inhibition Blocks Tumor Growth of Pancreatic Ductal Adenocarcinoma**
+
+https://www.sciencedirect.com/science/article/pii/S0304383518306761
+
+
+
+
+
+- **Small molecule tyrosine kinase inhibitors and pancreatic cancer—Trials and troubles**
+    
+https://www.sciencedirect.com/science/article/pii/S1044579X18301342
+
+
+
+
+---
+
+- **Combination treatment of advanced pancreatic cancer using novel vaccine and traditional therapies**
+    
+https://www.tandfonline.com/doi/abs/10.1080/14737140.2018.1531707
+
+
+
+---
+
+    
+- **Glycemic Variability Promotes Both Local Invasion and Metastatic Colonization by Pancreatic Ductal Adenocarcinoma**
+    
+https://www.researchgate.net/profile/Joerg_Kleeff/publication/326628000_Glycemic_Variability_Promotes_Both_Local_Invasion_and_Metastatic_Colonization_by_Pancreatic_Ductal_Adenocarcinoma/links/5b784be14585151fd11f7713/Glycemic-Variability-Promotes-Both-Local-Invasion-and-Metastatic-Colonization-by-Pancreatic-Ductal-Adenocarcinoma.pdf
+
+
+
+```{r 30472231, include=FALSE}
+
+PMID_30472231 <- RefManageR::ReadPubMed('30472231', database = 'PubMed')
+
+citation_30472231 <- paste0(PMID_30472231$journal,' ', PMID_30472231$year, ' ', PMID_30472231$month,';', PMID_30472231$volume,'(', PMID_30472231$number,'):', PMID_30472231$pages)
+
+PubMed_30472231 <- paste0(PubMedString, PMID_30472231$eprint)
+
+doi_30472231 <- paste0(doiString, PMID_30472231$doi)
+
+dimensionBadge_30472231 <- paste0(dimensionString1, PMID_30472231$doi,dimensionString2)
+
+altmetricBadge_30472231 <- paste0(altmetricString1, PMID_30472231$doi, altmetricString2 )
+
+addthis_inline_30472231 <- paste0(addthis_String1, PMID_30472231$title , " PMID: 30472231 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30472231$title`**
+</summary> 
+
+*`r citation_30472231`*
+
+`r PubMed_30472231`
+
+`r addthis_inline_30472231`
+
+`r PMID_30472231$abstract`
+
+<!-- `r doi_30472231` -->
+
+`r dimensionBadge_30472231`
+
+`r altmetricBadge_30472231`
+
+</details>
+
+
