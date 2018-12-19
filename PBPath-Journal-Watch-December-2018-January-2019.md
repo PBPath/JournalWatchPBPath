@@ -17,7 +17,7 @@ output:
     theme: paper
   word_document:
     toc: yes
-date: "Last Update on 2018-12-14"
+date: "Last Update on 2018-12-19"
 subtitle: "December 2018 - January 2019"
 ---
 
@@ -31,103 +31,6 @@ subtitle: "December 2018 - January 2019"
 <!-- Go to www.addthis.com/dashboard to customize your tools Journal Watch 1 Inline share-->  
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc25b82d0a9c18d">  
 </script> 
-
-
-
-<!-- back to top -->
-
-<script>
-jQuery(document).ready(function() {
-    
-var offset = 220;
-var duration = 500;
-    
-jQuery(window).scroll(function() {
-      if (jQuery(this).scrollTop() > offset) {
-        jQuery('.back-to-top').fadeIn(duration);
-      } else {
-          jQuery('.back-to-top').fadeOut(duration);
-      }
-    });
-
-jQuery('.back-to-top').click(function(event) {
-      event.preventDefault();
-      jQuery('html, body').animate({scrollTop: 0}, duration);
-      return false;
-    })
-    
-  });
-</script>
-
-<style>
-  <!-- h1, h2, h3, h4, .TOC > li { -->
-  <!--   font-family : "Playfair Display", serif; -->
-  <!--   color: #b58863; -->
-  <!-- }  -->
-
-  <!-- a { -->
-  <!--   color: #b58863; -->
-  <!-- } -->
-
-  <!-- .level2 { -->
-  <!--   padding-top: 20px; -->
-  <!-- } -->
-
-.main-container {
-  max-width: 1800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  .back-to-top {
-    font-family : "Playfair Display", serif;
-    position: fixed;
-    bottom: 4em;
-    right: 0px;
-    text-decoration: none;
-    color : white;
-    background-color : red;
-    font-size: 16px;
-    padding: 1em;
-    display: none;
-  }
-  
-  .dont-break-out {
-
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-
-}
-
-  
-  <!-- .html-widget-static-bound { -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-
-  <!-- .main-container { -->
-  <!--   max-width: 700px; -->
-  <!--   margin-left: auto; -->
-  <!--   margin-right: auto; -->
-  <!-- } -->
-  
-</style>
-<p><a href="#" class="back-to-top">Back to Top</a></p>
-
-<!-- line wrap -->
 
 
 <!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
@@ -177,6 +80,8 @@ Morphology, Diagnostics, IHC
 
 
 
+
+
 ---
 
 
@@ -201,24 +106,6 @@ Congenital and hamartomatous lesions of the gastrointestinal tract cause diagnos
 
 </details>
 
----
-
-- **Pancreatic ductal adenocarcinoma harboring microsatellite instability / DNA mismatch repair deficiency. Towards personalized medicine.**
-
-https://www.sciencedirect.com/science/article/pii/S0960740418301245
-
-
----
-
-- **Pancreatic cancer arising in the remnant pancreas is not always a relapse of the preceding primary**
-
-https://www.researchgate.net/publication/329122741_Pancreatic_cancer_arising_in_the_remnant_pancreas_is_not_always_a_relapse_of_the_preceding_primary
-
----
-
-- **Undifferentiated carcinoma with osteoclast-like giant cells of pancreas A case report with review of the computed tomography findings**
-
-https://journals.lww.com/md-journal/Fulltext/2018/11300/Undifferentiated_carcinoma_with_osteoclast_like.100.aspx
 
 ---
 
@@ -274,7 +161,82 @@ Mitogen-activated protein kinase kinase 4 (MKK4) and mitogen-activated protein k
 
 </details>
 
+
 ---
+
+
+
+<details open> <summary>
+- **PD-L1 expression in pancreatic adenosquamous carcinoma: PD-L1 expression is limited to the squamous component**
+</summary> 
+
+*Pathology, research and practice 2018 Dec;214(12):2069-2074*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30477643
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : PD-L1 expression in pancreatic adenosquamous carcinoma: PD-L1 expression is limited to the squamous component PMID: 30477643 '></div>
+
+AIM: We examined the programmed death-ligand 1 (PD-L1) expression in surgically resected pancreatic adenosquamous carcinoma (PASC) samples. Furthermore, the detection rate was also assessed using biopsy cases obtained from endoscopic ultrasound-guided fine needle aspiration (EUS-FNA).
+METHODS: Fifteen cases of PASC (six resected and nine EUS-FNA biopsied) from the Kurume University Hospital between 2009 and 2016 were used for the evaluation of PD-L1 expression. As a control group, 34 cases of pancreatic ductal adenocarcinomas (PDACs) were selected. To compare　the positivity and intensity of PD-L1, two types of clones (SP263, E1L3N) were examined for immunostaining. Only the membrane expression of PD-L1 was regarded as positive. The PD-L1 expressions in the squamous cell carcinoma component (SCc), adenocarcinoma component (ACc), and immune cells were assessed separately. The ratio of PD-L1 expression was calculated by counting the positive tumor cells, and tumor proportion score (TPS) was applied (TPS; Null < 1%, low expression; 1 ≤ TPS ≤ 49% and high expression; ≥ 50%).
+RESULTS: PD-L1 expression was observed in five surgical PASC samples (83%). This shows that SCc presented a high expression in these cases. However, the overall TPS indicated a low expression. In contrast, only one case (3%) was positive for PD-L1 in PDACs, and the TPS indicated a low expression. No differences in PD-L1 expression were observed between the two clones, SP263 and E1L3N. High PD-L1 expression in the EUS-FNA sample was found in only one case (11%).
+DISCUSSION: Although assessment using the tumor cells of PASC samples obtained from EUS-FNA was difficult, this study suggests the selective expression of PD-L1 in the SCc of PASC. Furthermore, it was considered that immune checkpoint inhibitors could provide therapeutic effects selectively on the SCc for the entire range of TPSs, though the PD-L1 expression was low.
+
+<!-- doi: https://doi.org/10.1016/j.prp.2018.10.006 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.prp.2018.10.006' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.prp.2018.10.006' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+<details open> <summary>
+- **Pancreatic Ductal Adenocarcinoma: Recent Updates**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):6-8*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558724
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic Ductal Adenocarcinoma: Recent Updates PMID: 30558724 '></div>
+
+This Guest Editorial introduces this month's special Pancreatic Cancer Theme Issue, a series of reviews intended to highlight the pathologic to molecular profiles and diagnoses of benign and neoplastic pancreatic lesions.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.10.006 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.10.006' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.10.006' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+<details open> <summary>
+- **Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):9-21*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558727
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology PMID: 30558727 '></div>
+
+Pancreatic ductal adenocarcinoma is one of the most aggressive malignant neoplasms with poor outcomes. At the time of diagnosis, the disease is usually at an advanced stage and only a minority is eligible for surgical resection. To improve the prognosis, it is essential to diagnose and treat the disease in an early stage before its progression into an invasive disease. This article reviews clinical features, histopathology, cytopathology, and molecular alterations of pancreatic ductal adenocarcinoma and its precursors. Moreover, we review a recently updated two-tier classification system for precursor lesions, new findings in premalignant cystic neoplasms, and recently updated staging criteria for invasive carcinoma based on the Cancer Staging Manual, eighth edition, from the American Joint Committee on Cancer. Finally, we discuss the potential clinical applications of the rapidly growing molecular and genetic information of pancreatic cancer and its precursors.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.10.004 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.10.004' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.10.004' data-hide-no-mentions='true'></span>
+
+</details>
 
 
 ---
@@ -291,29 +253,30 @@ Pancreas TNM staging, Margins, Survival
 
 
 
----
-
-- **Clinico‐pathological features and survival of patients with malignant exocrine pancreatic neoplasms: The AC Camargo Cancer Center experience**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25312
-
-
-
 
 ---
 
-- **Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer: Adjuvant therapy for subcentimeter PDAC**
 
 
-https://www.researchgate.net/publication/329079327_Role_of_adjuvant_therapy_in_resected_stage_IA_subcentimeter_T1aT1b_pancreatic_cancer_Adjuvant_therapy_for_subcentimeter_PDAC
+<details open> <summary>
+- **Measured residual tumor cellularity correlates with survival in neoadjuvant treated pancreatic ductal adenocarcinomas**
+</summary> 
+
+*Annals of diagnostic pathology 2018 Nov;38():93-98*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30562721
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Measured residual tumor cellularity correlates with survival in neoadjuvant treated pancreatic ductal adenocarcinomas PMID: 30562721 '></div>
 
 
----
 
-- **International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer**
+<!-- doi: https://doi.org/10.1016/j.anndiagpath.2018.10.013 -->
 
-[link](https://www.researchgate.net/profile/Matteo_De_Pastena/publication/328053361_International_Validation_of_the_Eighth_Edition_of_the_American_Joint_Committee_on_Cancer_AJCC_TNM_Staging_System_in_Patients_With_Resected_Pancreatic_Cancer/links/5bca125fa6fdcc03c7960174/International-Validation-of-the-Eighth-Edition-of-the-American-Joint-Committee-on-Cancer-AJCC-TNM-Staging-System-in-Patients-With-Resected-Pancreatic-Cancer.pdf)
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.anndiagpath.2018.10.013' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.anndiagpath.2018.10.013' data-hide-no-mentions='true'></span>
+
+</details>
 
 ---
 
@@ -340,6 +303,33 @@ CONCLUSIONS: The eighth edition of AJCC staging is more applicable and accurate 
 <script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/MPA.0000000000001073' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001073' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+<details open> <summary>
+- **Incidence and risk factors for abdominal occult metastatic disease in patients with pancreatic adenocarcinoma**
+</summary> 
+
+*Journal of surgical oncology 2018 Dec;118(8):1277-1284*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30380143
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Incidence and risk factors for abdominal occult metastatic disease in patients with pancreatic adenocarcinoma PMID: 30380143 '></div>
+
+BACKGROUND: The incidence of occult metastatic disease (OMD) in pancreatic ductal adenocarcinoma (PDAC) and associated risk factors are largely unknown.
+METHODS: We identified all patients with PDAC, who had an aborted oncologic operation due to OMD within a 10-year period. The cases were matched to a cohort of resected PDAC patients on a 1:3 ratio, based on age and sex, for comparison of preoperative clinical characteristics and potential risk factors for OMD.
+RESULTS: In the studied period, 117 patients with OMD were identified in 1423 pancreatectomies performed for PDAC (8%). Liver metastases were the most common finding (79%) followed by peritoneal implants (16%). When compared with non-OMD cases, patients with OMD presented more often with abdominal pain (P < 0.001), and higher preoperative carbohydrate antigen 19-9 (CA 19-9) values ( P = 0.007). Additionally, indeterminate liver lesions on preoperative computed tomography (CT) were identified in 40% of OMD versus 17% of non-OMD patients ( P < 0.001). Multivariable analysis distinguished four independent predictors for OMD: indeterminate lesions on preoperative CT, tumor size > 30 mm, abdominal pain, and preoperative CA 19-9 > 192 U/mL.
+CONCLUSIONS: Occurrence of OMD in PDAC accounts for 8% of cases. Preoperative CA 19-9 > 192 U/mL, primary tumor size > 30 mm, and identification of indeterminate lesions in preoperative CT may indicate the need for diagnostic laparoscopy.
+
+<!-- doi: https://doi.org/10.1002/jso.25288 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/jso.25288' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/jso.25288' data-hide-no-mentions='true'></span>
 
 </details>
 
@@ -378,6 +368,8 @@ Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 
 
 
+
+
 ---
 
 
@@ -405,27 +397,6 @@ CONCLUSION: This predictive model provides important information for physicians 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/SLA.0000000000003108' data-hide-no-mentions='true'></span>
 
 </details>
-
----
-
-- **Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma**
-
-https://www.researchgate.net/publication/329302661_Diagnostic_and_Prognostic_Impact_of_Neutrophil-to-Lymphocyte_Ratio_for_Intraductal_Papillary_Mucinous_Neoplasms_of_the_Pancreas_With_High-Grade_Dysplasia_and_Associated_Invasive_Carcinoma
-
-
----
-
-- **The efficacy and safety of endoscopic ultrasound-guided ablation of pancreatic cysts with alcohol and paclitaxel a systematic review**
-
-
-https://journals.lww.com/eurojgh/Abstract/2019/01000/The_efficacy_and_safety_of_endoscopic.1.aspx
-
-
----
-
-- **Intraductal papillary mucinous neoplasm complicated by a gastropancreatic fistula**
-
-https://www.sciencedirect.com/science/article/pii/S193004331830373X
 
 
 ---
@@ -455,6 +426,30 @@ We report a case of pseudomyxoma peritonei (PMP) arising in a 62-year-old male p
 </details>
 
 
+---
+
+
+
+<details open> <summary>
+- **Subtyping of intraductal papillary mucinous neoplasms - pitfalls of MUC1 immunohistochemistry**
+</summary> 
+
+*APMIS : acta pathologica, microbiologica, et immunologica Scandinavica 2019 Jan;127(1):27-32*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30549137
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Subtyping of intraductal papillary mucinous neoplasms - pitfalls of MUC1 immunohistochemistry PMID: 30549137 '></div>
+
+Intraductal papillary mucinous neoplasms (IPMNs) are precursor lesions of pancreatic ductal adenocarcinoma (PDAC). Current edition of WHO Classification of Tumors of the Digestive System recognizes four different subtypes (gastric, intestinal, pancreatobiliary, and oncocytic) and recommends analysis of mucin expression (MUC1, MUC2, MUC5AC, MUC6) as well as evaluation of architectural and cell differentiation patterns for correct classification. However, there is no consensus on MUC1 expression of IPMN-lesions in the literature. Current recommendations are based on studies where antibodies against the core MUC1 protein or sialylated MUC1 (tumor associated MUC1), not the fully glycosylated MUC1 were used. We have recently reported that MUC1 is strongly expressed in both gastric and intestinal types IPMN specimens from the cystic wall, obtained by endoscopic ultrasound guided microbiopsy procedure. We have used a commercial MUC1 antibody, validated and recommended for diagnostic use, which recognizes fully glycosylated MUC1. Based on the above, we propose a revision of the WHO Classification, specifying that antibodies against tumor associated MUC1 should be used for IPMN subtyping.
+
+<!-- doi: https://doi.org/10.1111/apm.12900 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1111/apm.12900' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1111/apm.12900' data-hide-no-mentions='true'></span>
+
+</details>
+
 
 
 
@@ -473,6 +468,30 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response
 
 
 
+
+---
+
+
+
+<details open> <summary>
+- **The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):44-57*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558722
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment PMID: 30558722 '></div>
+
+Pancreatic ductal adenocarcinoma (PDAC) is increasing in incidence and is projected to become the second leading cause of cancer death in the United States. Despite significant advances in understanding the disease, there has been minimal increase in PDAC patient survival. PDAC tumors are unique in the fact that there is significant desmoplasia. This generates a large stromal compartment composed of immune cells, inflammatory cells, growth factors, extracellular matrix, and fibroblasts, comprising the tumor microenvironment (TME), which may represent anywhere from 15% to 85% of the tumor. It has become evident that the TME, including both the stroma and extracellular component, plays an important role in tumor progression and chemoresistance of PDAC. This review will discuss the multiple components of the TME, their specific impact on tumorigenesis, and the multiple therapeutic targets.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.09.009 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.09.009' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.09.009' data-hide-no-mentions='true'></span>
+
+</details>
 
 ---
 
@@ -501,11 +520,6 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30530506
 </details>
 
 
----
-
-- **Immunosuppressive βig-h3 links tumour stroma and dysfunctional T cells in pancreatic cancer**
-
-https://gut.bmj.com/content/early/2018/12/07/gutjnl-2018-317735
 
 ---
 
@@ -560,6 +574,83 @@ CONCLUSIONS: In an analysis of PDAC tissue microarray specimens, we identified a
 
 </details>
 
+
+---
+
+
+
+<details open> <summary>
+- **Epithelial-Stromal Interactions in Pancreatic Cancer**
+</summary> 
+
+*Annual review of physiology 2018 Nov;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30418798
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Epithelial-Stromal Interactions in Pancreatic Cancer PMID: 30418798 '></div>
+
+Pancreatic cancer is characterized by an extensive fibroinflammatory reaction that includes immune cells, fibroblasts, extracellular matrix, vascular and lymphatic vessels, and nerves. Overwhelming evidence indicates that the pancreatic cancer microenvironment regulates cancer initiation, progression, and maintenance. Pancreatic cancer treatment has progressed little over the past several decades, and the prognosis remains one of the worst for any cancer. The contribution of the microenvironment to carcinogenesis is a key area of research, offering new potential targets for treating the disease. Here, we explore the composition of the pancreatic cancer stroma, discuss the network of interactions between different components, and describe recent attempts to target the stroma therapeutically. We also discuss current areas of active research related to the tumor microenvironment. Expected final online publication date for the Annual Review of Physiology Volume 81 is February 10, 2019. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.
+
+<!-- doi: https://doi.org/10.1146/annurev-physiol-020518-114515 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1146/annurev-physiol-020518-114515' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1146/annurev-physiol-020518-114515' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+<details open> <summary>
+- **Stratification of Pancreatic Ductal Adenocarcinomas Based on Tumor and Microenvironment Features**
+</summary> 
+
+*Gastroenterology 2018 12;155(6):1999-2013.e3*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30165049
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Stratification of Pancreatic Ductal Adenocarcinomas Based on Tumor and Microenvironment Features PMID: 30165049 '></div>
+
+BACKGROUND & AIMS: Genomic studies have revealed subtypes of pancreatic ductal adenocarcinoma (PDA) based on their molecular features, but different studies have reported different classification systems. It is a challenge to obtain high-quality, freshly frozen tissue for clinical analysis and determination of PDA subtypes. We aimed to redefine subtypes of PDA using a large number of formalin-fixed and paraffin-embedded PDA samples, which are more amenable to routine clinical evaluation.
+METHODS: We collected PDA samples from 309 consecutive patients who underwent surgery from September 1996 through December 2010 at 4 academic hospitals in Europe; nontumor tissue samples were not included. Samples were formalin fixed and paraffin embedded. DNA and RNA were isolated; gene expression, targeted DNA sequencing, and immunohistochemical analyses were performed. We used independent component analysis to deconvolute normal, tumor, and microenvironment transcriptome patterns in samples. We devised classification systems from an unsupervised analysis using a consensus clustering approach of our data set after removing normal contamination components. We associated subtypes with overall survival and disease-free survival of patients using Cox proportional hazards regression with estimation of hazard ratios and 95% confidence interval. We used The Cancer Genome Consortium and International Cancer Genome Consortium PDA data sets as validation cohorts.
+RESULTS: We validated the previously reported basal-like and classical tumor-specific subtypes of PDAs. We identified features of the PDA, including microenvironment gene expression patterns, that allowed tumors to be categorized into 5 subtypes, called pure basal like, stroma activated, desmoplastic, pure classical, and immune classical. These PDA subtypes have features of cancer cells and immune cells that could be targeted by pharmacologic agents. Tumor subtypes were associated with patient outcomes, based on analysis of our data set and the International Cancer Genome Consortium and The Cancer Genome Consortium PDA data sets. We also observed an exocrine signal associated with acinar cell contamination (from pancreatic tissue).
+CONCLUSIONS: We identified a classification system based on gene expression analysis of formalin-fixed PDA samples. We identified 5 PDA subtypes, based on features of cancer cells and the tumor microenvironment. This system might be used to select therapies and predict patient outcomes. We found evidence that the previously reported exocrine-like (called ADEX) tumor subtype resulted from contamination with pancreatic acinar cells. ArrayExpress accession number: E-MTAB-6134.
+
+<!-- doi: https://doi.org/10.1053/j.gastro.2018.08.033 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1053/j.gastro.2018.08.033' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1053/j.gastro.2018.08.033' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+<details open> <summary>
+- **Refining Classification of Pancreatic Cancer Subtypes to Improve Clinical Care**
+</summary> 
+
+*Gastroenterology 2018 12;155(6):1689-1691*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30419209
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Refining Classification of Pancreatic Cancer Subtypes to Improve Clinical Care PMID: 30419209 '></div>
+
+
+
+<!-- doi: https://doi.org/10.1053/j.gastro.2018.11.004 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1053/j.gastro.2018.11.004' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1053/j.gastro.2018.11.004' data-hide-no-mentions='true'></span>
+
+</details>
+
 ---
 
 
@@ -594,19 +685,6 @@ Solid Pseudopapillary Neoplasm
 
 
 
----
-
-- **Primordial germ cells as a potential shared cell of origin for mucinous cystic neoplasms of the pancreas and mucinous ovarian tumors**
-
-https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_potential_shared_cell_of_origin_for_mucinous_cystic_neoplasms_of_the_pancreas_and_mucinous_ovarian_tumors
-
-
----
-
-
-- **Pancreatic Choristoma in a Canine Gallbladder**
-
-https://www.sciencedirect.com/science/article/pii/S0021997518302020
 
 
 ---
@@ -639,8 +717,6 @@ CONCLUSIONS.—: Our findings confirm the previous reports of significant associ
 
 </details>
 
-
-Sys.sleep(1)
 
 ---
 
@@ -679,6 +755,30 @@ Sys.sleep(1)
 
 
 <details open> <summary>
+- **Tumefactive Inflammatory Diseases of the Pancreas**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):82-93*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558726
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tumefactive Inflammatory Diseases of the Pancreas PMID: 30558726 '></div>
+
+Advances in the past two decades have resulted in the recognition of several tumefactive pancreatic lesions that, on histologic evaluation, show a varying combination of inflammation and fibrosis. Autoimmune pancreatitis, the prototypic tumefactive pancreatic fibroinflammatory lesion, is composed of two distinct diseases, type 1 autoimmune pancreatitis and the less common type 2 autoimmune pancreatitis. Although designated as autoimmune pancreatitis, the two diseases show little morphologic or pathogenic overlap. In type 1 disease, subsets of T lymphocytes (type 2 helper T cells, regulatory T cells, and T follicular helper 2 cells) are hypothesized to drive the inflammatory reaction. The B-cell response is characterized by an oligoclonal expansion of plasmablasts, with dominant clones that vary among patients and distinct clones that emerge at the time of relapse. Although the precise role of IgG4 in this condition remains uncertain, recent studies suggest that other IgG subclasses (eg, IgG1) may mediate the immune reactions, whereas IgG4 represents a response to dampen excessive inflammation. A recent study of type 2 autoimmune pancreatitis highlights the role of CXCL8 (alias IL-8), with duct epithelium and infiltrating T lymphocytes expressing this chemokine; the latter may contribute to the distinct form of neutrophilic inflammation in this disease. The review also highlights other forms of mass-forming chronic pancreatitis: follicular pancreatitis, groove pancreatitis, and those associated with rheumatologic diseases.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.05.022 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.05.022' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.05.022' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+<details open> <summary>
 - **Clinicopathological and immunological features of follicular pancreatitis-a distinct disease entity characterized by Th17 activation**
 </summary> 
 
@@ -700,69 +800,6 @@ CONCLUSIONS: This study shows that follicular pancreatitis is a histopathologica
 
 </details>
 
----
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
-#### Techniques & Research Methods
-
-
-
-
-
----
-
-- **Mass Spectrometry-Based Comprehensive Analysis of Pancreatic Cyst Fluids**
-
-https://www.hindawi.com/journals/bmri/2018/7169595/
-
----
-
-- **A “Clearer” View of Pancreatic Pathology A Review of Tissue Clearing and Advanced Microscopy Techniques**
-
-https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_of_Pancreatic_Pathology___A.3.aspx
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Reviews, Opinion Articles
-
-
-
-
-
-
----
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Animal Studies
-
-
-
 
 
 
@@ -775,272 +812,12 @@ https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_
 \pagebreak
 
 
-#### Oncology and serum marker studies
 
-
-
-
-
----
-
-
-
-<details open> <summary>
-- **Circulating interleukin-6 is associated with disease progression, but not cachexia in pancreatic cancer**
-</summary> 
-
-*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Nov;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30497874
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Circulating interleukin-6 is associated with disease progression, but not cachexia in pancreatic cancer PMID: 30497874 '></div>
-
-BACKGROUND: Cachexia is a wasting syndrome characterized by involuntary loss of >5% body weight due to depletion of adipose and skeletal muscle mass. In cancer, the pro-inflammatory cytokine interleukin-6 (IL-6) is considered a mediator of cachexia and a potential biomarker, but the relationship between IL-6, weight loss, and cancer stage is unknown. In this study we sought to evaluate IL-6 as a biomarker of cancer cachexia while accounting for disease progression.
-METHODS: We retrospectively studied 136 subjects with biopsy-proven pancreatic ductal adenocarcinoma (PDAC), considering the high prevalence of cachexia is this population. Clinical data were abstracted from subjects in all cancer stages, and plasma IL-6 levels were measured using a multiplex array and a more sensitive ELISA. Data were evaluated with univariate comparisons, including Kaplan-Meier survival curves, and multivariate Cox survival models.
-RESULTS: On multiplex, a total of 43 (31.4%) subjects had detectable levels of plasma IL-6, while by ELISA all subjects had detectable IL-6 levels. We found that increased plasma IL-6 levels, defined as detectable for multiplex and greater than median for ELISA, were not associated with weight loss at diagnosis, but rather with the presence of metastasis (p < 0.001 for multiplex and p = 0.007 for ELISA). Further, while >5% weight loss was not associated with worse survival, increased plasma IL-6 by either methodology was.
-CONCLUSION: Circulating IL-6 levels do not correlate with cachexia (when defined by weight loss), but rather with advanced cancer stage. This suggests that IL-6 may mediate wasting, but should not be considered a diagnostic biomarker for PDAC-induced cachexia.
-
-<!-- doi: https://doi.org/10.1016/j.pan.2018.11.002 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.11.002' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.11.002' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Epidemiology, Screening, Cancer Risk Factors
-
-
-
-
-
----
-
-- **German National Case Collection for familial pancreatic Cancer (FaPaCa) - acceptance and psychological aspects of a pancreatic cancer screening program**
-
-https://hccpjournal.biomedcentral.com/articles/10.1186/s13053-018-0100-6
-
-
-
----
-
-
-
-<details open> <summary>
-- **Dietary Fiber and the Risk of Pancreatic Cancer**
-</summary> 
-
-*Pancreas 2019 Jan;48(1):121-125*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30489447
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Dietary Fiber and the Risk of Pancreatic Cancer PMID: 30489447 '></div>
-
-OBJECTIVES: High dietary fiber may protect against pancreatic ductal adenocarcinoma (PDAC). We investigated associations between fiber intake and the risk of PDAC using for the first time 7-day food diaries.
-METHODS: Participants in the European Prospective Investigation Into Cancer-Norfolk completed the 7-day food diaries at recruitment. The cohort was followed up for 17 years to identify those who developed PDAC. Participants were divided into quintiles of fiber intake, and hazard ratios (HR) were estimated with their 95% confidence intervals (CIs). Fiber was tested for effect modification of high red and processed meat intake and smoking and the risk of PDAC.
-RESULTS: No significant associations for any quintiles of intake (HR Q5 vs Q1, 1.08; 95% CI, 0.56-2.08) were detected with no trend across quintiles. A high-fiber diet modified positive associations between red and processed meats with the development of PDAC (HR trends, 0.89 [95% CI, 0.47-1.69] and 1.02 [95% CI, 0.55-1.88], respectively) but not those with lower fiber intake. Fiber intake did not modify the risk of PDAC in past and current smokers.
-CONCLUSION: The findings do not suggest that fiber protects against PDAC, although it may decrease potential deleterious effects of meats.
-
-<!-- doi: https://doi.org/10.1097/MPA.0000000000001191 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/MPA.0000000000001191' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001191' data-hide-no-mentions='true'></span>
-
-</details>
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis**
-</summary> 
-
-*Journal of Cancer 2018 10;9(22):4117-4127*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30519311
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis PMID: 30519311 '></div>
-
-Background: The objective of this study was to evaluate the probability of cancer-specific death of patients with acinar cell carcinoma (ACC) and build nomograms to predict overall survival (OS) and cancer-specific survival (CSS) of these patients. Methods: Data were extracted from the Surveillance, Epidemiology, and End Results (SEER) database. Patients diagnosed with ACC between 2004 and 2014 were retrospectively collected. Cancer-specific mortality and competing risk mortality were evaluated. Nomograms for estimating 1-, 2- and 3-year OS and CSS were established based on Cox regression model and Fine and Grey's model. The precision of the 1-, 2- and 3-year survival of the nomograms was evaluated and compared using the area under receiver operating characteristic (ROC) curve (AUC). Results: The study cohort included 227 patients with ACC. The established nomograms were well calibrated, and had good discriminative ability, with a concordance index (C-index) of 0.742 for OS prediction and 0.766 for CSS prediction. The nomograms displayed better discrimination power than 7th or 8th edition Tumor-Node-Metastasis (TNM) stage systems in training set and validation set for predicting both OS and CSS. The AUC values of the nomogram predicting 1-, 2-, and 3-year OS rates were 0.784, 0.797 and 0.805, respectively, which were higher than those of 7th or 8th edition TNM stage systems. Regard to the prediction of CSS rates, the AUC values of the nomogram were also higher than those of 7th or 8th edition TNM stage systems. Conclusion: We evaluated the 1-, 2- and 3-year OS and CSS in patients with ACC for the first time. Our nomograms showed relatively good performance and could be considered as convenient individualized predictive tools for prognosis.
-
-<!-- doi: https://doi.org/10.7150/jca.26936 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.7150/jca.26936' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.7150/jca.26936' data-hide-no-mentions='true'></span>
-
-</details>
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **Systematic review and meta-analysis: Prevalence of incidentally detected pancreatic cystic lesions in asymptomatic individuals**
-</summary> 
-
-*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Nov;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30503370
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Systematic review and meta-analysis: Prevalence of incidentally detected pancreatic cystic lesions in asymptomatic individuals PMID: 30503370 '></div>
-
-BACKGROUND & AIMS: Pancreatic cystic lesions (PCLs) are frequent incidental findings. As most PCLs require costly diagnostic evaluation and active surveillance, it is important to clarify their prevalence in asymptomatic individuals. We therefore aimed at performing a systematic review and meta-analysis to determine it.
-METHODS: a systematic search was conducted and studies meeting inclusion criteria were included. The prevalence of PCLs was pooled across studies. A random effect model was used with assessment of heterogeneity.
-RESULTS: 17 studies, with 48,860 patients, were included. Only 3 were prospective; 5 studies were conducted in the US, 7 in Europe, 4 in Asia and 1 in Brazil. The pooled prevalence of PCLs was 8% (95% CI 4-14) with considerable heterogeneity (I2 = 99.5%). This prevalence was higher in studies of higher quality, examining older subjects, smaller cohorts, and employing MRCP (24.8% vs 2.7% with CT-scan). The pooled rate of PCLs was four times higher in studies conducted in the US than in Asia (12.6% vs 3.1%). 7 studies reported the prevalence of mucinous lesions, with a pooled rate of 4.3% (95% CI 2-10; I2 = 99.2%), but of 0.7% only for worrisome features or high risk stigmata.
-CONCLUSION: The rate of incidentally detected PCLs is of 8%. Mucinous lesions are the most common incidentally detected PCLs, although they rarely present with potential indication for surgery. The observed different rates in the US and other geographic Areas suggest that different protocols might be necessary to help balancing costs and effectiveness of follow-up investigations in asymptomatic subjects.
-
-<!-- doi: https://doi.org/10.1016/j.pan.2018.11.014 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.11.014' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.11.014' data-hide-no-mentions='true'></span>
-
-</details>
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **Tumor growth rate of pancreatic serous cystadenomas: Endosonographic follow-up with volume measurement to predict cyst enlargement**
-</summary> 
-
-*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Nov;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30503637
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tumor growth rate of pancreatic serous cystadenomas: Endosonographic follow-up with volume measurement to predict cyst enlargement PMID: 30503637 '></div>
-
-BACKGROUND: Serous cystadenomas are benign lesions of the pancreas. Usually they are diagnosed incidentally on cross-sectional imaging studies. Endosonography is a valuable tool in the diagnosis and follow-up of these cystic lesions. Given its benign nature, surgical resection is advised only in symptomatic patients. The interval and length of surveillance is not well established.
-METHODS: A retrospective single center study was done. All the patients with a pancreatic serous cystadenoma sent for an endosonographic evaluation, between December 2008 and December 2015 were included. The lesions were follow-up endosonographically at least once, in a 12 months interval. Volume was measured with the formula π/6 × (d1 x d1 x d2). Two groups were evaluated: patients with a volume under 10 mL (Group 1) and those with a volume of 10 mL or more at presentation (Group 2). Growth rate between these two groups was compared.
-RESULTS: Thirty-one patients were analyzed, with a mean age of 58.2 years. Patients were mainly women (87%). Twenty-four patients in Group 1 had a mean enlargement of 0.67 ml per year, whereas patients in Group 2 had a mean enlargement of 9.8 ml per year. The growth rate difference between these two groups was statistically significant (p = 0.0001).
-CONCLUSION: Asymptomatic patients with pancreatic serous cystadenomas should be follow-up for enlargement. Small volume lesions have a low risk of enlargement compared with high volume and macrocystic serous cystadenomas. Volume at presentation is a feature to analyze when defining surveillance interval.
-
-<!-- doi: https://doi.org/10.1016/j.pan.2018.11.007 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.11.007' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.11.007' data-hide-no-mentions='true'></span>
-
-</details>
-
-
----
-
-
-- **Recent treatment patterns and survival outcomes in pancreatic cancer according to clinical stage based on single-center large-cohort data**
-
-https://synapse.koreamed.org/search.php?where=aview&id=10.14701/ahbps.2018.22.4.386&code=2110AHBPS&vmode=FULL
-
-
----
-
-
-
-
-<details open> <summary>
-- **Pancreatic Cancer: A Rare Cause of Abdominal Pain in Severe Cystic Fibrosis**
-</summary> 
-
-*Pancreas 2019 Jan;48(1):e3-e4*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30531246
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic Cancer: A Rare Cause of Abdominal Pain in Severe Cystic Fibrosis PMID: 30531246 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1097/MPA.0000000000001162 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/MPA.0000000000001162' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001162' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
-- **A systematic assessment of statistics, risk factors, and underlying features involved in pancreatic cancer**
-
-https://www.sciencedirect.com/science/article/pii/S1877782118305101
-
-
-
----
-
-
-
-<details open> <summary>
-- **Results of First-round of Surveillance in Individuals at High-risk of Pancreatic Cancer from the AISP (Italian Association for the Study of the Pancreas) Registry**
-</summary> 
-
-*The American journal of gastroenterology 2018 Dec;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30538291
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Results of First-round of Surveillance in Individuals at High-risk of Pancreatic Cancer from the AISP (Italian Association for the Study of the Pancreas) Registry PMID: 30538291 '></div>
-
-INTRODUCTION: Surveillance programs on high-risk individuals (HRIs) can detect pre-malignant lesions or early pancreatic cancer (PC). We report the results of the first screening round of the Italian multicenter program supported by the Italian Association for the study of the Pancreas (AISP).
-METHODS: The multicenter surveillance program included asymptomatic HRIs with familial (FPC) or genetic frailty (GS: BRCA1/2, p16/CDKN2A, STK11/LKB1or PRSS1, mutated genes) predisposition to PC. The surveillance program included at least an annual magnetic resonance cholangio pancreatography (MRCP). Endoscopic ultrasound (EUS) was proposed to patients who refused or could not be submitted to MRCP.
-RESULTS: One-hundreds eighty-seven HRIs underwent a first-round screening examination with MRCP (174; 93.1%) or EUS (13; 6.9%) from September 2015 to March 2018.The mean age was 51 years (range 21-80).One-hundreds sixty-five (88.2%) FPC and 22 (11.8%) GF HRIs were included. MRCP detected 28 (14.9%) presumed branch-duct intraductal papillary mucinous neoplasms (IPMN), 1 invasive carcinoma/IPMN and one low-grade mixed-type IPMN, respectively. EUS detected 4 PC (2.1%): 1 was resected, 1 was found locally advanced intraoperatively, and 2 were metastatic. Age > 50 (OR 3.3, 95%CI 1.4-8), smoking habit (OR 2.8, 95%CI 1.1-7.5), and having > 2 relatives with PC (OR 2.7, 95%CI 1.1-6.4) were independently associated with detection of pre-malignant and malignant lesions. The diagnostic yield for MRCP/EUS was 24% for cystic lesions. The overall rate of surgery was 2.6% with nil mortality.
-DISCUSSION: The rate of malignancies found in this cohort was high (2.6%). According to the International Cancer of the Pancreas Screening Consortium the screening goal achievement was high (1%).
-
-<!-- doi: https://doi.org/10.1038/s41395-018-0414-z -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41395-018-0414-z' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41395-018-0414-z' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
----
 
 ### Bile Ducts
 
 
 
-
----
-
-- **Heterotopic chondroid tissue of the main bile duct mimicking Klatskin tumor: case report and review of the literature**
-
-https://link.springer.com/article/10.1007/s12328-018-00928-w
 
 
 ---
@@ -1073,10 +850,28 @@ Cholangiolocellular carcinoma (CLC) is a unique subtype of primary liver carcino
 ---
 
 
-- **Prognostic Significance of the Lymph Node Ratio in Surgical Patients With Distal Cholangiocarcinoma**
+
+<details open> <summary>
+- **Data set for the reporting of intrahepatic cholangiocarcinoma, perihilar cholangiocarcinoma and hepatocellular carcinoma: recommendations from the International Collaboration on Cancer Reporting (ICCR)**
+</summary> 
+
+*Histopathology 2018 Sep;73(3):369-385*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29573451
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Data set for the reporting of intrahepatic cholangiocarcinoma, perihilar cholangiocarcinoma and hepatocellular carcinoma: recommendations from the International Collaboration on Cancer Reporting (ICCR) PMID: 29573451 '></div>
+
+Optimal patient management benefits from comprehensive and accurate pathology reports that contribute to cancer staging and prognostication. Proforma reports are used in many countries, but these vary in their structure and implementation. The International Collaboration on Cancer Reporting (ICCR) is an alliance formed by the Royal College of Pathologists of Australasia, the Royal College of Pathologists of the United Kingdom, the College of American Pathologists, the Canadian Partnership Against Cancer the European Society of Pathology and the American Society of Clinical Pathology (ASCP), with the aim of developing an evidence-based reporting data set for each cancer site. It is argued that this should reduce the global burden of cancer data set development and reduplication of effort by different international institutions that commission, publish and maintain standardised cancer reporting data sets. The resultant standardisation of cancer reporting will benefit not only those countries directly involved in the collaboration but also others not in a position to develop their own data sets. We describe the development of a cancer data set by the ICCR expert panel for the reporting of the main malignant liver tumours: intrahepatic cholangiocarcinoma, perihilar cholangiocarcinoma and hepatocellular carcinoma and present the 'required' and 'recommended' elements to be included in the report with an explanatory commentary. This data set incorporates definitions and classifications in the most recent World Health Organisation (WHO) publication on hepatic malignancies (4th edition) and the recently published tumour-node-metastasis (TNM)8 staging system. Widespread adoption and implementation of this data set will enable consistent and accurate data collection, comparison of epidemiological and pathological parameters between different populations, facilitate research and ultimately result in better patient outcomes.
+
+<!-- doi: https://doi.org/10.1111/his.13520 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1111/his.13520' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1111/his.13520' data-hide-no-mentions='true'></span>
+
+</details>
 
 
-https://www.sciencedirect.com/science/article/pii/S0022480418307753
 
 
 ---
@@ -1180,7 +975,33 @@ CONCLUSIONS: One in eight patients with HC reaches the 5-year survival milestone
 
 </details>
 
+
 ---
+
+
+
+<details open> <summary>
+- **Impact of microvascular invasion on clinical outcomes after curative-intent resection for intrahepatic cholangiocarcinoma**
+</summary> 
+
+*Journal of surgical oncology 2019 Jan;119(1):21-29*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30466151
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Impact of microvascular invasion on clinical outcomes after curative-intent resection for intrahepatic cholangiocarcinoma PMID: 30466151 '></div>
+
+BACKGROUND: Microvascular invasion (MiVI) is a histological feature of intrahepatic cholangiocarcinoma (ICC) that may be associated with biological behavior. We sought to investigate the impact of MiVI on long-term survival of patients undergoing curative-intent resection for ICC.
+METHODS: A total of 1089 patients undergoing curative-intent resection for ICC were identified. Data on clinicopathological characteristics, disease-free survival (DFS), and overall survival (OS) were compared among patients with no vascular invasion (NoVI), MiVI, and macrovascular invasion (MaVI).
+RESULTS: A total of 249 (22.9%) patients had MiVI, while 149 (13.7%) patients had MaVI (±MiVI). MiVI was associated with higher incidence of perineural, biliary and adjacent organ invasion, and satellite lesions (all P < 0.01). On multivariable analysis, MiVI was an independent risk factor of DFS (hazard ratios [HR] 1.5; 95%confidence intervals [CI], 1.3-1.9; P < 0.001), but not OS (HR 1.1; 95%CI, 0.9-1.3; P = 0.379). While MiVI and MaVI patients had similar DFS (median, MiVI 14.0 vs MaVI 12.0 months, HR 0.9; 95%CI, 0.7-1.2; P = 0.377), OS was better among MiVI patients (median, MiVI 39.0 vs MaVI 21.0 months, HR 0.7; 95%CI, 0.5-0.8; P = 0.002). Whereas nodal metastasis, R1 margin, and postoperative morbidity were associated with early death (≤18 months) among patients with MiVI, only nodal metastasis was associated with late (>18 months) prognosis.
+CONCLUSIONS: Roughly 1 out of 5 patients with resected ICC had MiVI. MiVI was associated with advanced tumor characteristics and a higher risk of tumor recurrence.
+
+<!-- doi: https://doi.org/10.1002/jso.25305 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/jso.25305' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/jso.25305' data-hide-no-mentions='true'></span>
+
+</details>
 
 ---
 
@@ -1190,8 +1011,6 @@ CONCLUSIONS: One in eight patients with HC reaches the 5-year survival milestone
 
 \pagebreak
 
-
----
 
 ### Gallbladder
 
@@ -1235,31 +1054,6 @@ Conclusion: Routine histopathological examination of gallbladder is significant 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.4103/0973-1482.187301' data-hide-no-mentions='true'></span>
 
 </details>
-
----
-
-- **Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations: Locality of Gallbladder Tumor Mutations**
-
-
-https://www.researchgate.net/publication/328947053_Regional_differences_in_gallbladder_cancer_pathogenesis_Insights_from_a_multi-institutional_comparison_of_tumor_mutations_Locality_of_Gallbladder_Tumor_Mutations
-
-
-
----
-
-
-- **Intracholecystic papillary-tubular neoplasm of the gallbladder originating in the cystic duct with extensive intraepithelial progress in the common bile duct**
-
-https://link.springer.com/article/10.1007/s12328-018-0927-4
-
-
----
-
-- **Distribution of dysplasia and cancer in the gallbladder: an analysis from a high cancer-risk population**
-
-https://www.sciencedirect.com/science/article/pii/S004681771830282X?dgcid=raven_sd_via_email
-
-
 
 ---
 
@@ -1360,13 +1154,33 @@ CONCLUSION: Less than 50% of the patients with a T1b GBC primary tumor undergo t
 
 </details>
 
+
 ---
 
-- **National Failure of Surgical Staging for T1b Gallbladder Cancer**
-
-https://link.springer.com/article/10.1245/s10434-018-7064-7
 
 
+<details open> <summary>
+- **Optimal surgical treatment in patients with T1b gallbladder cancer: An international multicenter study**
+</summary> 
+
+*Journal of hepato-biliary-pancreatic sciences 2018 Dec;25(12):533-543*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30562839
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Optimal surgical treatment in patients with T1b gallbladder cancer: An international multicenter study PMID: 30562839 '></div>
+
+BACKGROUND: There is no consensus on the optimal treatment of T1b gallbladder cancer (GBC) due to the lack of evidence and the difficulty of anatomy and pathological standardization.
+METHODS: A total of 272 patients with T1b GBC who underwent surgical resection at 14 centers with specialized hepatobiliary-pancreatic surgeons and pathologists in Korea, Japan, Chile, and the United States were studied. Clinical outcomes including disease-specific survival (DSS) rates according to the types of surgery were analyzed.
+RESULTS: After excluding patients, the 237 qualifying patients consisted of 90 men and 147 women. Simple cholecystectomy (SC) was performed in 116 patients (48.9%) and extended cholecystectomy (EC) in 121 patients (51.1%). The overall 5-year DSS was 94.6%, and it was similar between SC and EC patients (93.7% vs. 95.5%, P = 0.496). The 5-year DSS was similar between SC and EC patients in America (82.3% vs. 100.0%, P = 0.249) as well as in Asia (98.6% vs. 95.2%, P = 0.690). The 5-year DSS also did not differ according to lymph node metastasis (P = 0.688) or tumor location (P = 0.474).
+CONCLUSIONS: SC showed similar clinical outcomes (including recurrence) and survival outcomes as EC; therefore, EC is not needed for the treatment of T1b GBC.
+
+<!-- doi: https://doi.org/10.1002/jhbp.593 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/jhbp.593' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/jhbp.593' data-hide-no-mentions='true'></span>
+
+</details>
 
 ---
 
@@ -1415,9 +1229,37 @@ BACKGROUND Duodenal and ampullary carcinoids are very rare tumors accounting res
 
 </details>
 
----
 
 ---
+
+
+
+<details open> <summary>
+- **Identification of ampullary carcinoma mixed subtype using a panel of six antibodies and its clinical significance**
+</summary> 
+
+*Journal of surgical oncology 2018 Dec;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30548547
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Identification of ampullary carcinoma mixed subtype using a panel of six antibodies and its clinical significance PMID: 30548547 '></div>
+
+OBJECTIVES: To investigate the function of immunomarkers CK7, CK20, CK17, CDX2, MUC1, and MUC2 in the identification of primary ampullary carcinoma mixed subtype.
+METHODS: Forty-two cases of primary ampullary carcinoma were performed by immunohistochemical studies. The correlation between the mixed subtype and the other two subtypes and patient survival data was analyzed using the SPSS 16.0 statistical software.
+RESULTS: Among 42 cases, 12 (28.6%) cases were classified as mixed subtype, which showed variable expression patterns: 91.7% (11/12) for CK7, 83.3% (10/12) for CK20; 66.7% (8/12) for CK17, CDX2, and MUC1; and 50% (6/12) for MUC2. Ten (83.3%) mixed types coexpressed four or more immunomarkers. Eight (19%) intestinal subtypes mainly showed a positive expression of CK20, CDX2, and MUC2. Twenty-two (52.4%) pancreaticobiliary subtypes showed a positive expression of CK7, MUC1, and CK17. Stages III and IV diseases in mixed subtype (25%) and intestinal subtype (25%) were less than pancreaticobiliary subtype(63.6%) (p = 0.039). Follow-up data appeared to show a better survival rate for patients with mixed subtype than those with pancreaticobiliary subtypes.
+CONCLUSION: Immunohistochemical staining provided a more reliable means of diagnosing mixed ampulla carcinoma. Accurate subtyping of ampullary carcinoma is clinically important to select effective chemotherapy regimens and to assess disease prognosis.
+
+<!-- doi: https://doi.org/10.1002/jso.25311 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/jso.25311' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/jso.25311' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -1462,7 +1304,7 @@ CONCLUSIONS: The annual incidence of ampullary cancer has been fairly constant, 
 ---
 
 
----
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -1470,7 +1312,6 @@ CONCLUSIONS: The annual incidence of ampullary cancer has been fairly constant, 
 
 \pagebreak
 
----
 
 ### Neuroendocrine
 
@@ -1508,24 +1349,6 @@ CONCLUSIONS: Although cystic PNETs were larger upon diagnosis than solid PNETs i
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.11.010' data-hide-no-mentions='true'></span>
 
 </details>
-
----
-
-- **A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal**
-
-
-https://www.nature.com/articles/s41379-018-0110-y
-
-
-
----
-
-- **Insulinoma-associated protein 1 immunostaining on cytology specimens: an institutional experience**
-
-
-https://www.sciencedirect.com/science/article/pii/S0046817718304350
-
-
 
 ---
 
@@ -1583,23 +1406,6 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30519760
 
 </details>
 
-
----
-
-
-- **ATRX loss is an independent predictor of poor survival in pancreatic neuroendocrine tumors**
-
-
-https://www.sciencedirect.com/science/article/pii/S0046817718303009
-
-
----
-
-- **Neoplasms of the Neuroendocrine Pancreas An Update in the Classification, Definition, and Molecular Genetic Advances**
-
-https://journals.lww.com/anatomicpathology/Abstract/2019/01000/Neoplasms_of_the_Neuroendocrine_Pancreas___An.2.aspx
-
-
 ---
 
 
@@ -1625,15 +1431,6 @@ Our group observed the first case of synchronous gastric neuroendocrine tumor (N
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001204' data-hide-no-mentions='true'></span>
 
 </details>
-
-
----
-
-- **Patterns of recurrence after resection for pancreatic neuroendocrine tumors: who, when, and where?**
-
-[link](https://www.researchgate.net/publication/329247683_Patterns_of_recurrence_after_resection_for_pancreatic_neuroendocrine_tumors_who_when_and_where)
-
-
 
 ---
 
@@ -1753,12 +1550,6 @@ Conclusion: We observed that dual response in triple test (positive staining wit
 
 </details>
 
----
-
-- **Touch imprint cytology on endoscopic ultrasound fine‐needle biopsy provides comparable sample quality and diagnostic yield to standard eus‐fna specimens in the evaluation of solid pancreatic lesions**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12662
-
 
 ---
 
@@ -1788,14 +1579,30 @@ CONCLUSION: The cyst tissue acquisition yield for MFBs was 90%. Although cytolog
 
 </details>
 
+
 ---
 
 
-- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
 
-[link](https://www.researchgate.net/publication/327877645_Rationale_and_feasibility_of_mucin_expression_profiling_by_qRT-PCR_as_diagnostic_biomarkers_in_cytology_specimens_of_pancreatic_cancer)
+<details open> <summary>
+- **Pleomorphic and atypical multinucleated giant cells in solid pseudopapillary neoplasm of pancreas: A diagnostic pitfall in cytology and a review of the literature**
+</summary> 
 
+*Diagnostic cytopathology 2018 Dec;():*
 
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30552752
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pleomorphic and atypical multinucleated giant cells in solid pseudopapillary neoplasm of pancreas: A diagnostic pitfall in cytology and a review of the literature PMID: 30552752 '></div>
+
+Solid pseudopapillary neoplasm of the pancreas (SPN) is a rare low-grade malignancy typically occurring in young women. Occasionally, these neoplasms present with pleomorphic to atypical multinucleated giant tumor cells which may mimic high-grade malignancy. Our patient is a 25-year-old male who presented with one year of intermittent epigastric pain. Magnetic resonance imaging showed a 3.1 × 2.5 cm mass in the pancreas body. Endoscopic ultrasound-guided fine needle aspiration of the mass showed large pleomorphic cells and atypical multinucleated giant cells in a background of singly scattered polygonal cells. Focally, these cells surrounded delicate hyalinized to fibrovascular cores forming pseudopapillae. Immunohistochemical stains show tumor cells are positive for beta-catenin, CD10, vimentin, and CD56. Although rare surgical pathology publications have described the presence of pleomorphic to atypical multinucleated giant cells occurring in SPN, to our knowledge, this is the first case reported example focused on cytomorphologic illustration and description.
+
+<!-- doi: https://doi.org/10.1002/dc.24129 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/dc.24129' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/dc.24129' data-hide-no-mentions='true'></span>
+
+</details>
 
 
 ---
@@ -1891,11 +1698,6 @@ Two-thirds of neuroendocrine neoplasms arising in the human body originate from 
 
 </details>
 
----
-
-- **Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms**
-
-https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22073
 
 
 ---
@@ -1915,6 +1717,30 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22073
 
 
 
+
+---
+
+
+
+<details open> <summary>
+- **miRNA and Gene Expression in Pancreatic Ductal Adenocarcinoma**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):58-70*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558723
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : miRNA and Gene Expression in Pancreatic Ductal Adenocarcinoma PMID: 30558723 '></div>
+
+Pancreatic ductal adenocarcinoma (PDAC) remains a challenging disease that is mostly diagnosed late in the course of the illness. Unlike other cancers in which measurable successes have been achieved with traditional chemotherapy, targeted therapy, and, recently, immunotherapy, PDAC has proved to be poorly responsive to these treatments, with only marginal to modest incremental benefits using conventional cytotoxic therapy. There is, therefore, a great unmet need to develop better therapies based on improved understanding of biology and identification of predictive and prognostic biomarkers that would guide therapy. miRNAs are small noncoding RNAs that regulate the expression of some key genes by targeting their 3'-untranslated mRNA region. Aberrant expression of miRNAs has been linked to the development of various malignancies, including PDAC. A series of miRNAs have been identified as potential tools for early diagnosis, prediction of treatment response, and prognosis of patients with PDAC. In this review, we present a summary of the miRNAs that have been studied in PDAC in the context of disease biology.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.10.005 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.10.005' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.10.005' data-hide-no-mentions='true'></span>
+
+</details>
 
 ---
 
@@ -1940,31 +1766,6 @@ The pancreas originates from two epithelial evaginations of the foregut, which c
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41586-018-0762-2' data-hide-no-mentions='true'></span>
 
 </details>
-
----
-
-- **Genetic assessment of recurrent pancreatic high-risk lesions in the remnant pancreas: Metachronous multifocal lesion or local recurrence?**
-
-https://www.sciencedirect.com/science/article/pii/S0039606018307402
-
-
----
-
-- **ROBO2 is a stroma suppressor gene in the pancreas and acts via TGF-β signalling**
-
-https://www.researchgate.net/publication/329324877_ROBO2_is_a_stroma_suppressor_gene_in_the_pancreas_and_acts_via_TGF-b_signalling
-
-
----
-
-- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
-
-December 2018Scientific Reports 8(1)
-
-DOI: 10.1038/s41598-018-26526-x
-
-
-https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
 
 
 ---
@@ -2127,7 +1928,90 @@ Sonic hedgehog (SHH) is a secreted protein which functions in autocrine or parac
 
 </details>
 
+
 ---
+
+
+
+<details open> <summary>
+- **Molecular Profiling of Pancreatic Cancer Patients-Letter**
+</summary> 
+
+*Clinical cancer research : an official journal of the American Association for Cancer Research 2018 Dec;24(24):6611*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30552236
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Molecular Profiling of Pancreatic Cancer Patients-Letter PMID: 30552236 '></div>
+
+
+
+<!-- doi: https://doi.org/10.1158/1078-0432.CCR-18-2255 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1158/1078-0432.CCR-18-2255' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1158/1078-0432.CCR-18-2255' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+
+---
+
+
+
+<details open> <summary>
+- **Molecular Profiling of Pancreatic Cancer Patients-Response**
+</summary> 
+
+*Clinical cancer research : an official journal of the American Association for Cancer Research 2018 Dec;24(24):6612*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30552237
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Molecular Profiling of Pancreatic Cancer Patients-Response PMID: 30552237 '></div>
+
+
+
+<!-- doi: https://doi.org/10.1158/1078-0432.CCR-18-2645 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1158/1078-0432.CCR-18-2645' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1158/1078-0432.CCR-18-2645' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+<details open> <summary>
+- **Higher notch expression implies poor survival in pancreatic ductal adenocarcinoma: A systematic review and meta-analysis**
+</summary> 
+
+*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Dec;18(8):954-961*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30297095
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Higher notch expression implies poor survival in pancreatic ductal adenocarcinoma: A systematic review and meta-analysis PMID: 30297095 '></div>
+
+BACKGROUND: At present, pancreatic ductal adenocarcinoma (PDAC) is a fetal disease lack of effective prognostic and therapeutic methods resulting in high mortality. The Notch signaling has been demonstrated being up- or down-regulated in many cancers, but the effects in pancreatic ductal adenocarcinoma are still controversial. Moreover, the available cases in an individual study are of small samples. Therefore, it is essential to define the effect of Notch signaling in pancreatic ductal adenocarcinoma with larger samples.
+METHODS: Conducted from 6 eligible studies and 463 pancreatic ductal adenocarcinoma patients, this was the first meta-analysis to analyze the correlation between the Notch signal pathway and pancreatic ductal adenocarcinoma. All data were sourced from The National Center for Biotechnology Information, Web of Science and Cochrane. The articles which matched the inclusion criteria were included. All included data were analyzed and performed by Review Manager 5.3.
+RESULTS: The results indicated that high expression of Notch signaling proteins was associated with poor overall survival of pancreatic ductal adenocarcinoma patients (pooled hazard ratio>2.00; P < 0.001). Moreover, poor survival was related to high expression of Notch3 (pooled hazard ratio: 2.05; confidence interval: 1.49-2.82; P < 0.001) and DLL4 (pooled hazard ratio: 2.13; confidence interval: 1.37-3.32; P < 0.001).
+CONCLUSIONS: This meta-analysis supports that Notch signaling proteins may be available as prognostic factors for pancreatic ductal adenocarcinoma progression and patient survival. Higher expression of Notch signaling proteins indicated poor survival of pancreatic ductal adenocarcinoma patients. Targeting Notch signaling components, especially Notch3 protein, would be beneficial for therapies.
+
+<!-- doi: https://doi.org/10.1016/j.pan.2018.09.014 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.09.014' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.09.014' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+
+
+
+
 
 
 ---
@@ -2175,10 +2059,32 @@ Molecular Techniques & Research Methods, Liquid Biopsy
 
 
 
----
 
 ---
 
+
+
+<details open> <summary>
+- **Circulating Tumor Cells and Cell-Free DNA in Pancreatic Ductal Adenocarcinoma**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):71-81*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558725
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Circulating Tumor Cells and Cell-Free DNA in Pancreatic Ductal Adenocarcinoma PMID: 30558725 '></div>
+
+Pancreatic cancer is detected late in the disease process and has an extremely poor prognosis. A blood-based biomarker that can enable early detection of disease, monitor response to treatment, and potentially allow for personalized treatment would be of great benefit. This review analyzes the literature regarding two potential biomarkers, circulating tumor cells (CTCs) and cell-free DNA (cfDNA), with regard to pancreatic ductal adenocarcinoma. The origin of CTCs and the methods of detection are discussed and a decade of research examining CTCs in pancreatic cancer is summarized, including both levels of CTCs and analyzing their molecular characteristics and how they may affect survival in both advanced and early disease and allow for treatment monitoring. The origin of cfDNA is discussed, and the literature over the past 15 years is summarized. This includes analyzing cfDNA for genetic mutations and methylation abnormalities, which have the potential to be used for the detection and prognosis of pancreatic ductal adenocarcinoma. However, the research certainly remains in the experimental stage, warranting future large trials in these areas.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.03.020 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.03.020' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.03.020' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
 
 
 
@@ -2206,8 +2112,6 @@ The last 5 years have seen a dramatic increased interest in the field of exosome
 
 ---
 
----
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -2222,6 +2126,7 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
 
 
 ---
+
 
 
 
@@ -2280,14 +2185,6 @@ Solid Pseudopapillary Neoplasm
 
 
 ---
-
-- **Genetic alterations analysis in prognostic stratified groups identified TP53 and ARID1A as poor clinical performance markers in intrahepatic cholangiocarcinoma**
-
-December 2018Scientific Reports 8(1)
-
-DOI: 10.1038/s41598-018-25669-1
-
-https://www.researchgate.net/publication/325020651_Genetic_alterations_analysis_in_prognostic_stratified_groups_identified_TP53_and_ARID1A_as_poor_clinical_performance_markers_in_intrahepatic_cholangiocarcinoma
 
 ---
 
@@ -2373,12 +2270,6 @@ Hypoxia plays a crucial role in cancer development and progression. Overexpressi
 
 ---
 
-- **KRAS, NRAS and BRAF analysis of ampullary adenocarcinoma classified using CK7, CK20, MUC1 and MUC2**
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219964/
-
-
 
 ---
 
@@ -2421,6 +2312,139 @@ Pancreatic neuroendocrine tumors are rare tumors of the pancreas originating fro
 </details>
 
 
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+## Others / Experimental Studies  {.tabset}
+
+
+
+
+
+
+#### Techniques & Research Methods
+
+
+
+
+
+---
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+#### Reviews, Opinion Articles
+
+
+
+
+
+
+---
+
+
+
+---
+
+
+
+<details open> <summary>
+- **Is it time to reconsider the principles of pancreatic cancer surgery?**
+</summary> 
+
+*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Dec;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30553775
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Is it time to reconsider the principles of pancreatic cancer surgery? PMID: 30553775 '></div>
+
+
+
+<!-- doi: https://doi.org/10.1016/j.pan.2018.12.003 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.12.003' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.12.003' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+#### Animal Studies
+
+
+
+
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+#### Oncology and serum marker studies
+
+
+
+
+
+---
+
+
+
+<details open> <summary>
+- **Circulating interleukin-6 is associated with disease progression, but not cachexia in pancreatic cancer**
+</summary> 
+
+*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Nov;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30497874
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Circulating interleukin-6 is associated with disease progression, but not cachexia in pancreatic cancer PMID: 30497874 '></div>
+
+BACKGROUND: Cachexia is a wasting syndrome characterized by involuntary loss of >5% body weight due to depletion of adipose and skeletal muscle mass. In cancer, the pro-inflammatory cytokine interleukin-6 (IL-6) is considered a mediator of cachexia and a potential biomarker, but the relationship between IL-6, weight loss, and cancer stage is unknown. In this study we sought to evaluate IL-6 as a biomarker of cancer cachexia while accounting for disease progression.
+METHODS: We retrospectively studied 136 subjects with biopsy-proven pancreatic ductal adenocarcinoma (PDAC), considering the high prevalence of cachexia is this population. Clinical data were abstracted from subjects in all cancer stages, and plasma IL-6 levels were measured using a multiplex array and a more sensitive ELISA. Data were evaluated with univariate comparisons, including Kaplan-Meier survival curves, and multivariate Cox survival models.
+RESULTS: On multiplex, a total of 43 (31.4%) subjects had detectable levels of plasma IL-6, while by ELISA all subjects had detectable IL-6 levels. We found that increased plasma IL-6 levels, defined as detectable for multiplex and greater than median for ELISA, were not associated with weight loss at diagnosis, but rather with the presence of metastasis (p < 0.001 for multiplex and p = 0.007 for ELISA). Further, while >5% weight loss was not associated with worse survival, increased plasma IL-6 by either methodology was.
+CONCLUSION: Circulating IL-6 levels do not correlate with cachexia (when defined by weight loss), but rather with advanced cancer stage. This suggests that IL-6 may mediate wasting, but should not be considered a diagnostic biomarker for PDAC-induced cachexia.
+
+<!-- doi: https://doi.org/10.1016/j.pan.2018.11.002 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.11.002' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.11.002' data-hide-no-mentions='true'></span>
+
+</details>
+
 ---
 
 
@@ -2431,6 +2455,1065 @@ Pancreatic neuroendocrine tumors are rare tumors of the pancreas originating fro
 ---
 
 \pagebreak
+
+
+#### Pancreas Epidemiology, Screening, Cancer Risk Factors
+
+
+
+
+
+---
+
+
+
+<details open> <summary>
+- **Familial Pancreatic Ductal Adenocarcinoma**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):36-43*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558720
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Familial Pancreatic Ductal Adenocarcinoma PMID: 30558720 '></div>
+
+Pancreatic ductal adenocarcinoma (PDAC), although a rare disease, has a poor prognosis. With 5-year overall survival of 8%, there is a critical need to detect PDAC early or at a premalignant stage. Current screening methods are largely imaging based, but a more focused screening approach based on modifiable and nonmodifiable risk factors may improve the efficacy and likely outcomes of screening. In addition, the pathologic mechanisms that lead to the development of PDAC are discussed in an effort to further understand the targets of pancreatic cancer screening. The focus of this article will be inherited pancreatic cancer syndromes and familial pancreatic cancer, which together compose up to 10% of PDAC. Understanding the methods and targets of PDAC screening in high-risk individuals may translate to improved morbidity and mortality.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.06.026 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.06.026' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.06.026' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+<details open> <summary>
+- **Current Approaches to Pancreatic Cancer Screening**
+</summary> 
+
+*The American journal of pathology 2019 Jan;189(1):22-35*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30558719
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Current Approaches to Pancreatic Cancer Screening PMID: 30558719 '></div>
+
+Pancreatic ductal adenocarcinoma (PDAC) has a 5-year survival rate of only 8% and is estimated to be the second leading cause of cancer-related deaths by 2021. Prior convention held that screening for PDAC would not be beneficial; however, a deeper understanding of the carcinogenesis pathway supports a potential window of opportunity among the target population. Screening for PDAC is not a standard practice among the general population because of its low incidence. However, screening may be beneficial for individuals with familial history, chronic diseases with genetic predispositions, or inherited cancer syndromes, such as hereditary breast ovarian cancer syndrome, hereditary pancreatitis, Peutz-Jeghers syndrome, familial atypical multiple mole melanoma, Lynch syndrome (hereditary nonpolyposis colorectal cancer), ataxia telangiectasia, and Li-Fraumeni syndrome, all of which have been associated with an increased risk of developing PDAC. The screening strategies among these high-risk individuals are targeted to identify precursor lesions and PDAC at an early resectable stage. This review describes the risk factors for pancreatic cancer, especially the genetic risk factors in high-risk individuals and current screening strategies available for PDAC.
+
+<!-- doi: https://doi.org/10.1016/j.ajpath.2018.09.013 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ajpath.2018.09.013' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajpath.2018.09.013' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+<details open> <summary>
+- **Dietary Fiber and the Risk of Pancreatic Cancer**
+</summary> 
+
+*Pancreas 2019 Jan;48(1):121-125*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30489447
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Dietary Fiber and the Risk of Pancreatic Cancer PMID: 30489447 '></div>
+
+OBJECTIVES: High dietary fiber may protect against pancreatic ductal adenocarcinoma (PDAC). We investigated associations between fiber intake and the risk of PDAC using for the first time 7-day food diaries.
+METHODS: Participants in the European Prospective Investigation Into Cancer-Norfolk completed the 7-day food diaries at recruitment. The cohort was followed up for 17 years to identify those who developed PDAC. Participants were divided into quintiles of fiber intake, and hazard ratios (HR) were estimated with their 95% confidence intervals (CIs). Fiber was tested for effect modification of high red and processed meat intake and smoking and the risk of PDAC.
+RESULTS: No significant associations for any quintiles of intake (HR Q5 vs Q1, 1.08; 95% CI, 0.56-2.08) were detected with no trend across quintiles. A high-fiber diet modified positive associations between red and processed meats with the development of PDAC (HR trends, 0.89 [95% CI, 0.47-1.69] and 1.02 [95% CI, 0.55-1.88], respectively) but not those with lower fiber intake. Fiber intake did not modify the risk of PDAC in past and current smokers.
+CONCLUSION: The findings do not suggest that fiber protects against PDAC, although it may decrease potential deleterious effects of meats.
+
+<!-- doi: https://doi.org/10.1097/MPA.0000000000001191 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/MPA.0000000000001191' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001191' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+
+
+<details open> <summary>
+- **Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis**
+</summary> 
+
+*Journal of Cancer 2018 10;9(22):4117-4127*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30519311
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis PMID: 30519311 '></div>
+
+Background: The objective of this study was to evaluate the probability of cancer-specific death of patients with acinar cell carcinoma (ACC) and build nomograms to predict overall survival (OS) and cancer-specific survival (CSS) of these patients. Methods: Data were extracted from the Surveillance, Epidemiology, and End Results (SEER) database. Patients diagnosed with ACC between 2004 and 2014 were retrospectively collected. Cancer-specific mortality and competing risk mortality were evaluated. Nomograms for estimating 1-, 2- and 3-year OS and CSS were established based on Cox regression model and Fine and Grey's model. The precision of the 1-, 2- and 3-year survival of the nomograms was evaluated and compared using the area under receiver operating characteristic (ROC) curve (AUC). Results: The study cohort included 227 patients with ACC. The established nomograms were well calibrated, and had good discriminative ability, with a concordance index (C-index) of 0.742 for OS prediction and 0.766 for CSS prediction. The nomograms displayed better discrimination power than 7th or 8th edition Tumor-Node-Metastasis (TNM) stage systems in training set and validation set for predicting both OS and CSS. The AUC values of the nomogram predicting 1-, 2-, and 3-year OS rates were 0.784, 0.797 and 0.805, respectively, which were higher than those of 7th or 8th edition TNM stage systems. Regard to the prediction of CSS rates, the AUC values of the nomogram were also higher than those of 7th or 8th edition TNM stage systems. Conclusion: We evaluated the 1-, 2- and 3-year OS and CSS in patients with ACC for the first time. Our nomograms showed relatively good performance and could be considered as convenient individualized predictive tools for prognosis.
+
+<!-- doi: https://doi.org/10.7150/jca.26936 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.7150/jca.26936' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.7150/jca.26936' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+
+
+<details open> <summary>
+- **Systematic review and meta-analysis: Prevalence of incidentally detected pancreatic cystic lesions in asymptomatic individuals**
+</summary> 
+
+*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Nov;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30503370
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Systematic review and meta-analysis: Prevalence of incidentally detected pancreatic cystic lesions in asymptomatic individuals PMID: 30503370 '></div>
+
+BACKGROUND & AIMS: Pancreatic cystic lesions (PCLs) are frequent incidental findings. As most PCLs require costly diagnostic evaluation and active surveillance, it is important to clarify their prevalence in asymptomatic individuals. We therefore aimed at performing a systematic review and meta-analysis to determine it.
+METHODS: a systematic search was conducted and studies meeting inclusion criteria were included. The prevalence of PCLs was pooled across studies. A random effect model was used with assessment of heterogeneity.
+RESULTS: 17 studies, with 48,860 patients, were included. Only 3 were prospective; 5 studies were conducted in the US, 7 in Europe, 4 in Asia and 1 in Brazil. The pooled prevalence of PCLs was 8% (95% CI 4-14) with considerable heterogeneity (I2 = 99.5%). This prevalence was higher in studies of higher quality, examining older subjects, smaller cohorts, and employing MRCP (24.8% vs 2.7% with CT-scan). The pooled rate of PCLs was four times higher in studies conducted in the US than in Asia (12.6% vs 3.1%). 7 studies reported the prevalence of mucinous lesions, with a pooled rate of 4.3% (95% CI 2-10; I2 = 99.2%), but of 0.7% only for worrisome features or high risk stigmata.
+CONCLUSION: The rate of incidentally detected PCLs is of 8%. Mucinous lesions are the most common incidentally detected PCLs, although they rarely present with potential indication for surgery. The observed different rates in the US and other geographic Areas suggest that different protocols might be necessary to help balancing costs and effectiveness of follow-up investigations in asymptomatic subjects.
+
+<!-- doi: https://doi.org/10.1016/j.pan.2018.11.014 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.11.014' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.11.014' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+
+
+<details open> <summary>
+- **Tumor growth rate of pancreatic serous cystadenomas: Endosonographic follow-up with volume measurement to predict cyst enlargement**
+</summary> 
+
+*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Nov;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30503637
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tumor growth rate of pancreatic serous cystadenomas: Endosonographic follow-up with volume measurement to predict cyst enlargement PMID: 30503637 '></div>
+
+BACKGROUND: Serous cystadenomas are benign lesions of the pancreas. Usually they are diagnosed incidentally on cross-sectional imaging studies. Endosonography is a valuable tool in the diagnosis and follow-up of these cystic lesions. Given its benign nature, surgical resection is advised only in symptomatic patients. The interval and length of surveillance is not well established.
+METHODS: A retrospective single center study was done. All the patients with a pancreatic serous cystadenoma sent for an endosonographic evaluation, between December 2008 and December 2015 were included. The lesions were follow-up endosonographically at least once, in a 12 months interval. Volume was measured with the formula π/6 × (d1 x d1 x d2). Two groups were evaluated: patients with a volume under 10 mL (Group 1) and those with a volume of 10 mL or more at presentation (Group 2). Growth rate between these two groups was compared.
+RESULTS: Thirty-one patients were analyzed, with a mean age of 58.2 years. Patients were mainly women (87%). Twenty-four patients in Group 1 had a mean enlargement of 0.67 ml per year, whereas patients in Group 2 had a mean enlargement of 9.8 ml per year. The growth rate difference between these two groups was statistically significant (p = 0.0001).
+CONCLUSION: Asymptomatic patients with pancreatic serous cystadenomas should be follow-up for enlargement. Small volume lesions have a low risk of enlargement compared with high volume and macrocystic serous cystadenomas. Volume at presentation is a feature to analyze when defining surveillance interval.
+
+<!-- doi: https://doi.org/10.1016/j.pan.2018.11.007 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.11.007' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.11.007' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+
+<details open> <summary>
+- **Pancreatic Cancer: A Rare Cause of Abdominal Pain in Severe Cystic Fibrosis**
+</summary> 
+
+*Pancreas 2019 Jan;48(1):e3-e4*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30531246
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic Cancer: A Rare Cause of Abdominal Pain in Severe Cystic Fibrosis PMID: 30531246 '></div>
+
+
+
+<!-- doi: https://doi.org/10.1097/MPA.0000000000001162 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/MPA.0000000000001162' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001162' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+
+---
+
+
+
+<details open> <summary>
+- **Results of First-round of Surveillance in Individuals at High-risk of Pancreatic Cancer from the AISP (Italian Association for the Study of the Pancreas) Registry**
+</summary> 
+
+*The American journal of gastroenterology 2018 Dec;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30538291
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Results of First-round of Surveillance in Individuals at High-risk of Pancreatic Cancer from the AISP (Italian Association for the Study of the Pancreas) Registry PMID: 30538291 '></div>
+
+INTRODUCTION: Surveillance programs on high-risk individuals (HRIs) can detect pre-malignant lesions or early pancreatic cancer (PC). We report the results of the first screening round of the Italian multicenter program supported by the Italian Association for the study of the Pancreas (AISP).
+METHODS: The multicenter surveillance program included asymptomatic HRIs with familial (FPC) or genetic frailty (GS: BRCA1/2, p16/CDKN2A, STK11/LKB1or PRSS1, mutated genes) predisposition to PC. The surveillance program included at least an annual magnetic resonance cholangio pancreatography (MRCP). Endoscopic ultrasound (EUS) was proposed to patients who refused or could not be submitted to MRCP.
+RESULTS: One-hundreds eighty-seven HRIs underwent a first-round screening examination with MRCP (174; 93.1%) or EUS (13; 6.9%) from September 2015 to March 2018.The mean age was 51 years (range 21-80).One-hundreds sixty-five (88.2%) FPC and 22 (11.8%) GF HRIs were included. MRCP detected 28 (14.9%) presumed branch-duct intraductal papillary mucinous neoplasms (IPMN), 1 invasive carcinoma/IPMN and one low-grade mixed-type IPMN, respectively. EUS detected 4 PC (2.1%): 1 was resected, 1 was found locally advanced intraoperatively, and 2 were metastatic. Age > 50 (OR 3.3, 95%CI 1.4-8), smoking habit (OR 2.8, 95%CI 1.1-7.5), and having > 2 relatives with PC (OR 2.7, 95%CI 1.1-6.4) were independently associated with detection of pre-malignant and malignant lesions. The diagnostic yield for MRCP/EUS was 24% for cystic lesions. The overall rate of surgery was 2.6% with nil mortality.
+DISCUSSION: The rate of malignancies found in this cohort was high (2.6%). According to the International Cancer of the Pancreas Screening Consortium the screening goal achievement was high (1%).
+
+<!-- doi: https://doi.org/10.1038/s41395-018-0414-z -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41395-018-0414-z' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41395-018-0414-z' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+---
+
+
+
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
+
+## No Abstract yet {.tabset}
+
+No abstract yet, not in PubMed yet
+
+
+### Pancreas 
+
+
+---
+
+- **Oncogenic KRAS supports pancreatic cancer through regulation of nucleotide synthesis**
+
+https://www.nature.com/articles/s41467-018-07472-8
+
+
+
+---
+
+
+
+- **Prognostic significance of the degree of lymphatic vessel invasion in locally advanced, surgically resectable pancreatic head cancer**
+
+
+https://journals.lww.com/md-journal/Fulltext/2018/12070/Prognostic_significance_of_the_degree_of_lymphatic.68.aspx
+
+
+
+
+
+---
+
+- **Subtyping of intraductal papillary mucinous neoplasms – pitfalls of MUC1 immunohistochemistry**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/apm.12900
+
+
+
+
+---
+
+- **Overexpression of folate receptor alpha is an independent prognostic factor for outcomes of pancreatic cancer patients**
+
+https://link.springer.com/article/10.1007/s00795-018-0197-8
+
+
+---
+
+
+- **Subcutaneous Inoculation of 3D Pancreatic Cancer Spheroids Results in Development of Reproducible Stroma-Rich Tumors**
+
+
+https://www.sciencedirect.com/science/article/pii/S1936523318304121
+
+
+---
+
+Loss of TLR3 and its downstream signaling accelerates acinar cell damage in the acute phase of pancreatitis
+
+
+https://www.researchgate.net/publication/329674475_Loss_of_TLR3_and_its_downstream_signaling_accelerates_acinar_cell_damage_in_the_acute_phase_of_pancreatitis
+
+
+---
+
+Prognostic Value of Metastatic Lymph Node Ratio in Pancreatic Cancer
+
+
+https://www.researchgate.net/publication/328541573_Prognostic_Value_of_Metastatic_Lymph_Node_Ratio_in_Pancreatic_Cancer
+
+
+---
+
+
+The Actual Prevalence of Symptoms in Pancreatic Cystic Neoplasms: A Prospective Propensity Matched Cohort Analysis
+
+https://www.karger.com/Article/Abstract/495039
+
+---
+
+
+Pancreatic cancer chemo-resistance is driven by tumor phenotype rather than tumor genotype
+
+https://www.heliyon.com/article/e01055/
+
+---
+
+Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Diagnostic_and_Prognostic_Impact_of.15.aspx
+
+---
+
+
+DeltaNp63-dependent super enhancers define molecular identity in pancreatic cancer by an interconnected transcription factor network
+
+https://www.pnas.org/content/early/2018/12/11/1812915116.short
+
+---
+
+Prognostic value of progesterone receptor in solid pseudopapillary neoplasm of the pancreas: evaluation of a pooled case series
+
+https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-018-0914-8
+
+---
+
+Agnostic Pathway/Gene Set Analysis of Genome-Wide Association Data Identifies Associations for Pancreatic Cancer 
+
+https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djy155/5240954
+
+
+---
+
+Familial Pancreatic Ductal Adenocarcinoma
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302062
+
+---
+
+Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301512
+
+---
+
+Current Approaches to Pancreatic Cancer Screening
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302529
+
+---
+
+The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301561
+
+---
+
+Development of a class prediction model to discriminate pancreatic ductal adenocarcinoma from pancreatic neuroendocrine tumor by MALDI mass spectrometry imaging
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/prca.201800046
+
+---
+
+Tumefactive Inflammatory Diseases of the Pancreas
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302025
+
+---
+
+Therapeutic trends in pancreatic ductal adenocarcinoma (PDAC)
+
+https://www.tandfonline.com/doi/abs/10.1080/13543784.2019.1557145
+
+
+---
+
+
+- **Silencing of MUC20 suppresses the malignant character of pancreatic ductal adenocarcinoma cells through inhibition of the HGF/MET pathway**
+
+
+Oncogene volume 37, pages 6041–6053 (2018) 
+
+https://www.nature.com/articles/s41388-018-0403-0
+
+
+---
+
+- **Combating pancreatic cancer with PI3K pathway inhibitors in the era of personalised medicine**
+
+
+https://gut.bmj.com/content/early/2018/11/05/gutjnl-2018-316822
+
+
+
+---
+
+- **The role of GLI-SOX2 signaling axis for gemcitabine resistance in pancreatic cancer**
+
+
+https://www.nature.com/articles/s41388-018-0553-0
+
+
+---
+
+- **PIN1 maintains redox balance via the c-Myc/NRF2 axis to counteract Kras-induced mitochondrial respiratory injury in pancreatic cancer cells**
+
+
+http://cancerres.aacrjournals.org/content/canres/early/2018/10/24/0008-5472.CAN-18-1968.full.pdf
+
+
+---
+    
+
+- **DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth**
+    
+https://gut.bmj.com/content/early/2018/10/20/gutjnl-2018-316128
+
+
+---
+
+- **ADAM12 is a circulating marker for stromal activation in pancreatic cancer and predicts response to chemotherapy**
+
+https://www.nature.com/articles/s41389-018-0096-9
+
+---
+
+- **Neoepitope targets of tumour-infiltrating lymphocytes from patients with pancreatic cancer**
+
+
+https://www.nature.com/articles/s41416-018-0262-z
+
+
+---
+
+
+
+- **Pancreatic ductal adenocarcinoma harboring microsatellite instability / DNA mismatch repair deficiency. Towards personalized medicine.**
+
+https://www.sciencedirect.com/science/article/pii/S0960740418301245
+
+
+---
+
+- **Pancreatic cancer arising in the remnant pancreas is not always a relapse of the preceding primary**
+
+https://www.researchgate.net/publication/329122741_Pancreatic_cancer_arising_in_the_remnant_pancreas_is_not_always_a_relapse_of_the_preceding_primary
+
+---
+
+- **Undifferentiated carcinoma with osteoclast-like giant cells of pancreas A case report with review of the computed tomography findings**
+
+https://journals.lww.com/md-journal/Fulltext/2018/11300/Undifferentiated_carcinoma_with_osteoclast_like.100.aspx
+
+
+
+
+
+- **Clinico‐pathological features and survival of patients with malignant exocrine pancreatic neoplasms: The AC Camargo Cancer Center experience**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25312
+
+
+
+
+---
+
+- **Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer: Adjuvant therapy for subcentimeter PDAC**
+
+
+https://www.researchgate.net/publication/329079327_Role_of_adjuvant_therapy_in_resected_stage_IA_subcentimeter_T1aT1b_pancreatic_cancer_Adjuvant_therapy_for_subcentimeter_PDAC
+
+
+---
+
+- **International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer**
+
+[link](https://www.researchgate.net/profile/Matteo_De_Pastena/publication/328053361_International_Validation_of_the_Eighth_Edition_of_the_American_Joint_Committee_on_Cancer_AJCC_TNM_Staging_System_in_Patients_With_Resected_Pancreatic_Cancer/links/5bca125fa6fdcc03c7960174/International-Validation-of-the-Eighth-Edition-of-the-American-Joint-Committee-on-Cancer-AJCC-TNM-Staging-System-in-Patients-With-Resected-Pancreatic-Cancer.pdf)
+
+
+
+---
+
+- **Pancreatic Ductal Adenocarcinoma and Its Precursor Lesions: Histopathology, Cytopathology, and Molecular Pathology**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301512
+
+
+---
+
+
+- **Diagnostic and Prognostic Impact of Neutrophil-to-Lymphocyte Ratio for Intraductal Papillary Mucinous Neoplasms of the Pancreas With High-Grade Dysplasia and Associated Invasive Carcinoma**
+
+https://www.researchgate.net/publication/329302661_Diagnostic_and_Prognostic_Impact_of_Neutrophil-to-Lymphocyte_Ratio_for_Intraductal_Papillary_Mucinous_Neoplasms_of_the_Pancreas_With_High-Grade_Dysplasia_and_Associated_Invasive_Carcinoma
+
+
+---
+
+- **The efficacy and safety of endoscopic ultrasound-guided ablation of pancreatic cysts with alcohol and paclitaxel a systematic review**
+
+
+https://journals.lww.com/eurojgh/Abstract/2019/01000/The_efficacy_and_safety_of_endoscopic.1.aspx
+
+
+---
+
+- **Intraductal papillary mucinous neoplasm complicated by a gastropancreatic fistula**
+
+https://www.sciencedirect.com/science/article/pii/S193004331830373X
+
+---
+
+
+- **Risk of advanced lesions in patients with branch-duct IPMN and relative indications for surgery according to European evidence-based guidelines**
+
+
+https://www.sciencedirect.com/science/article/pii/S1590865818312672
+
+
+
+---
+
+
+
+- **The Paradoxical Web of Pancreatic Cancer Tumor Microenvironment**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018301561
+
+
+
+
+---
+
+
+- **Immunosuppressive βig-h3 links tumour stroma and dysfunctional T cells in pancreatic cancer**
+
+https://gut.bmj.com/content/early/2018/12/07/gutjnl-2018-317735
+
+
+---
+
+
+- **Primordial germ cells as a potential shared cell of origin for mucinous cystic neoplasms of the pancreas and mucinous ovarian tumors**
+
+https://www.researchgate.net/publication/327757413_Primordial_germ_cells_as_a_potential_shared_cell_of_origin_for_mucinous_cystic_neoplasms_of_the_pancreas_and_mucinous_ovarian_tumors
+
+
+---
+
+
+
+- **Pancreatic Choristoma in a Canine Gallbladder**
+
+https://www.sciencedirect.com/science/article/pii/S0021997518302020
+
+
+---
+
+
+
+
+- **Tumefactive Inflammatory Diseases of the Pancreas**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302025
+
+
+
+---
+
+
+
+
+
+---
+
+
+### Bile Ducts
+
+---
+
+
+Intraductal Papillary Neoplasm of the Bile Duct: Assessment of Invasive Carcinoma and Long-Term Outcomes using MRI
+
+
+https://www.researchgate.net/publication/329664727_Intraductal_Papillary_Neoplasm_of_the_Bile_Duct_Assessment_of_Invasive_Carcinoma_and_Long-Term_Outcomes_using_MRI
+
+---
+
+
+- **Heterotopic chondroid tissue of the main bile duct mimicking Klatskin tumor: case report and review of the literature**
+
+https://link.springer.com/article/10.1007/s12328-018-00928-w
+
+---
+
+
+
+- **Prognostic Significance of the Lymph Node Ratio in Surgical Patients With Distal Cholangiocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0022480418307753
+
+
+
+
+
+
+---
+
+### Gallbladder
+
+---
+
+
+- **MUC5B, CA9 and CLDN18 are potential theranostic markers of gallbladder carcinoma**
+
+
+https://onlinelibrary.wiley.com/doi/10.1111/his.13797
+
+---
+
+
+- **Optimal Surgical Treatment in Patients with T1b Gallbladder Cancer: An International Multicenter Study**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jhbp.593
+
+
+
+
+
+---
+
+### Ampulla of Vater
+
+---
+
+Identification of ampullary carcinoma mixed subtype using a panel of six antibodies and its clinical significance
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25311
+
+---
+
+
+### Neuroendocrine
+
+---
+
+Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307475
+
+---
+
+Serum chromogranin A for the diagnosis of gastroenteropancreatic neuroendocrine neoplasms and its association with tumour expression
+
+https://www.spandidos-publications.com/10.3892/ol.2018.9795
+
+
+---
+
+Endoscopic Ultrasound Assessment of Pancreatic Duct Diameter Predicts Neuroendocrine Tumors and Other Pancreas Masses
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/Endoscopic_Ultrasound_Assessment_of_Pancreatic.9.aspx
+
+---
+
+The Molecular and Clinical Landscape of Pancreatic Neuroendocrine Tumors
+
+https://journals.lww.com/pancreasjournal/Abstract/2019/01000/The_Molecular_and_Clinical_Landscape_of_Pancreatic.2.aspx
+
+---
+
+Systematic review of current prognostication systems for pancreatic neuroendocrine neoplasms
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307475
+
+
+
+
+- **Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations: Locality of Gallbladder Tumor Mutations**
+
+
+https://www.researchgate.net/publication/328947053_Regional_differences_in_gallbladder_cancer_pathogenesis_Insights_from_a_multi-institutional_comparison_of_tumor_mutations_Locality_of_Gallbladder_Tumor_Mutations
+
+
+
+
+- **Intracholecystic papillary-tubular neoplasm of the gallbladder originating in the cystic duct with extensive intraepithelial progress in the common bile duct**
+
+https://link.springer.com/article/10.1007/s12328-018-0927-4
+
+
+---
+
+- **Distribution of dysplasia and cancer in the gallbladder: an analysis from a high cancer-risk population**
+
+https://www.sciencedirect.com/science/article/pii/S004681771830282X?dgcid=raven_sd_via_email
+
+
+
+---
+
+
+- **National Failure of Surgical Staging for T1b Gallbladder Cancer**
+
+https://link.springer.com/article/10.1245/s10434-018-7064-7
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- **A common classification framework for neuroendocrine neoplasms: an International Agency for Research on Cancer (IARC) and World Health Organization (WHO) expert consensus proposal**
+
+
+https://www.nature.com/articles/s41379-018-0110-y
+
+
+
+---
+
+- **Insulinoma-associated protein 1 immunostaining on cytology specimens: an institutional experience**
+
+
+https://www.sciencedirect.com/science/article/pii/S0046817718304350
+
+---
+
+
+- **ATRX loss is an independent predictor of poor survival in pancreatic neuroendocrine tumors**
+
+
+https://www.sciencedirect.com/science/article/pii/S0046817718303009
+
+
+---
+
+- **Neoplasms of the Neuroendocrine Pancreas An Update in the Classification, Definition, and Molecular Genetic Advances**
+
+https://journals.lww.com/anatomicpathology/Abstract/2019/01000/Neoplasms_of_the_Neuroendocrine_Pancreas___An.2.aspx
+
+---
+
+
+
+- **Patterns of recurrence after resection for pancreatic neuroendocrine tumors: who, when, and where?**
+
+[link](https://www.researchgate.net/publication/329247683_Patterns_of_recurrence_after_resection_for_pancreatic_neuroendocrine_tumors_who_when_and_where)
+
+
+
+
+---
+
+
+
+
+
+
+
+
+- **Touch imprint cytology on endoscopic ultrasound fine‐needle biopsy provides comparable sample quality and diagnostic yield to standard eus‐fna specimens in the evaluation of solid pancreatic lesions**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/cyt.12662
+
+
+
+
+
+- **Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer**
+
+[link](https://www.researchgate.net/publication/327877645_Rationale_and_feasibility_of_mucin_expression_profiling_by_qRT-PCR_as_diagnostic_biomarkers_in_cytology_specimens_of_pancreatic_cancer)
+
+
+
+
+
+
+
+
+
+
+
+- **Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/cncy.22073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- **Genetic assessment of recurrent pancreatic high-risk lesions in the remnant pancreas: Metachronous multifocal lesion or local recurrence?**
+
+https://www.sciencedirect.com/science/article/pii/S0039606018307402
+
+
+---
+
+- **ROBO2 is a stroma suppressor gene in the pancreas and acts via TGF-β signalling**
+
+https://www.researchgate.net/publication/329324877_ROBO2_is_a_stroma_suppressor_gene_in_the_pancreas_and_acts_via_TGF-b_signalling
+
+
+---
+
+- **Mutations in BRCA1, BRCA2, and PALB2, and a panel of 50 cancer-associated genes in pancreatic ductal adenocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-26526-x
+
+
+https://www.researchgate.net/publication/325368244_Mutations_in_BRCA1_BRCA2_and_PALB2_and_a_panel_of_50_cancer-associated_genes_in_pancreatic_ductal_adenocarcinoma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- **Coordinately targeting cell cycle checkpoint functions in integrated models of pancreatic cancer**
+
+
+http://clincancerres.aacrjournals.org/content/early/2018/12/11/1078-0432.CCR-18-1620
+
+
+---
+
+- **miRNA and Gene Expression in Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018305571
+
+
+
+
+
+
+
+
+
+- **Circulating Tumor Cells and Cell-Free DNA in Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944017311811
+
+
+
+
+
+
+
+
+
+
+- **GPER is a mechanoregulator of pancreatic stellate cells and the tumor microenvironment**
+
+
+http://embor.embopress.org/content/early/2018/12/06/embr.201846556
+
+
+
+
+
+
+
+
+- **Genetic alterations analysis in prognostic stratified groups identified TP53 and ARID1A as poor clinical performance markers in intrahepatic cholangiocarcinoma**
+
+December 2018Scientific Reports 8(1)
+
+DOI: 10.1038/s41598-018-25669-1
+
+https://www.researchgate.net/publication/325020651_Genetic_alterations_analysis_in_prognostic_stratified_groups_identified_TP53_and_ARID1A_as_poor_clinical_performance_markers_in_intrahepatic_cholangiocarcinoma
+
+
+
+
+
+
+- **KRAS, NRAS and BRAF analysis of ampullary adenocarcinoma classified using CK7, CK20, MUC1 and MUC2**
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219964/
+
+
+
+
+
+
+
+- **Mass Spectrometry-Based Comprehensive Analysis of Pancreatic Cyst Fluids**
+
+https://www.hindawi.com/journals/bmri/2018/7169595/
+
+---
+
+- **A “Clearer” View of Pancreatic Pathology A Review of Tissue Clearing and Advanced Microscopy Techniques**
+
+https://journals.lww.com/anatomicpathology/Abstract/2019/01000/A__Clearer__View_of_Pancreatic_Pathology___A.3.aspx
+
+
+
+
+- **Pancreatic Ductal Adenocarcinoma: Recent Updates**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018308551
+
+
+
+
+
+- **German National Case Collection for familial pancreatic Cancer (FaPaCa) - acceptance and psychological aspects of a pancreatic cancer screening program**
+
+https://hccpjournal.biomedcentral.com/articles/10.1186/s13053-018-0100-6
+
+
+
+
+
+- **Recent treatment patterns and survival outcomes in pancreatic cancer according to clinical stage based on single-center large-cohort data**
+
+https://synapse.koreamed.org/search.php?where=aview&id=10.14701/ahbps.2018.22.4.386&code=2110AHBPS&vmode=FULL
+
+
+
+
+
+- **A systematic assessment of statistics, risk factors, and underlying features involved in pancreatic cancer**
+
+https://www.sciencedirect.com/science/article/pii/S1877782118305101
+
+
+
+
+
+
+- **PANCREATIC CANCER IN BRAZIL: MORTALITY TRENDS AND PROJECTIONS UNTIL 2029**
+
+
+http://www.scielo.br/scielo.php?pid=S0004-28032018002300230&script=sci_arttext
+
+
+---
+
+
+- **Results of First-round of Surveillance in Individuals at High-risk of Pancreatic Cancer from the AISP (Italian Association for the Study of the Pancreas) Registry**
+
+
+https://www.nature.com/articles/s41395-018-0414-z
+
+
+---
+
+- **Familial Pancreatic Ductal Adenocarcinoma**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302062
+
+
+---
+
+
+- **Current Approaches to Pancreatic Cancer Screening**
+
+
+https://www.sciencedirect.com/science/article/pii/S0002944018302529
+
+
+
+
+
+
+
+
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
+
 
 
 ## Journals Reviewed
@@ -2538,7 +3621,7 @@ Please send your feedbacks using the form below:
    
    - [October-November-2018](http://pbpath.org/pbpath-journal-watch-october-november-2018/)
 
-   <!-- - December issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
+   <!-- - February-March 2019 issue is being prepared. Unofficial version is [here](http://pbpath.org/journal-watch-upcoming-issue/). -->
 
 ---
 
