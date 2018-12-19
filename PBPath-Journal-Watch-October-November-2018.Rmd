@@ -1,20 +1,20 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_document:
-    df_print: kable
-    highlight: null
-    keep_md: yes
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-    toc_depth: 5
   html_notebook:
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -3496,52 +3496,6 @@ Sys.sleep(1)
 
 </details>
 
-
----
-
-
-
-```{r 30284410, include=FALSE}
-
-PMID_30284410 <- RefManageR::ReadPubMed('30284410', database = 'PubMed')
-
-citation_30284410 <- paste0(PMID_30284410$journal,' ', PMID_30284410$year, ' ', PMID_30284410$month,';', PMID_30284410$volume,'(', PMID_30284410$number,'):', PMID_30284410$pages)
-
-PubMed_30284410 <- paste0(PubMedString, PMID_30284410$eprint)
-
-doi_30284410 <- paste0(doiString, PMID_30284410$doi)
-
-dimensionBadge_30284410 <- paste0(dimensionString1, PMID_30284410$doi,dimensionString2)
-
-altmetricBadge_30284410 <- paste0(altmetricString1, PMID_30284410$doi, altmetricString2 )
-
-addthis_inline_30284410 <- paste0(addthis_String1, PMID_30284410$title , " PMID: 30284410 " , addthis_String2)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_30284410$title`**
-</summary> 
-
-*`r citation_30284410`*
-
-`r PubMed_30284410`
-
-`r addthis_inline_30284410`
-
-`r PMID_30284410$abstract`
-
-<!-- `r doi_30284410` -->
-
-`r dimensionBadge_30284410`
-
-`r altmetricBadge_30284410`
-
-</details>
-
-
 ---
 
 ```{r 30282083, include=FALSE}
@@ -4131,6 +4085,50 @@ Sys.sleep(1)
 
 ```{r C Neuroendocrine, eval=FALSE, include=FALSE}
 ```
+
+---
+
+```{r 30284410, include=FALSE}
+
+PMID_30284410 <- RefManageR::ReadPubMed('30284410', database = 'PubMed')
+
+citation_30284410 <- paste0(PMID_30284410$journal,' ', PMID_30284410$year, ' ', PMID_30284410$month,';', PMID_30284410$volume,'(', PMID_30284410$number,'):', PMID_30284410$pages)
+
+PubMed_30284410 <- paste0(PubMedString, PMID_30284410$eprint)
+
+doi_30284410 <- paste0(doiString, PMID_30284410$doi)
+
+dimensionBadge_30284410 <- paste0(dimensionString1, PMID_30284410$doi,dimensionString2)
+
+altmetricBadge_30284410 <- paste0(altmetricString1, PMID_30284410$doi, altmetricString2 )
+
+addthis_inline_30284410 <- paste0(addthis_String1, PMID_30284410$title , " PMID: 30284410 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30284410$title`**
+</summary> 
+
+*`r citation_30284410`*
+
+`r PubMed_30284410`
+
+`r addthis_inline_30284410`
+
+`r PMID_30284410$abstract`
+
+<!-- `r doi_30284410` -->
+
+`r dimensionBadge_30284410`
+
+`r altmetricBadge_30284410`
+
+</details>
+
+
 
 
 ---
