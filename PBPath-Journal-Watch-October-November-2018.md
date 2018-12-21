@@ -17,7 +17,7 @@ output:
     theme: paper
   word_document:
     toc: yes
-date: "Last Update on 2018-12-19"
+date: "Last Update on 2018-12-21"
 subtitle: "October November 2018"
 ---
 
@@ -32,7 +32,7 @@ subtitle: "October November 2018"
 </script> 
 
 
-[![](figures/PBP_header_logo.jpg)](http://pbpath.org/)
+<!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
 
 
 
@@ -91,7 +91,7 @@ Morphology, Diagnostics, IHC
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30467323
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic cancer arising in the remnant pancreas is not always a relapse of the preceding primary PMID: 30467323 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic cancer arising in the remnant pancreas is not always a relapse of the preceding primary PMID: 30467323 '></div>
 
 This study aimed to understand the biology of pancreatic ductal adenocarcinoma that arises in the remnant pancreas after surgical resection of a primary pancreatic ductal adenocarcinoma, using integrated histological and molecular analysis. Patients who underwent a completion pancreatectomy for local recurrence following resection of a primary pancreatic ductal adenocarcinoma were studied with histological analysis and next-generation sequencing of the primary and the recurrent cancer. Of six patients that met the inclusion criteria, three cases were classified as "true" recurrences, i.e., the primary and the cancer in the remnant pancreas shared both morphological features and molecular alterations. Two cases were identified as having independent cancers that exhibited different histological and molecular profiles. In the remaining case, the relationship could not be determined. Pancreatic ductal adenocarcinoma that arises in the remnant pancreas can be either a second primary or a "true" relapse of the preceding primary. The differentiation of second primaries from local recurrences may have important implications for patient management.
 
@@ -117,7 +117,7 @@ This study aimed to understand the biology of pancreatic ductal adenocarcinoma t
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30366677
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Epidermoid cyst in intrapancreatic accessory spleen: A systematic review PMID: 30366677 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Epidermoid cyst in intrapancreatic accessory spleen: A systematic review PMID: 30366677 '></div>
 
 BACKGROUND/OBJECTIVES: Due to its rarity, epidermoid cyst in intrapancreatic accessory spleen (ECIPAS) is still a diagnostic dilemma during clinical practice. The aim of this review was to summarize the epidemiologic features and management of ECIPAS.
 METHODS: MEDLINE and EMBASE were searched for English articles reporting on ECIPAS up to April 30th, 2018 following the methodology suggested by the PRISMA guidelines. Categorical variables were reported as frequency and percentage. Continuous variables were reported as median (range).
@@ -147,7 +147,7 @@ CONCLUSIONS: Although seldom encountered, ECIPAS should be considered as a diffe
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30375637
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The expression of death receptor systems TRAIL-R1/-R2/-R4, CD95 and TNF-R1 and their cognate ligands in pancreatic ductal adenocarcinoma PMID: 30375637 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The expression of death receptor systems TRAIL-R1/-R2/-R4, CD95 and TNF-R1 and their cognate ligands in pancreatic ductal adenocarcinoma PMID: 30375637 '></div>
 
 The expression of five members of the TNF receptor superfamily and two of their ligands in human pancreatic ductal adenocarcinoma were investigated in parallel by immunohistochemistry. 41 patients with histologically confirmed ductal carcinoma of the pancreas were enrolled in this study in order (i) to compare the individual TNFR-SF expression and their ligands in PDAC-cells and (ii) to investigate their correlation with survival data. All patients had undergone pancreaticoduodenectomy and were staged as pT3N1M0. Immunostaining was done on FFPE tissue sections of the tumor tissue, using antibodies directed against TRAIL-Receptor-1, -2 and -4, TRAIL, CD95, TNF-Receptor-1 and TNF-α. The intensity and quantity of immunostaining were evaluated separately for tumor cell cytoplasm and tumor cell nucleus. Immunostaining results were correlated with each other and with patient survival. All proteins were found to be expressed in the majority of the tumor cells. The expression (i) of the following members of TNFR-SF and their ligands correlated with each other: TNF-Receptor-1 and TNFα (cytoplasmatic scores, p=0.001), TNF-Receptor 1 and TRAIL (nuclear antigen expression p=0.005 and the main score p=0.001, which contains the overall intracellular antigen expression), TNF-Receptor 1 and CD95 (main score, p=0.001), TRAIL-Receptor-1 and TRAIL-Receptor-2 (nuclear parameters, p=0.023), TRAIL-Receptor-4 and TRAIL (main score p=0.041). In addition (ii), high cytoplasmatic expression of TNF-Receptor-1 and a strong cytoplasmatic and nuclear expression of CD95 correlated significantly with a better prognosis of the PDAC patients.
 
@@ -174,7 +174,7 @@ The expression of five members of the TNF receptor superfamily and two of their 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30377341
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer PMID: 30377341 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer PMID: 30377341 '></div>
 
 BACKGROUND: Pancreatic cancer (PC) hijacks innate cellular processes to promote cancer growth. We hypothesized that PC exploits PD-1/PD-L1 not only to avoid immune responses, but to directly enhance growth. We also hypothesized that immune checkpoint inhibitors (ICIs) have direct cytotoxicity in PC. We sought to elucidate therapeutic targeting of PD-1/PD-L1.
 METHODS: PD-1 was assessed in PC cells, patient-derived organoids (PDOs), and clinical tissues. Then, PC cells were exposed to PD-L1 to evaluate proliferation. To test PD-1/PD-L1 signaling, cells were exposed to PD-L1 and MAPK was examined. Radio-immunoconjugates with anti-PD-1 drugs were developed to test uptake in patient-derived tumor xenografts (PDTXs). Next, PD-1 function was assessed by xenografting PD-1-knockdown cells. Finally, PC models were exposed to ICIs.
@@ -202,7 +202,7 @@ CONCLUSIONS: Our data reveal PCs innately express PD-1 and activate druggable on
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30261114
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : High nuclear Survivin expression as a poor prognostic marker in pancreatic ductal adenocarcinoma PMID: 30261114 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : High nuclear Survivin expression as a poor prognostic marker in pancreatic ductal adenocarcinoma PMID: 30261114 '></div>
 
 BACKGROUND: Survivin, one of the key regulators of mitosis and apoptosis, has long been well recognized to play important biological roles in many neoplasms, including pancreatic ductal adenocarcinoma (PDAC). However, its prognostic value in PDAC remains controversial.
 PATIENTS AND METHODS: Nuclear expression of Survivin was detected, using tissue microarray-based immunohistochemistry, in paired-tumor and nontumor samples from 306 patients with radically resected PDAC. The staining H scores were further correlated with clinicopathologic features and disease-specific survival (DSS).
@@ -231,7 +231,7 @@ CONCLUSION: Our data suggest an association between high nuclear Survivin expres
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30179901
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Residual Tumor Index: A Prognostically Significant Pathologic Parameter in Neoadjuvant-treated Pancreatic Ductal Adenocarcinoma PMID: 30179901 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Residual Tumor Index: A Prognostically Significant Pathologic Parameter in Neoadjuvant-treated Pancreatic Ductal Adenocarcinoma PMID: 30179901 '></div>
 
 In the setting of neoadjuvant therapy (NAT) for pancreatic ductual adenocarcinoma (PDAC), accurate measurement of tumor size, and consequently, staging based on AJCC eighth edition, is difficult. Attempts to address the limitations of tumor size in the NAT setting have included correlation of residual tumor percent with survival. However, only cases with complete pathologic response or minimal residual disease have shown better prognosis compared with all other groups. To date, no studies have simultaneously evaluated the prognostic value of tumor size and tumor regression in the setting of PDAC status post NAT (NAT-PDAC). Our aim was to study the prognostic value of residual tumor index (RTI), a metric combining residual tumor percent and tumor bed size as an interaction term (% residual tumor×tumor bed size [cm]). In a cohort of 105 cases of NAT-PDAC, we show that RTI supersedes the prognostic value of AJCC eighth edition T staging via multivariate cox regression. At a binary cutoff of 0.35 for RTI, the hazard ratio for recurrence-free survival is 3.26 (95% confidence interval, 1.51-7.04), P<0.01. We further identified cutoffs of ≤0.2, 0.2 to 2 and >2 that stratified our cases into 3 groups via RTI, which were statistically significant in Kaplan-Meier curve analysis of recurrence-free survival (P<0.01) and overall survival (P<0.01). RTI represents a novel metric for combining the prognostic value of tumor size and residual tumor in NAT-PDAC.
 
@@ -256,7 +256,7 @@ In the setting of neoadjuvant therapy (NAT) for pancreatic ductual adenocarcinom
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30477643
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : PD-L1 expression in pancreatic adenosquamous carcinoma: PD-L1 expression is limited to the squamous component PMID: 30477643 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : PD-L1 expression in pancreatic adenosquamous carcinoma: PD-L1 expression is limited to the squamous component PMID: 30477643 '></div>
 
 AIM: We examined the programmed death-ligand 1 (PD-L1) expression in surgically resected pancreatic adenosquamous carcinoma (PASC) samples. Furthermore, the detection rate was also assessed using biopsy cases obtained from endoscopic ultrasound-guided fine needle aspiration (EUS-FNA).
 METHODS: Fifteen cases of PASC (six resected and nine EUS-FNA biopsied) from the Kurume University Hospital between 2009 and 2016 were used for the evaluation of PD-L1 expression. As a control group, 34 cases of pancreatic ductal adenocarcinomas (PDACs) were selected. To compare　the positivity and intensity of PD-L1, two types of clones (SP263, E1L3N) were examined for immunostaining. Only the membrane expression of PD-L1 was regarded as positive. The PD-L1 expressions in the squamous cell carcinoma component (SCc), adenocarcinoma component (ACc), and immune cells were assessed separately. The ratio of PD-L1 expression was calculated by counting the positive tumor cells, and tumor proportion score (TPS) was applied (TPS; Null < 1%, low expression; 1 ≤ TPS ≤ 49% and high expression; ≥ 50%).
@@ -283,7 +283,7 @@ DISCUSSION: Although assessment using the tumor cells of PASC samples obtained f
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30212393
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cancerization of the Pancreatic Ducts: Demonstration of a Common and Under-recognized Process Using Immunolabeling of Paired Duct Lesions and Invasive Pancreatic Ductal Adenocarcinoma for p53 and Smad4 Expression PMID: 30212393 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cancerization of the Pancreatic Ducts: Demonstration of a Common and Under-recognized Process Using Immunolabeling of Paired Duct Lesions and Invasive Pancreatic Ductal Adenocarcinoma for p53 and Smad4 Expression PMID: 30212393 '></div>
 
 Invasive pancreatic ductal adenocarcinoma (PDAC) can infiltrate back into and spread along preexisting pancreatic ducts and ductules in a process known as cancerization of ducts (COD). Histologically COD can mimic high-grade pancreatic intraepithelial neoplasia (HG-PanIN). We reviewed pancreatic resections from 100 patients with PDAC for the presence or absence of ducts with histologic features of COD. Features supporting COD included adjacent histologically similar invasive PDAC and an abrupt transition between markedly atypical intraductal epithelium and normal duct epithelium or circumferential involvement of a duct. As the TP53 and SMAD4 genes are frequently targeted in invasive PDAC but not HG-PanIN, paired PDAC and histologically suspected COD lesions were immunolabeled with antibodies to the p53 and Smad4 proteins. Suspected COD was identified on hematoxylin and eosin sections in 89 (89%) of the cases. Immunolabeling for p53 and Smad4 was performed in 68 (76%) of 89 cases. p53 was interpretable in 55 cases and all 55 (100%) cases showed concordant labeling between COD and invasive PDAC. There was matched aberrant p53 immunolabeling in 37 (67%) cases including overexpression in 30 (55%) cases and lack of expression in 7 (13%) cases. Smad4 immunolabeling was interpretable in 61 cases and 59 (97%) cases showed concordant labeling between COD and invasive PDAC. Matched loss of Smad4 was seen in 28 (46%) cases. The immunolabeling of invasive PDAC and COD for p53 and Smad4 supports the high prevalence of COD observed on hematoxylin and eosin and highlights the utility of p53 and Smad4 immunolabeling in differentiating COD and HG-PanIN.
 
@@ -307,7 +307,7 @@ Invasive pancreatic ductal adenocarcinoma (PDAC) can infiltrate back into and sp
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30256228
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : A "Clearer" View of Pancreatic Pathology: A Review of Tissue Clearing and Advanced Microscopy Techniques PMID: 30256228 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : A "Clearer" View of Pancreatic Pathology: A Review of Tissue Clearing and Advanced Microscopy Techniques PMID: 30256228 '></div>
 
 Although pathologic lesions in the pancreas are 3-dimensional (3D) complex structures, we currently use thin 2D hematoxylin and eosin stained slides to study and diagnose pancreatic pathology. Two technologies, tissue clearing and advanced microscopy, have recently converged, and when used together they open the remarkable world of 3D anatomy and pathology to pathologists. Advances in tissue clearing and antibody penetration now make even dense fibrotic tissues amenable to clearing, and light sheet and confocal microscopies allow labeled cells deep within these cleared tissues to be visualized. Clearing techniques can be categorized as solvent-based or aqueous-based techniques, but both clearing methods consist of 4 fundamental steps, including pretreatment of specimens, permeabilization and/or removal of lipid, immunolabeling with antibody penetration, and clearing by refractive index matching. Specialized microscopes, including the light sheet microscope, the 2-photon microscope, and the confocal microscope, can then be used to visualize and evaluate the 3D histology. Both endocrine and exocrine pancreas pathology can then be visualized. The application of labeling and clearing to surgically resected human pancreatic parenchyma can provide detailed visualization of the complexities of normal pancreatic anatomy. It also can be used to characterize the 3D architecture of disease processes ranging from precursor lesions, such as pancreatic intraepithelial neoplasia lesions and intraductal papillary mucinous neoplasms, to infiltrating pancreatic ductal adenocarcinomas. The evaluation of 3D histopathology, including pathology of the pancreatic lesions, will provide new insights into lesions that previously were seen, and thought of, only in 2 dimensions.
 
@@ -346,7 +346,7 @@ Pancreas TNM staging, Margins, Survival
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30284129
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Even in Pancreatic Cancer, not all N Diseases are Created Equal PMID: 30284129 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Even in Pancreatic Cancer, not all N Diseases are Created Equal PMID: 30284129 '></div>
 
 
 
@@ -368,11 +368,11 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30284129
 - **International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer**
 </summary> 
 
-*JAMA surgery 2018 Oct;():e183617*
+*JAMA surgery 2018 Dec;153(12):e183617*
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30285076
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer PMID: 30285076 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : International Validation of the Eighth Edition of the American Joint Committee on Cancer (AJCC) TNM Staging System in Patients With Resected Pancreatic Cancer PMID: 30285076 '></div>
 
 Importance: The recently released eighth edition of the American Joint Committee on Cancer TNM staging system for pancreatic cancer seeks to improve prognostic accuracy but lacks international validation.
 Objective: To validate the eighth edition of the American Joint Committee on Cancer TNM staging system in an international cohort of patients with resected pancreatic ductal adenocarcinoma.
@@ -403,7 +403,7 @@ Conclusions and Relevance: The eighth edition of the TNM staging system demonstr
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30310507
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : A Refined Staging Model for Resectable Pancreatic Ductal Adenocarcinoma Incorporating Examined Lymph Nodes, Location of Tumor and Positive Lymph Nodes Ratio PMID: 30310507 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : A Refined Staging Model for Resectable Pancreatic Ductal Adenocarcinoma Incorporating Examined Lymph Nodes, Location of Tumor and Positive Lymph Nodes Ratio PMID: 30310507 '></div>
 
 Background: Nodal status and tumor site are prognostic factors for resectable pancreatic ductal adenocarcinoma (PDAC). Parameters for nodal status are diverse, and the number of examined lymph nodes (eNs) needed for good prognosis are uncertain. We try to modify staging system of resectable PDAC with parameters mentioned above by recursive partitioning analysis. Methods: Patients from the Surveillance, Epidemiology, and End Results (SEER) database were divided into training cohort and internal validation cohort, randomly. PDAC patients from Sun Yat-sen University Cancer Center were regarded as external validation cohort. The training cohort was used to refine staging model by recursive partitioning analysis, while the internal validation cohort and the external validation cohort were applied to assess discriminatory capacity of staging model. For parameters included in the modified model, their effects were studied. Results: The number of eNs, tumor site and tumor size were risk factors for positive nodal status. Lymph nodes ratio (LNR), tumor site, eNs and T stages of 8th the American Joint Committee on Cancer (AJCC) were selected to develop a refined model, dividing patients into 5 groups of different outcomes, preceding 8th AJCC classification. Besides, we found that (1) for small PDAC (diameter < 1cm), lymph node metastasis was rarely found; (2) enough eNs were needed to ensure better prognosis of node-negative patients; (3) tumors in the head of pancreas were prone to lymph nodes metastasis; (4) for node-positive patients, LNR was a better nodal parameter compared to positive lymph nodes (pNs). Conclusion: Our improved staging system helps to illuminate the interactions among tumor site, size and eNs.
 
@@ -428,7 +428,7 @@ Background: Nodal status and tumor site are prognostic factors for resectable pa
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30326370
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Evaluation of the prognostic value of the new AJCC 8th edition staging system for patients with pancreatic adenocarcinoma; a need to subclassify stage III? PMID: 30326370 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Evaluation of the prognostic value of the new AJCC 8th edition staging system for patients with pancreatic adenocarcinoma; a need to subclassify stage III? PMID: 30326370 '></div>
 
 BACKGROUND: There have been several proposed changes for the 8th edition of the American Joint Commission on Cancer (AJCC) for pancreatic adenocarcinoma. The aim of this study was to evaluate the prognostic value of the new staging system for patients with pancreatic adenocarcinoma, especially in stage III patients.
 METHODS: We analysed the data of patients newly diagnosed with pancreatic adenocarcinoma between 2008 and 2016 at our hospital. Patients were staged according to 7th edition AJCC criteria, as well as the new 8th edition staging system. The pathologic stage was used in the surgical cases, and the clinical stage, determined by radiographic findings, was used in the unresectable cases.
@@ -456,7 +456,7 @@ CONCLUSIONS: The AJCC 8th edition has some advantages over the previous version.
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30007990
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Intra-Operative Frozen Section Histology of the Pancreatic Resection Margins and Clinical Outcome of Patients with Adenocarcinoma of the Head of the Pancreas Undergoing Pancreaticoduodenectomy PMID: 30007990 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Intra-Operative Frozen Section Histology of the Pancreatic Resection Margins and Clinical Outcome of Patients with Adenocarcinoma of the Head of the Pancreas Undergoing Pancreaticoduodenectomy PMID: 30007990 '></div>
 
 BACKGROUND The aim of this study was to compare the clinical outcome in patients with pancreatic ductal adenocarcinoma who underwent frozen section and paraffin section histology of the surgical resection margins during pancreaticoduodenectomy. MATERIAL AND METHODS Frozen section and routine paraffin section histopathology were performed using the following categories: R0 (no tumor cells at the surgical resection margin), R1 (tumor cells at, or within 1 mm, of the surgical resection margin), and R2 (tumor seen macroscopically at the surgical resection margin). R1 and R2 patients underwent additional resection to achieve R0. RESULTS Of 346 patients who underwent pancreaticoduodenectomy, frozen section histology showed positive resection margins in 22 patients (9.2%) and paraffin section histology was positive in 20 patients (8.4%). The OS was nine months in frozen section-positive patients and 20 months in frozen section-negative patients (p=0.001). The OS rates were significantly different between the paraffin section-positive and paraffin section-negative patients (11 months vs. 21 months) (p=0.001). Univariate and multivariate analysis showed that increased tumor size, high tumor grade, lymph node metastases, a positive superior mesenteric artery and retroperitoneal margin, and a positive resection margin on frozen section were significantly correlated with reduced OS (p<0.05). Twenty-two patients with positive resection margins on frozen section histology underwent further resection; R0 was achieved in 14 patients, with no significant difference in OS. CONCLUSIONS For patients who underwent pancreaticoduodenectomy for pancreatic carcinoma with positive resection margins on frozen section, further surgical resection to achieve R0 had no significant positive impact on OS.
 
@@ -481,7 +481,7 @@ BACKGROUND The aim of this study was to compare the clinical outcome in patients
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30519311
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis PMID: 30519311 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Nomogram to Predict Cancer-Specific Survival in Patients with Pancreatic Acinar Cell Carcinoma: A Competing Risk Analysis PMID: 30519311 '></div>
 
 Background: The objective of this study was to evaluate the probability of cancer-specific death of patients with acinar cell carcinoma (ACC) and build nomograms to predict overall survival (OS) and cancer-specific survival (CSS) of these patients. Methods: Data were extracted from the Surveillance, Epidemiology, and End Results (SEER) database. Patients diagnosed with ACC between 2004 and 2014 were retrospectively collected. Cancer-specific mortality and competing risk mortality were evaluated. Nomograms for estimating 1-, 2- and 3-year OS and CSS were established based on Cox regression model and Fine and Grey's model. The precision of the 1-, 2- and 3-year survival of the nomograms was evaluated and compared using the area under receiver operating characteristic (ROC) curve (AUC). Results: The study cohort included 227 patients with ACC. The established nomograms were well calibrated, and had good discriminative ability, with a concordance index (C-index) of 0.742 for OS prediction and 0.766 for CSS prediction. The nomograms displayed better discrimination power than 7th or 8th edition Tumor-Node-Metastasis (TNM) stage systems in training set and validation set for predicting both OS and CSS. The AUC values of the nomogram predicting 1-, 2-, and 3-year OS rates were 0.784, 0.797 and 0.805, respectively, which were higher than those of 7th or 8th edition TNM stage systems. Regard to the prediction of CSS rates, the AUC values of the nomogram were also higher than those of 7th or 8th edition TNM stage systems. Conclusion: We evaluated the 1-, 2- and 3-year OS and CSS in patients with ACC for the first time. Our nomograms showed relatively good performance and could be considered as convenient individualized predictive tools for prognosis.
 
@@ -506,7 +506,7 @@ Background: The objective of this study was to evaluate the probability of cance
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30229903
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches PMID: 30229903 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic cancer and autoimmune diseases: An association sustained by computational and epidemiological case-control approaches PMID: 30229903 '></div>
 
 Deciphering the underlying genetic basis behind pancreatic cancer (PC) and its associated multimorbidities will enhance our knowledge toward PC control. The study investigated the common genetic background of PC and different morbidities through a computational approach and further evaluated the less explored association between PC and autoimmune diseases (AIDs) through an epidemiological analysis. Gene-disease associations (GDAs) of 26 morbidities of interest and PC were obtained using the DisGeNET public discovery platform. The association between AIDs and PC pointed by the computational analysis was confirmed through multivariable logistic regression models in the PanGen European case-control study population of 1,705 PC cases and 1,084 controls. Fifteen morbidities shared at least one gene with PC in the DisGeNET database. Based on common genes, several AIDs were genetically associated with PC pointing to a potential link between them. An epidemiologic analysis confirmed that having any of the nine AIDs studied was significantly associated with a reduced risk of PC (Odds Ratio (OR) = 0.74, 95% confidence interval (CI) 0.58-0.93) which decreased in subjects having ≥2 AIDs (OR = 0.39, 95%CI 0.21-0.73). In independent analyses, polymyalgia rheumatica, and rheumatoid arthritis were significantly associated with low PC risk (OR = 0.40, 95%CI 0.19-0.89, and OR = 0.73, 95%CI 0.53-1.00, respectively). Several inflammatory-related morbidities shared a common genetic component with PC based on public databases. These molecular links could shed light into the molecular mechanisms underlying PC development and simultaneously generate novel hypotheses. In our study, we report sound findings pointing to an association between AIDs and a reduced risk of PC.
 
@@ -530,7 +530,7 @@ Deciphering the underlying genetic basis behind pancreatic cancer (PC) and its a
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30326871
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Impact of tumor size on survival of patients with resected pancreatic ductal adenocarcinoma: a systematic review and meta-analysis PMID: 30326871 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Impact of tumor size on survival of patients with resected pancreatic ductal adenocarcinoma: a systematic review and meta-analysis PMID: 30326871 '></div>
 
 BACKGROUND: The impact of tumor size on prognosis for surgically treated patients with pancreatic ductal adenocarcinoma (PDAC) remains controversial. A systematic review and meta-analysis was performed to evaluate this issue.
 METHODS: Relevant studies published from January 2000 to June 2017 were identified through EMBASE and PUBMED. Data were pooled for meta-analysis using Review Manager 5.3.
@@ -554,11 +554,11 @@ CONCLUSION: These data demonstrate that PDAC size > 2 cm is an independent pr
 - **The New American Joint Committee on Cancer TNM Staging System for Pancreatic Cancer-Balancing Usefulness With Prognostication**
 </summary> 
 
-*JAMA surgery 2018 Oct;():e183629*
+*JAMA surgery 2018 Dec;153(12):e183629*
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30285059
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The New American Joint Committee on Cancer TNM Staging System for Pancreatic Cancer-Balancing Usefulness With Prognostication PMID: 30285059 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The New American Joint Committee on Cancer TNM Staging System for Pancreatic Cancer-Balancing Usefulness With Prognostication PMID: 30285059 '></div>
 
 
 
@@ -583,7 +583,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30285059
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30457666
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer PMID: 30457666 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer PMID: 30457666 '></div>
 
 BACKGROUND: The standard of care for patients with resected stage I to stage III pancreatic ductal adenocarcinoma (PDAC) is adjuvant gemcitabine-based chemotherapy. The role of adjuvant treatment in patients with subcentimeter, stage IA PDAC is unknown. The current study evaluated the effect of adjuvant treatment on survival outcomes among patients with American Joint Committee on Cancer/International Union Against Cancer stage IA (T1N0) resected PDAC using the National Cancer Data Base (NCDB).
 METHODS: A retrospective review of the NCDB was conducted for patients diagnosed with T1 (tumor limited to the pancreas and measuring ≤2 cm in greatest dimension), lymph node-negative (N0), resected PDAC between 2004 and 2013. Patient demographics, histology, adjuvant treatment, and survival trends were examined. Kaplan-Meier analysis and log-rank tests were performed to determine the unadjusted association between overall survival (OS), tumor size, and treatment.
@@ -610,7 +610,7 @@ CONCLUSIONS: The current study is the first to demonstrate no survival benefit f
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30339622
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Reappraising the Concept of Conditional Survival After Pancreatectomy for Ductal Adenocarcinoma: A Bi-institutional Analysis PMID: 30339622 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Reappraising the Concept of Conditional Survival After Pancreatectomy for Ductal Adenocarcinoma: A Bi-institutional Analysis PMID: 30339622 '></div>
 
 OBJECTIVE: To reappraise the concept of conditional survival (CS) following pancreatectomy for pancreatic ductal adenocarcinoma (PDAC), accounting for the patient's present disease status relative to recurrence.
 BACKGROUND: CS, defined as the probability of surviving an additional time frame based on accrued lifespan, offers dynamic survival projections as compared with baseline overall survival.
@@ -639,7 +639,7 @@ CONCLUSION: This paper provides new information on how prognosis following pancr
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30298331
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Association Between Very Small Tumor Size and Decreased Overall Survival in Node-Positive Pancreatic Cancer PMID: 30298331 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Association Between Very Small Tumor Size and Decreased Overall Survival in Node-Positive Pancreatic Cancer PMID: 30298331 '></div>
 
 BACKGROUND: In pancreatic adenocarcinoma (PDAC), increasing tumor size usually correlates with a worse prognosis. However, patients with a very small primary tumor who experience lymph node involvement may have a different disease biology. This study sought to determine the interaction between tumor size and lymph node involvement in terms of overall survival (OS).
 METHODS: The study identified 17,073 patients with a diagnosis of M0 resected PDAC between 1983 and 2013 using the Surveillance, Epidemiology, and End Results database. The patients were stratified by lymph node involvement (N0 vs N+) and T stage (T1a-T1b vs T1c vs T2 vs T3 vs T4). The Kaplan-Meier method was used to estimate OS, and Cox regression analysis was used to compare survival between subgroups after adjustment for patient-specific factors.
@@ -668,7 +668,7 @@ CONCLUSIONS: Among patients with lymph node-positive PDAC, very small primary tu
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30126408
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Stratified survival of resected and overall pancreatic cancer patients in Europe and the USA in the early twenty-first century: a large, international population-based study PMID: 30126408 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Stratified survival of resected and overall pancreatic cancer patients in Europe and the USA in the early twenty-first century: a large, international population-based study PMID: 30126408 '></div>
 
 BACKGROUND: The prognosis of pancreatic cancer (PaC) strongly varies across different stages and age groups, which has unfortunately not been well recorded in the literature. This international population-based study aimed to provide tumor-node-metastasis (TNM) stage- and age-specific survival estimates and trends in resected and overall (resected and unresected) PaC in the early twenty-first century.
 METHODS: Using data from the US Surveillance, Epidemiology, and End Results-18 Program and the national cancer registries of the Netherlands, Belgium, Norway, and Slovenia, short-term and long-term overall survival results stratified by TNM stage and age in resected and overall primary PaC, irrespective of being microscopically confirmed or not, in 2003-2014 were computed using the Kaplan-Meier method. The temporal survival trends over three predefined periods (2003-2005, 2006-2008, and 2009-2011) were further examined using the log-rank test.
@@ -715,7 +715,7 @@ Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30357962
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Toll-like receptors 2, 4 and 9 and hypoxia markers HIF-1alpha and CAIX in pancreatic intraepithelial neoplasia PMID: 30357962 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Toll-like receptors 2, 4 and 9 and hypoxia markers HIF-1alpha and CAIX in pancreatic intraepithelial neoplasia PMID: 30357962 '></div>
 
 Pancreatic cancer arises from precursor lesions called pancreatic intraepithelial neoplasia (PanIN) characterized by inflammatory microenvironment. In pancreatic cancer, strong innate immunity and hypoxia responses are typical. Occurrence and relationship of these responses in human PanINs is unknown. We have studied the expression of toll-like receptors (TLR) TLR2, TLR4 and TLR9, and hypoxia markers HIF-1alpha and Carbonic anhydrase IX (CAIX) in normal and inflamed pancreatic ducts, in PanINs and in cancers. The samples of 69 surgically resected pancreatic ductal adenocarcinoma patients were stained using immunohistochemistry. We found TLR2, TLR9, HIF-1alpha and CAIX to be prominently expressed in pancreatic intraepithelial neoplasia. Expression of TLR2 showed a linear increase from PanIN1 to PanIN3, while the highest TLR4 expression was detected in inflamed ducts, and TLR9 expression in PanIN1 lesions. Within the PanIN1-group, nuclear HIF-1alpha correlated with membranous and cytoplasmic TLR2 expression (ρ = 0.982 and 0.815; p < 0.001 and p = 0.025, respectively), and in the PanIN2-group nuclear HIF-1alpha correlated with nuclear TLR9 expression 0.636, p = 0.026). Our findings show that the expression of TLRs 2, 4 and 9, and hypoxia markers HIF-1alpha and CAIX is abnormal in pancreatic intraepithelial neoplasia suggesting that both the innate immunity activation and hypoxia response are involved in early pancreatic carcinogenesis. However, these processes might be independent.
 
@@ -740,7 +740,7 @@ Pancreatic cancer arises from precursor lesions called pancreatic intraepithelia
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30342036
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pathways of Progression From Intraductal Papillary Mucinous Neoplasm to Pancreatic Ductal Adenocarcinoma Based on Molecular Features PMID: 30342036 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pathways of Progression From Intraductal Papillary Mucinous Neoplasm to Pancreatic Ductal Adenocarcinoma Based on Molecular Features PMID: 30342036 '></div>
 
 BACKGROUND & AIMS: Intraductal papillary mucinous neoplasms (IPMNs) are regarded as precursors of pancreatic ductal adenocarcinomas (PDAs), but little is known about mechanism of progression. This makes it a challenge to assess cancer risk in patients with IPMNs. We investigated associations of IPMNs with concurrent PDAs by genetic and histologic analyses.
 METHODS: We obtained 30 pancreatic tissues with concurrent PDAs and IPMNs; 168 lesions, including incipient foci, were mapped, microdissected, and analyzed for mutations in 18 pancreatic cancer-associated genes and expression of tumor suppressors.
@@ -768,7 +768,7 @@ CONCLUSIONS: Detailed histologic and genetic analysis of PDAs and concurrent IPM
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30357576
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Increased SOX9 Expression in Premalignant and Malignant Pancreatic Neoplasms PMID: 30357576 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Increased SOX9 Expression in Premalignant and Malignant Pancreatic Neoplasms PMID: 30357576 '></div>
 
 BACKGROUND: SOX9, a progenitor cell marker, is important for pancreatic ductal development. Our goal was to examine SOX9 expression differences in intraductal papillary mucinous neoplasms (IPMNs) and ductal adenocarcinoma (PDAC) compared with benign pancreatic duct (BP).
 METHODS: SOX9 expression was evaluated by immunohistochemistry performed on 93 specimens: 37 BP, 24 low grade (LG) IPMN, 12 high grade (HG) IPMN, and 20 PDAC. A linear mixed-effects model was used to compare the percentage of cells expressing SOX9 by specimen type. A separate linear mixed-effects model evaluated differences in SOX9 expression by staining intensity in pancreatic epithelial cells.
@@ -796,7 +796,7 @@ CONCLUSIONS: IPMNs demonstrated the highest expression levels of SOX9. SOX9 expr
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30366881
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Adjuvant chemotherapy is associated with improved postoperative survival in specific subtypes of invasive intraductal papillary mucinous neoplasms (IPMN) of the pancreas: it is time for randomized controlled data PMID: 30366881 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Adjuvant chemotherapy is associated with improved postoperative survival in specific subtypes of invasive intraductal papillary mucinous neoplasms (IPMN) of the pancreas: it is time for randomized controlled data PMID: 30366881 '></div>
 
 BACKGROUND: Very little is known about adjuvant chemotherapy for invasive Intraductal Papillary Mucinous Neoplasms (IPMNs) of the pancreas. The aim was to assess whether adjuvant chemotherapy affects survival.
 METHODS: Retrospective evaluation of invasive IPMNs. Patients treated with surgery alone or followed by adjuvant chemotherapy were compared in terms of survival.
@@ -824,7 +824,7 @@ CONCLUSIONS: Adjuvant therapy improves survival only in invasive IPMNs with noda
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30413822
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : High-grade Dysplasia in Resected Main-duct Intraductal Papillary Mucinous Neoplasm (MD-IPMN) is Associated with an Increased Risk of Subsequent Pancreatic Cancer PMID: 30413822 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : High-grade Dysplasia in Resected Main-duct Intraductal Papillary Mucinous Neoplasm (MD-IPMN) is Associated with an Increased Risk of Subsequent Pancreatic Cancer PMID: 30413822 '></div>
 
 BACKGROUND: There is lack of consensus on post-operative surveillance for resected non-invasive intraductal papillary neoplasms (IPMNs). In this study we explored risk factors for subsequent PC in patients with MD-IPMN undergoing partial pancreatectomy.
 METHODS: We searched the Mayo Clinic surgical pathology database for all cases of resected MD-IPMN between 1997 and 2014. Cases with histologically confirmed main pancreatic duct involvement either isolated or in a mixed pattern with branch-duct involvement were included. Outcomes of PC in the remnant pancreas, and death related to MD-IPMN were assessed with survival analyses (Kaplan-Meier and Cox regression).
@@ -852,7 +852,7 @@ CONCLUSION: Patients with MD-IPMN with PC or HGD undergoing segmental pancreatec
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30361110
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cyst location and presence of high grade dysplasia or invasive cancer in intraductal papillary mucinous neoplasms of the pancreas: a seven institution study from the central pancreas consortium PMID: 30361110 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cyst location and presence of high grade dysplasia or invasive cancer in intraductal papillary mucinous neoplasms of the pancreas: a seven institution study from the central pancreas consortium PMID: 30361110 '></div>
 
 BACKGROUND: Traditionally, intraductal papillary mucinous neoplasms (IPMNs) of the pancreas with "high risk stigmata" (HRS) or "worrisome features" (WF) are referred for resection. We aim to assess if IPMN location is predictive of harboring either high grade dysplasia (HGD) or invasive cancer (IC).
 METHODS: Patients undergoing resection for IPMN from seven institutions between 2000 and 2015 (n = 275) were analyzed. HRS and WF were defined by the 2012 Fukuoka international consensus guidelines.
@@ -880,7 +880,7 @@ DISCUSSION: Cyst location is predictive of HGD or IC in patients with IPMNs. Hea
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30308608
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Concomitant Intraductal Papillary Mucinous Neoplasm in Pancreatic Ductal Adenocarcinoma Is an Independent Predictive Factor for the Occurrence of New Cancer in the Remnant Pancreas PMID: 30308608 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Concomitant Intraductal Papillary Mucinous Neoplasm in Pancreatic Ductal Adenocarcinoma Is an Independent Predictive Factor for the Occurrence of New Cancer in the Remnant Pancreas PMID: 30308608 '></div>
 
 OBJECTIVE: To determine the factors predicting the subsequent development of pancreatic ductal adenocarcinoma in remnant pancreas (PDAC-RP) after partial pancreatectomy for PDAC.
 SUMMARY BACKGROUND DATA: PDAC-RP after partial pancreatectomy for PDAC is currently not so rare because of improved prognosis of PDAC patients due to recent advances in surgical techniques and adjuvant therapy. However, the predictive factors related to PDAC-RP remain unknown.
@@ -927,7 +927,7 @@ Solid Pseudopapillary Neoplasm
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30275097
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : CD138/syndecan-1 in pancreatic solid and pseudopapillary neoplasms PMID: 30275097 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : CD138/syndecan-1 in pancreatic solid and pseudopapillary neoplasms PMID: 30275097 '></div>
 
 
 
@@ -971,7 +971,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30275097
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30286010
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prior History of Pancreatitis Accelerates the Development of Pancreatic Adenocarcinoma PMID: 30286010 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prior History of Pancreatitis Accelerates the Development of Pancreatic Adenocarcinoma PMID: 30286010 '></div>
 
 OBJECTIVES: Presentation of pancreatic adenocarcinoma (PC) as acute pancreatitis (AP), association of chronic pancreatitis (CP) with PC, and role of inflammation in PC carcinogenesis are well recognized. We hypothesized that inflammatory changes associated with remote history of AP (≥2 years before PC diagnosis) would result in earlier age of PC diagnosis.
 METHODS: We evaluated PC patients prospectively enrolled in the Pancreatic Adenocarcinoma Gene Environment Risk (PAGER) study at the University of Pittsburgh for history of pancreatitis and reviewed relevant medical records and imaging studies. Univariate and multivariable linear regression analyses evaluated the relationship between PC and remote history of AP.
@@ -999,7 +999,7 @@ CONCLUSIONS: Remote history of AP may accelerate carcinogenesis in PC.
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315287
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic Cancer Following Acute Pancreatitis: A Population-based Matched Cohort Study PMID: 30315287 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic Cancer Following Acute Pancreatitis: A Population-based Matched Cohort Study PMID: 30315287 '></div>
 
 BACKGROUND: Acute pancreatitis is linked to pancreatic cancer, but the direction of this association is not fully elaborated.
 METHODS: This was a population-based cohort study including all Swedish residents diagnosed with a first-time episode of acute pancreatitis between 1997 and 2013 and corresponding matched pancreatitis-free individuals from the general population. Hazard ratios for the association between acute pancreatitis and pancreatic cancer were estimated using multivariable Cox regression models.
@@ -1029,7 +1029,7 @@ CONCLUSION: These findings imply a delay in the diagnosis of pre-existing pancre
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=28943513
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neonatal Diabetes: Two Cases with Isolated Pancreas Agenesis due to Homozygous PTF1A Enhancer Mutations and One with Developmental Delay, Epilepsy, and Neonatal Diabetes Syndrome due to KCNJ11 Mutation PMID: 28943513 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neonatal Diabetes: Two Cases with Isolated Pancreas Agenesis due to Homozygous PTF1A Enhancer Mutations and One with Developmental Delay, Epilepsy, and Neonatal Diabetes Syndrome due to KCNJ11 Mutation PMID: 28943513 '></div>
 
 Neonatal diabetes mellitus is a rare form of monogenic diabetes which is diagnosed in the first six months of life. Here we report three patients with neonatal diabetes; two with isolated pancreas agenesis due to mutations in the pancreas-specific transcription factor 1A (PTF1A) enhancer and one with developmental delay, epilepsy, and neonatal diabetes (DEND) syndrome, due to a KCNJ11 mutation. The two cases with mutations in the distal enhancer of PTF1A had a homozygous g.23508363A>G and a homozygous g.23508437A>G mutation respectively. Previous functional analyses showed that these mutations can decrease expression of PTF1A which is involved in pancreas development. Both patients were born small for gestational age to consanguineous parents. Both were treated with insulin and pancreatic enzymes. One of these patients’ fathers was also homozygous for the PTF1A mutation, whilst his partner and the parents of the other patient were heterozygous carriers. In the case with DEND sydrome, a previosly reported heterozygous KCNJ11 mutation, p.Cys166Tyr (c.497G>A), was identified. This patient was born to nonconsanguineous parents with normal birth weight. The majority of neonatal diabetes patients with KCNJ11 mutations will respond to sulphonylurea treatment. Therefore Glibenclamide, an oral antidiabetic of the sulphonylurea group, was started. This treatment regimen relatively improved blood glucose levels and neurological symptoms in the short term. Because we could not follow the patient in the long term, we are not able to draw conclusions about the efficacy of the treatment. Although neonatal diabetes mellitus can be diagnosed clinically, genetic analysis is important since it is a guide for the treatment and for prognosis.
 
@@ -1054,7 +1054,7 @@ Neonatal diabetes mellitus is a rare form of monogenic diabetes which is diagnos
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30414073
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Serum and histological IgG4-negative type 1 autoimmune pancreatitis PMID: 30414073 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Serum and histological IgG4-negative type 1 autoimmune pancreatitis PMID: 30414073 '></div>
 
 A 66-year-old man who was on oral medication for type 2 diabetes experienced a rapid decline in glycemic control (increase in glycosylated hemoglobin level from 7.7 to 10.2% over 3 months). Abdominal ultrasonography revealed a 20-mm hypoechoic mass in the pancreatic tail. Serum tumor marker carbohydrate antigen 19-9 and DUPAN2 levels were within the respective normal ranges; serum IgG4 level was also normal at 21.8 mg/dL. Abdominal contrast computed tomography revealed a 26-mm tumor in the pancreatic tail. Magnetic resonance cholangiopancreatography revealed disruption of the main pancreatic duct and dilation of the caudal pancreatic duct. Endoscopic ultrasonography revealed a near-round-shaped hypoechoic mass with interspersed hyperechoic areas. Endoscopic ultrasonography-guided fine needle aspiration was performed using a 22-G needle, but no malignant findings were observed. There were no signs of sialadenitis, retroperitoneal fibrosis, nephropathy, or other conditions associated with IgG4-related diseases. Distal pancreatectomy was performed; a 23-mm white mass was resected from the pancreatic tail. A histopathological examination showed advanced inflammatory cell infiltration mainly involving lymphocytes/plasma cells along with storiform fibrosis and obliterative phlebitis. No more than five IgG4-positive cells were observed per high-power field. These were level 1 pathological findings, and a definitive diagnosis of type 1 autoimmune pancreatitis (AIP) was made according to the International Consensus Diagnostic Criteria. Type 1 AIP associated with normal serum IgG4 levels and absence of IgG4-positive cells on histological examination is a rare clinical entity, which is very difficult to distinguish from pancreatic cancer. Here we report such a case and present a review of the relevant literature.
 
@@ -1079,7 +1079,7 @@ A 66-year-old man who was on oral medication for type 2 diabetes experienced a r
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30408214
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The histologic diagnosis of IgG4-related disease on small biopsies: Challenges and pitfalls PMID: 30408214 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The histologic diagnosis of IgG4-related disease on small biopsies: Challenges and pitfalls PMID: 30408214 '></div>
 
 INTRODUCTION: The pathologic diagnosis of IgG4-related disease (IgG4-RD) relies on histology, IgG4 positive cells and increased IgG4:IgG. Small biopsies from patients with a presumptive diagnosis of IgG4-RD often fail to meet consensus histologic guidelines. We evaluate consecutive small biopsies from patients with a presumptive diagnosis of IgG4-RD and assess the significance of the pathologic findings.
 METHODS: We evaluated 55 small biopsies from patients with a presumptive diagnosis of IgG4-RD. The retrospective cohort comprised of 71 patients with IgG4-RD and 57 mimics. We performed immunohistochemistry (IHC) and in situ hybridization (ISH) for IgG4 and IgG.
@@ -1108,7 +1108,7 @@ CONCLUSION: Patients with a presumptive diagnosis of IgG4-RD but lacking charact
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30455055
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Autoimmune pancreatitis in children: A single centre experience in diagnosis, management and long term follow up PMID: 30455055 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Autoimmune pancreatitis in children: A single centre experience in diagnosis, management and long term follow up PMID: 30455055 '></div>
 
 OBJECTIVES: Autoimmune pancreatitis (AIP) is a rare form of chronic pancreatitis and data is limited in the paediatric population. We aim to describe in detail a cohort of paediatric patients with AIP including their presentation, investigations that led to their diagnosis, management and long-term follow up.
 METHODS: We retrospectively reviewed the data of 6 patients diagnosed with AIP over an 10-year period. Data including demographics, clinical information, laboratory parameters, serological markers, radiological and histological findings as well as longitudinal follow up were collected.
@@ -1150,7 +1150,7 @@ CONCLUSIONS: The long term follow up of our cohort of paediatric AIP shows good 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451793
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prevalence of Asymptomatic Intraductal Papillary Mucinous Neoplasms in Healthy and Ill Populations Detected by Ultrasonography: A Single-Center Study of 6353 Outpatients PMID: 30451793 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prevalence of Asymptomatic Intraductal Papillary Mucinous Neoplasms in Healthy and Ill Populations Detected by Ultrasonography: A Single-Center Study of 6353 Outpatients PMID: 30451793 '></div>
 
 OBJECTIVES: The aim of this study was to establish the prevalence of intraductal papillary mucinous neoplasms (IPMNs) without and with high-risk stigmata (HRS)/worrisome features (WF) and the epidemiologic association between IPMNs and other diseases.
 METHODS: Ultrasound examinations of outpatients were evaluated. The IPMN was confirmed by magnetic resonance imaging. The prevalence of IPMNs and HRS/WF IPMNs was calculated. The association between IPMNs and other diseases was studied.
@@ -1193,7 +1193,7 @@ CONCLUSIONS: Intraductal papillary mucinous neoplasms had a high prevalence in a
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30377796
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prognostic role of BAP-1 and PBRM-1 expression in intrahepatic cholangiocarcinoma PMID: 30377796 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prognostic role of BAP-1 and PBRM-1 expression in intrahepatic cholangiocarcinoma PMID: 30377796 '></div>
 
 Intrahepatic cholangiocarcinoma (ICC) has universally poor outcome, mainly due to its late clinical presentation. Identification of specific biomarkers and development of effective treatment are still urgently required. Mutations in PBRM-1 and BAP-1 genes, and the expression of S100P have been related to survival in ICC. miR-31 seems also to play important regulatory functions in ICC and it directly regulates BAP-1 expression in lung cancer. In this study, tissue expression of BAP-1, PBRM-1, S100P, and miR-31 was investigated in ICC and correlated with clinical-pathological features. Sixty-one consecutive patients who underwent curative hepatic resection for ICC were enrolled. None received any therapy prior to surgery. Immunostaining for BAP-1, PBRM-1, and S100P, and in situ hybridization for miR-31 were performed, using tissue microarray slides. A strong retained expression of BAP-1 and PBRM-1 was associated with a reduced overall (p = 0.04 and p = 0.002, respectively) and disease-free survival (p = 0.05 and p = 0.02, respectively). An overexpression of S100P was related to a reduced overall survival (p = 0.005). The multivariate analyses identified the presence of perineural invasion and the retained PBRM-1 expression as independent predictors of worse overall [p = 0.02, hazard ratio (HR) = 2.25 (1.16-4.39) and p = 0.001, HR = 3.13 (1.56-6.28), respectively] and disease-free survivals [p = 0.03, HR = 2.43 (1.09-5.4) and p = 0.03, HR = 2.51 (1.11-5.67), respectively]. An overexpression of S100P was predictive of a worse overall survival [p = 0.02, HR = 1.66 (1.08-2.55)]. High levels of miR-31 were significantly associated to a low expression of BAP-1 protein (p = 0.03). In ICC, a retained expression of BAP-1 and PBRM-1, and an overexpression of S100P are related to a poor prognosis.
 
@@ -1218,7 +1218,7 @@ Intrahepatic cholangiocarcinoma (ICC) has universally poor outcome, mainly due t
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30377340
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mismatch repair deficiency is a rare but putative therapeutically relevant finding in non-liver fluke associated cholangiocarcinoma PMID: 30377340 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mismatch repair deficiency is a rare but putative therapeutically relevant finding in non-liver fluke associated cholangiocarcinoma PMID: 30377340 '></div>
 
 BACKGROUND: A major molecular pathway of genetic instability in cancer is DNA mismatch repair deficiency. High-level microsatellite instability (MSI-H) is currently the best predictor of responsiveness towards immune checkpoint blockade. Data about the prevalence of high-level microsatellite instability in cholangiocarcinoma (CCA) has been conflicting.
 METHODS: We employed a cohort comprising 308 Western-world, non-liver fluke-associated CCAs (159 intrahepatic, 106 perihilar, and 43 distal). We analysed the mononucleotide microsatellite instability marker panel consisting of BAT25, BAT26, and CAT25 and detected MSI-H in 4/308 CCAs (1.3%).
@@ -1247,7 +1247,7 @@ CONCLUSIONS: Even though the overall number of MSI-H CCAs is low, the dismal pro
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30389302
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Outcomes of surgery for 2010 WHO classification-based intraductal papillary neoplasm of the bile duct: Case-control study of a single Japanese institution's experience with special attention to mucin expression patterns PMID: 30389302 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Outcomes of surgery for 2010 WHO classification-based intraductal papillary neoplasm of the bile duct: Case-control study of a single Japanese institution's experience with special attention to mucin expression patterns PMID: 30389302 '></div>
 
 INTRODUCTION: The World Health Organization (WHO) proposed an integrated classification for intraductal papillary neoplasm of the bile duct (IPNB) in 2010. However, IPNB reportedly shows considerable geographic variation. This Japanese single-institution study examined outcomes of surgery for IPNB and the prognostic impact of immunohistochemical mucin expression patterns.
 MATERIALS AND METHODS: Patients with IPNB were identified from 413 patients who underwent curative-intent surgery for biliary tract (excluding gallbladder) neoplasms from 1992 to 2016 by retrospective macro- and microscopic reevaluation of resected specimens. Their clinicopathological variables were analyzed.
@@ -1274,7 +1274,7 @@ CONCLUSION: Our 24-year, single institution's experience suggests that Japanese 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30310366
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comparison of the Clinicopathologic Characteristics of Intraductal Papillary Neoplasm of the Bile Duct according to Morphological and Anatomical Classifications PMID: 30310366 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comparison of the Clinicopathologic Characteristics of Intraductal Papillary Neoplasm of the Bile Duct according to Morphological and Anatomical Classifications PMID: 30310366 '></div>
 
 Background: Intraductal papillary neoplasm of the bile duct (IPNB) is a recently defined entity and its clinical characteristics and classifications have yet to be established. We aimed to clarify the clinical features of IPNB and determine the optimal morphological classification criteria.
 Methods: From 2003 to 2016, 112 patients with IPNB who underwent surgery were included in the analysis. After pathologic reexamination by a specialized biliary-pancreas pathologist, previously suggested morphological and anatomical classifications were compared using the clinicopathologic characteristics of IPNB.
@@ -1303,7 +1303,7 @@ Conclusion: IPNB showed better long-term outcomes after optimal surgical resecti
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30448973
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cholangiocarcinoma: Classification, Histopathology and Molecular Carcinogenesis PMID: 30448973 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cholangiocarcinoma: Classification, Histopathology and Molecular Carcinogenesis PMID: 30448973 '></div>
 
 Cholangiocarcinoma (CC) is the second most common tumor of the liver, originating from the biliary system with increasing incidence and mortality worldwide. Several new classifications review the significance of tumor localization, site of origin, proliferation and biomarkers in the intrahepatic, perihilar and distal forms of the lesion. Based on growth pattern mass-forming, periductal-infiltrating, intraductal, undefined and mixed types are differentiated. There are further subclassifications which are applied for the histological features, in particular for intrahepatic CC. Recognition of the precursors and early lesions of CC including biliary intraepithelial neoplasia (BilIN), intraductal papillary neoplasm of the bile ducts (IPNB), biliary mucinous cystic neoplasm (MCNB) and the candidate precursors, such as bile duct adenoma and von Meyenburg complex is of increasing significance. In addition to the previously used biliary markers detected by immunohistochemistry, several new markers have been added to the differentiation of both the benign and malignant lesions, which can be used to aid in the subclassification in association with the outcome of CC. Major aspects of biliary carcinogenesis have been revealed, yet, the exact way of this diverse process is still unclear. The factors contributing to molecular cholangiocarcinogenesis include various risk factors, different anatomical localizations, multiple cellular origins, genetic and epigenetic alterations, tumor microenvironment, heterogeneity and clonal evolution. Driver mutations have been identified, implying that they are optimal candidates for targeted therapy. The most promising therapeutic candidates have entered clinical trials.
 
@@ -1328,7 +1328,7 @@ Cholangiocarcinoma (CC) is the second most common tumor of the liver, originatin
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29757145
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Frequency of bile duct confluence variations in subjects with pancreas divisum: an analysis of MRCP findings PMID: 29757145 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Frequency of bile duct confluence variations in subjects with pancreas divisum: an analysis of MRCP findings PMID: 29757145 '></div>
 
 PURPOSE: We aimed to evaluate the frequency of bile duct branching pattern variations at the hepatic confluence in patients with pancreas divisum (PD).
 METHODS: A search was performed through the hospital database using the keyword "pancreas divisum" to identify patients. The magnetic resonance cholangiopancreatography (MRCP) images of 137 patients who were diagnosed with PD between August 2011 and November 2016 were retrospectively analyzed for the presence of bile duct variations. A control group of 137 patients without PD was established among patients investigated during the same period. Variations of the biliary tract were grouped into seven types according to the McSweeney et al. classification.
@@ -1356,7 +1356,7 @@ CONCLUSION: MRCP studies showed atypical bile duct confluence pattern in nearly 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30349952
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : EVI1 expression is associated with aggressive behavior in intrahepatic cholangiocarcinoma PMID: 30349952 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : EVI1 expression is associated with aggressive behavior in intrahepatic cholangiocarcinoma PMID: 30349952 '></div>
 
 Ecotropic virus integration site 1 protein homolog (EVI1), a well-known oncogenic transcriptional factor of hematopoietic cells, contributes to pancreatic cancer oncogenicity through increased expression of KRAS. Because EVI1 was upregulated in cholangiocarcinoma by referring The Cancer Genome Atlas, we investigated the importance of EVI1 in intrahepatic cholangiocarcinoma (ICC) which has been regarded as a heterogeneous group of cancers. Immunohistochemical analysis results demonstrated that EVI1 was overexpressed in about half of ICC (53/101, 52.5%). Moreover, all intraductal papillary neoplasms of the bile duct cases expressed EVI1 regardless of histological grading and subtypes such as gastric, intestinal, pancreatobiliary, or oncocytic (20/20, 100%). EVI1-positive ICC showed higher frequencies of aggressive pathological indicators such as periductal infiltrative growth (p = 0.022), hilar invasion (p = 0.041), advanced UICC stage (p = 0.026), major vascular invasion (p = 0.026), and perineural invasion (p = 0.007) than EVI1-negative ICC. Patients with EVI1-positive ICC showed worse overall survival and recurrence-free survival in all resected cases and in curative resected cases. Recently, we proposed type 1/2 (large/small duct types) classification of ICC based on mucin productivity and immunophenotypes (S100P, N-cadherin, and NCAM). Type 1 predominantly consisted of EVI1-positive ICC (33/42 cases, 79%), and the frequency was significantly higher than type 2 (18/55 cases, 32.7%) (p < 0.0001). EVI1-positive ICC was likely to express stomach-specific claudin CLDN18 (correlation coefficient r = 0.55373) and mucin MUC5AC (r = 0.42718). EVI1-positive ICC is an aggressive ICC showing both large-duct and/or gastric phenotypes. Consequently, a transcriptional factor EVI1 is associated with aggressive behavior in ICC and can be a therapeutic target molecule, while EVI1 might be a key molecule for the development of intraductal papillary neoplasms of the bile duct.
 
@@ -1399,7 +1399,7 @@ Bile Duct TNM staging, Margins, Survival
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29450978
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prognostic comparison of the 7th and 8th editions of the American Joint Committee on Cancer staging system for intrahepatic cholangiocarcinoma PMID: 29450978 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prognostic comparison of the 7th and 8th editions of the American Joint Committee on Cancer staging system for intrahepatic cholangiocarcinoma PMID: 29450978 '></div>
 
 BACKGROUND: Several important changes were made to the 8th edition of the American Joint Committee on Cancer (AJCC) tumor staging system for intrahepatic cholangiocarcinoma (ICC). We assessed the prognostic impact of this new tumor staging system compared to the 7th edition.
 METHODS: A retrospective single-institution study was performed with 626 patients who underwent R0 resection for ICC over 20-year period.
@@ -1449,7 +1449,7 @@ CONCLUSIONS: The 8th edition of the AJCC staging system appears to provide high 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30448774
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Statin use and reduced risk of biliary tract cancers in the UK Clinical Practice Research Datalink PMID: 30448774 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Statin use and reduced risk of biliary tract cancers in the UK Clinical Practice Research Datalink PMID: 30448774 '></div>
 
 OBJECTIVE: To evaluate the association between statin use and risk of biliary tract cancers (BTC).
 DESIGN: This is a nested case-control study conducted in the UK Clinical Practice Research Datalink. We included cases diagnosed with incident primary BTCs, including cancers of the gall bladder, bile duct (ie, both intrahepatic and extrahepatic cholangiocarcinoma), ampulla of Vater and mixed type, between 1990 and 2017. For each case, we selected five controls who did not develop BTCs at the time of case diagnosis, matched by sex, year of birth, calendar time and years of enrolment in the general practice using incidence density sampling. Exposures were defined as two or more prescription records of statins 1 year prior to BTC diagnosis or control selection. ORs and 95% CIs for associations between statins and BTC overall and by subtypes were estimated using conditional logistic regression, adjusted for relevant confounders.
@@ -1476,7 +1476,7 @@ CONCLUSION: Compared with non-use of statins, current statin use is associated w
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30277653
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pattern of distant metastases in primary extrahepatic bile-duct cancer: A SEER-based study PMID: 30277653 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pattern of distant metastases in primary extrahepatic bile-duct cancer: A SEER-based study PMID: 30277653 '></div>
 
 Extrahepatic bile duct cancer (EBDC) is a combined type of malignancy mainly consisting of extrahepatic cholangiocarcinoma and gallbladder cancer. Clinically, it is featured with latent symptoms and early metastasis, leading to a poor prognosis. Therefore, this cohort study aimed to depict the possible metastatic patterns of EBDC of diverse sub-types and evaluate the prognostic significance of diverse metastatic destinations with data from the clinical database. Relevant data of total 4061 confirmed EBDC patients diagnosed between 2010 and 2013 from the Surveillance, Epidemiology and End Results (SEER) database was obtained. We applied t test to describe the baseline data of patients included and used chi-square test to compare the distribution of distant metastatic sites. We further adopted odds ratio assess the combined metastatic patterns and compared survival difference of patients with different distal metastasis organ by Kaplan-Meier analysis. We identified totally 4061 patients over 18 years old diagnosed with extrahepatic bile tract malignancies between 2010 and 2013, with clear metastatic status and follow-up data, without primary malignancies. Liver and distant lymph (DL) are the two most common sites as a single metastasis organ. In combined metastasis patterns, bi-organ is more frequent than the other types. Lung is the organ preferentially for bi-organ metastasis, while bone and distant lymph similarly intend to co-metastasize with brain. Distal metastasis in EBDC patients indicates an extremely poor prognosis. According to the final analysis results, malignancies in extrahepatic bile duct exhibit similar metastatic patterns, suggesting that we can regard them as a unity to assess its development. Profound differences exist in distribution of distant extrahepatic metastatic sites and their combinations. Results from our studies would provide some information for follow-up strategies and future studies.
 
@@ -1531,7 +1531,7 @@ Morphology, Diagnostics, IHC
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30303140
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Intracholecystic papillary-tubular neoplasm of gallbladder: A 5-year retrospective pathological study PMID: 30303140 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Intracholecystic papillary-tubular neoplasm of gallbladder: A 5-year retrospective pathological study PMID: 30303140 '></div>
 
 Background: Intracholecystic papillary-tubular neoplasm (ICPN) is a relatively new entity which includes neoplastic polyps, adenomas, and papillary neoplasms that are ≥1.0 cm. This study is done to evaluate the pathological features of ICPN and to find out the factors associated with invasion.
 Materials and Methods: This is a 5-year retrospective study in a referral pathology center. A total of 19 cases of ICPN are found. The cases are analyzed for age and sex distribution, clinical suspicion, stages, histological architecture, differentiation, and grade of dysplasia. Descriptive statistics and test of significance by Chi-square and t-test are used in the study.
@@ -1576,7 +1576,7 @@ Gallbladder TNM staging, Margins, Survival
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=28958638
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Gallbladder polypoid lesions >15mm as indicators of T1b gallbladder cancer risk PMID: 28958638 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Gallbladder polypoid lesions >15mm as indicators of T1b gallbladder cancer risk PMID: 28958638 '></div>
 
 BACKGROUND AND STUDY AIMS: Gallbladder polyps (GBPs) are found in 5-7% of the adult population. However, it is very important to differentiate between benign and malignant polyps to establish an appropriate treatment. The present study aimed to determine the relevance of the 10-mm size criterion and attempted to determine the cut-off diameter of T1b tumours, which requires additional surgical intervention.
 PATIENTS AND METHODS: Cases with GBPs were collected between January 2005 and January 2015. A total of 109 patients were enroled retrospectively. Information on age, sex, ultrasound findings, and blood laboratory tests was reviewed. The 10-mm criterion and T1b tumours were examined.
@@ -1609,7 +1609,7 @@ CONCLUSION: Gallbladder cancer may occur in polyps of <10mm. Larger size and old
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315386
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Gallbladder Cancer Predictive Risk Score Based on Pathological Findings: A Propensity Score-Matched Analysis PMID: 30315386 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Gallbladder Cancer Predictive Risk Score Based on Pathological Findings: A Propensity Score-Matched Analysis PMID: 30315386 '></div>
 
 
 
@@ -1641,7 +1641,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315386
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30018483
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Impact of the number of examined lymph nodes on outcomes in patients with lymph node-negative gallbladder carcinoma PMID: 30018483 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Impact of the number of examined lymph nodes on outcomes in patients with lymph node-negative gallbladder carcinoma PMID: 30018483 '></div>
 
 AIM: To determine whether the number of examined lymph nodes (LNs) is correlated with the overall survival of gallbladder carcinoma (GBC) patients.
 METHODS: Patients were collected from the Surveillance Epidemiology and End Results database (2004-2013) and categorized by the number of LNs into six groups: 1 LN, 2 LNs, 3 LNs, 4 LNs, 5 LNs, and ≥ 6 LNs. Survival curves for overall survival were plotted with a Kaplan-Meier analysis. The log-rank test was used for univariate comparisons.
@@ -1690,7 +1690,7 @@ Morphology, Diagnostics, IHC
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30354274
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Duodenal Epithelial Polyps: A Clinicopathologic Review PMID: 30354274 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Duodenal Epithelial Polyps: A Clinicopathologic Review PMID: 30354274 '></div>
 
 CONTEXT.—: Duodenal epithelial polyps are reported in 1.5% to 3% of individuals referred for upper endoscopy. Most duodenal epithelial polyps are asymptomatic and nonneoplastic; however, a small subset is neoplastic and may progress to adenocarcinoma. Recent advances in immunohistochemical and molecular techniques have helped further characterize these polyps, shedding light on their origin, classification, and risk of progression to adenocarcinoma.
 OBJECTIVE.—: To provide a comprehensive clinicopathologic review of nonneoplastic and neoplastic duodenal epithelial polyps, with particular emphasis on recent developments in classification schemes and risk stratification based upon immunohistochemical and molecular profiles.
@@ -1718,7 +1718,7 @@ CONCLUSIONS.—: In this review we provide an update on the clinicopathologic, i
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=28846834
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Microanatomical profiles on the lymphatic system in the human ampulla of Vater (immunohistochemistry and scanning electron microscopy) PMID: 28846834 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Microanatomical profiles on the lymphatic system in the human ampulla of Vater (immunohistochemistry and scanning electron microscopy) PMID: 28846834 '></div>
 
 BACKGROUND: Little information is available regarding microanatomy of lymphatic system in the ampulla of Vater, though it is of critical importance for an understanding of tumor progression via the lymphatics and determination of surgical strategy. The present study, therefore, aimed to demonstrate the distribution and microanatomical profiles on the lymphatic system in the ampulla.
 METHODS: The fine distribution and structure of the lymphatic vessels were investigated in the ampulla and the stomach by immunohistochemistry for lymphatic- (D2-40) and blood vascular- (CD31) specific markers and scanning electron microscopy. The densities of lymphatic and blood vessels were also compared.
@@ -1746,7 +1746,7 @@ CONCLUSIONS: The ampulla of Vater showed widespread lymphatic capillaries throug
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29607953
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : A Rare Case of Ampullary Goblet Cell Carcinoid PMID: 29607953 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : A Rare Case of Ampullary Goblet Cell Carcinoid PMID: 29607953 '></div>
 
 An asymptomatic 70-year-old woman was referred to our hospital because of liver enzyme elevation. Enhanced abdominal computed tomography demonstrated a small, round-shaped tumor with dilation of the common bile duct and main pancreatic duct. A biopsy specimen from the papilla showed mucin-containing cells that were positive for endocrine markers on immunohistochemical staining. Endoscopic snare resection was done, and there was a positive vertical margin on pathology. Pancreaticoduodenectomy was then performed later. The final diagnosis was goblet cell carcinoid, pT2N0M0, pStage IIA [Union for International Cancer Control (UICC) 7th edition]. Ampullary goblet cell carcinoid is an extremely rare disease of which there have been no recent reports.
 
@@ -1773,7 +1773,7 @@ An asymptomatic 70-year-old woman was referred to our hospital because of liver 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30448460
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Duodenal tumor risk in Lynch syndrome PMID: 30448460 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Duodenal tumor risk in Lynch syndrome PMID: 30448460 '></div>
 
 BACKGROUND AND AIMS: Lynch syndrome (LS) is associated with an increased risk of small bowel tumors but routine screening is not recommended in international guidelines. The aim of our study was to determinate the prevalence of duodenal tumors in a French cohort of LS patients.
 METHODS: Patients carrying a germline pathogenic variant in a MMR gene, supported by our local network, in which at least one upper endoscopy had been performed, were included. We registered the occurrence of duodenal lesions in those patients.
@@ -1816,7 +1816,7 @@ Ampulla of Vater TNM staging, Margins, Survival
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451797
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Perineural Invasion is a Strong Prognostic Moderator in Ampulla of Vater Carcinoma: A Meta-analysis PMID: 30451797 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Perineural Invasion is a Strong Prognostic Moderator in Ampulla of Vater Carcinoma: A Meta-analysis PMID: 30451797 '></div>
 
 OBJECTIVE: Ampulla of Vater carcinoma (AVC) has a broad spectrum of different prognoses. As such, new moderators of survival are urgently needed. We aimed at clarifying the prognostic role of perineural invasion in AVC.
 METHODS: Using PubMed and SCOPUS databases, we conducted the first systematic review and meta-analysis on this topic.
@@ -1844,7 +1844,7 @@ CONCLUSIONS: Perineural invasion is strongly associated with a poorer prognosis 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29452703
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Validation of the eighth edition of the American Joint Committee on Cancer staging system for ampulla of Vater cancer PMID: 29452703 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Validation of the eighth edition of the American Joint Committee on Cancer staging system for ampulla of Vater cancer PMID: 29452703 '></div>
 
 BACKGROUND: The American Joint Committee on Cancer recently proposed the eighth edition of cancer staging system. Validation studies are required to evaluate the prognostic stratification of ampulla of Vater cancer patients.
 METHODS: In the study, 369 operatively resected patients with ampullary cancers were grouped based on the eighth T (T1a, limited to sphincter of Oddi; T1b, invasion to duodenal submucosa; T2, invasion to duodenal proper muscle; T3a, invasion to pancreas ≤0.5 cm; T3b, invasion to pancreas >0.5 cm; and T4, involvement of celiac axis or superior mesenteric artery) and N (N0, no nodal metastasis; N1, 1-3 nodal metastasis; and N2, ≥4 nodal metastasis) category of ampullary cancer staging.
@@ -1874,7 +1874,7 @@ CONCLUSION: The eighth edition T category for ampullary cancer does not stratify
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29497964
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Adjuvant radiotherapy following pancreaticoduodenectomy for ampullary adenocarcinoma improves survival in node-positive patients: a propensity score analysis PMID: 29497964 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Adjuvant radiotherapy following pancreaticoduodenectomy for ampullary adenocarcinoma improves survival in node-positive patients: a propensity score analysis PMID: 29497964 '></div>
 
 INTRODUCTION: This study aimed to evaluate the impact of adjuvant radiotherapy in patients undergoing pancreaticoduodenectomy (PD) for ampullary adenocarcinoma.
 METHODS: Using the Surveillance, Epidemiology, and End Results, patients with non-metastatic ampullary adenocarcinoma between 2004 and 2013 were identified. Cancer-specific survival and overall survival were estimated using Kaplan-Meier and Cox regression to obtain adjusted hazard ratio of survival.
@@ -1902,7 +1902,7 @@ CONCLUSION: In summary, adjuvant radiotherapy following PD for ampullary adenoca
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29335829
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreaticoduodenectomy for periampullary tumours: a review article based on Surveillance, End Results and Epidemiology (SEER) database PMID: 29335829 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreaticoduodenectomy for periampullary tumours: a review article based on Surveillance, End Results and Epidemiology (SEER) database PMID: 29335829 '></div>
 
 INTRODUCTION: This study set to examine relative survival of patients with periampullary cancers undergoing pancreaticoduodenectomy (PD).
 METHODS: Using the Surveillance, End Results and Epidemiology (SEER) database, this study identified 9877 patients with non-metastatic pancreatic adenocarcinoma who underwent PD between 2004 and 2013.
@@ -1930,7 +1930,7 @@ CONCLUSION: Future studies aiming to further define genetic signatures of indivi
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29929786
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Definition of an extended minimum level of lymphadenectomy in non-pancreatic periampullary cancer resections PMID: 29929786 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Definition of an extended minimum level of lymphadenectomy in non-pancreatic periampullary cancer resections PMID: 29929786 '></div>
 
 BACKGROUND: The number of lymph nodes to be resected in surgery for non-pancreatic periampullary cancer remains unclear.
 METHODS: The Surveillance, Epidemiology, and End Results (SEER) database was used to gather information from a large retrospective cohort. To define a novel, reasonable cut-off associated with survival, we stratified patients into subgroups depending on the number of resected lymph nodes.
@@ -1978,7 +1978,7 @@ PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30367334
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comparison of Monitor-Image and Printout-Image Methods in Ki-67 Scoring of Gastroenteropancreatic Neuroendocrine Tumors PMID: 30367334 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comparison of Monitor-Image and Printout-Image Methods in Ki-67 Scoring of Gastroenteropancreatic Neuroendocrine Tumors PMID: 30367334 '></div>
 
 Gastroenteropancreatic neuroendocrine tumors (GEP-NET) are classified according to tumor grade. Ki-67 and mitotic count are the two determinants of this classification. Therefore, Ki-67 scoring becomes very important in classifying the patients accurately. Eye-balling, counting of cells through the microscope, automated image analysis systems, and manual counting of printed image are the four major scoring methods in use. The aim of this study is to show the agreement between monitor-image method (MIM) and printout-image method (PIM) of Ki-67 scoring. In our study, 120 GEP-NETs from 85 patients diagnosed between January 2005 and July 2017 were evaluated. Thirty-seven cases with either polypectomy or resection material were selected. Seven different scoring methods using either a monitor-image or a printout-image were applied for Ki-67 scoring. They are as follows: whole-PIM, 1/9-PIM, whole-MIM, 1/4-MIM, 1/6-MIM, 1/9-MIM, and 1/12-MIM. In the comparison of Ki-67 scoring methods, intraclass correlation coefficients ranging from 0.951 to 0.999 were found. The Bland-Altman analysis showed near-perfect agreement between whole-MIM and whole-PIM as well as 1/9-MIM and 1/9-PIM. The level of agreements among the other methods were sufficient too, but there was a relative decrease in the level of agreement as the area of counting becomes smaller. The average application time decreased from 373.7 to 41.7 s gradually as the scoring area becomes smaller. Our study shows that there is a remarkable agreement between the MIM and PIM used in Ki-67 scoring.
 
@@ -2003,7 +2003,7 @@ Gastroenteropancreatic neuroendocrine tumors (GEP-NET) are classified according 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30391116
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic VIPomas from China: Case reports and literature review PMID: 30391116 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic VIPomas from China: Case reports and literature review PMID: 30391116 '></div>
 
 Vasoactive intestinal polypeptide-secreting tumors (VIPomas) are rare neuroendocrine tumors that often present as watery diarrhea, hypokalemia, and achlorhydria or hypochlorhydria. In this study, we present our institutional experience of diagnosis and treatment of VIPomas, along with a review of the Chinese literature since 1980. Patient #1, diagnosed in 1984 and with intact clinical records, shows the natural history of this disease. Patient #2, diagnosed in 2015, shows the results of evaluation by nuclear medicine techniques and the outcomes of standardized treatment. Comprehensive review of 41 cases allows evaluation of clinical characteristics, treatments and outcomes of pancreatic VIPoma patients. All patients presented with watery diarrhea. The average stool volume reached 3247 mL per day. Average serum VIP level was 839.3 ng/L. Twelve of the 41 cases were reported to have metastases at diagnosis. Somatostatin receptor scintigraphy and 18FDG PET-CT are efficient methods for detection of VIPoma. Surgical excision can promptly alleviate hormonal symptoms.
 
@@ -2029,7 +2029,7 @@ Vasoactive intestinal polypeptide-secreting tumors (VIPomas) are rare neuroendoc
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30308537
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Natural History of Small Pancreatic Lesions Suspected to Be Nonfunctioning Pancreatic Neuroendocrine Tumors PMID: 30308537 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Natural History of Small Pancreatic Lesions Suspected to Be Nonfunctioning Pancreatic Neuroendocrine Tumors PMID: 30308537 '></div>
 
 OBJECTIVES: Nonfunctioning pancreatic neuroendocrine tumors (NF-PNETs) are a rare disease but have been diagnosed more frequently than before. The aim of this study was to evaluate the natural course of small NF-PNETs.
 METHODS: We performed a retrospective analysis of patients with incidentally found small NF-PNETs (<20 mm) from 1999 to 2015. The patients who were recommended surveillance were included.
@@ -2058,7 +2058,7 @@ CONCLUSIONS: Most of the small NF-PNETs did not increase in size and seldom show
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29520563
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Immunohistochemical Biomarkers of Gastrointestinal, Pancreatic, Pulmonary, and Thymic Neuroendocrine Neoplasms PMID: 29520563 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Immunohistochemical Biomarkers of Gastrointestinal, Pancreatic, Pulmonary, and Thymic Neuroendocrine Neoplasms PMID: 29520563 '></div>
 
 Neuroendocrine neoplasms (NENs) are a heterogeneous group of epithelial neoplastic proliferations that irrespective of their primary site share features of neural and endocrine differentiation including the presence of secretory granules, synaptic-like vesicles, and the ability to produce amine and/or peptide hormones. NENs encompass a wide spectrum of neoplasms ranging from well-differentiated indolent tumors to highly aggressive poorly differentiated neuroendocrine carcinomas. Most cases arise in the digestive system and in thoracic organs, i.e., the lung and thymus. A correct diagnostic approach is crucial for the management of patients with both digestive and thoracic NENs, because their high clinical and biological heterogeneity is related to their prognosis and response to therapy. In this context, immunohistochemistry represents an indispensable diagnostic tool that pathologists need to use for the correct diagnosis and classification of such neoplasms. In addition, immunohistochemistry is also useful in identifying prognostic and theranostic markers. In the present article, the authors will review the role of immunohistochemistry in the routine workup of digestive and thoracic NENs.
 
@@ -2083,7 +2083,7 @@ Neuroendocrine neoplasms (NENs) are a heterogeneous group of epithelial neoplast
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30300897
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : COMPETITIVE TESTING THE WHO 2010 VS THE WHO 2017 GRADING OF PANCREAS NEUROENDOCRINE NEOPLASIA: DATA FROM A LARGE INTERNATIONAL COHORT STUDY PMID: 30300897 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : COMPETITIVE TESTING THE WHO 2010 VS THE WHO 2017 GRADING OF PANCREAS NEUROENDOCRINE NEOPLASIA: DATA FROM A LARGE INTERNATIONAL COHORT STUDY PMID: 30300897 '></div>
 
 <br>Background: the World Health Organization (WHO) and the American Joint Cancer Committee (AJCC) modified the grading of pancreatic neuroendocrine neoplasms from a three-tiers (WHO-AJCC 2010) to a four-tiers system by introducing the novel category of NET G3 (WHO-AJCC 2017).
 This study aims at validating the WHO-AJCC 2017 and identifying the most effective grading system.
@@ -2112,7 +2112,7 @@ the WHO-AJCC 2017 grading is at least equally performing as the WHO-AJCC 2010 bu
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30366875
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Ki-67 and presence of liver metastases identify different progression-risk classes in pancreatic neuroendocrine neoplasms (pNEN) undergoing resection PMID: 30366875 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Ki-67 and presence of liver metastases identify different progression-risk classes in pancreatic neuroendocrine neoplasms (pNEN) undergoing resection PMID: 30366875 '></div>
 
 In pancreatic neuroendocrine neoplasms (pNEN), size ≤2 cm and Ki-67 < 3% suggest indolent behavior, but no factor alone predicts prognosis. We investigated factors predictive of tumor progression in 80 pNENs surgically resected in a single Institution from 1995 to 2015. At multivariable analysis the only two independent variables related to PFS were Ki-67 (HR 2.97; 95%CI 1.26-7.02) and presence of synchronous liver metastases (HR 3.60; 95%CI 1.70-7.61). Using Ki-67 < 3% and M0 as reference, the HR for tumor progression was 3.21 (95%CI 1.18-8.74) for M0 patients with Ki-67 3-20%, 5.06 (2.29-11.2) for M1 patients with Ki-67 ≤ 20% and 24.3 (6.64-89.2) for those with Ki-67 > 20%. Tumor size (≤2 vs. >2 cm) was not a predictive factor at any analysis. Intra-class correlation of Ki-67 values on pre-surgical biopsies vs. surgical specimens was 0.99 and Ki-67 classes were correctly identified in 97% of biopsies. Ki-67 and presence of liver metastases are the major prognostic factors in pNEN and identify different progression risks regardless of tumor size. Pre-surgical pNEN biopsy for Ki-67 assessment should be included in the evaluation of patients with 1-2 cm tumors to help in the decision on whether to perform surgical resection.
 
@@ -2137,7 +2137,7 @@ In pancreatic neuroendocrine neoplasms (pNEN), size ≤2 cm and Ki-67 < 3%
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30366884
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Limited role of Chromogranin A as clinical biomarker for pancreatic neuroendocrine tumors PMID: 30366884 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Limited role of Chromogranin A as clinical biomarker for pancreatic neuroendocrine tumors PMID: 30366884 '></div>
 
 BACKGROUND: Serum Chromogranin A (CgA) is widely used as a biomarker for pancreatic neuroendocrine tumors (PanNETs). The aim of this study was to investigate the value of CgA as a diagnostic and prognostic marker for well-differentiated PanNETs.
 METHODS: Patients with well-differentiated PanNET and a baseline CgA measurement, between 2011 and 2016 were reviewed. The diagnostic value was determined by comparing CgA values from patients with PanNETs to those with other pancreatic neoplasms and healthy controls. The Kaplan-Meier method was used to investigate the CgA prognostic significance.
@@ -2165,7 +2165,7 @@ CONCLUSION: CgA has a limited role as a diagnostic biomarker for well-differenti
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30447299
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : High Minichromosome maintenance protein 7 proliferation indices: a powerful predictor of progression in pancreatic neuroendocrine neoplasms without distant metastasis at the time of surgery PMID: 30447299 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : High Minichromosome maintenance protein 7 proliferation indices: a powerful predictor of progression in pancreatic neuroendocrine neoplasms without distant metastasis at the time of surgery PMID: 30447299 '></div>
 
 Pancreatic neuroendocrine neoplasms (PanNENs) have an unpredictable clinical course that varies from indolent to highly malignant. No immunohistochemical markers are available for reliable prediction of the biological behavior of early-stage PanNENs. Minichromosome maintenance protein 7 (MCM7) is a putative powerful marker of cell proliferation. Whether the expression of MCM7 is related to the risk of PanNENs progression remains unclear. We assessed the clinical behavior of 156 PanNENs with respect to stage, grade, Ki-67 index, MCM7 index, and other pathologic features. A high MCM7 index was significantly associated with larger tumor size (P<.001), nonfunctioning tumor (P<.001), increased grade (P<.0001), and later TNM stage (P<.001). In multivariate analysis, G2/G3 (hazard ratio (HR), 2.21; 95% confidence interval (CI), 1.35-3.62; P<.001), stage III/IV (HR, 2.11; 95% CI, 1.31-3.41; P<.001), and MCM7 labeling index (LI)>5% (HR, 3.81; 95% CI, 1.30-11.17; P=.02) were independent negative prognostic factors related to the risk of tumor progression in stage I-IV disease. MCM7 LI>5% was associated with an increased risk of progression in stages I-V, I-III, and I-II. Our study confirms that MCM7 is a valuable marker for assessing the progression of PanNENs, especially in patients with early-stage disease and without distant metastasis.
 
@@ -2190,7 +2190,7 @@ Pancreatic neuroendocrine neoplasms (PanNENs) have an unpredictable clinical cou
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451799
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Endoscopic Resection of Duodenal Carcinoid Tumors: A Single-Center Comparison Between Simple Polypectomy and Endoscopic Mucosal Resection PMID: 30451799 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Endoscopic Resection of Duodenal Carcinoid Tumors: A Single-Center Comparison Between Simple Polypectomy and Endoscopic Mucosal Resection PMID: 30451799 '></div>
 
 OBJECTIVES: Endoscopic resection is preferred for duodenal carcinoids less than 20 mm; however, the efficacy of simple polypectomy has not been compared with advanced endoscopic resection techniques.
 METHODS: We performed a retrospective review of 33 patients who underwent endoscopic duodenal carcinoid resection (10 simple, 23 endoscopic mucosal resection) at the Hospital of the University of Pennsylvania between January 1, 2006, and June 15, 2017. The primary outcomes were resection margin positivity and local tumor recurrence.
@@ -2218,7 +2218,7 @@ CONCLUSIONS: Simple polypectomy may be adequate treatment of small duodenal carc
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451800
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Proinsulin Expressing Neuroendocrine Tumors of the Pancreas: An Underrecognized Entity PMID: 30451800 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Proinsulin Expressing Neuroendocrine Tumors of the Pancreas: An Underrecognized Entity PMID: 30451800 '></div>
 
 OBJECTIVES: Rare cases of pancreatic neuroendocrine tumors (PNETs) that produce only proinsulin (PI) and manifest with hypoglycemia have been reported. Proinsulin expression in PNET has not been systematically studied, and the clinicopathologic features of such tumors remain unknown.
 METHODS: We studied expression of PI by immunohistochemistry (IHC) in 136 PNETs from 2 high-volume surgical oncology centers and assessed all available clinicopathologic data.
@@ -2247,7 +2247,7 @@ CONCLUSIONS: Proinsulin-expressing PNETs (functional or non) are not uncommon. P
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30456697
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neuroendocrine Liver Metastasis-a Specific Set of Markers to Detect Primary Tumor Sites PMID: 30456697 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neuroendocrine Liver Metastasis-a Specific Set of Markers to Detect Primary Tumor Sites PMID: 30456697 '></div>
 
 The diagnosis of neuroendocrine neoplasia (NEN) is often made at an advanced stage of disease, including hepatic metastasis. At this point, the primary may still be unknown and sometimes cannot even be detected by functional imaging, especially in very small tumors of the pancreas (pan) and small intestinal (si) entities. The site of the primary may be based on biopsy specimens of the liver applying a specific set of markers. Specimens of liver metastases from 87 patients with NENs were studied. In retrospect, 50 patients had si and 37 pan NENs. Tissue samples were evaluated by immunohistochemistry. The markers applied were insulin gene enhancer protein Islet-1 (ISL-1), homeobox protein CDX-2 (CDX2), thyroid transcription factor 1 (TTF-1), and serotonin. Positive stains for CDX2 were documented in 43 (86%) and for serotonin in 45 (90%) of 50 siNENs. Three panNENs were positive for CDX2 and one for serotonin, respectively. ISL-1 was negative throughout in siNENs and also negative in 8 of 50 panNENs (21.6%). TTF-1 was negative in more than 90% of the specimens of either entity. Immunohistochemical markers in liver metastasis can lead the way to the site of the primary NEN. They should always be used in combined clusters.
 
@@ -2272,7 +2272,7 @@ The diagnosis of neuroendocrine neoplasia (NEN) is often made at an advanced sta
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30470614
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Association between preoperative Vasostatin-1 and pathological features of aggressiveness in localized nonfunctioning pancreatic neuroendocrine tumors (NF-PanNET) PMID: 30470614 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Association between preoperative Vasostatin-1 and pathological features of aggressiveness in localized nonfunctioning pancreatic neuroendocrine tumors (NF-PanNET) PMID: 30470614 '></div>
 
 BACKGROUND: A reliable and accessible biomarker for nonfunctioning pancreatic neuroendocrine tumors (NF-PanNET) is currently unavailable. Chromogranin A (CgA) represents the best-described neuroendocrine biomarker, but its accuracy is low. Vasostatin-1 (VS-1), a fragment derived from the cleavage of CgA, was recently investigated and found to be more accurate as tumor biomarker in a cohort of patients affected by mainly metastatic small intestinal NET.
 METHODS: Patients submitted to surgery for sporadic localized NF-PanNET at San Raffaele Hospital were included. Preoperative plasma samples were prospectively collected. Circulating levels of total-CgA and VS-1 were retrospectively investigated by sandwich Enzyme-Linked ImmunoSorbent Assays.
@@ -2287,37 +2287,6 @@ CONCLUSIONS: In localized, non-metastatic NF-PanNET, VS-1 is strongly associated
 
 </details>
 
-
----
-
-
-
-
-
-<details open> <summary>
-- **Immunohistochemical analysis of OTP and NKX6.1 in neuroendocrine tumors of the lung and pancreas**
-</summary> 
-
-*Diagnostic cytopathology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30284410
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Immunohistochemical analysis of OTP and NKX6.1 in neuroendocrine tumors of the lung and pancreas PMID: 30284410 '></div>
-
-BACKGROUND: Homeobox transcription factors have demonstrated utility in diagnosing neuroendocrine tumors. Orthopedia homeobox protein (OTP) has a well-defined role in embryonic neurodevelopment and has also been described as a prognostic marker in lung neuroendocrine tumors (NET). Additionally, NK6 homeobox-1 (NKX6.1) has been described to be necessary for the development of neuroendocrine cells in the pancreas. We evaluated immunohistochemical (IHC) expression of OTP and NKX6.1 to determine their utility in the diagnosis of NETs from lung and pancreas fine-needle aspirations (FNA).
-METHODS: Our study examined 50 FNA specimens, including 30 primary pulmonary NETs (8 carcinoid tumors (CT), 6 atypical carcinoids (AC), 11 small-cell neuroendocrine carcinomas (SCNEC), 5 large-cell neuroendocrine carcinomas (LCNEC)) and 20 primary pancreatic NETs (17 well-differentiated pancreatic neuroendocrine tumors (PanNET) and 3 poorly differentiated pancreatic neuroendocrine carcinomas (PanNEC)). IHC expression of OTP, NKX6.1, and Ki-67 was evaluated on FNA cell blocks.
-RESULTS: Half of the pulmonary TC tumors expressed OTP, while only 17% of AC and 20% of LCNEC expressed OTP. Neither SCNECs nor any pancreatic NET expressed OTP. In contrast, intermediate and high-grade tumors expressed NKX6.1 (LCNEC-80%, SCNEC-82%, and AC-83%) more often than low-grade tumors (TC-63%, PanNET-71%). All three PanNECs expressed NKX6.1.
-CONCLUSIONS: OTP may be useful in diagnosing well-differentiated NETs of pulmonary origin. NKX6.1 may have utility in segregating high from low-grade NETs of both pulmonary and pancreatic origin, although other methods will be required to determine site of origin.
-
-<!-- doi: https://doi.org/10.1002/dc.24088 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/dc.24088' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/dc.24088' data-hide-no-mentions='true'></span>
-
-</details>
-
-
 ---
 
 
@@ -2330,7 +2299,7 @@ CONCLUSIONS: OTP may be useful in diagnosing well-differentiated NETs of pulmona
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30282083
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Unmet Needs in Functional and Nonfunctional pancreatic neuroendocrine neoplasms(PanNENs) PMID: 30282083 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Unmet Needs in Functional and Nonfunctional pancreatic neuroendocrine neoplasms(PanNENs) PMID: 30282083 '></div>
 
 Recently, European Neuroendocrine Tumor Society (ENETS )held working sessions composed of members of the advisory board and other Neuroendocrine neoplasms (NEN) experts to attempt to identify unmet needs in NENs in different locations or with advanced/poorly differentiated NENs. This section briefly summarizes the main proposed areas of unmet needs in patients with functional and non-functional pancreatic neuroendocrine neoplasms (PanNENs).
 
@@ -2375,7 +2344,7 @@ Recently, European Neuroendocrine Tumor Society (ENETS )held working sessions co
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30308535
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Imaging and Cytopathological Criteria Indicating Malignancy in Mucin-Producing Pancreatic Neoplasms: A Series of 68 Histopathologically Confirmed Cases PMID: 30308535 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Imaging and Cytopathological Criteria Indicating Malignancy in Mucin-Producing Pancreatic Neoplasms: A Series of 68 Histopathologically Confirmed Cases PMID: 30308535 '></div>
 
 OBJECTIVES: This study aims to evaluate the performance of clinical, imaging, and cytopathological criteria in the identification of high-grade dysplasia/carcinoma (HGD/Ca) in pancreatic mucin-producing cystic neoplasms.
 METHODS: Sixty-eight consecutive, histopathologically confirmed mucin-producing cystic neoplasms, evaluated by endoscopic ultrasound-guided fine-needle aspiration, were enrolled; specifically, 39 branch duct intraductal papillary mucinous neoplasms (BD-IPMNs), 21 main duct IPMNs, and 8 mucinous cystic neoplasms. The associations between HGD/Ca in histopathology and findings of endoscopic ultrasound and cytology, demographic, lifestyle, and clinical parameters were evaluated, separately in IPMNs and mucinous cystic neoplasms.
@@ -2404,7 +2373,7 @@ CONCLUSIONS: Clinical, imaging, and cytopathological criteria are useful in the 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30505584
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Reclassification of lesions in biopsies by fine-needle aspiration of pancreas and biliary tree using Papanicolaou classification PMID: 30505584 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Reclassification of lesions in biopsies by fine-needle aspiration of pancreas and biliary tree using Papanicolaou classification PMID: 30505584 '></div>
 
 Background: Our aim was to evaluate the application of the classification of the Papanicolaou Cytopathology Society for the report of biopsies by fine-needle aspiration (FNA) of pancreas and bile duct.
 Methods: The FNAs obtained consecutively during 1 year were analyzed. Descriptive statistics were performed and sensitivity, specificity, positive predictive value, negative predictive value, and cytohistological correlation were determined. The reference standard test was the histopathological study.
@@ -2429,18 +2398,18 @@ Conclusions: The FNA guided with endoscopic ultrasound (EUS) and interpreted acc
 
 
 <details open> <summary>
-- **Abnormal Immunolabeling of SMAD4 in Cell Block Specimens Distinguish Malignant and Benign Pancreatic Cells**
+- **Abnormal immunolabelling of SMAD4 in cell block specimens to distinguish malignant and benign pancreatic cells**
 </summary> 
 
 *Cytopathology : official journal of the British Society for Clinical Cytology 2018 Nov;():*
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30421464
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Abnormal Immunolabeling of SMAD4 in Cell Block Specimens Distinguish Malignant and Benign Pancreatic Cells PMID: 30421464 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Abnormal immunolabelling of SMAD4 in cell block specimens to distinguish malignant and benign pancreatic cells PMID: 30421464 '></div>
 
-BACKGROUND: Accurate diagnosis of malignant and benign pancreatic lesions can be challenging, especially in case of endoscopic ultrasound-guided fine-needle aspiration (EUS-FNA) samples that are small and/or degraded. In the present study, we determined how to best evaluate abnormal SMAD4 expression by immunohistochemical staining on cell-block specimens from EUS-FNA samples.
-RESULTS: In surgically resected pancreas, when abnormal SMAD4 immunolabeling was evaluated as negative SMAD4 expression, the sensitivity was low (33%), but when it was evaluated as decreased SMAD4 expression, the sensitivity improved (53%). Specificity and positive predictive value were high for both evaluations. There were no false positive cases. In cell-block specimens, decreased SMAD4 expression showed 47% sensitivity and 72% specificity, while negative SMAD4 expression showed lower sensitivity (20%) and higher specificity (100%). Both evaluations in cell-block specimens showed lower sensitivity and specificity compared to the case for resected specimens. False positive and negative rates were higher for cell blocks than for resected specimens.
-CONCLUSIONS: Decreased SMAD4 immunolabeling provided improved sensitivity as compared to negative SMAD4 immunolabeling; therefore, it is important to compare SMAD4 expression in a sample to its expression in normal cells. Abnormal SMAD4 labeling showed low sensitivity and high specificity; therefore, SMAD4 staining using EUS-FNA samples might be helpful to detect malignancies that possess SMAD4 gene abnormalities. This article is protected by copyright. All rights reserved.
+BACKGROUND: Accurate diagnosis of malignant and benign pancreatic lesions can be challenging, especially with endoscopic ultrasound-guided fine needle aspiration (EUS-FNA) samples that are small and/or degraded. In the present study, we determined how to best evaluate abnormal SMAD4 expression by immunohistochemical staining on cell block specimens from EUS-FNA samples.
+RESULTS: In surgically resected pancreas, when abnormal SMAD4 immunolabelling was evaluated as negative SMAD4 expression, the sensitivity was low (33%), but when it was evaluated as decreased SMAD4 expression, the sensitivity improved (53%). Specificity and positive predictive value were high for both evaluations. There were no false-positive cases. In cell block specimens, decreased SMAD4 expression showed 47% sensitivity and 72% specificity, while negative SMAD4 expression showed lower sensitivity (20%) and higher specificity (100%). Both evaluations in cell block specimens showed lower sensitivity and specificity compared to resected specimens. False-positive and -negative rates were higher for cell blocks than for resected specimens.
+CONCLUSIONS: Decreased SMAD4 immunolabelling provided improved sensitivity as compared to negative SMAD4 immunolabelling; therefore, it is important to compare SMAD4 expression in a sample to its expression in normal cells. Abnormal SMAD4 labelling showed low sensitivity and high specificity; therefore, SMAD4 staining using EUS-FNA samples might be helpful to detect malignancies that possess SMAD4 gene abnormalities.
 
 <!-- doi: https://doi.org/10.1111/cyt.12653 -->
 
@@ -2462,7 +2431,7 @@ CONCLUSIONS: Decreased SMAD4 immunolabeling provided improved sensitivity as com
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30478999
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cytomorphology of ciliated foregut cyst of the pancreas PMID: 30478999 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cytomorphology of ciliated foregut cyst of the pancreas PMID: 30478999 '></div>
 
 Ciliated foregut cysts are benign congenital lesions that are commonly found in the mediastinum but are rare in the retroperitoneum. So far only very few cases of ciliated foregut cyst found in the pancreas have been reported, and less with cytologic findings described. We report a case of ciliated foregut cyst in pancreas in an asymptomatic patient diagnosed on fine needle aspiration cytology. We also discuss the cytology features that would help with the diagnosis, and the differential diagnosis that should be considered.
 
@@ -2487,7 +2456,7 @@ Ciliated foregut cysts are benign congenital lesions that are commonly found in 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30268674
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer PMID: 30268674 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Rationale and feasibility of mucin expression profiling by qRT-PCR as diagnostic biomarkers in cytology specimens of pancreatic cancer PMID: 30268674 '></div>
 
 BACKGROUND: Aberrantly expressed mucin glycoproteins (MUC) play important roles in pancreatic ductal adenocarcinoma (PDAC), yet their use as a diagnostic aid in fine-needle aspiration biopsy (FNAB) is poorly documented. The aim of this study was to investigate the rationale and feasibility of mucin (MUC1, MUC2, MUC3, MUC4, MUC5AC, and MUC6) expression profiling by RT-PCR for diagnostic applications in cytology.
 METHODS: Mucin expression was examined by RT-PCR and immunohistochemistry in specimens resected from patients with pancreatic (n = 101), ampullary (n = 23), and common bile duct (n = 10) cancers and 33 with chronic pancreatitis. Furthermore, mucin profiling by RT-PCR was prospectively compared in surgical and biopsy specimens of 40 patients with pancreatic solid tumours qualified for FNAB prior to surgery.
@@ -2521,7 +2490,7 @@ CONCLUSIONS: Mucin expression profiling of pancreatic cancer with RT-PCR is feas
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30301772
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Towards optimal pancreatic cyst fluid management: the need for standardisation PMID: 30301772 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Towards optimal pancreatic cyst fluid management: the need for standardisation PMID: 30301772 '></div>
 
 
 
@@ -2548,7 +2517,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30301772
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30290028
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Insulinoma-associated protein 1 expression in pancreatic neuroendocrine tumours in endoscopic ultrasound-guided fine-needle aspiration cytology: An analysis of 14 patients PMID: 30290028 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Insulinoma-associated protein 1 expression in pancreatic neuroendocrine tumours in endoscopic ultrasound-guided fine-needle aspiration cytology: An analysis of 14 patients PMID: 30290028 '></div>
 
 BACKGROUND: Insulinoma-associated protein 1 (INSM1) has been reported to be a useful marker for diagnosing pancreatic neuroendocrine tumours (PNETs). However, INSM1 expression in endoscopic ultrasound-guided fine needle aspiration cytology has not been examined. We evaluated INSM1 expression in the cytology of cases diagnosed with PNETs.
 METHODS: We immunocytochemically stained INSM1 and Ki-67 in 14 PNET cases, and according to the 2017 World Health Organisation criteria, seven PNET Grade 1 cases, four Grade 2 cases and three Grade 3/neuroendocrine carcinoma cases were identified. As a control for INSM1 and Ki-67 expression, we used cytological specimens from 15 cases of pancreatic ductal adenocarcinoma.
@@ -2578,7 +2547,7 @@ CONCLUSION: INSM1 immunocytochemistry of cytological specimens obtained from end
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30353700
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Endoscopic ultrasound-guided fine needle aspiration with liquid-based cytology preparation in the diagnosis of metastatic small-cell carcinoma in the pancreas PMID: 30353700 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Endoscopic ultrasound-guided fine needle aspiration with liquid-based cytology preparation in the diagnosis of metastatic small-cell carcinoma in the pancreas PMID: 30353700 '></div>
 
 Pancreatic metastasis is extremely rare, particularly from small-cell lung cancer (SCLC). Studies on the role of endoscopic ultrasound-guided fine needle aspiration (EUS-FNA) with liquid-based cytology (LBC) in the diagnosis of metastatic small-cell carcinoma in the pancreas have been rarely conducted. We report herein a case of pancreatic metastasis from SCLC diagnosed using EUS-FNA with LBC (ThinPrep). A 71-year-old man presented with chief complaints of hemoptysis and jaundice over the past 1 month. Lung & pancreas tumors with multiple liver nodules were detected on computed tomography. The aspirated material from the pancreas using EUS-FNA was prepared as a cytologic specimen with ThinPrep method, which revealed scattered and clustered "small blue cells" with scant cytoplasm and stippled chromatin with frequent apoptotic bodies. Immunocytochemical staining of the cellblock material revealed strong positivity for CD56 and thyroid transcription factor-1. Endobronchial biopsy for lung mass revealed nests of small, round, blue tumor cells with hyperchromatic nuclei showing salt and pepper chromatin, scant cytoplasm, and brisk mitotic activity. Therefore, a diagnosis of metastatic small-cell carcinoma to the pancreas with an extensive stage was finally made.
 
@@ -2603,7 +2572,7 @@ Pancreatic metastasis is extremely rare, particularly from small-cell lung cance
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30361898
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comparison of Native Aspirates and Cytological Smears Obtained by EUS-Guided Biopsies for Effective DNA/RNA Marker Testing in Pancreatic Cancer PMID: 30361898 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comparison of Native Aspirates and Cytological Smears Obtained by EUS-Guided Biopsies for Effective DNA/RNA Marker Testing in Pancreatic Cancer PMID: 30361898 '></div>
 
 We compare two types of pancreatic carcinoma samples obtained by EUS-guided fine needle biopsy (EUS-FNB) in terms of the success rates and clinical validity of analysis of two most commonly investigated DNA/RNA pancreatic cancer markers, KRAS mutations and miR-21 expression. 118 patients with pancreatic ductal adenocarcinoma underwent EUS-FNB. The collected sample was divided, one part was stored in a stabilizing solution as native aspirate (EUS-FNA) and second part was processed into the cytological smear (EUS-FNC). DNA/RNA extraction was followed by analysis of KRAS mutations and miR-21 expression. For both sample types, the yields of DNA/RNA extraction and success rates of KRAS mutation and miRNA expression were evaluated. Finally, the resulting KRAS mutation frequency and miR-21 prognostic role were compared to literature data from tissue resections. The overall amount of isolated DNA/RNA from EUS-FNC was lower compared to the EUS-FNA, average yield 10 ng vs 147 ng for DNA and average yield 164 vs. 642 ng for RNA, but the success rates for KRAS and miR-21 analysis was 100% for both sample types. The KRAS-mutant detection frequency in EUS-FNC was 12% higher than in EUS-FNA (90 vs 78%). The prognostic role of miR-21 was confirmed in EUS-FNC (p = 0.02), but did not reach statistical significance in EUS-FNA (p = 0.06). Although both types of EUS-FNB samples are suitable for DNA/RNA extraction and subsequent DNA mutation and miRNA expression analysis, reliable results with clinical validity were only obtained for EUS-FNC.
 
@@ -2627,7 +2596,7 @@ We compare two types of pancreatic carcinoma samples obtained by EUS-guided fine
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30347425
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Needle-based confocal laser endomicroscopy of pancreatic cystic lesions: a prospective multicenter validation study in patients with definite diagnosis PMID: 30347425 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Needle-based confocal laser endomicroscopy of pancreatic cystic lesions: a prospective multicenter validation study in patients with definite diagnosis PMID: 30347425 '></div>
 
 BACKGROUND:  Needle-based confocal laser endomicroscopy (nCLE) enables observation of the inner wall of pancreatic cystic lesions (PCLs) during an endoscopic ultrasound-guided fine-needle aspiration (EUS-FNA). This study prospectively evaluated the diagnostic performance of nCLE for large, single, noncommunicating PCLs using surgical histopathology or EUS-FNA cytohistopathology as a reference diagnosis.
 METHODS:  From April 2013 to March 2016, consecutive patients referred for EUS-FNA of indeterminate PCLs without evidence of malignancy or chronic pancreatitis were prospectively enrolled at five centers. EUS-FNA and nCLE were performed and cystic fluid was aspirated for cytohistopathological and carcinoembryonic antigen (CEA) analysis. The diagnostic performance of nCLE was assessed against the reference standard and compared with that of EUS and CEA. This study was registered on ClinicalTrials.gov (NCT01563133).
@@ -2671,7 +2640,7 @@ CONCLUSIONS:  nCLE had excellent diagnostic performance that surpassed that of
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30375181
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mucinous adenocarcinoma of gallbladder: Subcategorisation on fine-needle aspiration cytology PMID: 30375181 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mucinous adenocarcinoma of gallbladder: Subcategorisation on fine-needle aspiration cytology PMID: 30375181 '></div>
 
 BACKGROUND: Mucinous adenocarcinoma (MC) of gallbladder is a rare histological subtype of gallbladder carcinoma (CaGB) which presents at an advanced stage and is associated with a poor prognosis compared to the conventional CaGB. This variant has been described mostly as reports or series, except for a single detailed histological and immunohistochemical analysis. Till date, there are no studies describing the cytomorphology of MC in detail. Hence, we undertook this study to analyse the cytomorphological features of MC.
 METHODS: A retrospective cytomorphological analysis was performed on MC identified out of all CaGB diagnosed on cytology over a period of last 4 years. The architectural and cellular features were recorded in a structured proforma.
@@ -2706,6 +2675,35 @@ CONCLUSION: The morphological features of MC can very well be demonstrated on cy
 
 
 
+---
+
+
+
+<details open> <summary>
+- **Immunohistochemical analysis of OTP and NKX6.1 in neuroendocrine tumors of the lung and pancreas**
+</summary> 
+
+*Diagnostic cytopathology 2018 Oct;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30284410
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Immunohistochemical analysis of OTP and NKX6.1 in neuroendocrine tumors of the lung and pancreas PMID: 30284410 '></div>
+
+BACKGROUND: Homeobox transcription factors have demonstrated utility in diagnosing neuroendocrine tumors. Orthopedia homeobox protein (OTP) has a well-defined role in embryonic neurodevelopment and has also been described as a prognostic marker in lung neuroendocrine tumors (NET). Additionally, NK6 homeobox-1 (NKX6.1) has been described to be necessary for the development of neuroendocrine cells in the pancreas. We evaluated immunohistochemical (IHC) expression of OTP and NKX6.1 to determine their utility in the diagnosis of NETs from lung and pancreas fine-needle aspirations (FNA).
+METHODS: Our study examined 50 FNA specimens, including 30 primary pulmonary NETs (8 carcinoid tumors (CT), 6 atypical carcinoids (AC), 11 small-cell neuroendocrine carcinomas (SCNEC), 5 large-cell neuroendocrine carcinomas (LCNEC)) and 20 primary pancreatic NETs (17 well-differentiated pancreatic neuroendocrine tumors (PanNET) and 3 poorly differentiated pancreatic neuroendocrine carcinomas (PanNEC)). IHC expression of OTP, NKX6.1, and Ki-67 was evaluated on FNA cell blocks.
+RESULTS: Half of the pulmonary TC tumors expressed OTP, while only 17% of AC and 20% of LCNEC expressed OTP. Neither SCNECs nor any pancreatic NET expressed OTP. In contrast, intermediate and high-grade tumors expressed NKX6.1 (LCNEC-80%, SCNEC-82%, and AC-83%) more often than low-grade tumors (TC-63%, PanNET-71%). All three PanNECs expressed NKX6.1.
+CONCLUSIONS: OTP may be useful in diagnosing well-differentiated NETs of pulmonary origin. NKX6.1 may have utility in segregating high from low-grade NETs of both pulmonary and pancreatic origin, although other methods will be required to determine site of origin.
+
+<!-- doi: https://doi.org/10.1002/dc.24088 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/dc.24088' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/dc.24088' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+
 
 ---
 
@@ -2715,11 +2713,11 @@ CONCLUSION: The morphological features of MC can very well be demonstrated on cy
 - **Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms**
 </summary> 
 
-*Cancer cytopathology 2018 Nov;():*
+*Cancer cytopathology 2018 Dec;126(12):980-991*
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30485690
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms PMID: 30485690 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Advances in the cytologic diagnosis of gastroenteropancreatic neuroendocrine neoplasms PMID: 30485690 '></div>
 
 Two-thirds of neuroendocrine neoplasms arising in the human body originate from the gastrointestinal system or pancreas. Gastroenteropancreatic neuroendocrine neoplasms are heterogeneous, comprising both well differentiated neuroendocrine tumors (NETs) and poorly differentiated neuroendocrine carcinomas (NECs). The clinical presentation, molecular characteristics, and behavior are distinct for NETs and NECs. Fine-needle aspiration is an important modality for the primary diagnosis and staging of these neoplasms and can provide information of prognostic and therapeutic significance. Our evolving understanding of neuroendocrine neoplasm biology has led to several iterations of classification. In this review, new concepts and issues most relevant to cytology diagnosis of gastroenteropancreatic neuroendocrine neoplasms are discussed, such as newer detection methods that aid in diagnosis and staging, recent changes in World Health Organization classification, practical issues related to grading these neoplasms on cytology, guidelines for diagnostic reporting, and panels of immunohistochemical stains for the diagnosis of metastasis. The current understanding of genetic and epigenetic events related to tumor development and potential applications for cytology also are presented as they relate to prognostication and recent therapeutic advances.
 
@@ -2746,7 +2744,7 @@ Two-thirds of neuroendocrine neoplasms arising in the human body originate from 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30211805
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Grading by the Ki-67 Labeling Index of Endoscopic Ultrasound-Guided Fine Needle Aspiration Biopsy Specimens of Pancreatic Neuroendocrine Tumors Can Be Underestimated PMID: 30211805 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Grading by the Ki-67 Labeling Index of Endoscopic Ultrasound-Guided Fine Needle Aspiration Biopsy Specimens of Pancreatic Neuroendocrine Tumors Can Be Underestimated PMID: 30211805 '></div>
 
 OBJECTIVES: There is an increasing need for grading with small endoscopic ultrasound-guided fine needle aspiration biopsy (EUS-FNAB) specimens for the proper diagnosis and therapy selection of patients with unresectable pancreatic neuroendocrine tumors (PanNET). However, our understanding of EUS-FNAB specimen grading is limited compared with surgically resected specimens.
 METHODS: We retrospectively determined Ki-67 labeling index (LI) of 33 matched EUS-FNAB and surgically resected PanNETs with digital image analyzer. Pairwise grades between the matched biopsy and surgically resected PanNET specimens were compared.
@@ -2774,7 +2772,7 @@ CONCLUSIONS: Although Ki-67 LI grading of EUS-FNAB specimens may be concordant w
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30303569
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Accuracy of grading pancreatic neuroendocrine neoplasms with Ki-67 index in fine-needle aspiration cellblock material PMID: 30303569 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Accuracy of grading pancreatic neuroendocrine neoplasms with Ki-67 index in fine-needle aspiration cellblock material PMID: 30303569 '></div>
 
 OBJECTIVE: The aim of this study was to assess the preoperative tumour grade of pancreatic neuroendocrine neoplasms (panNENs) by determining the Ki-67 index in endoscopic ultrasound-guided fine needle aspiration (EUS-FNA) material and to correlate the preoperative tumour grade with the postoperative tumour grade in surgical specimens.
 METHODS: We performed a retrospective review of the institutional pathology database over a 10-year period (2007-2017) to identify all cases of panNENs with corresponding preoperative EUS-FNA cytological material and surgical specimens. Fifteen cases with adequate EUS-FNA material (more than 400 tumour cells on cellblock) were identified. The cytological and histological samples were graded based on the mitotic rate and the Ki-67 index in accordance with the 2017 World Health Organisation grading system for panNENs. The tumour grades determined on EUS-FNA cellblock material were compared with the histological tumour grades.
@@ -2823,7 +2821,7 @@ CONCLUSION: Our study shows that tumour grade in patients with PanNENs can be re
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30410422
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Integrated whole genome microarray analysis and immunohistochemical assay identifies COL11A1, GJB2 and CTRL as predictive biomarkers for pancreatic cancer PMID: 30410422 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Integrated whole genome microarray analysis and immunohistochemical assay identifies COL11A1, GJB2 and CTRL as predictive biomarkers for pancreatic cancer PMID: 30410422 '></div>
 
 Background: Pancreatic cancer is characterized by its unsatisfying early detection rate, rapid disease progression and poor prognosis. Further studies on molecular mechanism and novel predictive biomarkers for pancreatic cancer based on a large sample volume are required.
 Methods: Multiple bioinformatic analysis tools were utilized for identification and characterization of differentially expressed genes (DEGs) from a merged microarray data (100 pancreatic cancer samples and 62 normal samples). Data from the GEO and TCGA database was utilized to validate the diagnostic and prognostic value of the top 5 upregulated/downregulated DEGs. Immunohistochemical assay (46 paired pancreatic and para- cancerous samples) was utilized to validate the expression and prognostic value of COL11A1, GJB2 and CTRL from the identified DEGs.
@@ -2852,7 +2850,7 @@ Conclusions: Merged microarray data with bigger sample volume could reflect the 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30365134
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Identification of a 5‑microRNA signature and hub miRNA‑mRNA interactions associated with pancreatic cancer PMID: 30365134 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Identification of a 5‑microRNA signature and hub miRNA‑mRNA interactions associated with pancreatic cancer PMID: 30365134 '></div>
 
 miRNA‑gene axes have been reported to serve an important role in the carcinogenesis of pancreatic cancer (PC). The aim of the present study was to systematically identity the microRNA signature and hub molecules, as well as hub miRNA‑gene axes, and to explore the potential biomarkers and mechanisms associated with the carcinogenesis of PC. Eleven microRNA profile datasets were obtained from the National Center for Biotechnology Information (NCBI) Gene Expression Omnibus (GEO) and ArrayExpress databases, and a meta‑analysis was performed to identify the differentially expressed miRNAs (DEMs) between tumor tissue and normal tissue. Subsequently, a diagnostic regression model was constructed to identify PC based on The Cancer Genome Atlas (TCGA) miRNA sequence data by using the least absolute shrinkage and selection operator (LASSO) method. In addition, GSE41368 was downloaded, and a weighted gene co‑expression network analysis (WGCNA) was performed to obtain the gene module associated with carcinogenesis by using the TCGAbiolinks and WGCNA packages, respectively. Finally, miRNA‑gene networks were constructed and visualized using Cytoscape software, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses based on the Database for Annotation, Visualization, and Integrated Discovery (DAVID). A total of 14 DEMs were identified, and a 5‑microRNA‑based score generated by the LASSO regression model provided a high accuracy for identifying PC [area under the curve (AUC)=0.918]. In addition, 44 miRNA‑mRNA interactions were constructed, and 4 hub genes were screened on the basis of the above bioinformatic tools and databases. Furthermore, 14 biological process (BP) functions and 6 KEGG pathways were identified according to gene set enrichment analysis (GSEA). In summary, the present study applied integrated bioinformatics approaches to generate a holistic view of PC, thereby providing a basis for further clinical application of the 5‑miRNA signature and the identified hub molecules, as well as the miRNA‑gene axes, which could serve as diagnostic markers and potential treatment targets.
 
@@ -2877,7 +2875,7 @@ miRNA‑gene axes have been reported to serve an important role in the carcinoge
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29506128
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prospective Evaluation of Germline Alterations in Patients With Exocrine Pancreatic Neoplasms PMID: 29506128 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Prospective Evaluation of Germline Alterations in Patients With Exocrine Pancreatic Neoplasms PMID: 29506128 '></div>
 
 Background: Identification of pathogenic germline alterations (PGAs) has important clinical and therapeutic implications in pancreas cancer. We performed comprehensive germline testing (GT) in an unselected prospective cohort of patients with exocrine pancreatic neoplasms with genotype and phenotype association to facilitate identification of prognostic and/or predictive biomarkers and examine potential therapeutic implications.
 Methods: Six hundred fifteen unselected patients with exocrine pancreatic neoplasms were prospectively consented for somatic tumor and matched sample profiling for 410-468 genes. GT for PGAs in 76 genes associated with cancer susceptibility was performed in an "identified" manner in 356 (57.9%) patients and in an "anonymized" manner in 259 (42.1%) patients, using an institutional review board-approved protocol. Detailed clinical and pathological features, response to platinum, and overall survival (OS) were collected for the identified cohort. OS was analyzed with Kaplan-Meier curves.
@@ -2905,7 +2903,7 @@ Conclusions: PGAs frequently occur in pancreas exocrine neoplasms and involve mu
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30428899
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Identification of hub genes with diagnostic values in pancreatic cancer by bioinformatics analyses and supervised learning methods PMID: 30428899 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Identification of hub genes with diagnostic values in pancreatic cancer by bioinformatics analyses and supervised learning methods PMID: 30428899 '></div>
 
 BACKGROUND: Pancreatic cancer is one of the most lethal tumors with poor prognosis, and lacks of effective biomarkers in diagnosis and treatment. The aim of this investigation was to identify hub genes in pancreatic cancer, which would serve as potential biomarkers for cancer diagnosis and therapy in the future.
 METHODS: Combination of two expression profiles of GSE16515 and GSE22780 from Gene Expression Omnibus (GEO) database was served as training set. Differentially expressed genes (DEGs) with top 25% variance followed by protein-protein interaction (PPI) network were performed to find candidate genes. Then, hub genes were further screened by survival and cox analyses in The Cancer Genome Atlas (TCGA) database. Finally, hub genes were validated in GSE15471 dataset from GEO by supervised learning methods k-nearest neighbor (kNN) and random forest algorithms.
@@ -2935,7 +2933,7 @@ CONCLUSIONS: All the hub genes were associated with the regulation of tumor micr
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30297095
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Higher notch expression implies poor survival in pancreatic ductal adenocarcinoma: A systematic review and meta-analysis PMID: 30297095 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Higher notch expression implies poor survival in pancreatic ductal adenocarcinoma: A systematic review and meta-analysis PMID: 30297095 '></div>
 
 BACKGROUND: At present, pancreatic ductal adenocarcinoma (PDAC) is a fetal disease lack of effective prognostic and therapeutic methods resulting in high mortality. The Notch signaling has been demonstrated being up- or down-regulated in many cancers, but the effects in pancreatic ductal adenocarcinoma are still controversial. Moreover, the available cases in an individual study are of small samples. Therefore, it is essential to define the effect of Notch signaling in pancreatic ductal adenocarcinoma with larger samples.
 METHODS: Conducted from 6 eligible studies and 463 pancreatic ductal adenocarcinoma patients, this was the first meta-analysis to analyze the correlation between the Notch signal pathway and pancreatic ductal adenocarcinoma. All data were sourced from The National Center for Biotechnology Information, Web of Science and Cochrane. The articles which matched the inclusion criteria were included. All included data were analyzed and performed by Review Manager 5.3.
@@ -2963,7 +2961,7 @@ CONCLUSIONS: This meta-analysis supports that Notch signaling proteins may be av
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30307473
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : SNX6 predicts poor prognosis and contributes to the metastasis of pancreatic cancer cells via activating epithelial-mesenchymal transition PMID: 30307473 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : SNX6 predicts poor prognosis and contributes to the metastasis of pancreatic cancer cells via activating epithelial-mesenchymal transition PMID: 30307473 '></div>
 
 Pancreatic cancer remains a challenging disease with an overall cumulative 5-year survival rate around 6%. Though significant progress has been made in the availability of diagnostic techniques and treatment strategies, pancreatic cancer remains a disease of high mortality rate. Therefore, there is an urgent need for a better understanding of the molecular mechanisms that governs the oncogenesis and metastasis process of pancreatic cancer. In the present study, by using the Cancer Genome Atlas (TCGA) dataset analysis, we demonstrated that sorting nexin 6 (SNX6) serves as a biomarker for predicting prognosis of pancreatic cancer. In vitro studies demonstrated that silencing of SNX6 expression reduced cell proliferation, colony formation, invasion, and metastasis. Higher level of SNX6 helps maintain the mesenchymal properties, which renders migration and invasive capacities to pancreatic cancer cells. Moreover, in the process of TGF-β-induced epithelial to mesenchymal transition (EMT), the expression level of SNX6 was increased, and silencing of SNX6 expression could inhibit the TGF-β-induced EMT program. These results collectively uncovered a novel predictive marker for pancreatic cancer and provided the possible underlying molecular mechanism.
 
@@ -2993,7 +2991,7 @@ Pancreatic cancer remains a challenging disease with an overall cumulative 5-yea
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30278585
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Identification of key microRNAs and their targets in exosomes of pancreatic cancer using bioinformatics analysis PMID: 30278585 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Identification of key microRNAs and their targets in exosomes of pancreatic cancer using bioinformatics analysis PMID: 30278585 '></div>
 
 Pancreatic cancer (PC) is one of the most lethal tumors, due to late diagnosis and limited surgical strategies. It has been reported that serum exosomal microRNAs (S-Exo-miRNAs) play a pivotal role as signaling molecules and serve as noninvasive diagnosis methods for PC. The combination of S-Exo-miRNAs with the corresponding target also plays an important role in the tumor microenvironment.Here we investigated S-Exo-miRNAs involved in PC. The gene expression profile was downloaded from the Gene Expression Omnibus (GEO) database. The analysis was carried out using GEO2R. The targets of differentially expressed serum exosomal miRNAs (DE-S-Exo-miRNAs) were predicted by 4 bioinformatic algorithms (miRanda, miRDB, miRWalk, and Targetscan). Further analysis with gene ontology (GO) and Kyoto Encyclopedia of Genomes pathway (KEGG) enrichment analyses were performed with Cytoscape software version 3.4.0. Subsequently, the interaction regulatory network of target genes was performed with the Search Tool for the Retrieval of Interacting Genes (STRING) database (http://www.string-db.org/) and visualized using Cytoscape software.We downloaded the gene expression profile GSE50632, which was based on an Agilent microarray GPL17660 platform containing 4 eligible samples. In total 467 DE-S-Exo-miRNAs were obtained, including 7 overexpressed miRNAs (1.50%), and 460 remaining underexpressed miRNAs (98.50%). The databases miRWalk, miRDB, miRanda, and TargetScan were used to predict their potential targets, which were subsequently submitted to Cytoscape software version 3.4.0 (www.cytoscape.org). Next the functional and pathway enrichment analysis were used for the KEGG pathway and GO categories analysis. The enrichment analysis identified the genes involved in such processes as developmental and negative regulation of multicellular organismal processes, regulation of anatomical structure morphogenesis, regulation of cell death, apoptotic processes and mitogen-activated protein kinase (MAPK) signaling pathway, transforming growth factor - beta (TGF -β) signaling pathway, cyclic adenosine monophosphate (cAMP) signaling pathway, and the phosphatidylinositol-3 kinases/Akt (PI3K-Akt) signaling pathway. Subsequently according to the protein-protein interaction (PPI) network, the top 10 genes were obtained. The enrichment analyses of the genes involved in a significant module revealed that these genes were related to the TGF-β signaling pathway. After reviewing the literature, we identified the apoptosis genes, and their corresponding miRNAs that have a relationship with apoptosis of the tumor.This analysis provides a comprehensive understanding of the roles of S-Exo-miRNAs and the related targets in the development of PC. Additionally, the present study provides promising candidate targets for early diagnosis and therapeutic intervention. However, these predictions require further experimental validation in future studies.
 
@@ -3018,7 +3016,7 @@ Pancreatic cancer (PC) is one of the most lethal tumors, due to late diagnosis a
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30334361
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Transcriptome-wide association study identifies multiple genes and pathways associated with pancreatic cancer PMID: 30334361 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Transcriptome-wide association study identifies multiple genes and pathways associated with pancreatic cancer PMID: 30334361 '></div>
 
 AIM: To identify novel candidate genes for pancreatic cancer.
 METHODS: We performed a transcriptome-wide association study (TWAS) analysis of pancreatic cancer (PC). GWAS summary data were driven from the published studies of PC, totally involving 558 542 SNPs in 1896 individuals with pancreatic cancer and 1939 healthy controls. FUSION software was applied to the PC GWAS summary data for tissue-related TWAS analysis, including whole blood, peripheral blood, adipose, and pancreas. The functional relevance of identified genes with PC was further validated by Oncomine, STRING, and CluePedia tool.
@@ -3045,7 +3043,7 @@ CONCLUSION: We identified some novel candidate genes and pathways associated wit
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30293872
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Gene expression analysis of embryonic pancreas development master regulators and terminal cell fate markers in resected pancreatic cancer: A correlation with clinical outcome PMID: 30293872 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Gene expression analysis of embryonic pancreas development master regulators and terminal cell fate markers in resected pancreatic cancer: A correlation with clinical outcome PMID: 30293872 '></div>
 
 BACKGROUND: Despite the recent introduction of new drugs and the development of innovative multi-target treatments, the prognosis of pancreatic ductal adenocarcinoma (PDAC) remains very poor. Even when PDAC is resectable, the rate of local or widespread disease recurrence remains particularly high. Currently, reliable prognostic biomarkers of recurrence are lacking. We decided to explore the potential usefulness of pancreatic developmental regulators as biomarkers of PDAC relapse.
 METHODS: We analyzed by quantitative real-time PCR the mRNA of selected factors involved either in pancreatic organogenesis (ISL1, NEUROD1, NGN3, NKX2.2, NKX6.1, PAX4, PAX6, PDX1 and PTF1α) or associated with terminally committed pancreatic cells (CHGA, CHGB, GAD2, GCG, HNF6α, INS, KRT19, SYP) in 17 PDAC cell lines and in frozen tumor samples from 41 PDAC patients.
@@ -3075,7 +3073,7 @@ CONCLUSIONS: Our findings suggest that selected factors associated with pancreas
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30316690
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Silencing of TRPM8 inhibits aggressive tumor phenotypes and enhances gemcitabine sensitivity in pancreatic cancer PMID: 30316690 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Silencing of TRPM8 inhibits aggressive tumor phenotypes and enhances gemcitabine sensitivity in pancreatic cancer PMID: 30316690 '></div>
 
 The transient receptor potential TRPM8 ion channel is required for cellular proliferation in pancreatic epithelia and adenocarcinoma. To elucidate the mechanism that mediates the function of TRPM8, we examined its role in the proliferation and invasion of pancreatic cancer (PC) cells. TRPM8 expression increased in both the PC tissues and cell lines; a high TRPM8 expression was correlated with poorer prognosis in patients with PC. In PC cell lines, PACN-1 and BxPC-3, Ca2+ influxes could be evoked by TRPM8; the sensitivity of PC cells to gemcitabine was increased, while the proliferation and invasion of PC cells were suppressed after RNA interference-mediated silencing of TRPM8. The mechanism of TRPM8 in gemcitabine-based chemotherapy was then investigated. The expression and activity of multidrug resistance-associated proteins, P-gp, MRP-2, LRP, was significantly reduced in response to TRPM8 silence. Moreover, TRPM8 knockdown significantly increased hENT1 protein levels and the ratio of Bax/Bcl-2 while decreased the protein levels of RRM1. Thus, TRPM8 is required for PC cell proliferation and invasion and was closely related to the gemcitabine sensitivity of PC. The modulation of TRPM8 expression may help improve treatment response of PC by combining with traditional chemotherapy.
 
@@ -3099,7 +3097,7 @@ The transient receptor potential TRPM8 ion channel is required for cellular prol
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=28811077
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The receptor for advanced glycation end products: A fuel to pancreatic cancer PMID: 28811077 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The receptor for advanced glycation end products: A fuel to pancreatic cancer PMID: 28811077 '></div>
 
 The receptor for advanced glycation end products (RAGEs) was first illustrated in the year 1992. RAGE is a single-transmembrane and multi-ligand component of the immunoglobulin protein super family. The engagement of RAGE turns out to an establishment of numerous intracellular signalling mechanisms resulting in the progression and perpetuation of many types of cancer including, the pancreatic cancer. The present review primarily focuses on the multi-ligand activation of RAGEs leading to the downstream signalling cascade activation. The kick start of the RAGEs activation leads to the several anomalies and includes multiple types of cancers. The RAGE expression correlates well with the survival of pancreatic cancer cells leading to the myeloid response. RAGEs assist in the tumourogenesis which enhance and thrive to its fullest in the stressed tumour microenvironment. An improved perceptive of its involvement in pancreatic cancer may offer novel targets for tumour supervision and risk measurement.
 
@@ -3142,7 +3140,7 @@ Molecular Techniques & Research Methods, Liquid Biopsy
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30394883
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Plasma miR-181a-5p Downregulation Predicts Response and Improved Survival After FOLFIRINOX in Pancreatic Ductal Adenocarcinoma PMID: 30394883 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Plasma miR-181a-5p Downregulation Predicts Response and Improved Survival After FOLFIRINOX in Pancreatic Ductal Adenocarcinoma PMID: 30394883 '></div>
 
 OBJECTIVE: The aim of the study was to identify plasma microRNA (miRNA) biomarkers for stratifying and monitoring patients with locally advanced or metastatic pancreatic ductal adenocarcinoma (PDAC) treated with FOLFIRINOX, and to investigate their functional roles.
 SUMMARY BACKGROUND DATA: FOLFIRINOX has become a standard therapy for patients with advanced PDAC and can be used to potentially downstage disease. However, only a subset of patients respond, and biomarkers to guide decision-making are urgently needed.
@@ -3191,7 +3189,7 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Epithelial M
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30416314
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Typing of pancreatic cancer-associated fibroblasts identifies different subpopulations PMID: 30416314 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Typing of pancreatic cancer-associated fibroblasts identifies different subpopulations PMID: 30416314 '></div>
 
 AIM: To determine whether it is possible to identify different immune phenotypic subpopulations of cancer-associated fibroblasts (CAFs) in pancreatic cancer (PC).
 METHODS: We defined four different stromal compartments in surgical specimens with PC: The juxtatumoural, peripheral, lobular and septal stroma. Tissue microarrays were produced containing all pre-defined PC compartments, and the expression of 37 fibroblast (FB) and 8 extracellular matrix (ECM) markers was evaluated by immunohistochemistry, immunofluorescence (IF), double-IF, and/or in situ hybridization. The compartment-specific mean labelling score was determined for each marker using a four-tiered scoring system. DOG1 gene expression was examined by quantitative reverse transcription PCR (qPCR).
@@ -3218,7 +3216,7 @@ CONCLUSION: Different immune phenotypic CAF subpopulations can be identified in 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29980787
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling PMID: 29980787 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling PMID: 29980787 '></div>
 
 The devastating prognosis of pancreatic ductal adenocarcinoma (PDAC) is partially attributed to chemotherapy resistance. Glutathione peroxidase-1 (GPx1) plays various roles in the development and progression of multiple tumors, with the exception of pancreatic cancer. Here, we tentatively explored the role of GPx1 in the malignant biological behavior and gemcitabine (GEM) resistance of PDAC. GPx1 levels were detected using tissue microarrays and were negatively correlated with the overall survival of patients with PDAC. GPx1 silencing induced a mesenchymal transition phenotype and increased GEM resistance in vitro and in vivo. Additionally, the activation of reactive oxygen species (ROS)-mediated Akt/glycogen synthase kinase 3β (GSK3β)/Snail signaling was involved in this process, as determined by RNA sequencing. Moreover, low GPx1 expression correlated with a worse survival rate in patients with PDAC who received GEM adjuvant chemotherapy, whereas this correlation was not detected in patients receiving fluoropyrimidine. Based on our results, GPx1 inhibits the epithelial-mesenchymal transition (EMT) and chemoresistance by regulating the Akt/GSK3β/Snail signaling axis in PDAC. Furthermore, GPx1 may be a potential predictive biomarker in GEM-treated PDAC patients.
 
@@ -3243,7 +3241,7 @@ The devastating prognosis of pancreatic ductal adenocarcinoma (PDAC) is partiall
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29492715
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mast cells and angiogenesis in pancreatic ductal adenocarcinoma PMID: 29492715 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mast cells and angiogenesis in pancreatic ductal adenocarcinoma PMID: 29492715 '></div>
 
 Mast cells are recognized as critical components of the tumor stromal microenvironment in several solid and hematological malignancies, promoting angiogenesis and tumor growth. A correlation between mast cells infiltration, angiogenesis and tumor progression has been reported for pancreatic ductal adenocarcinoma as well. Mast cells contribute to the aggressiveness of the pancreatic ductal carcinoma enhancing the expression of several pro-angiogenic factors such as vascular endothelial growth factor, fibroblast growth factor-2, platelet-derived growth factor and angiopoietin-1 as well as stimulating the pancreatic cancer cells proliferation by IL-13 and tryptase. The disruption of this pro-angiogenic and proliferative stimulation by inhibiting the mast cells migration and degranulation is under investigation as a potential therapeutic approach in pancreatic ductal adenocarcinoma patients. This review will summarize the literature concerning the mast cells infiltration in the pancreatic ductal adenocarcinoma analyzing its role in angiogenesis and tumor progression.
 
@@ -3269,7 +3267,7 @@ Mast cells are recognized as critical components of the tumor stromal microenvir
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30267303
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Rab14 overexpression regulates gemcitabine sensitivity through regulation of Bcl-2 and mitochondrial function in pancreatic cancer PMID: 30267303 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Rab14 overexpression regulates gemcitabine sensitivity through regulation of Bcl-2 and mitochondrial function in pancreatic cancer PMID: 30267303 '></div>
 
 Rab family protein Rab14 has been implicated in the development of human cancers. To date, its expression pattern, biological function, and potential mechanism in pancreatic cancer have not been explored. In this study, we analyzed Rab14 expression in 103 cases of pancreatic cancer tissues using immunohistochemistry (IHC) and found that Rab14 was overexpressed in 41/103 cases (39.8%). Rab14 overexpression correlated with the advanced stage. Moreover, elevated Rab14 levels indicated poor prognosis of patients with pancreatic cancers. We used BxPC-3 and Capan-2 respectively for plasmid and siRNA transfection. MTT and colony formation assays showed that Rab14 transfection increased cell proliferation and colony formation in BxPC-3 cells. Rab14 siRNA knockdown inhibits proliferation and colony formation ability in Capan-2 cell line. Cell cycle analysis showed that Rab14 facilitated cell cycle progression. Matrigel invasion assay showed that Rab14 promoted BxPC-3 cell invasion while its depletion inhibited Capan-2 cell invasion. In addition, MTT and AnnexinV/PI analysis demonstrated that overexpression of Rab14 reduced gemcitabine sensitivity which conversely was increased by Rab14 knockdown. We also demonstrated that Rab14 upregulated mitochondrial membrane potential (MMP) while its depletion downregulated MMP during gemcitabine treatment. In addition, western blotting revealed that Rab14 overexpression upregulated cyclin D1, cyclin A, cyclin E, p-Rb, and Bcl-2 and downregulated p21. Rab14 also downregulated caspase3, PARP cleavage, and cytochrome c release. In conclusion, our data indicated that Rab14 was overexpressed in pancreatic cancer and promotes growth and gemcitabine resistance, possibly through regulation of mitochondrial function and Bcl-2.
 
@@ -3296,7 +3294,7 @@ Rab family protein Rab14 has been implicated in the development of human cancers
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30374923
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tumor-Infiltrating NETs Predict Postsurgical Survival in Patients with Pancreatic Ductal Adenocarcinoma PMID: 30374923 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tumor-Infiltrating NETs Predict Postsurgical Survival in Patients with Pancreatic Ductal Adenocarcinoma PMID: 30374923 '></div>
 
 BACKGROUND: Tumor-infiltrating neutrophils (TINs) indicate poor prognosis for patients with pancreatic ductal adenocarcinoma (PDAC). Activated neutrophils can generate neutrophil extracellular traps (NETs). Little is known about the presence and prognostic significance of tumor-infiltrating NETs in PDAC.
 METHODS: This study enrolled 317 patients, in two independent sets (training and validation), who underwent curative pancreatectomy for PDAC in Shanghai Cancer Center. TINs and NETs were identified by immunohistochemical staining for CD15 and citrullinated histone H3, respectively. The relationship between clinicopathological features and outcomes was analyzed. Accuracy of prognostic prediction models was evaluated using concordance index (C-index) and Akaike information criterion (AIC).
@@ -3325,7 +3323,7 @@ CONCLUSIONS: NETs were an independent prognostic factor in PDAC and incorporatio
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29457853
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mesenchymal-epithelial transition of pancreatic cancer cells at perineural invasion sites is induced by Schwann cells PMID: 29457853 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Mesenchymal-epithelial transition of pancreatic cancer cells at perineural invasion sites is induced by Schwann cells PMID: 29457853 '></div>
 
 Epithelial-mesenchymal transition (EMT) promotes invasion and metastasis of pancreatic ductal adenocarcinoma (PDAC). However, the importance of its reverse process, mesenchymal-epithelial transition (MET), for PDAC remains unclear. We aimed to characterize the histological finding "focal differentiation" in PDAC at perineural invasion sites in the context of MET and to investigate the role of Schwann cells in inducing tumor MET. Tumor differentiation and immunohistochemical expressions of E-cadherin, SMAD3, and vimentin at perineural invasion sites were examined in 168 PDAC tissues. Four PDAC cell lines were co-cultured with Schwann cells to investigate cell morphology, motility, or EMT-related markers using immunocytochemistry and quantitative PCR. Of 168 tumors, 124 (74%) showed focal differentiation with enhanced E-cadherin membrane expression (P < 0.001) and decreased nuclear accumulation of SMAD3 (P < 0.001). Among 115 PDACs harboring grade 1/2 tumor, tumors with focal differentiation showed worse survival compared to those without focal differentiation (P = 0.019). PDAC cells co-cultured with Schwann cells demonstrated a sheet-like appearance, increased E-cadherin expression, decreased expressions of SMAD3 and vimentin, and reduced cell motility. In conclusion, MET-like change is induced by Schwann cells, suggesting that Schwann cells contribute to PDAC colonization in pancreatic nerves through activating the MET machinery inside tumor cells in the pancreatic tumor microenvironment.
 
@@ -3351,7 +3349,7 @@ Epithelial-mesenchymal transition (EMT) promotes invasion and metastasis of panc
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451796
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Expression of Epithelial-Mesenchymal Transition Proteins in Pancreatic Anaplastic (Undifferentiated) Carcinoma PMID: 30451796 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Expression of Epithelial-Mesenchymal Transition Proteins in Pancreatic Anaplastic (Undifferentiated) Carcinoma PMID: 30451796 '></div>
 
 OBJECTIVES: The aim of this study was to identify an association of pancreatic anaplastic carcinoma (APC) with the epithelial-mesenchymal transition (EMT).
 METHODS: Resected APCs (n = 24) were examined to assess components of APCs, including carcinomatous, transitional, and sarcomatous regions. Analysis was performed based on the immunoreactivity of E-cadherin and 3 EMT-related proteins: Slug (zinc finger protein SNAI2), Twist (Twist-related protein 1), and Zeb1 (zinc finger E-box-binding homeobox 1). Expression score was determined based on staining intensity and stained area of the target cells. Finally, we performed a hierarchical clustering based on the expression pattern of E-cadherin and EMT-related proteins of the sarcomatous component.
@@ -3378,7 +3376,7 @@ CONCLUSIONS: Epithelial-mesenchymal transition plays an essential role in the pa
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451798
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tenascin C, Fibronectin, and Tumor-Stroma Ratio in Pancreatic Ductal Adenocarcinoma PMID: 30451798 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tenascin C, Fibronectin, and Tumor-Stroma Ratio in Pancreatic Ductal Adenocarcinoma PMID: 30451798 '></div>
 
 OBJECTIVES: Pancreatic ductal adenocarcinoma (PDAC) is characterized by abundant stroma with increased expression of tenascin C and fibronectin. Their role and tumor-stroma ratio in PDAC are not well known. The aim of this study was to evaluate tenascin C and fibronectin expression and tumor-stroma ratio and their prognostic relevance in PDAC.
 METHODS: Ninety-five resected PDACs were immunohistochemically stained for tenascin C and fibronectin, and the expression was separately assessed in tumor bulk and front. Tumor-stroma ratio was determined with sections stained with hematoxylin-eosin.
@@ -3406,7 +3404,7 @@ CONCLUSIONS: Tenascin C and fibronectin are abundantly expressed in PDAC, but th
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30455857
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Hyperglycemia aggravates microenvironment hypoxia and promotes the metastatic ability of pancreatic cancer PMID: 30455857 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Hyperglycemia aggravates microenvironment hypoxia and promotes the metastatic ability of pancreatic cancer PMID: 30455857 '></div>
 
 Background: Diabetes mellitus and pancreatic cancer are intimately related. Our previous studies showed that high levels of blood glucose promote epithelial-mesenchymal transition of pancreatic cancer. In this study, we evaluated the relationship between hyperglycemia and hypoxic tumor microenvironments.
 Methods: HIF-1α expression was evaluated by immunohistochemistry in clinical pancreatic cancer tissues with or without diabetes mellitus. Statistcal analysis was performed to explore the relationship between HIF-1α expression and pathological features of patients with pancreatic cancer. In vivo and in vitro models was established to detect whether a hyperglycemia environment could cause hypoxia in the pancreatic parenchyma and promote pancreatic cancer. In addition, we also tested the effect of HIF-1α siRNA on the high glucose-induced invasive and migratory abilities of BxPC-3 cells in culture.
@@ -3436,7 +3434,7 @@ Conclusion: Our results demonstrate that the association between hyperglycemia a
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29611542
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Complex roles of the stroma in the intrinsic resistance to gemcitabine in pancreatic cancer: where we are and where we are going PMID: 29611542 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Complex roles of the stroma in the intrinsic resistance to gemcitabine in pancreatic cancer: where we are and where we are going PMID: 29611542 '></div>
 
 Pancreatic ductal adenocarcinoma (PDAC) is among the most devastating human malignancies. The poor clinical outcome in PDAC is partly attributed to a growth-permissive tumor microenvironment. In the PDAC microenvironment, the stroma is characterized by the development of extensive fibrosis, with stromal components outnumbering pancreatic cancer cells. Each of the components within the stroma has a distinct role in conferring chemoresistance to PDAC, and intrinsic chemoresistance has further worsened this pessimistic prognosis. The nucleoside analog gemcitabine (GEM) is usually the recommended first-line chemotherapeutic agent for PDAC patients and is given alone or in combination with other agents. The mechanisms of intrinsic resistance to GEM are an active area of ongoing research. This review highlights the important role the complex structure of stroma in PDAC plays in the intrinsic resistance to GEM and discusses whether antistroma therapy improves the efficacy of GEM. The addition of antistroma therapy combined with GEM is expected to be a novel therapeutic strategy with significant survival benefits for PDAC patients.
 
@@ -3466,7 +3464,7 @@ Pancreatic ductal adenocarcinoma (PDAC) is among the most devastating human mali
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29495889
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Elucidating the link between collagen and pancreatic cancer: what's next? PMID: 29495889 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Elucidating the link between collagen and pancreatic cancer: what's next? PMID: 29495889 '></div>
 
 
 
@@ -3495,7 +3493,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29495889
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30300611
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Features of Immune Cells and the Tumor-Associated Stroma Tango as Prognostic Factors in Patients With Pancreatic Ductal Adenocarcinoma PMID: 30300611 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Features of Immune Cells and the Tumor-Associated Stroma Tango as Prognostic Factors in Patients With Pancreatic Ductal Adenocarcinoma PMID: 30300611 '></div>
 
 
 
@@ -3524,7 +3522,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30300611
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30098910
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Osthole inhibits pancreatic cancer progression by directly exerting negative effects on cancer cells and attenuating tumor-infiltrating M2 macrophages PMID: 30098910 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Osthole inhibits pancreatic cancer progression by directly exerting negative effects on cancer cells and attenuating tumor-infiltrating M2 macrophages PMID: 30098910 '></div>
 
 Pancreatic cancer has remained a major cause of cancer-related deaths. A hallmark of pancreatic cancer is extensive stromal reactions, resulting in a unique tumor microenvironment, especially the involvement of macrophages. These tumor-educated cells limit the efficacy of chemotherapy. Therefore, it is necessary to identify an effective treatment strategy. In this study, we aimed to explore the anti-tumor and immunomodulatory effects of osthole on pancreatic cancer. We found that osthole suppressed Panc 02 cell migration and proliferation and induced apoptosis as shown in vitro. Osthole also attenuated the development of pancreatic cancer in mice by inhibiting tumor-infiltrating M2 macrophages in our study. Additionally, osthole inhibited the polarization of primary bone marrow cells into M2 macrophages and inhibited the expression of MRC1, CCL22 and TGF-β in the M2 polarization process in vitro. Detection of the related signaling pathways revealed that osthole exerted immunomodulatory effects on M2 macrophages by down-regulating p-STAT6 and the p-ERK1/2-C/EBP β axis. These results indicated that osthole has effective anti-tumor and immunomodulatory effects on pancreatic cancer.
 
@@ -3553,7 +3551,7 @@ Pancreatic cancer has remained a major cause of cancer-related deaths. A hallmar
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30324470
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Regulation of Cancer-Associated Fibroblasts in Pancreatic Ductal Adenocarcinoma by Vitamin D Supplementation PMID: 30324470 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Regulation of Cancer-Associated Fibroblasts in Pancreatic Ductal Adenocarcinoma by Vitamin D Supplementation PMID: 30324470 '></div>
 
 
 
@@ -3599,7 +3597,7 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30283732
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : KRAS RENAISSANCE(S) in Tumor Infiltrating B Cells in Pancreatic Cancer PMID: 30283732 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : KRAS RENAISSANCE(S) in Tumor Infiltrating B Cells in Pancreatic Cancer PMID: 30283732 '></div>
 
 KRAS is a driver mutation for malignant transformation. It is found in 30% of all cancers and in 90% of pancreatic cancers. The identification of small molecules selectively inhibiting KRAS mutants has been challenging, yet mutant KRAS has recently been shown to be targeted by tumor-infiltrating lymphocyte (TIL)-derived T cells that confer tumor regression upon adoptive transfer. Furthermore, a human IgG1 monoclonal antibody interfering with mutant KRAS function inside the cell has been described to inhibit growth of KRAS-mutant xenografts in tumor-bearing mice. B cells have been described to infiltrate pancreatic cancer and may be associated with tertiary lymphoid structures associated with good prognosis, or, in contrast, promote tumor growth. However, their function, nor their antigen-specificity has been clearly defined. We discuss here the presence of tumor-infiltrating B cells (TIB) in patients with pancreatic cancer that produce KRAS-mutant specific IgG, underlining that intratumoral T and B cells may exclusively target mutant KRAS. KRAS-specific IgG may, therefore, serve as a readout of the activation of both arms of the anti-tumor adaptive immune armament although some B-cell populations may promote tumor progression.
 
@@ -3627,7 +3625,7 @@ KRAS is a driver mutation for malignant transformation. It is found in 30% of al
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30420446
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Targeting Purinergic Receptor P2Y2 prevents the growth of pancreatic ductal adenocarcinoma by inhibiting cancer cell glycolysis PMID: 30420446 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Targeting Purinergic Receptor P2Y2 prevents the growth of pancreatic ductal adenocarcinoma by inhibiting cancer cell glycolysis PMID: 30420446 '></div>
 
 PURPOSE: Extensive research has reported that the tumor microenvironment components play crucial roles in tumor progression. Thus, blocking the supports of tumor microenvironment is a promising approach to prevent cancer progression. We aimed to determine whether blocking extracellular ATP-P2RY2 axis could be a potential therapeutic approach for PDAC treatment.
 EXPERIMENTAL DESIGN: Expression of P2RY2 was determined in 264 human PDAC samples, and correlated to patient survival. P2RY2 was inhibited in human PDAC cell lines by antagonist and shRNA, respectively, and cell viability, clonogenicity and glycolysis were determined. RNA sequencing of PDAC cell line was applied to reveal underlying molecular mechanisms. Multiple PDAC mouse models were used to assess the effects of the P2RY2 inhibition on PDAC progression.
@@ -3656,7 +3654,7 @@ CONCLUSIONS: These findings revealed the roles of the P2RY2 in PDAC metabolic re
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30392417
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The microbiome of pancreatic cancer: from molecular diagnostics to new therapeutic approaches to overcome chemoresistance caused by metabolic inactivation of gemcitabine PMID: 30392417 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The microbiome of pancreatic cancer: from molecular diagnostics to new therapeutic approaches to overcome chemoresistance caused by metabolic inactivation of gemcitabine PMID: 30392417 '></div>
 
 Pancreatic cancer is a complex disease, with an extremely poor response to chemotherapy. Emerging evidence indicates that the tumor microenvironment (TME) might play an important role in mediating chemoresistance. Areas covered: The evaluated study by Geller and collaborators describes several bacterial species within pancreatic tumor tissues and TME and investigated their roles in gemcitabine chemoresistance. Intratumor bacteria express the enzyme cytidine deaminase (CDD), whose long form (CDDL) was shown to metabolize gemcitabine into its inactive metabolite. CDDL is mostly expressed by Gammaproteobacteria and this was among the most common species in pancreatic cancer tissues. Interestingly, mouse models of colorectal cancer injected with bacterial CDDL displayed a reduced response to gemcitabine, but this resistance was neutralized by the antibiotic ciprofloxacin. Expert Commentary: The increased knowledge on the microbiome in pancreatic tissues, as well as its role in chemoresistance, will provide innovative prognostic and therapeutic strategies.
 
@@ -3683,7 +3681,7 @@ Pancreatic cancer is a complex disease, with an extremely poor response to chemo
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30393009
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : MicroRNA let-7d targets thrombospondin-1 and inhibits the activation of human pancreatic stellate cells PMID: 30393009 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : MicroRNA let-7d targets thrombospondin-1 and inhibits the activation of human pancreatic stellate cells PMID: 30393009 '></div>
 
 OBJECTIVES: The microRNA (miRNA) let-7d is linked to the formation of pancreatic cancer-related fibrosis. In this study, the mechanism by which let-7d regulates the activation of the human pancreatic stellate cell (hPSC) was evaluated.
 METHODS: The transient transfection of a let-7d mimic in the hPSCs was performed, and the altered thrombospondin 1 (THBS1) expression was confirmed by western blotting and real-time qPCR. Targeting of the 3'-untranslated region (UTR) of THBS1 by let-7d was investigated by the luciferase assays. After hPSC transfection using THBS1 siRNA, the fibrosis markers (α-SMA and collagen 1A1) were evaluated by western blotting and real-time qPCR. The correlation between tumor fibrosis and let-7d or THBS1 was estimated using the data from The Cancer Genome Atlas project. Finally, the effects of genistein on the hPSCs were evaluated.
@@ -3711,7 +3709,7 @@ CONCLUSIONS: Let-7d inhibited hPSC activation by targeting THBS1. Genistein indu
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29092903
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : GPR68, a proton-sensing GPCR, mediates interaction of cancer-associated fibroblasts and cancer cells PMID: 29092903 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : GPR68, a proton-sensing GPCR, mediates interaction of cancer-associated fibroblasts and cancer cells PMID: 29092903 '></div>
 
 The microenvironment of pancreatic ductal adenocarcinoma (PDAC) is characterized by a dense fibrotic stroma (desmoplasia) generated by pancreatic cancer-associated fibroblasts (CAFs) derived from pancreatic stellate cells (PSCs) and pancreatic fibroblasts (PFs). Using an unbiased GPCRomic array approach, we identified 82 G-protein-coupled receptors (GPCRs) commonly expressed by CAFs derived from 5 primary PDAC tumors. Compared with PSCs and PFs, CAFs have increased expression of GPR68 (a proton-sensing GPCR), with the results confirmed by immunoblotting, The Cancer Genome Atlas data, and immunohistochemistry of PDAC tumors. Co-culture of PSCs with PDAC cells, or incubation with TNF-α, induced GPR68 expression. GPR68 activation (by decreasing the extracellular pH) enhanced IL-6 expression via a cAMP/PKA/cAMP response element binding protein signaling pathway. Knockdown of GPR68 by short interfering RNA diminished low pH-induced production of IL-6 and enhancement of PDAC cell proliferation by CAF conditioned media. CAFs from other gastrointestinal cancers also express GPR68. PDAC cells thus induce expression by CAFs of GPR68, which senses the acidic microenvironment, thereby increasing production of fibrotic markers and IL-6 and promoting PDAC cell proliferation. CAF-expressed GPR68 is a mediator of low-pH-promoted regulation of the tumor microenvironments, in particular to PDAC cell-CAF interaction and may be a novel therapeutic target for pancreatic and perhaps other types of cancers.-Wiley, S. Z., Sriram, K., Liang, W., Chang, S. E., French, R., McCann, T., Sicklick, J., Nishihara, H., Lowy, A. M., Insel, P. A. GPR68, a proton-sensing GPCR, mediates interaction of cancer-associated fibroblasts and cancer cells.
 
@@ -3736,7 +3734,7 @@ The microenvironment of pancreatic ductal adenocarcinoma (PDAC) is characterized
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29956814
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : E‑cadherin is downregulated by microenvironmental changes in pancreatic cancer and induces EMT PMID: 29956814 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : E‑cadherin is downregulated by microenvironmental changes in pancreatic cancer and induces EMT PMID: 29956814 '></div>
 
 The aim of the present study was to research the effect of microenvironmental change on epithelial‑mesenchymal transition (EMT) in pancreatic cancer cells and to determine the correlation between E‑cadherin expression and the prognosis of pancreatic cancer patients. We established hypoxic, serum‑deficient and TGF‑β‑induced microenvironment models of pancreatic cancer cells and studied the changes in the mRNA and protein expression of EMT‑related molecules, E‑cadherin and vimentin, using western blot analysis and real‑time PCR. Furthermore, immunohistochemistry was used to investigate E‑cadherin expression in pancreatic cancer tissues, and survival analysis and COX regression analysis were conducted. In pancreatic cancer cells under hypoxic, serum‑starved and TGF‑β‑induced microenvironments, E‑cadherin protein and mRNA levels were significantly decreased (P<0.05), while vimentin protein and mRNA expression levels were significantly increased (P<0.05). The results of immunohistochemistry showed that the protein level of E‑cadherin in pancreatic cancer tissues was positively correlated with overall survival (P<0.01). The results of Cox regression analysis showed that E‑cadherin was an independent prognostic factor in pancreatic cancer. In conclusion, E‑cadherin expression was significantly decreased by microenvironment changes, and this decrease induced EMT in pancreatic cancer cells. E‑cadherin is an independent prognostic marker in pancreatic cancer patients.
 
@@ -3762,7 +3760,7 @@ The aim of the present study was to research the effect of microenvironmental ch
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30415234
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Stromal protein βig-h3 reprogrammes tumour microenvironment in pancreatic cancer PMID: 30415234 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Stromal protein βig-h3 reprogrammes tumour microenvironment in pancreatic cancer PMID: 30415234 '></div>
 
 OBJECTIVE: Pancreatic cancer is associated with an abundant stromal reaction leading to immune escape and tumour growth. This massive stroma drives the immune escape in the tumour. We aimed to study the impact of βig-h3 stromal protein in the modulation of the antitumoural immune response in pancreatic cancer.
 DESIGN: We performed studies with p48-Cre;KrasG12D, pdx1-Cre;KrasG12D;Ink4a/Arffl/fl, pdx1-Cre;KrasG12D; p53R172H mice and tumour tissues from patients with pancreatic ductal adenocarcinoma (PDA). Some transgenic mice were given injections of anti-βig-h3, anti-CD8, anti-PD1 depleting antibodies. Tumour growth as well as modifications in the activation of local immune cells were analysed by flow cytometry, immunohistochemistry and immunofluorescence. Tissue stiffness was measured by atomic force microscopy.
@@ -3797,7 +3795,7 @@ CONCLUSIONS: Our data indicate that targeting stromal extracellular matrix prote
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30428588
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : From Friend to Enemy: Dissecting the Functional Alteration of Immunoregulatory Components during Pancreatic Tumorigenesis PMID: 30428588 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : From Friend to Enemy: Dissecting the Functional Alteration of Immunoregulatory Components during Pancreatic Tumorigenesis PMID: 30428588 '></div>
 
 Pancreatic ductal adenocarcinoma (PDAC) is a lethal disease with a 5-year survival rate of approximately 8%. More than 80% of patients are diagnosed at an unresectable stage due to metastases or local extension. Immune system reactivation in patients by immunotherapy may eliminate tumor cells and is a new strategy for cancer treatment. The anti-CTLA-4 antibody ipilimumab and anti-PD-1 antibodies pembrolizumab and nivolumab have been approved for cancer therapy in different countries. However, the results of immunotherapy on PDAC are unsatisfactory. The low response rate may be due to poor immunogenicity with low tumor mutational burden in pancreatic cancer cells and desmoplasia that prevents the accumulation of immune cells in tumors. The immunosuppressive tumor microenvironment in PDAC is important in tumor progression and treatment resistance. Switching from an immune tolerance to immune activation status is crucial to overcome the inability of self-defense in cancer. Therefore, thoroughly elucidation of the roles of various immune-related factors, tumor microenvironment, and tumor cells in the development of PDAC may provide appropriate direction to target inflammatory pathway activation as a new therapeutic strategy for preventing and treating this cancer.
 
@@ -3845,7 +3843,7 @@ Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICP
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30430578
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Single-cell sequencing defines genetic heterogeneity in pancreatic cancer precursor lesions PMID: 30430578 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Single-cell sequencing defines genetic heterogeneity in pancreatic cancer precursor lesions PMID: 30430578 '></div>
 
 Intraductal papillary mucinous neoplasms (IPMNs) are precursors to pancreatic cancer; however, little is known about genetic heterogeneity in these lesions. The objective of this study was to characterize genetic heterogeneity in IPMNs at the single-cell level. We isolated single cells from fresh tissue from ten IPMNs, followed by whole genome amplification and targeted next generation sequencing of pancreatic driver genes. We then determined single-cell genotypes using a novel multi-sample mutation calling algorithm. Our analyses revealed that different mutations in the same driver gene frequently occur in the same IPMN. Two IPMNs had multiple mutations in the initiating driver gene KRAS that occurred in unique tumor clones, suggesting the possibility of polyclonal origin or an unidentified initiating event preceding this critical mutation. Multiple mutations in later-occurring driver genes were also common and were frequently localized to unique tumor clones, raising the possibility of convergent evolution of these genetic events in pancreatic tumorigenesis. Single-cell sequencing of IPMNs demonstrated genetic heterogeneity with respect to early and late occurring driver gene mutations, suggesting a more complex pattern of tumor evolution than previously appreciated in these lesions.
 
@@ -3869,7 +3867,7 @@ Intraductal papillary mucinous neoplasms (IPMNs) are precursors to pancreatic ca
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30385653
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Single Cell Transcriptomics of Pancreatic Cancer Precursors Demonstrates Epithelial and Microenvironmental Heterogeneity as an Early Event in Neoplastic Progression PMID: 30385653 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Single Cell Transcriptomics of Pancreatic Cancer Precursors Demonstrates Epithelial and Microenvironmental Heterogeneity as an Early Event in Neoplastic Progression PMID: 30385653 '></div>
 
 PURPOSE: Early detection of pancreatic ductal adenocarcinoma (PDAC) remains elusive. Precursor lesions of PDAC, specifically, intraductal papillary mucinous neoplasms (IPMNs) represent a bona fide pathway to invasive neoplasia, although the molecular correlates of progression remain to be fully elucidated. Single cell transcriptomics provides a unique avenue for dissecting both the epithelial and microenvironmental heterogeneity that accompany multistep progression from non-invasive IPMNs to PDAC.
 METHODS: Single cell RNA-sequencing was performed through droplet-based sequencing on 5,403 cells from two low-grade IPMNs (LGD-IPMN), two high-grade IPMNs (HGD-IPMN), and two PDACs (all surgically resected).
@@ -3914,7 +3912,7 @@ Solid Pseudopapillary Neoplasm
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30306561
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Molecular alterations associated with metastases of solid pseudopapillary neoplasms of the pancreas PMID: 30306561 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Molecular alterations associated with metastases of solid pseudopapillary neoplasms of the pancreas PMID: 30306561 '></div>
 
 Solid pseudopapillary neoplasms (SPN) of the pancreas are rare, low-grade malignant neoplasms that metastasise to the liver or peritoneum in 10-15% of cases. They almost invariably present somatic activating mutations of CTNNB1. No comprehensive molecular characterisation of metastatic disease has been conducted to date. We performed whole-exome sequencing and copy-number variation (CNV) analysis of 10 primary SPN and comparative sequencing of five matched primary/metastatic tumour specimens by high-coverage targeted sequencing of 409 genes. In addition to CTNNB1-activating mutations, we found inactivating mutations of epigenetic regulators (KDM6A, TET1, BAP1) associated with metastatic disease. Most of these alterations were shared between primary and metastatic lesions, suggesting that they occurred before dissemination. Differently from mutations, the majority of CNVs were not shared among lesions from the same patients and affected genes involved in metabolic and pro-proliferative pathways. Immunostaining of 27 SPNs showed that loss or reduction of KDM6A and BAP1 expression was significantly enriched in metastatic SPNs. Consistent with an increased transcriptional response to hypoxia in pancreatic adenocarcinomas bearing KDM6A inactivation, we showed that mutation or reduced KDM6A expression in SPNs is associated with increased expression of the HIF1α-regulated protein GLUT1 at both primary and metastatic sites. Our results suggest that BAP1 and KDM6A function is a barrier to the development of metastasis in a subset of SPNs, which might open novel avenues for the treatment of this disease. © 2018 The Authors. The Journal of Pathology published by John Wiley & Sons Ltd on behalf of Pathological Society of Great Britain and Ireland.
 
@@ -3959,7 +3957,7 @@ Solid pseudopapillary neoplasms (SPN) of the pancreas are rare, low-grade malign
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30212390
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Recurrent Mutations in APC and CTNNB1 and Activated Wnt/β-catenin Signaling in Intraductal Papillary Neoplasms of the Bile Duct: A Whole Exome Sequencing Study PMID: 30212390 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Recurrent Mutations in APC and CTNNB1 and Activated Wnt/β-catenin Signaling in Intraductal Papillary Neoplasms of the Bile Duct: A Whole Exome Sequencing Study PMID: 30212390 '></div>
 
 This study aimed to elucidate the genetic landscape of biliary papillary neoplasms. Of 28 cases examined, 7 underwent whole exome sequencing, while the remaining 21 were used for validation studies with targeted sequencing. In the whole exome sequencing study, 4/7 cases had mutations in either APC or CTNNB1, both of which belong to the Wnt/β-catenin pathway. Somatic mutations were also identified in genes involved in RAS signaling (KRAS, BRAF), a cell cycle regulator (CDC27), histone methyltransferase (KMT2C, KMT2D), and DNA mismatch repair (MSH3, MSH6, PMS1). Combined with discovery and validation cohorts, mutations in APC or CTNNB1 were observed in 6/28 subjects (21%) and were mutually exclusive. When the cases were classified into intraductal papillary neoplasms of the bile duct (IPNBs, n=14) and papillary cholangiocarcinomas (n=14) based on the recently proposed classification criteria, mutations in APC and CTNNB1 appeared to be entirely restricted to IPNBs with 6/14 cases (43%) harboring mutations in either gene. These genetic alterations were detected across the 3 nonintestinal histologic types. In immunohistochemistry, the aberrant cytoplasmic and/or nuclear expression of β-catenin was found in not only 5/6 IPNBs with APC or CTNNB1 mutations, but also 6/8 cases with wild-type APC and CTNNB1 (total 79%). In addition, APC and CTNNB1 alterations were exceptional in nonpapillary cholangiocarcinomas (n=29) with a single case harboring CTNNB1 mutation (3%). This study demonstrated recurrent mutations in APC and CTNNB1 in nonintestinal-type IPNBs, suggesting that activation of the Wnt/β-catenin signaling pathway is relevant to the development and progression of IPNBs.
 
@@ -3985,7 +3983,7 @@ This study aimed to elucidate the genetic landscape of biliary papillary neoplas
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30404735
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comprehensive analysis of long noncoding RNA-associated competing endogenous RNA network in cholangiocarcinoma PMID: 30404735 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Comprehensive analysis of long noncoding RNA-associated competing endogenous RNA network in cholangiocarcinoma PMID: 30404735 '></div>
 
 BACKGROUND: Long non-coding RNAs (lncRNAs) can interact with microRNAs (miRNAs) as a competing endogenous RNA (ceRNA) to regulate the expression of target genes, which can largely influence on tumorigenesis and tumor progression. However, the role of lncRNA-mediated ceRNAs in cholangiocarcinoma (CCA) remains unknown. This study aimed to develop novel lncRNAs as well as their action mechanisms in CCA.
 METHODS: The expression profiles of lncRNAs, miRNAs, and mRNAs of 36 CCA tissues and 9 non-tumor bile duct tissues were obtained from The Cancer Genome Atlas (TCGA) database. The differentially expressed RNAs werre identified using the DESeq package in R. The ceRNA network was constructed in CCA based on bioinformatics generated from miRcode, miRTarBase, miRDB, and TargetScan. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were performed using "DAVID 6.8" and R packages "Clusterprofile". Survival analysis was performed based on Kaplan-Meier curve analysis.
@@ -4012,7 +4010,7 @@ CONCLUSIONS: Our study identified novel lncRNAs associated with CCA progression 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30334579
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Over-expression of TNNI3K is associated with early-stage carcinogenesis of cholangiocarcinoma PMID: 30334579 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Over-expression of TNNI3K is associated with early-stage carcinogenesis of cholangiocarcinoma PMID: 30334579 '></div>
 
 Cholangiocarcinoma (CCA) is a devastating disease with very poor prognosis due to late diagnosis and resistance to traditional chemotherapies and radiotherapies. Herein, thioacetamide (TAA)-induced rat CCA model and CGCCA cell line were used; we aim to study the cytogenetic features during tumoral development of CCA and uncover the mystery regarding carcinogenesis of CCA. The Array comparative genomic hybridization analysis, in silico method, gene knockdown, Western blot, cell count proliferation assay, clonogenecity assay, and IHC staining were applied in this study. Array comparative genomic hybridization analysis was performed on all different TAA-induced phases of rat tissues to reveal the certain pattern, +2q45, +Xq22, -12p12, have been identified for the tumor early stage, where involve the gene TNNI3K. In addition, 16 genes and 3 loci were associated with rapid tumor progression; JAK-STAT signaling pathway was highly correlated to late stage of CCA. In silico database was used to observe TNNI3K was highly express at tumor part compared with normal adjacent tissue in CCA patients from TCGA dataset. Furthermore, the growth of TNNI3K-knockdown SNU308 and HuCCT1 cells decreased when compared with cells transfected with an empty vector cell demonstrated by proliferation and colonogenecity assay. Besides, over expression of TNNI3K was especially confirmed on human CCA tumors and compared with the intrahepatic duct stone bile duct tissues and normal bile duct tissues (P < 0.001). Our findings might uncover the mystery regarding carcinogenesis of CCA, and provide the potential genetic mechanism to the clinicians some ideas for the patients' treatment.
 
@@ -4056,7 +4054,7 @@ Cholangiocarcinoma (CCA) is a devastating disease with very poor prognosis due t
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30427539
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations PMID: 30427539 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Regional differences in gallbladder cancer pathogenesis: Insights from a multi-institutional comparison of tumor mutations PMID: 30427539 '></div>
 
 BACKGROUND: Although rare in the United States, gallbladder cancer (GBCA) is a common cause of cancer death in some parts of the world. To investigate regional differences in pathogenesis and outcomes for GBCA, tumor mutations were analyzed from a sampling of specimens.
 METHODS: Primary tumors from patients with GBCA who were treated in Chile, Japan, and the United States between 1999 and 2016 underwent targeted sequencing of known cancer-associated genes. Fisher exact and Kruskal-Wallis tests assessed differences in clinicopathologic and genetic factors. Kaplan-Meier methods evaluated differences in overall survival from the time of surgery between mutations.
@@ -4100,7 +4098,7 @@ CONCLUSIONS: Differences in clinicopathologic variables suggest the possibility 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29807574
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Ampullary carcinoma-A genetic perspective PMID: 29807574 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Ampullary carcinoma-A genetic perspective PMID: 29807574 '></div>
 
 Ampulla of vater carcinoma (AVC) is a rare gastrointestinal tumour that is associated with a high mortality rate and it's often diagnosed at later stages due to lack of clinical symptoms. Early diagnosis of this condition is essential to effectively treat patients for better prognosis. A significant amount of advancement has been made in understanding the molecular nature of cancer in the past decade. A substantial number of mutations and alterations have been detected in various tumors. Despite the occurrence of AVC across the globe, the number of studies conducted on this tumor type remains low; this is largely due to its rare occurrence. Moreover, AVC tissues are complex and contain mutations in oncogenes, tumour suppressors, apoptotic proteins, cell proliferation proteins, cell signaling proteins, transcription factors, chromosomal abnormalities and cellular adhesion proteins. The frequently mutated genes included KRAS, TP53 and SMAD4 and are associated with prognosis. Several molecules of the PI3K, Wnt signaling, TGF-beta pathway and cell cycle have also been altered in AVCs. This review comprises of all the genetic mutations, associated pathways and related prognosis that are involved in AVCs from the year 1989 to 2017. This report can be used as a stepping-stone to establish biomarkers for early diagnosis of AVC and to discover molecular targets for drug therapy.
 
@@ -4125,7 +4123,7 @@ Ampulla of vater carcinoma (AVC) is a rare gastrointestinal tumour that is assoc
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30487949
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Ampulla of Vater carcinoma: Molecular landscape and clinical implications PMID: 30487949 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Ampulla of Vater carcinoma: Molecular landscape and clinical implications PMID: 30487949 '></div>
 
 Ampulla of Vater is a peculiar anatomical structure, characterized by the crossroad of three distinct epithelia: Intestinal, ductal pancreatic and biliary. Adenocarcinomas arising in this area represent an opportunity to understand the comparative biology of all periampullary malignancies. These neoplasms can exhibit intestinal, pancreaticobiliary or mixed features, whereas the subclassification based on morphology and immunohistochemical features failed in demonstrating a robust prognostic reliability. In the last few years, the molecular landscape of this tumor entity has been uncovered, identifying alterations that may serve as prognostic and predictive biomarkers. In this review, the histological and genetic characteristics of ampullary carcinomas are discussed, taking into account the main clinical and therapeutic implications related to this tumor type as well.
 
@@ -4149,7 +4147,7 @@ Ampulla of Vater is a peculiar anatomical structure, characterized by the crossr
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29731265
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : MiR-21 up-regulation in ampullary adenocarcinoma and its pre-invasive lesions PMID: 29731265 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : MiR-21 up-regulation in ampullary adenocarcinoma and its pre-invasive lesions PMID: 29731265 '></div>
 
 Poor information is available on the molecular landscape characterizing the carcinogenetic process leading to ampullary carcinoma. MiR-21 is one of the most frequently up-regulated miRNAs in pancreatic adenocarcinoma, a tumor sharing similar molecular features with ampullary adenocarcinomas (AVCs), above all with the pancreatic-biliary type. We profiled, by in situ hybridization (ISH), miR-21 expression in a series of 26 AVCs, 50 ampullary dysplastic lesions (35 low-grade [LG-IEN] and 15 high-grade [HG-IEN]) and 10 normal duodenal mucosa samples. The same series was investigated by immunohistochemistry for β-catenin, p53 and HER2 expression. HER2 gene amplification was evaluated by chromogenic in situ hybridization. To validate miR-21 ISH results we performed miR-21 qRT-PCR analysis in a series of 10 AVCs and their matched normal samples. All the normal control samples showed a negative or faint miR-21 expression, whereas a significant miR-21 up-regulation was observed during the carcinogenetic cascade (p < 0.001), with 21/26 (80.8%) of cancer samples showing a miR-21 overexpression. In comparison to control samples, a significant overexpression was found in samples of LG-IEN (p = .0003), HG-IEN (p = .0001), and AVCs (p < 0.0001). No significant difference in miR-21 overexpression was observed between LG-IEN, HG-IEN and AVCs. By qRT-PCR analysis, AVCs showed a 1.7-fold increase over the controls (p = .003). P53 was frequently dysregulated in both dysplastic and carcinoma samples (44 out of 76; 57.9%). A 20% (10/50) of dysplastic lesions and 11% (3/26) of carcinomas were characterized by a nuclear localization of β-catenin. Only 2 AVCs (7.7%; both intestinal-type) showed a HER2 overexpression (both 2+), which corresponded to a HER2 gene amplification at CISH analysis. This is the first study demonstrating a miRNA dysregulation in the whole spectrum of ampullary carcinogenesis. MiR-21 overexpression is an early molecular event during ampullary carcinogenesis and its levels increase with the neoplastic progression.
 
@@ -4170,11 +4168,11 @@ Poor information is available on the molecular landscape characterizing the carc
 - **Adenosquamous carcinoma of the papilla of Vater: A phenotypic heterogeneity characterized by a common molecular landscape**
 </summary> 
 
-*Pathology international 2018 Nov;():*
+*Pathology international 2018 Dec;68(12):715-716*
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30417956
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Adenosquamous carcinoma of the papilla of Vater: A phenotypic heterogeneity characterized by a common molecular landscape PMID: 30417956 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Adenosquamous carcinoma of the papilla of Vater: A phenotypic heterogeneity characterized by a common molecular landscape PMID: 30417956 '></div>
 
 
 
@@ -4217,7 +4215,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30417956
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30310970
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Clinical and in vitro studies of the correlation between MGMT and the effect of streptozocin in pancreatic NET PMID: 30310970 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Clinical and in vitro studies of the correlation between MGMT and the effect of streptozocin in pancreatic NET PMID: 30310970 '></div>
 
 PURPOSE: This study aimed to determine the correlation between DNA repair enzyme O6-methylguanine DNA methyltransferase (MGMT) status and the response to streptozocin in advanced well-differentiated pancreatic neuroendocrine tumors (WD panNETs).
 METHODS: To test the hypothesis that MGMT deficiency was required for an alkylating drug response, we retrospectively reviewed the response of 13 patients with WD panNETs to alkylating agents in relation to MGMT status. We also studied MGMT expression in streptozocin resistance using panNET cell lines.
@@ -4246,7 +4244,7 @@ CONCLUSIONS: We observed a relationship between MGMT status and streptozocin res
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30021866
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Evaluating gastroenteropancreatic neuroendocrine tumors through microRNA sequencing PMID: 30021866 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Evaluating gastroenteropancreatic neuroendocrine tumors through microRNA sequencing PMID: 30021866 '></div>
 
 Gastroenteropancreatic neuroendocrine tumors (GEP-NETs) can be challenging to evaluate histologically. MicroRNAs (miRNAs) are small RNA molecules that often are excellent biomarkers due to their abundance, cell-type and disease stage specificity and stability. To evaluate miRNAs as adjunct tissue markers for classifying and grading well-differentiated GEP-NETs, we generated and compared miRNA expression profiles from four pathological types of GEP-NETs. Using quantitative barcoded small RNA sequencing and state-of-the-art sequence annotation, we generated comprehensive miRNA expression profiles from archived pancreatic, ileal, appendiceal and rectal NETs. Following data preprocessing, we randomly assigned sample profiles to discovery (80%) and validation (20%) sets prior to data mining using machine-learning techniques. High expression analyses indicated that miR-375 was the most abundant individual miRNA and miRNA cistron in all samples. Leveraging prior knowledge that GEP-NET behavior is influenced by embryonic derivation, we developed a dual-layer hierarchical classifier for differentiating GEP-NET types. In the first layer, our classifier discriminated midgut (ileum, appendix) from non-midgut (rectum, pancreas) NETs based on miR-615 and -92b expression. In the second layer, our classifier discriminated ileal from appendiceal NETs based on miR-125b, -192 and -149 expression, and rectal from pancreatic NETs based on miR-429 and -487b expression. Our classifier achieved overall accuracies of 98.5% and 94.4% in discovery and validation sets, respectively. We also found provisional evidence that low- and intermediate-grade pancreatic NETs can be discriminated based on miR-328 expression. GEP-NETs can be reliably classified and potentially graded using a limited panel of miRNA markers, complementing morphological and immunohistochemistry-based approaches to histologic evaluation.
 
@@ -4272,7 +4270,7 @@ Gastroenteropancreatic neuroendocrine tumors (GEP-NETs) can be challenging to ev
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30390038
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neuroendocrine neoplasia goes molecular - time for a change PMID: 30390038 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neuroendocrine neoplasia goes molecular - time for a change PMID: 30390038 '></div>
 
 
 
@@ -4300,7 +4298,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30390038
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30358858
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Blood mRNA Measurement (NETest) for Neuroendocrine Tumors diagnosis of Image-negative liver metastatic disease PMID: 30358858 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Blood mRNA Measurement (NETest) for Neuroendocrine Tumors diagnosis of Image-negative liver metastatic disease PMID: 30358858 '></div>
 
 Context: Early cancer detection is critical to optimize treatment. This is particularly problematic in neuroendocrine tumors (NETs) which exhibit a ∼5-year diagnostic delay due to covert symptomatology, limitations in imaging and circulating biomarkers. Despite development of continuous monitoring strategies utilizing advanced modalities (CT/MRI or 68Gallium-PET/CT), or a repertoire of monoanalyte biomarkers (e.g. chromogranin A [CgA], pancreastatin, serotonin), detection of minimal residual disease or micro-recurrence, remains elusive. Emerging molecular liquid biopsies (e.g. NETest) provide a significant improved threshold for disease detection.
 Case Description: We describe the utility of a blood-based multigene PCR neuroendocrine measurement (NETest), representative of core molecular drivers of neuroendocrine tumorigenesis, to detect hepatic micrometastases in a patient with negative blood biomarkers, and negative anatomical/functional imaging. A 52-year old female who had undergone margin-negative resection for a NET of the ileocecal valve, 8 months later developed persistently elevated NETest levels. CT/MRI/68Gallium-PET and biomarkers remained negative. Blood multi-gene analysis identified disease and peptide receptor radionuclide therapy (PRRT) was undertaken. Over 9 months, NETest levels increased (conventional biomarkers/imaging remained normal). Liver biopsy was undertaken, and foci of 3mm NET in segment VI were histologically documented. 3.3 years after PRRT, the disease remains as a microscopic burden and stable, biomarker/68Gallium PET/MRI occult despite elevated blood levels of NET genes.
@@ -4327,7 +4325,7 @@ Conclusions: Blood measurement of neuroendocrine tumor transcripts can identify 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30420046
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neuropilin-1 (NRP-1) upregulated by IL-6/STAT3 signaling contributes to invasion in pancreatic neuroendocrine neoplasms PMID: 30420046 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Neuropilin-1 (NRP-1) upregulated by IL-6/STAT3 signaling contributes to invasion in pancreatic neuroendocrine neoplasms PMID: 30420046 '></div>
 
 Although the upregulation of Neuropilin-1 (NRP-1) is associated with many solid tumors, its role in pancreatic neuroendocrine neoplasms (pNEN) has not been well elucidated. The aim of this study was to investigate the role of NRP-1 in improving treatment and determining the prognosis of pNEN. In this study, the expression of NRP-1 in pNEN tissue samples and pNEN cell line BON1 was analyzed by Western blot, polymerase chain reaction (PCR) and immunocytochemistry upon exposure to interleukin-6 (IL-6). Additionally, pNEN cell line BON1 was transfected with small interfering RNAs against NRP-1 or signal transducer and activator of transcription 3 (STAT3) and assessed by in vitro invasion assays. The expression of NRP-1 in pNEN tissues was markedly increased compared with adjacent normal pancreatic tissues. High NRP-1 expression was strongly correlated with tumor grades (P = .026), lymph node metastasis (P = .025), and tumor-node-metastasis stages (P = .012). Furthermore, NRP-1 downregulation notably inhibited the metastatic capacity of pNEN cells, and STAT3 knockdown was found to downregulate the expression of NRP-1. BON1 cells upregulated NRP-1 expression upon stimulation with IL-6. This was accompanied by activation/phosphorylation of the AKT and STAT3 signaling pathways. Western blot of extracts of human pNENs confirmed increased NRP-1 expression, as well as AKT/STAT3 phosphorylation in tissue of pNENs with elevated expression levels of IL-6. In conclusion, our findings suggest that NRP-1 is upregulated in pNEN and is correlated with the metastatic capacity of pNEN cells, potentially via interaction with the IL-6/STAT3 signaling pathway.
 
@@ -4352,7 +4350,7 @@ Although the upregulation of Neuropilin-1 (NRP-1) is associated with many solid 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30443491
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cell-Free DNA From Metastatic Pancreatic Neuroendocrine Tumor Patients Contains Tumor-Specific Mutations and Copy Number Variations PMID: 30443491 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Cell-Free DNA From Metastatic Pancreatic Neuroendocrine Tumor Patients Contains Tumor-Specific Mutations and Copy Number Variations PMID: 30443491 '></div>
 
 Background: Detection of tumor-specific alterations in cell-free DNA (cfDNA) has proven valuable as a liquid biopsy for several types of cancer. So far, use of cfDNA remains unexplored for pancreatic neuroendocrine tumor (PNET) patients. Methods: From 10 PNET patients, fresh frozen tumor tissue, buffy coat and plasma samples were collected. Whole-exome sequencing of primary tumor and germline DNA was performed to identify tumor-specific variants and copy number variations (CNVs). Subsequently, tumor-specific variants were quantified in plasma cfDNA with droplet digital PCR. In addition, CNV analysis of cfDNA was performed using shallow whole-genome sequencing. Results: Tumor-specific variants were detected in perioperative plasma samples of two PNET patients, at variant allele fractions (VAFs) of respectively 19 and 21%. Both patients had metastatic disease at time of surgery, while the other patients presented with localized disease. In the metastatic patients, CNV profiles of tumor tissue and cfDNA were significantly correlated. A follow-up plasma sample of a metastatic patient demonstrated an increased VAF (57%) and an increased chromosomal instability, in parallel with an increase in tumor burden. Conclusions: We are the first to report the presence of tumor-specific genetic alterations in cfDNA of metastatic PNET patients and their evolution during disease progression. Additionally, CNV analysis in cfDNA shows potential as a liquid biopsy.
 
@@ -4376,7 +4374,7 @@ Background: Detection of tumor-specific alterations in cell-free DNA (cfDNA) has
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30339629
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Genetic Analysis of Small Well-differentiated Pancreatic Neuroendocrine Tumors Identifies Subgroups With Differing Risks of Liver Metastases PMID: 30339629 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Genetic Analysis of Small Well-differentiated Pancreatic Neuroendocrine Tumors Identifies Subgroups With Differing Risks of Liver Metastases PMID: 30339629 '></div>
 
 OBJECTIVE:: The aim of this study was to investigate the key molecular alterations in small primary pancreatic neuroendocrine tumors (PanNETs) associated with the development of liver metastases.
 BACKGROUND: Well-differentiated PanNETs with small size are typically indolent; however, a limited subset metastasize to the liver.
@@ -4405,7 +4403,7 @@ CONCLUSIONS: We identified genomic patterns of small PanNETs associated with a d
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30342802
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : DAXX Mutation Status of Embolization-Treated Neuroendocrine Tumors Predicts Shorter Time to Hepatic Progression PMID: 30342802 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : DAXX Mutation Status of Embolization-Treated Neuroendocrine Tumors Predicts Shorter Time to Hepatic Progression PMID: 30342802 '></div>
 
 PURPOSE: To identify common gene mutations in patients with neuroendocrine liver metastases (NLM) undergoing transarterial embolization (TAE) and establish relationship between these mutations and response to TAE.
 MATERIALS AND METHODS: Patients (n = 51; mean age 61 y; 29 men, 22 women) with NLMs who underwent TAE and had available mutation analysis were identified. Mutation status and clinical variables were recorded and evaluated in relation to hepatic progression-free survival (HPFS) (Cox proportional hazards) and time to hepatic progression (TTHP) (competing risk proportional hazards). Subgroup analysis of patients with pancreatic NLM was performed using Fisher exact test to identify correlation between mutation and event (hepatic progression or death) by 6 months. Changes in mutation status over time and across specimens in a subset of patients were recorded.
@@ -4452,7 +4450,7 @@ CONCLUSIONS: DAXX mutation is common in patients with pancreatic NLMs. DAXX muta
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30355799
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Suppression of stromal-derived Dickkopf-3 (DKK3) inhibits tumor progression and prolongs survival in pancreatic ductal adenocarcinoma PMID: 30355799 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Suppression of stromal-derived Dickkopf-3 (DKK3) inhibits tumor progression and prolongs survival in pancreatic ductal adenocarcinoma PMID: 30355799 '></div>
 
 Pancreatic ductal adenocarcinoma (PDAC) has a dismal prognosis, and it is unclear whether its stromal infiltrate contributes to its aggressiveness. Here, we demonstrate that Dickkopf-3 (DKK3) is produced by pancreatic stellate cells and is present in most human PDAC. DKK3 stimulates PDAC growth, metastasis, and resistance to chemotherapy with both paracrine and autocrine mechanisms through NF-κB activation. Genetic ablation of DKK3 in an autochthonous model of PDAC inhibited tumor growth, induced a peritumoral infiltration of CD8+ T cells, and more than doubled survival. Treatment with a DKK3-blocking monoclonal antibody inhibited PDAC progression and chemoresistance and prolonged survival. The combination of DKK3 inhibition with immune checkpoint inhibition was more effective in reducing tumor growth than either treatment alone and resulted in a durable improvement in survival, suggesting that DKK3 neutralization may be effective as a single targeted agent or in combination with chemotherapy or immunotherapy for PDAC.
 
@@ -4476,7 +4474,7 @@ Pancreatic ductal adenocarcinoma (PDAC) has a dismal prognosis, and it is unclea
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30428345
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : TP63-Mediated Enhancer Reprogramming Drives the Squamous Subtype of Pancreatic Ductal Adenocarcinoma PMID: 30428345 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : TP63-Mediated Enhancer Reprogramming Drives the Squamous Subtype of Pancreatic Ductal Adenocarcinoma PMID: 30428345 '></div>
 
 The aberrant expression of squamous lineage markers in pancreatic ductal adenocarcinoma (PDA) has been correlated with poor clinical outcomes. However, the functional role of this putative transdifferentiation event in PDA pathogenesis remains unclear. Here, we show that expression of the transcription factor TP63 (ΔNp63) is sufficient to install and sustain the enhancer landscape and transcriptional signature of the squamous lineage in human PDA cells. We also demonstrate that TP63-driven enhancer reprogramming promotes aggressive tumor phenotypes, including enhanced cell motility and invasion, and an accelerated growth of primary PDA tumors and metastases in vivo. This process ultimately leads to a powerful addiction of squamous PDA cells to continuous TP63 expression. Our study demonstrates the functional significance of squamous transdifferentiation in PDA and reveals TP63-based reprogramming as an experimental tool for investigating mechanisms and vulnerabilities linked to this aberrant cell fate transition.
 
@@ -4502,7 +4500,7 @@ The aberrant expression of squamous lineage markers in pancreatic ductal adenoca
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30411297
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Desumoylating Isopeptidase 2 (DESI2) Inhibits Proliferation and Promotes Apoptosis of Pancreatic Cancer Cells through Regulating PI3K/AKT/mTOR Signaling Pathway PMID: 30411297 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Desumoylating Isopeptidase 2 (DESI2) Inhibits Proliferation and Promotes Apoptosis of Pancreatic Cancer Cells through Regulating PI3K/AKT/mTOR Signaling Pathway PMID: 30411297 '></div>
 
 This study aimed to investigate the effects of desumoylating isopeptidase 2 (DESI2) on tumor cell proliferation, apoptosis and invasion of pancreatic cancer, and to assess the signaling pathway involved. Overexpression and silence of DESI2 were designed and the experiments were divided into 5 groups: a normal control group, an interference control group (shRNA-NC); an interference group (sh-DESI2); an overexpression control group (NC), an overexpression group (DESI2). Quantitative real time polymerase chain reaction (qRT-PCR) was used to screen the appropriate interference sequence. The silencing and overexpression of DESI2 were confirmed by qRT-PCR and western blotting. Cell cycling, apoptosis, invasion, and the expression of phosphatidylinositol-3-kinase (PI3K)-protein kinase B (AKT)-mammalian target of rapamycin (mTOR) pathway and caspase 3 were measured. Overexpression and silence of DESI2 were successfully designed in two pancreatic cancer cells, and the interference effect of sh-DESI2-3 showed the best silencing effects. The biological activities of DESI2 were detected in both ASPC-1 and PANCE-1 cells. Our results showed that cell proliferation was significantly increased in the sh-DESI2 group, while decreased in DESI2 group compared with the control group in both cell lines. In ASPC-1 cells, the events in G1 phase decreased and in S phase increased obviously in the sh-DESI2 group, compared with control group. An opposite result was found when DESI2 was overexpressed. In PANCE-1 cells, the events in G2 phase were higher in the sh-DESI2 group, while in the DESI2 group was significantly lower than that in control group. In ASPC-1 and PANCE-1 cells, sh-DESI2 group showed decreased apoptosis, increased cell invasion and increased expression of AKT, p-Akt, PI3K, p-PI3K, p-mTOR and mTOR and decreased caspase 3 expression compared with the control group, while overexpression of DESI2 leaded to increased apoptosis, decreased cell invasion and reduced expression of AKT, p-Akt, PI3K, p-PI3K, p-mTOR and mTOR and increased expression of caspase 3. DESI2 regulates the proliferation and apoptosis of pancreatic cancer cells through PI3K/AKT/mTOR signaling pathway.
 
@@ -4527,7 +4525,7 @@ This study aimed to investigate the effects of desumoylating isopeptidase 2 (DES
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30456390
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Disruption of stromal hedgehog signaling initiates RNF5-mediated proteasomal degradation of PTEN and accelerates pancreatic tumor growth PMID: 30456390 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Disruption of stromal hedgehog signaling initiates RNF5-mediated proteasomal degradation of PTEN and accelerates pancreatic tumor growth PMID: 30456390 '></div>
 
 The contribution of the tumor microenvironment to pancreatic ductal adenocarcinoma (PDAC) development is currently unclear. We therefore examined the consequences of disrupting paracrine Hedgehog (HH) signaling in PDAC stroma. Herein, we show that ablation of the key HH signaling gene Smoothened (Smo) in stromal fibroblasts led to increased proliferation of pancreatic tumor cells. Furthermore, Smo deletion resulted in proteasomal degradation of the tumor suppressor PTEN and activation of oncogenic protein kinase B (AKT) in fibroblasts. An unbiased proteomic screen identified RNF5 as a novel E3 ubiquitin ligase responsible for degradation of phosphatase and tensin homolog (PTEN) in Smo-null fibroblasts. Ring Finger Protein 5 (Rnf5) knockdown or pharmacological inhibition of glycogen synthase kinase 3β (GSKβ), the kinase that marks PTEN for ubiquitination, rescued PTEN levels and reversed the oncogenic phenotype, identifying a new node of PTEN regulation. In PDAC patients, low stromal PTEN correlated with reduced overall survival. Mechanistically, PTEN loss decreased hydraulic permeability of the extracellular matrix, which was reversed by hyaluronidase treatment. These results define non-cell autonomous tumor-promoting mechanisms activated by disruption of the HH/PTEN axis and identifies new targets for restoring stromal tumor-suppressive functions.
 
@@ -4553,7 +4551,7 @@ The contribution of the tumor microenvironment to pancreatic ductal adenocarcino
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30406400
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The Long Noncoding RNA HOST2 Promotes Gemcitabine Resistance in Human Pancreatic Cancer Cells PMID: 30406400 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : The Long Noncoding RNA HOST2 Promotes Gemcitabine Resistance in Human Pancreatic Cancer Cells PMID: 30406400 '></div>
 
 Our study was aimed to identify the fundamental role of lncRNA HOST2 in gemcitabine resistance regulation in human pancreatic cancer cells. The levels of HOST2 in pancreatic cancer cell lines were measured by quantitative real-time PCR (qRT-PCR). Due to high expression and strong gemcitabine resistance, Hs766T and AsPC-1 cell lines were selected to be knockdown the expression of HOST2 by transfection sh-HOST2. After manipulation of HOST2, the cell proliferation induced by gemcitabine was examined by CCK-8 assay. Next, colony formation ability of Hs766T and AsPC-1 cell lines was determined by clone-forming assay. At last, the relationship between HOST2 and cell apoptosis in Hs766T and AsPC-1 cell lines was evaluated by flow cytometry. QRT-PCR revealed that HOST2 was overexpressed in six pancreas neoplasm cell lines compared with normal cell lines HPDE6-C7. HOST2 expression levels in group resistant to gemcitabine were higher than the group sensitive to gemcitabine. Additionally, CCK-8 assay verified that cell proliferation was inhibited by sh-HOST2 with or without gemcitabine treatment. Furthermore, clone-forming assay revealed that colony formation ability was weakened by down-regulated HOST2 with or without gemcitabine treatment. Flow cytometry revealed that cell apoptosis induced by gemcitabine was promoted by sh-HOST2. In conclusion, down-regulated HOST2 inhibited proliferation and promoted apoptosis of pancreas cancer cells with or without gemcitabine treatment. Thus, HOST2 is a potential therapeutic target for gemcitabine chemoresistance in pancreatic neoplasms.
 
@@ -4578,7 +4576,7 @@ Our study was aimed to identify the fundamental role of lncRNA HOST2 in gemcitab
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30323973
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Preprogramming therapeutic response of PI3K/mTOR dual inhibitor via the regulation of EHMT2 and p27 in pancreatic cancer PMID: 30323973 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Preprogramming therapeutic response of PI3K/mTOR dual inhibitor via the regulation of EHMT2 and p27 in pancreatic cancer PMID: 30323973 '></div>
 
 Pancreatic ductal adenocarcinoma (PDAC) is an aggressive disease, which is characterized by its high invasiveness, rapid progression, and profound resistance to therapy. Gemcitabine is the first-line treatment option for pancreatic cancer patients, but the overall survival is quite low. Therefore, it is an urgent issue to identify new molecules for improved therapies, with better efficacy and less toxicity. Our previous data indicated that Euchromatic histone-lysine N-methyltransferase 2 (EHMT2) functions as a therapeutic target to override GEM resistance and promote metastasis in the treatment of pancreatic cancer. Here, we screened a small-molecule library of 143 protein kinase inhibitors, to verify cytotoxicity of different inhibitors in EHMT2-depleted cells. We determined that the EHMT2 plays a promising modulating role for targeted PI3K/mTOR inhibition. Our data revealed that EHMT2 down-regulates p27 expression, and this contributes to tumor growth. The depletion of EHMT2, ectopic expression of methyltransferase-dead EHMT2, or treatment with an EHMT2 inhibitor decreases H3K9 methylation of p27 promoter and induces G1 arrest in PANC-1 pancreatic cancer cells. Consistent with these findings, in vivo tumor xenograft models, primary tumors, and the Oncomine database utilizing bioinformatics approaches, also show a negative correlation between EHMT2 and p27. We further demonstrated that low EHMT2 elevated BEZ235 sensitivity through up-regulation of p27 in PDAC cells; high levels of SKP2 decrease BEZ235 responsiveness in PDAC cells. Altogether, our results suggest the EHMT2-p27 axis as a potential marker to modulate cell response to dual PI3K/mTOR inhibition, which might provide a strategy in personalized therapeutics for PDAC patients.
 
@@ -4615,7 +4613,7 @@ Pancreatic ductal adenocarcinoma (PDAC) is an aggressive disease, which is chara
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30301635
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Evaluation of NCAM and c-Kit as hepatic progenitor cell markers for intrahepatic cholangiocarcinomas PMID: 30301635 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Evaluation of NCAM and c-Kit as hepatic progenitor cell markers for intrahepatic cholangiocarcinomas PMID: 30301635 '></div>
 
 BACKGROUND: Intrahepatic cholangiocarcinomas (ICCs) are primary liver malignancies and are the second most common type of malignancy after hepatocellular carcinoma. ICCs are heterogeneous in clinical features, genotype, and biological behavior, suggesting that ICCs can initiate in different cell lineages.
 AIM: We investigated intrahepatic cholangiocarcinoma RBE cell lines for the markers neural cell adhesion molecule (NCAM) and c-Kit, which possess hepatic progenitor cells properties.
@@ -4660,7 +4658,7 @@ CONCLUSION: NCAM + c-Kit + subset cells in RBE may have properties of he
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30474270
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : LncRNA H19/miR-194/PFTK1 axis modulates the cell proliferation and migration of pancreatic cancer PMID: 30474270 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : LncRNA H19/miR-194/PFTK1 axis modulates the cell proliferation and migration of pancreatic cancer PMID: 30474270 '></div>
 
 Pancreatic ductal adenocarcinoma (PDAC) remains a huge challenge due to its high mortality and morbidity; gene therapy might be a promising treatment for PDAC. The critical role of Wnt-signaling pathway in cancer pathogenesis has been widely recognized; cyclin-dependent kinase 14 (CDK14, PFTK1)-induced low-density lipoprotein receptor-related proteins 5/6 (LRP5/6) phosphorylation is an important issue in Wnt-signaling activation. Long noncoding RNA (LncRNA)-microRNA (miRNA)-messenger RNA (mRNA) modulating the pathogenesis of cancers has been regarded as a major mechanism. In the current study, upregulated lncRNAs positively correlated with PFTK1 were analyzed and selected using The Cancer Genome Atlas (TCGA) database. Of them, lncRNA H19 can activate Wnt signaling in cancers. In PDAC tissues, the expression of H19 and PFTK1 were upregulated; H19 knockdown suppressed the cell proliferation and migration of PDAC, while PFTK1 overexpression partially attenuated the suppressive effect of H19 knockdown. As analyzed by TCGA and predicted by online tools, miR-194 was negatively correlated with PFTK1 and might bind to both H19 and PFTK1, which was further confirmed by luciferase reporter and RNA immunoprecipitation assays. Moreover, the effect of H19 knockdown on PFTK1 protein and the cell proliferation and migration could be partially reversed by miR-194 inhibition; H19/miR-194 axis modulated PDAC cell proliferation and migration through PFTK1 downstream Wnt signaling. Results suggested that rescuing miR-194 expression in PDAC can inhibit lncRNA H19 and PFTK1 expression, subsequently suppressing PDAC cell proliferation and migration. Due to the complexity of the lncRNA-miRNA-mRNA network, further in vivo experiments examining potential side effects are needed in future study to explore the clinical application of these findings.
 
@@ -4686,7 +4684,7 @@ Pancreatic ductal adenocarcinoma (PDAC) remains a huge challenge due to its high
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315093
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : SWI/SNF component ARID1A restrains pancreatic neoplasia formation PMID: 30315093 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : SWI/SNF component ARID1A restrains pancreatic neoplasia formation PMID: 30315093 '></div>
 
 OBJECTIVE: ARID1A is commonly mutated in pancreatic ductal adenocarcinoma (PDAC), but the functional effects of ARID1A mutations in the pancreas are unclear. Understanding the molecular mechanisms that drive PDAC formation may lead to novel therapies.
 DESIGN: Concurrent conditional Arid1a deletion and Kras activation mutations were modelled in mice. Small-interfering RNA (siRNA) and CRISPR/Cas9 were used to abrogate ARID1A in human pancreatic ductal epithelial cells.
@@ -4714,7 +4712,7 @@ CONCLUSIONS: Arid1a suppresses pancreatic neoplasia in a compartment-specific ma
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30405106
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Genetic dissection of the miR-200-Zeb1 axis reveals its importance in tumor differentiation and invasion PMID: 30405106 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Genetic dissection of the miR-200-Zeb1 axis reveals its importance in tumor differentiation and invasion PMID: 30405106 '></div>
 
 The epithelial-to-mesenchymal transition (EMT) is an important mechanism for cancer progression and metastasis. Numerous in vitro and tumor-profiling studies point to the miR-200-Zeb1 axis as crucial in regulating this process, yet in vivo studies involving its regulation within a physiological context are lacking. Here, we show that miR-200 ablation in the Rip-Tag2 insulinoma mouse model induces beta-cell dedifferentiation, initiates an EMT expression program, and promotes tumor invasion. Strikingly, disrupting the miR-200 sites of the endogenous Zeb1 locus causes a similar phenotype. Reexpressing members of the miR-200 superfamily in vitro reveals that the miR-200c family and not the co-expressed and closely related miR-141 family is responsible for regulation of Zeb1 and EMT. Our results thus show that disrupting the in vivo regulation of Zeb1 by miR-200c is sufficient to drive EMT, thus highlighting the importance of this axis in tumor progression and invasion and its potential as a therapeutic target.
 
@@ -4740,7 +4738,7 @@ The epithelial-to-mesenchymal transition (EMT) is an important mechanism for can
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30423296
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : RIP1 Kinase Drives Macrophage-Mediated Adaptive Immune Tolerance in Pancreatic Cancer PMID: 30423296 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : RIP1 Kinase Drives Macrophage-Mediated Adaptive Immune Tolerance in Pancreatic Cancer PMID: 30423296 '></div>
 
 Pancreatic ductal adenocarcinoma (PDA) is characterized by immune tolerance and immunotherapeutic resistance. We discovered upregulation of receptor-interacting serine/threonine protein kinase 1 (RIP1) in tumor-associated macrophages (TAMs) in PDA. To study its role in oncogenic progression, we developed a selective small-molecule RIP1 inhibitor with high in vivo exposure. Targeting RIP1 reprogrammed TAMs toward an MHCIIhiTNFα+IFNγ+ immunogenic phenotype in a STAT1-dependent manner. RIP1 inhibition in TAMs resulted in cytotoxic T cell activation and T helper cell differentiation toward a mixed Th1/Th17 phenotype, leading to tumor immunity in mice and in organotypic models of human PDA. Targeting RIP1 synergized with PD1-and inducible co-stimulator-based immunotherapies. Tumor-promoting effects of RIP1 were independent of its co-association with RIP3. Collectively, our work describes RIP1 as a checkpoint kinase governing tumor immunity.
 
@@ -4764,7 +4762,7 @@ Pancreatic ductal adenocarcinoma (PDA) is characterized by immune tolerance and 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29249692
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : β2 Adrenergic-Neurotrophin Feedforward Loop Promotes Pancreatic Cancer PMID: 29249692 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : β2 Adrenergic-Neurotrophin Feedforward Loop Promotes Pancreatic Cancer PMID: 29249692 '></div>
 
 Catecholamines stimulate epithelial proliferation, but the role of sympathetic nerve signaling in pancreatic ductal adenocarcinoma (PDAC) is poorly understood. Catecholamines promoted ADRB2-dependent PDAC development, nerve growth factor (NGF) secretion, and pancreatic nerve density. Pancreatic Ngf overexpression accelerated tumor development in LSL-Kras+/G12D;Pdx1-Cre (KC) mice. ADRB2 blockade together with gemcitabine reduced NGF expression and nerve density, and increased survival of LSL-Kras+/G12D;LSL-Trp53+/R172H;Pdx1-Cre (KPC) mice. Therapy with a Trk inhibitor together with gemcitabine also increased survival of KPC mice. Analysis of PDAC patient cohorts revealed a correlation between brain-derived neurotrophic factor (BDNF) expression, nerve density, and increased survival of patients on nonselective β-blockers. These findings suggest that catecholamines drive a feedforward loop, whereby upregulation of neurotrophins increases sympathetic innervation and local norepinephrine accumulation.
 
@@ -4789,7 +4787,7 @@ Catecholamines stimulate epithelial proliferation, but the role of sympathetic n
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30266763
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Host IDO2 Gene Status Influences Tumor Progression and Radiotherapy Response in KRAS-Driven Sporadic Pancreatic Cancers PMID: 30266763 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Host IDO2 Gene Status Influences Tumor Progression and Radiotherapy Response in KRAS-Driven Sporadic Pancreatic Cancers PMID: 30266763 '></div>
 
 Purpose: Heritable genetic variations can affect the inflammatory tumor microenvironment, which can ultimately affect cancer susceptibility and clinical outcomes. Recent evidence indicates that IDO2, a positive modifier in inflammatory disease models, is frequently upregulated in pancreatic ductal adenocarcinoma (PDAC). A unique feature of IDO2 in humans is the high prevalence of two inactivating single-nucleotide polymorphisms (SNP), which affords the opportunity to carry out loss-of-function studies directly in humans. In this study, we sought to address whether genetic loss of IDO2 may influence PDAC development and responsiveness to treatment.Experimental Design: Transgenic Ido2+/+ and Ido2-/- mice in which oncogenic KRAS is activated in pancreatic epithelial cells were evaluated for PDAC. Two patient data sets (N = 200) were evaluated for the two IDO2-inactivating SNPs together with histologic, RNA expression, and clinical survival data.Results: PDAC development was notably decreased in the Ido2-/- mice (30% vs. 10%, P < 0.05), with a female predominance similar to the association observed for one of the human SNPs. In patients, the biallelic occurrence of either of the two IDO2-inactivating SNPs was significantly associated with markedly improved disease-free survival in response to adjuvant radiotherapy (P < 0.01), a treatment modality that has been highly debated due to its variable efficacy.Conclusions: The results of this study provide genetic support for IDO2 as a contributing factor in PDAC development and argue that IDO2 genotype analysis has the immediate potential to influence the PDAC care decision-making process through stratification of those patients who stand to benefit from adjuvant radiotherapy.
 
@@ -4817,7 +4815,7 @@ Purpose: Heritable genetic variations can affect the inflammatory tumor microenv
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30296435
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Levels of the Autophagy-Related 5 Protein Affect Progression and Metastasis of Pancreatic Tumors in Mice PMID: 30296435 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Levels of the Autophagy-Related 5 Protein Affect Progression and Metastasis of Pancreatic Tumors in Mice PMID: 30296435 '></div>
 
 BACKGROUND AND AIMS: Cells in pancreatic ductal adenocarcinoma (PDAC) undergo autophagy, but its effects vary with tumor stage and genetic factors. We investigated the consequences of varying levels of the autophagy-related 5 (Atg5) protein on pancreatic tumor formation and progression.
 METHODS: We generated mice that express oncogenic Kras in primary pancreatic cancer cells and have homozygous disruption of Atg5 (A5;Kras) or heterozygous disruption of Atg5 (A5+/-;Kras), and compared them with mice with only oncogenic Kras (controls). Pancreata were analyzed by histology and immunohistochemistry. Primary tumor cells were isolated and used to perform transcriptome, metabolome, intracellular calcium, extracellular cathepsin activity, and cell migration and invasion analyses. The cells were injected into wild-type littermates, and orthotopic tumor growth and metastasis were monitored. Atg5 was knocked down in pancreatic cancer cell lines using small hairpin RNAs; cell migration and invasion were measured, and cells were injected into wild-type littermates. PDAC samples were obtained from independent cohorts of patients and protein levels were measured on immunoblot and immunohistochemistry; we tested the correlation of protein levels with metastasis and patient survival times.
@@ -4846,7 +4844,7 @@ CONCLUSIONS: In mice that express oncogenic Kras in pancreatic cells, heterozygo
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30342032
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ZIP4 Promotes Muscle Wasting and Cachexia in Mice with Orthotopic Pancreatic Tumors by Stimulating RAB27B-Regulated Release of Extracellular Vesicles From Cancer Cells PMID: 30342032 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ZIP4 Promotes Muscle Wasting and Cachexia in Mice with Orthotopic Pancreatic Tumors by Stimulating RAB27B-Regulated Release of Extracellular Vesicles From Cancer Cells PMID: 30342032 '></div>
 
 BACKGROUND & AIMS: Cachexia, which includes muscle wasting, is a frequent complication of pancreatic cancer. There are no therapies that reduce cachexia and increase patient survival, so it is important to learn more about its mechanisms. The zinc transporter ZIP4 promotes growth and metastasis of pancreatic tumors. We investigated its effects on muscle catabolism via extracellular vesicle (EV)-mediated stimulation of mitogen-activated protein kinase 14 (p38MAPK).
 METHODS: We studied nude mice with orthotopic tumors grown from human pancreatic cancer cell lines (AsPC-1 and BxPC-3); tumors were removed 8 days after cell injection and analyzed by histology. Mouse survival was analyzed by Kaplan-Meier curves. ZIP4 was knocked down in AsPC-1 and BxPC-3 cells with small hairpin RNAs; cells with empty vectors were used as controls. Muscle tissues were collected from mice and analyzed by histology and immunohistochemistry. Conditioned media from cell lines and 3-dimensional spheroid/organoid cultures of cancer cells was applied to C2C12 myotubes. The myotubes and the media were analyzed by immunoblots, ELISAs, and immunofluorescence microscopy. EVs were isolated from conditioned media and analyzed by immunoblots.
@@ -4878,7 +4876,7 @@ CONCLUSIONS: ZIP4 promotes growth of orthotopic pancreatic tumors in mice and lo
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30343272
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth PMID: 30343272 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth PMID: 30343272 '></div>
 
 BACKGROUND AND AIMS: Pancreatic ductal adenocarcinoma (PDAC) is a very aggressive tumour with a poor prognosis using current treatments. Targeted therapies may offer a new avenue for more effective strategies. Dual-specificity tyrosine regulated kinase 1A (DYRK1A) is a pleiotropic kinase with contradictory roles in different tumours that is uncharacterised in PDAC. Here, we aimed to investigate the role of DYRK1A in pancreatic tumorigenesis.
 DESIGN: We analysed DYRK1A expression in PDAC genetic mouse models and in patient samples. DYRK1A function was assessed with knockdown experiments in pancreatic tumour cell lines and in PDAC mouse models with genetic reduction of Dyrk1a dosage. Furthermore, we explored a mechanistic model for DYRK1A activity.
@@ -4906,7 +4904,7 @@ CONCLUSIONS: These findings reveal that DYRK1A contributes to tumour growth in P
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29928898
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Transient High Pressure in Pancreatic Ducts Promotes Inflammation and Alters Tight Junctions via Calcineurin Signaling in Mice PMID: 29928898 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Transient High Pressure in Pancreatic Ducts Promotes Inflammation and Alters Tight Junctions via Calcineurin Signaling in Mice PMID: 29928898 '></div>
 
 BACKGROUND & AIMS: Pancreatitis after endoscopic retrograde cholangiopancreatography (PEP) is thought to be provoked by pancreatic ductal hypertension, via unknown mechanisms. We investigated the effects of hydrostatic pressures on the development of pancreatitis in mice.
 METHODS: We performed studies with Swiss Webster mice, B6129 mice (controls), and B6129 mice with disruption of the protein phosphatase 3, catalytic subunit, βisoform gene (Cnab-/- mice). Acute pancreatitis was induced in mice by retrograde biliopancreatic ductal or intraductal infusion of saline with a constant hydrostatic pressure while the proximal common bile duct was clamped -these mice were used as a model of PEP. Some mice were given pancreatic infusions of adeno-associated virus 6-nuclear factor of activated T-cells-luciferase to monitor calcineurin activity or the calcineurin inhibitor FK506. Blood samples and pancreas were collected at 6 and 24 hours and analyzed by enzyme-linked immunosorbent assay, histology, immunohistochemistry, or fluorescence microscopy. Ca2+ signaling and mitochondrial permeability were measured in pancreatic acinar cells isolated 15 minutes after PEP induction. Ca2+-activated phosphatase calcineurin within the pancreas was tracked in vivo over 24 hours.
@@ -4937,7 +4935,7 @@ CONCLUSIONS: Transient high ductal pressure produces pancreatic inflammation and
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30352906
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Elastography can map the local inverse relationship between shear modulus and drug delivery within the pancreatic ductal adenocarcinoma microenvironment PMID: 30352906 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Elastography can map the local inverse relationship between shear modulus and drug delivery within the pancreatic ductal adenocarcinoma microenvironment PMID: 30352906 '></div>
 
 PURPOSE: High tissue pressure prevents chemotherapeutics from reaching the core of pancreatic tumors. Therefore, targeted therapies have been developed to reduce this pressure. While point probes have shown the effectiveness of these pressure-reducing therapies via single location estimates, ultrasound elastography is now widely available as an imaging technique to provide real-time spatial maps of shear modulus (tissue stiffness). However, the relationship between shear modulus and the underlying tumor microenvironmental causes has not been investigated. In this work, elastography was used to investigate how shear modulus influences drug delivery in situ, and how it correlates with collagen density, hyaluronic acid content, and patent vessel density, features of the tumor microenvironment known to influence tissue pressure.
 EXPERIMENTAL DESIGN: Intravenous injection of verteporfin, an approved human fluorescent drug, was used in two pancreatic cancer xenograft models (AsPC1 (n=25) and BxPC-3 (n=25)).
@@ -4982,7 +4980,7 @@ CONCLUSIONS: These results demonstrate that elastography could guide targeted th
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30286013
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Understanding Pancreatic Diseases Using Animated Pancreas Patient: Informing Patients for Better Health Outcomes With Visual Formats of Learning PMID: 30286013 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Understanding Pancreatic Diseases Using Animated Pancreas Patient: Informing Patients for Better Health Outcomes With Visual Formats of Learning PMID: 30286013 '></div>
 
 OBJECTIVES: The aim of this study was to evaluate the impact of Animated Pancreas Patient (APP) educational modules (APP website and YouTube) on pancreas education, awareness, and health outcomes.
 METHODS: This was a retrospective study of APP metrics data from September 2013 to October 2017. We evaluated audience reach (number of visit sessions, unique visitors, page views) and calculated top views by media type (animation, expert video, patient video, and slide show) and top retention videos from the modules. We also assessed the educational impact through learner feedback survey.
@@ -5010,7 +5008,7 @@ CONCLUSIONS: Pancreas education in visual formats of learning provided by APP de
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315384
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Fluorescent-Guided Surgery to Augment Pancreatic Cancer Surgery PMID: 30315384 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Fluorescent-Guided Surgery to Augment Pancreatic Cancer Surgery PMID: 30315384 '></div>
 
 
 
@@ -5035,7 +5033,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315384
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30325860
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Standard Operating Procedures for Biospecimen Collection, Processing, and Storage: From the Consortium for the Study of Chronic Pancreatitis, Diabetes, and Pancreatic Cancer PMID: 30325860 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Standard Operating Procedures for Biospecimen Collection, Processing, and Storage: From the Consortium for the Study of Chronic Pancreatitis, Diabetes, and Pancreatic Cancer PMID: 30325860 '></div>
 
 High-quality and well-annotated biorepositories are needed to better understand the pathophysiology and biologic mechanisms of chronic pancreatitis (CP) and its consequences. We report a methodology for the development of a robust standard operating procedure (SOP) for a biorepository based on the experience of the clinical centers within the consortium to study Chronic Pancreatitis, Diabetes and Pancreas Cancer Clinical Centers (CPDPC), supported by the National Cancer Institute and the National Institute for Diabetes and Digestive and Kidney Diseases as a unique multidisciplinary model to study CP, diabetes, and pancreatic cancer in both children and adults. Standard operating procedures from the CPDPC centers were evaluated and consolidated. The literature was reviewed for standard biorepository operating procedures that facilitated downstream molecular analysis. The existing literature on biobanking practices was harmonized with the SOPs from the clinical centers to produce a biorepository for pancreatic research. This article reports the methods and basic principles behind the creation of SOPs to develop a biorepository for the CPDPC. These will serve as a guide for investigators developing biorepositories in pancreas research. Rigorous and meticulous adherence to standardized biospecimen collection will facilitate investigations to better understand the pathophysiology and biologic mechanisms of CP, diabetes, and pancreatic cancer.
 
@@ -5059,7 +5057,7 @@ High-quality and well-annotated biorepositories are needed to better understand 
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=28029673
 
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Histopathologic Analysis of Pancreaticoduodenectomy Specimen PMID: 28029673 '></div>
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Histopathologic Analysis of Pancreaticoduodenectomy Specimen PMID: 28029673 '></div>
 
 INTRODUCTION: Whipple's Pancreaticoduodenectomy has increasingly been used as an appropriate resectional procedure for tumors of the periampullary region which are pancreatic, periampullary, ampullary and biliary tumors. Our aim was to study the distribution and histopathologic features of these tumors and to examine local trends of periampullary neoplasms resected with a PD.
 METHODS: A descriptive study was conducted in the department of Pathology, Kathmandu Medical College Teaching Hospital from July 2013 to June 2016.

@@ -1,20 +1,20 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_document:
-    df_print: kable
-    highlight: null
-    keep_md: yes
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-    toc_depth: 5
   html_notebook: 
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -54,7 +54,7 @@ altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.c
 
 altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
-addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.org/journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : "
+addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : "
 
 addthis_String2 <- "'></div>"
 
