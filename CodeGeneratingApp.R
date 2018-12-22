@@ -1,6 +1,11 @@
+library(shiny)
+library(RefManageR)
+
 ui <- fluidPage(
     textInput("PMID", ""),
     tags$br(),
+    # textOutput("ArticleCitation"),
+    # tags$br(),
     p("---"),
     textOutput("CodeStart"),
     tags$br(),
@@ -17,6 +22,8 @@ ui <- fluidPage(
     textOutput("altmetric"),
     tags$br(),
     textOutput("addthis1"),
+    tags$br(),
+    p("Sys.sleep(1)"),
     tags$br(),
     textOutput("CodeEnd"),
     tags$br(),
@@ -48,6 +55,22 @@ server <-
     function(input, output) {
         
         
+        
+        
+        output$ArticleCitation <- renderText(
+            {
+                Article <- RefManageR::ReadPubMed(trimws(input$PMID), database = 'PubMed')
+                paste(Article$title, Article$abstract, sep = "\n") 
+            }
+        )
+        
+        
+        # output$ArticleAbstract <- renderText(
+        #     {
+        #         Article$abstract
+        #     }
+        # )
+        # 
         
         output$CodeStart <-
             renderText({
