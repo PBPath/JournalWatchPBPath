@@ -17,7 +17,7 @@ output:
     theme: paper
   word_document:
     toc: yes
-date: "Last Update on 2018-12-21"
+date: "Last Update on 2018-12-25"
 subtitle: "October November 2018"
 ---
 
@@ -48,7 +48,7 @@ subtitle: "October November 2018"
 
 **Wellcome to the PBPath Journal Watch!** 
 
-This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, molecular pathology and cytopathology among others. The articles in each category are in no particular order.  
+This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order.  
 
 Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)*.  
 
@@ -158,37 +158,6 @@ The expression of five members of the TNF receptor superfamily and two of their 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.14670/HH-18-054' data-hide-no-mentions='true'></span>
 
 </details>
-
-
-
----
-
-
-
-
-<details open> <summary>
-- **Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer**
-</summary> 
-
-*British journal of cancer 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30377341
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer PMID: 30377341 '></div>
-
-BACKGROUND: Pancreatic cancer (PC) hijacks innate cellular processes to promote cancer growth. We hypothesized that PC exploits PD-1/PD-L1 not only to avoid immune responses, but to directly enhance growth. We also hypothesized that immune checkpoint inhibitors (ICIs) have direct cytotoxicity in PC. We sought to elucidate therapeutic targeting of PD-1/PD-L1.
-METHODS: PD-1 was assessed in PC cells, patient-derived organoids (PDOs), and clinical tissues. Then, PC cells were exposed to PD-L1 to evaluate proliferation. To test PD-1/PD-L1 signaling, cells were exposed to PD-L1 and MAPK was examined. Radio-immunoconjugates with anti-PD-1 drugs were developed to test uptake in patient-derived tumor xenografts (PDTXs). Next, PD-1 function was assessed by xenografting PD-1-knockdown cells. Finally, PC models were exposed to ICIs.
-RESULTS: PD-1 expression was demonstrated in PCs. PD-L1 exposure increased proliferation and activated MAPK. Imaging PDTXs revealed uptake of radio-immunoconjugates. PD-1 knockdown in vivo revealed 67% smaller volumes than controls. Finally, ICI treatment of both PDOs/PDTXs demonstrated cytotoxicity and anti-MEK1/2 combined with anti-PD-1 drugs produced highest cytotoxicity in PDOs/PDTXs.
-CONCLUSIONS: Our data reveal PCs innately express PD-1 and activate druggable oncogenic pathways supporting PDAC growth. Strategies directly targeting PC with novel ICI regimens may work with adaptive immune responses for optimal cytotoxicity.
-
-<!-- doi: https://doi.org/10.1038/s41416-018-0298-0 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41416-018-0298-0' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41416-018-0298-0' data-hide-no-mentions='true'></span>
-
-</details>
-
 
 ---
 
@@ -321,6 +290,34 @@ Although pathologic lesions in the pancreas are 3-dimensional (3D) complex struc
 
 ---
 
+
+
+<details open> <summary>
+- **Tenascin C, Fibronectin, and Tumor-Stroma Ratio in Pancreatic Ductal Adenocarcinoma**
+</summary> 
+
+*Pancreas 2019 Jan;48(1):43-48*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451798
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tenascin C, Fibronectin, and Tumor-Stroma Ratio in Pancreatic Ductal Adenocarcinoma PMID: 30451798 '></div>
+
+OBJECTIVES: Pancreatic ductal adenocarcinoma (PDAC) is characterized by abundant stroma with increased expression of tenascin C and fibronectin. Their role and tumor-stroma ratio in PDAC are not well known. The aim of this study was to evaluate tenascin C and fibronectin expression and tumor-stroma ratio and their prognostic relevance in PDAC.
+METHODS: Ninety-five resected PDACs were immunohistochemically stained for tenascin C and fibronectin, and the expression was separately assessed in tumor bulk and front. Tumor-stroma ratio was determined with sections stained with hematoxylin-eosin.
+RESULTS: Tenascin C and fibronectin were abundantly expressed in the stroma of PDAC, but absent in adjacent normal pancreatic tissue. Fibronectin expression of the bulk was associated with high T class (P = 0.045). In the main analysis, tenascin C and fibronectin expression and tumor-stroma ratio were not associated with patient survival. In a subgroup analysis of early-stage PDAC (T1-T2 tumors), high tenascin C expression in the tumor bulk was associated with poor prognosis (hazard ratio, 8.23; 95% confidence interval, 2.71-24.96).
+CONCLUSIONS: Tenascin C and fibronectin are abundantly expressed in PDAC, but they seem to have no major association with patient survival. However, in early-stage PDAC, tenascin C expression of the tumor bulk may have prognostic impact. Tumor-stroma ratio has no prognostic value in PDAC.
+
+<!-- doi: https://doi.org/10.1097/MPA.0000000000001195 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/MPA.0000000000001195' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001195' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -331,32 +328,6 @@ Although pathologic lesions in the pancreas are 3-dimensional (3D) complex struc
 
 Pancreas TNM staging, Margins, Survival
 
-
-
-
----
-
-
-
-<details open> <summary>
-- **ASO Author Reflections: Even in Pancreatic Cancer, not all N Diseases are Created Equal**
-</summary> 
-
-*Annals of surgical oncology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30284129
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Even in Pancreatic Cancer, not all N Diseases are Created Equal PMID: 30284129 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1245/s10434-018-6813-y -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1245/s10434-018-6813-y' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1245/s10434-018-6813-y' data-hide-no-mentions='true'></span>
-
-</details>
 
 
 
@@ -579,7 +550,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30285059
 - **Role of adjuvant therapy in resected stage IA subcentimeter (T1a/T1b) pancreatic cancer**
 </summary> 
 
-*Cancer 2018 Nov;():*
+*Cancer 2019 Jan;125(1):57-67*
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30457666
 
@@ -587,7 +558,7 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30457666
 
 BACKGROUND: The standard of care for patients with resected stage I to stage III pancreatic ductal adenocarcinoma (PDAC) is adjuvant gemcitabine-based chemotherapy. The role of adjuvant treatment in patients with subcentimeter, stage IA PDAC is unknown. The current study evaluated the effect of adjuvant treatment on survival outcomes among patients with American Joint Committee on Cancer/International Union Against Cancer stage IA (T1N0) resected PDAC using the National Cancer Data Base (NCDB).
 METHODS: A retrospective review of the NCDB was conducted for patients diagnosed with T1 (tumor limited to the pancreas and measuring ≤2 cm in greatest dimension), lymph node-negative (N0), resected PDAC between 2004 and 2013. Patient demographics, histology, adjuvant treatment, and survival trends were examined. Kaplan-Meier analysis and log-rank tests were performed to determine the unadjusted association between overall survival (OS), tumor size, and treatment.
-RESULTS: A total of 876 patients met the inclusion criteria. The patients had a mean age of 66.2 years (range, 32-90 years); approximately 83.3% were white (730 patients) and 53.1% were female (465 patients). Approximately 45.9% of the patients had moderately differentiated tumor histology (402 patients); 70.0% (613 patients) had tumors measuring 1 to 2 cm (T1c) and 30.0% (263 patients) had tumors measuring <1 cm (T1a/T1b). Approximately 94.2% of patients had negative surgical margins (815 patients) and 46.9% (410 patients) received adjuvant therapy. The median OS was significantly different for patients who received adjuvant therapy compared with patients who did not (70.7 months vs 46.9 months; P=.0001). For patients with tumors measuring <1 cm, survival was not found to be significantly different between patients who received adjuvant treatment compared with those who did not (not reached vs 85.3 months; P=.54). In the multivariable analysis, none of the covariates (treatment group, Charlson-Deyo Score, age, insurance, and facility status) demonstrated significant differences for patients with tumors measuring <1 cm.
+RESULTS: A total of 876 patients met the inclusion criteria. The patients had a mean age of 66.2 years (range, 32-90 years); approximately 83.3% were white (730 patients) and 53.1% were female (465 patients). Approximately 45.9% of the patients had moderately differentiated tumor histology (402 patients); 70.0% (613 patients) had tumors measuring 1 to 2 cm (T1c) and 30.0% (263 patients) had tumors measuring <1 cm (T1a/T1b). Approximately 94.2% of patients had negative surgical margins (815 patients) and 46.9% (410 patients) received adjuvant therapy. The median OS was significantly different for patients who received adjuvant therapy compared with patients who did not (70.7 months vs 46.9 months; P = .0001). For patients with tumors measuring <1 cm, survival was not found to be significantly different between patients who received adjuvant treatment compared with those who did not (not reached vs 85.3 months; P = .54). In the multivariable analysis, none of the covariates (treatment group, Charlson-Deyo Score, age, insurance, and facility status) demonstrated significant differences for patients with tumors measuring <1 cm.
 CONCLUSIONS: The current study is the first to demonstrate no survival benefit for adjuvant therapy in patients with resected subcentimeter PDAC.
 
 <!-- doi: https://doi.org/10.1002/cncr.31787 -->
@@ -907,51 +878,6 @@ CONCLUSIONS: Concomitant IPMN in PDAC is an independent predictive factor for th
 ---
 
 \pagebreak
-
-#### SPN
-
-Solid Pseudopapillary Neoplasm
-
-
-
-
----
-
-
-
-<details open> <summary>
-- **CD138/syndecan-1 in pancreatic solid and pseudopapillary neoplasms**
-</summary> 
-
-*Journal of clinical pathology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30275097
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : CD138/syndecan-1 in pancreatic solid and pseudopapillary neoplasms PMID: 30275097 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1136/jclinpath-2018-205458 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1136/jclinpath-2018-205458' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1136/jclinpath-2018-205458' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
 
 
 
@@ -1436,34 +1362,6 @@ CONCLUSIONS: The 8th edition of the AJCC staging system appears to provide high 
 
 
 
-
----
-
-
-
-<details open> <summary>
-- **Statin use and reduced risk of biliary tract cancers in the UK Clinical Practice Research Datalink**
-</summary> 
-
-*Gut 2018 Nov;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30448774
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Statin use and reduced risk of biliary tract cancers in the UK Clinical Practice Research Datalink PMID: 30448774 '></div>
-
-OBJECTIVE: To evaluate the association between statin use and risk of biliary tract cancers (BTC).
-DESIGN: This is a nested case-control study conducted in the UK Clinical Practice Research Datalink. We included cases diagnosed with incident primary BTCs, including cancers of the gall bladder, bile duct (ie, both intrahepatic and extrahepatic cholangiocarcinoma), ampulla of Vater and mixed type, between 1990 and 2017. For each case, we selected five controls who did not develop BTCs at the time of case diagnosis, matched by sex, year of birth, calendar time and years of enrolment in the general practice using incidence density sampling. Exposures were defined as two or more prescription records of statins 1 year prior to BTC diagnosis or control selection. ORs and 95% CIs for associations between statins and BTC overall and by subtypes were estimated using conditional logistic regression, adjusted for relevant confounders.
-RESULTS: We included 3118 BTC cases and 15 519 cancer-free controls. Current statin use versus non-use was associated with a reduced risk of all BTCs combined (adjusted OR=0.88, 95% CI 0.79 to 0.98). The reduced risks were most pronounced among long-term users, as indicated by increasing number of prescriptions (ptrend=0.016) and cumulative dose of statins (ptrend=0.008). The magnitude of association was similar for statin use and risk of individual types of BTCs. The reduced risk of BTCs associated with a record of current statin use versus non-use was more pronounced among persons with diabetes (adjusted OR=0.72, 95% CI 0.57 to 0.91). Among non-diabetics, the adjusted OR for current statin use versus non-use was 0.91 (95% CI 0.81 to 1.03, pheterogeneity=0.007).
-CONCLUSION: Compared with non-use of statins, current statin use is associated with 12% lower risk of BTCs; no association found with former statin use. If replicated, particularly in countries with a high incidence of BTCs, our findings could pave the way for evaluating the value of statins for BTC chemoprevention.
-
-<!-- doi: https://doi.org/10.1136/gutjnl-2018-317504 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1136/gutjnl-2018-317504' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1136/gutjnl-2018-317504' data-hide-no-mentions='true'></span>
-
-</details>
-
 ---
 
 
@@ -1590,39 +1488,6 @@ CONCLUSION: Gallbladder cancer may occur in polyps of <10mm. Larger size and old
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ajg.2017.09.003' data-hide-no-mentions='true'></span>
 
 </details>
-
-
-
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **ASO Author Reflections: Gallbladder Cancer Predictive Risk Score Based on Pathological Findings: A Propensity Score-Matched Analysis**
-</summary> 
-
-*Annals of surgical oncology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315386
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Gallbladder Cancer Predictive Risk Score Based on Pathological Findings: A Propensity Score-Matched Analysis PMID: 30315386 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1245/s10434-018-6912-9 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1245/s10434-018-6912-9' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1245/s10434-018-6912-9' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
 
 
 
@@ -1860,36 +1725,6 @@ CONCLUSION: The eighth edition T category for ampullary cancer does not stratify
 </details>
 
 
-
-
----
-
-
-
-<details open> <summary>
-- **Adjuvant radiotherapy following pancreaticoduodenectomy for ampullary adenocarcinoma improves survival in node-positive patients: a propensity score analysis**
-</summary> 
-
-*Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico 2018 Sep;20(9):1212-1218*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29497964
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Adjuvant radiotherapy following pancreaticoduodenectomy for ampullary adenocarcinoma improves survival in node-positive patients: a propensity score analysis PMID: 29497964 '></div>
-
-INTRODUCTION: This study aimed to evaluate the impact of adjuvant radiotherapy in patients undergoing pancreaticoduodenectomy (PD) for ampullary adenocarcinoma.
-METHODS: Using the Surveillance, Epidemiology, and End Results, patients with non-metastatic ampullary adenocarcinoma between 2004 and 2013 were identified. Cancer-specific survival and overall survival were estimated using Kaplan-Meier and Cox regression to obtain adjusted hazard ratio of survival.
-RESULTS: In this study, 1106 patients with ampullary adenocarcinoma were identified, of which 27% received adjuvant radiotherapy and the remaining 73% (803/1106) patients did not receive any adjuvant radiotherapy. In the matched cohort, there were still no significant difference in CSS (median 41 vs 35, p = 0.28) and OS (median 32 vs 30, p = 0.26) between patients receiving adjuvant radiotherapy and those under observation alone. However, in patients with N2 (Fig. 4) disease, both CSS (median 27 vs 19 months, p = 0.0044) and OS (median 23 vs 17 months, p = 0.0091) were significantly longer for patients receiving adjuvant radiotherapy.
-CONCLUSION: In summary, adjuvant radiotherapy following PD for ampullary adenocarcinoma significantly improves survival in patients with N2 disease. Future studies defining "high-risk" groups using larger cohorts will enable reliable appraisal on the benefit of adjuvant radiotherapy to allow for a more personalized approach in treating patients.
-
-<!-- doi: https://doi.org/10.1007/s12094-018-1849-9 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1007/s12094-018-1849-9' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1007/s12094-018-1849-9' data-hide-no-mentions='true'></span>
-
-</details>
-
-
 ---
 
 
@@ -1989,33 +1824,6 @@ Gastroenteropancreatic neuroendocrine tumors (GEP-NET) are classified according 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1007/s12022-018-9554-3' data-hide-no-mentions='true'></span>
 
 </details>
-
-
----
-
-
-
-<details open> <summary>
-- **Pancreatic VIPomas from China: Case reports and literature review**
-</summary> 
-
-*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30391116
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Pancreatic VIPomas from China: Case reports and literature review PMID: 30391116 '></div>
-
-Vasoactive intestinal polypeptide-secreting tumors (VIPomas) are rare neuroendocrine tumors that often present as watery diarrhea, hypokalemia, and achlorhydria or hypochlorhydria. In this study, we present our institutional experience of diagnosis and treatment of VIPomas, along with a review of the Chinese literature since 1980. Patient #1, diagnosed in 1984 and with intact clinical records, shows the natural history of this disease. Patient #2, diagnosed in 2015, shows the results of evaluation by nuclear medicine techniques and the outcomes of standardized treatment. Comprehensive review of 41 cases allows evaluation of clinical characteristics, treatments and outcomes of pancreatic VIPoma patients. All patients presented with watery diarrhea. The average stool volume reached 3247 mL per day. Average serum VIP level was 839.3 ng/L. Twelve of the 41 cases were reported to have metastases at diagnosis. Somatostatin receptor scintigraphy and 18FDG PET-CT are efficient methods for detection of VIPoma. Surgical excision can promptly alleviate hormonal symptoms.
-
-<!-- doi: https://doi.org/10.1016/j.pan.2018.10.007 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.10.007' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.10.007' data-hide-no-mentions='true'></span>
-
-</details>
-
-
 
 ---
 
@@ -2472,37 +2280,6 @@ CONCLUSIONS: Mucin expression profiling of pancreatic cancer with RT-PCR is feas
 </details>
 
 
-
----
-
-
-
-
-
-
-
-
-<details open> <summary>
-- **Towards optimal pancreatic cyst fluid management: the need for standardisation**
-</summary> 
-
-*Gut 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30301772
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Towards optimal pancreatic cyst fluid management: the need for standardisation PMID: 30301772 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1136/gutjnl-2018-317156 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1136/gutjnl-2018-317156' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1136/gutjnl-2018-317156' data-hide-no-mentions='true'></span>
-
-</details>
-
-
 ---
 
 
@@ -2683,7 +2460,7 @@ CONCLUSION: The morphological features of MC can very well be demonstrated on cy
 - **Immunohistochemical analysis of OTP and NKX6.1 in neuroendocrine tumors of the lung and pancreas**
 </summary> 
 
-*Diagnostic cytopathology 2018 Oct;():*
+*Diagnostic cytopathology 2018 Dec;46(12):1010-1014*
 
 PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30284410
 
@@ -3058,33 +2835,6 @@ CONCLUSIONS: Our findings suggest that selected factors associated with pancreas
 
 </details>
 
-
----
-
-
-
-
-
-<details open> <summary>
-- **Silencing of TRPM8 inhibits aggressive tumor phenotypes and enhances gemcitabine sensitivity in pancreatic cancer**
-</summary> 
-
-*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Dec;18(8):935-944*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30316690
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Silencing of TRPM8 inhibits aggressive tumor phenotypes and enhances gemcitabine sensitivity in pancreatic cancer PMID: 30316690 '></div>
-
-The transient receptor potential TRPM8 ion channel is required for cellular proliferation in pancreatic epithelia and adenocarcinoma. To elucidate the mechanism that mediates the function of TRPM8, we examined its role in the proliferation and invasion of pancreatic cancer (PC) cells. TRPM8 expression increased in both the PC tissues and cell lines; a high TRPM8 expression was correlated with poorer prognosis in patients with PC. In PC cell lines, PACN-1 and BxPC-3, Ca2+ influxes could be evoked by TRPM8; the sensitivity of PC cells to gemcitabine was increased, while the proliferation and invasion of PC cells were suppressed after RNA interference-mediated silencing of TRPM8. The mechanism of TRPM8 in gemcitabine-based chemotherapy was then investigated. The expression and activity of multidrug resistance-associated proteins, P-gp, MRP-2, LRP, was significantly reduced in response to TRPM8 silence. Moreover, TRPM8 knockdown significantly increased hENT1 protein levels and the ratio of Bax/Bcl-2 while decreased the protein levels of RRM1. Thus, TRPM8 is required for PC cell proliferation and invasion and was closely related to the gemcitabine sensitivity of PC. The modulation of TRPM8 expression may help improve treatment response of PC by combining with traditional chemotherapy.
-
-<!-- doi: https://doi.org/10.1016/j.pan.2018.08.011 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.08.011' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.08.011' data-hide-no-mentions='true'></span>
-
-</details>
-
 ---
 
 
@@ -3204,29 +2954,6 @@ CONCLUSION: Different immune phenotypic CAF subpopulations can be identified in 
 
 </details>
 
----
-
-
-
-<details open> <summary>
-- **Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling**
-</summary> 
-
-*Oncogene 2018 Nov;37(44):5843-5857*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29980787
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling PMID: 29980787 '></div>
-
-The devastating prognosis of pancreatic ductal adenocarcinoma (PDAC) is partially attributed to chemotherapy resistance. Glutathione peroxidase-1 (GPx1) plays various roles in the development and progression of multiple tumors, with the exception of pancreatic cancer. Here, we tentatively explored the role of GPx1 in the malignant biological behavior and gemcitabine (GEM) resistance of PDAC. GPx1 levels were detected using tissue microarrays and were negatively correlated with the overall survival of patients with PDAC. GPx1 silencing induced a mesenchymal transition phenotype and increased GEM resistance in vitro and in vivo. Additionally, the activation of reactive oxygen species (ROS)-mediated Akt/glycogen synthase kinase 3β (GSK3β)/Snail signaling was involved in this process, as determined by RNA sequencing. Moreover, low GPx1 expression correlated with a worse survival rate in patients with PDAC who received GEM adjuvant chemotherapy, whereas this correlation was not detected in patients receiving fluoropyrimidine. Based on our results, GPx1 inhibits the epithelial-mesenchymal transition (EMT) and chemoresistance by regulating the Akt/GSK3β/Snail signaling axis in PDAC. Furthermore, GPx1 may be a potential predictive biomarker in GEM-treated PDAC patients.
-
-<!-- doi: https://doi.org/10.1038/s41388-018-0392-z -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41388-018-0392-z' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41388-018-0392-z' data-hide-no-mentions='true'></span>
-
-</details>
 
 ---
 
@@ -3364,33 +3091,6 @@ CONCLUSIONS: Epithelial-mesenchymal transition plays an essential role in the pa
 
 </details>
 
----
-
-
-
-<details open> <summary>
-- **Tenascin C, Fibronectin, and Tumor-Stroma Ratio in Pancreatic Ductal Adenocarcinoma**
-</summary> 
-
-*Pancreas 2019 Jan;48(1):43-48*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30451798
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Tenascin C, Fibronectin, and Tumor-Stroma Ratio in Pancreatic Ductal Adenocarcinoma PMID: 30451798 '></div>
-
-OBJECTIVES: Pancreatic ductal adenocarcinoma (PDAC) is characterized by abundant stroma with increased expression of tenascin C and fibronectin. Their role and tumor-stroma ratio in PDAC are not well known. The aim of this study was to evaluate tenascin C and fibronectin expression and tumor-stroma ratio and their prognostic relevance in PDAC.
-METHODS: Ninety-five resected PDACs were immunohistochemically stained for tenascin C and fibronectin, and the expression was separately assessed in tumor bulk and front. Tumor-stroma ratio was determined with sections stained with hematoxylin-eosin.
-RESULTS: Tenascin C and fibronectin were abundantly expressed in the stroma of PDAC, but absent in adjacent normal pancreatic tissue. Fibronectin expression of the bulk was associated with high T class (P = 0.045). In the main analysis, tenascin C and fibronectin expression and tumor-stroma ratio were not associated with patient survival. In a subgroup analysis of early-stage PDAC (T1-T2 tumors), high tenascin C expression in the tumor bulk was associated with poor prognosis (hazard ratio, 8.23; 95% confidence interval, 2.71-24.96).
-CONCLUSIONS: Tenascin C and fibronectin are abundantly expressed in PDAC, but they seem to have no major association with patient survival. However, in early-stage PDAC, tenascin C expression of the tumor bulk may have prognostic impact. Tumor-stroma ratio has no prognostic value in PDAC.
-
-<!-- doi: https://doi.org/10.1097/MPA.0000000000001195 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1097/MPA.0000000000001195' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1097/MPA.0000000000001195' data-hide-no-mentions='true'></span>
-
-</details>
-
 
 ---
 
@@ -3426,35 +3126,6 @@ Conclusion: Our results demonstrate that the association between hyperglycemia a
 
 
 
-<details open> <summary>
-- **Complex roles of the stroma in the intrinsic resistance to gemcitabine in pancreatic cancer: where we are and where we are going**
-</summary> 
-
-*Experimental & molecular medicine 2017 12;49(12):e406*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29611542
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Complex roles of the stroma in the intrinsic resistance to gemcitabine in pancreatic cancer: where we are and where we are going PMID: 29611542 '></div>
-
-Pancreatic ductal adenocarcinoma (PDAC) is among the most devastating human malignancies. The poor clinical outcome in PDAC is partly attributed to a growth-permissive tumor microenvironment. In the PDAC microenvironment, the stroma is characterized by the development of extensive fibrosis, with stromal components outnumbering pancreatic cancer cells. Each of the components within the stroma has a distinct role in conferring chemoresistance to PDAC, and intrinsic chemoresistance has further worsened this pessimistic prognosis. The nucleoside analog gemcitabine (GEM) is usually the recommended first-line chemotherapeutic agent for PDAC patients and is given alone or in combination with other agents. The mechanisms of intrinsic resistance to GEM are an active area of ongoing research. This review highlights the important role the complex structure of stroma in PDAC plays in the intrinsic resistance to GEM and discusses whether antistroma therapy improves the efficacy of GEM. The addition of antistroma therapy combined with GEM is expected to be a novel therapeutic strategy with significant survival benefits for PDAC patients.
-
-<!-- doi: https://doi.org/10.1038/emm.2017.255 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/emm.2017.255' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/emm.2017.255' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
-
-
----
-
-
-
-
 
 <details open> <summary>
 - **Elucidating the link between collagen and pancreatic cancer: what's next?**
@@ -3476,93 +3147,6 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29495889
 
 </details>
 
-
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **Features of Immune Cells and the Tumor-Associated Stroma Tango as Prognostic Factors in Patients With Pancreatic Ductal Adenocarcinoma**
-</summary> 
-
-*Gastroenterology 2018 11;155(5):1312-1314*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30300611
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Features of Immune Cells and the Tumor-Associated Stroma Tango as Prognostic Factors in Patients With Pancreatic Ductal Adenocarcinoma PMID: 30300611 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1053/j.gastro.2018.10.008 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1053/j.gastro.2018.10.008' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1053/j.gastro.2018.10.008' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **Osthole inhibits pancreatic cancer progression by directly exerting negative effects on cancer cells and attenuating tumor-infiltrating M2 macrophages**
-</summary> 
-
-*Journal of pharmacological sciences 2018 Jul;137(3):290-298*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30098910
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Osthole inhibits pancreatic cancer progression by directly exerting negative effects on cancer cells and attenuating tumor-infiltrating M2 macrophages PMID: 30098910 '></div>
-
-Pancreatic cancer has remained a major cause of cancer-related deaths. A hallmark of pancreatic cancer is extensive stromal reactions, resulting in a unique tumor microenvironment, especially the involvement of macrophages. These tumor-educated cells limit the efficacy of chemotherapy. Therefore, it is necessary to identify an effective treatment strategy. In this study, we aimed to explore the anti-tumor and immunomodulatory effects of osthole on pancreatic cancer. We found that osthole suppressed Panc 02 cell migration and proliferation and induced apoptosis as shown in vitro. Osthole also attenuated the development of pancreatic cancer in mice by inhibiting tumor-infiltrating M2 macrophages in our study. Additionally, osthole inhibited the polarization of primary bone marrow cells into M2 macrophages and inhibited the expression of MRC1, CCL22 and TGF-β in the M2 polarization process in vitro. Detection of the related signaling pathways revealed that osthole exerted immunomodulatory effects on M2 macrophages by down-regulating p-STAT6 and the p-ERK1/2-C/EBP β axis. These results indicated that osthole has effective anti-tumor and immunomodulatory effects on pancreatic cancer.
-
-<!-- doi: https://doi.org/10.1016/j.jphs.2018.07.007 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.jphs.2018.07.007' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.jphs.2018.07.007' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **ASO Author Reflections: Regulation of Cancer-Associated Fibroblasts in Pancreatic Ductal Adenocarcinoma by Vitamin D Supplementation**
-</summary> 
-
-*Annals of surgical oncology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30324470
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Regulation of Cancer-Associated Fibroblasts in Pancreatic Ductal Adenocarcinoma by Vitamin D Supplementation PMID: 30324470 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1245/s10434-018-6891-x -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1245/s10434-018-6891-x' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1245/s10434-018-6891-x' data-hide-no-mentions='true'></span>
-
-</details>
-
 ---
 
 
@@ -3580,65 +3164,6 @@ PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30324470
 #### Molecular Research on Microenvironment 
 
 Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
-
-
-
-
-
----
-
-
-
-<details open> <summary>
-- **KRAS RENAISSANCE(S) in Tumor Infiltrating B Cells in Pancreatic Cancer**
-</summary> 
-
-*Frontiers in oncology 2018 09;8():384*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30283732
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : KRAS RENAISSANCE(S) in Tumor Infiltrating B Cells in Pancreatic Cancer PMID: 30283732 '></div>
-
-KRAS is a driver mutation for malignant transformation. It is found in 30% of all cancers and in 90% of pancreatic cancers. The identification of small molecules selectively inhibiting KRAS mutants has been challenging, yet mutant KRAS has recently been shown to be targeted by tumor-infiltrating lymphocyte (TIL)-derived T cells that confer tumor regression upon adoptive transfer. Furthermore, a human IgG1 monoclonal antibody interfering with mutant KRAS function inside the cell has been described to inhibit growth of KRAS-mutant xenografts in tumor-bearing mice. B cells have been described to infiltrate pancreatic cancer and may be associated with tertiary lymphoid structures associated with good prognosis, or, in contrast, promote tumor growth. However, their function, nor their antigen-specificity has been clearly defined. We discuss here the presence of tumor-infiltrating B cells (TIB) in patients with pancreatic cancer that produce KRAS-mutant specific IgG, underlining that intratumoral T and B cells may exclusively target mutant KRAS. KRAS-specific IgG may, therefore, serve as a readout of the activation of both arms of the anti-tumor adaptive immune armament although some B-cell populations may promote tumor progression.
-
-<!-- doi: https://doi.org/10.3389/fonc.2018.00384 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.3389/fonc.2018.00384' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.3389/fonc.2018.00384' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
-
-
-
-
-
-<details open> <summary>
-- **Targeting Purinergic Receptor P2Y2 prevents the growth of pancreatic ductal adenocarcinoma by inhibiting cancer cell glycolysis**
-</summary> 
-
-*Clinical cancer research : an official journal of the American Association for Cancer Research 2018 Nov;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30420446
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Targeting Purinergic Receptor P2Y2 prevents the growth of pancreatic ductal adenocarcinoma by inhibiting cancer cell glycolysis PMID: 30420446 '></div>
-
-PURPOSE: Extensive research has reported that the tumor microenvironment components play crucial roles in tumor progression. Thus, blocking the supports of tumor microenvironment is a promising approach to prevent cancer progression. We aimed to determine whether blocking extracellular ATP-P2RY2 axis could be a potential therapeutic approach for PDAC treatment.
-EXPERIMENTAL DESIGN: Expression of P2RY2 was determined in 264 human PDAC samples, and correlated to patient survival. P2RY2 was inhibited in human PDAC cell lines by antagonist and shRNA, respectively, and cell viability, clonogenicity and glycolysis were determined. RNA sequencing of PDAC cell line was applied to reveal underlying molecular mechanisms. Multiple PDAC mouse models were used to assess the effects of the P2RY2 inhibition on PDAC progression.
-RESULTS: P2RY2 was upregulated and associated with poor prognosis in PDAC. Activated P2RY2 by increased extracellular ATP in tumor microenvironment promoted PDAC growth and glycolysis. Further studies showed that the agonist-activated P2RY2 triggered PI3K/AKT-mTOR signaling by crosstalk with PDGFR mediated by Yes1, resulting in elevating expression of c-Myc and HIF1a, which subsequently enhanced cancer cell glycolysis. Genetic and pharmacological inhibition of P2RY2 impaired tumor cell growth in subcutaneous and orthotopic xenograft model, as well as delayed tumor progression in inflammation-driven PDAC model. Additionally, synergy was observed when AR-C118925XX, the selective antagonist of P2RY2 receptor, and gemcitabine were combined, resulting in prolonged survival of xenografted PDAC mice.
-CONCLUSIONS: These findings revealed the roles of the P2RY2 in PDAC metabolic reprogramming, suggesting that P2RY2 might be a potential metabolic therapeutic target for PDAC.
-
-<!-- doi: https://doi.org/10.1158/1078-0432.CCR-18-2297 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1158/1078-0432.CCR-18-2297' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1158/1078-0432.CCR-18-2297' data-hide-no-mentions='true'></span>
-
-</details>
 
 
 
@@ -3665,37 +3190,6 @@ Pancreatic cancer is a complex disease, with an extremely poor response to chemo
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1080/14737159.2018.1544495' data-hide-no-mentions='true'></span>
 
 </details>
-
-
-
-
----
-
-
-
-<details open> <summary>
-- **MicroRNA let-7d targets thrombospondin-1 and inhibits the activation of human pancreatic stellate cells**
-</summary> 
-
-*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30393009
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : MicroRNA let-7d targets thrombospondin-1 and inhibits the activation of human pancreatic stellate cells PMID: 30393009 '></div>
-
-OBJECTIVES: The microRNA (miRNA) let-7d is linked to the formation of pancreatic cancer-related fibrosis. In this study, the mechanism by which let-7d regulates the activation of the human pancreatic stellate cell (hPSC) was evaluated.
-METHODS: The transient transfection of a let-7d mimic in the hPSCs was performed, and the altered thrombospondin 1 (THBS1) expression was confirmed by western blotting and real-time qPCR. Targeting of the 3'-untranslated region (UTR) of THBS1 by let-7d was investigated by the luciferase assays. After hPSC transfection using THBS1 siRNA, the fibrosis markers (α-SMA and collagen 1A1) were evaluated by western blotting and real-time qPCR. The correlation between tumor fibrosis and let-7d or THBS1 was estimated using the data from The Cancer Genome Atlas project. Finally, the effects of genistein on the hPSCs were evaluated.
-RESULTS: We found that a let-7d mimic inhibits THBS1 expression by targeting its 3'-UTR. THBS1 inhibition by siRNA inhibited hPSC activation. An in silico analysis revealed that let-7d and THBS1 expression are negatively correlated. Additionally, let-7d was negatively correlated with the stromal score, while THBS1 was positively correlated with this score. Genistein substantially induced let-7d and decreased the expression of fibrosis marker along with the inhibition of THBS1.
-CONCLUSIONS: Let-7d inhibited hPSC activation by targeting THBS1. Genistein induced the expression of let-7d and might modulate pancreatic fibrosis.
-
-<!-- doi: https://doi.org/10.1016/j.pan.2018.10.012 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.10.012' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.10.012' data-hide-no-mentions='true'></span>
-
-</details>
-
 
 ---
 
@@ -3747,41 +3241,7 @@ The aim of the present study was to research the effect of microenvironmental ch
 </details>
 
 
-
 ---
-
-
-
-<details open> <summary>
-- **Stromal protein βig-h3 reprogrammes tumour microenvironment in pancreatic cancer**
-</summary> 
-
-*Gut 2018 Nov;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30415234
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Stromal protein βig-h3 reprogrammes tumour microenvironment in pancreatic cancer PMID: 30415234 '></div>
-
-OBJECTIVE: Pancreatic cancer is associated with an abundant stromal reaction leading to immune escape and tumour growth. This massive stroma drives the immune escape in the tumour. We aimed to study the impact of βig-h3 stromal protein in the modulation of the antitumoural immune response in pancreatic cancer.
-DESIGN: We performed studies with p48-Cre;KrasG12D, pdx1-Cre;KrasG12D;Ink4a/Arffl/fl, pdx1-Cre;KrasG12D; p53R172H mice and tumour tissues from patients with pancreatic ductal adenocarcinoma (PDA). Some transgenic mice were given injections of anti-βig-h3, anti-CD8, anti-PD1 depleting antibodies. Tumour growth as well as modifications in the activation of local immune cells were analysed by flow cytometry, immunohistochemistry and immunofluorescence. Tissue stiffness was measured by atomic force microscopy.
-RESULTS: We identified βig-h3 stromal-derived protein as a key actor of the immune paracrine interaction mechanism that drives pancreatic cancer. We found that βig-h3 is highly produced by cancer-associated fibroblasts in the stroma of human and mouse. This protein acts directly on tumour-specific CD8+ T cells and F4/80 macrophages. Depleting βig-h3 in vivo reduced tumour growth by enhancing the number of activated CD8+ T cell within the tumour and subsequent apoptotic tumour cells. Furthermore, we found that targeting βig-h3 in established lesions released the tissue tension and functionally reprogrammed F4/80 macrophages in the tumour microenvironment.
-CONCLUSIONS: Our data indicate that targeting stromal extracellular matrix protein βig-h3 improves the antitumoural response and consequently reduces tumour weight. Our findings present βig-h3 as a novel immunological target in pancreatic cancer.
-
-<!-- doi: https://doi.org/10.1136/gutjnl-2018-317570 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1136/gutjnl-2018-317570' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1136/gutjnl-2018-317570' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
-
-
-
-
 
 
 
@@ -4432,11 +3892,113 @@ CONCLUSIONS: DAXX mutation is common in patients with pancreatic NLMs. DAXX muta
 
 ---
 
-### Pancreas Molecular Studies
+
+### Experimental Studies
+
+
+---
 
 
 
+<details open> <summary>
+- **Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer**
+</summary> 
 
+*British journal of cancer 2018 Oct;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30377341
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Direct therapeutic targeting of immune checkpoint PD-1 in pancreatic cancer PMID: 30377341 '></div>
+
+BACKGROUND: Pancreatic cancer (PC) hijacks innate cellular processes to promote cancer growth. We hypothesized that PC exploits PD-1/PD-L1 not only to avoid immune responses, but to directly enhance growth. We also hypothesized that immune checkpoint inhibitors (ICIs) have direct cytotoxicity in PC. We sought to elucidate therapeutic targeting of PD-1/PD-L1.
+METHODS: PD-1 was assessed in PC cells, patient-derived organoids (PDOs), and clinical tissues. Then, PC cells were exposed to PD-L1 to evaluate proliferation. To test PD-1/PD-L1 signaling, cells were exposed to PD-L1 and MAPK was examined. Radio-immunoconjugates with anti-PD-1 drugs were developed to test uptake in patient-derived tumor xenografts (PDTXs). Next, PD-1 function was assessed by xenografting PD-1-knockdown cells. Finally, PC models were exposed to ICIs.
+RESULTS: PD-1 expression was demonstrated in PCs. PD-L1 exposure increased proliferation and activated MAPK. Imaging PDTXs revealed uptake of radio-immunoconjugates. PD-1 knockdown in vivo revealed 67% smaller volumes than controls. Finally, ICI treatment of both PDOs/PDTXs demonstrated cytotoxicity and anti-MEK1/2 combined with anti-PD-1 drugs produced highest cytotoxicity in PDOs/PDTXs.
+CONCLUSIONS: Our data reveal PCs innately express PD-1 and activate druggable oncogenic pathways supporting PDAC growth. Strategies directly targeting PC with novel ICI regimens may work with adaptive immune responses for optimal cytotoxicity.
+
+<!-- doi: https://doi.org/10.1038/s41416-018-0298-0 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41416-018-0298-0' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41416-018-0298-0' data-hide-no-mentions='true'></span>
+
+</details>
+
+---
+
+
+
+<details open> <summary>
+- **Silencing of TRPM8 inhibits aggressive tumor phenotypes and enhances gemcitabine sensitivity in pancreatic cancer**
+</summary> 
+
+*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Dec;18(8):935-944*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30316690
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Silencing of TRPM8 inhibits aggressive tumor phenotypes and enhances gemcitabine sensitivity in pancreatic cancer PMID: 30316690 '></div>
+
+The transient receptor potential TRPM8 ion channel is required for cellular proliferation in pancreatic epithelia and adenocarcinoma. To elucidate the mechanism that mediates the function of TRPM8, we examined its role in the proliferation and invasion of pancreatic cancer (PC) cells. TRPM8 expression increased in both the PC tissues and cell lines; a high TRPM8 expression was correlated with poorer prognosis in patients with PC. In PC cell lines, PACN-1 and BxPC-3, Ca2+ influxes could be evoked by TRPM8; the sensitivity of PC cells to gemcitabine was increased, while the proliferation and invasion of PC cells were suppressed after RNA interference-mediated silencing of TRPM8. The mechanism of TRPM8 in gemcitabine-based chemotherapy was then investigated. The expression and activity of multidrug resistance-associated proteins, P-gp, MRP-2, LRP, was significantly reduced in response to TRPM8 silence. Moreover, TRPM8 knockdown significantly increased hENT1 protein levels and the ratio of Bax/Bcl-2 while decreased the protein levels of RRM1. Thus, TRPM8 is required for PC cell proliferation and invasion and was closely related to the gemcitabine sensitivity of PC. The modulation of TRPM8 expression may help improve treatment response of PC by combining with traditional chemotherapy.
+
+<!-- doi: https://doi.org/10.1016/j.pan.2018.08.011 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.08.011' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.08.011' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+<details open> <summary>
+- **Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling**
+</summary> 
+
+*Oncogene 2018 Nov;37(44):5843-5857*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29980787
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Abrogation of glutathione peroxidase-1 drives EMT and chemoresistance in pancreatic cancer by activating ROS-mediated Akt/GSK3β/Snail signaling PMID: 29980787 '></div>
+
+The devastating prognosis of pancreatic ductal adenocarcinoma (PDAC) is partially attributed to chemotherapy resistance. Glutathione peroxidase-1 (GPx1) plays various roles in the development and progression of multiple tumors, with the exception of pancreatic cancer. Here, we tentatively explored the role of GPx1 in the malignant biological behavior and gemcitabine (GEM) resistance of PDAC. GPx1 levels were detected using tissue microarrays and were negatively correlated with the overall survival of patients with PDAC. GPx1 silencing induced a mesenchymal transition phenotype and increased GEM resistance in vitro and in vivo. Additionally, the activation of reactive oxygen species (ROS)-mediated Akt/glycogen synthase kinase 3β (GSK3β)/Snail signaling was involved in this process, as determined by RNA sequencing. Moreover, low GPx1 expression correlated with a worse survival rate in patients with PDAC who received GEM adjuvant chemotherapy, whereas this correlation was not detected in patients receiving fluoropyrimidine. Based on our results, GPx1 inhibits the epithelial-mesenchymal transition (EMT) and chemoresistance by regulating the Akt/GSK3β/Snail signaling axis in PDAC. Furthermore, GPx1 may be a potential predictive biomarker in GEM-treated PDAC patients.
+
+<!-- doi: https://doi.org/10.1038/s41388-018-0392-z -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41388-018-0392-z' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41388-018-0392-z' data-hide-no-mentions='true'></span>
+
+</details>
+
+
+---
+
+
+
+<details open> <summary>
+- **Targeting Purinergic Receptor P2Y2 prevents the growth of pancreatic ductal adenocarcinoma by inhibiting cancer cell glycolysis**
+</summary> 
+
+*Clinical cancer research : an official journal of the American Association for Cancer Research 2018 Nov;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30420446
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Targeting Purinergic Receptor P2Y2 prevents the growth of pancreatic ductal adenocarcinoma by inhibiting cancer cell glycolysis PMID: 30420446 '></div>
+
+PURPOSE: Extensive research has reported that the tumor microenvironment components play crucial roles in tumor progression. Thus, blocking the supports of tumor microenvironment is a promising approach to prevent cancer progression. We aimed to determine whether blocking extracellular ATP-P2RY2 axis could be a potential therapeutic approach for PDAC treatment.
+EXPERIMENTAL DESIGN: Expression of P2RY2 was determined in 264 human PDAC samples, and correlated to patient survival. P2RY2 was inhibited in human PDAC cell lines by antagonist and shRNA, respectively, and cell viability, clonogenicity and glycolysis were determined. RNA sequencing of PDAC cell line was applied to reveal underlying molecular mechanisms. Multiple PDAC mouse models were used to assess the effects of the P2RY2 inhibition on PDAC progression.
+RESULTS: P2RY2 was upregulated and associated with poor prognosis in PDAC. Activated P2RY2 by increased extracellular ATP in tumor microenvironment promoted PDAC growth and glycolysis. Further studies showed that the agonist-activated P2RY2 triggered PI3K/AKT-mTOR signaling by crosstalk with PDGFR mediated by Yes1, resulting in elevating expression of c-Myc and HIF1a, which subsequently enhanced cancer cell glycolysis. Genetic and pharmacological inhibition of P2RY2 impaired tumor cell growth in subcutaneous and orthotopic xenograft model, as well as delayed tumor progression in inflammation-driven PDAC model. Additionally, synergy was observed when AR-C118925XX, the selective antagonist of P2RY2 receptor, and gemcitabine were combined, resulting in prolonged survival of xenografted PDAC mice.
+CONCLUSIONS: These findings revealed the roles of the P2RY2 in PDAC metabolic reprogramming, suggesting that P2RY2 might be a potential metabolic therapeutic target for PDAC.
+
+<!-- doi: https://doi.org/10.1158/1078-0432.CCR-18-2297 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1158/1078-0432.CCR-18-2297' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1158/1078-0432.CCR-18-2297' data-hide-no-mentions='true'></span>
+
+</details>
 
 ---
 
@@ -4588,18 +4150,32 @@ Pancreatic ductal adenocarcinoma (PDAC) is an aggressive disease, which is chara
 
 </details>
 
-
 ---
 
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
+<details open> <summary>
+- **MicroRNA let-7d targets thrombospondin-1 and inhibits the activation of human pancreatic stellate cells**
+</summary> 
 
-### Bile Duct Molecular Studies
+*Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.] 2018 Oct;():*
+
+PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30393009
+
+<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : MicroRNA let-7d targets thrombospondin-1 and inhibits the activation of human pancreatic stellate cells PMID: 30393009 '></div>
+
+OBJECTIVES: The microRNA (miRNA) let-7d is linked to the formation of pancreatic cancer-related fibrosis. In this study, the mechanism by which let-7d regulates the activation of the human pancreatic stellate cell (hPSC) was evaluated.
+METHODS: The transient transfection of a let-7d mimic in the hPSCs was performed, and the altered thrombospondin 1 (THBS1) expression was confirmed by western blotting and real-time qPCR. Targeting of the 3'-untranslated region (UTR) of THBS1 by let-7d was investigated by the luciferase assays. After hPSC transfection using THBS1 siRNA, the fibrosis markers (α-SMA and collagen 1A1) were evaluated by western blotting and real-time qPCR. The correlation between tumor fibrosis and let-7d or THBS1 was estimated using the data from The Cancer Genome Atlas project. Finally, the effects of genistein on the hPSCs were evaluated.
+RESULTS: We found that a let-7d mimic inhibits THBS1 expression by targeting its 3'-UTR. THBS1 inhibition by siRNA inhibited hPSC activation. An in silico analysis revealed that let-7d and THBS1 expression are negatively correlated. Additionally, let-7d was negatively correlated with the stromal score, while THBS1 was positively correlated with this score. Genistein substantially induced let-7d and decreased the expression of fibrosis marker along with the inhibition of THBS1.
+CONCLUSIONS: Let-7d inhibited hPSC activation by targeting THBS1. Genistein induced the expression of let-7d and might modulate pancreatic fibrosis.
+
+<!-- doi: https://doi.org/10.1016/j.pan.2018.10.012 -->
+
+<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.pan.2018.10.012' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.pan.2018.10.012' data-hide-no-mentions='true'></span>
+
+</details>
 
 ---
 
@@ -4639,329 +4215,6 @@ CONCLUSION: NCAM + c-Kit + subset cells in RBE may have properties of he
 \pagebreak
 
 
-
-### Animal Studies
-
-
-
-
-
----
-
-
-
-<details open> <summary>
-- **LncRNA H19/miR-194/PFTK1 axis modulates the cell proliferation and migration of pancreatic cancer**
-</summary> 
-
-*Journal of cellular biochemistry 2018 Nov;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30474270
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : LncRNA H19/miR-194/PFTK1 axis modulates the cell proliferation and migration of pancreatic cancer PMID: 30474270 '></div>
-
-Pancreatic ductal adenocarcinoma (PDAC) remains a huge challenge due to its high mortality and morbidity; gene therapy might be a promising treatment for PDAC. The critical role of Wnt-signaling pathway in cancer pathogenesis has been widely recognized; cyclin-dependent kinase 14 (CDK14, PFTK1)-induced low-density lipoprotein receptor-related proteins 5/6 (LRP5/6) phosphorylation is an important issue in Wnt-signaling activation. Long noncoding RNA (LncRNA)-microRNA (miRNA)-messenger RNA (mRNA) modulating the pathogenesis of cancers has been regarded as a major mechanism. In the current study, upregulated lncRNAs positively correlated with PFTK1 were analyzed and selected using The Cancer Genome Atlas (TCGA) database. Of them, lncRNA H19 can activate Wnt signaling in cancers. In PDAC tissues, the expression of H19 and PFTK1 were upregulated; H19 knockdown suppressed the cell proliferation and migration of PDAC, while PFTK1 overexpression partially attenuated the suppressive effect of H19 knockdown. As analyzed by TCGA and predicted by online tools, miR-194 was negatively correlated with PFTK1 and might bind to both H19 and PFTK1, which was further confirmed by luciferase reporter and RNA immunoprecipitation assays. Moreover, the effect of H19 knockdown on PFTK1 protein and the cell proliferation and migration could be partially reversed by miR-194 inhibition; H19/miR-194 axis modulated PDAC cell proliferation and migration through PFTK1 downstream Wnt signaling. Results suggested that rescuing miR-194 expression in PDAC can inhibit lncRNA H19 and PFTK1 expression, subsequently suppressing PDAC cell proliferation and migration. Due to the complexity of the lncRNA-miRNA-mRNA network, further in vivo experiments examining potential side effects are needed in future study to explore the clinical application of these findings.
-
-<!-- doi: https://doi.org/10.1002/jcb.27669 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1002/jcb.27669' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1002/jcb.27669' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
----
-
-
-
-<details open> <summary>
-- **SWI/SNF component ARID1A restrains pancreatic neoplasia formation**
-</summary> 
-
-*Gut 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315093
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : SWI/SNF component ARID1A restrains pancreatic neoplasia formation PMID: 30315093 '></div>
-
-OBJECTIVE: ARID1A is commonly mutated in pancreatic ductal adenocarcinoma (PDAC), but the functional effects of ARID1A mutations in the pancreas are unclear. Understanding the molecular mechanisms that drive PDAC formation may lead to novel therapies.
-DESIGN: Concurrent conditional Arid1a deletion and Kras activation mutations were modelled in mice. Small-interfering RNA (siRNA) and CRISPR/Cas9 were used to abrogate ARID1A in human pancreatic ductal epithelial cells.
-RESULTS: We found that pancreas-specific Arid1a loss in mice was sufficient to induce inflammation, pancreatic intraepithelial neoplasia (PanIN) and mucinous cysts. Concurrent Kras activation accelerated the development of cysts that resembled intraductal papillary mucinous neoplasm. Lineage-specific Arid1a deletion confirmed compartment-specific tumour-suppressive effects. Duct-specific Arid1a loss promoted dilated ducts with occasional cyst and PDAC formation. Heterozygous acinar-specific Arid1a loss resulted in accelerated PanIN and PDAC formation with worse survival. RNA-seq showed that Arid1a loss induced gene networks associated with Myc activity and protein translation. ARID1A knockdown in human pancreatic ductal epithelial cells induced increased MYC expression and protein synthesis that was abrogated with MYC knockdown. ChIP-seq against H3K27ac demonstrated an increase in activated enhancers/promoters.
-CONCLUSIONS: Arid1a suppresses pancreatic neoplasia in a compartment-specific manner. In duct cells, this process appears to be associated with MYC-facilitated protein synthesis.
-
-<!-- doi: https://doi.org/10.1136/gutjnl-2017-315490 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1136/gutjnl-2017-315490' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1136/gutjnl-2017-315490' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
-
-
-<details open> <summary>
-- **Genetic dissection of the miR-200-Zeb1 axis reveals its importance in tumor differentiation and invasion**
-</summary> 
-
-*Nature communications 2018 11;9(1):4671*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30405106
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Genetic dissection of the miR-200-Zeb1 axis reveals its importance in tumor differentiation and invasion PMID: 30405106 '></div>
-
-The epithelial-to-mesenchymal transition (EMT) is an important mechanism for cancer progression and metastasis. Numerous in vitro and tumor-profiling studies point to the miR-200-Zeb1 axis as crucial in regulating this process, yet in vivo studies involving its regulation within a physiological context are lacking. Here, we show that miR-200 ablation in the Rip-Tag2 insulinoma mouse model induces beta-cell dedifferentiation, initiates an EMT expression program, and promotes tumor invasion. Strikingly, disrupting the miR-200 sites of the endogenous Zeb1 locus causes a similar phenotype. Reexpressing members of the miR-200 superfamily in vitro reveals that the miR-200c family and not the co-expressed and closely related miR-141 family is responsible for regulation of Zeb1 and EMT. Our results thus show that disrupting the in vivo regulation of Zeb1 by miR-200c is sufficient to drive EMT, thus highlighting the importance of this axis in tumor progression and invasion and its potential as a therapeutic target.
-
-<!-- doi: https://doi.org/10.1038/s41467-018-07130-z -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1038/s41467-018-07130-z' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1038/s41467-018-07130-z' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
----
-
-
-
-<details open> <summary>
-- **RIP1 Kinase Drives Macrophage-Mediated Adaptive Immune Tolerance in Pancreatic Cancer**
-</summary> 
-
-*Cancer cell 2018 Nov;34(5):757-774.e7*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30423296
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : RIP1 Kinase Drives Macrophage-Mediated Adaptive Immune Tolerance in Pancreatic Cancer PMID: 30423296 '></div>
-
-Pancreatic ductal adenocarcinoma (PDA) is characterized by immune tolerance and immunotherapeutic resistance. We discovered upregulation of receptor-interacting serine/threonine protein kinase 1 (RIP1) in tumor-associated macrophages (TAMs) in PDA. To study its role in oncogenic progression, we developed a selective small-molecule RIP1 inhibitor with high in vivo exposure. Targeting RIP1 reprogrammed TAMs toward an MHCIIhiTNFα+IFNγ+ immunogenic phenotype in a STAT1-dependent manner. RIP1 inhibition in TAMs resulted in cytotoxic T cell activation and T helper cell differentiation toward a mixed Th1/Th17 phenotype, leading to tumor immunity in mice and in organotypic models of human PDA. Targeting RIP1 synergized with PD1-and inducible co-stimulator-based immunotherapies. Tumor-promoting effects of RIP1 were independent of its co-association with RIP3. Collectively, our work describes RIP1 as a checkpoint kinase governing tumor immunity.
-
-<!-- doi: https://doi.org/10.1016/j.ccell.2018.10.006 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ccell.2018.10.006' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ccell.2018.10.006' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
-
-<details open> <summary>
-- **β2 Adrenergic-Neurotrophin Feedforward Loop Promotes Pancreatic Cancer**
-</summary> 
-
-*Cancer cell 2018 01;33(1):75-90.e7*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29249692
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : β2 Adrenergic-Neurotrophin Feedforward Loop Promotes Pancreatic Cancer PMID: 29249692 '></div>
-
-Catecholamines stimulate epithelial proliferation, but the role of sympathetic nerve signaling in pancreatic ductal adenocarcinoma (PDAC) is poorly understood. Catecholamines promoted ADRB2-dependent PDAC development, nerve growth factor (NGF) secretion, and pancreatic nerve density. Pancreatic Ngf overexpression accelerated tumor development in LSL-Kras+/G12D;Pdx1-Cre (KC) mice. ADRB2 blockade together with gemcitabine reduced NGF expression and nerve density, and increased survival of LSL-Kras+/G12D;LSL-Trp53+/R172H;Pdx1-Cre (KPC) mice. Therapy with a Trk inhibitor together with gemcitabine also increased survival of KPC mice. Analysis of PDAC patient cohorts revealed a correlation between brain-derived neurotrophic factor (BDNF) expression, nerve density, and increased survival of patients on nonselective β-blockers. These findings suggest that catecholamines drive a feedforward loop, whereby upregulation of neurotrophins increases sympathetic innervation and local norepinephrine accumulation.
-
-<!-- doi: https://doi.org/10.1016/j.ccell.2017.11.007 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1016/j.ccell.2017.11.007' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1016/j.ccell.2017.11.007' data-hide-no-mentions='true'></span>
-
-</details>
-
----
-
-
-
-
-<details open> <summary>
-- **Host IDO2 Gene Status Influences Tumor Progression and Radiotherapy Response in KRAS-Driven Sporadic Pancreatic Cancers**
-</summary> 
-
-*Clinical cancer research : an official journal of the American Association for Cancer Research 2018 Sep;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30266763
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Host IDO2 Gene Status Influences Tumor Progression and Radiotherapy Response in KRAS-Driven Sporadic Pancreatic Cancers PMID: 30266763 '></div>
-
-Purpose: Heritable genetic variations can affect the inflammatory tumor microenvironment, which can ultimately affect cancer susceptibility and clinical outcomes. Recent evidence indicates that IDO2, a positive modifier in inflammatory disease models, is frequently upregulated in pancreatic ductal adenocarcinoma (PDAC). A unique feature of IDO2 in humans is the high prevalence of two inactivating single-nucleotide polymorphisms (SNP), which affords the opportunity to carry out loss-of-function studies directly in humans. In this study, we sought to address whether genetic loss of IDO2 may influence PDAC development and responsiveness to treatment.Experimental Design: Transgenic Ido2+/+ and Ido2-/- mice in which oncogenic KRAS is activated in pancreatic epithelial cells were evaluated for PDAC. Two patient data sets (N = 200) were evaluated for the two IDO2-inactivating SNPs together with histologic, RNA expression, and clinical survival data.Results: PDAC development was notably decreased in the Ido2-/- mice (30% vs. 10%, P < 0.05), with a female predominance similar to the association observed for one of the human SNPs. In patients, the biallelic occurrence of either of the two IDO2-inactivating SNPs was significantly associated with markedly improved disease-free survival in response to adjuvant radiotherapy (P < 0.01), a treatment modality that has been highly debated due to its variable efficacy.Conclusions: The results of this study provide genetic support for IDO2 as a contributing factor in PDAC development and argue that IDO2 genotype analysis has the immediate potential to influence the PDAC care decision-making process through stratification of those patients who stand to benefit from adjuvant radiotherapy.
-
-<!-- doi: https://doi.org/10.1158/1078-0432.CCR-18-0814 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1158/1078-0432.CCR-18-0814' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1158/1078-0432.CCR-18-0814' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **Levels of the Autophagy-Related 5 Protein Affect Progression and Metastasis of Pancreatic Tumors in Mice**
-</summary> 
-
-*Gastroenterology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30296435
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Levels of the Autophagy-Related 5 Protein Affect Progression and Metastasis of Pancreatic Tumors in Mice PMID: 30296435 '></div>
-
-BACKGROUND AND AIMS: Cells in pancreatic ductal adenocarcinoma (PDAC) undergo autophagy, but its effects vary with tumor stage and genetic factors. We investigated the consequences of varying levels of the autophagy-related 5 (Atg5) protein on pancreatic tumor formation and progression.
-METHODS: We generated mice that express oncogenic Kras in primary pancreatic cancer cells and have homozygous disruption of Atg5 (A5;Kras) or heterozygous disruption of Atg5 (A5+/-;Kras), and compared them with mice with only oncogenic Kras (controls). Pancreata were analyzed by histology and immunohistochemistry. Primary tumor cells were isolated and used to perform transcriptome, metabolome, intracellular calcium, extracellular cathepsin activity, and cell migration and invasion analyses. The cells were injected into wild-type littermates, and orthotopic tumor growth and metastasis were monitored. Atg5 was knocked down in pancreatic cancer cell lines using small hairpin RNAs; cell migration and invasion were measured, and cells were injected into wild-type littermates. PDAC samples were obtained from independent cohorts of patients and protein levels were measured on immunoblot and immunohistochemistry; we tested the correlation of protein levels with metastasis and patient survival times.
-RESULTS: A5+/-;Kras mice, with reduced Atg5 levels, developed more tumors and metastases, than control mice, whereas A5;Kras mice did not develop any tumors. Cultured A5+/-;Kras primary tumor cells were resistant to induction and inhibition of autophagy, had altered mitochondrial morphology, compromised mitochondrial function, changes in intracellular Ca2+ oscillations, and increased activity of extracellular cathepsin L and D. The tumors that formed in A5+/-;Kras mice contained greater numbers of type 2 macrophages than control mice, and primary A5+/-;Kras tumor cells had up-regulated expression of cytokines that regulate macrophage chemoattraction and differentiation into M2 macrophage. Knockdown of Atg5 in pancreatic cancer cell lines increased their migratory and invasive capabilities, and formation of metastases following injection into mice. In human PDAC samples, lower levels of ATG5 associated with tumor metastasis and shorter survival time.
-CONCLUSIONS: In mice that express oncogenic Kras in pancreatic cells, heterozygous disruption of Atg5 and reduced protein levels promotes tumor development, whereas homozygous disruption of Atg5 blocks tumorigenesis. Therapeutic strategies to alter autophagy in PDAC should consider the effects of ATG5 levels to avoid the expansion of resistant and highly aggressive cells.
-
-<!-- doi: https://doi.org/10.1053/j.gastro.2018.09.053 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1053/j.gastro.2018.09.053' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1053/j.gastro.2018.09.053' data-hide-no-mentions='true'></span>
-
-</details>
-
-
----
-
-
-
-
-<details open> <summary>
-- **ZIP4 Promotes Muscle Wasting and Cachexia in Mice with Orthotopic Pancreatic Tumors by Stimulating RAB27B-Regulated Release of Extracellular Vesicles From Cancer Cells**
-</summary> 
-
-*Gastroenterology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30342032
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ZIP4 Promotes Muscle Wasting and Cachexia in Mice with Orthotopic Pancreatic Tumors by Stimulating RAB27B-Regulated Release of Extracellular Vesicles From Cancer Cells PMID: 30342032 '></div>
-
-BACKGROUND & AIMS: Cachexia, which includes muscle wasting, is a frequent complication of pancreatic cancer. There are no therapies that reduce cachexia and increase patient survival, so it is important to learn more about its mechanisms. The zinc transporter ZIP4 promotes growth and metastasis of pancreatic tumors. We investigated its effects on muscle catabolism via extracellular vesicle (EV)-mediated stimulation of mitogen-activated protein kinase 14 (p38MAPK).
-METHODS: We studied nude mice with orthotopic tumors grown from human pancreatic cancer cell lines (AsPC-1 and BxPC-3); tumors were removed 8 days after cell injection and analyzed by histology. Mouse survival was analyzed by Kaplan-Meier curves. ZIP4 was knocked down in AsPC-1 and BxPC-3 cells with small hairpin RNAs; cells with empty vectors were used as controls. Muscle tissues were collected from mice and analyzed by histology and immunohistochemistry. Conditioned media from cell lines and 3-dimensional spheroid/organoid cultures of cancer cells was applied to C2C12 myotubes. The myotubes and the media were analyzed by immunoblots, ELISAs, and immunofluorescence microscopy. EVs were isolated from conditioned media and analyzed by immunoblots.
-RESULTS: Mice with orthotopic tumors grown from pancreatic cancer cells with knockdown of ZIP4 survived longer and lost less body weight and muscle mass than mice with control tumors. Conditioned media from cancer cells activated p38MAPK and induced expression of F-box protein 32 and UBR2 in C2C12 myotubes, and also led to loss of myofibrillar protein myosin heavy chain and myotube thinning. Knockdown of ZIP4 in cancer cells reduced these effects. ZIP4 knockdown also reduced pancreatic cancer cell release of HSP70 and HSP90, which are associated with EVs, by decreasing CREB-regulated expression of RAB27B.
-CONCLUSIONS: ZIP4 promotes growth of orthotopic pancreatic tumors in mice and loss of muscle mass by activating CREB-regulated expression of RAB27B, required for release of EVs from pancreatic cancer cells. These EVs activate p38MAPK and induce expression of F-box protein 32 and UBR2 in myotubes, leading to loss of myofibrillar myosin heavy chain and myotube thinning. Strategies to disrupt these pathways might be developed to reduce pancreatic cancer progression and accompanying cachexia.
-
-<!-- doi: https://doi.org/10.1053/j.gastro.2018.10.026 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1053/j.gastro.2018.10.026' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1053/j.gastro.2018.10.026' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth**
-</summary> 
-
-*Gut 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30343272
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : DYRK1A modulates c-MET in pancreatic ductal adenocarcinoma to drive tumour growth PMID: 30343272 '></div>
-
-BACKGROUND AND AIMS: Pancreatic ductal adenocarcinoma (PDAC) is a very aggressive tumour with a poor prognosis using current treatments. Targeted therapies may offer a new avenue for more effective strategies. Dual-specificity tyrosine regulated kinase 1A (DYRK1A) is a pleiotropic kinase with contradictory roles in different tumours that is uncharacterised in PDAC. Here, we aimed to investigate the role of DYRK1A in pancreatic tumorigenesis.
-DESIGN: We analysed DYRK1A expression in PDAC genetic mouse models and in patient samples. DYRK1A function was assessed with knockdown experiments in pancreatic tumour cell lines and in PDAC mouse models with genetic reduction of Dyrk1a dosage. Furthermore, we explored a mechanistic model for DYRK1A activity.
-RESULTS: We showed that DYRK1A was highly expressed in PDAC, and that its protein level positively correlated with that of c-MET. Inhibition of DYRK1A reduced tumour progression by limiting tumour cell proliferation. DYRK1A stabilised the c-MET receptor through SPRY2, leading to prolonged activation of extracellular signal-regulated kinase signalling.
-CONCLUSIONS: These findings reveal that DYRK1A contributes to tumour growth in PDAC, at least through regulation of c-MET accumulation, suggesting that inhibition of DYRK1A could represent a novel therapeutic target for PDAC.
-
-<!-- doi: https://doi.org/10.1136/gutjnl-2018-316128 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1136/gutjnl-2018-316128' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1136/gutjnl-2018-316128' data-hide-no-mentions='true'></span>
-
-</details>
-
-
----
-
-
-
-<details open> <summary>
-- **Transient High Pressure in Pancreatic Ducts Promotes Inflammation and Alters Tight Junctions via Calcineurin Signaling in Mice**
-</summary> 
-
-*Gastroenterology 2018 10;155(4):1250-1263.e5*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=29928898
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Transient High Pressure in Pancreatic Ducts Promotes Inflammation and Alters Tight Junctions via Calcineurin Signaling in Mice PMID: 29928898 '></div>
-
-BACKGROUND & AIMS: Pancreatitis after endoscopic retrograde cholangiopancreatography (PEP) is thought to be provoked by pancreatic ductal hypertension, via unknown mechanisms. We investigated the effects of hydrostatic pressures on the development of pancreatitis in mice.
-METHODS: We performed studies with Swiss Webster mice, B6129 mice (controls), and B6129 mice with disruption of the protein phosphatase 3, catalytic subunit, βisoform gene (Cnab-/- mice). Acute pancreatitis was induced in mice by retrograde biliopancreatic ductal or intraductal infusion of saline with a constant hydrostatic pressure while the proximal common bile duct was clamped -these mice were used as a model of PEP. Some mice were given pancreatic infusions of adeno-associated virus 6-nuclear factor of activated T-cells-luciferase to monitor calcineurin activity or the calcineurin inhibitor FK506. Blood samples and pancreas were collected at 6 and 24 hours and analyzed by enzyme-linked immunosorbent assay, histology, immunohistochemistry, or fluorescence microscopy. Ca2+ signaling and mitochondrial permeability were measured in pancreatic acinar cells isolated 15 minutes after PEP induction. Ca2+-activated phosphatase calcineurin within the pancreas was tracked in vivo over 24 hours.
-RESULTS: Intraductal pressures of up to 130 mm Hg were observed in the previously reported model of PEP; we found that application of hydrostatic pressures of 100 and 150 mm Hg for 10 minutes consistently induced pancreatitis. Pancreatic tissues had markers of inflammation (increased levels of interleukin [IL] 6, IL1B, and tumor necrosis factor), activation of signal transducer and activator of transcription 3, increased serum amylase and IL6, and loss of tight junction integrity. Transiently high pressures dysregulated Ca2+ processing (reduced Ca2+ oscillations and an increased peak plateau Ca2+ signal) and reduced the mitochondrial membrane potential. We observed activation of pancreatic calcineurin in the pancreas in mice. Cnab-/- mice, which lack the catalytic subunit of calcineurin, and mice given FK506 did not develop pressure-induced pancreatic inflammation, edema, or loss of tight junction integrity.
-CONCLUSIONS: Transient high ductal pressure produces pancreatic inflammation and loss of tight junction integrity in a mouse model of PEP. These processes require calcineurin signaling. Calcineurin inhibitors might be used to prevent acute pancreatitis that results from obstruction.
-
-<!-- doi: https://doi.org/10.1053/j.gastro.2018.06.036 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1053/j.gastro.2018.06.036' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1053/j.gastro.2018.06.036' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
----
-
-
-
-
-
-<details open> <summary>
-- **Elastography can map the local inverse relationship between shear modulus and drug delivery within the pancreatic ductal adenocarcinoma microenvironment**
-</summary> 
-
-*Clinical cancer research : an official journal of the American Association for Cancer Research 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30352906
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Elastography can map the local inverse relationship between shear modulus and drug delivery within the pancreatic ductal adenocarcinoma microenvironment PMID: 30352906 '></div>
-
-PURPOSE: High tissue pressure prevents chemotherapeutics from reaching the core of pancreatic tumors. Therefore, targeted therapies have been developed to reduce this pressure. While point probes have shown the effectiveness of these pressure-reducing therapies via single location estimates, ultrasound elastography is now widely available as an imaging technique to provide real-time spatial maps of shear modulus (tissue stiffness). However, the relationship between shear modulus and the underlying tumor microenvironmental causes has not been investigated. In this work, elastography was used to investigate how shear modulus influences drug delivery in situ, and how it correlates with collagen density, hyaluronic acid content, and patent vessel density, features of the tumor microenvironment known to influence tissue pressure.
-EXPERIMENTAL DESIGN: Intravenous injection of verteporfin, an approved human fluorescent drug, was used in two pancreatic cancer xenograft models (AsPC1 (n=25) and BxPC-3 (n=25)).
-RESULTS: Fluorescence intensity was higher in AsPC-1 tumors than in BxPC-3 tumors (p < 0.0001). Comparing drug uptake images and shear wave elastographic images with histological images revealed that: (1) drug delivery and shear modulus were inversely related, (2) shear modulus increased linearly with increasing collagen density, and (3) shear modulus was marginally correlated with the local assessment of hyaluronic acid content.
-CONCLUSIONS: These results demonstrate that elastography could guide targeted therapy and/or identify patients with highly elevated tissue pressure.
-
-<!-- doi: https://doi.org/10.1158/1078-0432.CCR-18-2684 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1158/1078-0432.CCR-18-2684' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1158/1078-0432.CCR-18-2684' data-hide-no-mentions='true'></span>
-
-</details>
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
 ### Techniques & Research Methods
 
 
@@ -4995,32 +4248,6 @@ CONCLUSIONS: Pancreas education in visual formats of learning provided by APP de
 
 </details>
 
-
----
-
-
-
-<details open> <summary>
-- **ASO Author Reflections: Fluorescent-Guided Surgery to Augment Pancreatic Cancer Surgery**
-</summary> 
-
-*Annals of surgical oncology 2018 Oct;():*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=30315384
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : ASO Author Reflections: Fluorescent-Guided Surgery to Augment Pancreatic Cancer Surgery PMID: 30315384 '></div>
-
-
-
-<!-- doi: https://doi.org/10.1245/s10434-018-6904-9 -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='10.1245/s10434-018-6904-9' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='10.1245/s10434-018-6904-9' data-hide-no-mentions='true'></span>
-
-</details>
-
-
 ---
 
 
@@ -5045,32 +4272,6 @@ High-quality and well-annotated biorepositories are needed to better understand 
 
 </details>
 
----
-
-
-
-<details open> <summary>
-- **Histopathologic Analysis of Pancreaticoduodenectomy Specimen**
-</summary> 
-
-*JNMA; journal of the Nepal Medical Association 2016 12;55(204):79-85*
-
-PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term=28029673
-
-<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : Histopathologic Analysis of Pancreaticoduodenectomy Specimen PMID: 28029673 '></div>
-
-INTRODUCTION: Whipple's Pancreaticoduodenectomy has increasingly been used as an appropriate resectional procedure for tumors of the periampullary region which are pancreatic, periampullary, ampullary and biliary tumors. Our aim was to study the distribution and histopathologic features of these tumors and to examine local trends of periampullary neoplasms resected with a PD.
-METHODS: A descriptive study was conducted in the department of Pathology, Kathmandu Medical College Teaching Hospital from July 2013 to June 2016.
-RESULTS: Thirty five patients underwent Whipple's Pancreaticoduodenectomy procedure during a period of 36 months from July 2013 to June 2016. Malignant tumor was present in 31 (88.57%) cases where as four cases (11.43%) harboured benign lesions. Periampullary mixed carcinoma was the predominant tumor (34.28%) followed by periampullary duodenal (20%), ampullary (14.28%), pancreatic adenocarcinoma (11.42%) and distal cholangiocarcinoma (5.71%). There was no significant difference in tumor size among periampullary, ampullary, pancreatic and biliary carcinomas. Ampullary carcinomas were predominantly well differentiated (80%) where as the other tumors were mostly moderately differentiated. Lymphovascular and perineural invasion varied in different tumor types. Four pancreatic adenocarcinomas showed lymphovascular and perineural invasion. Adequate surgical margin clearance was achieved in most of the cases except in one case each of periampullary duodenal carcinoma and distal cholangiocarcinoma and two cases of pancreatic adenocarcinoma..
-CONCLUSIONS: Pancreaticoduodenectomy specimen requires thorough histopathological evaluation. Pathologists should also be aware of possibility of a benign diagnosis in PD specimens which have been resected presuming malignancy based on clinical judgement and radiological data.
-
-<!-- doi: https://doi.org/ -->
-
-<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='' data-hide-no-mentions='true'></span>
-
-</details>
 
 ---
 
@@ -5102,9 +4303,7 @@ Cancer
 Cancer Cell  
 Cancer Cytopathology  
 Cell  
-Cellular Oncology  
 Clinical Cancer Research  
-Cochrane Database Systematic Reviews  
 Cytojournal  
 Cytopathology  
 Diagnostic Cytopathology  
@@ -5138,12 +4337,9 @@ Pathology & Oncology Research
 Pathology International  
 Pathology Research and Practice  
 PNAS  
-Science  
 Seminars in Diagnostic Pathology  
 Seminars in Immunopathology  
 Surgical pathology clinics  
-Tissue Antigens  
-Trends in Cancer  
 Virchows Archiv  
 
 ---

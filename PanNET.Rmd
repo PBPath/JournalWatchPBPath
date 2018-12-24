@@ -721,6 +721,97 @@ Sys.sleep(1)
 
 ---
 
+```{r 30519760, include=FALSE}
+
+PMID_30519760 <- RefManageR::ReadPubMed('30519760', database = 'PubMed')
+
+citation_30519760 <- paste0(PMID_30519760$journal,' ', PMID_30519760$year, ' ', PMID_30519760$month,';', PMID_30519760$volume,'(', PMID_30519760$number,'):', PMID_30519760$pages)
+
+PubMed_30519760 <- paste0(PubMedString, PMID_30519760$eprint)
+
+doi_30519760 <- paste0(doiString, PMID_30519760$doi)
+
+dimensionBadge_30519760 <- paste0(dimensionString1, PMID_30519760$doi,dimensionString2)
+
+altmetricBadge_30519760 <- paste0(altmetricString1, PMID_30519760$doi, altmetricString2 )
+
+addthis_inline_30519760 <- paste0(addthis_String1, PMID_30519760$title , " PMID: 30519760 " , addthis_String2) 
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30519760$title`**
+</summary> 
+
+*`r citation_30519760`*
+
+`r PubMed_30519760`
+
+`r addthis_inline_30519760`
+
+`r PMID_30519760$abstract`
+
+<!-- `r doi_30519760` -->
+
+`r dimensionBadge_30519760`
+
+`r altmetricBadge_30519760`
+
+</details>
+
+
+
+---
+
+
+```{r 30531243, include=FALSE}
+
+PMID_30531243 <- RefManageR::ReadPubMed('30531243', database = 'PubMed')
+
+citation_30531243 <- paste0(PMID_30531243$journal,' ', PMID_30531243$year, ' ', PMID_30531243$month,';', PMID_30531243$volume,'(', PMID_30531243$number,'):', PMID_30531243$pages)
+
+PubMed_30531243 <- paste0(PubMedString, PMID_30531243$eprint)
+
+doi_30531243 <- paste0(doiString, PMID_30531243$doi)
+
+dimensionBadge_30531243 <- paste0(dimensionString1, PMID_30531243$doi,dimensionString2)
+
+altmetricBadge_30531243 <- paste0(altmetricString1, PMID_30531243$doi, altmetricString2 )
+
+addthis_inline_30531243 <- paste0(addthis_String1, PMID_30531243$title , " PMID: 30531243 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30531243$title`**
+</summary> 
+
+*`r citation_30531243`*
+
+`r PubMed_30531243`
+
+`r addthis_inline_30531243`
+
+`r PMID_30531243$abstract`
+
+<!-- `r doi_30531243` -->
+
+`r dimensionBadge_30531243`
+
+`r altmetricBadge_30531243`
+
+</details>
+
+
+---
+
+
+
 
 
     
