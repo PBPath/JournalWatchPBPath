@@ -159,3 +159,55 @@ Sys.sleep(1)
 
 </details>
 
+---
+
+
+```{r 30301772, include=FALSE}
+
+PMID_30301772 <- RefManageR::ReadPubMed('30301772', database = 'PubMed')
+
+citation_30301772 <- paste0(PMID_30301772$journal,' ', PMID_30301772$year, ' ', PMID_30301772$month,';', PMID_30301772$volume,'(', PMID_30301772$number,'):', PMID_30301772$pages)
+
+PubMed_30301772 <- paste0(PubMedString, PMID_30301772$eprint)
+
+doi_30301772 <- paste0(doiString, PMID_30301772$doi)
+
+dimensionBadge_30301772 <- paste0(dimensionString1, PMID_30301772$doi,dimensionString2)
+
+altmetricBadge_30301772 <- paste0(altmetricString1, PMID_30301772$doi, altmetricString2 )
+
+addthis_inline_30301772 <- paste0(addthis_String1, PMID_30301772$title , " PMID: 30301772 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30301772$title`**
+</summary> 
+
+*`r citation_30301772`*
+
+`r PubMed_30301772`
+
+`r addthis_inline_30301772`
+
+`r PMID_30301772$abstract`
+
+<!-- `r doi_30301772` -->
+
+`r dimensionBadge_30301772`
+
+`r altmetricBadge_30301772`
+
+</details>
+
+
+---
+
+
+
+
+
+
+

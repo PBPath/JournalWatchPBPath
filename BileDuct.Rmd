@@ -143,3 +143,49 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6195646/
 https://www.hpbonline.org/article/S1365-182X(18)30877-3/abstract
 
 
+---
+
+```{r 30448774, include=FALSE}
+
+PMID_30448774 <- RefManageR::ReadPubMed('30448774', database = 'PubMed')
+
+citation_30448774 <- paste0(PMID_30448774$journal,' ', PMID_30448774$year, ' ', PMID_30448774$month,';', PMID_30448774$volume,'(', PMID_30448774$number,'):', PMID_30448774$pages)
+
+PubMed_30448774 <- paste0(PubMedString, PMID_30448774$eprint)
+
+doi_30448774 <- paste0(doiString, PMID_30448774$doi)
+
+dimensionBadge_30448774 <- paste0(dimensionString1, PMID_30448774$doi,dimensionString2)
+
+altmetricBadge_30448774 <- paste0(altmetricString1, PMID_30448774$doi, altmetricString2 )
+
+addthis_inline_30448774 <- paste0(addthis_String1, PMID_30448774$title , " PMID: 30448774 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30448774$title`**
+</summary> 
+
+*`r citation_30448774`*
+
+`r PubMed_30448774`
+
+`r addthis_inline_30448774`
+
+`r PMID_30448774$abstract`
+
+<!-- `r doi_30448774` -->
+
+`r dimensionBadge_30448774`
+
+`r altmetricBadge_30448774`
+
+</details>
+
+
+---
+
+

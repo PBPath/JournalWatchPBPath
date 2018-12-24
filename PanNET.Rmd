@@ -677,6 +677,50 @@ https://link.springer.com/article/10.1007/s00428-018-2407-0
 
 
 
+---
+
+```{r 30391116, include=FALSE}
+
+PMID_30391116 <- RefManageR::ReadPubMed('30391116', database = 'PubMed')
+
+citation_30391116 <- paste0(PMID_30391116$journal,' ', PMID_30391116$year, ' ', PMID_30391116$month,';', PMID_30391116$volume,'(', PMID_30391116$number,'):', PMID_30391116$pages)
+
+PubMed_30391116 <- paste0(PubMedString, PMID_30391116$eprint)
+
+doi_30391116 <- paste0(doiString, PMID_30391116$doi)
+
+dimensionBadge_30391116 <- paste0(dimensionString1, PMID_30391116$doi,dimensionString2)
+
+altmetricBadge_30391116 <- paste0(altmetricString1, PMID_30391116$doi, altmetricString2 )
+
+addthis_inline_30391116 <- paste0(addthis_String1, PMID_30391116$title , " PMID: 30391116 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30391116$title`**
+</summary> 
+
+*`r citation_30391116`*
+
+`r PubMed_30391116`
+
+`r addthis_inline_30391116`
+
+`r PMID_30391116$abstract`
+
+<!-- `r doi_30391116` -->
+
+`r dimensionBadge_30391116`
+
+`r altmetricBadge_30391116`
+
+</details>
+
+---
+
 
 
     

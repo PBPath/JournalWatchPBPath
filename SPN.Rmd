@@ -1,0 +1,59 @@
+---
+title: "SPN"
+output: html_notebook
+---
+
+
+#### SPN
+
+Solid Pseudopapillary Neoplasm
+
+```{r S SPN Solid Pseudopapillary Neoplasm, eval=FALSE, include=FALSE}
+```
+
+
+---
+
+```{r 30275097, include=FALSE}
+
+PMID_30275097 <- RefManageR::ReadPubMed('30275097', database = 'PubMed')
+
+citation_30275097 <- paste0(PMID_30275097$journal,' ', PMID_30275097$year, ' ', PMID_30275097$month,';', PMID_30275097$volume,'(', PMID_30275097$number,'):', PMID_30275097$pages)
+
+PubMed_30275097 <- paste0(PubMedString, PMID_30275097$eprint)
+
+doi_30275097 <- paste0(doiString, PMID_30275097$doi)
+
+dimensionBadge_30275097 <- paste0(dimensionString1, PMID_30275097$doi,dimensionString2)
+
+altmetricBadge_30275097 <- paste0(altmetricString1, PMID_30275097$doi, altmetricString2 )
+
+addthis_inline_30275097 <- paste0(addthis_String1, PMID_30275097$title , " PMID: 30275097 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30275097$title`**
+</summary> 
+
+*`r citation_30275097`*
+
+`r PubMed_30275097`
+
+`r addthis_inline_30275097`
+
+`r PMID_30275097$abstract`
+
+<!-- `r doi_30275097` -->
+
+`r dimensionBadge_30275097`
+
+`r altmetricBadge_30275097`
+
+</details>
+
+
+---
+

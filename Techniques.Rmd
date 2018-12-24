@@ -60,4 +60,95 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6173942/
 
 
 
+---
+
+```{r 30315384, include=FALSE}
+
+PMID_30315384 <- RefManageR::ReadPubMed('30315384', database = 'PubMed')
+
+citation_30315384 <- paste0(PMID_30315384$journal,' ', PMID_30315384$year, ' ', PMID_30315384$month,';', PMID_30315384$volume,'(', PMID_30315384$number,'):', PMID_30315384$pages)
+
+PubMed_30315384 <- paste0(PubMedString, PMID_30315384$eprint)
+
+doi_30315384 <- paste0(doiString, PMID_30315384$doi)
+
+dimensionBadge_30315384 <- paste0(dimensionString1, PMID_30315384$doi,dimensionString2)
+
+altmetricBadge_30315384 <- paste0(altmetricString1, PMID_30315384$doi, altmetricString2 )
+
+addthis_inline_30315384 <- paste0(addthis_String1, PMID_30315384$title , " PMID: 30315384 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30315384$title`**
+</summary> 
+
+*`r citation_30315384`*
+
+`r PubMed_30315384`
+
+`r addthis_inline_30315384`
+
+`r PMID_30315384$abstract`
+
+<!-- `r doi_30315384` -->
+
+`r dimensionBadge_30315384`
+
+`r altmetricBadge_30315384`
+
+</details>
+
+
+---
+
+
+
+```{r 28029673, include=FALSE}
+
+PMID_28029673 <- RefManageR::ReadPubMed('28029673', database = 'PubMed')
+
+citation_28029673 <- paste0(PMID_28029673$journal,' ', PMID_28029673$year, ' ', PMID_28029673$month,';', PMID_28029673$volume,'(', PMID_28029673$number,'):', PMID_28029673$pages)
+
+PubMed_28029673 <- paste0(PubMedString, PMID_28029673$eprint)
+
+doi_28029673 <- paste0(doiString, PMID_28029673$doi)
+
+dimensionBadge_28029673 <- paste0(dimensionString1, PMID_28029673$doi,dimensionString2)
+
+altmetricBadge_28029673 <- paste0(altmetricString1, PMID_28029673$doi, altmetricString2 )
+
+addthis_inline_28029673 <- paste0(addthis_String1, PMID_28029673$title , " PMID: 28029673 " , addthis_String2)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_28029673$title`**
+</summary> 
+
+*`r citation_28029673`*
+
+`r PubMed_28029673`
+
+`r addthis_inline_28029673`
+
+`r PMID_28029673$abstract`
+
+<!-- `r doi_28029673` -->
+
+`r dimensionBadge_28029673`
+
+`r altmetricBadge_28029673`
+
+</details>
+
+
+---
+
+
 
