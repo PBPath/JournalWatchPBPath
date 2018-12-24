@@ -689,3 +689,48 @@ http://cancer-research-frontiers.org/wp-content/uploads/2018/10/CRF-1833-4-1.pdf
     
 https://www.researchgate.net/publication/328235099_Prognostic_role_of_metastatic_lymph_node_number_and_lymph_node_ratio_in_ampullary_adenocarcinoma
 
+
+---
+
+```{r 30194192, include=FALSE}
+
+PMID_30194192 <- RefManageR::ReadPubMed('30194192', database = 'PubMed')
+
+citation_30194192 <- paste0(PMID_30194192$journal,' ', PMID_30194192$year, ' ', PMID_30194192$month,';', PMID_30194192$volume,'(', PMID_30194192$number,'):', PMID_30194192$pages)
+
+PubMed_30194192 <- paste0(PubMedString, PMID_30194192$eprint)
+
+doi_30194192 <- paste0(doiString, PMID_30194192$doi)
+
+dimensionBadge_30194192 <- paste0(dimensionString1, PMID_30194192$doi,dimensionString2)
+
+altmetricBadge_30194192 <- paste0(altmetricString1, PMID_30194192$doi, altmetricString2 )
+
+addthis_inline_30194192 <- paste0(addthis_String1, PMID_30194192$title , " PMID: 30194192 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30194192$title`**
+</summary> 
+
+*`r citation_30194192`*
+
+`r PubMed_30194192`
+
+`r addthis_inline_30194192`
+
+`r PMID_30194192$abstract`
+
+<!-- `r doi_30194192` -->
+
+`r dimensionBadge_30194192`
+
+`r altmetricBadge_30194192`
+
+</details>
+
+---
