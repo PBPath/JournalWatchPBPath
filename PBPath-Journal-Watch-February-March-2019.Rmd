@@ -82,10 +82,67 @@ We encourage members to actively participate by recommending new articles and pr
 
 ---
 
+## Surgical Pathology {.tabset}
+
+---
+
+### Pancreas
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+### Bile Ducts
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+### Gallbladder
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+### Ampulla of Vater
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+### Neuroendocrine
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
 ## No Abstract yet / Other Journals {.tabset}
 
 No abstract yet, not in PubMed yet
 
+---
 
 ### Pancreas 
 
@@ -98,186 +155,13 @@ https://www.nature.com/articles/s41467-018-07472-8
 
 ---
 
-```{r 30544433, include=FALSE}
 
-PMID_30544433 <- RefManageR::ReadPubMed('30544433', database = 'PubMed')
-
-citation_30544433 <- paste0(PMID_30544433$journal,' ', PMID_30544433$year, ' ', PMID_30544433$month,';', PMID_30544433$volume,'(', PMID_30544433$number,'):', PMID_30544433$pages)
-
-PubMed_30544433 <- paste0(PubMedString, PMID_30544433$eprint)
-
-doi_30544433 <- paste0(doiString, PMID_30544433$doi)
-
-dimensionBadge_30544433 <- paste0(dimensionString1, PMID_30544433$doi,dimensionString2)
-
-altmetricBadge_30544433 <- paste0(altmetricString1, PMID_30544433$doi, altmetricString2 )
-
-addthis_inline_30544433 <- paste0(addthis_String1, PMID_30544433$title , " PMID: 30544433 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30544433$title`**
-</summary> 
-
-*`r citation_30544433`*
-
-`r PubMed_30544433`
-
-`r addthis_inline_30544433`
-
-`r PMID_30544433$abstract`
-
-<!-- `r doi_30544433` -->
-
-`r dimensionBadge_30544433`
-
-`r altmetricBadge_30544433`
-
-</details>
-
----
 
 
 - **Subtyping of intraductal papillary mucinous neoplasms – pitfalls of MUC1 immunohistochemistry**
 
 
 https://onlinelibrary.wiley.com/doi/abs/10.1111/apm.12900
-
-
----
-
-```{r 29926190, include=FALSE}
-
-PMID_29926190 <- RefManageR::ReadPubMed('29926190', database = 'PubMed')
-
-citation_29926190 <- paste0(PMID_29926190$journal,' ', PMID_29926190$year, ' ', PMID_29926190$month,';', PMID_29926190$volume,'(', PMID_29926190$number,'):', PMID_29926190$pages)
-
-PubMed_29926190 <- paste0(PubMedString, PMID_29926190$eprint)
-
-doi_29926190 <- paste0(doiString, PMID_29926190$doi)
-
-dimensionBadge_29926190 <- paste0(dimensionString1, PMID_29926190$doi,dimensionString2)
-
-altmetricBadge_29926190 <- paste0(altmetricString1, PMID_29926190$doi, altmetricString2 )
-
-addthis_inline_29926190 <- paste0(addthis_String1, PMID_29926190$title , " PMID: 29926190 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_29926190$title`**
-</summary> 
-
-*`r citation_29926190`*
-
-`r PubMed_29926190`
-
-`r addthis_inline_29926190`
-
-`r PMID_29926190$abstract`
-
-<!-- `r doi_29926190` -->
-
-`r dimensionBadge_29926190`
-
-`r altmetricBadge_29926190`
-
-</details>
-
----
-
-```{r 30554606, include=FALSE}
-
-PMID_30554606 <- RefManageR::ReadPubMed('30554606', database = 'PubMed')
-
-citation_30554606 <- paste0(PMID_30554606$journal,' ', PMID_30554606$year, ' ', PMID_30554606$month,';', PMID_30554606$volume,'(', PMID_30554606$number,'):', PMID_30554606$pages)
-
-PubMed_30554606 <- paste0(PubMedString, PMID_30554606$eprint)
-
-doi_30554606 <- paste0(doiString, PMID_30554606$doi)
-
-dimensionBadge_30554606 <- paste0(dimensionString1, PMID_30554606$doi,dimensionString2)
-
-altmetricBadge_30554606 <- paste0(altmetricString1, PMID_30554606$doi, altmetricString2 )
-
-addthis_inline_30554606 <- paste0(addthis_String1, PMID_30554606$title , " PMID: 30554606 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30554606$title`**
-</summary> 
-
-*`r citation_30554606`*
-
-`r PubMed_30554606`
-
-`r addthis_inline_30554606`
-
-`r PMID_30554606$abstract`
-
-<!-- `r doi_30554606` -->
-
-`r dimensionBadge_30554606`
-
-`r altmetricBadge_30554606`
-
-</details>
-
----
-
-```{r 30583980, include=FALSE}
-
-PMID_30583980 <- RefManageR::ReadPubMed('30583980', database = 'PubMed')
-
-citation_30583980 <- paste0(PMID_30583980$journal,' ', PMID_30583980$year, ' ', PMID_30583980$month,';', PMID_30583980$volume,'(', PMID_30583980$number,'):', PMID_30583980$pages)
-
-PubMed_30583980 <- paste0(PubMedString, PMID_30583980$eprint)
-
-doi_30583980 <- paste0(doiString, PMID_30583980$doi)
-
-dimensionBadge_30583980 <- paste0(dimensionString1, PMID_30583980$doi,dimensionString2)
-
-altmetricBadge_30583980 <- paste0(altmetricString1, PMID_30583980$doi, altmetricString2 )
-
-addthis_inline_30583980 <- paste0(addthis_String1, PMID_30583980$title , " PMID: 30583980 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30583980$title`**
-</summary> 
-
-*`r citation_30583980`*
-
-`r PubMed_30583980`
-
-`r addthis_inline_30583980`
-
-`r PMID_30583980$abstract`
-
-<!-- `r doi_30583980` -->
-
-`r dimensionBadge_30583980`
-
-`r altmetricBadge_30583980`
-
-</details>
-
-
 
 
 ---
@@ -609,235 +493,12 @@ https://onlinelibrary.wiley.com/doi/10.1111/cyt.12675
 
 https://cancerci.biomedcentral.com/articles/10.1186/s12935-018-0718-5
 
-
-
----
-
-```{r 30574212, include=FALSE}
-
-PMID_30574212 <- RefManageR::ReadPubMed('30574212', database = 'PubMed')
-
-citation_30574212 <- paste0(PMID_30574212$journal,' ', PMID_30574212$year, ' ', PMID_30574212$month,';', PMID_30574212$volume,'(', PMID_30574212$number,'):', PMID_30574212$pages)
-
-PubMed_30574212 <- paste0(PubMedString, PMID_30574212$eprint)
-
-doi_30574212 <- paste0(doiString, PMID_30574212$doi)
-
-dimensionBadge_30574212 <- paste0(dimensionString1, PMID_30574212$doi,dimensionString2)
-
-altmetricBadge_30574212 <- paste0(altmetricString1, PMID_30574212$doi, altmetricString2 )
-
-addthis_inline_30574212 <- paste0(addthis_String1, PMID_30574212$title , " PMID: 30574212 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30574212$title`**
-</summary> 
-
-*`r citation_30574212`*
-
-`r PubMed_30574212`
-
-`r addthis_inline_30574212`
-
-`r PMID_30574212$abstract`
-
-<!-- `r doi_30574212` -->
-
-`r dimensionBadge_30574212`
-
-`r altmetricBadge_30574212`
-
-</details>
-
----
-
-```{r 30588520, include=FALSE}
-
-PMID_30588520 <- RefManageR::ReadPubMed('30588520', database = 'PubMed')
-
-citation_30588520 <- paste0(PMID_30588520$journal,' ', PMID_30588520$year, ' ', PMID_30588520$month,';', PMID_30588520$volume,'(', PMID_30588520$number,'):', PMID_30588520$pages)
-
-PubMed_30588520 <- paste0(PubMedString, PMID_30588520$eprint)
-
-doi_30588520 <- paste0(doiString, PMID_30588520$doi)
-
-dimensionBadge_30588520 <- paste0(dimensionString1, PMID_30588520$doi,dimensionString2)
-
-altmetricBadge_30588520 <- paste0(altmetricString1, PMID_30588520$doi, altmetricString2 )
-
-addthis_inline_30588520 <- paste0(addthis_String1, PMID_30588520$title , " PMID: 30588520 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30588520$title`**
-</summary> 
-
-*`r citation_30588520`*
-
-`r PubMed_30588520`
-
-`r addthis_inline_30588520`
-
-`r PMID_30588520$abstract`
-
-<!-- `r doi_30588520` -->
-
-`r dimensionBadge_30588520`
-
-`r altmetricBadge_30588520`
-
-</details>
-
-
----
-
-
-```{r 30380143, include=FALSE}
-
-PMID_30380143 <- RefManageR::ReadPubMed('30380143', database = 'PubMed')
-
-citation_30380143 <- paste0(PMID_30380143$journal,' ', PMID_30380143$year, ' ', PMID_30380143$month,';', PMID_30380143$volume,'(', PMID_30380143$number,'):', PMID_30380143$pages)
-
-PubMed_30380143 <- paste0(PubMedString, PMID_30380143$eprint)
-
-doi_30380143 <- paste0(doiString, PMID_30380143$doi)
-
-dimensionBadge_30380143 <- paste0(dimensionString1, PMID_30380143$doi,dimensionString2)
-
-altmetricBadge_30380143 <- paste0(altmetricString1, PMID_30380143$doi, altmetricString2 )
-
-addthis_inline_30380143 <- paste0(addthis_String1, PMID_30380143$title , " PMID: 30380143 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30380143$title`**
-</summary> 
-
-*`r citation_30380143`*
-
-`r PubMed_30380143`
-
-`r addthis_inline_30380143`
-
-`r PMID_30380143$abstract`
-
-<!-- `r doi_30380143` -->
-
-`r dimensionBadge_30380143`
-
-`r altmetricBadge_30380143`
-
-</details>
-
-
 ---
 
 
 - **Utilizing cell line-derived organoids to evaluate the efficacy of a  novel LIFR-inhibitor, EC359 in targeting pancreatic tumor stroma**
 
 http://www.impactjournals.com/Genes&Cancer/files/papers/1/184/184.pdf
-
-
----
-
-
-```{r 30418798, include=FALSE}
-
-PMID_30418798 <- RefManageR::ReadPubMed('30418798', database = 'PubMed')
-
-citation_30418798 <- paste0(PMID_30418798$journal,' ', PMID_30418798$year, ' ', PMID_30418798$month,';', PMID_30418798$volume,'(', PMID_30418798$number,'):', PMID_30418798$pages)
-
-PubMed_30418798 <- paste0(PubMedString, PMID_30418798$eprint)
-
-doi_30418798 <- paste0(doiString, PMID_30418798$doi)
-
-dimensionBadge_30418798 <- paste0(dimensionString1, PMID_30418798$doi,dimensionString2)
-
-altmetricBadge_30418798 <- paste0(altmetricString1, PMID_30418798$doi, altmetricString2 )
-
-addthis_inline_30418798 <- paste0(addthis_String1, PMID_30418798$title , " PMID: 30418798 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30418798$title`**
-</summary> 
-
-*`r citation_30418798`*
-
-`r PubMed_30418798`
-
-`r addthis_inline_30418798`
-
-`r PMID_30418798$abstract`
-
-<!-- `r doi_30418798` -->
-
-`r dimensionBadge_30418798`
-
-`r altmetricBadge_30418798`
-
-</details>
-
-
----
-
-```{r 29510146, include=FALSE}
-
-PMID_29510146 <- RefManageR::ReadPubMed('29510146', database = 'PubMed')
-
-citation_29510146 <- paste0(PMID_29510146$journal,' ', PMID_29510146$year, ' ', PMID_29510146$month,';', PMID_29510146$volume,'(', PMID_29510146$number,'):', PMID_29510146$pages)
-
-PubMed_29510146 <- paste0(PubMedString, PMID_29510146$eprint)
-
-doi_29510146 <- paste0(doiString, PMID_29510146$doi)
-
-dimensionBadge_29510146 <- paste0(dimensionString1, PMID_29510146$doi,dimensionString2)
-
-altmetricBadge_29510146 <- paste0(altmetricString1, PMID_29510146$doi, altmetricString2 )
-
-addthis_inline_29510146 <- paste0(addthis_String1, PMID_29510146$title , " PMID: 29510146 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_29510146$title`**
-</summary> 
-
-*`r citation_29510146`*
-
-`r PubMed_29510146`
-
-`r addthis_inline_29510146`
-
-`r PMID_29510146$abstract`
-
-<!-- `r doi_29510146` -->
-
-`r dimensionBadge_29510146`
-
-`r altmetricBadge_29510146`
-
-</details>
 
 
 ---
@@ -858,6 +519,13 @@ https://www.sciencedirect.com/science/article/pii/S0304383518307201
 
 
 ---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
 
 ### Bile Ducts
 
@@ -893,55 +561,16 @@ https://www.sciencedirect.com/science/article/pii/S0022480418307753
 [link](https://www.researchgate.net/publication/329858424_Clinical_practice_guidelines_for_IgG4-related_sclerosing_cholangitis)
 
 
----
-
-
-```{r 30570170, include=FALSE}
-
-PMID_30570170 <- RefManageR::ReadPubMed('30570170', database = 'PubMed')
-
-citation_30570170 <- paste0(PMID_30570170$journal,' ', PMID_30570170$year, ' ', PMID_30570170$month,';', PMID_30570170$volume,'(', PMID_30570170$number,'):', PMID_30570170$pages)
-
-PubMed_30570170 <- paste0(PubMedString, PMID_30570170$eprint)
-
-doi_30570170 <- paste0(doiString, PMID_30570170$doi)
-
-dimensionBadge_30570170 <- paste0(dimensionString1, PMID_30570170$doi,dimensionString2)
-
-altmetricBadge_30570170 <- paste0(altmetricString1, PMID_30570170$doi, altmetricString2 )
-
-addthis_inline_30570170 <- paste0(addthis_String1, PMID_30570170$title , " PMID: 30570170 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30570170$title`**
-</summary> 
-
-*`r citation_30570170`*
-
-`r PubMed_30570170`
-
-`r addthis_inline_30570170`
-
-`r PMID_30570170$abstract`
-
-<!-- `r doi_30570170` -->
-
-`r dimensionBadge_30570170`
-
-`r altmetricBadge_30570170`
-
-</details>
-
-
-
 
 
 ---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
 
 ### Gallbladder
 
@@ -963,176 +592,12 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/jhbp.593
 
 ---
 
-```{r 30588101, include=FALSE}
-
-PMID_30588101 <- RefManageR::ReadPubMed('30588101', database = 'PubMed')
-
-citation_30588101 <- paste0(PMID_30588101$journal,' ', PMID_30588101$year, ' ', PMID_30588101$month,';', PMID_30588101$volume,'(', PMID_30588101$number,'):', PMID_30588101$pages)
-
-PubMed_30588101 <- paste0(PubMedString, PMID_30588101$eprint)
-
-doi_30588101 <- paste0(doiString, PMID_30588101$doi)
-
-dimensionBadge_30588101 <- paste0(dimensionString1, PMID_30588101$doi,dimensionString2)
-
-altmetricBadge_30588101 <- paste0(altmetricString1, PMID_30588101$doi, altmetricString2 )
-
-addthis_inline_30588101 <- paste0(addthis_String1, PMID_30588101$title , " PMID: 30588101 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30588101$title`**
-</summary> 
-
-*`r citation_30588101`*
-
-`r PubMed_30588101`
-
-`r addthis_inline_30588101`
-
-`r PMID_30588101$abstract`
-
-<!-- `r doi_30588101` -->
-
-`r dimensionBadge_30588101`
-
-`r altmetricBadge_30588101`
-
-</details>
+<a href="#top" target="_self">Back to top</a>
 
 ---
 
+\pagebreak
 
-```{r 30488851, include=FALSE}
-
-PMID_30488851 <- RefManageR::ReadPubMed('30488851', database = 'PubMed')
-
-citation_30488851 <- paste0(PMID_30488851$journal,' ', PMID_30488851$year, ' ', PMID_30488851$month,';', PMID_30488851$volume,'(', PMID_30488851$number,'):', PMID_30488851$pages)
-
-PubMed_30488851 <- paste0(PubMedString, PMID_30488851$eprint)
-
-doi_30488851 <- paste0(doiString, PMID_30488851$doi)
-
-dimensionBadge_30488851 <- paste0(dimensionString1, PMID_30488851$doi,dimensionString2)
-
-altmetricBadge_30488851 <- paste0(altmetricString1, PMID_30488851$doi, altmetricString2 )
-
-addthis_inline_30488851 <- paste0(addthis_String1, PMID_30488851$title , " PMID: 30488851 " , addthis_String2) 
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_30488851$title`**
-</summary> 
-
-*`r citation_30488851`*
-
-`r PubMed_30488851`
-
-`r addthis_inline_30488851`
-
-`r PMID_30488851$abstract`
-
-<!-- `r doi_30488851` -->
-
-`r dimensionBadge_30488851`
-
-`r altmetricBadge_30488851`
-
-</details>
-
----
-
-```{r 28367607, include=FALSE}
-
-PMID_28367607 <- RefManageR::ReadPubMed('28367607', database = 'PubMed')
-
-citation_28367607 <- paste0(PMID_28367607$journal,' ', PMID_28367607$year, ' ', PMID_28367607$month,';', PMID_28367607$volume,'(', PMID_28367607$number,'):', PMID_28367607$pages)
-
-PubMed_28367607 <- paste0(PubMedString, PMID_28367607$eprint)
-
-doi_28367607 <- paste0(doiString, PMID_28367607$doi)
-
-dimensionBadge_28367607 <- paste0(dimensionString1, PMID_28367607$doi,dimensionString2)
-
-altmetricBadge_28367607 <- paste0(altmetricString1, PMID_28367607$doi, altmetricString2 )
-
-addthis_inline_28367607 <- paste0(addthis_String1, PMID_28367607$title , " PMID: 28367607 " , addthis_String2) 
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_28367607$title`**
-</summary> 
-
-*`r citation_28367607`*
-
-`r PubMed_28367607`
-
-`r addthis_inline_28367607`
-
-`r PMID_28367607$abstract`
-
-<!-- `r doi_28367607` -->
-
-`r dimensionBadge_28367607`
-
-`r altmetricBadge_28367607`
-
-</details>
-
----
-
-```{r 30582640, include=FALSE}
-
-PMID_30582640 <- RefManageR::ReadPubMed('30582640', database = 'PubMed')
-
-citation_30582640 <- paste0(PMID_30582640$journal,' ', PMID_30582640$year, ' ', PMID_30582640$month,';', PMID_30582640$volume,'(', PMID_30582640$number,'):', PMID_30582640$pages)
-
-PubMed_30582640 <- paste0(PubMedString, PMID_30582640$eprint)
-
-doi_30582640 <- paste0(doiString, PMID_30582640$doi)
-
-dimensionBadge_30582640 <- paste0(dimensionString1, PMID_30582640$doi,dimensionString2)
-
-altmetricBadge_30582640 <- paste0(altmetricString1, PMID_30582640$doi, altmetricString2 )
-
-addthis_inline_30582640 <- paste0(addthis_String1, PMID_30582640$title , " PMID: 30582640 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30582640$title`**
-</summary> 
-
-*`r citation_30582640`*
-
-`r PubMed_30582640`
-
-`r addthis_inline_30582640`
-
-`r PMID_30582640$abstract`
-
-<!-- `r doi_30582640` -->
-
-`r dimensionBadge_30582640`
-
-`r altmetricBadge_30582640`
-
-</details>
-
----
 
 ### Ampulla of Vater
 
@@ -1149,52 +614,14 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25311
 https://onlinelibrary.wiley.com/doi/abs/10.1002/jso.25336
 
 
----
-
-```{r 30488680, include=FALSE}
-
-PMID_30488680 <- RefManageR::ReadPubMed('30488680', database = 'PubMed')
-
-citation_30488680 <- paste0(PMID_30488680$journal,' ', PMID_30488680$year, ' ', PMID_30488680$month,';', PMID_30488680$volume,'(', PMID_30488680$number,'):', PMID_30488680$pages)
-
-PubMed_30488680 <- paste0(PubMedString, PMID_30488680$eprint)
-
-doi_30488680 <- paste0(doiString, PMID_30488680$doi)
-
-dimensionBadge_30488680 <- paste0(dimensionString1, PMID_30488680$doi,dimensionString2)
-
-altmetricBadge_30488680 <- paste0(altmetricString1, PMID_30488680$doi, altmetricString2 )
-
-addthis_inline_30488680 <- paste0(addthis_String1, PMID_30488680$title , " PMID: 30488680 " , addthis_String2) 
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_30488680$title`**
-</summary> 
-
-*`r citation_30488680`*
-
-`r PubMed_30488680`
-
-`r addthis_inline_30488680`
-
-`r PMID_30488680$abstract`
-
-<!-- `r doi_30488680` -->
-
-`r dimensionBadge_30488680`
-
-`r altmetricBadge_30488680`
-
-</details>
-
 
 ---
 
+<a href="#top" target="_self">Back to top</a>
 
+---
+
+\pagebreak
 
 
 ### Neuroendocrine
@@ -1568,50 +995,6 @@ https://www.sciencedirect.com/science/article/pii/S0002944018302062
 
 
 https://www.sciencedirect.com/science/article/pii/S0002944018302529
-
-
----
-
-```{r 30519109, include=FALSE}
-
-PMID_30519109 <- RefManageR::ReadPubMed('30519109', database = 'PubMed')
-
-citation_30519109 <- paste0(PMID_30519109$journal,' ', PMID_30519109$year, ' ', PMID_30519109$month,';', PMID_30519109$volume,'(', PMID_30519109$number,'):', PMID_30519109$pages)
-
-PubMed_30519109 <- paste0(PubMedString, PMID_30519109$eprint)
-
-doi_30519109 <- paste0(doiString, PMID_30519109$doi)
-
-dimensionBadge_30519109 <- paste0(dimensionString1, PMID_30519109$doi,dimensionString2)
-
-altmetricBadge_30519109 <- paste0(altmetricString1, PMID_30519109$doi, altmetricString2 )
-
-addthis_inline_30519109 <- paste0(addthis_String1, PMID_30519109$title , " PMID: 30519109 " , addthis_String2) 
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_30519109$title`**
-</summary> 
-
-*`r citation_30519109`*
-
-`r PubMed_30519109`
-
-`r addthis_inline_30519109`
-
-`r PMID_30519109$abstract`
-
-<!-- `r doi_30519109` -->
-
-`r dimensionBadge_30519109`
-
-`r altmetricBadge_30519109`
-
-</details>
-
 
 
 ---
