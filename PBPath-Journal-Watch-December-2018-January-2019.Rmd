@@ -118,6 +118,11 @@ altmetricBadge_30482417 <- paste0(altmetricString1, PMID_30482417$doi, altmetric
 
 addthis_inline_30482417 <- paste0(addthis_String1, PMID_30482417$title , " PMID: 30482417 " , addthis_String2) 
 
+# semantic_30482417 <- paste0("https://api.semanticscholar.org/v1/paper/",
+#                             PMID_30482417$doi,
+#                             "?include_unknown_references=true")
+
+
 Sys.sleep(1)
 
 ```
@@ -139,6 +144,9 @@ Sys.sleep(1)
 `r dimensionBadge_30482417`
 
 `r altmetricBadge_30482417`
+
+<!-- [![](figures/semantic-scholar.PNG){width=8%}](`r semantic_30482417`) -->
+
 
 </details>
 
@@ -2089,25 +2097,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 30600442, include=FALSE}
 
-<a href="#top" target="_self">Back to top</a>
+PMID_30600442 <- RefManageR::ReadPubMed('30600442', database = 'PubMed')
 
----
+citation_30600442 <- paste0(PMID_30600442$journal,' ', PMID_30600442$year, ' ', PMID_30600442$month,';', PMID_30600442$volume,'(', PMID_30600442$number,'):', PMID_30600442$pages)
 
-\pagebreak
+PubMed_30600442 <- paste0(PubMedString, PMID_30600442$eprint)
 
-#### Microenvironment 
+doi_30600442 <- paste0(doiString, PMID_30600442$doi)
 
-Neuroendocrine Tumor Stroma Interactions, Microenvironment, Inflammatory Response
+dimensionBadge_30600442 <- paste0(dimensionString1, PMID_30600442$doi,dimensionString2)
 
-```{r Neuroendocrine Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
+altmetricBadge_30600442 <- paste0(altmetricString1, PMID_30600442$doi, altmetricString2 )
+
+addthis_inline_30600442 <- paste0(addthis_String1, PMID_30600442$title , " PMID: 30600442 " , addthis_String2)
+
+Sys.sleep(1)
+
+
 ```
 
+<details open> <summary>
+- **`r PMID_30600442$title`**
+</summary> 
+
+*`r citation_30600442`*
+
+`r PubMed_30600442`
+
+`r addthis_inline_30600442`
+
+`r PMID_30600442$abstract`
+
+<!-- `r doi_30600442` -->
+
+`r dimensionBadge_30600442`
+
+`r altmetricBadge_30600442`
+
+</details>
+
 ---
 
-
-
----
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2115,26 +2147,6 @@ Neuroendocrine Tumor Stroma Interactions, Microenvironment, Inflammatory Respons
 
 \pagebreak
 
-
-
-
-
-#### Neuroendocrine Techniques & Research Methods
-
-
-```{r Neuroendocrine Techniques & Research Methods, eval=FALSE, include=FALSE}
-```
-
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
 
