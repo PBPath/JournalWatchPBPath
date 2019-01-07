@@ -3095,9 +3095,48 @@ Sys.sleep(1)
 </details>
 
 
+---
+
+```{r 30610562, include=FALSE}
+
+PMID_30610562 <- RefManageR::ReadPubMed('30610562', database = 'PubMed')
+
+citation_30610562 <- paste0(PMID_30610562$journal,' ', PMID_30610562$year, ' ', PMID_30610562$month,';', PMID_30610562$volume,'(', PMID_30610562$number,'):', PMID_30610562$pages)
+
+PubMed_30610562 <- paste0(PubMedString, PMID_30610562$eprint)
+
+doi_30610562 <- paste0(doiString, PMID_30610562$doi)
+
+dimensionBadge_30610562 <- paste0(dimensionString1, PMID_30610562$doi,dimensionString2)
+
+altmetricBadge_30610562 <- paste0(altmetricString1, PMID_30610562$doi, altmetricString2 )
+
+addthis_inline_30610562 <- paste0(addthis_String1, PMID_30610562$title , " PMID: 30610562 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
 
+<details open> <summary>
+- **`r PMID_30610562$title`**
+</summary> 
+
+*`r citation_30610562`*
+
+`r PubMed_30610562`
+
+`r addthis_inline_30610562`
+
+`r PMID_30610562$abstract`
+
+<!-- `r doi_30610562` -->
+
+`r dimensionBadge_30610562`
+
+`r altmetricBadge_30610562`
+
+</details>
 
 ---
 
@@ -3201,6 +3240,47 @@ Solid Pseudopapillary Neoplasm
 
 ---
 
+```{r 30610381, include=FALSE}
+
+PMID_30610381 <- RefManageR::ReadPubMed('30610381', database = 'PubMed')
+
+citation_30610381 <- paste0(PMID_30610381$journal,' ', PMID_30610381$year, ' ', PMID_30610381$month,';', PMID_30610381$volume,'(', PMID_30610381$number,'):', PMID_30610381$pages)
+
+PubMed_30610381 <- paste0(PubMedString, PMID_30610381$eprint)
+
+doi_30610381 <- paste0(doiString, PMID_30610381$doi)
+
+dimensionBadge_30610381 <- paste0(dimensionString1, PMID_30610381$doi,dimensionString2)
+
+altmetricBadge_30610381 <- paste0(altmetricString1, PMID_30610381$doi, altmetricString2 )
+
+addthis_inline_30610381 <- paste0(addthis_String1, PMID_30610381$title , " PMID: 30610381 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30610381$title`**
+</summary> 
+
+*`r citation_30610381`*
+
+`r PubMed_30610381`
+
+`r addthis_inline_30610381`
+
+`r PMID_30610381$abstract`
+
+<!-- `r doi_30610381` -->
+
+`r dimensionBadge_30610381`
+
+`r altmetricBadge_30610381`
+
+</details>
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -3261,6 +3341,48 @@ Sys.sleep(1)
 </details>
 
 
+---
+
+```{r 30610554, include=FALSE}
+
+PMID_30610554 <- RefManageR::ReadPubMed('30610554', database = 'PubMed')
+
+citation_30610554 <- paste0(PMID_30610554$journal,' ', PMID_30610554$year, ' ', PMID_30610554$month,';', PMID_30610554$volume,'(', PMID_30610554$number,'):', PMID_30610554$pages)
+
+PubMed_30610554 <- paste0(PubMedString, PMID_30610554$eprint)
+
+doi_30610554 <- paste0(doiString, PMID_30610554$doi)
+
+dimensionBadge_30610554 <- paste0(dimensionString1, PMID_30610554$doi,dimensionString2)
+
+altmetricBadge_30610554 <- paste0(altmetricString1, PMID_30610554$doi, altmetricString2 )
+
+addthis_inline_30610554 <- paste0(addthis_String1, PMID_30610554$title , " PMID: 30610554 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30610554$title`**
+</summary> 
+
+*`r citation_30610554`*
+
+`r PubMed_30610554`
+
+`r addthis_inline_30610554`
+
+`r PMID_30610554$abstract`
+
+<!-- `r doi_30610554` -->
+
+`r dimensionBadge_30610554`
+
+`r altmetricBadge_30610554`
+
+</details>
 
 ---
 
