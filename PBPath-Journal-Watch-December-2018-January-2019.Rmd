@@ -1850,6 +1850,48 @@ Ampulla of Vater TNM staging, Margins, Survival
 ```{r Ampulla of Vater TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
 
+---
+
+```{r 30628913, include=FALSE}
+
+PMID_30628913 <- RefManageR::ReadPubMed('30628913', database = 'PubMed')
+
+citation_30628913 <- paste0(PMID_30628913$journal,' ', PMID_30628913$year, ' ', PMID_30628913$month,';', PMID_30628913$volume,'(', PMID_30628913$number,'):', PMID_30628913$pages)
+
+PubMed_30628913 <- paste0(PubMedString, PMID_30628913$eprint)
+
+doi_30628913 <- paste0(doiString, PMID_30628913$doi)
+
+dimensionBadge_30628913 <- paste0(dimensionString1, PMID_30628913$doi,dimensionString2)
+
+altmetricBadge_30628913 <- paste0(altmetricString1, PMID_30628913$doi, altmetricString2 )
+
+addthis_inline_30628913 <- paste0(addthis_String1, PMID_30628913$title , " PMID: 30628913 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30628913$title`**
+</summary> 
+
+*`r citation_30628913`*
+
+`r PubMed_30628913`
+
+`r addthis_inline_30628913`
+
+`r PMID_30628913$abstract`
+
+<!-- `r doi_30628913` -->
+
+`r dimensionBadge_30628913`
+
+`r altmetricBadge_30628913`
+
+</details>
 
 ---
 
@@ -2911,6 +2953,7 @@ Sys.sleep(1)
 
 </details>
 
+
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -3173,6 +3216,49 @@ Sys.sleep(1)
 `r dimensionBadge_30610562`
 
 `r altmetricBadge_30610562`
+
+</details>
+
+---
+
+```{r 30078614, include=FALSE}
+
+PMID_30078614 <- RefManageR::ReadPubMed('30078614', database = 'PubMed')
+
+citation_30078614 <- paste0(PMID_30078614$journal,' ', PMID_30078614$year, ' ', PMID_30078614$month,';', PMID_30078614$volume,'(', PMID_30078614$number,'):', PMID_30078614$pages)
+
+PubMed_30078614 <- paste0(PubMedString, PMID_30078614$eprint)
+
+doi_30078614 <- paste0(doiString, PMID_30078614$doi)
+
+dimensionBadge_30078614 <- paste0(dimensionString1, PMID_30078614$doi,dimensionString2)
+
+altmetricBadge_30078614 <- paste0(altmetricString1, PMID_30078614$doi, altmetricString2 )
+
+addthis_inline_30078614 <- paste0(addthis_String1, PMID_30078614$title , " PMID: 30078614 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30078614$title`**
+</summary> 
+
+*`r citation_30078614`*
+
+`r PubMed_30078614`
+
+`r addthis_inline_30078614`
+
+`r PMID_30078614$abstract`
+
+<!-- `r doi_30078614` -->
+
+`r dimensionBadge_30078614`
+
+`r altmetricBadge_30078614`
 
 </details>
 
@@ -3757,6 +3843,7 @@ Sys.sleep(1)
 
 ### Experimental Studies
 
+---
 
 ```{r 30106154, include=FALSE}
 
@@ -4031,6 +4118,8 @@ Sys.sleep(1)
 
 
 ### Techniques, Research Methods, Liquid Biopsy
+
+---
 
 Techniques, Research Methods, Liquid Biopsy
 
@@ -4412,10 +4501,48 @@ Sys.sleep(1)
 
 </details>
 
+---
+
+```{r 30629027, include=FALSE}
+
+PMID_30629027 <- RefManageR::ReadPubMed('30629027', database = 'PubMed')
+
+citation_30629027 <- paste0(PMID_30629027$journal,' ', PMID_30629027$year, ' ', PMID_30629027$month,';', PMID_30629027$volume,'(', PMID_30629027$number,'):', PMID_30629027$pages)
+
+PubMed_30629027 <- paste0(PubMedString, PMID_30629027$eprint)
+
+doi_30629027 <- paste0(doiString, PMID_30629027$doi)
+
+dimensionBadge_30629027 <- paste0(dimensionString1, PMID_30629027$doi,dimensionString2)
+
+altmetricBadge_30629027 <- paste0(altmetricString1, PMID_30629027$doi, altmetricString2 )
+
+addthis_inline_30629027 <- paste0(addthis_String1, PMID_30629027$title , " PMID: 30629027 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
 
+<details open> <summary>
+- **`r PMID_30629027$title`**
+</summary> 
 
+*`r citation_30629027`*
+
+`r PubMed_30629027`
+
+`r addthis_inline_30629027`
+
+`r PMID_30629027$abstract`
+
+<!-- `r doi_30629027` -->
+
+`r dimensionBadge_30629027`
+
+`r altmetricBadge_30629027`
+
+</details>
 
 ---
 
