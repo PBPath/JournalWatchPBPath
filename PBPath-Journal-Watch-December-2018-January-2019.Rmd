@@ -4085,11 +4085,103 @@ Sys.sleep(1)
 
 </details>
 
+---
+
+```{r 30631857, include=FALSE}
+
+PMID_30631857 <- RefManageR::ReadPubMed('30631857', database = 'PubMed')
+
+citation_30631857 <- paste0(PMID_30631857$journal,' ', PMID_30631857$year, ' ', PMID_30631857$month,';', PMID_30631857$volume,'(', PMID_30631857$number,'):', PMID_30631857$pages)
+
+PubMed_30631857 <- paste0(PubMedString, PMID_30631857$eprint)
+
+doi_30631857 <- paste0(doiString, PMID_30631857$doi)
+
+dimensionBadge_30631857 <- paste0(dimensionString1, PMID_30631857$doi,dimensionString2)
+
+altmetricBadge_30631857 <- paste0(altmetricString1, PMID_30631857$doi, altmetricString2 )
+
+addthis_inline_30631857 <- paste0(addthis_String1, PMID_30631857$title , " PMID: 30631857 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
+
+<details open> <summary>
+- **`r PMID_30631857$title`**
+</summary> 
+
+*`r citation_30631857`*
+
+`r PubMed_30631857`
+
+`r addthis_inline_30631857`
+
+`r PMID_30631857$abstract`
+
+<!-- `r doi_30631857` -->
+
+`r dimensionBadge_30631857`
+
+`r altmetricBadge_30631857`
+
+</details>
+
+---
+
+
+#### Neuroendocrine
 
 
 ---
+
+```{r 30635305, include=FALSE}
+
+PMID_30635305 <- RefManageR::ReadPubMed('30635305', database = 'PubMed')
+
+citation_30635305 <- paste0(PMID_30635305$journal,' ', PMID_30635305$year, ' ', PMID_30635305$month,';', PMID_30635305$volume,'(', PMID_30635305$number,'):', PMID_30635305$pages)
+
+PubMed_30635305 <- paste0(PubMedString, PMID_30635305$eprint)
+
+doi_30635305 <- paste0(doiString, PMID_30635305$doi)
+
+dimensionBadge_30635305 <- paste0(dimensionString1, PMID_30635305$doi,dimensionString2)
+
+altmetricBadge_30635305 <- paste0(altmetricString1, PMID_30635305$doi, altmetricString2 )
+
+addthis_inline_30635305 <- paste0(addthis_String1, PMID_30635305$title , " PMID: 30635305 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30635305$title`**
+</summary> 
+
+*`r citation_30635305`*
+
+`r PubMed_30635305`
+
+`r addthis_inline_30635305`
+
+`r PMID_30635305$abstract`
+
+<!-- `r doi_30635305` -->
+
+`r dimensionBadge_30635305`
+
+`r altmetricBadge_30635305`
+
+</details>
+
+---
+
+
+
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -4840,6 +4932,49 @@ Sys.sleep(1)
 `r dimensionBadge_30613834`
 
 `r altmetricBadge_30613834`
+
+</details>
+
+---
+
+```{r 30631752, include=FALSE}
+
+PMID_30631752 <- RefManageR::ReadPubMed('30631752', database = 'PubMed')
+
+citation_30631752 <- paste0(PMID_30631752$journal,' ', PMID_30631752$year, ' ', PMID_30631752$month,';', PMID_30631752$volume,'(', PMID_30631752$number,'):', PMID_30631752$pages)
+
+PubMed_30631752 <- paste0(PubMedString, PMID_30631752$eprint)
+
+doi_30631752 <- paste0(doiString, PMID_30631752$doi)
+
+dimensionBadge_30631752 <- paste0(dimensionString1, PMID_30631752$doi,dimensionString2)
+
+altmetricBadge_30631752 <- paste0(altmetricString1, PMID_30631752$doi, altmetricString2 )
+
+addthis_inline_30631752 <- paste0(addthis_String1, PMID_30631752$title , " PMID: 30631752 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30631752$title`**
+</summary> 
+
+*`r citation_30631752`*
+
+`r PubMed_30631752`
+
+`r addthis_inline_30631752`
+
+`r PMID_30631752$abstract`
+
+<!-- `r doi_30631752` -->
+
+`r dimensionBadge_30631752`
+
+`r altmetricBadge_30631752`
 
 </details>
 
