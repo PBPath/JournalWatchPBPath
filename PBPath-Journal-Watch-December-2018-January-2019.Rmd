@@ -1,20 +1,20 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook: 
-    code_folding: none
-    fig_caption: yes
+  html_document:
+    df_print: kable
     highlight: null
-    theme: paper
+    keep_md: yes
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
     toc: yes
     toc_depth: 5
-  html_document:
-    df_print: kable
+  html_notebook: 
+    code_folding: none
+    fig_caption: yes
     highlight: null
-    keep_md: yes
+    theme: paper
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -36,9 +36,22 @@ subtitle: "December 2018 - January 2019"
 <!-- [![](figures/PBP_header_logo.jpg)](http://pbpath.org/) -->
 
 
----
 
-# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
+```{r knitr_init, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
 
 
 ```{r strings , include=FALSE}
@@ -60,6 +73,11 @@ addthis_String2 <- "'></div>"
 
 ```
 
+
+
+---
+
+# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
 
 ---
 
@@ -123,6 +141,8 @@ addthis_inline_30482417 <- paste0(addthis_String1, PMID_30482417$title , " PMID:
 #                             PMID_30482417$doi,
 #                             "?include_unknown_references=true")
 
+# [![](figures/semantic-scholar.PNG){width=8%}](`r semantic_30482417`)
+
 
 Sys.sleep(1)
 
@@ -146,7 +166,6 @@ Sys.sleep(1)
 
 `r altmetricBadge_30482417`
 
-<!-- [![](figures/semantic-scholar.PNG){width=8%}](`r semantic_30482417`) -->
 
 
 </details>
