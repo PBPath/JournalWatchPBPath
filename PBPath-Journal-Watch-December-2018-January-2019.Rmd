@@ -1,20 +1,20 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_document:
-    df_print: kable
-    highlight: null
-    keep_md: yes
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-    toc_depth: 5
   html_notebook: 
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -3513,6 +3513,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 30642914, include=FALSE}
+
+PMID_30642914 <- RefManageR::ReadPubMed('30642914', database = 'PubMed')
+
+citation_30642914 <- paste0(PMID_30642914$journal,' ', PMID_30642914$year, ' ', PMID_30642914$month,';', PMID_30642914$volume,'(', PMID_30642914$number,'):', PMID_30642914$pages)
+
+PubMed_30642914 <- paste0(PubMedString, PMID_30642914$eprint)
+
+doi_30642914 <- paste0(doiString, PMID_30642914$doi)
+
+dimensionBadge_30642914 <- paste0(dimensionString1, PMID_30642914$doi,dimensionString2)
+
+altmetricBadge_30642914 <- paste0(altmetricString1, PMID_30642914$doi, altmetricString2 )
+
+addthis_inline_30642914 <- paste0(addthis_String1, PMID_30642914$title , " PMID: 30642914 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30642914$title`**
+</summary> 
+
+*`r citation_30642914`*
+
+`r PubMed_30642914`
+
+`r addthis_inline_30642914`
+
+`r PMID_30642914$abstract`
+
+<!-- `r doi_30642914` -->
+
+`r dimensionBadge_30642914`
+
+`r altmetricBadge_30642914`
+
+</details>
+
+---
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -4144,6 +4187,50 @@ Sys.sleep(1)
 `r dimensionBadge_30631857`
 
 `r altmetricBadge_30631857`
+
+</details>
+
+---
+
+
+```{r 30027790, include=FALSE}
+
+PMID_30027790 <- RefManageR::ReadPubMed('30027790', database = 'PubMed')
+
+citation_30027790 <- paste0(PMID_30027790$journal,' ', PMID_30027790$year, ' ', PMID_30027790$month,';', PMID_30027790$volume,'(', PMID_30027790$number,'):', PMID_30027790$pages)
+
+PubMed_30027790 <- paste0(PubMedString, PMID_30027790$eprint)
+
+doi_30027790 <- paste0(doiString, PMID_30027790$doi)
+
+dimensionBadge_30027790 <- paste0(dimensionString1, PMID_30027790$doi,dimensionString2)
+
+altmetricBadge_30027790 <- paste0(altmetricString1, PMID_30027790$doi, altmetricString2 )
+
+addthis_inline_30027790 <- paste0(addthis_String1, PMID_30027790$title , " PMID: 30027790 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30027790$title`**
+</summary> 
+
+*`r citation_30027790`*
+
+`r PubMed_30027790`
+
+`r addthis_inline_30027790`
+
+`r PMID_30027790$abstract`
+
+<!-- `r doi_30027790` -->
+
+`r dimensionBadge_30027790`
+
+`r altmetricBadge_30027790`
 
 </details>
 
@@ -6018,6 +6105,50 @@ Sys.sleep(1)
 
 </details>
 
+---
+
+```{r 30645774, include=FALSE}
+
+PMID_30645774 <- RefManageR::ReadPubMed('30645774', database = 'PubMed')
+
+citation_30645774 <- paste0(PMID_30645774$journal,' ', PMID_30645774$year, ' ', PMID_30645774$month,';', PMID_30645774$volume,'(', PMID_30645774$number,'):', PMID_30645774$pages)
+
+PubMed_30645774 <- paste0(PubMedString, PMID_30645774$eprint)
+
+doi_30645774 <- paste0(doiString, PMID_30645774$doi)
+
+dimensionBadge_30645774 <- paste0(dimensionString1, PMID_30645774$doi,dimensionString2)
+
+altmetricBadge_30645774 <- paste0(altmetricString1, PMID_30645774$doi, altmetricString2 )
+
+addthis_inline_30645774 <- paste0(addthis_String1, PMID_30645774$title , " PMID: 30645774 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30645774$title`**
+</summary> 
+
+*`r citation_30645774`*
+
+`r PubMed_30645774`
+
+`r addthis_inline_30645774`
+
+`r PMID_30645774$abstract`
+
+<!-- `r doi_30645774` -->
+
+`r dimensionBadge_30645774`
+
+`r altmetricBadge_30645774`
+
+</details>
+
+---
 
 #### PanNET Epidemiology Screening Cancer Risk Factors
 
