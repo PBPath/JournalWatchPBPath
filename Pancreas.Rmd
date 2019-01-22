@@ -1407,8 +1407,55 @@ Sys.sleep(1)
 
 ---
 
+- **Pancreatic cancer microenvironment: a current dilemma**
+
+https://link.springer.com/article/10.1186/s40169-019-0221-1
 
 
+---
+
+```{r 29458370, include=FALSE}
+
+PMID_29458370 <- RefManageR::ReadPubMed('29458370', database = 'PubMed')
+
+citation_29458370 <- paste0(PMID_29458370$journal,' ', PMID_29458370$year, ' ', PMID_29458370$month,';', PMID_29458370$volume,'(', PMID_29458370$number,'):', PMID_29458370$pages)
+
+PubMed_29458370 <- paste0(PubMedString, PMID_29458370$eprint)
+
+doi_29458370 <- paste0(doiString, PMID_29458370$doi)
+
+dimensionBadge_29458370 <- paste0(dimensionString1, PMID_29458370$doi,dimensionString2)
+
+altmetricBadge_29458370 <- paste0(altmetricString1, PMID_29458370$doi, altmetricString2 )
+
+addthis_inline_29458370 <- paste0(addthis_String1, PMID_29458370$title , " PMID: 29458370 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_29458370$title`**
+</summary> 
+
+*`r citation_29458370`*
+
+`r PubMed_29458370`
+
+`r addthis_inline_29458370`
+
+`r PMID_29458370$abstract`
+
+<!-- `r doi_29458370` -->
+
+`r dimensionBadge_29458370`
+
+`r altmetricBadge_29458370`
+
+</details>
+
+---
 
 
 
