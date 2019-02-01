@@ -4911,6 +4911,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 28462448, include=FALSE}
+
+PMID_28462448 <- RefManageR::ReadPubMed('28462448', database = 'PubMed')
+
+citation_28462448 <- paste0(PMID_28462448$journal,' ', PMID_28462448$year, ' ', PMID_28462448$month,';', PMID_28462448$volume,'(', PMID_28462448$number,'):', PMID_28462448$pages)
+
+PubMed_28462448 <- paste0(PubMedString, PMID_28462448$eprint)
+
+doi_28462448 <- paste0(doiString, PMID_28462448$doi)
+
+dimensionBadge_28462448 <- paste0(dimensionString1, PMID_28462448$doi,dimensionString2)
+
+altmetricBadge_28462448 <- paste0(altmetricString1, PMID_28462448$doi, altmetricString2 )
+
+addthis_inline_28462448 <- paste0(addthis_String1, PMID_28462448$title , " PMID: 28462448 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_28462448$title`**
+</summary> 
+
+*`r citation_28462448`*
+
+`r PubMed_28462448`
+
+`r addthis_inline_28462448`
+
+`r PMID_28462448$abstract`
+
+<!-- `r doi_28462448` -->
+
+`r dimensionBadge_28462448`
+
+`r altmetricBadge_28462448`
+
+</details>
+
+---
+
 #### Ampulla of Vater
 
 ---

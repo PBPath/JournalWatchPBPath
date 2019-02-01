@@ -146,6 +146,157 @@ No abstract yet, not in PubMed yet
 
 ### Pancreas 
 
+
+
+
+
+---
+
+```{r 30686769, include=FALSE}
+
+PMID_30686769 <- RefManageR::ReadPubMed('30686769', database = 'PubMed')
+
+citation_30686769 <- paste0(PMID_30686769$journal,' ', PMID_30686769$year, ' ', PMID_30686769$month,';', PMID_30686769$volume,'(', PMID_30686769$number,'):', PMID_30686769$pages)
+
+PubMed_30686769 <- paste0(PubMedString, PMID_30686769$eprint)
+
+doi_30686769 <- paste0(doiString, PMID_30686769$doi)
+
+dimensionBadge_30686769 <- paste0(dimensionString1, PMID_30686769$doi,dimensionString2)
+
+altmetricBadge_30686769 <- paste0(altmetricString1, PMID_30686769$doi, altmetricString2 )
+
+addthis_inline_30686769 <- paste0(addthis_String1, PMID_30686769$title , " PMID: 30686769 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30686769$title`**
+</summary> 
+
+*`r citation_30686769`*
+
+`r PubMed_30686769`
+
+`r addthis_inline_30686769`
+
+`r PMID_30686769$abstract`
+
+<!-- `r doi_30686769` -->
+
+`r dimensionBadge_30686769`
+
+`r altmetricBadge_30686769`
+
+</details>
+
+---
+
+```{r 30130664, include=FALSE}
+
+PMID_30130664 <- RefManageR::ReadPubMed('30130664', database = 'PubMed')
+
+citation_30130664 <- paste0(PMID_30130664$journal,' ', PMID_30130664$year, ' ', PMID_30130664$month,';', PMID_30130664$volume,'(', PMID_30130664$number,'):', PMID_30130664$pages)
+
+PubMed_30130664 <- paste0(PubMedString, PMID_30130664$eprint)
+
+doi_30130664 <- paste0(doiString, PMID_30130664$doi)
+
+dimensionBadge_30130664 <- paste0(dimensionString1, PMID_30130664$doi,dimensionString2)
+
+altmetricBadge_30130664 <- paste0(altmetricString1, PMID_30130664$doi, altmetricString2 )
+
+addthis_inline_30130664 <- paste0(addthis_String1, PMID_30130664$title , " PMID: 30130664 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30130664$title`**
+</summary> 
+
+*`r citation_30130664`*
+
+`r PubMed_30130664`
+
+`r addthis_inline_30130664`
+
+`r PMID_30130664$abstract`
+
+<!-- `r doi_30130664` -->
+
+`r dimensionBadge_30130664`
+
+`r altmetricBadge_30130664`
+
+</details>
+
+---
+
+- **Integration of Genomic and Transcriptional Features in Pancreatic Cancer Reveals Increased Cell Cycle Progression in Metastases**
+
+
+https://www.researchgate.net/publication/330663612_Integration_of_Genomic_and_Transcriptional_Features_in_Pancreatic_Cancer_Reveals_Increased_Cell_Cycle_Progression_in_Metastases
+
+
+---
+
+- **Germline BRCA2 K3326X and CHEK2 I157T Mutations Increase Risk for Sporadic Pancreatic Ductal Adenocarcinoma**
+
+https://www.researchgate.net/publication/330605511_Germline_BRCA2_K3326X_and_CHEK2_I157T_Mutations_Increase_Risk_for_Sporadic_Pancreatic_Ductal_Adenocarcinoma
+
+---
+
+- **Germline BRCA2 K3326X and CHEK2 I157T Mutations Increase Risk for Sporadic Pancreatic Ductal Adenocarcinoma**
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/ijc.32127
+
+---
+
+
+
+
+---
+
+- **Main Duct Dilatation Is the Best Predictor of High-grade Dysplasia or Invasion in Intraductal Papillary Mucinous Neoplasms of the Pancreas**
+
+https://journals.lww.com/annalsofsurgery/Abstract/publishahead/Main_Duct_Dilatation_Is_the_Best_Predictor_of.95248.aspx
+
+
+---
+
+- **Timing But Not Patterns of Recurrence Is Different Between Node-negative and Node-positive Resected Pancreatic Cancer.**
+
+https://europepmc.org/abstract/med/30672796
+
+---
+
+- **Utility of cytomorphology in distinguishing solid pseudopapillary neoplasm of pancreas from pancreatic neuroendocrine tumor with emphasis on nuclear folds and nuclear grooves**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/dc.24145
+
+---
+
+- **THZ1 reveals CDK7-dependent transcriptional addictions in pancreatic cancer**
+
+
+https://www.nature.com/articles/s41388-019-0701-1
+
+---
+
+- **Predictive and Prognostic Properties of Human Equilibrative Nucleoside Transporter 1 Expression in Gemcitabine-Treated Pancreatobiliary Cancer: A Meta-Analysis**
+
+http://ascopubs.org/doi/abs/10.1200/PO.18.00240
+
+
+
+
 ---
 
 - **Quasimesenchymal phenotype predicts systemic metastasis in pancreatic ductal adenocarcinoma**
@@ -678,6 +829,57 @@ https://www.sciencedirect.com/science/article/pii/S0016508519300563
 
 ### Bile Ducts
 
+
+---
+
+```{r 30693451, include=FALSE}
+
+PMID_30693451 <- RefManageR::ReadPubMed('30693451', database = 'PubMed')
+
+citation_30693451 <- paste0(PMID_30693451$journal,' ', PMID_30693451$year, ' ', PMID_30693451$month,';', PMID_30693451$volume,'(', PMID_30693451$number,'):', PMID_30693451$pages)
+
+PubMed_30693451 <- paste0(PubMedString, PMID_30693451$eprint)
+
+doi_30693451 <- paste0(doiString, PMID_30693451$doi)
+
+dimensionBadge_30693451 <- paste0(dimensionString1, PMID_30693451$doi,dimensionString2)
+
+altmetricBadge_30693451 <- paste0(altmetricString1, PMID_30693451$doi, altmetricString2 )
+
+addthis_inline_30693451 <- paste0(addthis_String1, PMID_30693451$title , " PMID: 30693451 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30693451$title`**
+</summary> 
+
+*`r citation_30693451`*
+
+`r PubMed_30693451`
+
+`r addthis_inline_30693451`
+
+`r PMID_30693451$abstract`
+
+<!-- `r doi_30693451` -->
+
+`r dimensionBadge_30693451`
+
+`r altmetricBadge_30693451`
+
+</details>
+
+---
+
+- **Proposal for a new classification for perihilar cholangiocarcinoma based on tumour depth**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bjs.11063
+
+
 ---
 
 - **Impact of Tumour Budding Grade in 310 Patients Who Underwent Surgical Resection for Extrahepatic Cholangiocarcinoma**
@@ -767,6 +969,16 @@ https://www.sciencedirect.com/science/article/pii/S0022480418307753
 
 ---
 
+- **Positive cystic duct margin at index cholecystectomy in incidental gallbladder cancer is an important negative prognosticator**
+
+https://www.sciencedirect.com/science/article/pii/S0748798319300368
+
+
+---
+
+
+
+
 - **Fine-needle aspiration cytology of gallbladder with an attempt of cytomorphological classification**
 
 http://www.cytojournal.com/article.asp?issn=1742-6413;year=2019;volume=16;issue=1;spage=1;epage=1;aulast=Chandra
@@ -807,6 +1019,153 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/jhbp.593
 
 ### Ampulla of Vater
 
+
+
+
+
+---
+
+```{r 30694586, include=FALSE}
+
+PMID_30694586 <- RefManageR::ReadPubMed('30694586', database = 'PubMed')
+
+citation_30694586 <- paste0(PMID_30694586$journal,' ', PMID_30694586$year, ' ', PMID_30694586$month,';', PMID_30694586$volume,'(', PMID_30694586$number,'):', PMID_30694586$pages)
+
+PubMed_30694586 <- paste0(PubMedString, PMID_30694586$eprint)
+
+doi_30694586 <- paste0(doiString, PMID_30694586$doi)
+
+dimensionBadge_30694586 <- paste0(dimensionString1, PMID_30694586$doi,dimensionString2)
+
+altmetricBadge_30694586 <- paste0(altmetricString1, PMID_30694586$doi, altmetricString2 )
+
+addthis_inline_30694586 <- paste0(addthis_String1, PMID_30694586$title , " PMID: 30694586 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30694586$title`**
+</summary> 
+
+*`r citation_30694586`*
+
+`r PubMed_30694586`
+
+`r addthis_inline_30694586`
+
+`r PMID_30694586$abstract`
+
+<!-- `r doi_30694586` -->
+
+`r dimensionBadge_30694586`
+
+`r altmetricBadge_30694586`
+
+</details>
+
+---
+
+```{r 30693420, include=FALSE}
+
+PMID_30693420 <- RefManageR::ReadPubMed('30693420', database = 'PubMed')
+
+citation_30693420 <- paste0(PMID_30693420$journal,' ', PMID_30693420$year, ' ', PMID_30693420$month,';', PMID_30693420$volume,'(', PMID_30693420$number,'):', PMID_30693420$pages)
+
+PubMed_30693420 <- paste0(PubMedString, PMID_30693420$eprint)
+
+doi_30693420 <- paste0(doiString, PMID_30693420$doi)
+
+dimensionBadge_30693420 <- paste0(dimensionString1, PMID_30693420$doi,dimensionString2)
+
+altmetricBadge_30693420 <- paste0(altmetricString1, PMID_30693420$doi, altmetricString2 )
+
+addthis_inline_30693420 <- paste0(addthis_String1, PMID_30693420$title , " PMID: 30693420 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30693420$title`**
+</summary> 
+
+*`r citation_30693420`*
+
+`r PubMed_30693420`
+
+`r addthis_inline_30693420`
+
+`r PMID_30693420$abstract`
+
+<!-- `r doi_30693420` -->
+
+`r dimensionBadge_30693420`
+
+`r altmetricBadge_30693420`
+
+</details>
+
+---
+
+```{r 30695858, include=FALSE}
+
+PMID_30695858 <- RefManageR::ReadPubMed('30695858', database = 'PubMed')
+
+citation_30695858 <- paste0(PMID_30695858$journal,' ', PMID_30695858$year, ' ', PMID_30695858$month,';', PMID_30695858$volume,'(', PMID_30695858$number,'):', PMID_30695858$pages)
+
+PubMed_30695858 <- paste0(PubMedString, PMID_30695858$eprint)
+
+doi_30695858 <- paste0(doiString, PMID_30695858$doi)
+
+dimensionBadge_30695858 <- paste0(dimensionString1, PMID_30695858$doi,dimensionString2)
+
+altmetricBadge_30695858 <- paste0(altmetricString1, PMID_30695858$doi, altmetricString2 )
+
+addthis_inline_30695858 <- paste0(addthis_String1, PMID_30695858$title , " PMID: 30695858 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30695858$title`**
+</summary> 
+
+*`r citation_30695858`*
+
+`r PubMed_30695858`
+
+`r addthis_inline_30695858`
+
+`r PMID_30695858$abstract`
+
+<!-- `r doi_30695858` -->
+
+`r dimensionBadge_30695858`
+
+`r altmetricBadge_30695858`
+
+</details>
+
+---
+
+
+- **Clinical relevance of pancreatobiliary and intestinal subtypes of ampullary and duodenal adenocarcinoma: Pattern of recurrence, chemotherapy, and survival after pancreatoduodenectomy**
+
+https://www.sciencedirect.com/science/article/pii/S1424390319300201
+
+
+
+---
+
+- **The Role of Log Odds of Positive Lymph Nodes in Predicting the Survival after Resection for Ampullary Adenocarcinoma**
+
+https://link.springer.com/article/10.1007/s12253-019-00584-6
 
 ---
 

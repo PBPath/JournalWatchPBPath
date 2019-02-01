@@ -12,6 +12,50 @@ Solid Pseudopapillary Neoplasm
 ```
 
 
+
+---
+
+```{r 30688939, include=FALSE}
+
+PMID_30688939 <- RefManageR::ReadPubMed('30688939', database = 'PubMed')
+
+citation_30688939 <- paste0(PMID_30688939$journal,' ', PMID_30688939$year, ' ', PMID_30688939$month,';', PMID_30688939$volume,'(', PMID_30688939$number,'):', PMID_30688939$pages)
+
+PubMed_30688939 <- paste0(PubMedString, PMID_30688939$eprint)
+
+doi_30688939 <- paste0(doiString, PMID_30688939$doi)
+
+dimensionBadge_30688939 <- paste0(dimensionString1, PMID_30688939$doi,dimensionString2)
+
+altmetricBadge_30688939 <- paste0(altmetricString1, PMID_30688939$doi, altmetricString2 )
+
+addthis_inline_30688939 <- paste0(addthis_String1, PMID_30688939$title , " PMID: 30688939 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30688939$title`**
+</summary> 
+
+*`r citation_30688939`*
+
+`r PubMed_30688939`
+
+`r addthis_inline_30688939`
+
+`r PMID_30688939$abstract`
+
+<!-- `r doi_30688939` -->
+
+`r dimensionBadge_30688939`
+
+`r altmetricBadge_30688939`
+
+</details>
+
 ---
 
 ```{r 30275097, include=FALSE}

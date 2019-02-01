@@ -334,6 +334,50 @@ Sys.sleep(1)
 </details>
 
 
+
+---
+
+```{r 30688940, include=FALSE}
+
+PMID_30688940 <- RefManageR::ReadPubMed('30688940', database = 'PubMed')
+
+citation_30688940 <- paste0(PMID_30688940$journal,' ', PMID_30688940$year, ' ', PMID_30688940$month,';', PMID_30688940$volume,'(', PMID_30688940$number,'):', PMID_30688940$pages)
+
+PubMed_30688940 <- paste0(PubMedString, PMID_30688940$eprint)
+
+doi_30688940 <- paste0(doiString, PMID_30688940$doi)
+
+dimensionBadge_30688940 <- paste0(dimensionString1, PMID_30688940$doi,dimensionString2)
+
+altmetricBadge_30688940 <- paste0(altmetricString1, PMID_30688940$doi, altmetricString2 )
+
+addthis_inline_30688940 <- paste0(addthis_String1, PMID_30688940$title , " PMID: 30688940 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30688940$title`**
+</summary> 
+
+*`r citation_30688940`*
+
+`r PubMed_30688940`
+
+`r addthis_inline_30688940`
+
+`r PMID_30688940$abstract`
+
+<!-- `r doi_30688940` -->
+
+`r dimensionBadge_30688940`
+
+`r altmetricBadge_30688940`
+
+</details>
+
 ---
 
 - **Clinicopathological characteristics and outcomes of rare histologic subtypes of gallbladder cancer over two decades: A population-based study.**
