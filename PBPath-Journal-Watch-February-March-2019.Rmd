@@ -82,60 +82,6 @@ We encourage members to actively participate by recommending new articles and pr
 
 ---
 
-## Surgical Pathology {.tabset}
-
----
-
-### Pancreas
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Bile Ducts
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Gallbladder
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Ampulla of Vater
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Neuroendocrine
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
 
 
 ## Not in PubMed yet / Other Journals {.tabset}
@@ -147,7 +93,42 @@ No abstract yet, not in PubMed yet
 ### Pancreas 
 
 
+---
 
+- **Natural History and Treatment Trends in Pancreatic Cancer Subtypes**
+
+https://link.springer.com/article/10.1007/s11605-019-04113-3
+
+
+---
+
+- **Prevalence of Germline Mutations Associated with Cancer Risk in Patients With Intraductal Papillary Mucinous Neoplasms**
+
+https://www.gastrojournal.org/article/S0016-5085(19)30353-1/fulltext
+
+---
+
+- **PRRX1 isoforms cooperate with FOXM1 to regulate the DNA damage response in pancreatic cancer cells**
+
+https://www.nature.com/articles/s41388-019-0725-6
+
+---
+
+- **Signaling Networks that Control Cellular Plasticity in Pancreatic Tumorigenesis, Progression and Metastasis**
+
+https://www.gastrojournal.org/article/S0016-5085(19)30351-8/fulltext
+
+---
+
+- **Hes1 plays an essential role in Kras-driven pancreatic tumorigenesis**
+
+https://www.nature.com/articles/s41388-019-0718-5
+
+---
+
+- **Diagnosis and Management of Pancreatic Adenocarcinoma in the Background of Chronic Pancreatitis: Core Issues**
+
+https://www.karger.com/Article/Abstract/496507
 
 
 ---
@@ -989,6 +970,13 @@ https://www.researchgate.net/publication/330804968_Differences_in_overall_surviv
 
 ---
 
+- **Uncommon Intraluminal Tumors of the Gallbladder and Biliary Tract: Spectrum of Imaging Appearances**
+
+https://pubs.rsna.org/doi/abs/10.1148/rg.2019180164
+
+
+---
+
 - **Neuroendocrine Carcinoma and Intracystic Papillary Neoplasm: A Rare Association in the Gallbladder**
 
 
@@ -1244,6 +1232,14 @@ https://link.springer.com/article/10.1007/s00262-018-02293-6
 
 
 ### Neuroendocrine
+
+---
+
+- **Tumor-Infiltrating NETs Predict Postsurgical Survival in Patients with Pancreatic Ductal Adenocarcinoma**
+
+https://link.springer.com/article/10.1245%2Fs10434-018-6941-4
+
+
 
 ---
 
@@ -1697,10 +1693,50 @@ Morphology, Diagnostics, IHC
 ```
 
 
-
-
 ---
 
+```{r 30704851, include=FALSE}
+
+PMID_30704851 <- RefManageR::ReadPubMed('30704851', database = 'PubMed')
+
+citation_30704851 <- paste0(PMID_30704851$journal,' ', PMID_30704851$year, ' ', PMID_30704851$month,';', PMID_30704851$volume,'(', PMID_30704851$number,'):', PMID_30704851$pages)
+
+PubMed_30704851 <- paste0(PubMedString, PMID_30704851$eprint)
+
+doi_30704851 <- paste0(doiString, PMID_30704851$doi)
+
+dimensionBadge_30704851 <- paste0(dimensionString1, PMID_30704851$doi,dimensionString2)
+
+altmetricBadge_30704851 <- paste0(altmetricString1, PMID_30704851$doi, altmetricString2 )
+
+addthis_inline_30704851 <- paste0(addthis_String1, PMID_30704851$title , " PMID: 30704851 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30704851$title`**
+</summary> 
+
+*`r citation_30704851`*
+
+`r PubMed_30704851`
+
+`r addthis_inline_30704851`
+
+`r PMID_30704851$abstract`
+
+<!-- `r doi_30704851` -->
+
+`r dimensionBadge_30704851`
+
+`r altmetricBadge_30704851`
+
+</details>
+
+---
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -1806,6 +1842,91 @@ Solid Pseudopapillary Neoplasm
 ```
 
 
+---
+
+```{r 30714146, include=FALSE}
+
+PMID_30714146 <- RefManageR::ReadPubMed('30714146', database = 'PubMed')
+
+citation_30714146 <- paste0(PMID_30714146$journal,' ', PMID_30714146$year, ' ', PMID_30714146$month,';', PMID_30714146$volume,'(', PMID_30714146$number,'):', PMID_30714146$pages)
+
+PubMed_30714146 <- paste0(PubMedString, PMID_30714146$eprint)
+
+doi_30714146 <- paste0(doiString, PMID_30714146$doi)
+
+dimensionBadge_30714146 <- paste0(dimensionString1, PMID_30714146$doi,dimensionString2)
+
+altmetricBadge_30714146 <- paste0(altmetricString1, PMID_30714146$doi, altmetricString2 )
+
+addthis_inline_30714146 <- paste0(addthis_String1, PMID_30714146$title , " PMID: 30714146 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30714146$title`**
+</summary> 
+
+*`r citation_30714146`*
+
+`r PubMed_30714146`
+
+`r addthis_inline_30714146`
+
+`r PMID_30714146$abstract`
+
+<!-- `r doi_30714146` -->
+
+`r dimensionBadge_30714146`
+
+`r altmetricBadge_30714146`
+
+</details>
+
+---
+
+```{r 30716320, include=FALSE}
+
+PMID_30716320 <- RefManageR::ReadPubMed('30716320', database = 'PubMed')
+
+citation_30716320 <- paste0(PMID_30716320$journal,' ', PMID_30716320$year, ' ', PMID_30716320$month,';', PMID_30716320$volume,'(', PMID_30716320$number,'):', PMID_30716320$pages)
+
+PubMed_30716320 <- paste0(PubMedString, PMID_30716320$eprint)
+
+doi_30716320 <- paste0(doiString, PMID_30716320$doi)
+
+dimensionBadge_30716320 <- paste0(dimensionString1, PMID_30716320$doi,dimensionString2)
+
+altmetricBadge_30716320 <- paste0(altmetricString1, PMID_30716320$doi, altmetricString2 )
+
+addthis_inline_30716320 <- paste0(addthis_String1, PMID_30716320$title , " PMID: 30716320 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30716320$title`**
+</summary> 
+
+*`r citation_30716320`*
+
+`r PubMed_30716320`
+
+`r addthis_inline_30716320`
+
+`r PMID_30716320$abstract`
+
+<!-- `r doi_30716320` -->
+
+`r dimensionBadge_30716320`
+
+`r altmetricBadge_30716320`
+
+</details>
 
 ---
 
@@ -1932,6 +2053,89 @@ Morphology, Diagnostics, IHC
 
 ---
 
+```{r 30548547, include=FALSE}
+
+PMID_30548547 <- RefManageR::ReadPubMed('30548547', database = 'PubMed')
+
+citation_30548547 <- paste0(PMID_30548547$journal,' ', PMID_30548547$year, ' ', PMID_30548547$month,';', PMID_30548547$volume,'(', PMID_30548547$number,'):', PMID_30548547$pages)
+
+PubMed_30548547 <- paste0(PubMedString, PMID_30548547$eprint)
+
+doi_30548547 <- paste0(doiString, PMID_30548547$doi)
+
+dimensionBadge_30548547 <- paste0(dimensionString1, PMID_30548547$doi,dimensionString2)
+
+altmetricBadge_30548547 <- paste0(altmetricString1, PMID_30548547$doi, altmetricString2 )
+
+addthis_inline_30548547 <- paste0(addthis_String1, PMID_30548547$title , " PMID: 30548547 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30548547$title`**
+</summary> 
+
+*`r citation_30548547`*
+
+`r PubMed_30548547`
+
+`r addthis_inline_30548547`
+
+`r PMID_30548547$abstract`
+
+<!-- `r doi_30548547` -->
+
+`r dimensionBadge_30548547`
+
+`r altmetricBadge_30548547`
+
+</details>
+
+---
+
+```{r 30713128, include=FALSE}
+
+PMID_30713128 <- RefManageR::ReadPubMed('30713128', database = 'PubMed')
+
+citation_30713128 <- paste0(PMID_30713128$journal,' ', PMID_30713128$year, ' ', PMID_30713128$month,';', PMID_30713128$volume,'(', PMID_30713128$number,'):', PMID_30713128$pages)
+
+PubMed_30713128 <- paste0(PubMedString, PMID_30713128$eprint)
+
+doi_30713128 <- paste0(doiString, PMID_30713128$doi)
+
+dimensionBadge_30713128 <- paste0(dimensionString1, PMID_30713128$doi,dimensionString2)
+
+altmetricBadge_30713128 <- paste0(altmetricString1, PMID_30713128$doi, altmetricString2 )
+
+addthis_inline_30713128 <- paste0(addthis_String1, PMID_30713128$title , " PMID: 30713128 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30713128$title`**
+</summary> 
+
+*`r citation_30713128`*
+
+`r PubMed_30713128`
+
+`r addthis_inline_30713128`
+
+`r PMID_30713128$abstract`
+
+<!-- `r doi_30713128` -->
+
+`r dimensionBadge_30713128`
+
+`r altmetricBadge_30713128`
+
+</details>
 
 ---
 
@@ -2118,10 +2322,46 @@ Molecular Studies on Pancreatitis & Other Diseases
 
 ---
 
+```{r 30705050, include=FALSE}
+
+PMID_30705050 <- RefManageR::ReadPubMed('30705050', database = 'PubMed')
+
+citation_30705050 <- paste0(PMID_30705050$journal,' ', PMID_30705050$year, ' ', PMID_30705050$month,';', PMID_30705050$volume,'(', PMID_30705050$number,'):', PMID_30705050$pages)
+
+PubMed_30705050 <- paste0(PubMedString, PMID_30705050$eprint)
+
+doi_30705050 <- paste0(doiString, PMID_30705050$doi)
+
+dimensionBadge_30705050 <- paste0(dimensionString1, PMID_30705050$doi,dimensionString2)
+
+altmetricBadge_30705050 <- paste0(altmetricString1, PMID_30705050$doi, altmetricString2 )
+
+addthis_inline_30705050 <- paste0(addthis_String1, PMID_30705050$title , " PMID: 30705050 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
 
+<details open> <summary>
+- **`r PMID_30705050$title`**
+</summary> 
 
+*`r citation_30705050`*
+
+`r PubMed_30705050`
+
+`r addthis_inline_30705050`
+
+`r PMID_30705050$abstract`
+
+<!-- `r doi_30705050` -->
+
+`r dimensionBadge_30705050`
+
+`r altmetricBadge_30705050`
+
+</details>
 
 ---
 
@@ -2143,6 +2383,46 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
 
 ---
 
+```{r 30716326, include=FALSE}
+
+PMID_30716326 <- RefManageR::ReadPubMed('30716326', database = 'PubMed')
+
+citation_30716326 <- paste0(PMID_30716326$journal,' ', PMID_30716326$year, ' ', PMID_30716326$month,';', PMID_30716326$volume,'(', PMID_30716326$number,'):', PMID_30716326$pages)
+
+PubMed_30716326 <- paste0(PubMedString, PMID_30716326$eprint)
+
+doi_30716326 <- paste0(doiString, PMID_30716326$doi)
+
+dimensionBadge_30716326 <- paste0(dimensionString1, PMID_30716326$doi,dimensionString2)
+
+altmetricBadge_30716326 <- paste0(altmetricString1, PMID_30716326$doi, altmetricString2 )
+
+addthis_inline_30716326 <- paste0(addthis_String1, PMID_30716326$title , " PMID: 30716326 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30716326$title`**
+</summary> 
+
+*`r citation_30716326`*
+
+`r PubMed_30716326`
+
+`r addthis_inline_30716326`
+
+`r PMID_30716326$abstract`
+
+<!-- `r doi_30716326` -->
+
+`r dimensionBadge_30716326`
+
+`r altmetricBadge_30716326`
+
+</details>
 
 ---
 
@@ -2163,10 +2443,53 @@ Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICP
 
 ---
 
+```{r 30716324, include=FALSE}
+
+PMID_30716324 <- RefManageR::ReadPubMed('30716324', database = 'PubMed')
+
+citation_30716324 <- paste0(PMID_30716324$journal,' ', PMID_30716324$year, ' ', PMID_30716324$month,';', PMID_30716324$volume,'(', PMID_30716324$number,'):', PMID_30716324$pages)
+
+PubMed_30716324 <- paste0(PubMedString, PMID_30716324$eprint)
+
+doi_30716324 <- paste0(doiString, PMID_30716324$doi)
+
+dimensionBadge_30716324 <- paste0(dimensionString1, PMID_30716324$doi,dimensionString2)
+
+altmetricBadge_30716324 <- paste0(altmetricString1, PMID_30716324$doi, altmetricString2 )
+
+addthis_inline_30716324 <- paste0(addthis_String1, PMID_30716324$title , " PMID: 30716324 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
+
+<details open> <summary>
+- **`r PMID_30716324$title`**
+</summary> 
+
+*`r citation_30716324`*
+
+`r PubMed_30716324`
+
+`r addthis_inline_30716324`
+
+`r PMID_30716324$abstract`
+
+<!-- `r doi_30716324` -->
+
+`r dimensionBadge_30716324`
+
+`r altmetricBadge_30716324`
+
+</details>
 
 ---
+
+
+
+
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2271,8 +2594,49 @@ Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICP
 
 #### Gallbladder
 
+
 ---
 
+```{r 30488851, include=FALSE}
+
+PMID_30488851 <- RefManageR::ReadPubMed('30488851', database = 'PubMed')
+
+citation_30488851 <- paste0(PMID_30488851$journal,' ', PMID_30488851$year, ' ', PMID_30488851$month,';', PMID_30488851$volume,'(', PMID_30488851$number,'):', PMID_30488851$pages)
+
+PubMed_30488851 <- paste0(PubMedString, PMID_30488851$eprint)
+
+doi_30488851 <- paste0(doiString, PMID_30488851$doi)
+
+dimensionBadge_30488851 <- paste0(dimensionString1, PMID_30488851$doi,dimensionString2)
+
+altmetricBadge_30488851 <- paste0(altmetricString1, PMID_30488851$doi, altmetricString2 )
+
+addthis_inline_30488851 <- paste0(addthis_String1, PMID_30488851$title , " PMID: 30488851 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30488851$title`**
+</summary> 
+
+*`r citation_30488851`*
+
+`r PubMed_30488851`
+
+`r addthis_inline_30488851`
+
+`r PMID_30488851$abstract`
+
+<!-- `r doi_30488851` -->
+
+`r dimensionBadge_30488851`
+
+`r altmetricBadge_30488851`
+
+</details>
 
 ---
 
@@ -2444,6 +2808,50 @@ Techniques, Research Methods, Liquid Biopsy
 ```{r Ampulla of Vater Epidemiology Screening Cancer Risk Factors, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30561818, include=FALSE}
+
+PMID_30561818 <- RefManageR::ReadPubMed('30561818', database = 'PubMed')
+
+citation_30561818 <- paste0(PMID_30561818$journal,' ', PMID_30561818$year, ' ', PMID_30561818$month,';', PMID_30561818$volume,'(', PMID_30561818$number,'):', PMID_30561818$pages)
+
+PubMed_30561818 <- paste0(PubMedString, PMID_30561818$eprint)
+
+doi_30561818 <- paste0(doiString, PMID_30561818$doi)
+
+dimensionBadge_30561818 <- paste0(dimensionString1, PMID_30561818$doi,dimensionString2)
+
+altmetricBadge_30561818 <- paste0(altmetricString1, PMID_30561818$doi, altmetricString2 )
+
+addthis_inline_30561818 <- paste0(addthis_String1, PMID_30561818$title , " PMID: 30561818 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30561818$title`**
+</summary> 
+
+*`r citation_30561818`*
+
+`r PubMed_30561818`
+
+`r addthis_inline_30561818`
+
+`r PMID_30561818$abstract`
+
+<!-- `r doi_30561818` -->
+
+`r dimensionBadge_30561818`
+
+`r altmetricBadge_30561818`
+
+</details>
+
 ---
 
 
@@ -2455,12 +2863,6 @@ Techniques, Research Methods, Liquid Biopsy
 
 
 
-
-
-
-
-
----
 
 <a href="#top" target="_self">Back to top</a>
 
