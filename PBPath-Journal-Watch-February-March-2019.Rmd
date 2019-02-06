@@ -1738,6 +1738,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 30718187, include=FALSE}
+
+PMID_30718187 <- RefManageR::ReadPubMed('30718187', database = 'PubMed')
+
+citation_30718187 <- paste0(PMID_30718187$journal,' ', PMID_30718187$year, ' ', PMID_30718187$month,';', PMID_30718187$volume,'(', PMID_30718187$number,'):', PMID_30718187$pages)
+
+PubMed_30718187 <- paste0(PubMedString, PMID_30718187$eprint)
+
+doi_30718187 <- paste0(doiString, PMID_30718187$doi)
+
+dimensionBadge_30718187 <- paste0(dimensionString1, PMID_30718187$doi,dimensionString2)
+
+altmetricBadge_30718187 <- paste0(altmetricString1, PMID_30718187$doi, altmetricString2 )
+
+addthis_inline_30718187 <- paste0(addthis_String1, PMID_30718187$title , " PMID: 30718187 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30718187$title`**
+</summary> 
+
+*`r citation_30718187`*
+
+`r PubMed_30718187`
+
+`r addthis_inline_30718187`
+
+`r PMID_30718187$abstract`
+
+<!-- `r doi_30718187` -->
+
+`r dimensionBadge_30718187`
+
+`r altmetricBadge_30718187`
+
+</details>
+
+---
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -1789,6 +1832,49 @@ Tumor Stroma Interactions, Microenvironment, Inflammatory Response
 ```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30721663, include=FALSE}
+
+PMID_30721663 <- RefManageR::ReadPubMed('30721663', database = 'PubMed')
+
+citation_30721663 <- paste0(PMID_30721663$journal,' ', PMID_30721663$year, ' ', PMID_30721663$month,';', PMID_30721663$volume,'(', PMID_30721663$number,'):', PMID_30721663$pages)
+
+PubMed_30721663 <- paste0(PubMedString, PMID_30721663$eprint)
+
+doi_30721663 <- paste0(doiString, PMID_30721663$doi)
+
+dimensionBadge_30721663 <- paste0(dimensionString1, PMID_30721663$doi,dimensionString2)
+
+altmetricBadge_30721663 <- paste0(altmetricString1, PMID_30721663$doi, altmetricString2 )
+
+addthis_inline_30721663 <- paste0(addthis_String1, PMID_30721663$title , " PMID: 30721663 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30721663$title`**
+</summary> 
+
+*`r citation_30721663`*
+
+`r PubMed_30721663`
+
+`r addthis_inline_30721663`
+
+`r PMID_30721663$abstract`
+
+<!-- `r doi_30721663` -->
+
+`r dimensionBadge_30721663`
+
+`r altmetricBadge_30721663`
+
+</details>
 
 ---
 
@@ -2582,8 +2668,49 @@ Sys.sleep(1)
 
 #### Pancreas
 
+
 ---
 
+```{r 30719801, include=FALSE}
+
+PMID_30719801 <- RefManageR::ReadPubMed('30719801', database = 'PubMed')
+
+citation_30719801 <- paste0(PMID_30719801$journal,' ', PMID_30719801$year, ' ', PMID_30719801$month,';', PMID_30719801$volume,'(', PMID_30719801$number,'):', PMID_30719801$pages)
+
+PubMed_30719801 <- paste0(PubMedString, PMID_30719801$eprint)
+
+doi_30719801 <- paste0(doiString, PMID_30719801$doi)
+
+dimensionBadge_30719801 <- paste0(dimensionString1, PMID_30719801$doi,dimensionString2)
+
+altmetricBadge_30719801 <- paste0(altmetricString1, PMID_30719801$doi, altmetricString2 )
+
+addthis_inline_30719801 <- paste0(addthis_String1, PMID_30719801$title , " PMID: 30719801 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30719801$title`**
+</summary> 
+
+*`r citation_30719801`*
+
+`r PubMed_30719801`
+
+`r addthis_inline_30719801`
+
+`r PMID_30719801$abstract`
+
+<!-- `r doi_30719801` -->
+
+`r dimensionBadge_30719801`
+
+`r altmetricBadge_30719801`
+
+</details>
 
 ---
 
@@ -2777,7 +2904,50 @@ Techniques, Research Methods, Liquid Biopsy
 
 ---
 
+```{r 30721664, include=FALSE}
+
+PMID_30721664 <- RefManageR::ReadPubMed('30721664', database = 'PubMed')
+
+citation_30721664 <- paste0(PMID_30721664$journal,' ', PMID_30721664$year, ' ', PMID_30721664$month,';', PMID_30721664$volume,'(', PMID_30721664$number,'):', PMID_30721664$pages)
+
+PubMed_30721664 <- paste0(PubMedString, PMID_30721664$eprint)
+
+doi_30721664 <- paste0(doiString, PMID_30721664$doi)
+
+dimensionBadge_30721664 <- paste0(dimensionString1, PMID_30721664$doi,dimensionString2)
+
+altmetricBadge_30721664 <- paste0(altmetricString1, PMID_30721664$doi, altmetricString2 )
+
+addthis_inline_30721664 <- paste0(addthis_String1, PMID_30721664$title , " PMID: 30721664 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30721664$title`**
+</summary> 
+
+*`r citation_30721664`*
+
+`r PubMed_30721664`
+
+`r addthis_inline_30721664`
+
+`r PMID_30721664$abstract`
+
+<!-- `r doi_30721664` -->
+
+`r dimensionBadge_30721664`
+
+`r altmetricBadge_30721664`
+
+</details>
+
 ---
+
+
 
 #### Bile Duct Epidemiology Screening Cancer Risk Factors
 
