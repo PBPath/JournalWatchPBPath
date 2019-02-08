@@ -1,11 +1,6 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook: 
-    code_folding: none
-    fig_caption: yes
-    highlight: null
-    theme: paper
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
@@ -15,6 +10,11 @@ output:
     df_print: kable
     highlight: null
     keep_md: yes
+  html_notebook: 
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
