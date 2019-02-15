@@ -92,6 +92,36 @@ No abstract yet, not in PubMed yet
 
 ### Pancreas 
 
+---
+
+
+- **Molecular subtypes of pancreatic cancer**
+
+https://www.nature.com/articles/s41575-019-0109-y
+
+
+---
+
+
+- **A case of high‐grade pancreatic intraepithelial neoplasia concomitant with type 1 autoimmune pancreatitis: the process underlying both conditions**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/pin.12768
+
+
+
+---
+
+- **Pre-existing Functional Heterogeneity of Tumorigenic Compartment as the Origin of Chemoresistance in Pancreatic Tumors**
+
+https://www.sciencedirect.com/science/article/pii/S221112471930066X
+
+
+
+---
+
+- **Intraductal tubular papillary neoplasm (ITPN), a novel entity of pancreatic epithelial neoplasms and precursor of cancer: A case report and review of the literature**
+
+https://www.sciencedirect.com/science/article/pii/S2210261219300495
 
 ---
 
@@ -885,6 +915,11 @@ https://www.sciencedirect.com/science/article/pii/S2210261219300331
 
 ### Bile Ducts
 
+---
+
+- **Cholangiolocellular Carcinoma With “Ductal Plate Malformation” Pattern May Be Characterized by ARID1A Genetic Alterations**
+
+https://journals.lww.com/ajsp/Abstract/2019/03000/Cholangiolocellular_Carcinoma_With__Ductal_Plate.7.aspx
 
 ---
 
@@ -1300,6 +1335,15 @@ https://link.springer.com/article/10.1007/s00262-018-02293-6
 
 
 ### Neuroendocrine
+
+
+---
+
+- **RABL6Ainhibits tumor-suppressive PP2A/AKTsignaling to drivepancreatic neuroendocrine tumor growth**
+
+
+https://dm5migu4zj3pb.cloudfront.net/manuscripts/123000/123049/JCI123049.v1.pdf
+
 
 ---
 
@@ -1849,6 +1893,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 30629030, include=FALSE}
+
+PMID_30629030 <- RefManageR::ReadPubMed('30629030', database = 'PubMed')
+
+citation_30629030 <- paste0(PMID_30629030$journal,' ', PMID_30629030$year, ' ', PMID_30629030$month,';', PMID_30629030$volume,'(', PMID_30629030$number,'):', PMID_30629030$pages)
+
+PubMed_30629030 <- paste0(PubMedString, PMID_30629030$eprint)
+
+doi_30629030 <- paste0(doiString, PMID_30629030$doi)
+
+dimensionBadge_30629030 <- paste0(dimensionString1, PMID_30629030$doi,dimensionString2)
+
+altmetricBadge_30629030 <- paste0(altmetricString1, PMID_30629030$doi, altmetricString2 )
+
+addthis_inline_30629030 <- paste0(addthis_String1, PMID_30629030$title , " PMID: 30629030 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30629030$title`**
+</summary> 
+
+*`r citation_30629030`*
+
+`r PubMed_30629030`
+
+`r addthis_inline_30629030`
+
+`r PMID_30629030$abstract`
+
+<!-- `r doi_30629030` -->
+
+`r dimensionBadge_30629030`
+
+`r altmetricBadge_30629030`
+
+</details>
+
+---
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2108,11 +2195,55 @@ Morphology, Diagnostics, IHC
 ```{r S Bile Ducts Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30729623, include=FALSE}
+
+PMID_30729623 <- RefManageR::ReadPubMed('30729623', database = 'PubMed')
+
+citation_30729623 <- paste0(PMID_30729623$journal,' ', PMID_30729623$year, ' ', PMID_30729623$month,';', PMID_30729623$volume,'(', PMID_30729623$number,'):', PMID_30729623$pages)
+
+PubMed_30729623 <- paste0(PubMedString, PMID_30729623$eprint)
+
+doi_30729623 <- paste0(doiString, PMID_30729623$doi)
+
+dimensionBadge_30729623 <- paste0(dimensionString1, PMID_30729623$doi,dimensionString2)
+
+altmetricBadge_30729623 <- paste0(altmetricString1, PMID_30729623$doi, altmetricString2 )
+
+addthis_inline_30729623 <- paste0(addthis_String1, PMID_30729623$title , " PMID: 30729623 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30729623$title`**
+</summary> 
+
+*`r citation_30729623`*
+
+`r PubMed_30729623`
+
+`r addthis_inline_30729623`
+
+`r PMID_30729623$abstract`
+
+<!-- `r doi_30729623` -->
+
+`r dimensionBadge_30729623`
+
+`r altmetricBadge_30729623`
+
+</details>
+
 ---
 
 
 
----
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2408,6 +2539,48 @@ PanNET TNM staging, Margins, Survival
 ```
 
 
+---
+
+```{r 30730608, include=FALSE}
+
+PMID_30730608 <- RefManageR::ReadPubMed('30730608', database = 'PubMed')
+
+citation_30730608 <- paste0(PMID_30730608$journal,' ', PMID_30730608$year, ' ', PMID_30730608$month,';', PMID_30730608$volume,'(', PMID_30730608$number,'):', PMID_30730608$pages)
+
+PubMed_30730608 <- paste0(PubMedString, PMID_30730608$eprint)
+
+doi_30730608 <- paste0(doiString, PMID_30730608$doi)
+
+dimensionBadge_30730608 <- paste0(dimensionString1, PMID_30730608$doi,dimensionString2)
+
+altmetricBadge_30730608 <- paste0(altmetricString1, PMID_30730608$doi, altmetricString2 )
+
+addthis_inline_30730608 <- paste0(addthis_String1, PMID_30730608$title , " PMID: 30730608 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30730608$title`**
+</summary> 
+
+*`r citation_30730608`*
+
+`r PubMed_30730608`
+
+`r addthis_inline_30730608`
+
+`r PMID_30730608$abstract`
+
+<!-- `r doi_30730608` -->
+
+`r dimensionBadge_30730608`
+
+`r altmetricBadge_30730608`
+
+</details>
 
 ---
 
@@ -2416,7 +2589,7 @@ PanNET TNM staging, Margins, Survival
 
 
 
----
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2456,8 +2629,53 @@ PanNET TNM staging, Margins, Survival
 
 ---
 
+```{r 30728464, include=FALSE}
+
+PMID_30728464 <- RefManageR::ReadPubMed('30728464', database = 'PubMed')
+
+citation_30728464 <- paste0(PMID_30728464$journal,' ', PMID_30728464$year, ' ', PMID_30728464$month,';', PMID_30728464$volume,'(', PMID_30728464$number,'):', PMID_30728464$pages)
+
+PubMed_30728464 <- paste0(PubMedString, PMID_30728464$eprint)
+
+doi_30728464 <- paste0(doiString, PMID_30728464$doi)
+
+dimensionBadge_30728464 <- paste0(dimensionString1, PMID_30728464$doi,dimensionString2)
+
+altmetricBadge_30728464 <- paste0(altmetricString1, PMID_30728464$doi, altmetricString2 )
+
+addthis_inline_30728464 <- paste0(addthis_String1, PMID_30728464$title , " PMID: 30728464 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30728464$title`**
+</summary> 
+
+*`r citation_30728464`*
+
+`r PubMed_30728464`
+
+`r addthis_inline_30728464`
+
+`r PMID_30728464$abstract`
+
+<!-- `r doi_30728464` -->
+
+`r dimensionBadge_30728464`
+
+`r altmetricBadge_30728464`
+
+</details>
 
 ---
+
+
+
+
+
 
 <a href="#top" target="_self">Back to top</a>
 
