@@ -93,6 +93,33 @@ No abstract yet, not in PubMed yet
 ### Pancreas 
 
 
+---
+
+- **A resected case of recurrent ITPN in the remnant pancreas after pancreatoduodenectomy**
+
+https://link.springer.com/article/10.1186/s40792-019-0590-0
+
+
+
+
+
+---
+
+- **Intraductal Oncocytic Papillary Neoplasms Clinical-Pathologic Characterization of 24 Cases, With An Emphasis on Associated Invasive Carcinomas**
+
+https://journals.lww.com/ajsp/Abstract/publishahead/Intraductal_Oncocytic_Papillary_Neoplasms_.97703.aspx
+
+
+---
+
+- **Systematic review of clinical prediction models for survival after surgery for resectable pancreatic cancer**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/bjs.11111
+
+
+
+---
+
 https://www.ncbi.nlm.nih.gov/pubmed/30348057
 
 https://www.ncbi.nlm.nih.gov/pubmed/30742911
@@ -152,6 +179,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/30768785
 https://www.ncbi.nlm.nih.gov/pubmed/30747824
 
 https://www.ncbi.nlm.nih.gov/pubmed/30391013
+
+https://www.ncbi.nlm.nih.gov/pubmed/30765611
 
 ---
 
@@ -319,6 +348,61 @@ https://www.nature.com/articles/s41388-019-0718-5
 - **Diagnosis and Management of Pancreatic Adenocarcinoma in the Background of Chronic Pancreatitis: Core Issues**
 
 https://www.karger.com/Article/Abstract/496507
+
+---
+
+- **MDH1 and MPP7 regulate autophagy in pancreatic ductal adenocarcinoma**
+
+https://www.researchgate.net/profile/Padhmanand_Sudhakar2/publication/331099191_MDH1_and_MPP7_regulate_autophagy_in_pancreatic_ductal_adenocarcinoma/links/5c65a14945851582c3e95df4/MDH1-and-MPP7-regulate-autophagy-in-pancreatic-ductal-adenocarcinoma.pdf
+
+---
+
+- **Cyst Fluid Biosignature to Predict Intraductal Papillary Mucinous Neoplasms of the Pancreas with High Malignant Potential**
+
+https://www.sciencedirect.com/science/article/pii/S1072751519301498
+
+---
+
+```{r 30792046, include=FALSE}
+
+PMID_30792046 <- RefManageR::ReadPubMed('30792046', database = 'PubMed')
+
+citation_30792046 <- paste0(PMID_30792046$journal,' ', PMID_30792046$year, ' ', PMID_30792046$month,';', PMID_30792046$volume,'(', PMID_30792046$number,'):', PMID_30792046$pages)
+
+PubMed_30792046 <- paste0(PubMedString, PMID_30792046$eprint)
+
+doi_30792046 <- paste0(doiString, PMID_30792046$doi)
+
+dimensionBadge_30792046 <- paste0(dimensionString1, PMID_30792046$doi,dimensionString2)
+
+altmetricBadge_30792046 <- paste0(altmetricString1, PMID_30792046$doi, altmetricString2 )
+
+addthis_inline_30792046 <- paste0(addthis_String1, PMID_30792046$title , " PMID: 30792046 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30792046$title`**
+</summary> 
+
+*`r citation_30792046`*
+
+`r PubMed_30792046`
+
+`r addthis_inline_30792046`
+
+`r PMID_30792046$abstract`
+
+<!-- `r doi_30792046` -->
+
+`r dimensionBadge_30792046`
+
+`r altmetricBadge_30792046`
+
+</details>
 
 
 ---
@@ -1315,6 +1399,11 @@ Sys.sleep(1)
 
 ### Gallbladder
 
+---
+
+- **Mucin 5B, carbonic anhydrase 9 and claudin 18 arepotential theranostic markers of gallbladder carcinoma**
+
+https://www.researchgate.net/profile/Jaime_Espinoza7/publication/329375280_MUC5B_CA9_and_CLDN18_are_potential_theranostic_markers_of_gallbladder_carcinoma/links/5c505e29458515a4c74815ef/MUC5B-CA9-and-CLDN18-are-potential-theranostic-markers-of-gallbladder-carcinoma.pdf
 
 ---
 
@@ -2728,13 +2817,55 @@ Ampulla of Vater TNM staging, Margins, Survival
 ```{r Ampulla of Vater TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
 
----
-
 
 ---
 
+```{r 30790111, include=FALSE}
+
+PMID_30790111 <- RefManageR::ReadPubMed('30790111', database = 'PubMed')
+
+citation_30790111 <- paste0(PMID_30790111$journal,' ', PMID_30790111$year, ' ', PMID_30790111$month,';', PMID_30790111$volume,'(', PMID_30790111$number,'):', PMID_30790111$pages)
+
+PubMed_30790111 <- paste0(PubMedString, PMID_30790111$eprint)
+
+doi_30790111 <- paste0(doiString, PMID_30790111$doi)
+
+dimensionBadge_30790111 <- paste0(dimensionString1, PMID_30790111$doi,dimensionString2)
+
+altmetricBadge_30790111 <- paste0(altmetricString1, PMID_30790111$doi, altmetricString2 )
+
+addthis_inline_30790111 <- paste0(addthis_String1, PMID_30790111$title , " PMID: 30790111 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+```
+
+<details open> <summary>
+- **`r PMID_30790111$title`**
+</summary> 
+
+*`r citation_30790111`*
+
+`r PubMed_30790111`
+
+`r addthis_inline_30790111`
+
+`r PMID_30790111$abstract`
+
+<!-- `r doi_30790111` -->
+
+`r dimensionBadge_30790111`
+
+`r altmetricBadge_30790111`
+
+
+Also See [Staging for Ampullary Carcinoma: Is Less Actually More?](https://www.ncbi.nlm.nih.gov/pubmed/30788628)
+
+
+</details>
+
+---
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2774,6 +2905,50 @@ PanNET TNM staging, Margins, Survival
 
 ```{r PanNET TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
+
+
+---
+
+```{r 30340569, include=FALSE}
+
+PMID_30340569 <- RefManageR::ReadPubMed('30340569', database = 'PubMed')
+
+citation_30340569 <- paste0(PMID_30340569$journal,' ', PMID_30340569$year, ' ', PMID_30340569$month,';', PMID_30340569$volume,'(', PMID_30340569$number,'):', PMID_30340569$pages)
+
+PubMed_30340569 <- paste0(PubMedString, PMID_30340569$eprint)
+
+doi_30340569 <- paste0(doiString, PMID_30340569$doi)
+
+dimensionBadge_30340569 <- paste0(dimensionString1, PMID_30340569$doi,dimensionString2)
+
+altmetricBadge_30340569 <- paste0(altmetricString1, PMID_30340569$doi, altmetricString2 )
+
+addthis_inline_30340569 <- paste0(addthis_String1, PMID_30340569$title , " PMID: 30340569 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30340569$title`**
+</summary> 
+
+*`r citation_30340569`*
+
+`r PubMed_30340569`
+
+`r addthis_inline_30340569`
+
+`r PMID_30340569$abstract`
+
+<!-- `r doi_30340569` -->
+
+`r dimensionBadge_30340569`
+
+`r altmetricBadge_30340569`
+
+</details>
 
 ---
 
