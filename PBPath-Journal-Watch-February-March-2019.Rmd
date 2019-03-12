@@ -855,7 +855,53 @@ Sys.sleep(1)
 
 </details>
 
+
 ---
+
+```{r 30850220, include=FALSE}
+
+PMID_30850220 <- RefManageR::ReadPubMed('30850220', database = 'PubMed')
+
+citation_30850220 <- paste0(PMID_30850220$journal,' ', PMID_30850220$year, ' ', PMID_30850220$month,';', PMID_30850220$volume,'(', PMID_30850220$number,'):', PMID_30850220$pages)
+
+PubMed_30850220 <- paste0(PubMedString, PMID_30850220$eprint)
+
+doi_30850220 <- paste0(doiString, PMID_30850220$doi)
+
+dimensionBadge_30850220 <- paste0(dimensionString1, PMID_30850220$doi,dimensionString2)
+
+altmetricBadge_30850220 <- paste0(altmetricString1, PMID_30850220$doi, altmetricString2 )
+
+addthis_inline_30850220 <- paste0(addthis_String1, PMID_30850220$title , " PMID: 30850220 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30850220$title`**
+</summary> 
+
+*`r citation_30850220`*
+
+`r PubMed_30850220`
+
+`r addthis_inline_30850220`
+
+`r PMID_30850220$abstract`
+
+<!-- `r doi_30850220` -->
+
+`r dimensionBadge_30850220`
+
+`r altmetricBadge_30850220`
+
+</details>
+
+---
+
+
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -1899,7 +1945,9 @@ Sys.sleep(1)
 
 ---
 
+- **Ki67 quantitative interpretation: Insights using image analysis**
 
+http://www.jpathinformatics.org/article.asp?issn=2153-3539;year=2019;volume=10;issue=1;spage=8;epage=8;aulast=Volynskaya
 
 
 
@@ -2085,6 +2133,13 @@ https://www.annualreviews.org/doi/abs/10.1146/annurev-cancerbio-030518-055702
 ```{r Reviews Opinion Articles, eval=FALSE, include=FALSE}
 ```
 
+---
+
+- **Molecular envoys pave the way for pancreatic cancer to invade the liver**
+
+https://www.ncbi.nlm.nih.gov/pubmed/30850740
+
+https://www.nature.com/articles/d41586-019-00710-z
 
 ---
 
@@ -2519,6 +2574,17 @@ No abstract yet, not in PubMed yet
 
 ### Pancreas 
 
+---
+
+- **Immunoglobulin G4-Related Pancreatitis: Our Experience in a German Cohort of 59 Patients.**
+
+https://www.ncbi.nlm.nih.gov/pubmed/30855431
+
+---
+
+- **Aggressive Fibromatosis of the Pancreas: A Rare Cause of Incomplete Duodenal Obstruction.**
+
+https://www.ncbi.nlm.nih.gov/pubmed/30855430
 
 ---
 
