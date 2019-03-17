@@ -195,6 +195,49 @@ Sys.sleep(1)
 
 ---
 
+```{r 30171511, include=FALSE}
+
+PMID_30171511 <- RefManageR::ReadPubMed('30171511', database = 'PubMed')
+
+citation_30171511 <- paste0(PMID_30171511$journal,' ', PMID_30171511$year, ' ', PMID_30171511$month,';', PMID_30171511$volume,'(', PMID_30171511$number,'):', PMID_30171511$pages)
+
+PubMed_30171511 <- paste0(PubMedString, PMID_30171511$eprint)
+
+doi_30171511 <- paste0(doiString, PMID_30171511$doi)
+
+dimensionBadge_30171511 <- paste0(dimensionString1, PMID_30171511$doi,dimensionString2)
+
+altmetricBadge_30171511 <- paste0(altmetricString1, PMID_30171511$doi, altmetricString2 )
+
+addthis_inline_30171511 <- paste0(addthis_String1, PMID_30171511$title , " PMID: 30171511 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30171511$title`**
+</summary> 
+
+*`r citation_30171511`*
+
+`r PubMed_30171511`
+
+`r addthis_inline_30171511`
+
+`r PMID_30171511$abstract`
+
+<!-- `r doi_30171511` -->
+
+`r dimensionBadge_30171511`
+
+`r altmetricBadge_30171511`
+
+</details>
+
+---
+
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -216,6 +259,49 @@ Pancreas TNM staging, Margins, Survival
 
 https://www.ncbi.nlm.nih.gov/pubmed/30298331
 
+
+---
+
+```{r 30863807, include=FALSE}
+
+PMID_30863807 <- RefManageR::ReadPubMed('30863807', database = 'PubMed')
+
+citation_30863807 <- paste0(PMID_30863807$journal,' ', PMID_30863807$year, ' ', PMID_30863807$month,';', PMID_30863807$volume,'(', PMID_30863807$number,'):', PMID_30863807$pages)
+
+PubMed_30863807 <- paste0(PubMedString, PMID_30863807$eprint)
+
+doi_30863807 <- paste0(doiString, PMID_30863807$doi)
+
+dimensionBadge_30863807 <- paste0(dimensionString1, PMID_30863807$doi,dimensionString2)
+
+altmetricBadge_30863807 <- paste0(altmetricString1, PMID_30863807$doi, altmetricString2 )
+
+addthis_inline_30863807 <- paste0(addthis_String1, PMID_30863807$title , " PMID: 30863807 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30863807$title`**
+</summary> 
+
+*`r citation_30863807`*
+
+`r PubMed_30863807`
+
+`r addthis_inline_30863807`
+
+`r PMID_30863807$abstract`
+
+<!-- `r doi_30863807` -->
+
+`r dimensionBadge_30863807`
+
+`r altmetricBadge_30863807`
+
+</details>
 
 ---
 
@@ -334,6 +420,49 @@ Sys.sleep(1)
 `r dimensionBadge_30721663`
 
 `r altmetricBadge_30721663`
+
+</details>
+
+---
+
+```{r 30872392, include=FALSE}
+
+PMID_30872392 <- RefManageR::ReadPubMed('30872392', database = 'PubMed')
+
+citation_30872392 <- paste0(PMID_30872392$journal,' ', PMID_30872392$year, ' ', PMID_30872392$month,';', PMID_30872392$volume,'(', PMID_30872392$number,'):', PMID_30872392$pages)
+
+PubMed_30872392 <- paste0(PubMedString, PMID_30872392$eprint)
+
+doi_30872392 <- paste0(doiString, PMID_30872392$doi)
+
+dimensionBadge_30872392 <- paste0(dimensionString1, PMID_30872392$doi,dimensionString2)
+
+altmetricBadge_30872392 <- paste0(altmetricString1, PMID_30872392$doi, altmetricString2 )
+
+addthis_inline_30872392 <- paste0(addthis_String1, PMID_30872392$title , " PMID: 30872392 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30872392$title`**
+</summary> 
+
+*`r citation_30872392`*
+
+`r PubMed_30872392`
+
+`r addthis_inline_30872392`
+
+`r PMID_30872392$abstract`
+
+<!-- `r doi_30872392` -->
+
+`r dimensionBadge_30872392`
+
+`r altmetricBadge_30872392`
 
 </details>
 
@@ -618,6 +747,48 @@ Gallbladder TNM staging, Margins, Survival
 ```
 
 
+---
+
+```{r 30864246, include=FALSE}
+
+PMID_30864246 <- RefManageR::ReadPubMed('30864246', database = 'PubMed')
+
+citation_30864246 <- paste0(PMID_30864246$journal,' ', PMID_30864246$year, ' ', PMID_30864246$month,';', PMID_30864246$volume,'(', PMID_30864246$number,'):', PMID_30864246$pages)
+
+PubMed_30864246 <- paste0(PubMedString, PMID_30864246$eprint)
+
+doi_30864246 <- paste0(doiString, PMID_30864246$doi)
+
+dimensionBadge_30864246 <- paste0(dimensionString1, PMID_30864246$doi,dimensionString2)
+
+altmetricBadge_30864246 <- paste0(altmetricString1, PMID_30864246$doi, altmetricString2 )
+
+addthis_inline_30864246 <- paste0(addthis_String1, PMID_30864246$title , " PMID: 30864246 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30864246$title`**
+</summary> 
+
+*`r citation_30864246`*
+
+`r PubMed_30864246`
+
+`r addthis_inline_30864246`
+
+`r PMID_30864246$abstract`
+
+<!-- `r doi_30864246` -->
+
+`r dimensionBadge_30864246`
+
+`r altmetricBadge_30864246`
+
+</details>
 
 ---
 
@@ -1032,6 +1203,49 @@ Sys.sleep(1)
 `r dimensionBadge_30340569`
 
 `r altmetricBadge_30340569`
+
+</details>
+
+---
+
+```{r 30872175, include=FALSE}
+
+PMID_30872175 <- RefManageR::ReadPubMed('30872175', database = 'PubMed')
+
+citation_30872175 <- paste0(PMID_30872175$journal,' ', PMID_30872175$year, ' ', PMID_30872175$month,';', PMID_30872175$volume,'(', PMID_30872175$number,'):', PMID_30872175$pages)
+
+PubMed_30872175 <- paste0(PubMedString, PMID_30872175$eprint)
+
+doi_30872175 <- paste0(doiString, PMID_30872175$doi)
+
+dimensionBadge_30872175 <- paste0(dimensionString1, PMID_30872175$doi,dimensionString2)
+
+altmetricBadge_30872175 <- paste0(altmetricString1, PMID_30872175$doi, altmetricString2 )
+
+addthis_inline_30872175 <- paste0(addthis_String1, PMID_30872175$title , " PMID: 30872175 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30872175$title`**
+</summary> 
+
+*`r citation_30872175`*
+
+`r PubMed_30872175`
+
+`r addthis_inline_30872175`
+
+`r PMID_30872175$abstract`
+
+<!-- `r doi_30872175` -->
+
+`r dimensionBadge_30872175`
+
+`r altmetricBadge_30872175`
 
 </details>
 
@@ -6674,6 +6888,17 @@ https://www.sciencedirect.com/science/article/pii/S0002944018302529
 http://ascopubs.org/doi/abs/10.1200/JCO.2019.37.4_suppl.267
 
 
+---
 
+- **Surgery for Pancreatic Neuroendocrine Tumor G3 and Carcinoma G3 Should be Considered Separately**
+
+https://link.springer.com/article/10.1245/s10434-019-07252-8
 
 ---
+
+- **A simple and practical index predicting the prognoses of the patients with well-differentiated pancreatic neuroendocrine neoplasms**
+
+https://link.springer.com/article/10.1007/s00535-019-01570-0
+
+---
+
