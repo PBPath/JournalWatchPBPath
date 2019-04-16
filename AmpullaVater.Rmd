@@ -830,5 +830,92 @@ Cutaneous Metastasis of Adenocarcinoma of the Ampulla of Vater.
 
 https://www.ncbi.nlm.nih.gov/pubmed/29672360
 
+
+---
+
+```{r 29215725, include=FALSE}
+
+PMID_29215725 <- RefManageR::ReadPubMed('29215725', database = 'PubMed')
+
+citation_29215725 <- paste0(PMID_29215725$journal,' ', PMID_29215725$year, ' ', PMID_29215725$month,';', PMID_29215725$volume,'(', PMID_29215725$number,'):', PMID_29215725$pages)
+
+PubMed_29215725 <- paste0(PubMedString, PMID_29215725$eprint)
+
+doi_29215725 <- paste0(doiString, PMID_29215725$doi)
+
+dimensionBadge_29215725 <- paste0(dimensionString1, PMID_29215725$doi,dimensionString2)
+
+altmetricBadge_29215725 <- paste0(altmetricString1, PMID_29215725$doi, altmetricString2 )
+
+addthis_inline_29215725 <- paste0(addthis_String1, PMID_29215725$title , " PMID: 29215725 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_29215725$title`**
+</summary> 
+
+*`r citation_29215725`*
+
+`r PubMed_29215725`
+
+`r addthis_inline_29215725`
+
+`r PMID_29215725$abstract`
+
+<!-- `r doi_29215725` -->
+
+`r dimensionBadge_29215725`
+
+`r altmetricBadge_29215725`
+
+</details>
+
+---
+
+```{r 29557408, include=FALSE}
+
+PMID_29557408 <- RefManageR::ReadPubMed('29557408', database = 'PubMed')
+
+citation_29557408 <- paste0(PMID_29557408$journal,' ', PMID_29557408$year, ' ', PMID_29557408$month,';', PMID_29557408$volume,'(', PMID_29557408$number,'):', PMID_29557408$pages)
+
+PubMed_29557408 <- paste0(PubMedString, PMID_29557408$eprint)
+
+doi_29557408 <- paste0(doiString, PMID_29557408$doi)
+
+dimensionBadge_29557408 <- paste0(dimensionString1, PMID_29557408$doi,dimensionString2)
+
+altmetricBadge_29557408 <- paste0(altmetricString1, PMID_29557408$doi, altmetricString2 )
+
+addthis_inline_29557408 <- paste0(addthis_String1, PMID_29557408$title , " PMID: 29557408 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_29557408$title`**
+</summary> 
+
+*`r citation_29557408`*
+
+`r PubMed_29557408`
+
+`r addthis_inline_29557408`
+
+`r PMID_29557408$abstract`
+
+<!-- `r doi_29557408` -->
+
+`r dimensionBadge_29557408`
+
+`r altmetricBadge_29557408`
+
+</details>
+
 ---
 
