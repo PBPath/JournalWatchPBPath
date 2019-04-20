@@ -3,6 +3,92 @@ title: "Molecular"
 output: html_notebook
 ---
 
+
+```{r 30712446, include=FALSE}
+
+PMID_30712446 <- RefManageR::ReadPubMed('30712446', database = 'PubMed')
+
+citation_30712446 <- paste0(PMID_30712446$journal,' ', PMID_30712446$year, ' ', PMID_30712446$month,';', PMID_30712446$volume,'(', PMID_30712446$number,'):', PMID_30712446$pages)
+
+PubMed_30712446 <- paste0(PubMedString, PMID_30712446$eprint)
+
+doi_30712446 <- paste0(doiString, PMID_30712446$doi)
+
+dimensionBadge_30712446 <- paste0(dimensionString1, PMID_30712446$doi,dimensionString2)
+
+altmetricBadge_30712446 <- paste0(altmetricString1, PMID_30712446$doi, altmetricString2 )
+
+addthis_inline_30712446 <- paste0(addthis_String1, PMID_30712446$title , " PMID: 30712446 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30712446$title`**
+</summary> 
+
+*`r citation_30712446`*
+
+`r PubMed_30712446`
+
+`r addthis_inline_30712446`
+
+`r PMID_30712446$abstract`
+
+<!-- `r doi_30712446` -->
+
+`r dimensionBadge_30712446`
+
+`r altmetricBadge_30712446`
+
+</details>
+
+
+---
+
+```{r 30902418, include=FALSE}
+
+PMID_30902418 <- RefManageR::ReadPubMed('30902418', database = 'PubMed')
+
+citation_30902418 <- paste0(PMID_30902418$journal,' ', PMID_30902418$year, ' ', PMID_30902418$month,';', PMID_30902418$volume,'(', PMID_30902418$number,'):', PMID_30902418$pages)
+
+PubMed_30902418 <- paste0(PubMedString, PMID_30902418$eprint)
+
+doi_30902418 <- paste0(doiString, PMID_30902418$doi)
+
+dimensionBadge_30902418 <- paste0(dimensionString1, PMID_30902418$doi,dimensionString2)
+
+altmetricBadge_30902418 <- paste0(altmetricString1, PMID_30902418$doi, altmetricString2 )
+
+addthis_inline_30902418 <- paste0(addthis_String1, PMID_30902418$title , " PMID: 30902418 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30902418$title`**
+</summary> 
+
+*`r citation_30902418`*
+
+`r PubMed_30902418`
+
+`r addthis_inline_30902418`
+
+`r PMID_30902418$abstract`
+
+<!-- `r doi_30902418` -->
+
+`r dimensionBadge_30902418`
+
+`r altmetricBadge_30902418`
+
+</details>
+
 ---
 
 - **Genetic Drivers of Pancreatic Cancer Are Identical Between the Primary Tumor and a Secondary Lesion in a Long-Term (>5 Years) Survivor After a Whipple Procedure**

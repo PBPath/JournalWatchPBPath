@@ -25,6 +25,52 @@ https://journals.lww.com/ajsp/Pages/articleviewer.aspx?year=9000&issue=00000&art
 
 ---
 
+
+```{r 30820231, include=FALSE}
+
+PMID_30820231 <- RefManageR::ReadPubMed('30820231', database = 'PubMed')
+
+citation_30820231 <- paste0(PMID_30820231$journal,' ', PMID_30820231$year, ' ', PMID_30820231$month,';', PMID_30820231$volume,'(', PMID_30820231$number,'):', PMID_30820231$pages)
+
+PubMed_30820231 <- paste0(PubMedString, PMID_30820231$eprint)
+
+doi_30820231 <- paste0(doiString, PMID_30820231$doi)
+
+dimensionBadge_30820231 <- paste0(dimensionString1, PMID_30820231$doi,dimensionString2)
+
+altmetricBadge_30820231 <- paste0(altmetricString1, PMID_30820231$doi, altmetricString2 )
+
+addthis_inline_30820231 <- paste0(addthis_String1, PMID_30820231$title , " PMID: 30820231 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30820231$title`**
+</summary> 
+
+*`r citation_30820231`*
+
+`r PubMed_30820231`
+
+`r addthis_inline_30820231`
+
+`r PMID_30820231$abstract`
+
+<!-- `r doi_30820231` -->
+
+`r dimensionBadge_30820231`
+
+`r altmetricBadge_30820231`
+
+</details>
+
+
+
+---
+
 ```{r 30036595, include=FALSE}
 
 PMID_30036595 <- RefManageR::ReadPubMed('30036595', database = 'PubMed')

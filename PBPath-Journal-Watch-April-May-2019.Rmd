@@ -26,6 +26,18 @@ knitr::opts_chunk$set(cache = TRUE)
 ```
 
 
+```{r library}
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(readxl))
+```
+
+
+```{r data load}
+articles <- readRDS("articles.rds")
+```
+
+
+
 <!-- Open all links in new tab-->  
 <base target="_blank"/>  
 
@@ -112,6 +124,10 @@ Morphology, Diagnostics, IHC
 
 https://link.springer.com/article/10.1007/s11605-019-04201-4
 
+
+
+30973472
+
 ---
 
 ```{r 30973472, include=FALSE}
@@ -132,6 +148,35 @@ addthis_inline_30973472 <- paste0(addthis_String1, PMID_30973472$title , " PMID:
 
 Sys.sleep(1)
 
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30973472,
+PMID = PMID_30973472$eprint,
+Title = PMID_30973472$title,
+# Author = PMID_30973472$author,
+# Abstract = PMID_30973472$abstract,
+Journal = PMID_30973472$journal,
+Year = PMID_30973472$year,
+Month = PMID_30973472$month,
+Volume = PMID_30973472$volume,
+Number = PMID_30973472$number,
+Pages = PMID_30973472$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30973472$eprint),
+DoiNumber = PMID_30973472$doi,
+DoiLink = paste0('https://doi.org/', PMID_30973472$doi),
+Language = PMID_30973472$language,
+ISSN = PMID_30973472$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
 
 ```
 
@@ -156,6 +201,7 @@ Sys.sleep(1)
 </details>
 
 ---
+
 
 ```{r 30973469, include=FALSE}
 
@@ -691,6 +737,7 @@ addthis_inline_28424987 <- paste0(addthis_String1, PMID_28424987$title , " PMID:
 Sys.sleep(1)
 
 
+
 ```
 
 <details open> <summary>
@@ -846,8 +893,52 @@ Gallbladder TNM staging, Margins, Survival
 ```
 
 
+---
+
+```{r 30562839, include=FALSE}
+
+PMID_30562839 <- RefManageR::ReadPubMed('30562839', database = 'PubMed')
+
+citation_30562839 <- paste0(PMID_30562839$journal,' ', PMID_30562839$year, ' ', PMID_30562839$month,';', PMID_30562839$volume,'(', PMID_30562839$number,'):', PMID_30562839$pages)
+
+PubMed_30562839 <- paste0(PubMedString, PMID_30562839$eprint)
+
+doi_30562839 <- paste0(doiString, PMID_30562839$doi)
+
+dimensionBadge_30562839 <- paste0(dimensionString1, PMID_30562839$doi,dimensionString2)
+
+altmetricBadge_30562839 <- paste0(altmetricString1, PMID_30562839$doi, altmetricString2 )
+
+addthis_inline_30562839 <- paste0(addthis_String1, PMID_30562839$title , " PMID: 30562839 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+```
+
+<details open> <summary>
+- **`r PMID_30562839$title`**
+</summary> 
+
+*`r citation_30562839`*
+
+`r PubMed_30562839`
+
+`r addthis_inline_30562839`
+
+`r PMID_30562839$abstract`
+
+<!-- `r doi_30562839` -->
+
+`r dimensionBadge_30562839`
+
+`r altmetricBadge_30562839`
+
+</details>
 
 ---
+
+
 
 <a href="#top" target="_self">Back to top</a>
 
