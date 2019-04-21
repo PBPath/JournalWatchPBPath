@@ -19,6 +19,38 @@ output:
 
 ---
 
+- **Intra-Operative Frozen Section Histology of the Pancreatic Resection Margins and Clinical Outcome of Patients with Adenocarcinoma of the Head of the Pancreas Undergoing Pancreaticoduodenectomy.**
+
+https://www.ncbi.nlm.nih.gov/pubmed/30007990
+
+---
+
+- **Advances in the Genetics and Biology of Pancreatic Cancer.**
+
+https://www.ncbi.nlm.nih.gov/pubmed/29189326
+
+---
+
+- **The Pancreatic Cancer Microenvironment.**
+
+https://www.ncbi.nlm.nih.gov/pubmed/29189327
+
+---
+
+- **Oral Health and the Oral Microbiome in Pancreatic Cancer: An Overview of Epidemiological Studies.**
+
+https://www.ncbi.nlm.nih.gov/pubmed/29189325
+
+---
+
+- **Prognostic stratification of resected pancreatic ductal adenocarcinoma: Past, present, and future.**
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/30205952
+
+
+---
+
 - **Classification of Pancreatic Cancer: Ready for Practical Application?**
 
 Clin Cancer Res; 24(18); 1–2.
@@ -27,6 +59,80 @@ http://clincancerres.aacrjournals.org/content/early/2018/07/22/1078-0432.CCR-18-
 
 
 ---
+
+```{r 30007990, include=FALSE}
+
+PMID_30007990 <- RefManageR::ReadPubMed('30007990', database = 'PubMed')
+
+citation_30007990 <- paste0(PMID_30007990$journal,' ', PMID_30007990$year, ' ', PMID_30007990$month,';', PMID_30007990$volume,'(', PMID_30007990$number,'):', PMID_30007990$pages)
+
+PubMed_30007990 <- paste0(PubMedString, PMID_30007990$eprint)
+
+doi_30007990 <- paste0(doiString, PMID_30007990$doi)
+
+dimensionBadge_30007990 <- paste0(dimensionString1, PMID_30007990$doi,dimensionString2)
+
+altmetricBadge_30007990 <- paste0(altmetricString1, PMID_30007990$doi, altmetricString2 )
+
+addthis_inline_30007990 <- paste0(addthis_String1, PMID_30007990$title , " PMID: 30007990 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30007990,
+PMID = PMID_30007990$eprint,
+Title = PMID_30007990$title,
+# Author = PMID_30007990$author,
+Abstract = PMID_30007990$abstract,
+Journal = PMID_30007990$journal,
+Year = PMID_30007990$year,
+Month = PMID_30007990$month,
+Volume = PMID_30007990$volume,
+# Number = PMID_30007990$number,
+Pages = PMID_30007990$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30007990$eprint),
+DoiNumber = PMID_30007990$doi,
+DoiLink = paste0('https://doi.org/', PMID_30007990$doi),
+Language = PMID_30007990$language,
+ISSN = PMID_30007990$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30007990$title`**
+</summary> 
+
+*`r citation_30007990`*
+
+`r PubMed_30007990`
+
+`r addthis_inline_30007990`
+
+`r PMID_30007990$abstract`
+
+<!-- `r doi_30007990` -->
+
+`r dimensionBadge_30007990`
+
+`r altmetricBadge_30007990`
+
+</details>
+
+---
+
+
 
 
 ```{r 30057602, include=FALSE}

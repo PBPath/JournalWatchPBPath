@@ -27,13 +27,13 @@ knitr::opts_chunk$set(cache = TRUE)
 
 
 
-```{r library}
-suppressPackageStartupMessages(library(tidyverse)
+```{r library, include=FALSE}
+suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(readxl))
 ```
 
 
-```{r data load}
+```{r data load, include=FALSE}
 articles <- readRDS("articles.rds")
 ```
 
@@ -191,8 +191,9 @@ saveRDS(articles, 'articles.rds')
 
 </details>
 
----
 
+
+---
 
 ```{r 30629030, include=FALSE}
 
@@ -212,6 +213,35 @@ addthis_inline_30629030 <- paste0(addthis_String1, PMID_30629030$title , " PMID:
 
 Sys.sleep(1)
 
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30629030,
+PMID = PMID_30629030$eprint,
+Title = PMID_30629030$title,
+# Author = PMID_30629030$author,
+Abstract = PMID_30629030$abstract,
+Journal = PMID_30629030$journal,
+Year = PMID_30629030$year,
+Month = PMID_30629030$month,
+Volume = PMID_30629030$volume,
+Number = PMID_30629030$number,
+Pages = PMID_30629030$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30629030$eprint),
+DoiNumber = PMID_30629030$doi,
+DoiLink = paste0('https://doi.org/', PMID_30629030$doi),
+Language = PMID_30629030$language,
+ISSN = PMID_30629030$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
 
 ```
 
@@ -238,6 +268,8 @@ Sys.sleep(1)
 ---
 
 ```{r 30171511, include=FALSE}
+articles <- readRDS('articles.rds')
+
 
 PMID_30171511 <- RefManageR::ReadPubMed('30171511', database = 'PubMed')
 
@@ -255,6 +287,35 @@ addthis_inline_30171511 <- paste0(addthis_String1, PMID_30171511$title , " PMID:
 
 Sys.sleep(1)
 
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30171511,
+PMID = PMID_30171511$eprint,
+Title = PMID_30171511$title,
+# Author = PMID_30171511$author,
+Abstract = PMID_30171511$abstract,
+Journal = PMID_30171511$journal,
+Year = PMID_30171511$year,
+Month = PMID_30171511$month,
+Volume = PMID_30171511$volume,
+Number = PMID_30171511$number,
+Pages = PMID_30171511$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30171511$eprint),
+DoiNumber = PMID_30171511$doi,
+DoiLink = paste0('https://doi.org/', PMID_30171511$doi),
+Language = PMID_30171511$language,
+ISSN = PMID_30171511$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
 
 ```
 
@@ -279,6 +340,8 @@ Sys.sleep(1)
 </details>
 
 ---
+
+
 
 
 <a href="#top" target="_self">Back to top</a>
