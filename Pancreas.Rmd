@@ -17,6 +17,158 @@ output:
 
 [![](http://pbpath.org/wp-content/uploads/2017/05/cropped-PBP_header_logo_vector_lighter-1.jpg)](http://pbpath.org/)
 
+
+
+---
+
+```{r 30872392, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30872392 <- RefManageR::ReadPubMed('30872392', database = 'PubMed')
+
+citation_30872392 <- paste0(PMID_30872392$journal,' ', PMID_30872392$year, ' ', PMID_30872392$month,';', PMID_30872392$volume,'(', PMID_30872392$number,'):', PMID_30872392$pages)
+
+PubMed_30872392 <- paste0(PubMedString, PMID_30872392$eprint)
+
+doi_30872392 <- paste0(doiString, PMID_30872392$doi)
+
+dimensionBadge_30872392 <- paste0(dimensionString1, PMID_30872392$doi,dimensionString2)
+
+altmetricBadge_30872392 <- paste0(altmetricString1, PMID_30872392$doi, altmetricString2 )
+
+addthis_inline_30872392 <- paste0(addthis_String1, PMID_30872392$title , " PMID: 30872392 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30872392,
+PMID = PMID_30872392$eprint,
+Title = PMID_30872392$title,
+# Author = PMID_30872392$author,
+Abstract = PMID_30872392$abstract,
+Journal = PMID_30872392$journal,
+Year = PMID_30872392$year,
+Month = PMID_30872392$month,
+# Volume = PMID_30872392$volume,
+# Number = PMID_30872392$number,
+# Pages = PMID_30872392$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30872392$eprint),
+DoiNumber = PMID_30872392$doi,
+DoiLink = paste0('https://doi.org/', PMID_30872392$doi),
+Language = PMID_30872392$language,
+ISSN = PMID_30872392$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30872392$title`**
+</summary> 
+
+*`r citation_30872392`*
+
+`r PubMed_30872392`
+
+`r addthis_inline_30872392`
+
+`r PMID_30872392$abstract`
+
+<!-- `r doi_30872392` -->
+
+`r dimensionBadge_30872392`
+
+`r altmetricBadge_30872392`
+
+</details>
+
+
+---
+
+```{r 30171511, include=FALSE}
+articles <- readRDS('articles.rds')
+
+
+PMID_30171511 <- RefManageR::ReadPubMed('30171511', database = 'PubMed')
+
+citation_30171511 <- paste0(PMID_30171511$journal,' ', PMID_30171511$year, ' ', PMID_30171511$month,';', PMID_30171511$volume,'(', PMID_30171511$number,'):', PMID_30171511$pages)
+
+PubMed_30171511 <- paste0(PubMedString, PMID_30171511$eprint)
+
+doi_30171511 <- paste0(doiString, PMID_30171511$doi)
+
+dimensionBadge_30171511 <- paste0(dimensionString1, PMID_30171511$doi,dimensionString2)
+
+altmetricBadge_30171511 <- paste0(altmetricString1, PMID_30171511$doi, altmetricString2 )
+
+addthis_inline_30171511 <- paste0(addthis_String1, PMID_30171511$title , " PMID: 30171511 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30171511,
+PMID = PMID_30171511$eprint,
+Title = PMID_30171511$title,
+# Author = PMID_30171511$author,
+Abstract = PMID_30171511$abstract,
+Journal = PMID_30171511$journal,
+Year = PMID_30171511$year,
+Month = PMID_30171511$month,
+Volume = PMID_30171511$volume,
+Number = PMID_30171511$number,
+Pages = PMID_30171511$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30171511$eprint),
+DoiNumber = PMID_30171511$doi,
+DoiLink = paste0('https://doi.org/', PMID_30171511$doi),
+Language = PMID_30171511$language,
+ISSN = PMID_30171511$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30171511$title`**
+</summary> 
+
+*`r citation_30171511`*
+
+`r PubMed_30171511`
+
+`r addthis_inline_30171511`
+
+`r PMID_30171511$abstract`
+
+<!-- `r doi_30171511` -->
+
+`r dimensionBadge_30171511`
+
+`r altmetricBadge_30171511`
+
+</details>
+
 ---
 
 - **Intra-Operative Frozen Section Histology of the Pancreatic Resection Margins and Clinical Outcome of Patients with Adenocarcinoma of the Head of the Pancreas Undergoing Pancreaticoduodenectomy.**

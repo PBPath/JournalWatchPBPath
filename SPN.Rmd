@@ -15,6 +15,81 @@ Solid Pseudopapillary Neoplasm
 
 ---
 
+```{r 30845855, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30845855 <- RefManageR::ReadPubMed('30845855', database = 'PubMed')
+
+citation_30845855 <- paste0(PMID_30845855$journal,' ', PMID_30845855$year, ' ', PMID_30845855$month,';', PMID_30845855$volume,'(', PMID_30845855$number,'):', PMID_30845855$pages)
+
+PubMed_30845855 <- paste0(PubMedString, PMID_30845855$eprint)
+
+doi_30845855 <- paste0(doiString, PMID_30845855$doi)
+
+dimensionBadge_30845855 <- paste0(dimensionString1, PMID_30845855$doi,dimensionString2)
+
+altmetricBadge_30845855 <- paste0(altmetricString1, PMID_30845855$doi, altmetricString2 )
+
+addthis_inline_30845855 <- paste0(addthis_String1, PMID_30845855$title , " PMID: 30845855 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30845855,
+PMID = PMID_30845855$eprint,
+Title = PMID_30845855$title,
+# Author = PMID_30845855$author,
+Abstract = PMID_30845855$abstract,
+Journal = PMID_30845855$journal,
+Year = PMID_30845855$year,
+Month = PMID_30845855$month,
+# Volume = PMID_30845855$volume,
+# Number = PMID_30845855$number,
+Pages = PMID_30845855$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30845855$eprint),
+DoiNumber = PMID_30845855$doi,
+DoiLink = paste0('https://doi.org/', PMID_30845855$doi),
+Language = PMID_30845855$language,
+ISSN = PMID_30845855$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30845855$title`**
+</summary> 
+
+*`r citation_30845855`*
+
+`r PubMed_30845855`
+
+`r addthis_inline_30845855`
+
+`r PMID_30845855$abstract`
+
+<!-- `r doi_30845855` -->
+
+`r dimensionBadge_30845855`
+
+`r altmetricBadge_30845855`
+
+</details>
+
+---
+
 ```{r 30688939, include=FALSE}
 
 PMID_30688939 <- RefManageR::ReadPubMed('30688939', database = 'PubMed')
