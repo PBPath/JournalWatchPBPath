@@ -82,22 +82,52 @@ addthis_String2 <- "'></div>"
 
 **Wellcome to the PBPath Journal Watch!** 
 
-This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order.  
+This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [preparation of upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
 
-Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)*.  
-
-We encourage members to actively participate by recommending new articles and providing feedback using *[the forms provided](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)*.  
+We encourage members to actively participate by recommending new articles and providing feedback using the forms provided below.  
 
 **We hope that you will enjoy the new PBPath Journal Watch!**  
 
+---
+
+**Feedback**  
+
+Please send your feedbacks using the forms below:  
+
+[Google Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)  
 
 
+<script id="dsq-count-scr" src="//pbpath-org.disqus.com/count.js" async></script>
+<div id="disqus_thread"></div>
+<script>
 
-
-\pagebreak
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://pbpath-org.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
 
 
 ---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
 
 
 ## Surgical Pathology {.tabset}
@@ -118,15 +148,82 @@ Morphology, Diagnostics, IHC
 ```
 
 
+
 ---
 
-- **Pancreatic Nerve Sheath Tumors: a Single Institutional Series and Systematic Review of the Literature**
+```{r 30941687, include=FALSE}
 
-https://link.springer.com/article/10.1007/s11605-019-04201-4
+articles <- readRDS('articles.rds')
 
 
+PMID_30941687 <- RefManageR::ReadPubMed('30941687', database = 'PubMed')
 
-30973472
+citation_30941687 <- paste0(PMID_30941687$journal,' ', PMID_30941687$year, ' ', PMID_30941687$month,';', PMID_30941687$volume,'(', PMID_30941687$number,'):', PMID_30941687$pages)
+
+PubMed_30941687 <- paste0(PubMedString, PMID_30941687$eprint)
+
+doi_30941687 <- paste0(doiString, PMID_30941687$doi)
+
+dimensionBadge_30941687 <- paste0(dimensionString1, PMID_30941687$doi,dimensionString2)
+
+altmetricBadge_30941687 <- paste0(altmetricString1, PMID_30941687$doi, altmetricString2 )
+
+addthis_inline_30941687 <- paste0(addthis_String1, PMID_30941687$title , " PMID: 30941687 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30941687,
+PMID = PMID_30941687$eprint,
+Title = PMID_30941687$title,
+# Author = PMID_30941687$author,
+Abstract = PMID_30941687$abstract,
+Journal = PMID_30941687$journal,
+Year = PMID_30941687$year,
+Month = PMID_30941687$month,
+# Volume = PMID_30941687$volume,
+# Number = PMID_30941687$number,
+# Pages = PMID_30941687$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30941687$eprint),
+DoiNumber = PMID_30941687$doi,
+DoiLink = paste0('https://doi.org/', PMID_30941687$doi),
+Language = PMID_30941687$language,
+ISSN = PMID_30941687$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30941687$title`**
+</summary> 
+
+*`r citation_30941687`*
+
+`r PubMed_30941687`
+
+`r addthis_inline_30941687`
+
+`r PMID_30941687$abstract`
+
+<!-- `r doi_30941687` -->
+
+`r dimensionBadge_30941687`
+
+`r altmetricBadge_30941687`
+
+</details>
+
 
 ---
 
@@ -200,10 +297,13 @@ saveRDS(articles, 'articles.rds')
 
 </details>
 
+
 ---
 
-
 ```{r 30973469, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
 
 PMID_30973469 <- RefManageR::ReadPubMed('30973469', database = 'PubMed')
 
@@ -221,6 +321,35 @@ addthis_inline_30973469 <- paste0(addthis_String1, PMID_30973469$title , " PMID:
 
 Sys.sleep(1)
 
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30973469,
+PMID = PMID_30973469$eprint,
+Title = PMID_30973469$title,
+# Author = PMID_30973469$author,
+Abstract = PMID_30973469$abstract,
+Journal = PMID_30973469$journal,
+Year = PMID_30973469$year,
+Month = PMID_30973469$month,
+# Volume = PMID_30973469$volume,
+# Number = PMID_30973469$number,
+# Pages = PMID_30973469$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30973469$eprint),
+DoiNumber = PMID_30973469$doi,
+DoiLink = paste0('https://doi.org/', PMID_30973469$doi),
+Language = PMID_30973469$language,
+ISSN = PMID_30973469$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
 
 ```
 
@@ -246,49 +375,6 @@ Sys.sleep(1)
 
 ---
 
-```{r 30973464, include=FALSE}
-
-PMID_30973464 <- RefManageR::ReadPubMed('30973464', database = 'PubMed')
-
-citation_30973464 <- paste0(PMID_30973464$journal,' ', PMID_30973464$year, ' ', PMID_30973464$month,';', PMID_30973464$volume,'(', PMID_30973464$number,'):', PMID_30973464$pages)
-
-PubMed_30973464 <- paste0(PubMedString, PMID_30973464$eprint)
-
-doi_30973464 <- paste0(doiString, PMID_30973464$doi)
-
-dimensionBadge_30973464 <- paste0(dimensionString1, PMID_30973464$doi,dimensionString2)
-
-altmetricBadge_30973464 <- paste0(altmetricString1, PMID_30973464$doi, altmetricString2 )
-
-addthis_inline_30973464 <- paste0(addthis_String1, PMID_30973464$title , " PMID: 30973464 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30973464$title`**
-</summary> 
-
-*`r citation_30973464`*
-
-`r PubMed_30973464`
-
-`r addthis_inline_30973464`
-
-`r PMID_30973464$abstract`
-
-<!-- `r doi_30973464` -->
-
-`r dimensionBadge_30973464`
-
-`r altmetricBadge_30973464`
-
-</details>
-
----
-
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -306,7 +392,7 @@ Pancreas TNM staging, Margins, Survival
 
 ---
 
-```{r 29043580, include=FALSE}
+```{r zzz 29043580, include=FALSE}
 
 PMID_29043580 <- RefManageR::ReadPubMed('29043580', database = 'PubMed')
 
@@ -349,6 +435,81 @@ Sys.sleep(1)
 
 ---
 
+```{r 31014264, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_31014264 <- RefManageR::ReadPubMed('31014264', database = 'PubMed')
+
+citation_31014264 <- paste0(PMID_31014264$journal,' ', PMID_31014264$year, ' ', PMID_31014264$month,';', PMID_31014264$volume,'(', PMID_31014264$number,'):', PMID_31014264$pages)
+
+PubMed_31014264 <- paste0(PubMedString, PMID_31014264$eprint)
+
+doi_31014264 <- paste0(doiString, PMID_31014264$doi)
+
+dimensionBadge_31014264 <- paste0(dimensionString1, PMID_31014264$doi,dimensionString2)
+
+altmetricBadge_31014264 <- paste0(altmetricString1, PMID_31014264$doi, altmetricString2 )
+
+addthis_inline_31014264 <- paste0(addthis_String1, PMID_31014264$title , " PMID: 31014264 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31014264,
+PMID = PMID_31014264$eprint,
+Title = PMID_31014264$title,
+# Author = PMID_31014264$author,
+Abstract = PMID_31014264$abstract,
+Journal = PMID_31014264$journal,
+Year = PMID_31014264$year,
+Month = PMID_31014264$month,
+# Volume = PMID_31014264$volume,
+# Number = PMID_31014264$number,
+# Pages = PMID_31014264$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31014264$eprint),
+DoiNumber = PMID_31014264$doi,
+DoiLink = paste0('https://doi.org/', PMID_31014264$doi),
+Language = PMID_31014264$language,
+ISSN = PMID_31014264$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31014264$title`**
+</summary> 
+
+*`r citation_31014264`*
+
+`r PubMed_31014264`
+
+`r addthis_inline_31014264`
+
+`r PMID_31014264$abstract`
+
+<!-- `r doi_31014264` -->
+
+`r dimensionBadge_31014264`
+
+`r altmetricBadge_31014264`
+
+</details>
+
+---
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -374,7 +535,7 @@ https://journals.lww.com/pancreasjournal/Abstract/2019/04000/A_Consensus_Study_o
 
 ---
 
-```{r 30946243, include=FALSE}
+```{r zzz 30946243, include=FALSE}
 
 PMID_30946243 <- RefManageR::ReadPubMed('30946243', database = 'PubMed')
 
@@ -546,7 +707,82 @@ Solid Pseudopapillary Neoplasm
 
 ---
 
+```{r 30973464, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30973464 <- RefManageR::ReadPubMed('30973464', database = 'PubMed')
+
+citation_30973464 <- paste0(PMID_30973464$journal,' ', PMID_30973464$year, ' ', PMID_30973464$month,';', PMID_30973464$volume,'(', PMID_30973464$number,'):', PMID_30973464$pages)
+
+PubMed_30973464 <- paste0(PubMedString, PMID_30973464$eprint)
+
+doi_30973464 <- paste0(doiString, PMID_30973464$doi)
+
+dimensionBadge_30973464 <- paste0(dimensionString1, PMID_30973464$doi,dimensionString2)
+
+altmetricBadge_30973464 <- paste0(altmetricString1, PMID_30973464$doi, altmetricString2 )
+
+addthis_inline_30973464 <- paste0(addthis_String1, PMID_30973464$title , " PMID: 30973464 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30973464,
+PMID = PMID_30973464$eprint,
+Title = PMID_30973464$title,
+# Author = PMID_30973464$author,
+Abstract = PMID_30973464$abstract,
+Journal = PMID_30973464$journal,
+Year = PMID_30973464$year,
+Month = PMID_30973464$month,
+# Volume = PMID_30973464$volume,
+# Number = PMID_30973464$number,
+# Pages = PMID_30973464$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30973464$eprint),
+DoiNumber = PMID_30973464$doi,
+DoiLink = paste0('https://doi.org/', PMID_30973464$doi),
+Language = PMID_30973464$language,
+ISSN = PMID_30973464$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30973464$title`**
+</summary> 
+
+*`r citation_30973464`*
+
+`r PubMed_30973464`
+
+`r addthis_inline_30973464`
+
+`r PMID_30973464$abstract`
+
+<!-- `r doi_30973464` -->
+
+`r dimensionBadge_30973464`
+
+`r altmetricBadge_30973464`
+
+</details>
+
 ---
+
+
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -566,7 +802,7 @@ Solid Pseudopapillary Neoplasm
 
 ---
 
-```{r 30985334, include=FALSE}
+```{r zzz 30985334, include=FALSE}
 
 PMID_30985334 <- RefManageR::ReadPubMed('30985334', database = 'PubMed')
 
@@ -751,7 +987,7 @@ Bile Ducts TNM staging, Margins, Survival
 
 ---
 
-```{r 30986803, include=FALSE}
+```{r zzz 30986803, include=FALSE}
 
 PMID_30986803 <- RefManageR::ReadPubMed('30986803', database = 'PubMed')
 
@@ -794,7 +1030,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30927194, include=FALSE}
+```{r zzz 30927194, include=FALSE}
 
 PMID_30927194 <- RefManageR::ReadPubMed('30927194', database = 'PubMed')
 
@@ -837,7 +1073,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 28424987, include=FALSE}
+```{r zzz 28424987, include=FALSE}
 
 PMID_28424987 <- RefManageR::ReadPubMed('28424987', database = 'PubMed')
 
@@ -918,7 +1154,7 @@ Morphology, Diagnostics, IHC
 
 ---
 
-```{r 30946935, include=FALSE}
+```{r zzz 30946935, include=FALSE}
 
 PMID_30946935 <- RefManageR::ReadPubMed('30946935', database = 'PubMed')
 
@@ -961,7 +1197,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30929370, include=FALSE}
+```{r zzz 30929370, include=FALSE}
 
 PMID_30929370 <- RefManageR::ReadPubMed('30929370', database = 'PubMed')
 
@@ -1004,6 +1240,13 @@ Sys.sleep(1)
 
 ---
 
+- **IL‐33 overexpression in gallbladder cancers associated with pancreatobiliary maljunction**
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/his.13863
+
+
+---
+
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -1028,7 +1271,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S1365182X19304988
 
 ---
 
-```{r 30562839, include=FALSE}
+```{r zzz 30562839, include=FALSE}
 
 PMID_30562839 <- RefManageR::ReadPubMed('30562839', database = 'PubMed')
 
@@ -1069,6 +1312,14 @@ Sys.sleep(1)
 
 </details>
 
+
+---
+
+- **Prognostic Impact of Lymph Node Excision in T1 and T2 Gallbladder Cancer: a Population-Based and Propensity Score-Matched SEER Analysis**
+
+https://link.springer.com/article/10.1007/s11605-019-04175-3
+
+
 ---
 
 
@@ -1105,7 +1356,7 @@ https://journals.sagepub.com/doi/abs/10.1177/1066896919837606
 
 ---
 
-```{r 30604042, include=FALSE}
+```{r zzz 30604042, include=FALSE}
 
 PMID_30604042 <- RefManageR::ReadPubMed('30604042', database = 'PubMed')
 
@@ -1148,7 +1399,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30942099, include=FALSE}
+```{r zzz 30942099, include=FALSE}
 
 PMID_30942099 <- RefManageR::ReadPubMed('30942099', database = 'PubMed')
 
@@ -1186,6 +1437,81 @@ Sys.sleep(1)
 `r dimensionBadge_30942099`
 
 `r altmetricBadge_30942099`
+
+</details>
+
+---
+
+```{r 30837681, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30837681 <- RefManageR::ReadPubMed('30837681', database = 'PubMed')
+
+citation_30837681 <- paste0(PMID_30837681$journal,' ', PMID_30837681$year, ' ', PMID_30837681$month,';', PMID_30837681$volume,'(', PMID_30837681$number,'):', PMID_30837681$pages)
+
+PubMed_30837681 <- paste0(PubMedString, PMID_30837681$eprint)
+
+doi_30837681 <- paste0(doiString, PMID_30837681$doi)
+
+dimensionBadge_30837681 <- paste0(dimensionString1, PMID_30837681$doi,dimensionString2)
+
+altmetricBadge_30837681 <- paste0(altmetricString1, PMID_30837681$doi, altmetricString2 )
+
+addthis_inline_30837681 <- paste0(addthis_String1, PMID_30837681$title , " PMID: 30837681 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30837681,
+PMID = PMID_30837681$eprint,
+Title = PMID_30837681$title,
+# Author = PMID_30837681$author,
+Abstract = PMID_30837681$abstract,
+Journal = PMID_30837681$journal,
+Year = PMID_30837681$year,
+Month = PMID_30837681$month,
+Volume = PMID_30837681$volume,
+Number = PMID_30837681$number,
+Pages = PMID_30837681$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30837681$eprint),
+DoiNumber = PMID_30837681$doi,
+DoiLink = paste0('https://doi.org/', PMID_30837681$doi),
+Language = PMID_30837681$language,
+ISSN = PMID_30837681$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30837681$title`**
+</summary> 
+
+*`r citation_30837681`*
+
+`r PubMed_30837681`
+
+`r addthis_inline_30837681`
+
+`r PMID_30837681$abstract`
+
+<!-- `r doi_30837681` -->
+
+`r dimensionBadge_30837681`
+
+`r altmetricBadge_30837681`
 
 </details>
 
@@ -1241,7 +1567,7 @@ PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
 
 ---
 
-```{r 30946241, include=FALSE}
+```{r zzz 30946241, include=FALSE}
 
 PMID_30946241 <- RefManageR::ReadPubMed('30946241', database = 'PubMed')
 
@@ -1284,7 +1610,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30946234, include=FALSE}
+```{r zzz 30946234, include=FALSE}
 
 PMID_30946234 <- RefManageR::ReadPubMed('30946234', database = 'PubMed')
 
@@ -1327,7 +1653,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30975157, include=FALSE}
+```{r zzz 30975157, include=FALSE}
 
 PMID_30975157 <- RefManageR::ReadPubMed('30975157', database = 'PubMed')
 
@@ -1588,7 +1914,7 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
-```{r 30805710, include=FALSE}
+```{r zzz 30805710, include=FALSE}
 
 PMID_30805710 <- RefManageR::ReadPubMed('30805710', database = 'PubMed')
 
@@ -1631,7 +1957,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30953194, include=FALSE}
+```{r zzz 30953194, include=FALSE}
 
 PMID_30953194 <- RefManageR::ReadPubMed('30953194', database = 'PubMed')
 
@@ -1676,7 +2002,7 @@ Sys.sleep(1)
 
 
 
-```{r 30946232, include=FALSE}
+```{r zzz 30946232, include=FALSE}
 
 PMID_30946232 <- RefManageR::ReadPubMed('30946232', database = 'PubMed')
 
@@ -1719,7 +2045,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30929285, include=FALSE}
+```{r zzz 30929285, include=FALSE}
 
 PMID_30929285 <- RefManageR::ReadPubMed('30929285', database = 'PubMed')
 
@@ -1762,7 +2088,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30970350, include=FALSE}
+```{r zzz 30970350, include=FALSE}
 
 PMID_30970350 <- RefManageR::ReadPubMed('30970350', database = 'PubMed')
 
@@ -1875,7 +2201,7 @@ https://gut.bmj.com/content/early/2019/04/10/gutjnl-2018-317817.abstract
 
 ---
 
-```{r 30913089, include=FALSE}
+```{r zzz 30913089, include=FALSE}
 
 PMID_30913089 <- RefManageR::ReadPubMed('30913089', database = 'PubMed')
 
@@ -1947,7 +2273,7 @@ https://www.semanticscholar.org/paper/The-Genetic-Basis-of-Transcriptional-and-S
 
 ---
 
-```{r 30955884, include=FALSE}
+```{r zzz 30955884, include=FALSE}
 
 PMID_30955884 <- RefManageR::ReadPubMed('30955884', database = 'PubMed')
 
@@ -1990,7 +2316,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30918400, include=FALSE}
+```{r zzz 30918400, include=FALSE}
 
 PMID_30918400 <- RefManageR::ReadPubMed('30918400', database = 'PubMed')
 
@@ -2045,7 +2371,7 @@ https://www.nature.com/articles/s41586-019-1062-1
 
 ---
 
-```{r 30954952, include=FALSE}
+```{r zzz 30954952, include=FALSE}
 
 PMID_30954952 <- RefManageR::ReadPubMed('30954952', database = 'PubMed')
 
@@ -2089,7 +2415,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30944650, include=FALSE}
+```{r zzz 30944650, include=FALSE}
 
 PMID_30944650 <- RefManageR::ReadPubMed('30944650', database = 'PubMed')
 
@@ -2352,7 +2678,7 @@ https://www.sciencedirect.com/science/article/pii/S0304383519301958
 
 ---
 
-```{r 30940657, include=FALSE}
+```{r zzz 30940657, include=FALSE}
 
 PMID_30940657 <- RefManageR::ReadPubMed('30940657', database = 'PubMed')
 
@@ -2395,7 +2721,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30171263, include=FALSE}
+```{r zzz 30171263, include=FALSE}
 
 PMID_30171263 <- RefManageR::ReadPubMed('30171263', database = 'PubMed')
 
@@ -2553,7 +2879,7 @@ Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICP
 
 ---
 
-```{r 30971436, include=FALSE}
+```{r zzz 30971436, include=FALSE}
 
 PMID_30971436 <- RefManageR::ReadPubMed('30971436', database = 'PubMed')
 
@@ -2630,7 +2956,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30976103, include=FALSE}
+```{r zzz 30976103, include=FALSE}
 
 PMID_30976103 <- RefManageR::ReadPubMed('30976103', database = 'PubMed')
 
@@ -2721,9 +3047,9 @@ Abstract = PMID_31011904$abstract,
 Journal = PMID_31011904$journal,
 Year = PMID_31011904$year,
 Month = PMID_31011904$month,
-Volume = PMID_31011904$volume,
-Number = PMID_31011904$number,
-Pages = PMID_31011904$pages,
+# Volume = PMID_31011904$volume,
+# Number = PMID_31011904$number,
+# Pages = PMID_31011904$pages,
 PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31011904$eprint),
 DoiNumber = PMID_31011904$doi,
 DoiLink = paste0('https://doi.org/', PMID_31011904$doi),
@@ -2824,7 +3150,7 @@ https://www.semanticscholar.org/paper/Sarcomatoid-carcinoma-of-the-pancreas%3A-A
 
 ---
 
-```{r 28731197, include=FALSE}
+```{r zzz 28731197, include=FALSE}
 
 PMID_28731197 <- RefManageR::ReadPubMed('28731197', database = 'PubMed')
 
@@ -2882,7 +3208,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30482522, include=FALSE}
+```{r zzz 30482522, include=FALSE}
 
 PMID_30482522 <- RefManageR::ReadPubMed('30482522', database = 'PubMed')
 
@@ -2936,11 +3262,11 @@ Sys.sleep(1)
 ### Molecular & Experimental Studies
 
 
-30932257
+
 
 ---
 
-```{r 30932257, include=FALSE}
+```{r zzz 30932257, include=FALSE}
 
 PMID_30932257 <- RefManageR::ReadPubMed('30932257', database = 'PubMed')
 
@@ -3006,7 +3332,7 @@ Techniques, Research Methods, Liquid Biopsy
 
 ---
 
-```{r 30971436 2, include=FALSE}
+```{r zzz 30971436 2, include=FALSE}
 
 PMID_30971436 <- RefManageR::ReadPubMed('30971436', database = 'PubMed')
 
@@ -3108,7 +3434,7 @@ https://link.springer.com/article/10.1007/s11605-019-04203-2
 
 ---
 
-```{r 30926350, include=FALSE}
+```{r zzz 30926350, include=FALSE}
 
 PMID_30926350 <- RefManageR::ReadPubMed('30926350', database = 'PubMed')
 
@@ -3178,7 +3504,7 @@ https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-019
 
 ---
 
-```{r 30950860, include=FALSE}
+```{r zzz 30950860, include=FALSE}
 
 PMID_30950860 <- RefManageR::ReadPubMed('30950860', database = 'PubMed')
 
@@ -3321,7 +3647,7 @@ https://www.semanticscholar.org/paper/Gastroenteropancreatic-neuroendocrine-tumo
 
 ---
 
-```{r 30954230, include=FALSE}
+```{r zzz 30954230, include=FALSE}
 
 PMID_30954230 <- RefManageR::ReadPubMed('30954230', database = 'PubMed')
 
@@ -3364,7 +3690,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30961556, include=FALSE}
+```{r zzz 30961556, include=FALSE}
 
 PMID_30961556 <- RefManageR::ReadPubMed('30961556', database = 'PubMed')
 
@@ -3442,153 +3768,38 @@ Sys.sleep(1)
 \pagebreak
 
 
-## Journals Reviewed
-
----
-
-Advances in Anatomic Pathology  
-American Journal of Clinical Pathology  
-The American Journal of Gastroenterology  
-The American Journal of Pathology  
-American Journal of Surgical Pathology  
-Annals of Diagnostic Pathology  
-Annals of Surgery  
-Annals of Surgical Oncology  
-Annual Review of Pathology-Mechanisms of Disease  
-APMIS  
-Applied Immunohistochemistry & Molecular Morphology  
-Archives of Pathology & Laboratory Medicine  
-Cancer  
-Cancer Cell  
-Cancer Cytopathology  
-Cell  
-Clinical Cancer Research  
-Cytojournal  
-Cytopathology  
-Diagnostic Cytopathology  
-Diagnostic Pathology  
-Endocrine Pathology  
-Experimental and Molecular Pathology  
-Expert Review of Molecular Diagnostics  
-Gastroenterology  
-Gut  
-Histology and Histopathology  
-Histopathology  
-Human Pathology  
-International Journal of Surgical Pathology  
-International Journal of Clinical and Experimental Pathology  
-Journal of Clinical Pathology  
-Journal of Molecular Diagnostics  
-Journal of Pathology  
-Laboratory investigation  
-Lancet  
-Medical Molecular Morphology  
-Modern Pathology  
-Nature  
-Nature Reviews Gastroenterology & Hepatology  
-NEJM  
-Pancreas  
-Pancreatology  
-Pathobiology  
-Pathologie Biologie  
-Pathology  
-Pathology & Oncology Research  
-Pathology International  
-Pathology Research and Practice  
-PNAS  
-Seminars in Diagnostic Pathology  
-Seminars in Immunopathology  
-Surgical pathology clinics  
-Virchows Archiv  
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-## Feedback
-
----
-
-Please send your feedbacks using the form below:
-
-[Click here for the Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
-
-
----
-
-<script id="dsq-count-scr" src="//pbpath-org.disqus.com/count.js" async></script>
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://pbpath-org.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
-
-
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-## Archive
-
----
-
-**The PBPath Journal Watch Archive**
-
-- [Current Issue](http://pbpath.org/journal-watch/)  
-
-- [Older Issues](http://pbpath.org/journal-watch-archive/)  
-
-- [Upcoming Issue, Unofficial version](http://pbpath.org/journal-watch-upcoming-issue/)  
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
----
-
-
-
-## Not in PubMed yet / Other Journals {.tabset}
-
-No abstract yet, not in PubMed yet
-
 ---
 
 ### Pancreas 
 
 ---
+
+- **The Unusual Suspects of the Pancreas-Understanding Pancreatic Acinar Cell Carcinomas and Adenomas.**
+
+https://www.semanticscholar.org/paper/The-Unusual-Suspects-of-the-Pancreas-Understanding-Luu-Fahlbusch/5dda9d6fc937a0166c02d814a83f1b261626506e
+
+
+---
+
+
+- **Hepatobiliary and pancreatic manifestations in inflammatory bowel diseases: a referral center study**
+
+
+https://www.semanticscholar.org/paper/Hepatobiliary-and-pancreatic-manifestations-in-a-Fousekis-Katsanos/142391e6f4417f82a5a99b9f338202ffedb31d2c
+
+
+---
+
+
+- **Mixed ductal-acinar cell carcinoma of the pancreas: A case report.**
+
+
+https://www.semanticscholar.org/paper/Mixed-ductal-acinar-cell-carcinoma-of-the-pancreas%3A-Shigaki-Hisaka/b18eb11fd6df019705e9c75c7acf1020ebb1379b
+
+
+---
+
+
 
 - **The Italian Rare Pancreatic Exocrine Cancer Initiative**
 
@@ -3596,7 +3807,15 @@ https://journals.sagepub.com/doi/abs/10.1177/0300891619839461
 
 ---
 
-```{r 30975481, include=FALSE}
+- **Pancreatic pathology: where are we in 2019?**
+
+https://www.surgeryjournal.co.uk/article/S0263-9319(19)30070-5/abstract
+
+
+
+
+
+```{r zzz 30975481, include=FALSE}
 
 PMID_30975481 <- RefManageR::ReadPubMed('30975481', database = 'PubMed')
 
@@ -3639,7 +3858,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30973467, include=FALSE}
+```{r zzz 30973467, include=FALSE}
 
 PMID_30973467 <- RefManageR::ReadPubMed('30973467', database = 'PubMed')
 
@@ -3682,7 +3901,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30973470, include=FALSE}
+```{r zzz 30973470, include=FALSE}
 
 PMID_30973470 <- RefManageR::ReadPubMed('30973470', database = 'PubMed')
 
@@ -3725,7 +3944,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30946090, include=FALSE}
+```{r zzz 30946090, include=FALSE}
 
 PMID_30946090 <- RefManageR::ReadPubMed('30946090', database = 'PubMed')
 
@@ -3768,7 +3987,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 28382422, include=FALSE}
+```{r zzz 28382422, include=FALSE}
 
 PMID_28382422 <- RefManageR::ReadPubMed('28382422', database = 'PubMed')
 
@@ -3811,7 +4030,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30940522, include=FALSE}
+```{r zzz 30940522, include=FALSE}
 
 PMID_30940522 <- RefManageR::ReadPubMed('30940522', database = 'PubMed')
 
@@ -3854,7 +4073,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 29223362, include=FALSE}
+```{r zzz 29223362, include=FALSE}
 
 PMID_29223362 <- RefManageR::ReadPubMed('29223362', database = 'PubMed')
 
@@ -3912,7 +4131,7 @@ http://www.cancercellresearch.org/PDF/20192108.pdf
 
 ---
 
-```{r 29496399, include=FALSE}
+```{r zzz 29496399, include=FALSE}
 
 PMID_29496399 <- RefManageR::ReadPubMed('29496399', database = 'PubMed')
 
@@ -3955,7 +4174,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30973471, include=FALSE}
+```{r zzz 30973471, include=FALSE}
 
 PMID_30973471 <- RefManageR::ReadPubMed('30973471', database = 'PubMed')
 
@@ -4080,7 +4299,7 @@ https://ascopubs.org/doi/pdfdirect/10.1200/PO.18.00323
 
 ---
 
-```{r 30695858, include=FALSE}
+```{r zzz 30695858, include=FALSE}
 
 PMID_30695858 <- RefManageR::ReadPubMed('30695858', database = 'PubMed')
 
@@ -4139,17 +4358,6 @@ Sys.sleep(1)
 
 https://www.sciencedirect.com/science/article/pii/S0003426619300629
 
-
-
-
----
-
-
-
-
-## Not in PubMed yet / Other Journals {.tabset}
-
-No abstract yet, not in PubMed yet
 
 ---
 
@@ -4346,7 +4554,7 @@ https://academic.oup.com/carcin/advance-article-abstract/doi/10.1093/carcin/bgz0
 
 ---
 
-```{r 30348057, include=FALSE}
+```{r zzz 30348057, include=FALSE}
 
 PMID_30348057 <- RefManageR::ReadPubMed('30348057', database = 'PubMed')
 
@@ -4392,7 +4600,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30742911, include=FALSE}
+```{r zzz 30742911, include=FALSE}
 
 PMID_30742911 <- RefManageR::ReadPubMed('30742911', database = 'PubMed')
 
@@ -4435,7 +4643,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30391013, include=FALSE}
+```{r zzz 30391013, include=FALSE}
 
 PMID_30391013 <- RefManageR::ReadPubMed('30391013', database = 'PubMed')
 
@@ -4485,7 +4693,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30747828, include=FALSE}
+```{r zzz 30747828, include=FALSE}
 
 PMID_30747828 <- RefManageR::ReadPubMed('30747828', database = 'PubMed')
 
@@ -4534,7 +4742,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30768986, include=FALSE}
+```{r zzz 30768986, include=FALSE}
 
 PMID_30768986 <- RefManageR::ReadPubMed('30768986', database = 'PubMed')
 
@@ -4582,7 +4790,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30428588, include=FALSE}
+```{r zzz 30428588, include=FALSE}
 
 PMID_30428588 <- RefManageR::ReadPubMed('30428588', database = 'PubMed')
 
@@ -4630,7 +4838,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30747829, include=FALSE}
+```{r zzz 30747829, include=FALSE}
 
 PMID_30747829 <- RefManageR::ReadPubMed('30747829', database = 'PubMed')
 
@@ -4674,7 +4882,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30768577, include=FALSE}
+```{r zzz 30768577, include=FALSE}
 
 PMID_30768577 <- RefManageR::ReadPubMed('30768577', database = 'PubMed')
 
@@ -4722,7 +4930,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30737032, include=FALSE}
+```{r zzz 30737032, include=FALSE}
 
 PMID_30737032 <- RefManageR::ReadPubMed('30737032', database = 'PubMed')
 
@@ -4771,7 +4979,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30747226, include=FALSE}
+```{r zzz 30747226, include=FALSE}
 
 PMID_30747226 <- RefManageR::ReadPubMed('30747226', database = 'PubMed')
 
@@ -4815,7 +5023,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30405053, include=FALSE}
+```{r zzz 30405053, include=FALSE}
 
 PMID_30405053 <- RefManageR::ReadPubMed('30405053', database = 'PubMed')
 
@@ -4863,7 +5071,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30755305, include=FALSE}
+```{r zzz 30755305, include=FALSE}
 
 PMID_30755305 <- RefManageR::ReadPubMed('30755305', database = 'PubMed')
 
@@ -4911,7 +5119,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30768573, include=FALSE}
+```{r zzz 30768573, include=FALSE}
 
 PMID_30768573 <- RefManageR::ReadPubMed('30768573', database = 'PubMed')
 
@@ -4959,7 +5167,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30747823, include=FALSE}
+```{r zzz 30747823, include=FALSE}
 
 PMID_30747823 <- RefManageR::ReadPubMed('30747823', database = 'PubMed')
 
@@ -5009,7 +5217,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30756314, include=FALSE}
+```{r zzz 30756314, include=FALSE}
 
 PMID_30756314 <- RefManageR::ReadPubMed('30756314', database = 'PubMed')
 
@@ -5058,7 +5266,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30747827, include=FALSE}
+```{r zzz 30747827, include=FALSE}
 
 PMID_30747827 <- RefManageR::ReadPubMed('30747827', database = 'PubMed')
 
@@ -5107,7 +5315,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30768574, include=FALSE}
+```{r zzz 30768574, include=FALSE}
 
 PMID_30768574 <- RefManageR::ReadPubMed('30768574', database = 'PubMed')
 
@@ -5156,7 +5364,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 29860986, include=FALSE}
+```{r zzz 29860986, include=FALSE}
 
 PMID_29860986 <- RefManageR::ReadPubMed('29860986', database = 'PubMed')
 
@@ -5204,7 +5412,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30243879, include=FALSE}
+```{r zzz 30243879, include=FALSE}
 
 PMID_30243879 <- RefManageR::ReadPubMed('30243879', database = 'PubMed')
 
@@ -5252,7 +5460,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30767148, include=FALSE}
+```{r zzz 30767148, include=FALSE}
 
 PMID_30767148 <- RefManageR::ReadPubMed('30767148', database = 'PubMed')
 
@@ -5301,7 +5509,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 29483829, include=FALSE}
+```{r zzz 29483829, include=FALSE}
 
 PMID_29483829 <- RefManageR::ReadPubMed('29483829', database = 'PubMed')
 
@@ -5344,7 +5552,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30768785, include=FALSE}
+```{r zzz 30768785, include=FALSE}
 
 PMID_30768785 <- RefManageR::ReadPubMed('30768785', database = 'PubMed')
 
@@ -5387,13 +5595,7 @@ Sys.sleep(1)
 
 ---
 
-
-
-30747824
-
----
-
-```{r 30747824, include=FALSE}
+```{r zzz 30747824, include=FALSE}
 
 PMID_30747824 <- RefManageR::ReadPubMed('30747824', database = 'PubMed')
 
@@ -5436,7 +5638,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30765611, include=FALSE}
+```{r zzz 30765611, include=FALSE}
 
 PMID_30765611 <- RefManageR::ReadPubMed('30765611', database = 'PubMed')
 
@@ -5485,7 +5687,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30807303, include=FALSE}
+```{r zzz 30807303, include=FALSE}
 
 PMID_30807303 <- RefManageR::ReadPubMed('30807303', database = 'PubMed')
 
@@ -5534,7 +5736,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30805811, include=FALSE}
+```{r zzz 30805811, include=FALSE}
 
 PMID_30805811 <- RefManageR::ReadPubMed('30805811', database = 'PubMed')
 
@@ -5583,7 +5785,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30803874, include=FALSE}
+```{r zzz 30803874, include=FALSE}
 
 PMID_30803874 <- RefManageR::ReadPubMed('30803874', database = 'PubMed')
 
@@ -5626,7 +5828,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 29993037, include=FALSE}
+```{r zzz 29993037, include=FALSE}
 
 PMID_29993037 <- RefManageR::ReadPubMed('29993037', database = 'PubMed')
 
@@ -5677,7 +5879,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30814496, include=FALSE}
+```{r zzz 30814496, include=FALSE}
 
 PMID_30814496 <- RefManageR::ReadPubMed('30814496', database = 'PubMed')
 
@@ -5732,7 +5934,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30820232, include=FALSE}
+```{r zzz 30820232, include=FALSE}
 
 PMID_30820232 <- RefManageR::ReadPubMed('30820232', database = 'PubMed')
 
@@ -5777,7 +5979,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30820787, include=FALSE}
+```{r zzz 30820787, include=FALSE}
 
 PMID_30820787 <- RefManageR::ReadPubMed('30820787', database = 'PubMed')
 
@@ -5820,7 +6022,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30820789, include=FALSE}
+```{r zzz 30820789, include=FALSE}
 
 PMID_30820789 <- RefManageR::ReadPubMed('30820789', database = 'PubMed')
 
@@ -5863,7 +6065,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30799277, include=FALSE}
+```{r zzz 30799277, include=FALSE}
 
 PMID_30799277 <- RefManageR::ReadPubMed('30799277', database = 'PubMed')
 
@@ -5906,7 +6108,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30814120, include=FALSE}
+```{r zzz 30814120, include=FALSE}
 
 PMID_30814120 <- RefManageR::ReadPubMed('30814120', database = 'PubMed')
 
@@ -5949,7 +6151,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30799505, include=FALSE}
+```{r zzz 30799505, include=FALSE}
 
 PMID_30799505 <- RefManageR::ReadPubMed('30799505', database = 'PubMed')
 
@@ -5992,7 +6194,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 29966505, include=FALSE}
+```{r zzz 29966505, include=FALSE}
 
 PMID_29966505 <- RefManageR::ReadPubMed('29966505', database = 'PubMed')
 
@@ -6217,7 +6419,7 @@ https://www.sciencedirect.com/science/article/pii/S1072751519301498
 
 ---
 
-```{r 30792046, include=FALSE}
+```{r zzz 30792046, include=FALSE}
 
 PMID_30792046 <- RefManageR::ReadPubMed('30792046', database = 'PubMed')
 
@@ -6261,7 +6463,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30668886, include=FALSE}
+```{r zzz 30668886, include=FALSE}
 
 PMID_30668886 <- RefManageR::ReadPubMed('30668886', database = 'PubMed')
 
@@ -6309,7 +6511,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30686769, include=FALSE}
+```{r zzz 30686769, include=FALSE}
 
 PMID_30686769 <- RefManageR::ReadPubMed('30686769', database = 'PubMed')
 
@@ -6352,7 +6554,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30130664, include=FALSE}
+```{r zzz 30130664, include=FALSE}
 
 PMID_30130664 <- RefManageR::ReadPubMed('30130664', database = 'PubMed')
 
@@ -6984,7 +7186,7 @@ https://www.sciencedirect.com/science/article/pii/S2210261219300331
 
 ---
 
-```{r 30702628, include=FALSE}
+```{r zzz 30702628, include=FALSE}
 
 PMID_30702628 <- RefManageR::ReadPubMed('30702628', database = 'PubMed')
 
@@ -7039,7 +7241,7 @@ https://onlinelibrary.wiley.com/doi/abs/10.1002/prca.201970013
 
 ---
 
-```{r 30716320, include=FALSE}
+```{r zzz 30716320, include=FALSE}
 
 PMID_30716320 <- RefManageR::ReadPubMed('30716320', database = 'PubMed')
 
@@ -7145,7 +7347,7 @@ https://journals.lww.com/ajsp/Abstract/2019/03000/Cholangiolocellular_Carcinoma_
 
 ---
 
-```{r 30693451, include=FALSE}
+```{r zzz 30693451, include=FALSE}
 
 PMID_30693451 <- RefManageR::ReadPubMed('30693451', database = 'PubMed')
 
@@ -7283,7 +7485,7 @@ https://www.researchgate.net/publication/330804968_Differences_in_overall_surviv
 
 ---
 
-```{r 30180751, include=FALSE}
+```{r zzz 30180751, include=FALSE}
 
 PMID_30180751 <- RefManageR::ReadPubMed('30180751', database = 'PubMed')
 
@@ -7470,7 +7672,7 @@ https://link.springer.com/article/10.1245/s10434-019-07241-x
 
 ---
 
-```{r 30694586, include=FALSE}
+```{r zzz 30694586, include=FALSE}
 
 PMID_30694586 <- RefManageR::ReadPubMed('30694586', database = 'PubMed')
 
@@ -7513,7 +7715,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30693420, include=FALSE}
+```{r zzz 30693420, include=FALSE}
 
 PMID_30693420 <- RefManageR::ReadPubMed('30693420', database = 'PubMed')
 
@@ -7554,48 +7756,6 @@ Sys.sleep(1)
 
 </details>
 
----
-
-```{r 30695858, include=FALSE}
-
-PMID_30695858 <- RefManageR::ReadPubMed('30695858', database = 'PubMed')
-
-citation_30695858 <- paste0(PMID_30695858$journal,' ', PMID_30695858$year, ' ', PMID_30695858$month,';', PMID_30695858$volume,'(', PMID_30695858$number,'):', PMID_30695858$pages)
-
-PubMed_30695858 <- paste0(PubMedString, PMID_30695858$eprint)
-
-doi_30695858 <- paste0(doiString, PMID_30695858$doi)
-
-dimensionBadge_30695858 <- paste0(dimensionString1, PMID_30695858$doi,dimensionString2)
-
-altmetricBadge_30695858 <- paste0(altmetricString1, PMID_30695858$doi, altmetricString2 )
-
-addthis_inline_30695858 <- paste0(addthis_String1, PMID_30695858$title , " PMID: 30695858 " , addthis_String2)
-
-Sys.sleep(1)
-
-
-```
-
-<details open> <summary>
-- **`r PMID_30695858$title`**
-</summary> 
-
-*`r citation_30695858`*
-
-`r PubMed_30695858`
-
-`r addthis_inline_30695858`
-
-`r PMID_30695858$abstract`
-
-<!-- `r doi_30695858` -->
-
-`r dimensionBadge_30695858`
-
-`r altmetricBadge_30695858`
-
-</details>
 
 ---
 
@@ -7651,7 +7811,7 @@ https://link.springer.com/article/10.1007/s00262-018-02293-6
 
 ---
 
-```{r 30126828, include=FALSE}
+```{r zzz 30126828, include=FALSE}
 
 PMID_30126828 <- RefManageR::ReadPubMed('30126828', database = 'PubMed')
 
@@ -7694,7 +7854,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30813203, include=FALSE}
+```{r zzz 30813203, include=FALSE}
 
 PMID_30813203 <- RefManageR::ReadPubMed('30813203', database = 'PubMed')
 
@@ -7739,7 +7899,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30846039, include=FALSE}
+```{r zzz 30846039, include=FALSE}
 
 PMID_30846039 <- RefManageR::ReadPubMed('30846039', database = 'PubMed')
 
@@ -7785,7 +7945,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30849209, include=FALSE}
+```{r zzz 30849209, include=FALSE}
 
 PMID_30849209 <- RefManageR::ReadPubMed('30849209', database = 'PubMed')
 
@@ -8332,9 +8492,6 @@ https://link.springer.com/article/10.1245/s10434-019-07252-8
 
 https://link.springer.com/article/10.1007/s00535-019-01570-0
 
----
-
-## Others {.tabset}
 
 ---
 
@@ -8347,7 +8504,7 @@ https://link.springer.com/article/10.1007/s00535-019-01570-0
 
 ---
 
-```{r 30719801, include=FALSE}
+```{r zzz 30719801, include=FALSE}
 
 PMID_30719801 <- RefManageR::ReadPubMed('30719801', database = 'PubMed')
 
@@ -8405,7 +8562,7 @@ https://bmjopengastro.bmj.com/content/6/1/e000274
 
 ---
 
-```{r 30488851, include=FALSE}
+```{r zzz 30488851, include=FALSE}
 
 PMID_30488851 <- RefManageR::ReadPubMed('30488851', database = 'PubMed')
 
@@ -8490,7 +8647,7 @@ http://www.jpathinformatics.org/article.asp?issn=2153-3539;year=2019;volume=10;i
 
 ---
 
-```{r 30718678, include=FALSE}
+```{r zzz 30718678, include=FALSE}
 
 PMID_30718678 <- RefManageR::ReadPubMed('30718678', database = 'PubMed')
 
@@ -8534,7 +8691,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30558665, include=FALSE}
+```{r zzz 30558665, include=FALSE}
 
 PMID_30558665 <- RefManageR::ReadPubMed('30558665', database = 'PubMed')
 
@@ -8597,7 +8754,7 @@ Techniques, Research Methods, Liquid Biopsy
 
 ---
 
-```{r 30819577, include=FALSE}
+```{r zzz 30819577, include=FALSE}
 
 PMID_30819577 <- RefManageR::ReadPubMed('30819577', database = 'PubMed')
 
@@ -8670,7 +8827,7 @@ https://www.nature.com/articles/d41586-019-00710-z
 
 ---
 
-```{r 30838636, include=FALSE}
+```{r zzz 30838636, include=FALSE}
 
 PMID_30838636 <- RefManageR::ReadPubMed('30838636', database = 'PubMed')
 
@@ -8775,7 +8932,7 @@ Sys.sleep(1)
 
 ---
 
-```{r 30721664, include=FALSE}
+```{r zzz 30721664, include=FALSE}
 
 PMID_30721664 <- RefManageR::ReadPubMed('30721664', database = 'PubMed')
 
@@ -8843,7 +9000,7 @@ https://ascopubs.org/doi/abs/10.1200/JCO.18.01512
 
 ---
 
-```{r 30726772, include=FALSE}
+```{r zzz 30726772, include=FALSE}
 
 PMID_30726772 <- RefManageR::ReadPubMed('30726772', database = 'PubMed')
 
@@ -8899,7 +9056,8 @@ Sys.sleep(1)
 
 ---
 
-```{r 30561818, include=FALSE}
+
+```{r zzz 30561818, include=FALSE}
 
 PMID_30561818 <- RefManageR::ReadPubMed('30561818', database = 'PubMed')
 
