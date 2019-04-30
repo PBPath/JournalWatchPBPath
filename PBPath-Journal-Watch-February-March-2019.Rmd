@@ -1,11 +1,6 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook: 
-    code_folding: none
-    fig_caption: yes
-    highlight: null
-    theme: paper
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
@@ -15,6 +10,11 @@ output:
     df_print: kable
     highlight: null
     keep_md: yes
+  html_notebook: 
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
   word_document:
     toc: yes
 date: "Last Update on `r format(Sys.Date())`"
@@ -544,22 +544,6 @@ saveRDS(articles, 'articles.rds')
 \pagebreak
 
 
-#### Preneoplastic and Preinvasive Lesions 
-
-Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
-
-```{r S Pancreas Preneoplastic and Preinvasive Lesions IPMN, MCN, ITPN,  eval=FALSE, include=FALSE}
-```
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
 
 #### Microenvironment 
 
@@ -730,57 +714,9 @@ saveRDS(articles, 'articles.rds')
 \pagebreak
 
 
-#### SPN
-
-Solid Pseudopapillary Neoplasm
-
-```{r S SPN Solid Pseudopapillary Neoplasm, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Analogue Tumors & Lesions
-
-
-```{r S Pancreas Analogue Tumors Lesions, eval=FALSE, include=FALSE}
-```
 
 
 
----
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Pancreatitis & Other Diseases
-
-```{r Pancreas Pancreatitis & Other Diseases, eval=FALSE, include=FALSE}
-```
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
 
@@ -886,25 +822,6 @@ saveRDS(articles, 'articles.rds')
 
 \pagebreak
 
-#### Staging
-
-Bile Ducts TNM staging, Margins, Survival
-
-```{r Bile Ducts TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
 ### Gallbladder
@@ -914,27 +831,6 @@ Bile Ducts TNM staging, Margins, Survival
 ```
 
 
----
-
-#### Morphology, Diagnostics, IHC
-
-Morphology, Diagnostics, IHC
-
-
-```{r S Gallbladder Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 #### Staging
 
@@ -1896,23 +1792,6 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
-### Pancreas
-
-```{r C Pancreas, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
 
 
 
@@ -1997,47 +1876,6 @@ saveRDS(articles, 'articles.rds')
 `r altmetricBadge_30730608`
 
 </details>
-
----
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Gallbladder
-
-```{r C Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
-
-
-
-
-
----
-
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Neuroendocrine
-
-```{r C Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
-
----
 
 
 
@@ -2975,89 +2813,8 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
-
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
 
 \pagebreak
-
-
-### Bile Ducts
-
-```{r M Bile Ducts, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
-### Gallbladder
-
-```{r M Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Ampulla of Vater
-
-```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-### Neuroendocrine
-
-
-```{r M Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
----
-
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
