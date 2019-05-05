@@ -617,6 +617,81 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
+```{r 31032093, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_31032093 <- RefManageR::ReadPubMed('31032093', database = 'PubMed')
+
+citation_31032093 <- paste0(PMID_31032093$journal,' ', PMID_31032093$year, ' ', PMID_31032093$month,';', PMID_31032093$volume,'(', PMID_31032093$number,'):', PMID_31032093$pages)
+
+PubMed_31032093 <- paste0(PubMedString, PMID_31032093$eprint)
+
+doi_31032093 <- paste0(doiString, PMID_31032093$doi)
+
+dimensionBadge_31032093 <- paste0(dimensionString1, PMID_31032093$doi,dimensionString2)
+
+altmetricBadge_31032093 <- paste0(altmetricString1, PMID_31032093$doi, altmetricString2 )
+
+addthis_inline_31032093 <- paste0(addthis_String1, PMID_31032093$title , " PMID: 31032093 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31032093,
+PMID = PMID_31032093$eprint,
+Title = PMID_31032093$title,
+# Author = PMID_31032093$author,
+Abstract = PMID_31032093$abstract,
+Journal = PMID_31032093$journal,
+Year = PMID_31032093$year,
+Month = PMID_31032093$month,
+# Volume = PMID_31032093$volume,
+# Number = PMID_31032093$number,
+# Pages = PMID_31032093$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31032093$eprint),
+DoiNumber = PMID_31032093$doi,
+DoiLink = paste0('https://doi.org/', PMID_31032093$doi),
+Language = PMID_31032093$language,
+ISSN = PMID_31032093$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31032093$title`**
+</summary> 
+
+*`r citation_31032093`*
+
+`r PubMed_31032093`
+
+`r addthis_inline_31032093`
+
+`r PMID_31032093$abstract`
+
+<!-- `r doi_31032093` -->
+
+`r dimensionBadge_31032093`
+
+`r altmetricBadge_31032093`
+
+</details>
+
+---
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -1560,6 +1635,15 @@ Morphology, Diagnostics, IHC
 
 ---
 
+
+- **Intracholecystic papillary-tubular neoplasms of the gallbladder – A clinicopathological study of 36 cases**
+
+https://www.sciencedirect.com/science/article/pii/S1092913419300577
+
+
+
+---
+
 ```{r zzz 30946935, include=FALSE}
 
 PMID_30946935 <- RefManageR::ReadPubMed('30946935', database = 'PubMed')
@@ -1668,6 +1752,81 @@ Gallbladder TNM staging, Margins, Survival
 ```{r Gallbladder TNM staging Margins Survival, eval=FALSE, include=FALSE}
 ```
 
+
+---
+
+```{r 30582640, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30582640 <- RefManageR::ReadPubMed('30582640', database = 'PubMed')
+
+citation_30582640 <- paste0(PMID_30582640$journal,' ', PMID_30582640$year, ' ', PMID_30582640$month,';', PMID_30582640$volume,'(', PMID_30582640$number,'):', PMID_30582640$pages)
+
+PubMed_30582640 <- paste0(PubMedString, PMID_30582640$eprint)
+
+doi_30582640 <- paste0(doiString, PMID_30582640$doi)
+
+dimensionBadge_30582640 <- paste0(dimensionString1, PMID_30582640$doi,dimensionString2)
+
+altmetricBadge_30582640 <- paste0(altmetricString1, PMID_30582640$doi, altmetricString2 )
+
+addthis_inline_30582640 <- paste0(addthis_String1, PMID_30582640$title , " PMID: 30582640 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30582640,
+PMID = PMID_30582640$eprint,
+Title = PMID_30582640$title,
+# Author = PMID_30582640$author,
+Abstract = PMID_30582640$abstract,
+Journal = PMID_30582640$journal,
+Year = PMID_30582640$year,
+Month = PMID_30582640$month,
+# Volume = PMID_30582640$volume,
+# Number = PMID_30582640$number,
+# Pages = PMID_30582640$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30582640$eprint),
+DoiNumber = PMID_30582640$doi,
+DoiLink = paste0('https://doi.org/', PMID_30582640$doi),
+Language = PMID_30582640$language,
+ISSN = PMID_30582640$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30582640$title`**
+</summary> 
+
+*`r citation_30582640`*
+
+`r PubMed_30582640`
+
+`r addthis_inline_30582640`
+
+`r PMID_30582640$abstract`
+
+<!-- `r doi_30582640` -->
+
+`r dimensionBadge_30582640`
+
+`r altmetricBadge_30582640`
+
+</details>
 
 ---
 
@@ -2804,6 +2963,81 @@ https://gut.bmj.com/content/early/2019/04/10/gutjnl-2018-317817.abstract
 
 ---
 
+```{r 31041845, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_31041845 <- RefManageR::ReadPubMed('31041845', database = 'PubMed')
+
+citation_31041845 <- paste0(PMID_31041845$journal,' ', PMID_31041845$year, ' ', PMID_31041845$month,';', PMID_31041845$volume,'(', PMID_31041845$number,'):', PMID_31041845$pages)
+
+PubMed_31041845 <- paste0(PubMedString, PMID_31041845$eprint)
+
+doi_31041845 <- paste0(doiString, PMID_31041845$doi)
+
+dimensionBadge_31041845 <- paste0(dimensionString1, PMID_31041845$doi,dimensionString2)
+
+altmetricBadge_31041845 <- paste0(altmetricString1, PMID_31041845$doi, altmetricString2 )
+
+addthis_inline_31041845 <- paste0(addthis_String1, PMID_31041845$title , " PMID: 31041845 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31041845,
+PMID = PMID_31041845$eprint,
+Title = PMID_31041845$title,
+# Author = PMID_31041845$author,
+# Abstract = PMID_31041845$abstract,
+Journal = PMID_31041845$journal,
+Year = PMID_31041845$year,
+Month = PMID_31041845$month,
+# Volume = PMID_31041845$volume,
+# Number = PMID_31041845$number,
+# Pages = PMID_31041845$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31041845$eprint),
+DoiNumber = PMID_31041845$doi,
+DoiLink = paste0('https://doi.org/', PMID_31041845$doi),
+Language = PMID_31041845$language,
+ISSN = PMID_31041845$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31041845$title`**
+</summary> 
+
+*`r citation_31041845`*
+
+`r PubMed_31041845`
+
+`r addthis_inline_31041845`
+
+`r PMID_31041845$abstract`
+
+<!-- `r doi_31041845` -->
+
+`r dimensionBadge_31041845`
+
+`r altmetricBadge_31041845`
+
+</details>
+
+---
+
 
 
 
@@ -3649,7 +3883,6 @@ Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICP
 ```
 
 
-
 ---
 
 ```{r 31025231, include=FALSE}
@@ -3727,6 +3960,80 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
+```{r 30716324, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30716324 <- RefManageR::ReadPubMed('30716324', database = 'PubMed')
+
+citation_30716324 <- paste0(PMID_30716324$journal,' ', PMID_30716324$year, ' ', PMID_30716324$month,';', PMID_30716324$volume,'(', PMID_30716324$number,'):', PMID_30716324$pages)
+
+PubMed_30716324 <- paste0(PubMedString, PMID_30716324$eprint)
+
+doi_30716324 <- paste0(doiString, PMID_30716324$doi)
+
+dimensionBadge_30716324 <- paste0(dimensionString1, PMID_30716324$doi,dimensionString2)
+
+altmetricBadge_30716324 <- paste0(altmetricString1, PMID_30716324$doi, altmetricString2 )
+
+addthis_inline_30716324 <- paste0(addthis_String1, PMID_30716324$title , " PMID: 30716324 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30716324,
+PMID = PMID_30716324$eprint,
+Title = PMID_30716324$title,
+# Author = PMID_30716324$author,
+Abstract = PMID_30716324$abstract,
+Journal = PMID_30716324$journal,
+Year = PMID_30716324$year,
+Month = PMID_30716324$month,
+# Volume = PMID_30716324$volume,
+# Number = PMID_30716324$number,
+# Pages = PMID_30716324$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30716324$eprint),
+DoiNumber = PMID_30716324$doi,
+DoiLink = paste0('https://doi.org/', PMID_30716324$doi),
+Language = PMID_30716324$language,
+ISSN = PMID_30716324$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30716324$title`**
+</summary> 
+
+*`r citation_30716324`*
+
+`r PubMed_30716324`
+
+`r addthis_inline_30716324`
+
+`r PMID_30716324$abstract`
+
+<!-- `r doi_30716324` -->
+
+`r dimensionBadge_30716324`
+
+`r altmetricBadge_30716324`
+
+</details>
+
+---
 
 
 
@@ -3958,6 +4265,81 @@ saveRDS(articles, 'articles.rds')
 
 </details>
 
+
+---
+
+```{r 31018208, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_31018208 <- RefManageR::ReadPubMed('31018208', database = 'PubMed')
+
+citation_31018208 <- paste0(PMID_31018208$journal,' ', PMID_31018208$year, ' ', PMID_31018208$month,';', PMID_31018208$volume,'(', PMID_31018208$number,'):', PMID_31018208$pages)
+
+PubMed_31018208 <- paste0(PubMedString, PMID_31018208$eprint)
+
+doi_31018208 <- paste0(doiString, PMID_31018208$doi)
+
+dimensionBadge_31018208 <- paste0(dimensionString1, PMID_31018208$doi,dimensionString2)
+
+altmetricBadge_31018208 <- paste0(altmetricString1, PMID_31018208$doi, altmetricString2 )
+
+addthis_inline_31018208 <- paste0(addthis_String1, PMID_31018208$title , " PMID: 31018208 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31018208,
+PMID = PMID_31018208$eprint,
+Title = PMID_31018208$title,
+# Author = PMID_31018208$author,
+Abstract = PMID_31018208$abstract,
+Journal = PMID_31018208$journal,
+Year = PMID_31018208$year,
+Month = PMID_31018208$month,
+# Volume = PMID_31018208$volume,
+# Number = PMID_31018208$number,
+# Pages = PMID_31018208$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31018208$eprint),
+DoiNumber = PMID_31018208$doi,
+DoiLink = paste0('https://doi.org/', PMID_31018208$doi),
+Language = PMID_31018208$language,
+ISSN = PMID_31018208$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31018208$title`**
+</summary> 
+
+*`r citation_31018208`*
+
+`r PubMed_31018208`
+
+`r addthis_inline_31018208`
+
+`r PMID_31018208$abstract`
+
+<!-- `r doi_31018208` -->
+
+`r dimensionBadge_31018208`
+
+`r altmetricBadge_31018208`
+
+</details>
 
 
 
