@@ -1,6 +1,6 @@
 # Journal Watch PBPath
 
-This code is intended to gather PubMed articles and form a Journal Watch for Pancreatobiliary Pathology Society [PBPath.org](http://pbpath.org/)
+This repository is intended to gather PubMed articles and form a Journal Watch for Pancreatobiliary Pathology Society [PBPath.org](http://pbpath.org/)
 
 **Wellcome to our journal watch for pancreatobiliary pathology articles, which is released every other month. You may find the previous issues in the [archive](http://pbpath.org/journal-watch-archive/).**
 
