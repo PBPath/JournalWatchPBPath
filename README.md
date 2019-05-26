@@ -1,5 +1,10 @@
 # Journal Watch PBPath
 
+[![HitCount](http://hits.dwyl.io/sbalci/JournalWatchPBPath.svg)](http://hits.dwyl.io/sbalci/JournalWatchPBPath)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)
+
+
+
 This repository is intended to gather PubMed articles and form a Journal Watch for Pancreatobiliary Pathology Society [PBPath.org](http://pbpath.org/)
 
 **Wellcome to our journal watch for pancreatobiliary pathology articles, which is released every other month. You may find the previous issues in the [archive](http://pbpath.org/journal-watch-archive/).**
@@ -12,60 +17,10 @@ This repository is intended to gather PubMed articles and form a Journal Watch f
 *Please feel free to [fill out our feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform). You may also recommend articles to be included.*
 
 
-
 ---
 
 See the *current official version* here: [http://pbpath.org/journal-watch/](http://pbpath.org/journal-watch/)
 
-Previous official versions: [http://pbpath.org/journal-watch-archive/](http://pbpath.org/journal-watch-archive/)
+Previous versions: [http://pbpath.org/journal-watch-archive/](http://pbpath.org/journal-watch-archive/)
 
 ---
-
-# Preperation Lists
-
-## Surgical Pathology
-
-
-### Pancreas
-
-#### Pancreatitis
-
-### Biliary Tract
-
-####      Gallbladder
-
-####      Bile Duct
-
-###   Ampulla of Vater
-
-### PanNET
-
-## Preinvasive Lesions
-
-## Molecular Pathology
-
-## Cytopathology
-
-## Others
-
-### Carcinogenesis
-
-### Surgical Procedures
-
-### Medical Oncology
-
-### Database (SEER, NCDB, TCGA, Oncomine) Studies
-
-###    Case Reports
-
-###    Experimental and Animal Studies
-
-###    Techniques
-
-### Oldies and Goodies, Top Articles    
-
-
-
-# To Do List
-
-- Update Author Search formula
