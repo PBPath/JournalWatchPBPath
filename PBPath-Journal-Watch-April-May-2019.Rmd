@@ -1826,6 +1826,83 @@ https://onlinelibrary.wiley.com/doi/abs/10.1111/his.13863
 
 ---
 
+```{r 31102094, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_31102094 <- RefManageR::ReadPubMed('31102094', database = 'PubMed')
+
+citation_31102094 <- paste0(PMID_31102094$journal,' ', PMID_31102094$year, ' ', PMID_31102094$month,';', PMID_31102094$volume,'(', PMID_31102094$number,'):', PMID_31102094$pages)
+
+PubMed_31102094 <- paste0(PubMedString, PMID_31102094$eprint)
+
+doi_31102094 <- paste0(doiString, PMID_31102094$doi)
+
+dimensionBadge_31102094 <- paste0(dimensionString1, PMID_31102094$doi,dimensionString2)
+
+altmetricBadge_31102094 <- paste0(altmetricString1, PMID_31102094$doi, altmetricString2 )
+
+addthis_inline_31102094 <- paste0(addthis_String1, PMID_31102094$title , " PMID: 31102094 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31102094,
+PMID = PMID_31102094$eprint,
+Title = PMID_31102094$title,
+# Author = PMID_31102094$author,
+Abstract = PMID_31102094$abstract,
+Journal = PMID_31102094$journal,
+Year = PMID_31102094$year,
+Month = PMID_31102094$month,
+# Volume = PMID_31102094$volume,
+# Number = PMID_31102094$number,
+# Pages = PMID_31102094$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31102094$eprint),
+DoiNumber = PMID_31102094$doi,
+DoiLink = paste0('https://doi.org/', PMID_31102094$doi),
+Language = PMID_31102094$language,
+ISSN = PMID_31102094$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31102094$title`**
+</summary> 
+
+*`r citation_31102094`*
+
+`r PubMed_31102094`
+
+`r addthis_inline_31102094`
+
+`r PMID_31102094$abstract`
+
+<!-- `r doi_31102094` -->
+
+`r dimensionBadge_31102094`
+
+`r altmetricBadge_31102094`
+
+</details>
+
+---
+
+
+
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -3308,6 +3385,7 @@ Sys.sleep(1)
 ```{r M Pancreas, eval=FALSE, include=FALSE}
 ```
 
+
 ---
 
 - **The Genetic Basis of Transcriptional and Spatial Heterogeneity of Squamous Features in Pancreatic Ductal Adenocarcinoma**
@@ -3718,6 +3796,81 @@ saveRDS(articles, 'articles.rds')
 `r dimensionBadge_31025257`
 
 `r altmetricBadge_31025257`
+
+</details>
+
+---
+
+```{r 31078621, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_31078621 <- RefManageR::ReadPubMed('31078621', database = 'PubMed')
+
+citation_31078621 <- paste0(PMID_31078621$journal,' ', PMID_31078621$year, ' ', PMID_31078621$month,';', PMID_31078621$volume,'(', PMID_31078621$number,'):', PMID_31078621$pages)
+
+PubMed_31078621 <- paste0(PubMedString, PMID_31078621$eprint)
+
+doi_31078621 <- paste0(doiString, PMID_31078621$doi)
+
+dimensionBadge_31078621 <- paste0(dimensionString1, PMID_31078621$doi,dimensionString2)
+
+altmetricBadge_31078621 <- paste0(altmetricString1, PMID_31078621$doi, altmetricString2 )
+
+addthis_inline_31078621 <- paste0(addthis_String1, PMID_31078621$title , " PMID: 31078621 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31078621,
+PMID = PMID_31078621$eprint,
+Title = PMID_31078621$title,
+# Author = PMID_31078621$author,
+Abstract = PMID_31078621$abstract,
+Journal = PMID_31078621$journal,
+Year = PMID_31078621$year,
+Month = PMID_31078621$month,
+# Volume = PMID_31078621$volume,
+# Number = PMID_31078621$number,
+# Pages = PMID_31078621$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31078621$eprint),
+DoiNumber = PMID_31078621$doi,
+DoiLink = paste0('https://doi.org/', PMID_31078621$doi),
+Language = PMID_31078621$language,
+ISSN = PMID_31078621$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31078621$title`**
+</summary> 
+
+*`r citation_31078621`*
+
+`r PubMed_31078621`
+
+`r addthis_inline_31078621`
+
+`r PMID_31078621$abstract`
+
+<!-- `r doi_31078621` -->
+
+`r dimensionBadge_31078621`
+
+`r altmetricBadge_31078621`
 
 </details>
 

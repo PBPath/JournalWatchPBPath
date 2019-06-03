@@ -1,8 +1,12 @@
 # Journal Watch PBPath
 
+
+
+<a class="twitter-follow-button" data-show-count="false"
+  href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sbalci/JournalWatchPBPath/issues)
 [![HitCount](http://hits.dwyl.io/sbalci/JournalWatchPBPath.svg)](http://hits.dwyl.io/sbalci/JournalWatchPBPath)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)
-
 
 
 This repository is intended to gather PubMed articles and form a Journal Watch for Pancreatobiliary Pathology Society [PBPath.org](http://pbpath.org/)
