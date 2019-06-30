@@ -448,12 +448,83 @@ saveRDS(articles, 'articles.rds')
 
 </details>
 
+
+
 ---
 
-- **Loss of SMAD4 Protein Expression in Gastrointestinal and Extra‐Gastrointestinal Carcinomas**
+```{r 31054158, include=FALSE}
+
+articles <- readRDS('articles.rds')
 
 
-https://onlinelibrary.wiley.com/doi/abs/10.1111/his.13894?af=R
+PMID_31054158 <- RefManageR::ReadPubMed('31054158', database = 'PubMed')
+
+citation_31054158 <- paste0(PMID_31054158$journal,' ', PMID_31054158$year, ' ', PMID_31054158$month,';', PMID_31054158$volume,'(', PMID_31054158$number,'):', PMID_31054158$pages)
+
+PubMed_31054158 <- paste0(PubMedString, PMID_31054158$eprint)
+
+doi_31054158 <- paste0(doiString, PMID_31054158$doi)
+
+dimensionBadge_31054158 <- paste0(dimensionString1, PMID_31054158$doi,dimensionString2)
+
+altmetricBadge_31054158 <- paste0(altmetricString1, PMID_31054158$doi, altmetricString2 )
+
+addthis_inline_31054158 <- paste0(addthis_String1, PMID_31054158$title , " PMID: 31054158 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31054158,
+PMID = PMID_31054158$eprint,
+Title = PMID_31054158$title,
+# Author = PMID_31054158$author,
+Abstract = PMID_31054158$abstract,
+Journal = PMID_31054158$journal,
+Year = PMID_31054158$year,
+Month = PMID_31054158$month,
+# Volume = PMID_31054158$volume,
+# Number = PMID_31054158$number,
+# Pages = PMID_31054158$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31054158$eprint),
+DoiNumber = PMID_31054158$doi,
+DoiLink = paste0('https://doi.org/', PMID_31054158$doi),
+Language = PMID_31054158$language,
+ISSN = PMID_31054158$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31054158$title`**
+</summary> 
+
+*`r citation_31054158`*
+
+`r PubMed_31054158`
+
+`r addthis_inline_31054158`
+
+`r PMID_31054158$abstract`
+
+<!-- `r doi_31054158` -->
+
+`r dimensionBadge_31054158`
+
+`r altmetricBadge_31054158`
+
+</details>
+
 
 
 ---
@@ -792,8 +863,6 @@ Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 
 
 
-
-
 ---
 
 ```{r 30946243, include=FALSE}
@@ -1110,20 +1179,6 @@ saveRDS(articles, 'articles.rds')
 \pagebreak
 
 
-#### Microenvironment 
-
-Tumor Stroma Interactions, Microenvironment, Inflammatory Response
-
-```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
-```
-
-
----
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
 ---
 
 \pagebreak
@@ -1215,49 +1270,13 @@ saveRDS(articles, 'articles.rds')
 ---
 
 
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
 
 \pagebreak
 
-
-#### Analogue Tumors & Lesions
-
-
-```{r S Pancreas Analogue Tumors Lesions, eval=FALSE, include=FALSE}
-```
-
-
 ---
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Pancreatitis & Other Diseases
-
-```{r Pancreas Pancreatitis & Other Diseases, eval=FALSE, include=FALSE}
-```
-
-
----
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
 
 ### Bile Ducts
 
@@ -1600,7 +1619,10 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
-```{r zzz 30927194, include=FALSE}
+```{r 30927194, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
 
 PMID_30927194 <- RefManageR::ReadPubMed('30927194', database = 'PubMed')
 
@@ -1618,6 +1640,35 @@ addthis_inline_30927194 <- paste0(addthis_String1, PMID_30927194$title , " PMID:
 
 Sys.sleep(1)
 
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30927194,
+PMID = PMID_30927194$eprint,
+Title = PMID_30927194$title,
+# Author = PMID_30927194$author,
+Abstract = PMID_30927194$abstract,
+Journal = PMID_30927194$journal,
+Year = PMID_30927194$year,
+Month = PMID_30927194$month,
+# Volume = PMID_30927194$volume,
+# Number = PMID_30927194$number,
+# Pages = PMID_30927194$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30927194$eprint),
+DoiNumber = PMID_30927194$doi,
+DoiLink = paste0('https://doi.org/', PMID_30927194$doi),
+Language = PMID_30927194$language,
+ISSN = PMID_30927194$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
 
 ```
 
@@ -1641,9 +1692,13 @@ Sys.sleep(1)
 
 </details>
 
+
 ---
 
-```{r zzz 28424987, include=FALSE}
+```{r 28424987, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
 
 PMID_28424987 <- RefManageR::ReadPubMed('28424987', database = 'PubMed')
 
@@ -1662,6 +1717,34 @@ addthis_inline_28424987 <- paste0(addthis_String1, PMID_28424987$title , " PMID:
 Sys.sleep(1)
 
 
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_28424987,
+PMID = PMID_28424987$eprint,
+Title = PMID_28424987$title,
+# Author = PMID_28424987$author,
+Abstract = PMID_28424987$abstract,
+Journal = PMID_28424987$journal,
+Year = PMID_28424987$year,
+Month = PMID_28424987$month,
+# Volume = PMID_28424987$volume,
+# Number = PMID_28424987$number,
+# Pages = PMID_28424987$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_28424987$eprint),
+DoiNumber = PMID_28424987$doi,
+DoiLink = paste0('https://doi.org/', PMID_28424987$doi),
+Language = PMID_28424987$language,
+ISSN = PMID_28424987$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
 
 ```
 
