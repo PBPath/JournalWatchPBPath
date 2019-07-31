@@ -662,6 +662,83 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
+```{r 31268976, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_31268976 <- RefManageR::ReadPubMed('31268976', database = 'PubMed')
+
+citation_31268976 <- paste0(PMID_31268976$journal,' ', PMID_31268976$year, ' ', PMID_31268976$month,';', PMID_31268976$volume,'(', PMID_31268976$number,'):', PMID_31268976$pages)
+
+PubMed_31268976 <- paste0(PubMedString, PMID_31268976$eprint)
+
+doi_31268976 <- paste0(doiString, PMID_31268976$doi)
+
+dimensionBadge_31268976 <- paste0(dimensionString1, PMID_31268976$doi,dimensionString2)
+
+altmetricBadge_31268976 <- paste0(altmetricString1, PMID_31268976$doi, altmetricString2 )
+
+addthis_inline_31268976 <- paste0(addthis_String1, PMID_31268976$title , " PMID: 31268976 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31268976,
+PMID = PMID_31268976$eprint,
+Title = PMID_31268976$title,
+# Author = PMID_31268976$author,
+Abstract = PMID_31268976$abstract,
+Journal = PMID_31268976$journal,
+Year = PMID_31268976$year,
+Month = PMID_31268976$month,
+# Volume = PMID_31268976$volume,
+# Number = PMID_31268976$number,
+# Pages = PMID_31268976$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31268976$eprint),
+DoiNumber = PMID_31268976$doi,
+DoiLink = paste0('https://doi.org/', PMID_31268976$doi),
+Language = PMID_31268976$language,
+ISSN = PMID_31268976$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31268976$title`**
+</summary> 
+
+*`r citation_31268976`*
+
+`r PubMed_31268976`
+
+`r addthis_inline_31268976`
+
+`r PMID_31268976$abstract`
+
+<!-- `r doi_31268976` -->
+
+`r dimensionBadge_31268976`
+
+`r altmetricBadge_31268976`
+
+</details>
+
+---
+
+
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -1922,6 +1999,7 @@ saveRDS(articles, 'articles.rds')
 
 
 
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -2032,7 +2110,11 @@ saveRDS(articles, 'articles.rds')
 ---
 
 
+- Significance of Lymph Node Metastasis in Resectable Well-differentiated Pancreatic Neuroendocrine Tumor.
 
+https://www.ncbi.nlm.nih.gov/pubmed/31268980
+
+---
 
 
 
@@ -2216,6 +2298,43 @@ saveRDS(articles, 'articles.rds')
 ---
 
 
+- Cytohistological diagnosis of pancreatic serous cystadenoma: a multimodal approach.
+
+https://www.ncbi.nlm.nih.gov/pubmed/31235542
+
+
+---
+
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
+
+
+
+
+
+### Ampulla Duodenum
+
+```{r C Ampulla Duodenum, eval=FALSE, include=FALSE}
+```
+
+
+
+---
+
+
+
+- Cytologic features of pancreatobiliary neoplasm of duodenum.
+
+https://www.ncbi.nlm.nih.gov/pubmed/31276311
+
+
+
+
+---
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -2296,7 +2415,9 @@ saveRDS(articles, 'articles.rds')
 ```{r M Pancreas, eval=FALSE, include=FALSE}
 ```
 
+---
 
+#### Pancreas
 
 
 ---
@@ -2817,8 +2938,170 @@ saveRDS(articles, 'articles.rds')
 
 ---
 
+```{r 31268978, include=FALSE}
+
+articles <- readRDS('articles.rds')
 
 
+PMID_31268978 <- RefManageR::ReadPubMed('31268978', database = 'PubMed')
+
+citation_31268978 <- paste0(PMID_31268978$journal,' ', PMID_31268978$year, ' ', PMID_31268978$month,';', PMID_31268978$volume,'(', PMID_31268978$number,'):', PMID_31268978$pages)
+
+PubMed_31268978 <- paste0(PubMedString, PMID_31268978$eprint)
+
+doi_31268978 <- paste0(doiString, PMID_31268978$doi)
+
+dimensionBadge_31268978 <- paste0(dimensionString1, PMID_31268978$doi,dimensionString2)
+
+altmetricBadge_31268978 <- paste0(altmetricString1, PMID_31268978$doi, altmetricString2 )
+
+addthis_inline_31268978 <- paste0(addthis_String1, PMID_31268978$title , " PMID: 31268978 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31268978,
+PMID = PMID_31268978$eprint,
+Title = PMID_31268978$title,
+# Author = PMID_31268978$author,
+Abstract = PMID_31268978$abstract,
+Journal = PMID_31268978$journal,
+Year = PMID_31268978$year,
+Month = PMID_31268978$month,
+# Volume = PMID_31268978$volume,
+# Number = PMID_31268978$number,
+# Pages = PMID_31268978$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31268978$eprint),
+DoiNumber = PMID_31268978$doi,
+DoiLink = paste0('https://doi.org/', PMID_31268978$doi),
+Language = PMID_31268978$language,
+ISSN = PMID_31268978$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31268978$title`**
+</summary> 
+
+*`r citation_31268978`*
+
+`r PubMed_31268978`
+
+`r addthis_inline_31268978`
+
+`r PMID_31268978$abstract`
+
+<!-- `r doi_31268978` -->
+
+`r dimensionBadge_31268978`
+
+`r altmetricBadge_31268978`
+
+</details>
+
+---
+
+```{r 30121627, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30121627 <- RefManageR::ReadPubMed('30121627', database = 'PubMed')
+
+citation_30121627 <- paste0(PMID_30121627$journal,' ', PMID_30121627$year, ' ', PMID_30121627$month,';', PMID_30121627$volume,'(', PMID_30121627$number,'):', PMID_30121627$pages)
+
+PubMed_30121627 <- paste0(PubMedString, PMID_30121627$eprint)
+
+doi_30121627 <- paste0(doiString, PMID_30121627$doi)
+
+dimensionBadge_30121627 <- paste0(dimensionString1, PMID_30121627$doi,dimensionString2)
+
+altmetricBadge_30121627 <- paste0(altmetricString1, PMID_30121627$doi, altmetricString2 )
+
+addthis_inline_30121627 <- paste0(addthis_String1, PMID_30121627$title , " PMID: 30121627 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30121627,
+PMID = PMID_30121627$eprint,
+Title = PMID_30121627$title,
+# Author = PMID_30121627$author,
+Abstract = PMID_30121627$abstract,
+Journal = PMID_30121627$journal,
+Year = PMID_30121627$year,
+Month = PMID_30121627$month,
+# Volume = PMID_30121627$volume,
+# Number = PMID_30121627$number,
+# Pages = PMID_30121627$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30121627$eprint),
+DoiNumber = PMID_30121627$doi,
+DoiLink = paste0('https://doi.org/', PMID_30121627$doi),
+Language = PMID_30121627$language,
+ISSN = PMID_30121627$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30121627$title`**
+</summary> 
+
+*`r citation_30121627`*
+
+`r PubMed_30121627`
+
+`r addthis_inline_30121627`
+
+`r PMID_30121627$abstract`
+
+<!-- `r doi_30121627` -->
+
+`r dimensionBadge_30121627`
+
+`r altmetricBadge_30121627`
+
+</details>
+
+---
+
+- Experimental microdissection enables functional harmonisation of pancreatic cancer subtypes.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30658994
+
+---
+
+- Establishment and Analysis of a 3D Co-Culture Spheroid Model of Pancreatic Adenocarcinoma for Application in Drug Discovery.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30912022
+
+
+
+
+---
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -2836,8 +3119,13 @@ Solid Pseudopapillary Neoplasm
 ```
 
 
-
 ---
+
+- Targeted next generation sequencing of pancreatic solid pseudopapillary neoplasms show mutations in Wnt signaling pathway genes.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/30811747
+
 
 
 ---
