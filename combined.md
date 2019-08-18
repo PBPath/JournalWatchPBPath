@@ -1,5 +1,5 @@
 ---
-title: "Pancreatobiliary Pathology Society Journal Watch"
+title: "REcent Articles For Pancreatobiliary Pathology Society Journal Watch"
 output:
   html_notebook: 
     code_folding: none
