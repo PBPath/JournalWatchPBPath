@@ -1,8 +1,6 @@
 ---
 title: "Recent Articles for Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_document:
-    df_print: paged
   html_notebook:
     code_folding: none
     fig_caption: yes
@@ -122,11 +120,7 @@ s.setAttribute('data-timestamp', +new Date());
 \pagebreak
 
 
-## Recent Articles {.tabset}
-
----
-
-### Pancreas
+## Pancreas
 
 
 ```{r pancreasRecent,  child='~/JournalWatchPBPath/_pancreasRecent.Rmd'}
@@ -140,7 +134,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 \pagebreak
 
-### Gallbladder
+## Gallbladder
 
 
 ```{r gallbladderRecent,  child='~/JournalWatchPBPath/_gallbladderRecent.Rmd'}
@@ -172,7 +166,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 \pagebreak
 
-### Ampulla
+## Ampulla
 
 
 
