@@ -1,0 +1,263 @@
+---
+title: "Pancreas Articles"
+description: |
+  Selected Pancreas Articles
+author:
+  - name: Serdar Balcı 
+    url: https://www.serdarbalci.com/
+    affiliation: MD Pathologist
+    affiliation_url: https://sbalci.github.io/
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+`r icon::fa("rss")`
+[Click Here for the RSS Link for Pancreas Articles](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1VajX7313RiQ9hGaazuo_ZMmbahvrQdalqZmx5-LMxqOxOfs1F)
+
+---
+
+
+```{r load libraries, include=FALSE}
+library(feedeR)
+library(dplyr)
+library(kableExtra)
+```
+
+
+
+
+
+```{r feeder pancreas}
+pancreas_rss2 <- feedeR::feed.extract("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1VajX7313RiQ9hGaazuo_ZMmbahvrQdalqZmx5-LMxqOxOfs1F")
+```
+
+
+
+```{r echo=TRUE}
+pancreas_rss2$items %>%
+  dplyr::select(title, link) %>%
+  kableExtra::kable(escape = FALSE) %>%
+  kableExtra::kable_styling(
+    bootstrap_options = c("striped",
+                          "hover",
+                          "condensed",
+                          "responsive"),
+    fixed_thead = TRUE,
+    full_width = TRUE
+  ) %>%
+  kableExtra::scroll_box(height = "300px")
+```
+
+
+```{r}
+pancreas_rss2$items %>%
+  dplyr::select(link) %>%
+  stringr::str_match_all(string = ., pattern = "[0-9]+") %>% 
+  unlist() %>%
+    readr::write_lines(x = ., path = "~/JournalWatchLocalShiny/PMIDList.csv", append = TRUE)
+```
+
+
+
+
+# Get PMID via E-direct
+
+
+
+```{r Search PubMed download xml Last 10 year Endometriosis, eval=FALSE, include=FALSE}
+myTerm <- rstudioapi::terminalCreate(show = FALSE)
+rstudioapi::terminalSend(
+    myTerm,
+    "esearch -db pubmed -query \"endometriosis[MeSH Major Topic] AND english and humans[Filter] AND (2009/03/10[PDat] : 2019/03/07[PDat]) \" -datetype PDAT -mindate 1800 -maxdate 3000 | \ efetch -format xml > ~/JournalWatchLocalShiny/BalciS.xml \n"
+)
+Sys.sleep(1)
+repeat {
+    Sys.sleep(0.1)
+    if (rstudioapi::terminalBusy(myTerm) == FALSE) {
+        print("Code Executed")
+        break
+    }
+}
+
+file.info("~/JournalWatchLocalShiny/BalciS.xml")$ctime
+```
+
+
+
+
+```{r}
+myTerm <- rstudioapi::terminalCreate(show = FALSE)
+rstudioapi::terminalSend(
+myTerm,
+"xtract -input ~/JournalWatchLocalShiny//BalciS.xml -pattern PubmedArticle -sep '\t' -def 'na' -element MedlineCitation/PMID -block ArticleId -if ArticleId@IdType -equals doi -element ArticleId > ~/JournalWatchLocalShiny/BalciS.csv \n"
+)
+Sys.sleep(1)
+repeat {
+Sys.sleep(0.1)
+if (rstudioapi::terminalBusy(myTerm) == FALSE) {
+print("Code Executed")
+break
+}
+}
+
+file.info("~/JournalWatchLocalShiny/BalciS.csv")$ctime
+
+```
+
+
+
+
+```
+Entrez Direct: E-utilities on the UNIX Command Line
+
+https://www.ncbi.nlm.nih.gov/books/NBK179288/
+```
+
+
+
+```
+  cd ~
+  /bin/bash
+  perl -MNet::FTP -e \
+    '$ftp = new Net::FTP("ftp.ncbi.nlm.nih.gov", Passive => 1);
+     $ftp->login; $ftp->binary;
+     $ftp->get("/entrez/entrezdirect/edirect.tar.gz");'
+  gunzip -c edirect.tar.gz | tar xf -
+  rm edirect.tar.gz
+  builtin exit
+  export PATH=${PATH}:$HOME/edirect >& /dev/null || setenv PATH "${PATH}:$HOME/edirect"
+  ./edirect/setup.sh
+```
+
+```
+echo "export PATH=\$PATH:\$HOME/edirect" >> $HOME/.bash_profile
+```
+
+
+
+```{bash}
+esearch -version
+```
+
+
+```{bash}
+ls
+```
+
+
+
+```
+edirectCommand2 <- glue::glue("esearch -version")
+```
+
+
+```
+esearch -db pubmed -query "pancreas[Title/Abstract]) AND pathology" -datetype EDAT -mindate '2019/06/01' -maxdate '3000' | \
+efetch -format xml | \
+xtract -pattern PubmedArticle -element MedlineCitation/PMID \
+-block ArticleId -if ArticleId@IdType -equals doi -element ArticleId &> ~/JournalWatchLocalShiny/myquery.txt
+```
+
+```
+commandQuery <- glue::glue(
+"esearch -db pubmed -query \"pancreas[Title/Abstract]) AND pathology\" -datetype EDAT -mindate '2019/06/01' -maxdate '3000' | \\
+efetch -format xml | \\
+xtract -pattern PubmedArticle -element MedlineCitation/PMID \\
+-block ArticleId -if ArticleId@IdType -equals doi -element ArticleId &> ~/JournalWatchLocalShiny/myquery.txt
+")
+
+cat(commandQuery)
+
+source(file = "commandQuery.sh")
+
+system2(command = "sh", 
+        args = "~/JournalWatchLocalShiny/query.sh")
+```
+
+
+
+
+
+
+
+```
+system("export EDIRECT_DO_AUTO_ABBREV=\"true\"")
+
+system(
+    command = edirectCommand3,
+    intern = TRUE,
+    wait = TRUE
+)
+
+Sys.sleep(5)
+```
+
+# read code generation function
+
+
+# write code to Rmd
+
+
+# combine Rmd Files
+
+```{r}
+# seperator <- paste("\n", "\n", "---", "\n", sep = "\n")
+
+articleHeader <- readLines("~/JournalWatchLocalShiny/articleHeader.Rmd")
+articles <- readLines("~/JournalWatchLocalShiny/articles.Rmd")
+
+cat(articleHeader,
+    articles,
+    file = "~/JournalWatchLocalShiny/combined.Rmd",
+    sep = "\n")
+
+```
+
+
+<!-- # outputname1 <- paste0("ReportEndometriosisAnalysis", as.character(Sys.time()), ".pdf", collapse = "") -->
+<!-- rmarkdown::render(input = "EndometriosisAnalysis.Rmd",  -->
+<!--                   output_format = "pdf_document", -->
+<!--                   output_dir = "prod/charts/", -->
+<!--                   # output_file = outputname1 -->
+<!--                   output_file = "EndometriosisAnalysis.pdf" -->
+<!--                   ) -->
+<!-- ezknitr::ezknit(file = "EndometriosisAnalysis.Rmd", wd = getwd(), fig_dir = "prod/charts/", out_dir = "prod/charts/", keep_html = TRUE, out_suffix = outsuffix, keep_md = TRUE) -->
+
+
+# source Rmd file with header and child Rmd files
+
+
+```{r}
+rmarkdown::render(input = "~/JournalWatchLocalShiny/combined.Rmd",
+                                              output_format = "all",
+                                              output_dir = "~/JournalWatchPBPath/",
+                                              output_file = "RecentPBPathArticles.html"
+                                              )
+```
+
+
+
+
+
+
+
+
+## Acknowledgments {.appendix}
+
+## Footnotes {.appendix}
+
+## References {.appendix}
+
+## Document Information {.appendix}
+
+Last updated on `r Sys.Date()`.
+
+
+
