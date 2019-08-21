@@ -22,10 +22,6 @@ suppressPackageStartupMessages(library("dplyr"))
 suppressPackageStartupMessages(library("RefManageR"))
 ```
 
-```{r global_options, include=FALSE}
-knitr::opts_chunk$set(cache = TRUE)
-```
-
 
 ```{r strings , include=FALSE}
 PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
