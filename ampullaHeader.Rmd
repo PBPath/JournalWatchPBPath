@@ -1,0 +1,49 @@
+---
+title: "Recent Ampulla Articles"
+description: |
+    Recent Ampulla Articles Automatically Generated
+author:
+  - name: Serdar Balcı 
+    url: https://www.serdarbalci.com/
+    affiliation: MD Pathologist
+    affiliation_url: https://sbalci.github.io/
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+suppressPackageStartupMessages(library("dplyr"))
+suppressPackageStartupMessages(library("RefManageR"))
+```
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+
+```{r strings , include=FALSE}
+PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
+
+doiString <- "doi: https://doi.org/"
+
+dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='"
+
+dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>"
+
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='"
+
+altmetricString2 <- "' data-hide-no-mentions='true'></span>"
+
+addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : "
+
+addthis_String2 <- "'></div>"
+
+```
+
+
