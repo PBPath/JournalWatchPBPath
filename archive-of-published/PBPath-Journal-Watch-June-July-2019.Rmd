@@ -1,16 +1,16 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  pdf_document:
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
-    toc_depth: 5
   html_notebook: 
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 5
   html_document:
     df_print: kable
     highlight: null
@@ -1967,9 +1967,78 @@ saveRDS(articles, 'articles.rds')
 ---
 
 
-- Significance of Lymph Node Metastasis in Resectable Well-differentiated Pancreatic Neuroendocrine Tumor.
+```{r 31268980, include=FALSE}
 
-https://www.ncbi.nlm.nih.gov/pubmed/31268980
+articles <- readRDS('articles.rds')
+
+
+PMID_31268980 <- RefManageR::ReadPubMed('31268980', database = 'PubMed')
+
+citation_31268980 <- paste0(PMID_31268980$journal,' ', PMID_31268980$year, ' ', PMID_31268980$month,';', PMID_31268980$volume,'(', PMID_31268980$number,'):', PMID_31268980$pages)
+
+PubMed_31268980 <- paste0(PubMedString, PMID_31268980$eprint)
+
+doi_31268980 <- paste0(doiString, PMID_31268980$doi)
+
+dimensionBadge_31268980 <- paste0(dimensionString1, PMID_31268980$doi,dimensionString2)
+
+altmetricBadge_31268980 <- paste0(altmetricString1, PMID_31268980$doi, altmetricString2 )
+
+addthis_inline_31268980 <- paste0(addthis_String1, PMID_31268980$title , " PMID: 31268980 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31268980,
+PMID = PMID_31268980$eprint,
+Title = PMID_31268980$title,
+# Author = PMID_31268980$author,
+Abstract = PMID_31268980$abstract,
+Journal = PMID_31268980$journal,
+Year = PMID_31268980$year,
+Month = PMID_31268980$month,
+# Volume = PMID_31268980$volume,
+# Number = PMID_31268980$number,
+# Pages = PMID_31268980$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31268980$eprint),
+DoiNumber = PMID_31268980$doi,
+DoiLink = paste0('https://doi.org/', PMID_31268980$doi),
+Language = PMID_31268980$language,
+ISSN = PMID_31268980$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31268980$title`**
+</summary> 
+
+*`r citation_31268980`*
+
+`r PubMed_31268980`
+
+`r addthis_inline_31268980`
+
+`r PMID_31268980$abstract`
+
+<!-- `r doi_31268980` -->
+
+`r dimensionBadge_31268980`
+
+`r altmetricBadge_31268980`
+
+</details>
 
 ---
 
@@ -2152,13 +2221,81 @@ saveRDS(articles, 'articles.rds')
 
 </details>
 
+
 ---
 
+```{r 31235542, include=FALSE}
 
-- Cytohistological diagnosis of pancreatic serous cystadenoma: a multimodal approach.
+articles <- readRDS('articles.rds')
 
-https://www.ncbi.nlm.nih.gov/pubmed/31235542
 
+PMID_31235542 <- RefManageR::ReadPubMed('31235542', database = 'PubMed')
+
+citation_31235542 <- paste0(PMID_31235542$journal,' ', PMID_31235542$year, ' ', PMID_31235542$month,';', PMID_31235542$volume,'(', PMID_31235542$number,'):', PMID_31235542$pages)
+
+PubMed_31235542 <- paste0(PubMedString, PMID_31235542$eprint)
+
+doi_31235542 <- paste0(doiString, PMID_31235542$doi)
+
+dimensionBadge_31235542 <- paste0(dimensionString1, PMID_31235542$doi,dimensionString2)
+
+altmetricBadge_31235542 <- paste0(altmetricString1, PMID_31235542$doi, altmetricString2 )
+
+addthis_inline_31235542 <- paste0(addthis_String1, PMID_31235542$title , " PMID: 31235542 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31235542,
+PMID = PMID_31235542$eprint,
+Title = PMID_31235542$title,
+# Author = PMID_31235542$author,
+Abstract = PMID_31235542$abstract,
+Journal = PMID_31235542$journal,
+Year = PMID_31235542$year,
+Month = PMID_31235542$month,
+# Volume = PMID_31235542$volume,
+# Number = PMID_31235542$number,
+# Pages = PMID_31235542$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31235542$eprint),
+DoiNumber = PMID_31235542$doi,
+DoiLink = paste0('https://doi.org/', PMID_31235542$doi),
+Language = PMID_31235542$language,
+ISSN = PMID_31235542$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31235542$title`**
+</summary> 
+
+*`r citation_31235542`*
+
+`r PubMed_31235542`
+
+`r addthis_inline_31235542`
+
+`r PMID_31235542$abstract`
+
+<!-- `r doi_31235542` -->
+
+`r dimensionBadge_31235542`
+
+`r altmetricBadge_31235542`
+
+</details>
 
 ---
 
@@ -2947,22 +3084,163 @@ saveRDS(articles, 'articles.rds')
 
 </details>
 
----
-
-- Experimental microdissection enables functional harmonisation of pancreatic cancer subtypes.
-
-https://www.ncbi.nlm.nih.gov/pubmed/30658994
 
 ---
 
-- Establishment and Analysis of a 3D Co-Culture Spheroid Model of Pancreatic Adenocarcinoma for Application in Drug Discovery.
+```{r 30658994, include=FALSE}
 
-https://www.ncbi.nlm.nih.gov/pubmed/30912022
+articles <- readRDS('articles.rds')
 
 
+PMID_30658994 <- RefManageR::ReadPubMed('30658994', database = 'PubMed')
+
+citation_30658994 <- paste0(PMID_30658994$journal,' ', PMID_30658994$year, ' ', PMID_30658994$month,';', PMID_30658994$volume,'(', PMID_30658994$number,'):', PMID_30658994$pages)
+
+PubMed_30658994 <- paste0(PubMedString, PMID_30658994$eprint)
+
+doi_30658994 <- paste0(doiString, PMID_30658994$doi)
+
+dimensionBadge_30658994 <- paste0(dimensionString1, PMID_30658994$doi,dimensionString2)
+
+altmetricBadge_30658994 <- paste0(altmetricString1, PMID_30658994$doi, altmetricString2 )
+
+addthis_inline_30658994 <- paste0(addthis_String1, PMID_30658994$title , " PMID: 30658994 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30658994,
+PMID = PMID_30658994$eprint,
+Title = PMID_30658994$title,
+# Author = PMID_30658994$author,
+Abstract = PMID_30658994$abstract,
+Journal = PMID_30658994$journal,
+Year = PMID_30658994$year,
+Month = PMID_30658994$month,
+# Volume = PMID_30658994$volume,
+# Number = PMID_30658994$number,
+# Pages = PMID_30658994$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30658994$eprint),
+DoiNumber = PMID_30658994$doi,
+DoiLink = paste0('https://doi.org/', PMID_30658994$doi),
+Language = PMID_30658994$language,
+ISSN = PMID_30658994$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30658994$title`**
+</summary> 
+
+*`r citation_30658994`*
+
+`r PubMed_30658994`
+
+`r addthis_inline_30658994`
+
+`r PMID_30658994$abstract`
+
+<!-- `r doi_30658994` -->
+
+`r dimensionBadge_30658994`
+
+`r altmetricBadge_30658994`
+
+</details>
 
 
 ---
+
+```{r 30912022, include=FALSE}
+
+articles <- readRDS('articles.rds')
+
+
+PMID_30912022 <- RefManageR::ReadPubMed('30912022', database = 'PubMed')
+
+citation_30912022 <- paste0(PMID_30912022$journal,' ', PMID_30912022$year, ' ', PMID_30912022$month,';', PMID_30912022$volume,'(', PMID_30912022$number,'):', PMID_30912022$pages)
+
+PubMed_30912022 <- paste0(PubMedString, PMID_30912022$eprint)
+
+doi_30912022 <- paste0(doiString, PMID_30912022$doi)
+
+dimensionBadge_30912022 <- paste0(dimensionString1, PMID_30912022$doi,dimensionString2)
+
+altmetricBadge_30912022 <- paste0(altmetricString1, PMID_30912022$doi, altmetricString2 )
+
+addthis_inline_30912022 <- paste0(addthis_String1, PMID_30912022$title , " PMID: 30912022 " , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30912022,
+PMID = PMID_30912022$eprint,
+Title = PMID_30912022$title,
+# Author = PMID_30912022$author,
+Abstract = PMID_30912022$abstract,
+Journal = PMID_30912022$journal,
+Year = PMID_30912022$year,
+Month = PMID_30912022$month,
+# Volume = PMID_30912022$volume,
+# Number = PMID_30912022$number,
+# Pages = PMID_30912022$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30912022$eprint),
+DoiNumber = PMID_30912022$doi,
+DoiLink = paste0('https://doi.org/', PMID_30912022$doi),
+Language = PMID_30912022$language,
+ISSN = PMID_30912022$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30912022$title`**
+</summary> 
+
+*`r citation_30912022`*
+
+`r PubMed_30912022`
+
+`r addthis_inline_30912022`
+
+`r PMID_30912022$abstract`
+
+<!-- `r doi_30912022` -->
+
+`r dimensionBadge_30912022`
+
+`r altmetricBadge_30912022`
+
+</details>
+
+---
+
+
+
+
 
 
 <a href="#top" target="_self">Back to top</a>
