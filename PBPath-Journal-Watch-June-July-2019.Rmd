@@ -1,16 +1,16 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook: 
-    code_folding: none
-    fig_caption: yes
-    highlight: null
-    theme: paper
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
     toc: yes
     toc_depth: 5
+  html_notebook: 
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
   html_document:
     df_print: kable
     highlight: null
@@ -82,44 +82,15 @@ addthis_String2 <- "'></div>"
 
 **Wellcome to the PBPath Journal Watch!** 
 
-This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [preparation of upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
+This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [the drafts of upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
 
 We encourage members to actively participate by recommending new articles and providing feedback using the forms provided below.  
 
 **We hope that you will enjoy the new PBPath Journal Watch!**  
 
----
-
 **Feedback**  
 
-Please send your feedbacks using the forms below:  
-
-[Google Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)  
-
-
-<script id="dsq-count-scr" src="//pbpath-org.disqus.com/count.js" async></script>
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://pbpath-org.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
-
+Please send your feedbacks using the forms below the page.  
 
 ---
 
@@ -842,22 +813,6 @@ saveRDS(articles, 'articles.rds')
 \pagebreak
 
 
-#### Analogue Tumors & Lesions
-
-
-```{r S Pancreas Analogue Tumors Lesions, eval=FALSE, include=FALSE}
-```
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
 #### Pancreatitis & Other Diseases
 
 ```{r Pancreas Pancreatitis & Other Diseases, eval=FALSE, include=FALSE}
@@ -1348,25 +1303,6 @@ saveRDS(articles, 'articles.rds')
 
 \pagebreak
 
-#### Staging
-
-Bile Ducts TNM staging, Margins, Survival
-
-```{r Bile Ducts TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
 ### Gallbladder
@@ -1615,66 +1551,6 @@ saveRDS(articles, 'articles.rds')
 
 
 
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-#### Staging
-
-Gallbladder TNM staging, Margins, Survival
-
-```{r Gallbladder TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-### Ampulla of Vater
-
-```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
----
-
-#### Morphology, Diagnostics, IHC
-
-Morphology, Diagnostics, IHC
-
-
-```{r S Ampulla of Vater Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-#### Staging
-
-Ampulla of Vater TNM staging, Margins, Survival
-
-```{r Ampulla of Vater TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
-
----
 
 <a href="#top" target="_self">Back to top</a>
 
@@ -2008,25 +1884,6 @@ saveRDS(articles, 'articles.rds')
 
 
 
-
-#### Microenvironment 
-
-Tumor Stroma Interactions, Microenvironment, Inflammatory Response
-
-```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
 #### Staging
 
 PanNET TNM staging, Margins, Survival
@@ -2325,39 +2182,80 @@ https://www.ncbi.nlm.nih.gov/pubmed/31235542
 
 ---
 
+```{r 31276311, include=FALSE}
+
+articles <- readRDS('articles.rds')
 
 
-- Cytologic features of pancreatobiliary neoplasm of duodenum.
+PMID_31276311 <- RefManageR::ReadPubMed('31276311', database = 'PubMed')
 
-https://www.ncbi.nlm.nih.gov/pubmed/31276311
+citation_31276311 <- paste0(PMID_31276311$journal,' ', PMID_31276311$year, ' ', PMID_31276311$month,';', PMID_31276311$volume,'(', PMID_31276311$number,'):', PMID_31276311$pages)
 
+PubMed_31276311 <- paste0(PubMedString, PMID_31276311$eprint)
 
+doi_31276311 <- paste0(doiString, PMID_31276311$doi)
 
+dimensionBadge_31276311 <- paste0(dimensionString1, PMID_31276311$doi,dimensionString2)
 
----
+altmetricBadge_31276311 <- paste0(altmetricString1, PMID_31276311$doi, altmetricString2 )
 
+addthis_inline_31276311 <- paste0(addthis_String1, PMID_31276311$title , " PMID: 31276311 " , addthis_String2)
 
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
+Sys.sleep(1)
 
 
+articles <- articles %>%
 
-### Bile Ducts
+add_row(
 
-```{r C Bile Ducts, eval=FALSE, include=FALSE}
+ArticleCitation = PMID_31276311,
+PMID = PMID_31276311$eprint,
+Title = PMID_31276311$title,
+# Author = PMID_31276311$author,
+Abstract = PMID_31276311$abstract,
+Journal = PMID_31276311$journal,
+Year = PMID_31276311$year,
+Month = PMID_31276311$month,
+# Volume = PMID_31276311$volume,
+# Number = PMID_31276311$number,
+# Pages = PMID_31276311$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31276311$eprint),
+DoiNumber = PMID_31276311$doi,
+DoiLink = paste0('https://doi.org/', PMID_31276311$doi),
+Language = PMID_31276311$language,
+ISSN = PMID_31276311$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
 ```
 
+<details open> <summary>
+- **`r PMID_31276311$title`**
+</summary> 
 
+*`r citation_31276311`*
+
+`r PubMed_31276311`
+
+`r addthis_inline_31276311`
+
+`r PMID_31276311$abstract`
+
+<!-- `r doi_31276311` -->
+
+`r dimensionBadge_31276311`
+
+`r altmetricBadge_31276311`
+
+</details>
 
 ---
-
-
-
 
 
 
@@ -2367,43 +2265,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/31276311
 
 \pagebreak
 
-### Gallbladder
-
-```{r C Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Neuroendocrine
-
-```{r C Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 ## Molecular Pathology {.tabset}
 
@@ -3121,12 +2982,78 @@ Solid Pseudopapillary Neoplasm
 
 ---
 
-- Targeted next generation sequencing of pancreatic solid pseudopapillary neoplasms show mutations in Wnt signaling pathway genes.
+```{r 30811747, include=FALSE}
+
+articles <- readRDS('articles.rds')
 
 
-https://www.ncbi.nlm.nih.gov/pubmed/30811747
+PMID_30811747 <- RefManageR::ReadPubMed('30811747', database = 'PubMed')
+
+citation_30811747 <- paste0(PMID_30811747$journal,' ', PMID_30811747$year, ' ', PMID_30811747$month,';', PMID_30811747$volume,'(', PMID_30811747$number,'):', PMID_30811747$pages)
+
+PubMed_30811747 <- paste0(PubMedString, PMID_30811747$eprint)
+
+doi_30811747 <- paste0(doiString, PMID_30811747$doi)
+
+dimensionBadge_30811747 <- paste0(dimensionString1, PMID_30811747$doi,dimensionString2)
+
+altmetricBadge_30811747 <- paste0(altmetricString1, PMID_30811747$doi, altmetricString2 )
+
+addthis_inline_30811747 <- paste0(addthis_String1, PMID_30811747$title , " PMID: 30811747 " , addthis_String2)
+
+Sys.sleep(1)
 
 
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_30811747,
+PMID = PMID_30811747$eprint,
+Title = PMID_30811747$title,
+# Author = PMID_30811747$author,
+Abstract = PMID_30811747$abstract,
+Journal = PMID_30811747$journal,
+Year = PMID_30811747$year,
+Month = PMID_30811747$month,
+# Volume = PMID_30811747$volume,
+# Number = PMID_30811747$number,
+# Pages = PMID_30811747$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_30811747$eprint),
+DoiNumber = PMID_30811747$doi,
+DoiLink = paste0('https://doi.org/', PMID_30811747$doi),
+Language = PMID_30811747$language,
+ISSN = PMID_30811747$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, 'articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_30811747$title`**
+</summary> 
+
+*`r citation_30811747`*
+
+`r PubMed_30811747`
+
+`r addthis_inline_30811747`
+
+`r PMID_30811747$abstract`
+
+<!-- `r doi_30811747` -->
+
+`r dimensionBadge_30811747`
+
+`r altmetricBadge_30811747`
+
+</details>
 
 ---
 
@@ -4162,55 +4089,6 @@ saveRDS(articles, 'articles.rds')
 \pagebreak
 
 
-### Bile Ducts
-
-```{r M Bile Ducts, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
-### Gallbladder
-
-```{r M Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Ampulla of Vater
-
-```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
 ### Neuroendocrine
@@ -4306,3 +4184,41 @@ saveRDS(articles, 'articles.rds')
 \pagebreak
 
 
+# Feedback
+
+Please send your feedbacks using the forms below:  
+
+[Google Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)  
+
+
+<script id="dsq-count-scr" src="//pbpath-org.disqus.com/count.js" async></script>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://pbpath-org.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+
+---
+
+<a href="#top" target="_self">Back to top</a>
+
+---
+
+\pagebreak
