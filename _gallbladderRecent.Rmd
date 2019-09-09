@@ -482,24 +482,24 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 
 ---
 
-```{r gallbladder 31391032, include=FALSE}
+```{r gallbladder 31356229, include=FALSE}
 
 articles <- readRDS('~/JournalWatchPBPath/articles.rds')
 
 
-PMID_31391032 <- RefManageR::ReadPubMed('31391032', database = 'PubMed')
+PMID_31356229 <- RefManageR::ReadPubMed('31356229', database = 'PubMed')
 
-citation_31391032 <- paste0(PMID_31391032$journal,' ', PMID_31391032$year, ' ', PMID_31391032$month,';', PMID_31391032$volume,'(', PMID_31391032$number,'):', PMID_31391032$pages)
+citation_31356229 <- paste0(PMID_31356229$journal,' ', PMID_31356229$year, ' ', PMID_31356229$month,';', PMID_31356229$volume,'(', PMID_31356229$number,'):', PMID_31356229$pages)
 
-PubMed_31391032 <- paste0(PubMedString, PMID_31391032$eprint)
+PubMed_31356229 <- paste0(PubMedString, PMID_31356229$eprint)
 
-doi_31391032 <- paste0(doiString, PMID_31391032$doi)
+doi_31356229 <- paste0(doiString, PMID_31356229$doi)
 
-dimensionBadge_31391032 <- paste0(dimensionString1, PMID_31391032$doi,dimensionString2)
+dimensionBadge_31356229 <- paste0(dimensionString1, PMID_31356229$doi,dimensionString2)
 
-altmetricBadge_31391032 <- paste0(altmetricString1, PMID_31391032$doi, altmetricString2 )
+altmetricBadge_31356229 <- paste0(altmetricString1, PMID_31356229$doi, altmetricString2 )
 
-addthis_inline_31391032 <- paste0(addthis_String1, PMID_31391032$title , " PMID: 31391032" , addthis_String2)
+addthis_inline_31356229 <- paste0(addthis_String1, PMID_31356229$title , " PMID: 31356229" , addthis_String2)
 
 Sys.sleep(1)
 
@@ -508,22 +508,22 @@ articles <- articles %>%
 
 add_row(
 
-ArticleCitation = PMID_31391032,
-PMID = PMID_31391032$eprint,
-Title = PMID_31391032$title,
-# Author = PMID_31391032$author,
-# Abstract = PMID_31391032$abstract,
-Journal = PMID_31391032$journal,
-Year = PMID_31391032$year,
-Month = PMID_31391032$month,
-# Volume = PMID_31391032$volume,
-# Number = PMID_31391032$number,
-# Pages = PMID_31391032$pages,
-PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31391032$eprint),
-DoiNumber = PMID_31391032$doi,
-DoiLink = paste0('https://doi.org/', PMID_31391032$doi),
-Language = PMID_31391032$language,
-ISSN = PMID_31391032$issn
+ArticleCitation = PMID_31356229,
+PMID = PMID_31356229$eprint,
+Title = PMID_31356229$title,
+# Author = PMID_31356229$author,
+# Abstract = PMID_31356229$abstract,
+Journal = PMID_31356229$journal,
+Year = PMID_31356229$year,
+Month = PMID_31356229$month,
+# Volume = PMID_31356229$volume,
+# Number = PMID_31356229$number,
+# Pages = PMID_31356229$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31356229$eprint),
+DoiNumber = PMID_31356229$doi,
+DoiLink = paste0('https://doi.org/', PMID_31356229$doi),
+Language = PMID_31356229$language,
+ISSN = PMID_31356229$issn
 ) %>%
 
 unique()
@@ -536,22 +536,22 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 ```
 
 <details open> <summary>
-- **`r PMID_31391032$title`**
+- **`r PMID_31356229$title`**
 </summary> 
 
-*`r citation_31391032`*
+*`r citation_31356229`*
 
-`r PubMed_31391032`
+`r PubMed_31356229`
 
-`r addthis_inline_31391032`
+`r addthis_inline_31356229`
 
-`r PMID_31391032$abstract`
+`r PMID_31356229$abstract`
 
-`r doi_31391032`
+`r doi_31356229`
 
-`r dimensionBadge_31391032`
+`r dimensionBadge_31356229`
 
-`r altmetricBadge_31391032`
+`r altmetricBadge_31356229`
 
 </details>
 
@@ -872,6 +872,86 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 `r dimensionBadge_30882917`
 
 `r altmetricBadge_30882917`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 31391032, include=FALSE}
+
+articles <- readRDS('~/JournalWatchPBPath/articles.rds')
+
+
+PMID_31391032 <- RefManageR::ReadPubMed('31391032', database = 'PubMed')
+
+citation_31391032 <- paste0(PMID_31391032$journal,' ', PMID_31391032$year, ' ', PMID_31391032$month,';', PMID_31391032$volume,'(', PMID_31391032$number,'):', PMID_31391032$pages)
+
+PubMed_31391032 <- paste0(PubMedString, PMID_31391032$eprint)
+
+doi_31391032 <- paste0(doiString, PMID_31391032$doi)
+
+dimensionBadge_31391032 <- paste0(dimensionString1, PMID_31391032$doi,dimensionString2)
+
+altmetricBadge_31391032 <- paste0(altmetricString1, PMID_31391032$doi, altmetricString2 )
+
+addthis_inline_31391032 <- paste0(addthis_String1, PMID_31391032$title , " PMID: 31391032" , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31391032,
+PMID = PMID_31391032$eprint,
+Title = PMID_31391032$title,
+# Author = PMID_31391032$author,
+# Abstract = PMID_31391032$abstract,
+Journal = PMID_31391032$journal,
+Year = PMID_31391032$year,
+Month = PMID_31391032$month,
+# Volume = PMID_31391032$volume,
+# Number = PMID_31391032$number,
+# Pages = PMID_31391032$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31391032$eprint),
+DoiNumber = PMID_31391032$doi,
+DoiLink = paste0('https://doi.org/', PMID_31391032$doi),
+Language = PMID_31391032$language,
+ISSN = PMID_31391032$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31391032$title`**
+</summary> 
+
+*`r citation_31391032`*
+
+`r PubMed_31391032`
+
+`r addthis_inline_31391032`
+
+`r PMID_31391032$abstract`
+
+`r doi_31391032`
+
+`r dimensionBadge_31391032`
+
+`r altmetricBadge_31391032`
 
 </details>
 
@@ -1352,86 +1432,6 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 `r dimensionBadge_30520351`
 
 `r altmetricBadge_30520351`
-
-</details>
-
----
-
-
-
-
----
-
-```{r gallbladder 31356229, include=FALSE}
-
-articles <- readRDS('~/JournalWatchPBPath/articles.rds')
-
-
-PMID_31356229 <- RefManageR::ReadPubMed('31356229', database = 'PubMed')
-
-citation_31356229 <- paste0(PMID_31356229$journal,' ', PMID_31356229$year, ' ', PMID_31356229$month,';', PMID_31356229$volume,'(', PMID_31356229$number,'):', PMID_31356229$pages)
-
-PubMed_31356229 <- paste0(PubMedString, PMID_31356229$eprint)
-
-doi_31356229 <- paste0(doiString, PMID_31356229$doi)
-
-dimensionBadge_31356229 <- paste0(dimensionString1, PMID_31356229$doi,dimensionString2)
-
-altmetricBadge_31356229 <- paste0(altmetricString1, PMID_31356229$doi, altmetricString2 )
-
-addthis_inline_31356229 <- paste0(addthis_String1, PMID_31356229$title , " PMID: 31356229" , addthis_String2)
-
-Sys.sleep(1)
-
-
-articles <- articles %>%
-
-add_row(
-
-ArticleCitation = PMID_31356229,
-PMID = PMID_31356229$eprint,
-Title = PMID_31356229$title,
-# Author = PMID_31356229$author,
-# Abstract = PMID_31356229$abstract,
-Journal = PMID_31356229$journal,
-Year = PMID_31356229$year,
-Month = PMID_31356229$month,
-# Volume = PMID_31356229$volume,
-# Number = PMID_31356229$number,
-# Pages = PMID_31356229$pages,
-PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31356229$eprint),
-DoiNumber = PMID_31356229$doi,
-DoiLink = paste0('https://doi.org/', PMID_31356229$doi),
-Language = PMID_31356229$language,
-ISSN = PMID_31356229$issn
-) %>%
-
-unique()
-
-
-Sys.sleep(1)
-
-saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
-
-```
-
-<details open> <summary>
-- **`r PMID_31356229$title`**
-</summary> 
-
-*`r citation_31356229`*
-
-`r PubMed_31356229`
-
-`r addthis_inline_31356229`
-
-`r PMID_31356229$abstract`
-
-`r doi_31356229`
-
-`r dimensionBadge_31356229`
-
-`r altmetricBadge_31356229`
 
 </details>
 

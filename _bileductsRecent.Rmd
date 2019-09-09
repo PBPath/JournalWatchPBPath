@@ -402,86 +402,6 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 
 ---
 
-```{r bileducts 31395017, include=FALSE}
-
-articles <- readRDS('~/JournalWatchPBPath/articles.rds')
-
-
-PMID_31395017 <- RefManageR::ReadPubMed('31395017', database = 'PubMed')
-
-citation_31395017 <- paste0(PMID_31395017$journal,' ', PMID_31395017$year, ' ', PMID_31395017$month,';', PMID_31395017$volume,'(', PMID_31395017$number,'):', PMID_31395017$pages)
-
-PubMed_31395017 <- paste0(PubMedString, PMID_31395017$eprint)
-
-doi_31395017 <- paste0(doiString, PMID_31395017$doi)
-
-dimensionBadge_31395017 <- paste0(dimensionString1, PMID_31395017$doi,dimensionString2)
-
-altmetricBadge_31395017 <- paste0(altmetricString1, PMID_31395017$doi, altmetricString2 )
-
-addthis_inline_31395017 <- paste0(addthis_String1, PMID_31395017$title , " PMID: 31395017" , addthis_String2)
-
-Sys.sleep(1)
-
-
-articles <- articles %>%
-
-add_row(
-
-ArticleCitation = PMID_31395017,
-PMID = PMID_31395017$eprint,
-Title = PMID_31395017$title,
-# Author = PMID_31395017$author,
-# Abstract = PMID_31395017$abstract,
-Journal = PMID_31395017$journal,
-Year = PMID_31395017$year,
-Month = PMID_31395017$month,
-# Volume = PMID_31395017$volume,
-# Number = PMID_31395017$number,
-# Pages = PMID_31395017$pages,
-PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31395017$eprint),
-DoiNumber = PMID_31395017$doi,
-DoiLink = paste0('https://doi.org/', PMID_31395017$doi),
-Language = PMID_31395017$language,
-ISSN = PMID_31395017$issn
-) %>%
-
-unique()
-
-
-Sys.sleep(1)
-
-saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
-
-```
-
-<details open> <summary>
-- **`r PMID_31395017$title`**
-</summary> 
-
-*`r citation_31395017`*
-
-`r PubMed_31395017`
-
-`r addthis_inline_31395017`
-
-`r PMID_31395017$abstract`
-
-`r doi_31395017`
-
-`r dimensionBadge_31395017`
-
-`r altmetricBadge_31395017`
-
-</details>
-
----
-
-
-
-
----
-
 ```{r bileducts 31272691, include=FALSE}
 
 articles <- readRDS('~/JournalWatchPBPath/articles.rds')
@@ -1032,6 +952,86 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 `r dimensionBadge_31033491`
 
 `r altmetricBadge_31033491`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 31395017, include=FALSE}
+
+articles <- readRDS('~/JournalWatchPBPath/articles.rds')
+
+
+PMID_31395017 <- RefManageR::ReadPubMed('31395017', database = 'PubMed')
+
+citation_31395017 <- paste0(PMID_31395017$journal,' ', PMID_31395017$year, ' ', PMID_31395017$month,';', PMID_31395017$volume,'(', PMID_31395017$number,'):', PMID_31395017$pages)
+
+PubMed_31395017 <- paste0(PubMedString, PMID_31395017$eprint)
+
+doi_31395017 <- paste0(doiString, PMID_31395017$doi)
+
+dimensionBadge_31395017 <- paste0(dimensionString1, PMID_31395017$doi,dimensionString2)
+
+altmetricBadge_31395017 <- paste0(altmetricString1, PMID_31395017$doi, altmetricString2 )
+
+addthis_inline_31395017 <- paste0(addthis_String1, PMID_31395017$title , " PMID: 31395017" , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31395017,
+PMID = PMID_31395017$eprint,
+Title = PMID_31395017$title,
+# Author = PMID_31395017$author,
+# Abstract = PMID_31395017$abstract,
+Journal = PMID_31395017$journal,
+Year = PMID_31395017$year,
+Month = PMID_31395017$month,
+# Volume = PMID_31395017$volume,
+# Number = PMID_31395017$number,
+# Pages = PMID_31395017$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31395017$eprint),
+DoiNumber = PMID_31395017$doi,
+DoiLink = paste0('https://doi.org/', PMID_31395017$doi),
+Language = PMID_31395017$language,
+ISSN = PMID_31395017$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31395017$title`**
+</summary> 
+
+*`r citation_31395017`*
+
+`r PubMed_31395017`
+
+`r addthis_inline_31395017`
+
+`r PMID_31395017$abstract`
+
+`r doi_31395017`
+
+`r dimensionBadge_31395017`
+
+`r altmetricBadge_31395017`
 
 </details>
 
