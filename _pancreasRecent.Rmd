@@ -21038,3 +21038,83 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 ---
 
 
+
+
+---
+
+```{r pancreas 31542399, include=FALSE}
+
+articles <- readRDS('~/JournalWatchPBPath/articles.rds')
+
+
+PMID_31542399 <- RefManageR::ReadPubMed('31542399', database = 'PubMed')
+
+citation_31542399 <- paste0(PMID_31542399$journal,' ', PMID_31542399$year, ' ', PMID_31542399$month,';', PMID_31542399$volume,'(', PMID_31542399$number,'):', PMID_31542399$pages)
+
+PubMed_31542399 <- paste0(PubMedString, PMID_31542399$eprint)
+
+doi_31542399 <- paste0(doiString, PMID_31542399$doi)
+
+dimensionBadge_31542399 <- paste0(dimensionString1, PMID_31542399$doi,dimensionString2)
+
+altmetricBadge_31542399 <- paste0(altmetricString1, PMID_31542399$doi, altmetricString2 )
+
+addthis_inline_31542399 <- paste0(addthis_String1, PMID_31542399$title , " PMID: 31542399" , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31542399,
+PMID = PMID_31542399$eprint,
+Title = PMID_31542399$title,
+# Author = PMID_31542399$author,
+# Abstract = PMID_31542399$abstract,
+Journal = PMID_31542399$journal,
+Year = PMID_31542399$year,
+Month = PMID_31542399$month,
+# Volume = PMID_31542399$volume,
+# Number = PMID_31542399$number,
+# Pages = PMID_31542399$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31542399$eprint),
+DoiNumber = PMID_31542399$doi,
+DoiLink = paste0('https://doi.org/', PMID_31542399$doi),
+Language = PMID_31542399$language,
+ISSN = PMID_31542399$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31542399$title`**
+</summary> 
+
+*`r citation_31542399`*
+
+`r PubMed_31542399`
+
+`r addthis_inline_31542399`
+
+`r PMID_31542399$abstract`
+
+`r doi_31542399`
+
+`r dimensionBadge_31542399`
+
+`r altmetricBadge_31542399`
+
+</details>
+
+---
+
+
