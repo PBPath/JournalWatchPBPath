@@ -482,86 +482,6 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 
 ---
 
-```{r bileducts 31669892, include=FALSE}
-
-articles <- readRDS('~/JournalWatchPBPath/articles.rds')
-
-
-PMID_31669892 <- RefManageR::ReadPubMed('31669892', database = 'PubMed')
-
-citation_31669892 <- paste0(PMID_31669892$journal,' ', PMID_31669892$year, ' ', PMID_31669892$month,';', PMID_31669892$volume,'(', PMID_31669892$number,'):', PMID_31669892$pages)
-
-PubMed_31669892 <- paste0(PubMedString, PMID_31669892$eprint)
-
-doi_31669892 <- paste0(doiString, PMID_31669892$doi)
-
-dimensionBadge_31669892 <- paste0(dimensionString1, PMID_31669892$doi,dimensionString2)
-
-altmetricBadge_31669892 <- paste0(altmetricString1, PMID_31669892$doi, altmetricString2 )
-
-addthis_inline_31669892 <- paste0(addthis_String1, PMID_31669892$title , " PMID: 31669892" , addthis_String2)
-
-Sys.sleep(1)
-
-
-articles <- articles %>%
-
-add_row(
-
-ArticleCitation = PMID_31669892,
-PMID = PMID_31669892$eprint,
-Title = PMID_31669892$title,
-# Author = PMID_31669892$author,
-# Abstract = PMID_31669892$abstract,
-Journal = PMID_31669892$journal,
-Year = PMID_31669892$year,
-Month = PMID_31669892$month,
-# Volume = PMID_31669892$volume,
-# Number = PMID_31669892$number,
-# Pages = PMID_31669892$pages,
-PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31669892$eprint),
-DoiNumber = PMID_31669892$doi,
-DoiLink = paste0('https://doi.org/', PMID_31669892$doi),
-Language = PMID_31669892$language,
-ISSN = PMID_31669892$issn
-) %>%
-
-unique()
-
-
-Sys.sleep(1)
-
-saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
-
-```
-
-<details open> <summary>
-- **`r PMID_31669892$title`**
-</summary> 
-
-*`r citation_31669892`*
-
-`r PubMed_31669892`
-
-<!-- `r addthis_inline_31669892` -->
-
-`r PMID_31669892$abstract`
-
-`r doi_31669892`
-
-<!-- `r dimensionBadge_31669892` -->
-
-<!-- `r altmetricBadge_31669892` -->
-
-</details>
-
----
-
-
-
-
----
-
 ```{r bileducts 31665582, include=FALSE}
 
 articles <- readRDS('~/JournalWatchPBPath/articles.rds')
@@ -1272,6 +1192,86 @@ saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
 <!-- `r dimensionBadge_30878948` -->
 
 <!-- `r altmetricBadge_30878948` -->
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 31669892, include=FALSE}
+
+articles <- readRDS('~/JournalWatchPBPath/articles.rds')
+
+
+PMID_31669892 <- RefManageR::ReadPubMed('31669892', database = 'PubMed')
+
+citation_31669892 <- paste0(PMID_31669892$journal,' ', PMID_31669892$year, ' ', PMID_31669892$month,';', PMID_31669892$volume,'(', PMID_31669892$number,'):', PMID_31669892$pages)
+
+PubMed_31669892 <- paste0(PubMedString, PMID_31669892$eprint)
+
+doi_31669892 <- paste0(doiString, PMID_31669892$doi)
+
+dimensionBadge_31669892 <- paste0(dimensionString1, PMID_31669892$doi,dimensionString2)
+
+altmetricBadge_31669892 <- paste0(altmetricString1, PMID_31669892$doi, altmetricString2 )
+
+addthis_inline_31669892 <- paste0(addthis_String1, PMID_31669892$title , " PMID: 31669892" , addthis_String2)
+
+Sys.sleep(1)
+
+
+articles <- articles %>%
+
+add_row(
+
+ArticleCitation = PMID_31669892,
+PMID = PMID_31669892$eprint,
+Title = PMID_31669892$title,
+# Author = PMID_31669892$author,
+# Abstract = PMID_31669892$abstract,
+Journal = PMID_31669892$journal,
+Year = PMID_31669892$year,
+Month = PMID_31669892$month,
+# Volume = PMID_31669892$volume,
+# Number = PMID_31669892$number,
+# Pages = PMID_31669892$pages,
+PubMedLink = paste0('https://www.ncbi.nlm.nih.gov/pubmed/?term=', PMID_31669892$eprint),
+DoiNumber = PMID_31669892$doi,
+DoiLink = paste0('https://doi.org/', PMID_31669892$doi),
+Language = PMID_31669892$language,
+ISSN = PMID_31669892$issn
+) %>%
+
+unique()
+
+
+Sys.sleep(1)
+
+saveRDS(articles, '~/JournalWatchPBPath/articles.rds')
+
+```
+
+<details open> <summary>
+- **`r PMID_31669892$title`**
+</summary> 
+
+*`r citation_31669892`*
+
+`r PubMed_31669892`
+
+<!-- `r addthis_inline_31669892` -->
+
+`r PMID_31669892$abstract`
+
+`r doi_31669892`
+
+<!-- `r dimensionBadge_31669892` -->
+
+<!-- `r altmetricBadge_31669892` -->
 
 </details>
 
