@@ -1,0 +1,84 @@
+---
+title: "Recent Candidate Articles for PBPath Journal Watch"
+author:
+  - name: Serdar Balcı 
+    url: https://www.serdarbalci.com/
+    affiliation: MD Pathologist
+    affiliation_url: https://sbalci.github.io/
+date: "`r Sys.Date()`"
+output: blastula::blastula_email 
+--- 
+
+Dear PBPath Educational Committee Member,
+
+Below are the recent candidate articles for PBPath Journal Watch. Please review them and select the ones to be included in the upcoming *Journal Watch*. 
+
+
+Best regards
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+```{r}
+suppressPackageStartupMessages(library("dplyr"))
+suppressPackageStartupMessages(library("RefManageR"))
+```
+
+
+
+```{r strings , include=FALSE}
+PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
+
+doiString <- "doi: https://doi.org/"
+
+dimensionString1 <- "<script async='' charset='utf-8' src='https://badge.dimensions.ai/badge.js'></script> <span class='__dimensions_badge_embed__' data-doi='"
+
+dimensionString2 <- "' data-style='small_circle' data-hide-zero-citations='true' data-legend='always'></span>"
+
+altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <span class='altmetric-embed' data-link-target='_blank' data-badge-details='right' data-badge-type='donut' data-doi='"
+
+altmetricString2 <- "' data-hide-no-mentions='true'></span>"
+
+addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : "
+
+addthis_String2 <- "'></div>"
+
+```
+
+
+
+
+### New Pancreas Articles
+
+
+Today there is no new Pancreas Article.
+
+
+### New GallBladder Articles
+
+
+Today there is no new Gallbladder Article.
+
+
+### New BileDuct Articles
+
+
+Today there is no new Bile Duct Article.
+
+
+### New Ampulla Articles
+
+
+Today there is no new Ampulla Article.
+
+
+
+
+For all candidate articles please visit: http://pbpath.org/journal-watch-upcoming-issue/
+
+
