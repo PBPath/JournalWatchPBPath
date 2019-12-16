@@ -1,0 +1,43 @@
+
+
+---
+
+```{r gallbladder 31838585, include=FALSE}
+
+PMID_31838585 <- RefManageR::ReadPubMed('31838585', database = 'PubMed')
+
+citation_31838585 <- paste0(PMID_31838585$journal,' ', PMID_31838585$year, ' ', PMID_31838585$month,';', PMID_31838585$volume,'(', PMID_31838585$number,'):', PMID_31838585$pages)
+
+PubMed_31838585 <- paste0(PubMedString, PMID_31838585$eprint)
+
+doi_31838585 <- paste0(doiString, PMID_31838585$doi)
+
+dimensionBadge_31838585 <- paste0(dimensionString1, PMID_31838585$doi,dimensionString2)
+
+altmetricBadge_31838585 <- paste0(altmetricString1, PMID_31838585$doi, altmetricString2 )
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31838585$title`**
+</summary> 
+
+*`r citation_31838585`*
+
+`r PubMed_31838585`
+
+`r PMID_31838585$abstract`
+
+`r doi_31838585`
+
+`r dimensionBadge_31838585`
+
+`r altmetricBadge_31838585`
+
+</details>
+
+---
+
+

@@ -56,39 +56,39 @@ For all candidate articles please visit: http://pbpath.org/journal-watch-upcomin
 
 ---
 
-```{r pancreas 31836008, include=FALSE}
+```{r pancreas 31838609, include=FALSE}
 
-PMID_31836008 <- RefManageR::ReadPubMed('31836008', database = 'PubMed')
+PMID_31838609 <- RefManageR::ReadPubMed('31838609', database = 'PubMed')
 
-citation_31836008 <- paste0(PMID_31836008$journal,' ', PMID_31836008$year, ' ', PMID_31836008$month,';', PMID_31836008$volume,'(', PMID_31836008$number,'):', PMID_31836008$pages)
+citation_31838609 <- paste0(PMID_31838609$journal,' ', PMID_31838609$year, ' ', PMID_31838609$month,';', PMID_31838609$volume,'(', PMID_31838609$number,'):', PMID_31838609$pages)
 
-PubMed_31836008 <- paste0(PubMedString, PMID_31836008$eprint)
+PubMed_31838609 <- paste0(PubMedString, PMID_31838609$eprint)
 
-doi_31836008 <- paste0(doiString, PMID_31836008$doi)
+doi_31838609 <- paste0(doiString, PMID_31838609$doi)
 
-dimensionBadge_31836008 <- paste0(dimensionString1, PMID_31836008$doi,dimensionString2)
+dimensionBadge_31838609 <- paste0(dimensionString1, PMID_31838609$doi,dimensionString2)
 
-altmetricBadge_31836008 <- paste0(altmetricString1, PMID_31836008$doi, altmetricString2 )
+altmetricBadge_31838609 <- paste0(altmetricString1, PMID_31838609$doi, altmetricString2 )
 
 Sys.sleep(2)
 
 ```
 
 <details open> <summary>
-- **`r PMID_31836008$title`**
+- **`r PMID_31838609$title`**
 </summary> 
 
-*`r citation_31836008`*
+*`r citation_31838609`*
 
-`r PubMed_31836008`
+`r PubMed_31838609`
 
-`r PMID_31836008$abstract`
+`r PMID_31838609$abstract`
 
-`r doi_31836008`
+`r doi_31838609`
 
-`r dimensionBadge_31836008`
+`r dimensionBadge_31838609`
 
-`r altmetricBadge_31836008`
+`r altmetricBadge_31838609`
 
 </details>
 
@@ -100,7 +100,49 @@ Sys.sleep(2)
 ### New GallBladder Articles
 
 
-Today there is no new Gallbladder Article.
+
+
+---
+
+```{r gallbladder 31838585, include=FALSE}
+
+PMID_31838585 <- RefManageR::ReadPubMed('31838585', database = 'PubMed')
+
+citation_31838585 <- paste0(PMID_31838585$journal,' ', PMID_31838585$year, ' ', PMID_31838585$month,';', PMID_31838585$volume,'(', PMID_31838585$number,'):', PMID_31838585$pages)
+
+PubMed_31838585 <- paste0(PubMedString, PMID_31838585$eprint)
+
+doi_31838585 <- paste0(doiString, PMID_31838585$doi)
+
+dimensionBadge_31838585 <- paste0(dimensionString1, PMID_31838585$doi,dimensionString2)
+
+altmetricBadge_31838585 <- paste0(altmetricString1, PMID_31838585$doi, altmetricString2 )
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31838585$title`**
+</summary> 
+
+*`r citation_31838585`*
+
+`r PubMed_31838585`
+
+`r PMID_31838585$abstract`
+
+`r doi_31838585`
+
+`r dimensionBadge_31838585`
+
+`r altmetricBadge_31838585`
+
+</details>
+
+---
+
+
 
 
 ### New BileDuct Articles
