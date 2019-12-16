@@ -17,8 +17,6 @@ Below are the recent candidate articles for PBPath Journal Watch. Please review 
 Best regards
 
 
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(cache = TRUE)
@@ -28,7 +26,6 @@ knitr::opts_chunk$set(cache = TRUE)
 suppressPackageStartupMessages(library("dplyr"))
 suppressPackageStartupMessages(library("RefManageR"))
 ```
-
 
 
 ```{r strings , include=FALSE}
@@ -44,19 +41,60 @@ altmetricString1 <-"<script type='text/javascript' src='https://d1bxh8uas1mnw7.c
 
 altmetricString2 <- "' data-hide-no-mentions='true'></span>"
 
-addthis_String1 <- "<div class='addthis_inline_share_toolbox' data-url='pbpath.org/current-journal-watch/' data-title='See this abstract on #PBPath #JournalWatch : "
-
-addthis_String2 <- "'></div>"
-
 ```
 
 
 
 
+For all candidate articles please visit: http://pbpath.org/journal-watch-upcoming-issue/
+
+
 ### New Pancreas Articles
 
 
-Today there is no new Pancreas Article.
+
+
+---
+
+```{r pancreas 31836008, include=FALSE}
+
+PMID_31836008 <- RefManageR::ReadPubMed('31836008', database = 'PubMed')
+
+citation_31836008 <- paste0(PMID_31836008$journal,' ', PMID_31836008$year, ' ', PMID_31836008$month,';', PMID_31836008$volume,'(', PMID_31836008$number,'):', PMID_31836008$pages)
+
+PubMed_31836008 <- paste0(PubMedString, PMID_31836008$eprint)
+
+doi_31836008 <- paste0(doiString, PMID_31836008$doi)
+
+dimensionBadge_31836008 <- paste0(dimensionString1, PMID_31836008$doi,dimensionString2)
+
+altmetricBadge_31836008 <- paste0(altmetricString1, PMID_31836008$doi, altmetricString2 )
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31836008$title`**
+</summary> 
+
+*`r citation_31836008`*
+
+`r PubMed_31836008`
+
+`r PMID_31836008$abstract`
+
+`r doi_31836008`
+
+`r dimensionBadge_31836008`
+
+`r altmetricBadge_31836008`
+
+</details>
+
+---
+
+
 
 
 ### New GallBladder Articles
