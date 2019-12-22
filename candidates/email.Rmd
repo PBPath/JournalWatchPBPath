@@ -44,76 +44,7 @@ For all candidate articles please visit: http://pbpath.org/journal-watch-upcomin
 ### New Pancreas Articles
 
 
-
-
----
-
-```{r pancreas 31862231, include=FALSE}
-
-PMID_31862231 <- RefManageR::ReadPubMed('31862231', database = 'PubMed')
-
-citation_31862231 <- paste0(PMID_31862231$journal,' ', PMID_31862231$year, ' ', PMID_31862231$month,';', PMID_31862231$volume,'(', PMID_31862231$number,'):', PMID_31862231$pages)
-
-PubMed_31862231 <- paste0(PubMedString, PMID_31862231$eprint)
-
-doi_31862231 <- paste0(doiString, PMID_31862231$doi)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_31862231$title`**
-</summary> 
-
-*`r citation_31862231`*
-
-`r PubMed_31862231`
-
-`r PMID_31862231$abstract`
-
-`r doi_31862231`
-
-</details>
-
----
-
-
-
-
----
-
-```{r pancreas 31862230, include=FALSE}
-
-PMID_31862230 <- RefManageR::ReadPubMed('31862230', database = 'PubMed')
-
-citation_31862230 <- paste0(PMID_31862230$journal,' ', PMID_31862230$year, ' ', PMID_31862230$month,';', PMID_31862230$volume,'(', PMID_31862230$number,'):', PMID_31862230$pages)
-
-PubMed_31862230 <- paste0(PubMedString, PMID_31862230$eprint)
-
-doi_31862230 <- paste0(doiString, PMID_31862230$doi)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_31862230$title`**
-</summary> 
-
-*`r citation_31862230`*
-
-`r PubMed_31862230`
-
-`r PMID_31862230$abstract`
-
-`r doi_31862230`
-
-</details>
-
----
-
-
+Today there is no new Pancreas Article.
 
 
 ### New GallBladder Articles
