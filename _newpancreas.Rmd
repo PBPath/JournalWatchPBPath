@@ -2,39 +2,66 @@
 
 ---
 
-```{r pancreas 31838609, include=FALSE}
+```{r pancreas 31862231, include=FALSE}
 
-PMID_31838609 <- RefManageR::ReadPubMed('31838609', database = 'PubMed')
+PMID_31862231 <- RefManageR::ReadPubMed('31862231', database = 'PubMed')
 
-citation_31838609 <- paste0(PMID_31838609$journal,' ', PMID_31838609$year, ' ', PMID_31838609$month,';', PMID_31838609$volume,'(', PMID_31838609$number,'):', PMID_31838609$pages)
+citation_31862231 <- paste0(PMID_31862231$journal,' ', PMID_31862231$year, ' ', PMID_31862231$month,';', PMID_31862231$volume,'(', PMID_31862231$number,'):', PMID_31862231$pages)
 
-PubMed_31838609 <- paste0(PubMedString, PMID_31838609$eprint)
+PubMed_31862231 <- paste0(PubMedString, PMID_31862231$eprint)
 
-doi_31838609 <- paste0(doiString, PMID_31838609$doi)
+doi_31862231 <- paste0(doiString, PMID_31862231$doi)
 
-dimensionBadge_31838609 <- paste0(dimensionString1, PMID_31838609$doi,dimensionString2)
-
-altmetricBadge_31838609 <- paste0(altmetricString1, PMID_31838609$doi, altmetricString2 )
-
-Sys.sleep(2)
+Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_31838609$title`**
+- **`r PMID_31862231$title`**
 </summary> 
 
-*`r citation_31838609`*
+*`r citation_31862231`*
 
-`r PubMed_31838609`
+`r PubMed_31862231`
 
-`r PMID_31838609$abstract`
+`r PMID_31862231$abstract`
 
-`r doi_31838609`
+`r doi_31862231`
 
-`r dimensionBadge_31838609`
+</details>
 
-`r altmetricBadge_31838609`
+---
+
+
+
+
+---
+
+```{r pancreas 31862230, include=FALSE}
+
+PMID_31862230 <- RefManageR::ReadPubMed('31862230', database = 'PubMed')
+
+citation_31862230 <- paste0(PMID_31862230$journal,' ', PMID_31862230$year, ' ', PMID_31862230$month,';', PMID_31862230$volume,'(', PMID_31862230$number,'):', PMID_31862230$pages)
+
+PubMed_31862230 <- paste0(PubMedString, PMID_31862230$eprint)
+
+doi_31862230 <- paste0(doiString, PMID_31862230$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31862230$title`**
+</summary> 
+
+*`r citation_31862230`*
+
+`r PubMed_31862230`
+
+`r PMID_31862230$abstract`
+
+`r doi_31862230`
 
 </details>
 

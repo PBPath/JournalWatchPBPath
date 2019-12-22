@@ -2,7 +2,7 @@
 
 ---
 
-```{r ampulla NA, include=FALSE}
+```{r gallbladder NA, include=FALSE}
 
 PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
 
@@ -12,7 +12,11 @@ PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
 
 doi_NA <- paste0(doiString, PMID_NA$doi)
 
-Sys.sleep(1)
+dimensionBadge_NA <- paste0(dimensionString1, PMID_NA$doi,dimensionString2)
+
+altmetricBadge_NA <- paste0(altmetricString1, PMID_NA$doi, altmetricString2 )
+
+Sys.sleep(2)
 
 ```
 
@@ -28,6 +32,10 @@ Sys.sleep(1)
 
 `r doi_NA`
 
+`r dimensionBadge_NA`
+
+`r altmetricBadge_NA`
+
 </details>
 
 ---
@@ -37,7 +45,7 @@ Sys.sleep(1)
 
 ---
 
-```{r ampulla , include=FALSE}
+```{r gallbladder , include=FALSE}
 
 PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
 
@@ -47,7 +55,11 @@ PubMed_ <- paste0(PubMedString, PMID_$eprint)
 
 doi_ <- paste0(doiString, PMID_$doi)
 
-Sys.sleep(1)
+dimensionBadge_ <- paste0(dimensionString1, PMID_$doi,dimensionString2)
+
+altmetricBadge_ <- paste0(altmetricString1, PMID_$doi, altmetricString2 )
+
+Sys.sleep(2)
 
 ```
 
@@ -62,6 +74,10 @@ Sys.sleep(1)
 `r PMID_$abstract`
 
 `r doi_`
+
+`r dimensionBadge_`
+
+`r altmetricBadge_`
 
 </details>
 
