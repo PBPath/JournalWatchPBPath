@@ -2,31 +2,31 @@
 
 ---
 
-```{r pancreas NA, include=FALSE}
+```{r pancreas 31862230, include=FALSE}
 
-PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+PMID_31862230 <- RefManageR::ReadPubMed('31862230', database = 'PubMed')
 
-citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+citation_31862230 <- paste0(PMID_31862230$journal,' ', PMID_31862230$year, ' ', PMID_31862230$month,';', PMID_31862230$volume,'(', PMID_31862230$number,'):', PMID_31862230$pages)
 
-PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+PubMed_31862230 <- paste0(PubMedString, PMID_31862230$eprint)
 
-doi_NA <- paste0(doiString, PMID_NA$doi)
+doi_31862230 <- paste0(doiString, PMID_31862230$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_NA$title`**
+- **`r PMID_31862230$title`**
 </summary> 
 
-*`r citation_NA`*
+*`r citation_31862230`*
 
-`r PubMed_NA`
+`r PubMed_31862230`
 
-`r PMID_NA$abstract`
+`r PMID_31862230$abstract`
 
-`r doi_NA`
+`r doi_31862230`
 
 </details>
 
@@ -37,31 +37,3426 @@ Sys.sleep(1)
 
 ---
 
-```{r pancreas , include=FALSE}
+```{r pancreas 31855317, include=FALSE}
 
-PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+PMID_31855317 <- RefManageR::ReadPubMed('31855317', database = 'PubMed')
 
-citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+citation_31855317 <- paste0(PMID_31855317$journal,' ', PMID_31855317$year, ' ', PMID_31855317$month,';', PMID_31855317$volume,'(', PMID_31855317$number,'):', PMID_31855317$pages)
 
-PubMed_ <- paste0(PubMedString, PMID_$eprint)
+PubMed_31855317 <- paste0(PubMedString, PMID_31855317$eprint)
 
-doi_ <- paste0(doiString, PMID_$doi)
+doi_31855317 <- paste0(doiString, PMID_31855317$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_$title`**
+- **`r PMID_31855317$title`**
 </summary> 
 
-*`r citation_`*
+*`r citation_31855317`*
 
-`r PubMed_`
+`r PubMed_31855317`
 
-`r PMID_$abstract`
+`r PMID_31855317$abstract`
 
-`r doi_`
+`r doi_31855317`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31852458, include=FALSE}
+
+PMID_31852458 <- RefManageR::ReadPubMed('31852458', database = 'PubMed')
+
+citation_31852458 <- paste0(PMID_31852458$journal,' ', PMID_31852458$year, ' ', PMID_31852458$month,';', PMID_31852458$volume,'(', PMID_31852458$number,'):', PMID_31852458$pages)
+
+PubMed_31852458 <- paste0(PubMedString, PMID_31852458$eprint)
+
+doi_31852458 <- paste0(doiString, PMID_31852458$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31852458$title`**
+</summary> 
+
+*`r citation_31852458`*
+
+`r PubMed_31852458`
+
+`r PMID_31852458$abstract`
+
+`r doi_31852458`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31851004, include=FALSE}
+
+PMID_31851004 <- RefManageR::ReadPubMed('31851004', database = 'PubMed')
+
+citation_31851004 <- paste0(PMID_31851004$journal,' ', PMID_31851004$year, ' ', PMID_31851004$month,';', PMID_31851004$volume,'(', PMID_31851004$number,'):', PMID_31851004$pages)
+
+PubMed_31851004 <- paste0(PubMedString, PMID_31851004$eprint)
+
+doi_31851004 <- paste0(doiString, PMID_31851004$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31851004$title`**
+</summary> 
+
+*`r citation_31851004`*
+
+`r PubMed_31851004`
+
+`r PMID_31851004$abstract`
+
+`r doi_31851004`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31851003, include=FALSE}
+
+PMID_31851003 <- RefManageR::ReadPubMed('31851003', database = 'PubMed')
+
+citation_31851003 <- paste0(PMID_31851003$journal,' ', PMID_31851003$year, ' ', PMID_31851003$month,';', PMID_31851003$volume,'(', PMID_31851003$number,'):', PMID_31851003$pages)
+
+PubMed_31851003 <- paste0(PubMedString, PMID_31851003$eprint)
+
+doi_31851003 <- paste0(doiString, PMID_31851003$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31851003$title`**
+</summary> 
+
+*`r citation_31851003`*
+
+`r PubMed_31851003`
+
+`r PMID_31851003$abstract`
+
+`r doi_31851003`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31851002, include=FALSE}
+
+PMID_31851002 <- RefManageR::ReadPubMed('31851002', database = 'PubMed')
+
+citation_31851002 <- paste0(PMID_31851002$journal,' ', PMID_31851002$year, ' ', PMID_31851002$month,';', PMID_31851002$volume,'(', PMID_31851002$number,'):', PMID_31851002$pages)
+
+PubMed_31851002 <- paste0(PubMedString, PMID_31851002$eprint)
+
+doi_31851002 <- paste0(doiString, PMID_31851002$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31851002$title`**
+</summary> 
+
+*`r citation_31851002`*
+
+`r PubMed_31851002`
+
+`r PMID_31851002$abstract`
+
+`r doi_31851002`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31850984, include=FALSE}
+
+PMID_31850984 <- RefManageR::ReadPubMed('31850984', database = 'PubMed')
+
+citation_31850984 <- paste0(PMID_31850984$journal,' ', PMID_31850984$year, ' ', PMID_31850984$month,';', PMID_31850984$volume,'(', PMID_31850984$number,'):', PMID_31850984$pages)
+
+PubMed_31850984 <- paste0(PubMedString, PMID_31850984$eprint)
+
+doi_31850984 <- paste0(doiString, PMID_31850984$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31850984$title`**
+</summary> 
+
+*`r citation_31850984`*
+
+`r PubMed_31850984`
+
+`r PMID_31850984$abstract`
+
+`r doi_31850984`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31850977, include=FALSE}
+
+PMID_31850977 <- RefManageR::ReadPubMed('31850977', database = 'PubMed')
+
+citation_31850977 <- paste0(PMID_31850977$journal,' ', PMID_31850977$year, ' ', PMID_31850977$month,';', PMID_31850977$volume,'(', PMID_31850977$number,'):', PMID_31850977$pages)
+
+PubMed_31850977 <- paste0(PubMedString, PMID_31850977$eprint)
+
+doi_31850977 <- paste0(doiString, PMID_31850977$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31850977$title`**
+</summary> 
+
+*`r citation_31850977`*
+
+`r PubMed_31850977`
+
+`r PMID_31850977$abstract`
+
+`r doi_31850977`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31850666, include=FALSE}
+
+PMID_31850666 <- RefManageR::ReadPubMed('31850666', database = 'PubMed')
+
+citation_31850666 <- paste0(PMID_31850666$journal,' ', PMID_31850666$year, ' ', PMID_31850666$month,';', PMID_31850666$volume,'(', PMID_31850666$number,'):', PMID_31850666$pages)
+
+PubMed_31850666 <- paste0(PubMedString, PMID_31850666$eprint)
+
+doi_31850666 <- paste0(doiString, PMID_31850666$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31850666$title`**
+</summary> 
+
+*`r citation_31850666`*
+
+`r PubMed_31850666`
+
+`r PMID_31850666$abstract`
+
+`r doi_31850666`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31849319, include=FALSE}
+
+PMID_31849319 <- RefManageR::ReadPubMed('31849319', database = 'PubMed')
+
+citation_31849319 <- paste0(PMID_31849319$journal,' ', PMID_31849319$year, ' ', PMID_31849319$month,';', PMID_31849319$volume,'(', PMID_31849319$number,'):', PMID_31849319$pages)
+
+PubMed_31849319 <- paste0(PubMedString, PMID_31849319$eprint)
+
+doi_31849319 <- paste0(doiString, PMID_31849319$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31849319$title`**
+</summary> 
+
+*`r citation_31849319`*
+
+`r PubMed_31849319`
+
+`r PMID_31849319$abstract`
+
+`r doi_31849319`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31848815, include=FALSE}
+
+PMID_31848815 <- RefManageR::ReadPubMed('31848815', database = 'PubMed')
+
+citation_31848815 <- paste0(PMID_31848815$journal,' ', PMID_31848815$year, ' ', PMID_31848815$month,';', PMID_31848815$volume,'(', PMID_31848815$number,'):', PMID_31848815$pages)
+
+PubMed_31848815 <- paste0(PubMedString, PMID_31848815$eprint)
+
+doi_31848815 <- paste0(doiString, PMID_31848815$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31848815$title`**
+</summary> 
+
+*`r citation_31848815`*
+
+`r PubMed_31848815`
+
+`r PMID_31848815$abstract`
+
+`r doi_31848815`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31848811, include=FALSE}
+
+PMID_31848811 <- RefManageR::ReadPubMed('31848811', database = 'PubMed')
+
+citation_31848811 <- paste0(PMID_31848811$journal,' ', PMID_31848811$year, ' ', PMID_31848811$month,';', PMID_31848811$volume,'(', PMID_31848811$number,'):', PMID_31848811$pages)
+
+PubMed_31848811 <- paste0(PubMedString, PMID_31848811$eprint)
+
+doi_31848811 <- paste0(doiString, PMID_31848811$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31848811$title`**
+</summary> 
+
+*`r citation_31848811`*
+
+`r PubMed_31848811`
+
+`r PMID_31848811$abstract`
+
+`r doi_31848811`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31848189, include=FALSE}
+
+PMID_31848189 <- RefManageR::ReadPubMed('31848189', database = 'PubMed')
+
+citation_31848189 <- paste0(PMID_31848189$journal,' ', PMID_31848189$year, ' ', PMID_31848189$month,';', PMID_31848189$volume,'(', PMID_31848189$number,'):', PMID_31848189$pages)
+
+PubMed_31848189 <- paste0(PubMedString, PMID_31848189$eprint)
+
+doi_31848189 <- paste0(doiString, PMID_31848189$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31848189$title`**
+</summary> 
+
+*`r citation_31848189`*
+
+`r PubMed_31848189`
+
+`r PMID_31848189$abstract`
+
+`r doi_31848189`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31848187, include=FALSE}
+
+PMID_31848187 <- RefManageR::ReadPubMed('31848187', database = 'PubMed')
+
+citation_31848187 <- paste0(PMID_31848187$journal,' ', PMID_31848187$year, ' ', PMID_31848187$month,';', PMID_31848187$volume,'(', PMID_31848187$number,'):', PMID_31848187$pages)
+
+PubMed_31848187 <- paste0(PubMedString, PMID_31848187$eprint)
+
+doi_31848187 <- paste0(doiString, PMID_31848187$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31848187$title`**
+</summary> 
+
+*`r citation_31848187`*
+
+`r PubMed_31848187`
+
+`r PMID_31848187$abstract`
+
+`r doi_31848187`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31846235, include=FALSE}
+
+PMID_31846235 <- RefManageR::ReadPubMed('31846235', database = 'PubMed')
+
+citation_31846235 <- paste0(PMID_31846235$journal,' ', PMID_31846235$year, ' ', PMID_31846235$month,';', PMID_31846235$volume,'(', PMID_31846235$number,'):', PMID_31846235$pages)
+
+PubMed_31846235 <- paste0(PubMedString, PMID_31846235$eprint)
+
+doi_31846235 <- paste0(doiString, PMID_31846235$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31846235$title`**
+</summary> 
+
+*`r citation_31846235`*
+
+`r PubMed_31846235`
+
+`r PMID_31846235$abstract`
+
+`r doi_31846235`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31843922, include=FALSE}
+
+PMID_31843922 <- RefManageR::ReadPubMed('31843922', database = 'PubMed')
+
+citation_31843922 <- paste0(PMID_31843922$journal,' ', PMID_31843922$year, ' ', PMID_31843922$month,';', PMID_31843922$volume,'(', PMID_31843922$number,'):', PMID_31843922$pages)
+
+PubMed_31843922 <- paste0(PubMedString, PMID_31843922$eprint)
+
+doi_31843922 <- paste0(doiString, PMID_31843922$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31843922$title`**
+</summary> 
+
+*`r citation_31843922`*
+
+`r PubMed_31843922`
+
+`r PMID_31843922$abstract`
+
+`r doi_31843922`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31843590, include=FALSE}
+
+PMID_31843590 <- RefManageR::ReadPubMed('31843590', database = 'PubMed')
+
+citation_31843590 <- paste0(PMID_31843590$journal,' ', PMID_31843590$year, ' ', PMID_31843590$month,';', PMID_31843590$volume,'(', PMID_31843590$number,'):', PMID_31843590$pages)
+
+PubMed_31843590 <- paste0(PubMedString, PMID_31843590$eprint)
+
+doi_31843590 <- paste0(doiString, PMID_31843590$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31843590$title`**
+</summary> 
+
+*`r citation_31843590`*
+
+`r PubMed_31843590`
+
+`r PMID_31843590$abstract`
+
+`r doi_31843590`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31843588, include=FALSE}
+
+PMID_31843588 <- RefManageR::ReadPubMed('31843588', database = 'PubMed')
+
+citation_31843588 <- paste0(PMID_31843588$journal,' ', PMID_31843588$year, ' ', PMID_31843588$month,';', PMID_31843588$volume,'(', PMID_31843588$number,'):', PMID_31843588$pages)
+
+PubMed_31843588 <- paste0(PubMedString, PMID_31843588$eprint)
+
+doi_31843588 <- paste0(doiString, PMID_31843588$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31843588$title`**
+</summary> 
+
+*`r citation_31843588`*
+
+`r PubMed_31843588`
+
+`r PMID_31843588$abstract`
+
+`r doi_31843588`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31842793, include=FALSE}
+
+PMID_31842793 <- RefManageR::ReadPubMed('31842793', database = 'PubMed')
+
+citation_31842793 <- paste0(PMID_31842793$journal,' ', PMID_31842793$year, ' ', PMID_31842793$month,';', PMID_31842793$volume,'(', PMID_31842793$number,'):', PMID_31842793$pages)
+
+PubMed_31842793 <- paste0(PubMedString, PMID_31842793$eprint)
+
+doi_31842793 <- paste0(doiString, PMID_31842793$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31842793$title`**
+</summary> 
+
+*`r citation_31842793`*
+
+`r PubMed_31842793`
+
+`r PMID_31842793$abstract`
+
+`r doi_31842793`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31842791, include=FALSE}
+
+PMID_31842791 <- RefManageR::ReadPubMed('31842791', database = 'PubMed')
+
+citation_31842791 <- paste0(PMID_31842791$journal,' ', PMID_31842791$year, ' ', PMID_31842791$month,';', PMID_31842791$volume,'(', PMID_31842791$number,'):', PMID_31842791$pages)
+
+PubMed_31842791 <- paste0(PubMedString, PMID_31842791$eprint)
+
+doi_31842791 <- paste0(doiString, PMID_31842791$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31842791$title`**
+</summary> 
+
+*`r citation_31842791`*
+
+`r PubMed_31842791`
+
+`r PMID_31842791$abstract`
+
+`r doi_31842791`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31839458, include=FALSE}
+
+PMID_31839458 <- RefManageR::ReadPubMed('31839458', database = 'PubMed')
+
+citation_31839458 <- paste0(PMID_31839458$journal,' ', PMID_31839458$year, ' ', PMID_31839458$month,';', PMID_31839458$volume,'(', PMID_31839458$number,'):', PMID_31839458$pages)
+
+PubMed_31839458 <- paste0(PubMedString, PMID_31839458$eprint)
+
+doi_31839458 <- paste0(doiString, PMID_31839458$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31839458$title`**
+</summary> 
+
+*`r citation_31839458`*
+
+`r PubMed_31839458`
+
+`r PMID_31839458$abstract`
+
+`r doi_31839458`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31838609, include=FALSE}
+
+PMID_31838609 <- RefManageR::ReadPubMed('31838609', database = 'PubMed')
+
+citation_31838609 <- paste0(PMID_31838609$journal,' ', PMID_31838609$year, ' ', PMID_31838609$month,';', PMID_31838609$volume,'(', PMID_31838609$number,'):', PMID_31838609$pages)
+
+PubMed_31838609 <- paste0(PubMedString, PMID_31838609$eprint)
+
+doi_31838609 <- paste0(doiString, PMID_31838609$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31838609$title`**
+</summary> 
+
+*`r citation_31838609`*
+
+`r PubMed_31838609`
+
+`r PMID_31838609$abstract`
+
+`r doi_31838609`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31836008, include=FALSE}
+
+PMID_31836008 <- RefManageR::ReadPubMed('31836008', database = 'PubMed')
+
+citation_31836008 <- paste0(PMID_31836008$journal,' ', PMID_31836008$year, ' ', PMID_31836008$month,';', PMID_31836008$volume,'(', PMID_31836008$number,'):', PMID_31836008$pages)
+
+PubMed_31836008 <- paste0(PubMedString, PMID_31836008$eprint)
+
+doi_31836008 <- paste0(doiString, PMID_31836008$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31836008$title`**
+</summary> 
+
+*`r citation_31836008`*
+
+`r PubMed_31836008`
+
+`r PMID_31836008$abstract`
+
+`r doi_31836008`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31835038, include=FALSE}
+
+PMID_31835038 <- RefManageR::ReadPubMed('31835038', database = 'PubMed')
+
+citation_31835038 <- paste0(PMID_31835038$journal,' ', PMID_31835038$year, ' ', PMID_31835038$month,';', PMID_31835038$volume,'(', PMID_31835038$number,'):', PMID_31835038$pages)
+
+PubMed_31835038 <- paste0(PubMedString, PMID_31835038$eprint)
+
+doi_31835038 <- paste0(doiString, PMID_31835038$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31835038$title`**
+</summary> 
+
+*`r citation_31835038`*
+
+`r PubMed_31835038`
+
+`r PMID_31835038$abstract`
+
+`r doi_31835038`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31831564, include=FALSE}
+
+PMID_31831564 <- RefManageR::ReadPubMed('31831564', database = 'PubMed')
+
+citation_31831564 <- paste0(PMID_31831564$journal,' ', PMID_31831564$year, ' ', PMID_31831564$month,';', PMID_31831564$volume,'(', PMID_31831564$number,'):', PMID_31831564$pages)
+
+PubMed_31831564 <- paste0(PubMedString, PMID_31831564$eprint)
+
+doi_31831564 <- paste0(doiString, PMID_31831564$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31831564$title`**
+</summary> 
+
+*`r citation_31831564`*
+
+`r PubMed_31831564`
+
+`r PMID_31831564$abstract`
+
+`r doi_31831564`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31831559, include=FALSE}
+
+PMID_31831559 <- RefManageR::ReadPubMed('31831559', database = 'PubMed')
+
+citation_31831559 <- paste0(PMID_31831559$journal,' ', PMID_31831559$year, ' ', PMID_31831559$month,';', PMID_31831559$volume,'(', PMID_31831559$number,'):', PMID_31831559$pages)
+
+PubMed_31831559 <- paste0(PubMedString, PMID_31831559$eprint)
+
+doi_31831559 <- paste0(doiString, PMID_31831559$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31831559$title`**
+</summary> 
+
+*`r citation_31831559`*
+
+`r PubMed_31831559`
+
+`r PMID_31831559$abstract`
+
+`r doi_31831559`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31831555, include=FALSE}
+
+PMID_31831555 <- RefManageR::ReadPubMed('31831555', database = 'PubMed')
+
+citation_31831555 <- paste0(PMID_31831555$journal,' ', PMID_31831555$year, ' ', PMID_31831555$month,';', PMID_31831555$volume,'(', PMID_31831555$number,'):', PMID_31831555$pages)
+
+PubMed_31831555 <- paste0(PubMedString, PMID_31831555$eprint)
+
+doi_31831555 <- paste0(doiString, PMID_31831555$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31831555$title`**
+</summary> 
+
+*`r citation_31831555`*
+
+`r PubMed_31831555`
+
+`r PMID_31831555$abstract`
+
+`r doi_31831555`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31831392, include=FALSE}
+
+PMID_31831392 <- RefManageR::ReadPubMed('31831392', database = 'PubMed')
+
+citation_31831392 <- paste0(PMID_31831392$journal,' ', PMID_31831392$year, ' ', PMID_31831392$month,';', PMID_31831392$volume,'(', PMID_31831392$number,'):', PMID_31831392$pages)
+
+PubMed_31831392 <- paste0(PubMedString, PMID_31831392$eprint)
+
+doi_31831392 <- paste0(doiString, PMID_31831392$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31831392$title`**
+</summary> 
+
+*`r citation_31831392`*
+
+`r PubMed_31831392`
+
+`r PMID_31831392$abstract`
+
+`r doi_31831392`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31831390, include=FALSE}
+
+PMID_31831390 <- RefManageR::ReadPubMed('31831390', database = 'PubMed')
+
+citation_31831390 <- paste0(PMID_31831390$journal,' ', PMID_31831390$year, ' ', PMID_31831390$month,';', PMID_31831390$volume,'(', PMID_31831390$number,'):', PMID_31831390$pages)
+
+PubMed_31831390 <- paste0(PubMedString, PMID_31831390$eprint)
+
+doi_31831390 <- paste0(doiString, PMID_31831390$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31831390$title`**
+</summary> 
+
+*`r citation_31831390`*
+
+`r PubMed_31831390`
+
+`r PMID_31831390$abstract`
+
+`r doi_31831390`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31825669, include=FALSE}
+
+PMID_31825669 <- RefManageR::ReadPubMed('31825669', database = 'PubMed')
+
+citation_31825669 <- paste0(PMID_31825669$journal,' ', PMID_31825669$year, ' ', PMID_31825669$month,';', PMID_31825669$volume,'(', PMID_31825669$number,'):', PMID_31825669$pages)
+
+PubMed_31825669 <- paste0(PubMedString, PMID_31825669$eprint)
+
+doi_31825669 <- paste0(doiString, PMID_31825669$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31825669$title`**
+</summary> 
+
+*`r citation_31825669`*
+
+`r PubMed_31825669`
+
+`r PMID_31825669$abstract`
+
+`r doi_31825669`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31825182, include=FALSE}
+
+PMID_31825182 <- RefManageR::ReadPubMed('31825182', database = 'PubMed')
+
+citation_31825182 <- paste0(PMID_31825182$journal,' ', PMID_31825182$year, ' ', PMID_31825182$month,';', PMID_31825182$volume,'(', PMID_31825182$number,'):', PMID_31825182$pages)
+
+PubMed_31825182 <- paste0(PubMedString, PMID_31825182$eprint)
+
+doi_31825182 <- paste0(doiString, PMID_31825182$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31825182$title`**
+</summary> 
+
+*`r citation_31825182`*
+
+`r PubMed_31825182`
+
+`r PMID_31825182$abstract`
+
+`r doi_31825182`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31822803, include=FALSE}
+
+PMID_31822803 <- RefManageR::ReadPubMed('31822803', database = 'PubMed')
+
+citation_31822803 <- paste0(PMID_31822803$journal,' ', PMID_31822803$year, ' ', PMID_31822803$month,';', PMID_31822803$volume,'(', PMID_31822803$number,'):', PMID_31822803$pages)
+
+PubMed_31822803 <- paste0(PubMedString, PMID_31822803$eprint)
+
+doi_31822803 <- paste0(doiString, PMID_31822803$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31822803$title`**
+</summary> 
+
+*`r citation_31822803`*
+
+`r PubMed_31822803`
+
+`r PMID_31822803$abstract`
+
+`r doi_31822803`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31818951, include=FALSE}
+
+PMID_31818951 <- RefManageR::ReadPubMed('31818951', database = 'PubMed')
+
+citation_31818951 <- paste0(PMID_31818951$journal,' ', PMID_31818951$year, ' ', PMID_31818951$month,';', PMID_31818951$volume,'(', PMID_31818951$number,'):', PMID_31818951$pages)
+
+PubMed_31818951 <- paste0(PubMedString, PMID_31818951$eprint)
+
+doi_31818951 <- paste0(doiString, PMID_31818951$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31818951$title`**
+</summary> 
+
+*`r citation_31818951`*
+
+`r PubMed_31818951`
+
+`r PMID_31818951$abstract`
+
+`r doi_31818951`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31806503, include=FALSE}
+
+PMID_31806503 <- RefManageR::ReadPubMed('31806503', database = 'PubMed')
+
+citation_31806503 <- paste0(PMID_31806503$journal,' ', PMID_31806503$year, ' ', PMID_31806503$month,';', PMID_31806503$volume,'(', PMID_31806503$number,'):', PMID_31806503$pages)
+
+PubMed_31806503 <- paste0(PubMedString, PMID_31806503$eprint)
+
+doi_31806503 <- paste0(doiString, PMID_31806503$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31806503$title`**
+</summary> 
+
+*`r citation_31806503`*
+
+`r PubMed_31806503`
+
+`r PMID_31806503$abstract`
+
+`r doi_31806503`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31805889, include=FALSE}
+
+PMID_31805889 <- RefManageR::ReadPubMed('31805889', database = 'PubMed')
+
+citation_31805889 <- paste0(PMID_31805889$journal,' ', PMID_31805889$year, ' ', PMID_31805889$month,';', PMID_31805889$volume,'(', PMID_31805889$number,'):', PMID_31805889$pages)
+
+PubMed_31805889 <- paste0(PubMedString, PMID_31805889$eprint)
+
+doi_31805889 <- paste0(doiString, PMID_31805889$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31805889$title`**
+</summary> 
+
+*`r citation_31805889`*
+
+`r PubMed_31805889`
+
+`r PMID_31805889$abstract`
+
+`r doi_31805889`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31804389, include=FALSE}
+
+PMID_31804389 <- RefManageR::ReadPubMed('31804389', database = 'PubMed')
+
+citation_31804389 <- paste0(PMID_31804389$journal,' ', PMID_31804389$year, ' ', PMID_31804389$month,';', PMID_31804389$volume,'(', PMID_31804389$number,'):', PMID_31804389$pages)
+
+PubMed_31804389 <- paste0(PubMedString, PMID_31804389$eprint)
+
+doi_31804389 <- paste0(doiString, PMID_31804389$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31804389$title`**
+</summary> 
+
+*`r citation_31804389`*
+
+`r PubMed_31804389`
+
+`r PMID_31804389$abstract`
+
+`r doi_31804389`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31802299, include=FALSE}
+
+PMID_31802299 <- RefManageR::ReadPubMed('31802299', database = 'PubMed')
+
+citation_31802299 <- paste0(PMID_31802299$journal,' ', PMID_31802299$year, ' ', PMID_31802299$month,';', PMID_31802299$volume,'(', PMID_31802299$number,'):', PMID_31802299$pages)
+
+PubMed_31802299 <- paste0(PubMedString, PMID_31802299$eprint)
+
+doi_31802299 <- paste0(doiString, PMID_31802299$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31802299$title`**
+</summary> 
+
+*`r citation_31802299`*
+
+`r PubMed_31802299`
+
+`r PMID_31802299$abstract`
+
+`r doi_31802299`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31802297, include=FALSE}
+
+PMID_31802297 <- RefManageR::ReadPubMed('31802297', database = 'PubMed')
+
+citation_31802297 <- paste0(PMID_31802297$journal,' ', PMID_31802297$year, ' ', PMID_31802297$month,';', PMID_31802297$volume,'(', PMID_31802297$number,'):', PMID_31802297$pages)
+
+PubMed_31802297 <- paste0(PubMedString, PMID_31802297$eprint)
+
+doi_31802297 <- paste0(doiString, PMID_31802297$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31802297$title`**
+</summary> 
+
+*`r citation_31802297`*
+
+`r PubMed_31802297`
+
+`r PMID_31802297$abstract`
+
+`r doi_31802297`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31802231, include=FALSE}
+
+PMID_31802231 <- RefManageR::ReadPubMed('31802231', database = 'PubMed')
+
+citation_31802231 <- paste0(PMID_31802231$journal,' ', PMID_31802231$year, ' ', PMID_31802231$month,';', PMID_31802231$volume,'(', PMID_31802231$number,'):', PMID_31802231$pages)
+
+PubMed_31802231 <- paste0(PubMedString, PMID_31802231$eprint)
+
+doi_31802231 <- paste0(doiString, PMID_31802231$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31802231$title`**
+</summary> 
+
+*`r citation_31802231`*
+
+`r PubMed_31802231`
+
+`r PMID_31802231$abstract`
+
+`r doi_31802231`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31801483, include=FALSE}
+
+PMID_31801483 <- RefManageR::ReadPubMed('31801483', database = 'PubMed')
+
+citation_31801483 <- paste0(PMID_31801483$journal,' ', PMID_31801483$year, ' ', PMID_31801483$month,';', PMID_31801483$volume,'(', PMID_31801483$number,'):', PMID_31801483$pages)
+
+PubMed_31801483 <- paste0(PubMedString, PMID_31801483$eprint)
+
+doi_31801483 <- paste0(doiString, PMID_31801483$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31801483$title`**
+</summary> 
+
+*`r citation_31801483`*
+
+`r PubMed_31801483`
+
+`r PMID_31801483$abstract`
+
+`r doi_31801483`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31795960, include=FALSE}
+
+PMID_31795960 <- RefManageR::ReadPubMed('31795960', database = 'PubMed')
+
+citation_31795960 <- paste0(PMID_31795960$journal,' ', PMID_31795960$year, ' ', PMID_31795960$month,';', PMID_31795960$volume,'(', PMID_31795960$number,'):', PMID_31795960$pages)
+
+PubMed_31795960 <- paste0(PubMedString, PMID_31795960$eprint)
+
+doi_31795960 <- paste0(doiString, PMID_31795960$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31795960$title`**
+</summary> 
+
+*`r citation_31795960`*
+
+`r PubMed_31795960`
+
+`r PMID_31795960$abstract`
+
+`r doi_31795960`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31792715, include=FALSE}
+
+PMID_31792715 <- RefManageR::ReadPubMed('31792715', database = 'PubMed')
+
+citation_31792715 <- paste0(PMID_31792715$journal,' ', PMID_31792715$year, ' ', PMID_31792715$month,';', PMID_31792715$volume,'(', PMID_31792715$number,'):', PMID_31792715$pages)
+
+PubMed_31792715 <- paste0(PubMedString, PMID_31792715$eprint)
+
+doi_31792715 <- paste0(doiString, PMID_31792715$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31792715$title`**
+</summary> 
+
+*`r citation_31792715`*
+
+`r PubMed_31792715`
+
+`r PMID_31792715$abstract`
+
+`r doi_31792715`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31792714, include=FALSE}
+
+PMID_31792714 <- RefManageR::ReadPubMed('31792714', database = 'PubMed')
+
+citation_31792714 <- paste0(PMID_31792714$journal,' ', PMID_31792714$year, ' ', PMID_31792714$month,';', PMID_31792714$volume,'(', PMID_31792714$number,'):', PMID_31792714$pages)
+
+PubMed_31792714 <- paste0(PubMedString, PMID_31792714$eprint)
+
+doi_31792714 <- paste0(doiString, PMID_31792714$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31792714$title`**
+</summary> 
+
+*`r citation_31792714`*
+
+`r PubMed_31792714`
+
+`r PMID_31792714$abstract`
+
+`r doi_31792714`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31792036, include=FALSE}
+
+PMID_31792036 <- RefManageR::ReadPubMed('31792036', database = 'PubMed')
+
+citation_31792036 <- paste0(PMID_31792036$journal,' ', PMID_31792036$year, ' ', PMID_31792036$month,';', PMID_31792036$volume,'(', PMID_31792036$number,'):', PMID_31792036$pages)
+
+PubMed_31792036 <- paste0(PubMedString, PMID_31792036$eprint)
+
+doi_31792036 <- paste0(doiString, PMID_31792036$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31792036$title`**
+</summary> 
+
+*`r citation_31792036`*
+
+`r PubMed_31792036`
+
+`r PMID_31792036$abstract`
+
+`r doi_31792036`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31791885, include=FALSE}
+
+PMID_31791885 <- RefManageR::ReadPubMed('31791885', database = 'PubMed')
+
+citation_31791885 <- paste0(PMID_31791885$journal,' ', PMID_31791885$year, ' ', PMID_31791885$month,';', PMID_31791885$volume,'(', PMID_31791885$number,'):', PMID_31791885$pages)
+
+PubMed_31791885 <- paste0(PubMedString, PMID_31791885$eprint)
+
+doi_31791885 <- paste0(doiString, PMID_31791885$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31791885$title`**
+</summary> 
+
+*`r citation_31791885`*
+
+`r PubMed_31791885`
+
+`r PMID_31791885$abstract`
+
+`r doi_31791885`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31788890, include=FALSE}
+
+PMID_31788890 <- RefManageR::ReadPubMed('31788890', database = 'PubMed')
+
+citation_31788890 <- paste0(PMID_31788890$journal,' ', PMID_31788890$year, ' ', PMID_31788890$month,';', PMID_31788890$volume,'(', PMID_31788890$number,'):', PMID_31788890$pages)
+
+PubMed_31788890 <- paste0(PubMedString, PMID_31788890$eprint)
+
+doi_31788890 <- paste0(doiString, PMID_31788890$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31788890$title`**
+</summary> 
+
+*`r citation_31788890`*
+
+`r PubMed_31788890`
+
+`r PMID_31788890$abstract`
+
+`r doi_31788890`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31787525, include=FALSE}
+
+PMID_31787525 <- RefManageR::ReadPubMed('31787525', database = 'PubMed')
+
+citation_31787525 <- paste0(PMID_31787525$journal,' ', PMID_31787525$year, ' ', PMID_31787525$month,';', PMID_31787525$volume,'(', PMID_31787525$number,'):', PMID_31787525$pages)
+
+PubMed_31787525 <- paste0(PubMedString, PMID_31787525$eprint)
+
+doi_31787525 <- paste0(doiString, PMID_31787525$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31787525$title`**
+</summary> 
+
+*`r citation_31787525`*
+
+`r PubMed_31787525`
+
+`r PMID_31787525$abstract`
+
+`r doi_31787525`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31786688, include=FALSE}
+
+PMID_31786688 <- RefManageR::ReadPubMed('31786688', database = 'PubMed')
+
+citation_31786688 <- paste0(PMID_31786688$journal,' ', PMID_31786688$year, ' ', PMID_31786688$month,';', PMID_31786688$volume,'(', PMID_31786688$number,'):', PMID_31786688$pages)
+
+PubMed_31786688 <- paste0(PubMedString, PMID_31786688$eprint)
+
+doi_31786688 <- paste0(doiString, PMID_31786688$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31786688$title`**
+</summary> 
+
+*`r citation_31786688`*
+
+`r PubMed_31786688`
+
+`r PMID_31786688$abstract`
+
+`r doi_31786688`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31786131, include=FALSE}
+
+PMID_31786131 <- RefManageR::ReadPubMed('31786131', database = 'PubMed')
+
+citation_31786131 <- paste0(PMID_31786131$journal,' ', PMID_31786131$year, ' ', PMID_31786131$month,';', PMID_31786131$volume,'(', PMID_31786131$number,'):', PMID_31786131$pages)
+
+PubMed_31786131 <- paste0(PubMedString, PMID_31786131$eprint)
+
+doi_31786131 <- paste0(doiString, PMID_31786131$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31786131$title`**
+</summary> 
+
+*`r citation_31786131`*
+
+`r PubMed_31786131`
+
+`r PMID_31786131$abstract`
+
+`r doi_31786131`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31786057, include=FALSE}
+
+PMID_31786057 <- RefManageR::ReadPubMed('31786057', database = 'PubMed')
+
+citation_31786057 <- paste0(PMID_31786057$journal,' ', PMID_31786057$year, ' ', PMID_31786057$month,';', PMID_31786057$volume,'(', PMID_31786057$number,'):', PMID_31786057$pages)
+
+PubMed_31786057 <- paste0(PubMedString, PMID_31786057$eprint)
+
+doi_31786057 <- paste0(doiString, PMID_31786057$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31786057$title`**
+</summary> 
+
+*`r citation_31786057`*
+
+`r PubMed_31786057`
+
+`r PMID_31786057$abstract`
+
+`r doi_31786057`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31785091, include=FALSE}
+
+PMID_31785091 <- RefManageR::ReadPubMed('31785091', database = 'PubMed')
+
+citation_31785091 <- paste0(PMID_31785091$journal,' ', PMID_31785091$year, ' ', PMID_31785091$month,';', PMID_31785091$volume,'(', PMID_31785091$number,'):', PMID_31785091$pages)
+
+PubMed_31785091 <- paste0(PubMedString, PMID_31785091$eprint)
+
+doi_31785091 <- paste0(doiString, PMID_31785091$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31785091$title`**
+</summary> 
+
+*`r citation_31785091`*
+
+`r PubMed_31785091`
+
+`r PMID_31785091$abstract`
+
+`r doi_31785091`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31774250, include=FALSE}
+
+PMID_31774250 <- RefManageR::ReadPubMed('31774250', database = 'PubMed')
+
+citation_31774250 <- paste0(PMID_31774250$journal,' ', PMID_31774250$year, ' ', PMID_31774250$month,';', PMID_31774250$volume,'(', PMID_31774250$number,'):', PMID_31774250$pages)
+
+PubMed_31774250 <- paste0(PubMedString, PMID_31774250$eprint)
+
+doi_31774250 <- paste0(doiString, PMID_31774250$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31774250$title`**
+</summary> 
+
+*`r citation_31774250`*
+
+`r PubMed_31774250`
+
+`r PMID_31774250$abstract`
+
+`r doi_31774250`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31771513, include=FALSE}
+
+PMID_31771513 <- RefManageR::ReadPubMed('31771513', database = 'PubMed')
+
+citation_31771513 <- paste0(PMID_31771513$journal,' ', PMID_31771513$year, ' ', PMID_31771513$month,';', PMID_31771513$volume,'(', PMID_31771513$number,'):', PMID_31771513$pages)
+
+PubMed_31771513 <- paste0(PubMedString, PMID_31771513$eprint)
+
+doi_31771513 <- paste0(doiString, PMID_31771513$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31771513$title`**
+</summary> 
+
+*`r citation_31771513`*
+
+`r PubMed_31771513`
+
+`r PMID_31771513$abstract`
+
+`r doi_31771513`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31767564, include=FALSE}
+
+PMID_31767564 <- RefManageR::ReadPubMed('31767564', database = 'PubMed')
+
+citation_31767564 <- paste0(PMID_31767564$journal,' ', PMID_31767564$year, ' ', PMID_31767564$month,';', PMID_31767564$volume,'(', PMID_31767564$number,'):', PMID_31767564$pages)
+
+PubMed_31767564 <- paste0(PubMedString, PMID_31767564$eprint)
+
+doi_31767564 <- paste0(doiString, PMID_31767564$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31767564$title`**
+</summary> 
+
+*`r citation_31767564`*
+
+`r PubMed_31767564`
+
+`r PMID_31767564$abstract`
+
+`r doi_31767564`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31759893, include=FALSE}
+
+PMID_31759893 <- RefManageR::ReadPubMed('31759893', database = 'PubMed')
+
+citation_31759893 <- paste0(PMID_31759893$journal,' ', PMID_31759893$year, ' ', PMID_31759893$month,';', PMID_31759893$volume,'(', PMID_31759893$number,'):', PMID_31759893$pages)
+
+PubMed_31759893 <- paste0(PubMedString, PMID_31759893$eprint)
+
+doi_31759893 <- paste0(doiString, PMID_31759893$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31759893$title`**
+</summary> 
+
+*`r citation_31759893`*
+
+`r PubMed_31759893`
+
+`r PMID_31759893$abstract`
+
+`r doi_31759893`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31727501, include=FALSE}
+
+PMID_31727501 <- RefManageR::ReadPubMed('31727501', database = 'PubMed')
+
+citation_31727501 <- paste0(PMID_31727501$journal,' ', PMID_31727501$year, ' ', PMID_31727501$month,';', PMID_31727501$volume,'(', PMID_31727501$number,'):', PMID_31727501$pages)
+
+PubMed_31727501 <- paste0(PubMedString, PMID_31727501$eprint)
+
+doi_31727501 <- paste0(doiString, PMID_31727501$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31727501$title`**
+</summary> 
+
+*`r citation_31727501`*
+
+`r PubMed_31727501`
+
+`r PMID_31727501$abstract`
+
+`r doi_31727501`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31705231, include=FALSE}
+
+PMID_31705231 <- RefManageR::ReadPubMed('31705231', database = 'PubMed')
+
+citation_31705231 <- paste0(PMID_31705231$journal,' ', PMID_31705231$year, ' ', PMID_31705231$month,';', PMID_31705231$volume,'(', PMID_31705231$number,'):', PMID_31705231$pages)
+
+PubMed_31705231 <- paste0(PubMedString, PMID_31705231$eprint)
+
+doi_31705231 <- paste0(doiString, PMID_31705231$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31705231$title`**
+</summary> 
+
+*`r citation_31705231`*
+
+`r PubMed_31705231`
+
+`r PMID_31705231$abstract`
+
+`r doi_31705231`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31704767, include=FALSE}
+
+PMID_31704767 <- RefManageR::ReadPubMed('31704767', database = 'PubMed')
+
+citation_31704767 <- paste0(PMID_31704767$journal,' ', PMID_31704767$year, ' ', PMID_31704767$month,';', PMID_31704767$volume,'(', PMID_31704767$number,'):', PMID_31704767$pages)
+
+PubMed_31704767 <- paste0(PubMedString, PMID_31704767$eprint)
+
+doi_31704767 <- paste0(doiString, PMID_31704767$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31704767$title`**
+</summary> 
+
+*`r citation_31704767`*
+
+`r PubMed_31704767`
+
+`r PMID_31704767$abstract`
+
+`r doi_31704767`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31676092, include=FALSE}
+
+PMID_31676092 <- RefManageR::ReadPubMed('31676092', database = 'PubMed')
+
+citation_31676092 <- paste0(PMID_31676092$journal,' ', PMID_31676092$year, ' ', PMID_31676092$month,';', PMID_31676092$volume,'(', PMID_31676092$number,'):', PMID_31676092$pages)
+
+PubMed_31676092 <- paste0(PubMedString, PMID_31676092$eprint)
+
+doi_31676092 <- paste0(doiString, PMID_31676092$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31676092$title`**
+</summary> 
+
+*`r citation_31676092`*
+
+`r PubMed_31676092`
+
+`r PMID_31676092$abstract`
+
+`r doi_31676092`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31672293, include=FALSE}
+
+PMID_31672293 <- RefManageR::ReadPubMed('31672293', database = 'PubMed')
+
+citation_31672293 <- paste0(PMID_31672293$journal,' ', PMID_31672293$year, ' ', PMID_31672293$month,';', PMID_31672293$volume,'(', PMID_31672293$number,'):', PMID_31672293$pages)
+
+PubMed_31672293 <- paste0(PubMedString, PMID_31672293$eprint)
+
+doi_31672293 <- paste0(doiString, PMID_31672293$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31672293$title`**
+</summary> 
+
+*`r citation_31672293`*
+
+`r PubMed_31672293`
+
+`r PMID_31672293$abstract`
+
+`r doi_31672293`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31672292, include=FALSE}
+
+PMID_31672292 <- RefManageR::ReadPubMed('31672292', database = 'PubMed')
+
+citation_31672292 <- paste0(PMID_31672292$journal,' ', PMID_31672292$year, ' ', PMID_31672292$month,';', PMID_31672292$volume,'(', PMID_31672292$number,'):', PMID_31672292$pages)
+
+PubMed_31672292 <- paste0(PubMedString, PMID_31672292$eprint)
+
+doi_31672292 <- paste0(doiString, PMID_31672292$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31672292$title`**
+</summary> 
+
+*`r citation_31672292`*
+
+`r PubMed_31672292`
+
+`r PMID_31672292$abstract`
+
+`r doi_31672292`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31668563, include=FALSE}
+
+PMID_31668563 <- RefManageR::ReadPubMed('31668563', database = 'PubMed')
+
+citation_31668563 <- paste0(PMID_31668563$journal,' ', PMID_31668563$year, ' ', PMID_31668563$month,';', PMID_31668563$volume,'(', PMID_31668563$number,'):', PMID_31668563$pages)
+
+PubMed_31668563 <- paste0(PubMedString, PMID_31668563$eprint)
+
+doi_31668563 <- paste0(doiString, PMID_31668563$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31668563$title`**
+</summary> 
+
+*`r citation_31668563`*
+
+`r PubMed_31668563`
+
+`r PMID_31668563$abstract`
+
+`r doi_31668563`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31648972, include=FALSE}
+
+PMID_31648972 <- RefManageR::ReadPubMed('31648972', database = 'PubMed')
+
+citation_31648972 <- paste0(PMID_31648972$journal,' ', PMID_31648972$year, ' ', PMID_31648972$month,';', PMID_31648972$volume,'(', PMID_31648972$number,'):', PMID_31648972$pages)
+
+PubMed_31648972 <- paste0(PubMedString, PMID_31648972$eprint)
+
+doi_31648972 <- paste0(doiString, PMID_31648972$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31648972$title`**
+</summary> 
+
+*`r citation_31648972`*
+
+`r PubMed_31648972`
+
+`r PMID_31648972$abstract`
+
+`r doi_31648972`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31641946, include=FALSE}
+
+PMID_31641946 <- RefManageR::ReadPubMed('31641946', database = 'PubMed')
+
+citation_31641946 <- paste0(PMID_31641946$journal,' ', PMID_31641946$year, ' ', PMID_31641946$month,';', PMID_31641946$volume,'(', PMID_31641946$number,'):', PMID_31641946$pages)
+
+PubMed_31641946 <- paste0(PubMedString, PMID_31641946$eprint)
+
+doi_31641946 <- paste0(doiString, PMID_31641946$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31641946$title`**
+</summary> 
+
+*`r citation_31641946`*
+
+`r PubMed_31641946`
+
+`r PMID_31641946$abstract`
+
+`r doi_31641946`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31630919, include=FALSE}
+
+PMID_31630919 <- RefManageR::ReadPubMed('31630919', database = 'PubMed')
+
+citation_31630919 <- paste0(PMID_31630919$journal,' ', PMID_31630919$year, ' ', PMID_31630919$month,';', PMID_31630919$volume,'(', PMID_31630919$number,'):', PMID_31630919$pages)
+
+PubMed_31630919 <- paste0(PubMedString, PMID_31630919$eprint)
+
+doi_31630919 <- paste0(doiString, PMID_31630919$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31630919$title`**
+</summary> 
+
+*`r citation_31630919`*
+
+`r PubMed_31630919`
+
+`r PMID_31630919$abstract`
+
+`r doi_31630919`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31630918, include=FALSE}
+
+PMID_31630918 <- RefManageR::ReadPubMed('31630918', database = 'PubMed')
+
+citation_31630918 <- paste0(PMID_31630918$journal,' ', PMID_31630918$year, ' ', PMID_31630918$month,';', PMID_31630918$volume,'(', PMID_31630918$number,'):', PMID_31630918$pages)
+
+PubMed_31630918 <- paste0(PubMedString, PMID_31630918$eprint)
+
+doi_31630918 <- paste0(doiString, PMID_31630918$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31630918$title`**
+</summary> 
+
+*`r citation_31630918`*
+
+`r PubMed_31630918`
+
+`r PMID_31630918$abstract`
+
+`r doi_31630918`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31617119, include=FALSE}
+
+PMID_31617119 <- RefManageR::ReadPubMed('31617119', database = 'PubMed')
+
+citation_31617119 <- paste0(PMID_31617119$journal,' ', PMID_31617119$year, ' ', PMID_31617119$month,';', PMID_31617119$volume,'(', PMID_31617119$number,'):', PMID_31617119$pages)
+
+PubMed_31617119 <- paste0(PubMedString, PMID_31617119$eprint)
+
+doi_31617119 <- paste0(doiString, PMID_31617119$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31617119$title`**
+</summary> 
+
+*`r citation_31617119`*
+
+`r PubMed_31617119`
+
+`r PMID_31617119$abstract`
+
+`r doi_31617119`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31611131, include=FALSE}
+
+PMID_31611131 <- RefManageR::ReadPubMed('31611131', database = 'PubMed')
+
+citation_31611131 <- paste0(PMID_31611131$journal,' ', PMID_31611131$year, ' ', PMID_31611131$month,';', PMID_31611131$volume,'(', PMID_31611131$number,'):', PMID_31611131$pages)
+
+PubMed_31611131 <- paste0(PubMedString, PMID_31611131$eprint)
+
+doi_31611131 <- paste0(doiString, PMID_31611131$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31611131$title`**
+</summary> 
+
+*`r citation_31611131`*
+
+`r PubMed_31611131`
+
+`r PMID_31611131$abstract`
+
+`r doi_31611131`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31611130, include=FALSE}
+
+PMID_31611130 <- RefManageR::ReadPubMed('31611130', database = 'PubMed')
+
+citation_31611130 <- paste0(PMID_31611130$journal,' ', PMID_31611130$year, ' ', PMID_31611130$month,';', PMID_31611130$volume,'(', PMID_31611130$number,'):', PMID_31611130$pages)
+
+PubMed_31611130 <- paste0(PubMedString, PMID_31611130$eprint)
+
+doi_31611130 <- paste0(doiString, PMID_31611130$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31611130$title`**
+</summary> 
+
+*`r citation_31611130`*
+
+`r PubMed_31611130`
+
+`r PMID_31611130$abstract`
+
+`r doi_31611130`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31599130, include=FALSE}
+
+PMID_31599130 <- RefManageR::ReadPubMed('31599130', database = 'PubMed')
+
+citation_31599130 <- paste0(PMID_31599130$journal,' ', PMID_31599130$year, ' ', PMID_31599130$month,';', PMID_31599130$volume,'(', PMID_31599130$number,'):', PMID_31599130$pages)
+
+PubMed_31599130 <- paste0(PubMedString, PMID_31599130$eprint)
+
+doi_31599130 <- paste0(doiString, PMID_31599130$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31599130$title`**
+</summary> 
+
+*`r citation_31599130`*
+
+`r PubMed_31599130`
+
+`r PMID_31599130$abstract`
+
+`r doi_31599130`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31590960, include=FALSE}
+
+PMID_31590960 <- RefManageR::ReadPubMed('31590960', database = 'PubMed')
+
+citation_31590960 <- paste0(PMID_31590960$journal,' ', PMID_31590960$year, ' ', PMID_31590960$month,';', PMID_31590960$volume,'(', PMID_31590960$number,'):', PMID_31590960$pages)
+
+PubMed_31590960 <- paste0(PubMedString, PMID_31590960$eprint)
+
+doi_31590960 <- paste0(doiString, PMID_31590960$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31590960$title`**
+</summary> 
+
+*`r citation_31590960`*
+
+`r PubMed_31590960`
+
+`r PMID_31590960$abstract`
+
+`r doi_31590960`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31587962, include=FALSE}
+
+PMID_31587962 <- RefManageR::ReadPubMed('31587962', database = 'PubMed')
+
+citation_31587962 <- paste0(PMID_31587962$journal,' ', PMID_31587962$year, ' ', PMID_31587962$month,';', PMID_31587962$volume,'(', PMID_31587962$number,'):', PMID_31587962$pages)
+
+PubMed_31587962 <- paste0(PubMedString, PMID_31587962$eprint)
+
+doi_31587962 <- paste0(doiString, PMID_31587962$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31587962$title`**
+</summary> 
+
+*`r citation_31587962`*
+
+`r PubMed_31587962`
+
+`r PMID_31587962$abstract`
+
+`r doi_31587962`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31585811, include=FALSE}
+
+PMID_31585811 <- RefManageR::ReadPubMed('31585811', database = 'PubMed')
+
+citation_31585811 <- paste0(PMID_31585811$journal,' ', PMID_31585811$year, ' ', PMID_31585811$month,';', PMID_31585811$volume,'(', PMID_31585811$number,'):', PMID_31585811$pages)
+
+PubMed_31585811 <- paste0(PubMedString, PMID_31585811$eprint)
+
+doi_31585811 <- paste0(doiString, PMID_31585811$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31585811$title`**
+</summary> 
+
+*`r citation_31585811`*
+
+`r PubMed_31585811`
+
+`r PMID_31585811$abstract`
+
+`r doi_31585811`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31583548, include=FALSE}
+
+PMID_31583548 <- RefManageR::ReadPubMed('31583548', database = 'PubMed')
+
+citation_31583548 <- paste0(PMID_31583548$journal,' ', PMID_31583548$year, ' ', PMID_31583548$month,';', PMID_31583548$volume,'(', PMID_31583548$number,'):', PMID_31583548$pages)
+
+PubMed_31583548 <- paste0(PubMedString, PMID_31583548$eprint)
+
+doi_31583548 <- paste0(doiString, PMID_31583548$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31583548$title`**
+</summary> 
+
+*`r citation_31583548`*
+
+`r PubMed_31583548`
+
+`r PMID_31583548$abstract`
+
+`r doi_31583548`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31582346, include=FALSE}
+
+PMID_31582346 <- RefManageR::ReadPubMed('31582346', database = 'PubMed')
+
+citation_31582346 <- paste0(PMID_31582346$journal,' ', PMID_31582346$year, ' ', PMID_31582346$month,';', PMID_31582346$volume,'(', PMID_31582346$number,'):', PMID_31582346$pages)
+
+PubMed_31582346 <- paste0(PubMedString, PMID_31582346$eprint)
+
+doi_31582346 <- paste0(doiString, PMID_31582346$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31582346$title`**
+</summary> 
+
+*`r citation_31582346`*
+
+`r PubMed_31582346`
+
+`r PMID_31582346$abstract`
+
+`r doi_31582346`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31540979, include=FALSE}
+
+PMID_31540979 <- RefManageR::ReadPubMed('31540979', database = 'PubMed')
+
+citation_31540979 <- paste0(PMID_31540979$journal,' ', PMID_31540979$year, ' ', PMID_31540979$month,';', PMID_31540979$volume,'(', PMID_31540979$number,'):', PMID_31540979$pages)
+
+PubMed_31540979 <- paste0(PubMedString, PMID_31540979$eprint)
+
+doi_31540979 <- paste0(doiString, PMID_31540979$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31540979$title`**
+</summary> 
+
+*`r citation_31540979`*
+
+`r PubMed_31540979`
+
+`r PMID_31540979$abstract`
+
+`r doi_31540979`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31535303, include=FALSE}
+
+PMID_31535303 <- RefManageR::ReadPubMed('31535303', database = 'PubMed')
+
+citation_31535303 <- paste0(PMID_31535303$journal,' ', PMID_31535303$year, ' ', PMID_31535303$month,';', PMID_31535303$volume,'(', PMID_31535303$number,'):', PMID_31535303$pages)
+
+PubMed_31535303 <- paste0(PubMedString, PMID_31535303$eprint)
+
+doi_31535303 <- paste0(doiString, PMID_31535303$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31535303$title`**
+</summary> 
+
+*`r citation_31535303`*
+
+`r PubMed_31535303`
+
+`r PMID_31535303$abstract`
+
+`r doi_31535303`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31527169, include=FALSE}
+
+PMID_31527169 <- RefManageR::ReadPubMed('31527169', database = 'PubMed')
+
+citation_31527169 <- paste0(PMID_31527169$journal,' ', PMID_31527169$year, ' ', PMID_31527169$month,';', PMID_31527169$volume,'(', PMID_31527169$number,'):', PMID_31527169$pages)
+
+PubMed_31527169 <- paste0(PubMedString, PMID_31527169$eprint)
+
+doi_31527169 <- paste0(doiString, PMID_31527169$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31527169$title`**
+</summary> 
+
+*`r citation_31527169`*
+
+`r PubMed_31527169`
+
+`r PMID_31527169$abstract`
+
+`r doi_31527169`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31502021, include=FALSE}
+
+PMID_31502021 <- RefManageR::ReadPubMed('31502021', database = 'PubMed')
+
+citation_31502021 <- paste0(PMID_31502021$journal,' ', PMID_31502021$year, ' ', PMID_31502021$month,';', PMID_31502021$volume,'(', PMID_31502021$number,'):', PMID_31502021$pages)
+
+PubMed_31502021 <- paste0(PubMedString, PMID_31502021$eprint)
+
+doi_31502021 <- paste0(doiString, PMID_31502021$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31502021$title`**
+</summary> 
+
+*`r citation_31502021`*
+
+`r PubMed_31502021`
+
+`r PMID_31502021$abstract`
+
+`r doi_31502021`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31499081, include=FALSE}
+
+PMID_31499081 <- RefManageR::ReadPubMed('31499081', database = 'PubMed')
+
+citation_31499081 <- paste0(PMID_31499081$journal,' ', PMID_31499081$year, ' ', PMID_31499081$month,';', PMID_31499081$volume,'(', PMID_31499081$number,'):', PMID_31499081$pages)
+
+PubMed_31499081 <- paste0(PubMedString, PMID_31499081$eprint)
+
+doi_31499081 <- paste0(doiString, PMID_31499081$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31499081$title`**
+</summary> 
+
+*`r citation_31499081`*
+
+`r PubMed_31499081`
+
+`r PMID_31499081$abstract`
+
+`r doi_31499081`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31493399, include=FALSE}
+
+PMID_31493399 <- RefManageR::ReadPubMed('31493399', database = 'PubMed')
+
+citation_31493399 <- paste0(PMID_31493399$journal,' ', PMID_31493399$year, ' ', PMID_31493399$month,';', PMID_31493399$volume,'(', PMID_31493399$number,'):', PMID_31493399$pages)
+
+PubMed_31493399 <- paste0(PubMedString, PMID_31493399$eprint)
+
+doi_31493399 <- paste0(doiString, PMID_31493399$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31493399$title`**
+</summary> 
+
+*`r citation_31493399`*
+
+`r PubMed_31493399`
+
+`r PMID_31493399$abstract`
+
+`r doi_31493399`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31489551, include=FALSE}
+
+PMID_31489551 <- RefManageR::ReadPubMed('31489551', database = 'PubMed')
+
+citation_31489551 <- paste0(PMID_31489551$journal,' ', PMID_31489551$year, ' ', PMID_31489551$month,';', PMID_31489551$volume,'(', PMID_31489551$number,'):', PMID_31489551$pages)
+
+PubMed_31489551 <- paste0(PubMedString, PMID_31489551$eprint)
+
+doi_31489551 <- paste0(doiString, PMID_31489551$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31489551$title`**
+</summary> 
+
+*`r citation_31489551`*
+
+`r PubMed_31489551`
+
+`r PMID_31489551$abstract`
+
+`r doi_31489551`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31465125, include=FALSE}
+
+PMID_31465125 <- RefManageR::ReadPubMed('31465125', database = 'PubMed')
+
+citation_31465125 <- paste0(PMID_31465125$journal,' ', PMID_31465125$year, ' ', PMID_31465125$month,';', PMID_31465125$volume,'(', PMID_31465125$number,'):', PMID_31465125$pages)
+
+PubMed_31465125 <- paste0(PubMedString, PMID_31465125$eprint)
+
+doi_31465125 <- paste0(doiString, PMID_31465125$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31465125$title`**
+</summary> 
+
+*`r citation_31465125`*
+
+`r PubMed_31465125`
+
+`r PMID_31465125$abstract`
+
+`r doi_31465125`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31463695, include=FALSE}
+
+PMID_31463695 <- RefManageR::ReadPubMed('31463695', database = 'PubMed')
+
+citation_31463695 <- paste0(PMID_31463695$journal,' ', PMID_31463695$year, ' ', PMID_31463695$month,';', PMID_31463695$volume,'(', PMID_31463695$number,'):', PMID_31463695$pages)
+
+PubMed_31463695 <- paste0(PubMedString, PMID_31463695$eprint)
+
+doi_31463695 <- paste0(doiString, PMID_31463695$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31463695$title`**
+</summary> 
+
+*`r citation_31463695`*
+
+`r PubMed_31463695`
+
+`r PMID_31463695$abstract`
+
+`r doi_31463695`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31442435, include=FALSE}
+
+PMID_31442435 <- RefManageR::ReadPubMed('31442435', database = 'PubMed')
+
+citation_31442435 <- paste0(PMID_31442435$journal,' ', PMID_31442435$year, ' ', PMID_31442435$month,';', PMID_31442435$volume,'(', PMID_31442435$number,'):', PMID_31442435$pages)
+
+PubMed_31442435 <- paste0(PubMedString, PMID_31442435$eprint)
+
+doi_31442435 <- paste0(doiString, PMID_31442435$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31442435$title`**
+</summary> 
+
+*`r citation_31442435`*
+
+`r PubMed_31442435`
+
+`r PMID_31442435$abstract`
+
+`r doi_31442435`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31440928, include=FALSE}
+
+PMID_31440928 <- RefManageR::ReadPubMed('31440928', database = 'PubMed')
+
+citation_31440928 <- paste0(PMID_31440928$journal,' ', PMID_31440928$year, ' ', PMID_31440928$month,';', PMID_31440928$volume,'(', PMID_31440928$number,'):', PMID_31440928$pages)
+
+PubMed_31440928 <- paste0(PubMedString, PMID_31440928$eprint)
+
+doi_31440928 <- paste0(doiString, PMID_31440928$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31440928$title`**
+</summary> 
+
+*`r citation_31440928`*
+
+`r PubMed_31440928`
+
+`r PMID_31440928$abstract`
+
+`r doi_31440928`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31439583, include=FALSE}
+
+PMID_31439583 <- RefManageR::ReadPubMed('31439583', database = 'PubMed')
+
+citation_31439583 <- paste0(PMID_31439583$journal,' ', PMID_31439583$year, ' ', PMID_31439583$month,';', PMID_31439583$volume,'(', PMID_31439583$number,'):', PMID_31439583$pages)
+
+PubMed_31439583 <- paste0(PubMedString, PMID_31439583$eprint)
+
+doi_31439583 <- paste0(doiString, PMID_31439583$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31439583$title`**
+</summary> 
+
+*`r citation_31439583`*
+
+`r PubMed_31439583`
+
+`r PMID_31439583$abstract`
+
+`r doi_31439583`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31418130, include=FALSE}
+
+PMID_31418130 <- RefManageR::ReadPubMed('31418130', database = 'PubMed')
+
+citation_31418130 <- paste0(PMID_31418130$journal,' ', PMID_31418130$year, ' ', PMID_31418130$month,';', PMID_31418130$volume,'(', PMID_31418130$number,'):', PMID_31418130$pages)
+
+PubMed_31418130 <- paste0(PubMedString, PMID_31418130$eprint)
+
+doi_31418130 <- paste0(doiString, PMID_31418130$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31418130$title`**
+</summary> 
+
+*`r citation_31418130`*
+
+`r PubMed_31418130`
+
+`r PMID_31418130$abstract`
+
+`r doi_31418130`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31415709, include=FALSE}
+
+PMID_31415709 <- RefManageR::ReadPubMed('31415709', database = 'PubMed')
+
+citation_31415709 <- paste0(PMID_31415709$journal,' ', PMID_31415709$year, ' ', PMID_31415709$month,';', PMID_31415709$volume,'(', PMID_31415709$number,'):', PMID_31415709$pages)
+
+PubMed_31415709 <- paste0(PubMedString, PMID_31415709$eprint)
+
+doi_31415709 <- paste0(doiString, PMID_31415709$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31415709$title`**
+</summary> 
+
+*`r citation_31415709`*
+
+`r PubMed_31415709`
+
+`r PMID_31415709$abstract`
+
+`r doi_31415709`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31414989, include=FALSE}
+
+PMID_31414989 <- RefManageR::ReadPubMed('31414989', database = 'PubMed')
+
+citation_31414989 <- paste0(PMID_31414989$journal,' ', PMID_31414989$year, ' ', PMID_31414989$month,';', PMID_31414989$volume,'(', PMID_31414989$number,'):', PMID_31414989$pages)
+
+PubMed_31414989 <- paste0(PubMedString, PMID_31414989$eprint)
+
+doi_31414989 <- paste0(doiString, PMID_31414989$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31414989$title`**
+</summary> 
+
+*`r citation_31414989`*
+
+`r PubMed_31414989`
+
+`r PMID_31414989$abstract`
+
+`r doi_31414989`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31409893, include=FALSE}
+
+PMID_31409893 <- RefManageR::ReadPubMed('31409893', database = 'PubMed')
+
+citation_31409893 <- paste0(PMID_31409893$journal,' ', PMID_31409893$year, ' ', PMID_31409893$month,';', PMID_31409893$volume,'(', PMID_31409893$number,'):', PMID_31409893$pages)
+
+PubMed_31409893 <- paste0(PubMedString, PMID_31409893$eprint)
+
+doi_31409893 <- paste0(doiString, PMID_31409893$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31409893$title`**
+</summary> 
+
+*`r citation_31409893`*
+
+`r PubMed_31409893`
+
+`r PMID_31409893$abstract`
+
+`r doi_31409893`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31407529, include=FALSE}
+
+PMID_31407529 <- RefManageR::ReadPubMed('31407529', database = 'PubMed')
+
+citation_31407529 <- paste0(PMID_31407529$journal,' ', PMID_31407529$year, ' ', PMID_31407529$month,';', PMID_31407529$volume,'(', PMID_31407529$number,'):', PMID_31407529$pages)
+
+PubMed_31407529 <- paste0(PubMedString, PMID_31407529$eprint)
+
+doi_31407529 <- paste0(doiString, PMID_31407529$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31407529$title`**
+</summary> 
+
+*`r citation_31407529`*
+
+`r PubMed_31407529`
+
+`r PMID_31407529$abstract`
+
+`r doi_31407529`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31338587, include=FALSE}
+
+PMID_31338587 <- RefManageR::ReadPubMed('31338587', database = 'PubMed')
+
+citation_31338587 <- paste0(PMID_31338587$journal,' ', PMID_31338587$year, ' ', PMID_31338587$month,';', PMID_31338587$volume,'(', PMID_31338587$number,'):', PMID_31338587$pages)
+
+PubMed_31338587 <- paste0(PubMedString, PMID_31338587$eprint)
+
+doi_31338587 <- paste0(doiString, PMID_31338587$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31338587$title`**
+</summary> 
+
+*`r citation_31338587`*
+
+`r PubMed_31338587`
+
+`r PMID_31338587$abstract`
+
+`r doi_31338587`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31317311, include=FALSE}
+
+PMID_31317311 <- RefManageR::ReadPubMed('31317311', database = 'PubMed')
+
+citation_31317311 <- paste0(PMID_31317311$journal,' ', PMID_31317311$year, ' ', PMID_31317311$month,';', PMID_31317311$volume,'(', PMID_31317311$number,'):', PMID_31317311$pages)
+
+PubMed_31317311 <- paste0(PubMedString, PMID_31317311$eprint)
+
+doi_31317311 <- paste0(doiString, PMID_31317311$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31317311$title`**
+</summary> 
+
+*`r citation_31317311`*
+
+`r PubMed_31317311`
+
+`r PMID_31317311$abstract`
+
+`r doi_31317311`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 31285527, include=FALSE}
+
+PMID_31285527 <- RefManageR::ReadPubMed('31285527', database = 'PubMed')
+
+citation_31285527 <- paste0(PMID_31285527$journal,' ', PMID_31285527$year, ' ', PMID_31285527$month,';', PMID_31285527$volume,'(', PMID_31285527$number,'):', PMID_31285527$pages)
+
+PubMed_31285527 <- paste0(PubMedString, PMID_31285527$eprint)
+
+doi_31285527 <- paste0(doiString, PMID_31285527$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31285527$title`**
+</summary> 
+
+*`r citation_31285527`*
+
+`r PubMed_31285527`
+
+`r PMID_31285527$abstract`
+
+`r doi_31285527`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 30872392, include=FALSE}
+
+PMID_30872392 <- RefManageR::ReadPubMed('30872392', database = 'PubMed')
+
+citation_30872392 <- paste0(PMID_30872392$journal,' ', PMID_30872392$year, ' ', PMID_30872392$month,';', PMID_30872392$volume,'(', PMID_30872392$number,'):', PMID_30872392$pages)
+
+PubMed_30872392 <- paste0(PubMedString, PMID_30872392$eprint)
+
+doi_30872392 <- paste0(doiString, PMID_30872392$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30872392$title`**
+</summary> 
+
+*`r citation_30872392`*
+
+`r PubMed_30872392`
+
+`r PMID_30872392$abstract`
+
+`r doi_30872392`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 30805710, include=FALSE}
+
+PMID_30805710 <- RefManageR::ReadPubMed('30805710', database = 'PubMed')
+
+citation_30805710 <- paste0(PMID_30805710$journal,' ', PMID_30805710$year, ' ', PMID_30805710$month,';', PMID_30805710$volume,'(', PMID_30805710$number,'):', PMID_30805710$pages)
+
+PubMed_30805710 <- paste0(PubMedString, PMID_30805710$eprint)
+
+doi_30805710 <- paste0(doiString, PMID_30805710$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_30805710$title`**
+</summary> 
+
+*`r citation_30805710`*
+
+`r PubMed_30805710`
+
+`r PMID_30805710$abstract`
+
+`r doi_30805710`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 29771723, include=FALSE}
+
+PMID_29771723 <- RefManageR::ReadPubMed('29771723', database = 'PubMed')
+
+citation_29771723 <- paste0(PMID_29771723$journal,' ', PMID_29771723$year, ' ', PMID_29771723$month,';', PMID_29771723$volume,'(', PMID_29771723$number,'):', PMID_29771723$pages)
+
+PubMed_29771723 <- paste0(PubMedString, PMID_29771723$eprint)
+
+doi_29771723 <- paste0(doiString, PMID_29771723$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29771723$title`**
+</summary> 
+
+*`r citation_29771723`*
+
+`r PubMed_29771723`
+
+`r PMID_29771723$abstract`
+
+`r doi_29771723`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 29672406, include=FALSE}
+
+PMID_29672406 <- RefManageR::ReadPubMed('29672406', database = 'PubMed')
+
+citation_29672406 <- paste0(PMID_29672406$journal,' ', PMID_29672406$year, ' ', PMID_29672406$month,';', PMID_29672406$volume,'(', PMID_29672406$number,'):', PMID_29672406$pages)
+
+PubMed_29672406 <- paste0(PubMedString, PMID_29672406$eprint)
+
+doi_29672406 <- paste0(doiString, PMID_29672406$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_29672406$title`**
+</summary> 
+
+*`r citation_29672406`*
+
+`r PubMed_29672406`
+
+`r PMID_29672406$abstract`
+
+`r doi_29672406`
 
 </details>
 
