@@ -385,6 +385,36 @@ PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
 
 ---
 
+```{r pancreas 31855317, include=FALSE}
+
+PMID_31855317 <- RefManageR::ReadPubMed('31855317', database = 'PubMed')
+
+citation_31855317 <- paste0(PMID_31855317$journal,' ', PMID_31855317$year, ' ', PMID_31855317$month,';', PMID_31855317$volume,'(', PMID_31855317$number,'):', PMID_31855317$pages)
+
+PubMed_31855317 <- paste0(PubMedString, PMID_31855317$eprint)
+
+doi_31855317 <- paste0(doiString, PMID_31855317$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31855317$title`**
+</summary> 
+
+*`r citation_31855317`*
+
+`r PubMed_31855317`
+
+`r PMID_31855317$abstract`
+
+`r doi_31855317`
+
+</details>
+
+---
+
 
 
 
@@ -425,6 +455,37 @@ PanNET TNM staging, Margins, Survival
 
 
 
+---
+
+```{r pancreas 31838609, include=FALSE}
+
+PMID_31838609 <- RefManageR::ReadPubMed('31838609', database = 'PubMed')
+
+citation_31838609 <- paste0(PMID_31838609$journal,' ', PMID_31838609$year, ' ', PMID_31838609$month,';', PMID_31838609$volume,'(', PMID_31838609$number,'):', PMID_31838609$pages)
+
+PubMed_31838609 <- paste0(PubMedString, PMID_31838609$eprint)
+
+doi_31838609 <- paste0(doiString, PMID_31838609$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31838609$title`**
+</summary> 
+
+*`r citation_31838609`*
+
+`r PubMed_31838609`
+
+`r PMID_31838609$abstract`
+
+`r doi_31838609`
+
+</details>
+
+---
 
 
 
@@ -545,6 +606,37 @@ PanNET TNM staging, Margins, Survival
 
 ---
 
+```{r pancreas 31846235, include=FALSE}
+
+PMID_31846235 <- RefManageR::ReadPubMed('31846235', database = 'PubMed')
+
+citation_31846235 <- paste0(PMID_31846235$journal,' ', PMID_31846235$year, ' ', PMID_31846235$month,';', PMID_31846235$volume,'(', PMID_31846235$number,'):', PMID_31846235$pages)
+
+PubMed_31846235 <- paste0(PubMedString, PMID_31846235$eprint)
+
+doi_31846235 <- paste0(doiString, PMID_31846235$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31846235$title`**
+</summary> 
+
+*`r citation_31846235`*
+
+`r PubMed_31846235`
+
+`r PMID_31846235$abstract`
+
+`r doi_31846235`
+
+</details>
+
+---
+
+
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -568,6 +660,37 @@ PanNET TNM staging, Margins, Survival
 
 
 ---
+
+```{r pancreas 31848187, include=FALSE}
+
+PMID_31848187 <- RefManageR::ReadPubMed('31848187', database = 'PubMed')
+
+citation_31848187 <- paste0(PMID_31848187$journal,' ', PMID_31848187$year, ' ', PMID_31848187$month,';', PMID_31848187$volume,'(', PMID_31848187$number,'):', PMID_31848187$pages)
+
+PubMed_31848187 <- paste0(PubMedString, PMID_31848187$eprint)
+
+doi_31848187 <- paste0(doiString, PMID_31848187$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31848187$title`**
+</summary> 
+
+*`r citation_31848187`*
+
+`r PubMed_31848187`
+
+`r PMID_31848187$abstract`
+
+`r doi_31848187`
+
+</details>
+
+---
+
 
 
 <a href="#top" target="_self">Back to top</a>
