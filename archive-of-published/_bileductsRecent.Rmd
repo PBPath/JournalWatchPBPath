@@ -35,39 +35,6 @@ Sys.sleep(2)
 
 
 
----
-
-```{r bileducts 31834956, include=FALSE}
-
-PMID_31834956 <- RefManageR::ReadPubMed('31834956', database = 'PubMed')
-
-citation_31834956 <- paste0(PMID_31834956$journal,' ', PMID_31834956$year, ' ', PMID_31834956$month,';', PMID_31834956$volume,'(', PMID_31834956$number,'):', PMID_31834956$pages)
-
-PubMed_31834956 <- paste0(PubMedString, PMID_31834956$eprint)
-
-doi_31834956 <- paste0(doiString, PMID_31834956$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31834956$title`**
-</summary> 
-
-*`r citation_31834956`*
-
-`r PubMed_31834956`
-
-`r PMID_31834956$abstract`
-
-`r doi_31834956`
-
-</details>
-
----
-
-
 
 
 ---
@@ -1295,38 +1262,6 @@ Sys.sleep(2)
 
 
 
----
-
-```{r bileducts 31081949, include=FALSE}
-
-PMID_31081949 <- RefManageR::ReadPubMed('31081949', database = 'PubMed')
-
-citation_31081949 <- paste0(PMID_31081949$journal,' ', PMID_31081949$year, ' ', PMID_31081949$month,';', PMID_31081949$volume,'(', PMID_31081949$number,'):', PMID_31081949$pages)
-
-PubMed_31081949 <- paste0(PubMedString, PMID_31081949$eprint)
-
-doi_31081949 <- paste0(doiString, PMID_31081949$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31081949$title`**
-</summary> 
-
-*`r citation_31081949`*
-
-`r PubMed_31081949`
-
-`r PMID_31081949$abstract`
-
-`r doi_31081949`
-
-</details>
-
----
-
 
 
 
@@ -1643,39 +1578,6 @@ Sys.sleep(2)
 ---
 
 
-
-
----
-
-```{r bileducts 31116517, include=FALSE}
-
-PMID_31116517 <- RefManageR::ReadPubMed('31116517', database = 'PubMed')
-
-citation_31116517 <- paste0(PMID_31116517$journal,' ', PMID_31116517$year, ' ', PMID_31116517$month,';', PMID_31116517$volume,'(', PMID_31116517$number,'):', PMID_31116517$pages)
-
-PubMed_31116517 <- paste0(PubMedString, PMID_31116517$eprint)
-
-doi_31116517 <- paste0(doiString, PMID_31116517$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31116517$title`**
-</summary> 
-
-*`r citation_31116517`*
-
-`r PubMed_31116517`
-
-`r PMID_31116517$abstract`
-
-`r doi_31116517`
-
-</details>
-
----
 
 
 
