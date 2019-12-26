@@ -1,22 +1,26 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
+  html_document:
+    df_print: kable
+    highlight: null
+    keep_md: yes
   html_notebook: 
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
-  pdf_document:
+  pdf_document: 
     keep_tex: yes
-    latex_engine: xelatex
     toc: yes
     toc_depth: 5
-  html_document:
-    df_print: kable
-    highlight: null
-    keep_md: yes
+    number_sections: yes
+    fig_crop: no
+    latex_engine: xelatex
   word_document:
     toc: yes
+header-includes:
+  - \renewcommand{\linethickness}{0.05em}
 date: "Last Update on `r format(Sys.Date())`"
 subtitle: "October November December 2019"
 ---
@@ -45,7 +49,7 @@ articles <- readRDS("articles.rds")
 
 ---
 
-# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
+# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills #pbpath_jw}
 
 
 ```{r strings , include=FALSE}
@@ -76,16 +80,16 @@ We encourage members to actively participate by recommending new articles and pr
 
 
 
-## Surgical Pathology {.tabset}
+## Surgical Pathology {.tabset #surgical_pathology}
 
 ---
 
-### Pancreas
+### Pancreas {#pancreas}
 
 
 ---
 
-#### Morphology, Diagnostics, IHC
+#### Morphology, Diagnostics, IHC {#pancreas_morphology}
 
 Morphology, Diagnostics, IHC
 
@@ -158,6 +162,42 @@ Sys.sleep(2)
 
 
 
+
+
+---
+
+```{r pancreas 31676785, include=FALSE}
+
+PMID_31676785 <- RefManageR::ReadPubMed('31676785', database = 'PubMed')
+
+citation_31676785 <- paste0(PMID_31676785$journal,' ', PMID_31676785$year, ' ', PMID_31676785$month,';', PMID_31676785$volume,'(', PMID_31676785$number,'):', PMID_31676785$pages)
+
+PubMed_31676785 <- paste0(PubMedString, PMID_31676785$eprint)
+
+doi_31676785 <- paste0(doiString, PMID_31676785$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31676785$title`**
+</summary> 
+
+*`r citation_31676785`*
+
+`r PubMed_31676785`
+
+`r PMID_31676785$abstract`
+
+`r doi_31676785`
+
+</details>
+
+
+
+
+
 ---
 
 ```{r pancreas 31338587, include=FALSE}
@@ -218,38 +258,6 @@ Sys.sleep(2)
 `r doi_31285527`
 
 </details>
-
-
----
-
-```{r pancreas 31723240, include=FALSE}
-
-PMID_31723240 <- RefManageR::ReadPubMed('31723240', database = 'PubMed')
-
-citation_31723240 <- paste0(PMID_31723240$journal,' ', PMID_31723240$year, ' ', PMID_31723240$month,';', PMID_31723240$volume,'(', PMID_31723240$number,'):', PMID_31723240$pages)
-
-PubMed_31723240 <- paste0(PubMedString, PMID_31723240$eprint)
-
-doi_31723240 <- paste0(doiString, PMID_31723240$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31723240$title`**
-</summary> 
-
-*`r citation_31723240`*
-
-`r PubMed_31723240`
-
-`r PMID_31723240$abstract`
-
-`r doi_31723240`
-
-</details>
-
 
 
 ---
@@ -333,7 +341,7 @@ Sys.sleep(2)
 
 \pagebreak
 
-#### Staging
+#### Staging {#pancreas_staging}
 
 Pancreas TNM staging, Margins, Survival
 
@@ -370,38 +378,6 @@ Sys.sleep(2)
 `r doi_29672406`
 
 </details>
-
-
----
-
-```{r pancreas 31690145, include=FALSE}
-
-PMID_31690145 <- RefManageR::ReadPubMed('31690145', database = 'PubMed')
-
-citation_31690145 <- paste0(PMID_31690145$journal,' ', PMID_31690145$year, ' ', PMID_31690145$month,';', PMID_31690145$volume,'(', PMID_31690145$number,'):', PMID_31690145$pages)
-
-PubMed_31690145 <- paste0(PubMedString, PMID_31690145$eprint)
-
-doi_31690145 <- paste0(doiString, PMID_31690145$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31690145$title`**
-</summary> 
-
-*`r citation_31690145`*
-
-`r PubMed_31690145`
-
-`r PMID_31690145$abstract`
-
-`r doi_31690145`
-
-</details>
-
 
 
 ---
@@ -449,7 +425,7 @@ Sys.sleep(2)
 \pagebreak
 
 
-#### Preneoplastic and Preinvasive Lesions 
+#### Preneoplastic and Preinvasive Lesions {#pancreas_preinvasive}
 
 Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
 
@@ -492,45 +468,7 @@ Sys.sleep(2)
 
 </details>
 
-
 ---
-
-```{r pancreas 31175918, include=FALSE}
-
-PMID_31175918 <- RefManageR::ReadPubMed('31175918', database = 'PubMed')
-
-citation_31175918 <- paste0(PMID_31175918$journal,' ', PMID_31175918$year, ' ', PMID_31175918$month,';', PMID_31175918$volume,'(', PMID_31175918$number,'):', PMID_31175918$pages)
-
-PubMed_31175918 <- paste0(PubMedString, PMID_31175918$eprint)
-
-doi_31175918 <- paste0(doiString, PMID_31175918$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31175918$title`**
-</summary> 
-
-*`r citation_31175918`*
-
-`r PubMed_31175918`
-
-`r PMID_31175918$abstract`
-
-`r doi_31175918`
-
-</details>
-
----
-
-
-
-
-
-
-
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -538,244 +476,6 @@ Sys.sleep(2)
 ---
 
 \pagebreak
-
-
-#### Microenvironment 
-
-Tumor Stroma Interactions, Microenvironment, Inflammatory Response
-
-```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-```{r pancreas 31700162, include=FALSE}
-
-PMID_31700162 <- RefManageR::ReadPubMed('31700162', database = 'PubMed')
-
-citation_31700162 <- paste0(PMID_31700162$journal,' ', PMID_31700162$year, ' ', PMID_31700162$month,';', PMID_31700162$volume,'(', PMID_31700162$number,'):', PMID_31700162$pages)
-
-PubMed_31700162 <- paste0(PubMedString, PMID_31700162$eprint)
-
-doi_31700162 <- paste0(doiString, PMID_31700162$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31700162$title`**
-</summary> 
-
-*`r citation_31700162`*
-
-`r PubMed_31700162`
-
-`r PMID_31700162$abstract`
-
-`r doi_31700162`
-
-</details>
-
-
-
----
-
-```{r pancreas 31186528, include=FALSE}
-
-PMID_31186528 <- RefManageR::ReadPubMed('31186528', database = 'PubMed')
-
-citation_31186528 <- paste0(PMID_31186528$journal,' ', PMID_31186528$year, ' ', PMID_31186528$month,';', PMID_31186528$volume,'(', PMID_31186528$number,'):', PMID_31186528$pages)
-
-PubMed_31186528 <- paste0(PubMedString, PMID_31186528$eprint)
-
-doi_31186528 <- paste0(doiString, PMID_31186528$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31186528$title`**
-</summary> 
-
-*`r citation_31186528`*
-
-`r PubMed_31186528`
-
-`r PMID_31186528$abstract`
-
-`r doi_31186528`
-
-</details>
-
-
-
-
----
-
-```{r pancreas 31121193, include=FALSE}
-
-PMID_31121193 <- RefManageR::ReadPubMed('31121193', database = 'PubMed')
-
-citation_31121193 <- paste0(PMID_31121193$journal,' ', PMID_31121193$year, ' ', PMID_31121193$month,';', PMID_31121193$volume,'(', PMID_31121193$number,'):', PMID_31121193$pages)
-
-PubMed_31121193 <- paste0(PubMedString, PMID_31121193$eprint)
-
-doi_31121193 <- paste0(doiString, PMID_31121193$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31121193$title`**
-</summary> 
-
-*`r citation_31121193`*
-
-`r PubMed_31121193`
-
-`r PMID_31121193$abstract`
-
-`r doi_31121193`
-
-</details>
-
----
-
-
-
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### SPN
-
-Solid Pseudopapillary Neoplasm
-
-```{r S SPN Solid Pseudopapillary Neoplasm, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Analogue Tumors & Lesions
-
-
-```{r S Pancreas Analogue Tumors Lesions, eval=FALSE, include=FALSE}
-```
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Pancreatitis & Other Diseases
-
-```{r Pancreas Pancreatitis & Other Diseases, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-```{r pancreas 31771513, include=FALSE}
-
-PMID_31771513 <- RefManageR::ReadPubMed('31771513', database = 'PubMed')
-
-citation_31771513 <- paste0(PMID_31771513$journal,' ', PMID_31771513$year, ' ', PMID_31771513$month,';', PMID_31771513$volume,'(', PMID_31771513$number,'):', PMID_31771513$pages)
-
-PubMed_31771513 <- paste0(PubMedString, PMID_31771513$eprint)
-
-doi_31771513 <- paste0(doiString, PMID_31771513$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31771513$title`**
-</summary> 
-
-*`r citation_31771513`*
-
-`r PubMed_31771513`
-
-`r PMID_31771513$abstract`
-
-`r doi_31771513`
-
-</details>
-
-
-
-
----
-
-```{r pancreas 31414989, include=FALSE}
-
-PMID_31414989 <- RefManageR::ReadPubMed('31414989', database = 'PubMed')
-
-citation_31414989 <- paste0(PMID_31414989$journal,' ', PMID_31414989$year, ' ', PMID_31414989$month,';', PMID_31414989$volume,'(', PMID_31414989$number,'):', PMID_31414989$pages)
-
-PubMed_31414989 <- paste0(PubMedString, PMID_31414989$eprint)
-
-doi_31414989 <- paste0(doiString, PMID_31414989$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31414989$title`**
-</summary> 
-
-*`r citation_31414989`*
-
-`r PubMed_31414989`
-
-`r PMID_31414989$abstract`
-
-`r doi_31414989`
-
-</details>
-
----
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
 
 
 
@@ -1074,39 +774,6 @@ Sys.sleep(2)
 </details>
 
 
-
----
-
-```{r gallbladder 31745968, include=FALSE}
-
-PMID_31745968 <- RefManageR::ReadPubMed('31745968', database = 'PubMed')
-
-citation_31745968 <- paste0(PMID_31745968$journal,' ', PMID_31745968$year, ' ', PMID_31745968$month,';', PMID_31745968$volume,'(', PMID_31745968$number,'):', PMID_31745968$pages)
-
-PubMed_31745968 <- paste0(PubMedString, PMID_31745968$eprint)
-
-doi_31745968 <- paste0(doiString, PMID_31745968$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31745968$title`**
-</summary> 
-
-*`r citation_31745968`*
-
-`r PubMed_31745968`
-
-`r PMID_31745968$abstract`
-
-`r doi_31745968`
-
-</details>
-
-
-
 ---
 
 ```{r gallbladder 31600399, include=FALSE}
@@ -1202,40 +869,6 @@ Sys.sleep(2)
 </details>
 
 
-
-
----
-
-
-```{r gallbladder 31044440, include=FALSE}
-
-PMID_31044440 <- RefManageR::ReadPubMed('31044440', database = 'PubMed')
-
-citation_31044440 <- paste0(PMID_31044440$journal,' ', PMID_31044440$year, ' ', PMID_31044440$month,';', PMID_31044440$volume,'(', PMID_31044440$number,'):', PMID_31044440$pages)
-
-PubMed_31044440 <- paste0(PubMedString, PMID_31044440$eprint)
-
-doi_31044440 <- paste0(doiString, PMID_31044440$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31044440$title`**
-</summary> 
-
-*`r citation_31044440`*
-
-`r PubMed_31044440`
-
-`r PMID_31044440$abstract`
-
-`r doi_31044440`
-
-</details>
-
-
 ---
 
 ```{r gallbladder 30882917, include=FALSE}
@@ -1265,70 +898,6 @@ Sys.sleep(2)
 `r doi_30882917`
 
 </details>
-
-
-
----
-
-```{r gallbladder 31189015, include=FALSE}
-
-PMID_31189015 <- RefManageR::ReadPubMed('31189015', database = 'PubMed')
-
-citation_31189015 <- paste0(PMID_31189015$journal,' ', PMID_31189015$year, ' ', PMID_31189015$month,';', PMID_31189015$volume,'(', PMID_31189015$number,'):', PMID_31189015$pages)
-
-PubMed_31189015 <- paste0(PubMedString, PMID_31189015$eprint)
-
-doi_31189015 <- paste0(doiString, PMID_31189015$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31189015$title`**
-</summary> 
-
-*`r citation_31189015`*
-
-`r PubMed_31189015`
-
-`r PMID_31189015$abstract`
-
-`r doi_31189015`
-
-</details>
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-#### Staging
-
-Gallbladder TNM staging, Margins, Survival
-
-```{r Gallbladder TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
-
 
 ---
 
@@ -1433,22 +1002,6 @@ Sys.sleep(2)
 
 \pagebreak
 
-#### Staging
-
-Ampulla of Vater TNM staging, Margins, Survival
-
-```{r Ampulla of Vater TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
 
 ### Neuroendocrine
 
@@ -1461,70 +1014,6 @@ PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
 
 ```{r S PanNET Neuroendocrine, eval=FALSE, include=FALSE}
 ```
-
-
-
----
-
-```{r pancreas 31855317, include=FALSE}
-
-PMID_31855317 <- RefManageR::ReadPubMed('31855317', database = 'PubMed')
-
-citation_31855317 <- paste0(PMID_31855317$journal,' ', PMID_31855317$year, ' ', PMID_31855317$month,';', PMID_31855317$volume,'(', PMID_31855317$number,'):', PMID_31855317$pages)
-
-PubMed_31855317 <- paste0(PubMedString, PMID_31855317$eprint)
-
-doi_31855317 <- paste0(doiString, PMID_31855317$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31855317$title`**
-</summary> 
-
-*`r citation_31855317`*
-
-`r PubMed_31855317`
-
-`r PMID_31855317$abstract`
-
-`r doi_31855317`
-
-</details>
-
-
----
-
-```{r pancreas 31672292, include=FALSE}
-
-PMID_31672292 <- RefManageR::ReadPubMed('31672292', database = 'PubMed')
-
-citation_31672292 <- paste0(PMID_31672292$journal,' ', PMID_31672292$year, ' ', PMID_31672292$month,';', PMID_31672292$volume,'(', PMID_31672292$number,'):', PMID_31672292$pages)
-
-PubMed_31672292 <- paste0(PubMedString, PMID_31672292$eprint)
-
-doi_31672292 <- paste0(doiString, PMID_31672292$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31672292$title`**
-</summary> 
-
-*`r citation_31672292`*
-
-`r PubMed_31672292`
-
-`r PMID_31672292$abstract`
-
-`r doi_31672292`
-
-</details>
-
 
 
 ---
@@ -1558,44 +1047,7 @@ Sys.sleep(2)
 </details>
 
 
-
 ---
-
-```{r pancreas 31020988, include=FALSE}
-
-PMID_31020988 <- RefManageR::ReadPubMed('31020988', database = 'PubMed')
-
-citation_31020988 <- paste0(PMID_31020988$journal,' ', PMID_31020988$year, ' ', PMID_31020988$month,';', PMID_31020988$volume,'(', PMID_31020988$number,'):', PMID_31020988$pages)
-
-PubMed_31020988 <- paste0(PubMedString, PMID_31020988$eprint)
-
-doi_31020988 <- paste0(doiString, PMID_31020988$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31020988$title`**
-</summary> 
-
-*`r citation_31020988`*
-
-`r PubMed_31020988`
-
-`r PMID_31020988$abstract`
-
-`r doi_31020988`
-
-</details>
-
----
-
-
-
-
-
-
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -1604,25 +1056,6 @@ Sys.sleep(2)
 
 \pagebreak
 
-
-
-
-#### Microenvironment 
-
-Tumor Stroma Interactions, Microenvironment, Inflammatory Response
-
-```{r S Tumor Stroma Interactions Microenvironment Inflammatory Response, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
 #### Staging
@@ -1726,38 +1159,6 @@ Sys.sleep(2)
 </details>
 
 
-
----
-
-```{r pancreas 31788890, include=FALSE}
-
-PMID_31788890 <- RefManageR::ReadPubMed('31788890', database = 'PubMed')
-
-citation_31788890 <- paste0(PMID_31788890$journal,' ', PMID_31788890$year, ' ', PMID_31788890$month,';', PMID_31788890$volume,'(', PMID_31788890$number,'):', PMID_31788890$pages)
-
-PubMed_31788890 <- paste0(PubMedString, PMID_31788890$eprint)
-
-doi_31788890 <- paste0(doiString, PMID_31788890$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31788890$title`**
-</summary> 
-
-*`r citation_31788890`*
-
-`r PubMed_31788890`
-
-`r PMID_31788890$abstract`
-
-`r doi_31788890`
-
-</details>
-
-
 ---
 
 ```{r pancreas 31785091, include=FALSE}
@@ -1785,71 +1186,6 @@ Sys.sleep(2)
 `r PMID_31785091$abstract`
 
 `r doi_31785091`
-
-</details>
-
-
-
----
-
-```{r pancreas 31774250, include=FALSE}
-
-PMID_31774250 <- RefManageR::ReadPubMed('31774250', database = 'PubMed')
-
-citation_31774250 <- paste0(PMID_31774250$journal,' ', PMID_31774250$year, ' ', PMID_31774250$month,';', PMID_31774250$volume,'(', PMID_31774250$number,'):', PMID_31774250$pages)
-
-PubMed_31774250 <- paste0(PubMedString, PMID_31774250$eprint)
-
-doi_31774250 <- paste0(doiString, PMID_31774250$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31774250$title`**
-</summary> 
-
-*`r citation_31774250`*
-
-`r PubMed_31774250`
-
-`r PMID_31774250$abstract`
-
-`r doi_31774250`
-
-</details>
-
-
-
-
----
-
-```{r pancreas 31599130, include=FALSE}
-
-PMID_31599130 <- RefManageR::ReadPubMed('31599130', database = 'PubMed')
-
-citation_31599130 <- paste0(PMID_31599130$journal,' ', PMID_31599130$year, ' ', PMID_31599130$month,';', PMID_31599130$volume,'(', PMID_31599130$number,'):', PMID_31599130$pages)
-
-PubMed_31599130 <- paste0(PubMedString, PMID_31599130$eprint)
-
-doi_31599130 <- paste0(doiString, PMID_31599130$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31599130$title`**
-</summary> 
-
-*`r citation_31599130`*
-
-`r PubMed_31599130`
-
-`r PMID_31599130$abstract`
-
-`r doi_31599130`
 
 </details>
 
@@ -1936,155 +1272,6 @@ Sys.sleep(2)
 \pagebreak
 
 
-
-
-
-### Ampulla Duodenum
-
-```{r C Ampulla Duodenum, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-
-
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
-
-
-### Bile Ducts
-
-```{r C Bile Ducts, eval=FALSE, include=FALSE}
-```
-
-
-
-
----
-
-```{r bileducts 31116517, include=FALSE}
-
-PMID_31116517 <- RefManageR::ReadPubMed('31116517', database = 'PubMed')
-
-citation_31116517 <- paste0(PMID_31116517$journal,' ', PMID_31116517$year, ' ', PMID_31116517$month,';', PMID_31116517$volume,'(', PMID_31116517$number,'):', PMID_31116517$pages)
-
-PubMed_31116517 <- paste0(PubMedString, PMID_31116517$eprint)
-
-doi_31116517 <- paste0(doiString, PMID_31116517$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31116517$title`**
-</summary> 
-
-*`r citation_31116517`*
-
-`r PubMed_31116517`
-
-`r PMID_31116517$abstract`
-
-`r doi_31116517`
-
-</details>
-
----
-
-
-
-
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Gallbladder
-
-```{r C Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Neuroendocrine
-
-```{r C Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-```{r pancreas 31846235, include=FALSE}
-
-PMID_31846235 <- RefManageR::ReadPubMed('31846235', database = 'PubMed')
-
-citation_31846235 <- paste0(PMID_31846235$journal,' ', PMID_31846235$year, ' ', PMID_31846235$month,';', PMID_31846235$volume,'(', PMID_31846235$number,'):', PMID_31846235$pages)
-
-PubMed_31846235 <- paste0(PubMedString, PMID_31846235$eprint)
-
-doi_31846235 <- paste0(doiString, PMID_31846235$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31846235$title`**
-</summary> 
-
-*`r citation_31846235`*
-
-`r PubMed_31846235`
-
-`r PMID_31846235$abstract`
-
-`r doi_31846235`
-
-</details>
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 ## Molecular Pathology {.tabset}
 
@@ -2194,43 +1381,7 @@ Sys.sleep(2)
 
 </details>
 
-
-
 ---
-
-```{r pancreas 31521627, include=FALSE}
-
-PMID_31521627 <- RefManageR::ReadPubMed('31521627', database = 'PubMed')
-
-citation_31521627 <- paste0(PMID_31521627$journal,' ', PMID_31521627$year, ' ', PMID_31521627$month,';', PMID_31521627$volume,'(', PMID_31521627$number,'):', PMID_31521627$pages)
-
-PubMed_31521627 <- paste0(PubMedString, PMID_31521627$eprint)
-
-doi_31521627 <- paste0(doiString, PMID_31521627$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31521627$title`**
-</summary> 
-
-*`r citation_31521627`*
-
-`r PubMed_31521627`
-
-`r PMID_31521627$abstract`
-
-`r doi_31521627`
-
-</details>
-
----
-
-
-
-
 
 
 <a href="#top" target="_self">Back to top</a>
@@ -2268,46 +1419,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/30811747
 \pagebreak
 
 
-#### Pancreatitis & Other Diseases
 
-Molecular Studies on Pancreatitis & Other Diseases
-
-```{r Molecular Studies on Pancreatitis & Other Diseases, eval=FALSE, include=FALSE}
-```
-
-
-
-
-
-
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-#### Molecular Research on Microenvironment 
-
-Tumor Stroma Interactions, Microenvironment, Inflammatory Response, Microbiome
-
-```{r Molecular Tumor Stroma Interactions Microenvironment Inflammatory Response Microbiome, eval=FALSE, include=FALSE}
-```
-
-
-
-
----
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 
 #### Preneoplastic and Preinvasive Lesions 
@@ -2316,40 +1428,6 @@ Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICP
 
 ```{r Molecular Pancreas Preneoplastic and Preinvasive Lesions IPMN MCN ITPN IOPN,  eval=FALSE, include=FALSE}
 ```
-
-
-
-
----
-
-```{r pancreas 31676785, include=FALSE}
-
-PMID_31676785 <- RefManageR::ReadPubMed('31676785', database = 'PubMed')
-
-citation_31676785 <- paste0(PMID_31676785$journal,' ', PMID_31676785$year, ' ', PMID_31676785$month,';', PMID_31676785$volume,'(', PMID_31676785$number,'):', PMID_31676785$pages)
-
-PubMed_31676785 <- paste0(PubMedString, PMID_31676785$eprint)
-
-doi_31676785 <- paste0(doiString, PMID_31676785$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31676785$title`**
-</summary> 
-
-*`r citation_31676785`*
-
-`r PubMed_31676785`
-
-`r PMID_31676785$abstract`
-
-`r doi_31676785`
-
-</details>
-
 
 
 
@@ -2476,37 +1554,6 @@ Sys.sleep(2)
 </details>
 
 
-
----
-
-```{r pancreas 31017316, include=FALSE}
-
-PMID_31017316 <- RefManageR::ReadPubMed('31017316', database = 'PubMed')
-
-citation_31017316 <- paste0(PMID_31017316$journal,' ', PMID_31017316$year, ' ', PMID_31017316$month,';', PMID_31017316$volume,'(', PMID_31017316$number,'):', PMID_31017316$pages)
-
-PubMed_31017316 <- paste0(PubMedString, PMID_31017316$eprint)
-
-doi_31017316 <- paste0(doiString, PMID_31017316$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31017316$title`**
-</summary> 
-
-*`r citation_31017316`*
-
-`r PubMed_31017316`
-
-`r PMID_31017316$abstract`
-
-`r doi_31017316`
-
-</details>
-
 ---
 
 
@@ -2519,56 +1566,7 @@ Sys.sleep(2)
 
 
 
-### Gallbladder
 
-```{r M Gallbladder, eval=FALSE, include=FALSE}
-```
-
-
----
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-### Ampulla of Vater
-
-```{r M Ampulla of Vater, eval=FALSE, include=FALSE}
-```
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-### Neuroendocrine
-
-
-```{r M Neuroendocrine, eval=FALSE, include=FALSE}
-```
-
-
-
-
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
 
 # Feedback
 
@@ -2607,10 +1605,4 @@ s.setAttribute('data-timestamp', +new Date());
 ---
 
 \pagebreak
-
-
-
-
-
-
 

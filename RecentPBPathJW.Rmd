@@ -35,7 +35,7 @@ articles <- readRDS("~/JournalWatchPBPath/articles.rds")
 
 ---
 
-# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills}
+# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills #pbpath_jw}
 
 
 ```{r strings , include=FALSE}
@@ -66,7 +66,7 @@ We encourage members to actively participate by recommending new articles and pr
 \pagebreak
 
 
-## Pancreas
+## Pancreas {#pancreas}
 
 
 ```{r pancreasRecent,  child='~/JournalWatchPBPath/_pancreasRecent.Rmd'}
@@ -80,7 +80,7 @@ We encourage members to actively participate by recommending new articles and pr
 
 \pagebreak
 
-## Gallbladder
+## Gallbladder {#gallbladder}
 
 
 ```{r gallbladderRecent,  child='~/JournalWatchPBPath/_gallbladderRecent.Rmd'}
@@ -96,7 +96,7 @@ We encourage members to actively participate by recommending new articles and pr
 
 \pagebreak
 
-## Bile Ducts
+## Bile Ducts {#bileducts}
 
 
 ```{r bileductsRecent,  child='~/JournalWatchPBPath/_bileductsRecent.Rmd'}
@@ -112,7 +112,7 @@ We encourage members to actively participate by recommending new articles and pr
 
 \pagebreak
 
-## Ampulla
+## Ampulla {#ampulla}
 
 
 
@@ -140,7 +140,7 @@ We encourage members to actively participate by recommending new articles and pr
 \pagebreak
 
 
-# Feedback
+# Feedback {#feedback}
 
 
 [Google Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)  
