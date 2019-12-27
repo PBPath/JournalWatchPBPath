@@ -1,6 +1,13 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
+  pdf_document: 
+    keep_tex: yes
+    toc: yes
+    toc_depth: 5
+    number_sections: yes
+    fig_crop: no
+    latex_engine: xelatex
   html_document:
     df_print: kable
     highlight: null
@@ -10,17 +17,12 @@ output:
     fig_caption: yes
     highlight: null
     theme: paper
-  pdf_document: 
-    keep_tex: yes
-    toc: yes
-    toc_depth: 5
-    number_sections: yes
-    fig_crop: no
-    latex_engine: xelatex
   word_document:
     toc: yes
 header-includes:
   - \renewcommand{\linethickness}{0.05em}
+  - \usepackage{booktabs}
+  - \usepackage{sectsty} \allsectionsfont{\nohang\centering \emph}
 date: "Last Update on `r format(Sys.Date())`"
 subtitle: "October November December 2019"
 ---
@@ -36,22 +38,6 @@ suppressPackageStartupMessages(library(readxl))
 ```
 
 
-```{r data load, include=FALSE}
-articles <- readRDS("articles.rds")
-```
-
-
-
-<!-- Open all links in new tab-->  
-<base target="_blank"/>  
-
-
-
----
-
-# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills #pbpath_jw}
-
-
 ```{r strings , include=FALSE}
 PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
 
@@ -59,6 +45,33 @@ doiString <- "doi: https://doi.org/"
 ```
 
 
+<style type="text/css">
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+h4.date{
+  text-align: center;
+}
+
+</style>
+
+<!-- Open all links in new tab-->  
+<base target="_blank"/>  
+
+\pagebreak
+
+
+# PBPath Journal Watch Articles {.tabset .tabset-fade .tabset-pills #pbpath_jw}
 
 ---
 
@@ -79,7 +92,6 @@ We encourage members to actively participate by recommending new articles and pr
 \pagebreak
 
 
-
 ## Surgical Pathology {.tabset #surgical_pathology}
 
 ---
@@ -90,14 +102,6 @@ We encourage members to actively participate by recommending new articles and pr
 ---
 
 #### Morphology, Diagnostics, IHC {#pancreas_morphology}
-
-Morphology, Diagnostics, IHC
-
-
-```{r S Pancreas Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
-```
-
-
 
 ---
 
@@ -324,30 +328,13 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
 
 \pagebreak
 
-#### Staging {#pancreas_staging}
-
-Pancreas TNM staging, Margins, Survival
-
-```{r S Pancreas TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
+#### Pancreas TNM staging, Margins, Survival {#pancreas_staging}
 
 ---
 
@@ -412,12 +399,6 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -426,17 +407,6 @@ Sys.sleep(2)
 
 
 #### Preneoplastic and Preinvasive Lesions {#pancreas_preinvasive}
-
-Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN
-
-```{r S Pancreas Preneoplastic and Preinvasive Lesions IPMN, MCN, ITPN,  eval=FALSE, include=FALSE}
-```
-
-
-
-
-
-
 
 ---
 
@@ -479,21 +449,11 @@ Sys.sleep(2)
 
 
 
-### Bile Ducts
-
-```{r S Bile Ducts, eval=FALSE, include=FALSE}
-```
+### Bile Ducts {#bileducts}
 
 ---
 
-#### Morphology, Diagnostics, IHC
-
-Morphology, Diagnostics, IHC
-
-
-```{r S Bile Ducts Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
-```
-
+#### Morphology, Diagnostics, IHC {#bileducts_morphology}
 
 
 ---
@@ -557,8 +517,6 @@ Sys.sleep(2)
 
 </details>
 
-
-
 ---
 
 ```{r pancreas 31166202, include=FALSE}
@@ -588,8 +546,6 @@ Sys.sleep(2)
 `r doi_31166202`
 
 </details>
-
-
 
 
 ---
@@ -624,28 +580,14 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
 
 \pagebreak
 
-#### Staging
 
-Bile Ducts TNM staging, Margins, Survival
-
-```{r Bile Ducts TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
-
-
+#### Bile Ducts TNM staging, Margins, Survival {#bileducts_staging}
 
 
 ---
@@ -680,10 +622,6 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -691,25 +629,11 @@ Sys.sleep(2)
 \pagebreak
 
 
-### Gallbladder
-
-
-```{r S Gallbladder, eval=FALSE, include=FALSE}
-```
-
+### Gallbladder {#gallbladder}
 
 ---
 
-#### Morphology, Diagnostics, IHC
-
-Morphology, Diagnostics, IHC
-
-
-```{r S Gallbladder Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
-```
-
-
-
+#### Morphology, Diagnostics, IHC {#gallbladder_morphology}
 
 ---
 
@@ -742,8 +666,6 @@ Sys.sleep(2)
 </details>
 
 ---
-
-
 
 ```{r gallbladder 31838585, include=FALSE}
 
@@ -909,22 +831,11 @@ Sys.sleep(2)
 \pagebreak
 
 
-### Ampulla of Vater
-
-```{r S Ampulla of Vater, eval=FALSE, include=FALSE}
-```
+### Ampulla of Vater {#ampullavater}
 
 ---
 
-#### Morphology, Diagnostics, IHC
-
-Morphology, Diagnostics, IHC
-
-
-```{r S Ampulla of Vater Morphology Diagnostics IHC, eval=FALSE, include=FALSE}
-```
-
-
+#### Morphology, Diagnostics, IHC {#ampullavater_morphology}
 
 
 ---
@@ -956,9 +867,6 @@ Sys.sleep(2)
 `r doi_31256008`
 
 </details>
-
-
-
 
 ---
 
@@ -992,10 +900,6 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -1003,17 +907,12 @@ Sys.sleep(2)
 \pagebreak
 
 
-### Neuroendocrine
+### Neuroendocrine {#net}
 
 
 ---
 
-#### PanNET
-
-PanNET, Pancreatic Neuroendocrine Tumors and related neuroendocrine neoplasms
-
-```{r S PanNET Neuroendocrine, eval=FALSE, include=FALSE}
-```
+#### PanNET {#net_morphology}
 
 
 ---
@@ -1058,12 +957,7 @@ Sys.sleep(2)
 
 
 
-#### Staging
-
-PanNET TNM staging, Margins, Survival
-
-```{r PanNET TNM staging Margins Survival, eval=FALSE, include=FALSE}
-```
+#### Staging {#net_staging}
 
 
 ---
@@ -1098,34 +992,17 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
 
 \pagebreak
 
-
-
-
-
-
-
-
-## Cytopathology {.tabset}
-
+## Cytopathology {.tabset #cytopathology}
 
 ---
 
-### Pancreas
-
-```{r C Pancreas, eval=FALSE, include=FALSE}
-```
+### Pancreas {#pancreas_cytopathology}
 
 
 ---
@@ -1220,8 +1097,6 @@ Sys.sleep(2)
 
 </details>
 
-
-
 ---
 
 ```{r pancreas 31581358, include=FALSE}
@@ -1254,17 +1129,6 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -1273,19 +1137,12 @@ Sys.sleep(2)
 
 
 
-## Molecular Pathology {.tabset}
+## Molecular Pathology {.tabset #molecular}
 
 ---
 
 
-### Pancreas
-
-```{r M Pancreas, eval=FALSE, include=FALSE}
-```
-
----
-
-#### Pancreas
+### Pancreas {#pancreas_molecular}
 
 
 
@@ -1349,8 +1206,6 @@ Sys.sleep(2)
 
 </details>
 
-
-
 ---
 
 ```{r pancreas 31558784, include=FALSE}
@@ -1391,44 +1246,7 @@ Sys.sleep(2)
 \pagebreak
 
 
-#### SPN
-
-Solid Pseudopapillary Neoplasm
-
-```{r S SPN Solid Pseudopapillary Neoplasm, eval=FALSE, include=FALSE}
-```
-
-
----
-
-- Targeted next generation sequencing of pancreatic solid pseudopapillary neoplasms show mutations in Wnt signaling pathway genes.
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/30811747
-
-
-
----
-
-
-
-<a href="#top" target="_self">Back to top</a>
-
----
-
-\pagebreak
-
-
-
-
-
-#### Preneoplastic and Preinvasive Lesions 
-
-Molecular Pathology Preneoplastic and Preinvasive Lesions, PanIN, IPMN, MCN, ICPN, IOPN
-
-```{r Molecular Pancreas Preneoplastic and Preinvasive Lesions IPMN MCN ITPN IOPN,  eval=FALSE, include=FALSE}
-```
-
+#### Preneoplastic and Preinvasive Lesions  {#pancreas_preinvasive_molecular}
 
 
 ---
@@ -1495,19 +1313,6 @@ Sys.sleep(2)
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -1515,12 +1320,7 @@ Sys.sleep(2)
 \pagebreak
 
 
-### Bile Ducts
-
-```{r M Bile Ducts, eval=FALSE, include=FALSE}
-```
-
-
+### Bile Ducts {#bileducts_molecular}
 
 
 ---
@@ -1557,7 +1357,6 @@ Sys.sleep(2)
 ---
 
 
-
 <a href="#top" target="_self">Back to top</a>
 
 ---
@@ -1565,10 +1364,7 @@ Sys.sleep(2)
 \pagebreak
 
 
-
-
-
-# Feedback
+# Feedback {#feedback}
 
 
 [Google Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)  
@@ -1597,7 +1393,6 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
 
-
 ---
 
 <a href="#top" target="_self">Back to top</a>
@@ -1605,4 +1400,3 @@ s.setAttribute('data-timestamp', +new Date());
 ---
 
 \pagebreak
-
