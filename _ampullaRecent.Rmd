@@ -2,6 +2,41 @@
 
 ---
 
+```{r ampulla 31875848, include=FALSE}
+
+PMID_31875848 <- RefManageR::ReadPubMed('31875848', database = 'PubMed')
+
+citation_31875848 <- paste0(PMID_31875848$journal,' ', PMID_31875848$year, ' ', PMID_31875848$month,';', PMID_31875848$volume,'(', PMID_31875848$number,'):', PMID_31875848$pages)
+
+PubMed_31875848 <- paste0(PubMedString, PMID_31875848$eprint)
+
+doi_31875848 <- paste0(doiString, PMID_31875848$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31875848$title`**
+</summary> 
+
+*`r citation_31875848`*
+
+`r PubMed_31875848`
+
+`r PMID_31875848$abstract`
+
+`r doi_31875848`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r ampulla 31825518, include=FALSE}
 
 PMID_31825518 <- RefManageR::ReadPubMed('31825518', database = 'PubMed')
