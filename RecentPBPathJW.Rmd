@@ -6,8 +6,19 @@ output:
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+    latex_engine: xelatex
+    keep_tex: yes
+  html_document:
+    df_print: paged
 date: "Last Update on `r format(Sys.Date())`"
 subtitle: Recent Articles that will be Selected
+header-includes:
+- \renewcommand{\linethickness}{0.05em}
+- \usepackage{booktabs}
+- \usepackage{sectsty} \allsectionsfont{\nohang\centering \emph}
 ---
 
 ```{r global_options, include=FALSE}
@@ -26,6 +37,28 @@ suppressPackageStartupMessages(library("RefManageR"))
 ```{r data load, include=FALSE}
 articles <- readRDS("~/JournalWatchPBPath/articles.rds")
 ```
+
+
+<style type="text/css">
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+h4.date{
+  text-align: center;
+}
+
+</style>
+
 
 
 <!-- Open all links in new tab-->  
@@ -57,11 +90,6 @@ We encourage members to actively participate by recommending new articles and pr
 
 **We hope that you will enjoy the new PBPath Journal Watch!**
 
----
-
-<a href="#top" target="_self">Back to top</a>
-
----
 
 \pagebreak
 
