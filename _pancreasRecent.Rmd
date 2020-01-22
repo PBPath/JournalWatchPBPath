@@ -877,76 +877,6 @@ Sys.sleep(2)
 
 ---
 
-```{r pancreas 31948794, include=FALSE}
-
-PMID_31948794 <- RefManageR::ReadPubMed('31948794', database = 'PubMed')
-
-citation_31948794 <- paste0(PMID_31948794$journal,' ', PMID_31948794$year, ' ', PMID_31948794$month,';', PMID_31948794$volume,'(', PMID_31948794$number,'):', PMID_31948794$pages)
-
-PubMed_31948794 <- paste0(PubMedString, PMID_31948794$eprint)
-
-doi_31948794 <- paste0(doiString, PMID_31948794$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31948794$title`**
-</summary> 
-
-*`r citation_31948794`*
-
-`r PubMed_31948794`
-
-`r PMID_31948794$abstract`
-
-`r doi_31948794`
-
-</details>
-
----
-
-
-
-
----
-
-```{r pancreas 31953079, include=FALSE}
-
-PMID_31953079 <- RefManageR::ReadPubMed('31953079', database = 'PubMed')
-
-citation_31953079 <- paste0(PMID_31953079$journal,' ', PMID_31953079$year, ' ', PMID_31953079$month,';', PMID_31953079$volume,'(', PMID_31953079$number,'):', PMID_31953079$pages)
-
-PubMed_31953079 <- paste0(PubMedString, PMID_31953079$eprint)
-
-doi_31953079 <- paste0(doiString, PMID_31953079$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31953079$title`**
-</summary> 
-
-*`r citation_31953079`*
-
-`r PubMed_31953079`
-
-`r PMID_31953079$abstract`
-
-`r doi_31953079`
-
-</details>
-
----
-
-
-
-
----
-
 ```{r pancreas 31953039, include=FALSE}
 
 PMID_31953039 <- RefManageR::ReadPubMed('31953039', database = 'PubMed')
@@ -982,31 +912,31 @@ Sys.sleep(2)
 
 ---
 
-```{r pancreas 31952917, include=FALSE}
+```{r pancreas 31958381, include=FALSE}
 
-PMID_31952917 <- RefManageR::ReadPubMed('31952917', database = 'PubMed')
+PMID_31958381 <- RefManageR::ReadPubMed('31958381', database = 'PubMed')
 
-citation_31952917 <- paste0(PMID_31952917$journal,' ', PMID_31952917$year, ' ', PMID_31952917$month,';', PMID_31952917$volume,'(', PMID_31952917$number,'):', PMID_31952917$pages)
+citation_31958381 <- paste0(PMID_31958381$journal,' ', PMID_31958381$year, ' ', PMID_31958381$month,';', PMID_31958381$volume,'(', PMID_31958381$number,'):', PMID_31958381$pages)
 
-PubMed_31952917 <- paste0(PubMedString, PMID_31952917$eprint)
+PubMed_31958381 <- paste0(PubMedString, PMID_31958381$eprint)
 
-doi_31952917 <- paste0(doiString, PMID_31952917$doi)
+doi_31958381 <- paste0(doiString, PMID_31958381$doi)
 
 Sys.sleep(2)
 
 ```
 
 <details open> <summary>
-- **`r PMID_31952917$title`**
+- **`r PMID_31958381$title`**
 </summary> 
 
-*`r citation_31952917`*
+*`r citation_31958381`*
 
-`r PubMed_31952917`
+`r PubMed_31958381`
 
-`r PMID_31952917$abstract`
+`r PMID_31958381$abstract`
 
-`r doi_31952917`
+`r doi_31958381`
 
 </details>
 
