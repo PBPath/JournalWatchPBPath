@@ -313,3 +313,38 @@ Sys.sleep(2)
 ---
 
 
+
+
+---
+
+```{r gallbladder 32019495, include=FALSE}
+
+PMID_32019495 <- RefManageR::ReadPubMed('32019495', database = 'PubMed')
+
+citation_32019495 <- paste0(PMID_32019495$journal,' ', PMID_32019495$year, ' ', PMID_32019495$month,';', PMID_32019495$volume,'(', PMID_32019495$number,'):', PMID_32019495$pages)
+
+PubMed_32019495 <- paste0(PubMedString, PMID_32019495$eprint)
+
+doi_32019495 <- paste0(doiString, PMID_32019495$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32019495$title`**
+</summary> 
+
+*`r citation_32019495`*
+
+`r PubMed_32019495`
+
+`r PMID_32019495$abstract`
+
+`r doi_32019495`
+
+</details>
+
+---
+
+
