@@ -2,31 +2,66 @@
 
 ---
 
-```{r bileducts 31678302, include=FALSE}
+```{r bileducts NA, include=FALSE}
 
-PMID_31678302 <- RefManageR::ReadPubMed('31678302', database = 'PubMed')
+PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
 
-citation_31678302 <- paste0(PMID_31678302$journal,' ', PMID_31678302$year, ' ', PMID_31678302$month,';', PMID_31678302$volume,'(', PMID_31678302$number,'):', PMID_31678302$pages)
+citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
 
-PubMed_31678302 <- paste0(PubMedString, PMID_31678302$eprint)
+PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
 
-doi_31678302 <- paste0(doiString, PMID_31678302$doi)
+doi_NA <- paste0(doiString, PMID_NA$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_31678302$title`**
+- **`r PMID_NA$title`**
 </summary> 
 
-*`r citation_31678302`*
+*`r citation_NA`*
 
-`r PubMed_31678302`
+`r PubMed_NA`
 
-`r PMID_31678302$abstract`
+`r PMID_NA$abstract`
 
-`r doi_31678302`
+`r doi_NA`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts , include=FALSE}
+
+PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+
+citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+
+PubMed_ <- paste0(PubMedString, PMID_$eprint)
+
+doi_ <- paste0(doiString, PMID_$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_$title`**
+</summary> 
+
+*`r citation_`*
+
+`r PubMed_`
+
+`r PMID_$abstract`
+
+`r doi_`
 
 </details>
 
