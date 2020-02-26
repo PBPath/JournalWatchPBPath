@@ -14,6 +14,7 @@ Watch for Pancreatobiliary Pathology Society
 
 [![contributions
 welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sbalci/JournalWatchPBPath/issues)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3a39023cc7624897b28c8f7e43da80da)](https://app.codacy.com/manual/drserdarbalci/JournalWatchPBPath?utm_source=github.com&utm_medium=referral&utm_content=sbalci/JournalWatchPBPath&utm_campaign=Badge_Grade_Dashboard)
 [![HitCount](http://hits.dwyl.io/sbalci/JournalWatchPBPath.svg)](http://hits.dwyl.io/sbalci/JournalWatchPBPath)
 [![Say
 Thanks\!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)
