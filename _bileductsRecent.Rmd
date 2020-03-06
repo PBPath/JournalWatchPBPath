@@ -2,6 +2,146 @@
 
 ---
 
+```{r bileducts 32129902, include=FALSE}
+
+PMID_32129902 <- RefManageR::ReadPubMed('32129902', database = 'PubMed')
+
+citation_32129902 <- paste0(PMID_32129902$journal,' ', PMID_32129902$year, ' ', PMID_32129902$month,';', PMID_32129902$volume,'(', PMID_32129902$number,'):', PMID_32129902$pages)
+
+PubMed_32129902 <- paste0(PubMedString, PMID_32129902$eprint)
+
+doi_32129902 <- paste0(doiString, PMID_32129902$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32129902$title`**
+</summary> 
+
+*`r citation_32129902`*
+
+`r PubMed_32129902`
+
+`r PMID_32129902$abstract`
+
+`r doi_32129902`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 32118333, include=FALSE}
+
+PMID_32118333 <- RefManageR::ReadPubMed('32118333', database = 'PubMed')
+
+citation_32118333 <- paste0(PMID_32118333$journal,' ', PMID_32118333$year, ' ', PMID_32118333$month,';', PMID_32118333$volume,'(', PMID_32118333$number,'):', PMID_32118333$pages)
+
+PubMed_32118333 <- paste0(PubMedString, PMID_32118333$eprint)
+
+doi_32118333 <- paste0(doiString, PMID_32118333$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32118333$title`**
+</summary> 
+
+*`r citation_32118333`*
+
+`r PubMed_32118333`
+
+`r PMID_32118333$abstract`
+
+`r doi_32118333`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 32106173, include=FALSE}
+
+PMID_32106173 <- RefManageR::ReadPubMed('32106173', database = 'PubMed')
+
+citation_32106173 <- paste0(PMID_32106173$journal,' ', PMID_32106173$year, ' ', PMID_32106173$month,';', PMID_32106173$volume,'(', PMID_32106173$number,'):', PMID_32106173$pages)
+
+PubMed_32106173 <- paste0(PubMedString, PMID_32106173$eprint)
+
+doi_32106173 <- paste0(doiString, PMID_32106173$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32106173$title`**
+</summary> 
+
+*`r citation_32106173`*
+
+`r PubMed_32106173`
+
+`r PMID_32106173$abstract`
+
+`r doi_32106173`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 32100878, include=FALSE}
+
+PMID_32100878 <- RefManageR::ReadPubMed('32100878', database = 'PubMed')
+
+citation_32100878 <- paste0(PMID_32100878$journal,' ', PMID_32100878$year, ' ', PMID_32100878$month,';', PMID_32100878$volume,'(', PMID_32100878$number,'):', PMID_32100878$pages)
+
+PubMed_32100878 <- paste0(PubMedString, PMID_32100878$eprint)
+
+doi_32100878 <- paste0(doiString, PMID_32100878$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32100878$title`**
+</summary> 
+
+*`r citation_32100878`*
+
+`r PubMed_32100878`
+
+`r PMID_32100878$abstract`
+
+`r doi_32100878`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r bileducts 32010932, include=FALSE}
 
 PMID_32010932 <- RefManageR::ReadPubMed('32010932', database = 'PubMed')
@@ -377,76 +517,6 @@ Sys.sleep(2)
 `r PMID_30971436$abstract`
 
 `r doi_30971436`
-
-</details>
-
----
-
-
-
-
----
-
-```{r bileducts 32100878, include=FALSE}
-
-PMID_32100878 <- RefManageR::ReadPubMed('32100878', database = 'PubMed')
-
-citation_32100878 <- paste0(PMID_32100878$journal,' ', PMID_32100878$year, ' ', PMID_32100878$month,';', PMID_32100878$volume,'(', PMID_32100878$number,'):', PMID_32100878$pages)
-
-PubMed_32100878 <- paste0(PubMedString, PMID_32100878$eprint)
-
-doi_32100878 <- paste0(doiString, PMID_32100878$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32100878$title`**
-</summary> 
-
-*`r citation_32100878`*
-
-`r PubMed_32100878`
-
-`r PMID_32100878$abstract`
-
-`r doi_32100878`
-
-</details>
-
----
-
-
-
-
----
-
-```{r bileducts 32106173, include=FALSE}
-
-PMID_32106173 <- RefManageR::ReadPubMed('32106173', database = 'PubMed')
-
-citation_32106173 <- paste0(PMID_32106173$journal,' ', PMID_32106173$year, ' ', PMID_32106173$month,';', PMID_32106173$volume,'(', PMID_32106173$number,'):', PMID_32106173$pages)
-
-PubMed_32106173 <- paste0(PubMedString, PMID_32106173$eprint)
-
-doi_32106173 <- paste0(doiString, PMID_32106173$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32106173$title`**
-</summary> 
-
-*`r citation_32106173`*
-
-`r PubMed_32106173`
-
-`r PMID_32106173$abstract`
-
-`r doi_32106173`
 
 </details>
 
