@@ -2,31 +2,66 @@
 
 ---
 
-```{r ampulla 32143595, include=FALSE}
+```{r ampulla NA, include=FALSE}
 
-PMID_32143595 <- RefManageR::ReadPubMed('32143595', database = 'PubMed')
+PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
 
-citation_32143595 <- paste0(PMID_32143595$journal,' ', PMID_32143595$year, ' ', PMID_32143595$month,';', PMID_32143595$volume,'(', PMID_32143595$number,'):', PMID_32143595$pages)
+citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
 
-PubMed_32143595 <- paste0(PubMedString, PMID_32143595$eprint)
+PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
 
-doi_32143595 <- paste0(doiString, PMID_32143595$doi)
+doi_NA <- paste0(doiString, PMID_NA$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32143595$title`**
+- **`r PMID_NA$title`**
 </summary> 
 
-*`r citation_32143595`*
+*`r citation_NA`*
 
-`r PubMed_32143595`
+`r PubMed_NA`
 
-`r PMID_32143595$abstract`
+`r PMID_NA$abstract`
 
-`r doi_32143595`
+`r doi_NA`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r ampulla , include=FALSE}
+
+PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+
+citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+
+PubMed_ <- paste0(PubMedString, PMID_$eprint)
+
+doi_ <- paste0(doiString, PMID_$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_$title`**
+</summary> 
+
+*`r citation_`*
+
+`r PubMed_`
+
+`r PMID_$abstract`
+
+`r doi_`
 
 </details>
 
