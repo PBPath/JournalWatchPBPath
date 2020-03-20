@@ -698,3 +698,73 @@ Sys.sleep(2)
 ---
 
 
+
+
+---
+
+```{r bileducts 32187043, include=FALSE}
+
+PMID_32187043 <- RefManageR::ReadPubMed('32187043', database = 'PubMed')
+
+citation_32187043 <- paste0(PMID_32187043$journal,' ', PMID_32187043$year, ' ', PMID_32187043$month,';', PMID_32187043$volume,'(', PMID_32187043$number,'):', PMID_32187043$pages)
+
+PubMed_32187043 <- paste0(PubMedString, PMID_32187043$eprint)
+
+doi_32187043 <- paste0(doiString, PMID_32187043$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32187043$title`**
+</summary> 
+
+*`r citation_32187043`*
+
+`r PubMed_32187043`
+
+`r PMID_32187043$abstract`
+
+`r doi_32187043`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 32181510, include=FALSE}
+
+PMID_32181510 <- RefManageR::ReadPubMed('32181510', database = 'PubMed')
+
+citation_32181510 <- paste0(PMID_32181510$journal,' ', PMID_32181510$year, ' ', PMID_32181510$month,';', PMID_32181510$volume,'(', PMID_32181510$number,'):', PMID_32181510$pages)
+
+PubMed_32181510 <- paste0(PubMedString, PMID_32181510$eprint)
+
+doi_32181510 <- paste0(doiString, PMID_32181510$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32181510$title`**
+</summary> 
+
+*`r citation_32181510`*
+
+`r PubMed_32181510`
+
+`r PMID_32181510$abstract`
+
+`r doi_32181510`
+
+</details>
+
+---
+
+
