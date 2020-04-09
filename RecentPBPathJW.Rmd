@@ -100,7 +100,52 @@ We encourage members to actively participate by recommending new articles and pr
 \pagebreak
 
 
+
+
+
+```{r PMID, include=FALSE}
+pancreas_recent_PMID <-
+    readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_pancreas.csv",
+                    col_names = c("PMID"),
+                    cols(PMID = col_character()))
+
+gallbladder_recent_PMID <-
+    readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_gallbladder.csv",
+                    col_names = c("PMID"),
+                    cols(PMID = col_character()))
+
+bileducts_recent_PMID <-
+    readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_bileducts.csv",
+                    col_names = c("PMID"),
+                    cols(PMID = col_character()))
+
+ampulla_recent_PMID <-
+    readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_ampulla.csv",
+                    col_names = c("PMID"),
+                    cols(PMID = col_character()))
+```
+
+
+
 ## Pancreas {#pancreas}
+
+
+
+```{r OKM pancreas, include=FALSE}
+PMID_OKM_pancreas <- pancreas_recent_PMID$PMID %>% 
+t() %>%
+paste0("[uid] OR ", collapse = "") # add OR between PMID List
+
+PMID_OKM_pancreas <- gsub(" OR $", "" , PMID_OKM_pancreas) # to remove last OR
+
+PubMed_Link_pancreas <- paste0("To see these articles in <a href = https://www.ncbi.nlm.nih.gov/pubmed/?term='",PMID_OKM_pancreas,"'> PubMed, click here </a>")
+
+```
+
+
+`r PubMed_Link_pancreas`
+
+
 
 
 ```{r pancreasRecent,  child='~/JournalWatchPBPath/_pancreasRecent.Rmd'}
@@ -114,12 +159,25 @@ We encourage members to actively participate by recommending new articles and pr
 
 \pagebreak
 
+
+
 ## Gallbladder {#gallbladder}
+
+
+
+
+```{r include=FALSE}
+PMID_OKM_gallbladder <- gallbladder_recent_PMID$PMID %>% 
+t() %>%
+paste0("[uid] OR ", collapse = "") # add OR between PMID List
+
+PMID_OKM_gallbladder <- gsub(" OR $", "" , PMID_OKM_gallbladder) # to remove last OR
+```
+
 
 
 ```{r gallbladderRecent,  child='~/JournalWatchPBPath/_gallbladderRecent.Rmd'}
 ```
-
 
 
 ---
@@ -130,7 +188,22 @@ We encourage members to actively participate by recommending new articles and pr
 
 \pagebreak
 
+
 ## Bile Ducts {#bileducts}
+
+
+
+
+```{r include=FALSE}
+PMID_OKM_bileducts <- bileducts_recent_PMID$PMID %>% 
+t() %>%
+paste0("[uid] OR ", collapse = "") # add OR between PMID List
+
+PMID_OKM_bileducts <- gsub(" OR $", "" , PMID_OKM_bileducts) # to remove last OR
+```
+
+
+
 
 
 ```{r bileductsRecent,  child='~/JournalWatchPBPath/_bileductsRecent.Rmd'}
@@ -147,6 +220,18 @@ We encourage members to actively participate by recommending new articles and pr
 \pagebreak
 
 ## Ampulla {#ampulla}
+
+
+
+```{r include=FALSE}
+PMID_OKM_ampulla <- ampulla_recent_PMID$PMID %>% 
+t() %>%
+paste0("[uid] OR ", collapse = "") # add OR between PMID List
+
+PMID_OKM_ampulla <- gsub(" OR $", "" , PMID_OKM_ampulla) # to remove last OR
+
+```
+
 
 
 
