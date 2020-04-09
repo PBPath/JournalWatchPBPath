@@ -138,13 +138,25 @@ paste0("[uid] OR ", collapse = "") # add OR between PMID List
 
 PMID_OKM_pancreas <- gsub(" OR $", "" , PMID_OKM_pancreas) # to remove last OR
 
-PubMed_Link_pancreas <- paste0("To see these articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMID_OKM_pancreas,"'> PubMed, click here </a>")
+PubMed_Link_pancreas <- paste0("To see these articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMID_OKM_pancreas,"'> PubMed click here </a>")
+
+
+
+PMID_Lens_pancreas <- paste0("pmid:",pancreas_recent_PMID$PMID,"%20OR%20" ) %>% 
+  t() %>% 
+  paste0(collapse = "")
+
+PMID_Lens_pancreas <- gsub("%20OR%20$", "" , PMID_Lens_pancreas)
+
+Lens_Link_pancreas <- paste0("To see these articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens_pancreas,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
 
 ```
 
 
 `r PubMed_Link_pancreas`
 
+
+`r Lens_Link_pancreas`
 
 
 
