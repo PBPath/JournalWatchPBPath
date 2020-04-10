@@ -1,18 +1,18 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook:
-    code_folding: none
-    fig_caption: yes
-    highlight: null
-    theme: paper
+  html_document:
+    df_print: paged
   pdf_document: 
     toc: yes
     number_sections: yes
     latex_engine: xelatex
     keep_tex: yes
-  html_document:
-    df_print: paged
+  html_notebook:
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
 date: "Last Update on `r format(Sys.Date())`"
 subtitle: Recent Articles that will be Selected
 header-includes:
@@ -130,6 +130,8 @@ ampulla_recent_PMID <-
 ## Pancreas {#pancreas}
 
 
+---
+
 
 ```{r OKM pancreas, include=FALSE}
 PMID_OKM_pancreas <- pancreas_recent_PMID$PMID %>% 
@@ -138,7 +140,7 @@ paste0("[uid] OR ", collapse = "") # add OR between PMID List
 
 PMID_OKM_pancreas <- gsub(" OR $", "" , PMID_OKM_pancreas) # to remove last OR
 
-PubMed_Link_pancreas <- paste0("To see these articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMID_OKM_pancreas,"'> PubMed click here </a>")
+PubMed_Link_pancreas <- paste0("To see these selected Pancreas articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMID_OKM_pancreas,"'> PubMed click here </a>")
 
 
 
@@ -148,7 +150,7 @@ PMID_Lens_pancreas <- paste0("pmid:",pancreas_recent_PMID$PMID,"%20OR%20" ) %>%
 
 PMID_Lens_pancreas <- gsub("%20OR%20$", "" , PMID_Lens_pancreas)
 
-Lens_Link_pancreas <- paste0("To see these articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens_pancreas,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
+Lens_Link_pancreas <- paste0("To see these selected Pancreas articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens_pancreas,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
 
 ```
 
@@ -158,6 +160,8 @@ Lens_Link_pancreas <- paste0("To see these articles in <a href = 'https://www.le
 
 `r Lens_Link_pancreas`
 
+
+---
 
 
 ```{r pancreasRecent,  child='~/JournalWatchPBPath/_pancreasRecent.Rmd'}
