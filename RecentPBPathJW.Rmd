@@ -143,7 +143,7 @@ paste0("[uid] OR ", collapse = "") # add OR between PMID List
 
 PMIDs <- gsub(" OR $", "" , PMIDs) # to remove last OR
 
-PubMed_Link <- paste0("To see these selected Pancreas articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMIDs,"'> PubMed click here </a>")
+PubMed_Link <- paste0("To see these selected articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMIDs,"'> PubMed click here </a>")
 
 write(x = PubMed_Link, file = here::here("data","PubMed_Link.txt"))
 
@@ -157,7 +157,7 @@ PMID_Lens <- paste0("pmid:",PMID_all$PMID,"%20OR%20" ) %>%
 
 PMID_Lens <- gsub("%20OR%20$", "" , PMID_Lens)
 
-Lens_Link <- paste0("To see these selected Pancreas articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
+Lens_Link <- paste0("To see these selected articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
 
 write(x = Lens_Link, file = here::here("data","Lens_Link.txt"))
 
