@@ -80,30 +80,7 @@ doiString <- "doi: https://doi.org/"
 
 
 
----
-
-**Wellcome to the PBPath Journal Watch!** 
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3635440.svg)](https://doi.org/10.5281/zenodo.3635440)
-
-https://doi.org/10.5281/zenodo.3635440
-
-https://osf.io/3d67y/
-
-This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [drafts of the upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
-
-We encourage members to actively participate by recommending new articles and providing feedback using the [forms provided below.](#feedback){target="_self"}  
-
-**We hope that you will enjoy the new PBPath Journal Watch!**
-
-
-\pagebreak
-
-
-
-
-
-```{r PMID, include=FALSE}
+```{r read PMID csv, include=FALSE}
 pancreas_recent_PMID <-
     readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_pancreas.csv",
                     col_names = c("PMID"),
@@ -126,42 +103,90 @@ ampulla_recent_PMID <-
 ```
 
 
+---
 
-## Pancreas {#pancreas}
+**Wellcome to the PBPath Journal Watch!** 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3635440.svg)](https://doi.org/10.5281/zenodo.3635440)
+
+https://doi.org/10.5281/zenodo.3635440
+
+https://osf.io/3d67y/
+
+This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [drafts of the upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
+
+We encourage members to actively participate by recommending new articles and providing feedback using the [forms provided below.](#feedback){target="_self"}  
+
+**We hope that you will enjoy the new PBPath Journal Watch!**
+
+
 
 
 ---
 
 
-```{r OKM pancreas, include=FALSE}
-PMID_OKM_pancreas <- pancreas_recent_PMID$PMID %>% 
+
+
+
+
+```{r PubMed Link, include=FALSE}
+PMID_all <- dplyr::bind_rows(pancreas_recent_PMID,
+                             gallbladder_recent_PMID,
+                             bileducts_recent_PMID,
+                             ampulla_recent_PMID
+)
+
+
+PMIDs <- PMID_all$PMID %>% 
 t() %>%
 paste0("[uid] OR ", collapse = "") # add OR between PMID List
 
-PMID_OKM_pancreas <- gsub(" OR $", "" , PMID_OKM_pancreas) # to remove last OR
+PMIDs <- gsub(" OR $", "" , PMIDs) # to remove last OR
 
-PubMed_Link_pancreas <- paste0("To see these selected Pancreas articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMID_OKM_pancreas,"'> PubMed click here </a>")
+PubMed_Link <- paste0("To see these selected Pancreas articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMIDs,"'> PubMed click here </a>")
 
-
-
-PMID_Lens_pancreas <- paste0("pmid:",pancreas_recent_PMID$PMID,"%20OR%20" ) %>% 
-  t() %>% 
-  paste0(collapse = "")
-
-PMID_Lens_pancreas <- gsub("%20OR%20$", "" , PMID_Lens_pancreas)
-
-Lens_Link_pancreas <- paste0("To see these selected Pancreas articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens_pancreas,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
+write(x = PubMed_Link, file = here::here("data","PubMed_Link.txt"))
 
 ```
 
 
-`r PubMed_Link_pancreas`
+```{r Lens Link, include=FALSE}
+PMID_Lens <- paste0("pmid:",PMID_all$PMID,"%20OR%20" ) %>% 
+  t() %>% 
+  paste0(collapse = "")
+
+PMID_Lens <- gsub("%20OR%20$", "" , PMID_Lens)
+
+Lens_Link <- paste0("To see these selected Pancreas articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
+
+write(x = Lens_Link, file = here::here("data","Lens_Link.txt"))
+
+```
 
 
-`r Lens_Link_pancreas`
+`r PubMed_Link`
+
+
+`r Lens_Link`
+
+
+
 
 
 ---
+
+
+
+
+\pagebreak
+
+
+
+
+
+## Pancreas {#pancreas}
+
+
 
 
 ```{r pancreasRecent,  child='~/JournalWatchPBPath/_pancreasRecent.Rmd'}
@@ -179,16 +204,6 @@ Lens_Link_pancreas <- paste0("To see these selected Pancreas articles in <a href
 
 ## Gallbladder {#gallbladder}
 
-
-
-
-```{r include=FALSE}
-PMID_OKM_gallbladder <- gallbladder_recent_PMID$PMID %>% 
-t() %>%
-paste0("[uid] OR ", collapse = "") # add OR between PMID List
-
-PMID_OKM_gallbladder <- gsub(" OR $", "" , PMID_OKM_gallbladder) # to remove last OR
-```
 
 
 
@@ -210,18 +225,6 @@ PMID_OKM_gallbladder <- gsub(" OR $", "" , PMID_OKM_gallbladder) # to remove las
 
 
 
-```{r include=FALSE}
-PMID_OKM_bileducts <- bileducts_recent_PMID$PMID %>% 
-t() %>%
-paste0("[uid] OR ", collapse = "") # add OR between PMID List
-
-PMID_OKM_bileducts <- gsub(" OR $", "" , PMID_OKM_bileducts) # to remove last OR
-```
-
-
-
-
-
 ```{r bileductsRecent,  child='~/JournalWatchPBPath/_bileductsRecent.Rmd'}
 ```
 
@@ -236,17 +239,6 @@ PMID_OKM_bileducts <- gsub(" OR $", "" , PMID_OKM_bileducts) # to remove last OR
 \pagebreak
 
 ## Ampulla {#ampulla}
-
-
-
-```{r include=FALSE}
-PMID_OKM_ampulla <- ampulla_recent_PMID$PMID %>% 
-t() %>%
-paste0("[uid] OR ", collapse = "") # add OR between PMID List
-
-PMID_OKM_ampulla <- gsub(" OR $", "" , PMID_OKM_ampulla) # to remove last OR
-
-```
 
 
 
