@@ -282,76 +282,6 @@ Sys.sleep(2)
 
 ---
 
-```{r bileducts 32010932, include=FALSE}
-
-PMID_32010932 <- RefManageR::ReadPubMed('32010932', database = 'PubMed')
-
-citation_32010932 <- paste0(PMID_32010932$journal,' ', PMID_32010932$year, ' ', PMID_32010932$month,';', PMID_32010932$volume,'(', PMID_32010932$number,'):', PMID_32010932$pages)
-
-PubMed_32010932 <- paste0(PubMedString, PMID_32010932$eprint)
-
-doi_32010932 <- paste0(doiString, PMID_32010932$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32010932$title`**
-</summary> 
-
-*`r citation_32010932`*
-
-`r PubMed_32010932`
-
-`r PMID_32010932$abstract`
-
-`r doi_32010932`
-
-</details>
-
----
-
-
-
-
----
-
-```{r bileducts 31993770, include=FALSE}
-
-PMID_31993770 <- RefManageR::ReadPubMed('31993770', database = 'PubMed')
-
-citation_31993770 <- paste0(PMID_31993770$journal,' ', PMID_31993770$year, ' ', PMID_31993770$month,';', PMID_31993770$volume,'(', PMID_31993770$number,'):', PMID_31993770$pages)
-
-PubMed_31993770 <- paste0(PubMedString, PMID_31993770$eprint)
-
-doi_31993770 <- paste0(doiString, PMID_31993770$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31993770$title`**
-</summary> 
-
-*`r citation_31993770`*
-
-`r PubMed_31993770`
-
-`r PMID_31993770$abstract`
-
-`r doi_31993770`
-
-</details>
-
----
-
-
-
-
----
-
 ```{r bileducts 31678302, include=FALSE}
 
 PMID_31678302 <- RefManageR::ReadPubMed('31678302', database = 'PubMed')
@@ -377,41 +307,6 @@ Sys.sleep(2)
 `r PMID_31678302$abstract`
 
 `r doi_31678302`
-
-</details>
-
----
-
-
-
-
----
-
-```{r bileducts 31299162, include=FALSE}
-
-PMID_31299162 <- RefManageR::ReadPubMed('31299162', database = 'PubMed')
-
-citation_31299162 <- paste0(PMID_31299162$journal,' ', PMID_31299162$year, ' ', PMID_31299162$month,';', PMID_31299162$volume,'(', PMID_31299162$number,'):', PMID_31299162$pages)
-
-PubMed_31299162 <- paste0(PubMedString, PMID_31299162$eprint)
-
-doi_31299162 <- paste0(doiString, PMID_31299162$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31299162$title`**
-</summary> 
-
-*`r citation_31299162`*
-
-`r PubMed_31299162`
-
-`r PMID_31299162$abstract`
-
-`r doi_31299162`
 
 </details>
 
