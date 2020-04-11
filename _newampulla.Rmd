@@ -2,31 +2,31 @@
 
 ---
 
-```{r ampulla 32171280, include=FALSE}
+```{r ampulla 32031120, include=FALSE}
 
-PMID_32171280 <- RefManageR::ReadPubMed('32171280', database = 'PubMed')
+PMID_32031120 <- RefManageR::ReadPubMed('32031120', database = 'PubMed')
 
-citation_32171280 <- paste0(PMID_32171280$journal,' ', PMID_32171280$year, ' ', PMID_32171280$month,';', PMID_32171280$volume,'(', PMID_32171280$number,'):', PMID_32171280$pages)
+citation_32031120 <- paste0(PMID_32031120$journal,' ', PMID_32031120$year, ' ', PMID_32031120$month,';', PMID_32031120$volume,'(', PMID_32031120$number,'):', PMID_32031120$pages)
 
-PubMed_32171280 <- paste0(PubMedString, PMID_32171280$eprint)
+PubMed_32031120 <- paste0(PubMedString, PMID_32031120$eprint)
 
-doi_32171280 <- paste0(doiString, PMID_32171280$doi)
+doi_32031120 <- paste0(doiString, PMID_32031120$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32171280$title`**
+- **`r PMID_32031120$title`**
 </summary> 
 
-*`r citation_32171280`*
+*`r citation_32031120`*
 
-`r PubMed_32171280`
+`r PubMed_32031120`
 
-`r PMID_32171280$abstract`
+`r PMID_32031120$abstract`
 
-`r doi_32171280`
+`r doi_32031120`
 
 </details>
 
