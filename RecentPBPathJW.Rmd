@@ -22,7 +22,7 @@ header-includes:
 ---
 
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(cache = FALSE)
+knitr::opts_chunk$set(cache = TRUE)
 ```
 
 
@@ -80,7 +80,7 @@ doiString <- "doi: https://doi.org/"
 
 
 
-```{r read PMID csv, include=FALSE}
+```{r read PMID csv, include=FALSE, cache=FALSE}
 pancreas_recent_PMID <-
     readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_pancreas.csv",
                     col_names = c("PMID"),
@@ -129,7 +129,7 @@ We encourage members to actively participate by recommending new articles and pr
 
 
 
-```{r PubMed Link, include=FALSE}
+```{r PubMed Link, include=FALSE, cache=FALSE}
 PMID_all <- dplyr::bind_rows(pancreas_recent_PMID,
                              gallbladder_recent_PMID,
                              bileducts_recent_PMID,
@@ -150,7 +150,7 @@ write(x = PubMed_Link, file = here::here("data","PubMed_Link.txt"))
 ```
 
 
-```{r Lens Link, include=FALSE}
+```{r Lens Link, include=FALSE, cache=FALSE}
 PMID_Lens <- paste0("pmid:",PMID_all$PMID,"%20OR%20" ) %>% 
   t() %>% 
   paste0(collapse = "")
@@ -171,7 +171,6 @@ write(x = Lens_Link, file = here::here("data","Lens_Link.txt"))
 
 
 
-
 ---
 
 ```{r run all Rmd without knit, eval=FALSE, include=FALSE}
@@ -181,7 +180,7 @@ source_rmd <- function(rmd_file){
 
 list_of_Rmd <- list.files(path = here::here(), pattern = "Recent.Rmd")
 
-purrr::map(.x = here::here("", list_of_Rmd), .f = source_rmd)
+purrr::walk(.x = here::here("", list_of_Rmd), .f = source_rmd)
 
 ```
 
