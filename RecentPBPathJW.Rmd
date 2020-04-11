@@ -1,18 +1,18 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_document:
-    df_print: paged
-  pdf_document: 
-    toc: yes
-    number_sections: yes
-    latex_engine: xelatex
-    keep_tex: yes
   html_notebook:
     code_folding: none
     fig_caption: yes
     highlight: null
     theme: paper
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+    latex_engine: xelatex
+    keep_tex: yes
+  html_document:
+    df_print: paged
 date: "Last Update on `r format(Sys.Date())`"
 subtitle: Recent Articles that will be Selected
 header-includes:
@@ -172,10 +172,9 @@ write(x = Lens_Link, file = here::here("data","Lens_Link.txt"))
 
 
 
-
 ---
 
-```{r run all Rmd without knit, include=FALSE}
+```{r run all Rmd without knit, eval=FALSE, include=FALSE}
 source_rmd <- function(rmd_file){
   knitr::knit(rmd_file, output = tempfile(), envir = globalenv())
 }
