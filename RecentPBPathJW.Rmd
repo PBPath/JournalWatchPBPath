@@ -181,7 +181,6 @@ source_rmd <- function(rmd_file){
 list_of_Rmd <- list.files(path = here::here(), pattern = "Recent.Rmd")
 
 purrr::walk(.x = here::here("", list_of_Rmd), .f = source_rmd)
-
 ```
 
 
