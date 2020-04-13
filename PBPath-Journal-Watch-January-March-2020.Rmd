@@ -55,8 +55,8 @@ h4.date{
 </style>
 
 
-<!-- Open all links in new tab-->  
-<base target="_blank"/>  
+<!-- Open all links in new tab-->
+<base target="_blank"/>
 
 
 ---
@@ -104,9 +104,9 @@ https://doi.org/10.5281/zenodo.3635440
 
 https://osf.io/3d67y/
 
-This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [drafts of the upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
+This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [drafts of the upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).
 
-We encourage members to actively participate by recommending new articles and providing feedback using the [forms provided below.](#feedback){target="_self"}  
+We encourage members to actively participate by recommending new articles and providing feedback using the [forms provided below.](#feedback){target="_self"}
 
 **We hope that you will enjoy the new PBPath Journal Watch!**
 
@@ -175,41 +175,6 @@ write(x = Lens_Link,
 ## Pancreas {#pancreas}
 
 ---
-
-
-
----
-
-```{r pancreas 32269672, include=FALSE}
-
-PMID_32269672 <- RefManageR::ReadPubMed('32269672', database = 'PubMed')
-
-citation_32269672 <- paste0(PMID_32269672$journal,' ', PMID_32269672$year, ' ', PMID_32269672$month,';', PMID_32269672$volume,'(', PMID_32269672$number,'):', PMID_32269672$pages)
-
-PubMed_32269672 <- paste0(PubMedString, PMID_32269672$eprint)
-
-doi_32269672 <- paste0(doiString, PMID_32269672$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32269672$title`**
-</summary>
-
-*`r citation_32269672`*
-
-`r PubMed_32269672`
-
-`r PMID_32269672$abstract`
-
-`r doi_32269672`
-
-</details>
-
----
-
 
 
 ---
@@ -686,40 +651,6 @@ Sys.sleep(2)
 </details>
 
 ---
-
-
----
-
-```{r pancreas 31519982, include=FALSE}
-
-PMID_31519982 <- RefManageR::ReadPubMed('31519982', database = 'PubMed')
-
-citation_31519982 <- paste0(PMID_31519982$journal,' ', PMID_31519982$year, ' ', PMID_31519982$month,';', PMID_31519982$volume,'(', PMID_31519982$number,'):', PMID_31519982$pages)
-
-PubMed_31519982 <- paste0(PubMedString, PMID_31519982$eprint)
-
-doi_31519982 <- paste0(doiString, PMID_31519982$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_31519982$title`**
-</summary>
-
-*`r citation_31519982`*
-
-`r PubMed_31519982`
-
-`r PMID_31519982$abstract`
-
-`r doi_31519982`
-
-</details>
-
----
-
 
 
 
@@ -14814,7 +14745,7 @@ Sys.sleep(2)
 # Feedback {#feedback}
 
 
-[Google Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)  
+[Google Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeD3Z9J6Y7eMmiyM12f_SfAmHUlykb1zxZcwO6lg7cebGYQIQ/viewform)
 
 
 <script id="dsq-count-scr" src="//pbpath-org.disqus.com/count.js" async></script>

@@ -145,9 +145,11 @@ PMIDs <- gsub(" OR $", "" , PMIDs) # to remove last OR
 
 Recent_PubMed_Link <- paste0("To see these selected articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMIDs,"'> PubMed click here </a>")
 
-write(x = PubMed_Link, file = here::here("data","Recent_PubMed_Link.txt"))
+write(x = Recent_PubMed_Link,
+      file = here::here("data","Recent_PubMed_Link.txt"))
 
 ```
+
 
 
 ```{r Lens Link, include=FALSE, cache=FALSE}
@@ -159,7 +161,8 @@ PMID_Lens <- gsub("%20OR%20$", "" , PMID_Lens)
 
 Recent_Lens_Link <- paste0("To see these selected articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
 
-write(x = Lens_Link, file = here::here("data","Recent_Lens_Link.txt"))
+write(x = Recent_Lens_Link,
+      file = here::here("data","Recent_Lens_Link.txt"))
 
 ```
 
