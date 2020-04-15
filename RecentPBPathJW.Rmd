@@ -84,22 +84,22 @@ doiString <- "doi: https://doi.org/"
 pancreas_recent_PMID <-
     readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_pancreas.csv",
                     col_names = c("PMID"),
-                    cols(PMID = col_character()))
+                    readr::cols(PMID = readr::col_character()))
 
 gallbladder_recent_PMID <-
     readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_gallbladder.csv",
                     col_names = c("PMID"),
-                    cols(PMID = col_character()))
+                    readr::cols(PMID = readr::col_character()))
 
 bileducts_recent_PMID <-
     readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_bileducts.csv",
                     col_names = c("PMID"),
-                    cols(PMID = col_character()))
+                    readr::cols(PMID = readr::col_character()))
 
 ampulla_recent_PMID <-
     readr::read_csv(file      = "~/AutoJournalWatch/data/PMIDList_ampulla.csv",
                     col_names = c("PMID"),
-                    cols(PMID = col_character()))
+                    readr::cols(PMID = readr::col_character()))
 ```
 
 
