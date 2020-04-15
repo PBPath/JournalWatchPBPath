@@ -103,38 +103,72 @@ ampulla_recent_PMID <-
 ```
 
 
+
+
+
+```{r read PMID from this file, include=FALSE, cache=FALSE}
+previousJW <- list.files(path = here::here("archive-of-published"),
+                          pattern = ".Rmd",
+                          full.names = TRUE)
+
+
+text_previousJW <- unname(sapply(previousJW, readLines))
+text_previousJW <- unlist(text_previousJW, use.names=FALSE)
+
+# text_previousJW <- purrr::map(
+#     .x = previousJW,
+#     .f = readLines
+# )
+
+
+
+PMID_List_previousJW <-
+    stringr::str_extract(
+        string = text_previousJW,
+        pattern =
+            "PubMed_(\\d{8})"
+    )
+
+
+PMID_List_previousJW <- PMID_List_previousJW[!is.na(PMID_List_previousJW)]
+
+
+PMID_List_previousJW <- PMID_List_previousJW %>%
+  unique() %>%
+  gsub(pattern = "PubMed_", replacement = "", x = .)
+
+previousJW_PMID <- NULL
+previousJW_PMID$PMID <- PMID_List_previousJW
+previousJW_PMID <- as.data.frame(previousJW_PMID)
+
+
+```
+
+
+
+
 ---
 
 **Welcome to the PBPath Journal Watch!** 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3635440.svg)](https://doi.org/10.5281/zenodo.3635440)
 
-https://doi.org/10.5281/zenodo.3635440
 
-https://osf.io/3d67y/
-
-This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, and molecular pathology among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [drafts of the upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
+This bi-monthly journal watch features exciting recently published pancreas and biliary pathology articles that will provide up to date medical knowledge in our field. These articles will be showcased in several convenient categories, including surgical pathology, cytopathology, molecular pathology, pancreas, gallbladder, bile ducts, and ampulla among others. The articles in each category are in no particular order. See the list of journals we search regularly [here](http://pbpath.org/pbpath-journal-watch/). Previous months’ issues may be found in our *[archive](http://pbpath.org/journal-watch-archive/)* and you may see [drafts of the upcoming issue here](http://pbpath.org/journal-watch-upcoming-issue/).  
 
 We encourage members to actively participate by recommending new articles and providing feedback using the [forms provided below.](#feedback){target="_self"}  
 
 **We hope that you will enjoy the new PBPath Journal Watch!**
 
 
-
-
----
-
-
-
-
-
-
 ```{r PubMed Link, include=FALSE, cache=FALSE}
 PMID_all <- dplyr::bind_rows(pancreas_recent_PMID,
                              gallbladder_recent_PMID,
                              bileducts_recent_PMID,
-                             ampulla_recent_PMID
-)
+                             ampulla_recent_PMID,
+                             previousJW_PMID
+) %>% 
+  dplyr::arrange(dplyr::desc(PMID)) %>% 
+  head(., n = 100)
 
 
 PMIDs <- PMID_all$PMID %>% 
@@ -167,11 +201,20 @@ write(x = Recent_Lens_Link,
 ```
 
 
+<details> <summary>
+Click here to see these articles and graphical summaries in other databases
+</summary>
+
+The *journal watch* articles are collected in [zenodo](https://doi.org/10.5281/zenodo.3635440) and [OSF](https://osf.io/3d67y/).  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3635440.svg)](https://doi.org/10.5281/zenodo.3635440)  
+
+
 `r Recent_PubMed_Link`
 
 
 `r Recent_Lens_Link`
 
+</details>
 
 
 ---
