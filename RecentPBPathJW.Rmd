@@ -181,9 +181,13 @@ source_rmd <- function(rmd_file){
   knitr::knit(rmd_file, output = tempfile(), envir = globalenv())
 }
 
-list_of_Rmd <- list.files(path = here::here(), pattern = "Recent.Rmd")
+list_of_Rmd <- list.files(path = here::here(),
+                          pattern = "Recent.Rmd",
+                          full.names = TRUE)
 
-purrr::walk(.x = here::here("", list_of_Rmd), .f = source_rmd)
+purrr::map(.x = list_of_Rmd, .f = source_rmd)
+
+# purrr::walk(.x = here::here("", list_of_Rmd), .f = source_rmd)
 ```
 
 
