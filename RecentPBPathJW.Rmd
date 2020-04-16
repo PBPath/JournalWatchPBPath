@@ -106,7 +106,7 @@ ampulla_recent_PMID <-
 
 
 
-```{r read PMID from this file, include=FALSE, cache=FALSE}
+```{r read PMID from previous JW, include=FALSE, cache=FALSE}
 previousJW <- list.files(path = here::here("archive-of-published"),
                           pattern = ".Rmd",
                           full.names = TRUE)
@@ -140,7 +140,6 @@ PMID_List_previousJW <- PMID_List_previousJW %>%
 previousJW_PMID <- NULL
 previousJW_PMID$PMID <- PMID_List_previousJW
 previousJW_PMID <- as.data.frame(previousJW_PMID)
-
 
 ```
 
