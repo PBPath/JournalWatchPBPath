@@ -232,6 +232,13 @@ purrr::map(.x = list_of_Rmd, .f = source_rmd)
 # purrr::walk(.x = here::here("", list_of_Rmd), .f = source_rmd)
 ```
 
+```{r forcegit, eval=FALSE, include=FALSE}
+# gitUpdateCommitPush
+CommitMessage <- paste("updated on ", Sys.time(), sep = "")
+wd <- getwd()
+gitCommand <- paste("cd ", wd, " \n git add . \n git commit --message '", CommitMessage, "' \n git push origin master \n", sep = "")
+system(command = gitCommand, intern = TRUE)
+```
 
 
 \pagebreak
