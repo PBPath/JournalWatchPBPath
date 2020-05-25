@@ -2,6 +2,111 @@
 
 ---
 
+```{r pancreas 32445859, include=FALSE}
+
+PMID_32445859 <- RefManageR::ReadPubMed('32445859', database = 'PubMed')
+
+citation_32445859 <- paste0(PMID_32445859$journal,' ', PMID_32445859$year, ' ', PMID_32445859$month,';', PMID_32445859$volume,'(', PMID_32445859$number,'):', PMID_32445859$pages)
+
+PubMed_32445859 <- paste0(PubMedString, PMID_32445859$eprint)
+
+doi_32445859 <- paste0(doiString, PMID_32445859$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32445859$title`**
+</summary> 
+
+*`r citation_32445859`*
+
+`r PubMed_32445859`
+
+`r PMID_32445859$abstract`
+
+`r doi_32445859`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 32445858, include=FALSE}
+
+PMID_32445858 <- RefManageR::ReadPubMed('32445858', database = 'PubMed')
+
+citation_32445858 <- paste0(PMID_32445858$journal,' ', PMID_32445858$year, ' ', PMID_32445858$month,';', PMID_32445858$volume,'(', PMID_32445858$number,'):', PMID_32445858$pages)
+
+PubMed_32445858 <- paste0(PubMedString, PMID_32445858$eprint)
+
+doi_32445858 <- paste0(doiString, PMID_32445858$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32445858$title`**
+</summary> 
+
+*`r citation_32445858`*
+
+`r PubMed_32445858`
+
+`r PMID_32445858$abstract`
+
+`r doi_32445858`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 32444418, include=FALSE}
+
+PMID_32444418 <- RefManageR::ReadPubMed('32444418', database = 'PubMed')
+
+citation_32444418 <- paste0(PMID_32444418$journal,' ', PMID_32444418$year, ' ', PMID_32444418$month,';', PMID_32444418$volume,'(', PMID_32444418$number,'):', PMID_32444418$pages)
+
+PubMed_32444418 <- paste0(PubMedString, PMID_32444418$eprint)
+
+doi_32444418 <- paste0(doiString, PMID_32444418$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32444418$title`**
+</summary> 
+
+*`r citation_32444418`*
+
+`r PubMed_32444418`
+
+`r PMID_32444418$abstract`
+
+`r doi_32444418`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r pancreas 32442403, include=FALSE}
 
 PMID_32442403 <- RefManageR::ReadPubMed('32442403', database = 'PubMed')
