@@ -2,31 +2,31 @@
 
 ---
 
-```{r gallbladder 32493242, include=FALSE}
+```{r gallbladder 32503437, include=FALSE}
 
-PMID_32493242 <- RefManageR::ReadPubMed('32493242', database = 'PubMed')
+PMID_32503437 <- RefManageR::ReadPubMed('32503437', database = 'PubMed')
 
-citation_32493242 <- paste0(PMID_32493242$journal,' ', PMID_32493242$year, ' ', PMID_32493242$month,';', PMID_32493242$volume,'(', PMID_32493242$number,'):', PMID_32493242$pages)
+citation_32503437 <- paste0(PMID_32503437$journal,' ', PMID_32503437$year, ' ', PMID_32503437$month,';', PMID_32503437$volume,'(', PMID_32503437$number,'):', PMID_32503437$pages)
 
-PubMed_32493242 <- paste0(PubMedString, PMID_32493242$eprint)
+PubMed_32503437 <- paste0(PubMedString, PMID_32503437$eprint)
 
-doi_32493242 <- paste0(doiString, PMID_32493242$doi)
+doi_32503437 <- paste0(doiString, PMID_32503437$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32493242$title`**
+- **`r PMID_32503437$title`**
 </summary> 
 
-*`r citation_32493242`*
+*`r citation_32503437`*
 
-`r PubMed_32493242`
+`r PubMed_32503437`
 
-`r PMID_32493242$abstract`
+`r PMID_32503437$abstract`
 
-`r doi_32493242`
+`r doi_32503437`
 
 </details>
 

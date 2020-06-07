@@ -1892,6 +1892,41 @@ Sys.sleep(2)
 
 ---
 
+```{r pancreas 32402696, include=FALSE}
+
+PMID_32402696 <- RefManageR::ReadPubMed('32402696', database = 'PubMed')
+
+citation_32402696 <- paste0(PMID_32402696$journal,' ', PMID_32402696$year, ' ', PMID_32402696$month,';', PMID_32402696$volume,'(', PMID_32402696$number,'):', PMID_32402696$pages)
+
+PubMed_32402696 <- paste0(PubMedString, PMID_32402696$eprint)
+
+doi_32402696 <- paste0(doiString, PMID_32402696$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32402696$title`**
+</summary> 
+
+*`r citation_32402696`*
+
+`r PubMed_32402696`
+
+`r PMID_32402696$abstract`
+
+`r doi_32402696`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r pancreas 32402695, include=FALSE}
 
 PMID_32402695 <- RefManageR::ReadPubMed('32402695', database = 'PubMed')
@@ -2547,6 +2582,41 @@ Sys.sleep(2)
 `r PMID_32376411$abstract`
 
 `r doi_32376411`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 32376198, include=FALSE}
+
+PMID_32376198 <- RefManageR::ReadPubMed('32376198', database = 'PubMed')
+
+citation_32376198 <- paste0(PMID_32376198$journal,' ', PMID_32376198$year, ' ', PMID_32376198$month,';', PMID_32376198$volume,'(', PMID_32376198$number,'):', PMID_32376198$pages)
+
+PubMed_32376198 <- paste0(PubMedString, PMID_32376198$eprint)
+
+doi_32376198 <- paste0(doiString, PMID_32376198$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32376198$title`**
+</summary> 
+
+*`r citation_32376198`*
+
+`r PubMed_32376198`
+
+`r PMID_32376198$abstract`
+
+`r doi_32376198`
 
 </details>
 
@@ -3912,6 +3982,41 @@ Sys.sleep(2)
 `r PMID_32307617$abstract`
 
 `r doi_32307617`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas 32307251, include=FALSE}
+
+PMID_32307251 <- RefManageR::ReadPubMed('32307251', database = 'PubMed')
+
+citation_32307251 <- paste0(PMID_32307251$journal,' ', PMID_32307251$year, ' ', PMID_32307251$month,';', PMID_32307251$volume,'(', PMID_32307251$number,'):', PMID_32307251$pages)
+
+PubMed_32307251 <- paste0(PubMedString, PMID_32307251$eprint)
+
+doi_32307251 <- paste0(doiString, PMID_32307251$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32307251$title`**
+</summary> 
+
+*`r citation_32307251`*
+
+`r PubMed_32307251`
+
+`r PMID_32307251$abstract`
+
+`r doi_32307251`
 
 </details>
 
