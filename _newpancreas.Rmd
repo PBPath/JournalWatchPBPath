@@ -2,31 +2,31 @@
 
 ---
 
-```{r pancreas 32511899, include=FALSE}
+```{r pancreas 32515558, include=FALSE}
 
-PMID_32511899 <- RefManageR::ReadPubMed('32511899', database = 'PubMed')
+PMID_32515558 <- RefManageR::ReadPubMed('32515558', database = 'PubMed')
 
-citation_32511899 <- paste0(PMID_32511899$journal,' ', PMID_32511899$year, ' ', PMID_32511899$month,';', PMID_32511899$volume,'(', PMID_32511899$number,'):', PMID_32511899$pages)
+citation_32515558 <- paste0(PMID_32515558$journal,' ', PMID_32515558$year, ' ', PMID_32515558$month,';', PMID_32515558$volume,'(', PMID_32515558$number,'):', PMID_32515558$pages)
 
-PubMed_32511899 <- paste0(PubMedString, PMID_32511899$eprint)
+PubMed_32515558 <- paste0(PubMedString, PMID_32515558$eprint)
 
-doi_32511899 <- paste0(doiString, PMID_32511899$doi)
+doi_32515558 <- paste0(doiString, PMID_32515558$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32511899$title`**
+- **`r PMID_32515558$title`**
 </summary> 
 
-*`r citation_32511899`*
+*`r citation_32515558`*
 
-`r PubMed_32511899`
+`r PubMed_32515558`
 
-`r PMID_32511899$abstract`
+`r PMID_32515558$abstract`
 
-`r doi_32511899`
+`r doi_32515558`
 
 </details>
 
@@ -37,31 +37,31 @@ Sys.sleep(1)
 
 ---
 
-```{r pancreas 32511134, include=FALSE}
+```{r pancreas 32514806, include=FALSE}
 
-PMID_32511134 <- RefManageR::ReadPubMed('32511134', database = 'PubMed')
+PMID_32514806 <- RefManageR::ReadPubMed('32514806', database = 'PubMed')
 
-citation_32511134 <- paste0(PMID_32511134$journal,' ', PMID_32511134$year, ' ', PMID_32511134$month,';', PMID_32511134$volume,'(', PMID_32511134$number,'):', PMID_32511134$pages)
+citation_32514806 <- paste0(PMID_32514806$journal,' ', PMID_32514806$year, ' ', PMID_32514806$month,';', PMID_32514806$volume,'(', PMID_32514806$number,'):', PMID_32514806$pages)
 
-PubMed_32511134 <- paste0(PubMedString, PMID_32511134$eprint)
+PubMed_32514806 <- paste0(PubMedString, PMID_32514806$eprint)
 
-doi_32511134 <- paste0(doiString, PMID_32511134$doi)
+doi_32514806 <- paste0(doiString, PMID_32514806$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32511134$title`**
+- **`r PMID_32514806$title`**
 </summary> 
 
-*`r citation_32511134`*
+*`r citation_32514806`*
 
-`r PubMed_32511134`
+`r PubMed_32514806`
 
-`r PMID_32511134$abstract`
+`r PMID_32514806$abstract`
 
-`r doi_32511134`
+`r doi_32514806`
 
 </details>
 
@@ -72,31 +72,31 @@ Sys.sleep(1)
 
 ---
 
-```{r pancreas 32507681, include=FALSE}
+```{r pancreas 32513848, include=FALSE}
 
-PMID_32507681 <- RefManageR::ReadPubMed('32507681', database = 'PubMed')
+PMID_32513848 <- RefManageR::ReadPubMed('32513848', database = 'PubMed')
 
-citation_32507681 <- paste0(PMID_32507681$journal,' ', PMID_32507681$year, ' ', PMID_32507681$month,';', PMID_32507681$volume,'(', PMID_32507681$number,'):', PMID_32507681$pages)
+citation_32513848 <- paste0(PMID_32513848$journal,' ', PMID_32513848$year, ' ', PMID_32513848$month,';', PMID_32513848$volume,'(', PMID_32513848$number,'):', PMID_32513848$pages)
 
-PubMed_32507681 <- paste0(PubMedString, PMID_32507681$eprint)
+PubMed_32513848 <- paste0(PubMedString, PMID_32513848$eprint)
 
-doi_32507681 <- paste0(doiString, PMID_32507681$doi)
+doi_32513848 <- paste0(doiString, PMID_32513848$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32507681$title`**
+- **`r PMID_32513848$title`**
 </summary> 
 
-*`r citation_32507681`*
+*`r citation_32513848`*
 
-`r PubMed_32507681`
+`r PubMed_32513848`
 
-`r PMID_32507681$abstract`
+`r PMID_32513848$abstract`
 
-`r doi_32507681`
+`r doi_32513848`
 
 </details>
 
@@ -107,66 +107,31 @@ Sys.sleep(1)
 
 ---
 
-```{r pancreas 32506441, include=FALSE}
+```{r pancreas 32513126, include=FALSE}
 
-PMID_32506441 <- RefManageR::ReadPubMed('32506441', database = 'PubMed')
+PMID_32513126 <- RefManageR::ReadPubMed('32513126', database = 'PubMed')
 
-citation_32506441 <- paste0(PMID_32506441$journal,' ', PMID_32506441$year, ' ', PMID_32506441$month,';', PMID_32506441$volume,'(', PMID_32506441$number,'):', PMID_32506441$pages)
+citation_32513126 <- paste0(PMID_32513126$journal,' ', PMID_32513126$year, ' ', PMID_32513126$month,';', PMID_32513126$volume,'(', PMID_32513126$number,'):', PMID_32513126$pages)
 
-PubMed_32506441 <- paste0(PubMedString, PMID_32506441$eprint)
+PubMed_32513126 <- paste0(PubMedString, PMID_32513126$eprint)
 
-doi_32506441 <- paste0(doiString, PMID_32506441$doi)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_32506441$title`**
-</summary> 
-
-*`r citation_32506441`*
-
-`r PubMed_32506441`
-
-`r PMID_32506441$abstract`
-
-`r doi_32506441`
-
-</details>
-
----
-
-
-
-
----
-
-```{r pancreas 32506156, include=FALSE}
-
-PMID_32506156 <- RefManageR::ReadPubMed('32506156', database = 'PubMed')
-
-citation_32506156 <- paste0(PMID_32506156$journal,' ', PMID_32506156$year, ' ', PMID_32506156$month,';', PMID_32506156$volume,'(', PMID_32506156$number,'):', PMID_32506156$pages)
-
-PubMed_32506156 <- paste0(PubMedString, PMID_32506156$eprint)
-
-doi_32506156 <- paste0(doiString, PMID_32506156$doi)
+doi_32513126 <- paste0(doiString, PMID_32513126$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32506156$title`**
+- **`r PMID_32513126$title`**
 </summary> 
 
-*`r citation_32506156`*
+*`r citation_32513126`*
 
-`r PubMed_32506156`
+`r PubMed_32513126`
 
-`r PMID_32506156$abstract`
+`r PMID_32513126$abstract`
 
-`r doi_32506156`
+`r doi_32513126`
 
 </details>
 
