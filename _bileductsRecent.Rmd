@@ -37,41 +37,6 @@ Sys.sleep(2)
 
 ---
 
-```{r bileducts 32483004, include=FALSE}
-
-PMID_32483004 <- RefManageR::ReadPubMed('32483004', database = 'PubMed')
-
-citation_32483004 <- paste0(PMID_32483004$journal,' ', PMID_32483004$year, ' ', PMID_32483004$month,';', PMID_32483004$volume,'(', PMID_32483004$number,'):', PMID_32483004$pages)
-
-PubMed_32483004 <- paste0(PubMedString, PMID_32483004$eprint)
-
-doi_32483004 <- paste0(doiString, PMID_32483004$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32483004$title`**
-</summary> 
-
-*`r citation_32483004`*
-
-`r PubMed_32483004`
-
-`r PMID_32483004$abstract`
-
-`r doi_32483004`
-
-</details>
-
----
-
-
-
-
----
-
 ```{r bileducts 32476131, include=FALSE}
 
 PMID_32476131 <- RefManageR::ReadPubMed('32476131', database = 'PubMed')
@@ -97,41 +62,6 @@ Sys.sleep(2)
 `r PMID_32476131$abstract`
 
 `r doi_32476131`
-
-</details>
-
----
-
-
-
-
----
-
-```{r bileducts 32473917, include=FALSE}
-
-PMID_32473917 <- RefManageR::ReadPubMed('32473917', database = 'PubMed')
-
-citation_32473917 <- paste0(PMID_32473917$journal,' ', PMID_32473917$year, ' ', PMID_32473917$month,';', PMID_32473917$volume,'(', PMID_32473917$number,'):', PMID_32473917$pages)
-
-PubMed_32473917 <- paste0(PubMedString, PMID_32473917$eprint)
-
-doi_32473917 <- paste0(doiString, PMID_32473917$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32473917$title`**
-</summary> 
-
-*`r citation_32473917`*
-
-`r PubMed_32473917`
-
-`r PMID_32473917$abstract`
-
-`r doi_32473917`
 
 </details>
 
@@ -342,41 +272,6 @@ Sys.sleep(2)
 `r PMID_32404658$abstract`
 
 `r doi_32404658`
-
-</details>
-
----
-
-
-
-
----
-
-```{r bileducts 32404425, include=FALSE}
-
-PMID_32404425 <- RefManageR::ReadPubMed('32404425', database = 'PubMed')
-
-citation_32404425 <- paste0(PMID_32404425$journal,' ', PMID_32404425$year, ' ', PMID_32404425$month,';', PMID_32404425$volume,'(', PMID_32404425$number,'):', PMID_32404425$pages)
-
-PubMed_32404425 <- paste0(PubMedString, PMID_32404425$eprint)
-
-doi_32404425 <- paste0(doiString, PMID_32404425$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32404425$title`**
-</summary> 
-
-*`r citation_32404425`*
-
-`r PubMed_32404425`
-
-`r PMID_32404425$abstract`
-
-`r doi_32404425`
 
 </details>
 
