@@ -37,41 +37,6 @@ Sys.sleep(2)
 
 ---
 
-```{r gallbladder 32503437, include=FALSE}
-
-PMID_32503437 <- RefManageR::ReadPubMed('32503437', database = 'PubMed')
-
-citation_32503437 <- paste0(PMID_32503437$journal,' ', PMID_32503437$year, ' ', PMID_32503437$month,';', PMID_32503437$volume,'(', PMID_32503437$number,'):', PMID_32503437$pages)
-
-PubMed_32503437 <- paste0(PubMedString, PMID_32503437$eprint)
-
-doi_32503437 <- paste0(doiString, PMID_32503437$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32503437$title`**
-</summary> 
-
-*`r citation_32503437`*
-
-`r PubMed_32503437`
-
-`r PMID_32503437$abstract`
-
-`r doi_32503437`
-
-</details>
-
----
-
-
-
-
----
-
 ```{r gallbladder 32460791, include=FALSE}
 
 PMID_32460791 <- RefManageR::ReadPubMed('32460791', database = 'PubMed')
@@ -132,76 +97,6 @@ Sys.sleep(2)
 `r PMID_32447492$abstract`
 
 `r doi_32447492`
-
-</details>
-
----
-
-
-
-
----
-
-```{r gallbladder 32445859, include=FALSE}
-
-PMID_32445859 <- RefManageR::ReadPubMed('32445859', database = 'PubMed')
-
-citation_32445859 <- paste0(PMID_32445859$journal,' ', PMID_32445859$year, ' ', PMID_32445859$month,';', PMID_32445859$volume,'(', PMID_32445859$number,'):', PMID_32445859$pages)
-
-PubMed_32445859 <- paste0(PubMedString, PMID_32445859$eprint)
-
-doi_32445859 <- paste0(doiString, PMID_32445859$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32445859$title`**
-</summary> 
-
-*`r citation_32445859`*
-
-`r PubMed_32445859`
-
-`r PMID_32445859$abstract`
-
-`r doi_32445859`
-
-</details>
-
----
-
-
-
-
----
-
-```{r gallbladder 32430748, include=FALSE}
-
-PMID_32430748 <- RefManageR::ReadPubMed('32430748', database = 'PubMed')
-
-citation_32430748 <- paste0(PMID_32430748$journal,' ', PMID_32430748$year, ' ', PMID_32430748$month,';', PMID_32430748$volume,'(', PMID_32430748$number,'):', PMID_32430748$pages)
-
-PubMed_32430748 <- paste0(PubMedString, PMID_32430748$eprint)
-
-doi_32430748 <- paste0(doiString, PMID_32430748$doi)
-
-Sys.sleep(2)
-
-```
-
-<details open> <summary>
-- **`r PMID_32430748$title`**
-</summary> 
-
-*`r citation_32430748`*
-
-`r PubMed_32430748`
-
-`r PMID_32430748$abstract`
-
-`r doi_32430748`
 
 </details>
 
