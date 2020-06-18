@@ -1,0 +1,83 @@
+
+```{r PubMed Link, include=FALSE, cache=FALSE}
+
+PMID_all <- dplyr::bind_rows(pancreas_recent_PMID,
+                             gallbladder_recent_PMID,
+                             bileducts_recent_PMID,
+                             ampulla_recent_PMID,
+                             previousJW_PMID
+) %>% 
+  dplyr::arrange(dplyr::desc(PMID)) %>% 
+  head(., n = 100)
+
+
+PMIDs <- PMID_all$PMID %>% 
+t() %>%
+paste0("[uid] OR ", collapse = "") # add OR between PMID List
+
+PMIDs <- gsub(" OR $", "" , PMIDs) # to remove last OR
+
+Recent_PubMed_Link <- paste0("To see these selected articles in <a href = 'https://www.ncbi.nlm.nih.gov/pubmed/?term=",PMIDs,"'> PubMed click here </a>")
+
+write(x = Recent_PubMed_Link,
+      file = here::here("data","Recent_PubMed_Link.txt"))
+
+```
+
+
+
+```{r Lens Link, include=FALSE, cache=FALSE}
+PMID_Lens <- paste0("pmid:",PMID_all$PMID,"%20OR%20" ) %>% 
+  t() %>% 
+  paste0(collapse = "")
+
+PMID_Lens <- gsub("%20OR%20$", "" , PMID_Lens)
+
+Recent_Lens_Link <- paste0("To see these selected articles in <a href = 'https://www.lens.org/lens/scholar/search/results?q=",PMID_Lens,"&toYear=2020&fromYear=1950&dateFilterField=year_published&filterMap=%7B%7D&preview=true'> Lens.org click here </a>")
+
+write(x = Recent_Lens_Link,
+      file = here::here("data","Recent_Lens_Link.txt"))
+
+```
+
+
+<details> <summary>
+Click here to see these articles and graphical summaries in other databases
+</summary>
+
+The *journal watch* articles are collected in [zenodo](https://doi.org/10.5281/zenodo.3635440) and [OSF](https://osf.io/3d67y/).  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3635440.svg)](https://doi.org/10.5281/zenodo.3635440)  
+
+
+`r Recent_PubMed_Link`
+
+
+`r Recent_Lens_Link`
+
+</details>
+
+
+---
+
+```{r run all Rmd without knit, eval=FALSE, include=FALSE}
+source_rmd <- function(rmd_file){
+  knitr::knit(rmd_file, output = tempfile(), envir = globalenv())
+}
+
+list_of_Rmd <- list.files(path = here::here(),
+                          pattern = "Recent.Rmd",
+                          full.names = TRUE)
+
+purrr::map(.x = list_of_Rmd, .f = source_rmd)
+
+# purrr::walk(.x = here::here("", list_of_Rmd), .f = source_rmd)
+```
+
+```{r forcegit, eval=FALSE, include=FALSE}
+# gitUpdateCommitPush
+CommitMessage <- paste("updated on ", Sys.time(), sep = "")
+wd <- getwd()
+gitCommand <- paste("cd ", wd, " \n git add . \n git commit --message '", CommitMessage, "' \n git push origin master \n", sep = "")
+system(command = gitCommand, intern = TRUE)
+```
+
