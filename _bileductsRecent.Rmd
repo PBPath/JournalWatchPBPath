@@ -2,6 +2,41 @@
 
 ---
 
+```{r bileducts 32590541, include=FALSE}
+
+PMID_32590541 <- RefManageR::ReadPubMed('32590541', database = 'PubMed')
+
+citation_32590541 <- paste0(PMID_32590541$journal,' ', PMID_32590541$year, ' ', PMID_32590541$month,';', PMID_32590541$volume,'(', PMID_32590541$number,'):', PMID_32590541$pages)
+
+PubMed_32590541 <- paste0(PubMedString, PMID_32590541$eprint)
+
+doi_32590541 <- paste0(doiString, PMID_32590541$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32590541$title`**
+</summary> 
+
+*`r citation_32590541`*
+
+`r PubMed_32590541`
+
+`r PMID_32590541$abstract`
+
+`r doi_32590541`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r bileducts 32578066, include=FALSE}
 
 PMID_32578066 <- RefManageR::ReadPubMed('32578066', database = 'PubMed')
@@ -482,6 +517,76 @@ Sys.sleep(2)
 `r PMID_32100878$abstract`
 
 `r doi_32100878`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 31927624, include=FALSE}
+
+PMID_31927624 <- RefManageR::ReadPubMed('31927624', database = 'PubMed')
+
+citation_31927624 <- paste0(PMID_31927624$journal,' ', PMID_31927624$year, ' ', PMID_31927624$month,';', PMID_31927624$volume,'(', PMID_31927624$number,'):', PMID_31927624$pages)
+
+PubMed_31927624 <- paste0(PubMedString, PMID_31927624$eprint)
+
+doi_31927624 <- paste0(doiString, PMID_31927624$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31927624$title`**
+</summary> 
+
+*`r citation_31927624`*
+
+`r PubMed_31927624`
+
+`r PMID_31927624$abstract`
+
+`r doi_31927624`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 31838585, include=FALSE}
+
+PMID_31838585 <- RefManageR::ReadPubMed('31838585', database = 'PubMed')
+
+citation_31838585 <- paste0(PMID_31838585$journal,' ', PMID_31838585$year, ' ', PMID_31838585$month,';', PMID_31838585$volume,'(', PMID_31838585$number,'):', PMID_31838585$pages)
+
+PubMed_31838585 <- paste0(PubMedString, PMID_31838585$eprint)
+
+doi_31838585 <- paste0(doiString, PMID_31838585$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31838585$title`**
+</summary> 
+
+*`r citation_31838585`*
+
+`r PubMed_31838585`
+
+`r PMID_31838585$abstract`
+
+`r doi_31838585`
 
 </details>
 
