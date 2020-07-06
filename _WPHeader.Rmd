@@ -1,0 +1,36 @@
+---
+title: "Recent Articles on Pancreatobiliary Pathology"
+author:
+  - name: Serdar Balcı 
+    url: https://www.serdarbalci.com/
+    affiliation: MD Pathologist
+    affiliation_url: https://sbalci.github.io/
+date: "`r Sys.Date()`"
+--- 
+
+
+**These are the recent articles on Pancreatobiliary Pathology:**
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+```{r}
+suppressPackageStartupMessages(library("dplyr"))
+suppressPackageStartupMessages(library("RefManageR"))
+```
+
+
+```{r strings , include=FALSE}
+PubMedString <- "PubMed: https://www.ncbi.nlm.nih.gov/pubmed/?term="
+
+doiString <- "doi: https://doi.org/"
+
+```
+
+
+
+

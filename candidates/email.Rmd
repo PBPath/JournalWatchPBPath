@@ -38,35 +38,311 @@ doiString <- "doi: https://doi.org/"
 
 
 
-For all candidate articles please visit: http://pbpath.org/journal-watch-upcoming-issue/
+To see all journal watch articles please visit: http://pbpath.org/journal-watch-upcoming-issue/
 
 
 ### New Pancreas Articles
 
 
-Today there is no new Pancreas Article.
+
+
+---
+
+```{r pancreas NA, include=FALSE}
+
+PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+
+citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+
+PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+
+doi_NA <- paste0(doiString, PMID_NA$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_NA$title`**
+</summary> 
+
+*`r citation_NA`*
+
+`r PubMed_NA`
+
+`r PMID_NA$abstract`
+
+`r doi_NA`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r pancreas , include=FALSE}
+
+PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+
+citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+
+PubMed_ <- paste0(PubMedString, PMID_$eprint)
+
+doi_ <- paste0(doiString, PMID_$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_$title`**
+</summary> 
+
+*`r citation_`*
+
+`r PubMed_`
+
+`r PMID_$abstract`
+
+`r doi_`
+
+</details>
+
+---
+
+
 
 
 ### New GallBladder Articles
 
 
-Today there is no new Gallbladder Article.
+
+
+---
+
+```{r gallbladder NA, include=FALSE}
+
+PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+
+citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+
+PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+
+doi_NA <- paste0(doiString, PMID_NA$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_NA$title`**
+</summary> 
+
+*`r citation_NA`*
+
+`r PubMed_NA`
+
+`r PMID_NA$abstract`
+
+`r doi_NA`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder , include=FALSE}
+
+PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+
+citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+
+PubMed_ <- paste0(PubMedString, PMID_$eprint)
+
+doi_ <- paste0(doiString, PMID_$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_$title`**
+</summary> 
+
+*`r citation_`*
+
+`r PubMed_`
+
+`r PMID_$abstract`
+
+`r doi_`
+
+</details>
+
+---
+
+
 
 
 ### New BileDuct Articles
 
 
-Today there is no new Bile Duct Article.
+
+
+---
+
+```{r bileducts NA, include=FALSE}
+
+PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+
+citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+
+PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+
+doi_NA <- paste0(doiString, PMID_NA$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_NA$title`**
+</summary> 
+
+*`r citation_NA`*
+
+`r PubMed_NA`
+
+`r PMID_NA$abstract`
+
+`r doi_NA`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts , include=FALSE}
+
+PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+
+citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+
+PubMed_ <- paste0(PubMedString, PMID_$eprint)
+
+doi_ <- paste0(doiString, PMID_$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_$title`**
+</summary> 
+
+*`r citation_`*
+
+`r PubMed_`
+
+`r PMID_$abstract`
+
+`r doi_`
+
+</details>
+
+---
+
+
 
 
 ### New Ampulla Articles
 
 
-Today there is no new Ampulla Article.
+
+
+---
+
+```{r ampulla NA, include=FALSE}
+
+PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+
+citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+
+PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+
+doi_NA <- paste0(doiString, PMID_NA$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_NA$title`**
+</summary> 
+
+*`r citation_NA`*
+
+`r PubMed_NA`
+
+`r PMID_NA$abstract`
+
+`r doi_NA`
+
+</details>
+
+---
 
 
 
 
-For all candidate articles please visit: http://pbpath.org/journal-watch-upcoming-issue/
+---
+
+```{r ampulla , include=FALSE}
+
+PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+
+citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+
+PubMed_ <- paste0(PubMedString, PMID_$eprint)
+
+doi_ <- paste0(doiString, PMID_$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_$title`**
+</summary> 
+
+*`r citation_`*
+
+`r PubMed_`
+
+`r PMID_$abstract`
+
+`r doi_`
+
+</details>
+
+---
+
+
+
+
+
+
+To see all journal watch articles please visit: http://pbpath.org/journal-watch-upcoming-issue/
 
 
