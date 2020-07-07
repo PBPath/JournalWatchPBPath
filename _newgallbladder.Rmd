@@ -2,31 +2,31 @@
 
 ---
 
-```{r gallbladder NA, include=FALSE}
+```{r gallbladder 32012241, include=FALSE}
 
-PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+PMID_32012241 <- RefManageR::ReadPubMed('32012241', database = 'PubMed')
 
-citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+citation_32012241 <- paste0(PMID_32012241$journal,' ', PMID_32012241$year, ' ', PMID_32012241$month,';', PMID_32012241$volume,'(', PMID_32012241$number,'):', PMID_32012241$pages)
 
-PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+PubMed_32012241 <- paste0(PubMedString, PMID_32012241$eprint)
 
-doi_NA <- paste0(doiString, PMID_NA$doi)
+doi_32012241 <- paste0(doiString, PMID_32012241$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_NA$title`**
+- **`r PMID_32012241$title`**
 </summary> 
 
-*`r citation_NA`*
+*`r citation_32012241`*
 
-`r PubMed_NA`
+`r PubMed_32012241`
 
-`r PMID_NA$abstract`
+`r PMID_32012241$abstract`
 
-`r doi_NA`
+`r doi_32012241`
 
 </details>
 
@@ -37,31 +37,136 @@ Sys.sleep(1)
 
 ---
 
-```{r gallbladder , include=FALSE}
+```{r gallbladder 32010932, include=FALSE}
 
-PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+PMID_32010932 <- RefManageR::ReadPubMed('32010932', database = 'PubMed')
 
-citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+citation_32010932 <- paste0(PMID_32010932$journal,' ', PMID_32010932$year, ' ', PMID_32010932$month,';', PMID_32010932$volume,'(', PMID_32010932$number,'):', PMID_32010932$pages)
 
-PubMed_ <- paste0(PubMedString, PMID_$eprint)
+PubMed_32010932 <- paste0(PubMedString, PMID_32010932$eprint)
 
-doi_ <- paste0(doiString, PMID_$doi)
+doi_32010932 <- paste0(doiString, PMID_32010932$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_$title`**
+- **`r PMID_32010932$title`**
 </summary> 
 
-*`r citation_`*
+*`r citation_32010932`*
 
-`r PubMed_`
+`r PubMed_32010932`
 
-`r PMID_$abstract`
+`r PMID_32010932$abstract`
 
-`r doi_`
+`r doi_32010932`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 31983263, include=FALSE}
+
+PMID_31983263 <- RefManageR::ReadPubMed('31983263', database = 'PubMed')
+
+citation_31983263 <- paste0(PMID_31983263$journal,' ', PMID_31983263$year, ' ', PMID_31983263$month,';', PMID_31983263$volume,'(', PMID_31983263$number,'):', PMID_31983263$pages)
+
+PubMed_31983263 <- paste0(PubMedString, PMID_31983263$eprint)
+
+doi_31983263 <- paste0(doiString, PMID_31983263$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31983263$title`**
+</summary> 
+
+*`r citation_31983263`*
+
+`r PubMed_31983263`
+
+`r PMID_31983263$abstract`
+
+`r doi_31983263`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 31949691, include=FALSE}
+
+PMID_31949691 <- RefManageR::ReadPubMed('31949691', database = 'PubMed')
+
+citation_31949691 <- paste0(PMID_31949691$journal,' ', PMID_31949691$year, ' ', PMID_31949691$month,';', PMID_31949691$volume,'(', PMID_31949691$number,'):', PMID_31949691$pages)
+
+PubMed_31949691 <- paste0(PubMedString, PMID_31949691$eprint)
+
+doi_31949691 <- paste0(doiString, PMID_31949691$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31949691$title`**
+</summary> 
+
+*`r citation_31949691`*
+
+`r PubMed_31949691`
+
+`r PMID_31949691$abstract`
+
+`r doi_31949691`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 31907021, include=FALSE}
+
+PMID_31907021 <- RefManageR::ReadPubMed('31907021', database = 'PubMed')
+
+citation_31907021 <- paste0(PMID_31907021$journal,' ', PMID_31907021$year, ' ', PMID_31907021$month,';', PMID_31907021$volume,'(', PMID_31907021$number,'):', PMID_31907021$pages)
+
+PubMed_31907021 <- paste0(PubMedString, PMID_31907021$eprint)
+
+doi_31907021 <- paste0(doiString, PMID_31907021$doi)
+
+Sys.sleep(1)
+
+```
+
+<details open> <summary>
+- **`r PMID_31907021$title`**
+</summary> 
+
+*`r citation_31907021`*
+
+`r PubMed_31907021`
+
+`r PMID_31907021$abstract`
+
+`r doi_31907021`
 
 </details>
 
