@@ -2,66 +2,31 @@
 
 ---
 
-```{r gallbladder NA, include=FALSE}
+```{r gallbladder 32719544, include=FALSE}
 
-PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+PMID_32719544 <- RefManageR::ReadPubMed('32719544', database = 'PubMed')
 
-citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+citation_32719544 <- paste0(PMID_32719544$journal,' ', PMID_32719544$year, ' ', PMID_32719544$month,';', PMID_32719544$volume,'(', PMID_32719544$number,'):', PMID_32719544$pages)
 
-PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+PubMed_32719544 <- paste0(PubMedString, PMID_32719544$eprint)
 
-doi_NA <- paste0(doiString, PMID_NA$doi)
-
-Sys.sleep(1)
-
-```
-
-<details open> <summary>
-- **`r PMID_NA$title`**
-</summary> 
-
-*`r citation_NA`*
-
-`r PubMed_NA`
-
-`r PMID_NA$abstract`
-
-`r doi_NA`
-
-</details>
-
----
-
-
-
-
----
-
-```{r gallbladder , include=FALSE}
-
-PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
-
-citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
-
-PubMed_ <- paste0(PubMedString, PMID_$eprint)
-
-doi_ <- paste0(doiString, PMID_$doi)
+doi_32719544 <- paste0(doiString, PMID_32719544$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_$title`**
+- **`r PMID_32719544$title`**
 </summary> 
 
-*`r citation_`*
+*`r citation_32719544`*
 
-`r PubMed_`
+`r PubMed_32719544`
 
-`r PMID_$abstract`
+`r PMID_32719544$abstract`
 
-`r doi_`
+`r doi_32719544`
 
 </details>
 
