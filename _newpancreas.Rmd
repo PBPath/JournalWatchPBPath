@@ -2,31 +2,31 @@
 
 ---
 
-```{r pancreas 32720049, include=FALSE}
+```{r pancreas 32723384, include=FALSE}
 
-PMID_32720049 <- RefManageR::ReadPubMed('32720049', database = 'PubMed')
+PMID_32723384 <- RefManageR::ReadPubMed('32723384', database = 'PubMed')
 
-citation_32720049 <- paste0(PMID_32720049$journal,' ', PMID_32720049$year, ' ', PMID_32720049$month,';', PMID_32720049$volume,'(', PMID_32720049$number,'):', PMID_32720049$pages)
+citation_32723384 <- paste0(PMID_32723384$journal,' ', PMID_32723384$year, ' ', PMID_32723384$month,';', PMID_32723384$volume,'(', PMID_32723384$number,'):', PMID_32723384$pages)
 
-PubMed_32720049 <- paste0(PubMedString, PMID_32720049$eprint)
+PubMed_32723384 <- paste0(PubMedString, PMID_32723384$eprint)
 
-doi_32720049 <- paste0(doiString, PMID_32720049$doi)
+doi_32723384 <- paste0(doiString, PMID_32723384$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32720049$title`**
+- **`r PMID_32723384$title`**
 </summary> 
 
-*`r citation_32720049`*
+*`r citation_32723384`*
 
-`r PubMed_32720049`
+`r PubMed_32723384`
 
-`r PMID_32720049$abstract`
+`r PMID_32723384$abstract`
 
-`r doi_32720049`
+`r doi_32723384`
 
 </details>
 
@@ -37,31 +37,31 @@ Sys.sleep(1)
 
 ---
 
-```{r pancreas 32718999, include=FALSE}
+```{r pancreas 32723208, include=FALSE}
 
-PMID_32718999 <- RefManageR::ReadPubMed('32718999', database = 'PubMed')
+PMID_32723208 <- RefManageR::ReadPubMed('32723208', database = 'PubMed')
 
-citation_32718999 <- paste0(PMID_32718999$journal,' ', PMID_32718999$year, ' ', PMID_32718999$month,';', PMID_32718999$volume,'(', PMID_32718999$number,'):', PMID_32718999$pages)
+citation_32723208 <- paste0(PMID_32723208$journal,' ', PMID_32723208$year, ' ', PMID_32723208$month,';', PMID_32723208$volume,'(', PMID_32723208$number,'):', PMID_32723208$pages)
 
-PubMed_32718999 <- paste0(PubMedString, PMID_32718999$eprint)
+PubMed_32723208 <- paste0(PubMedString, PMID_32723208$eprint)
 
-doi_32718999 <- paste0(doiString, PMID_32718999$doi)
+doi_32723208 <- paste0(doiString, PMID_32723208$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32718999$title`**
+- **`r PMID_32723208$title`**
 </summary> 
 
-*`r citation_32718999`*
+*`r citation_32723208`*
 
-`r PubMed_32718999`
+`r PubMed_32723208`
 
-`r PMID_32718999$abstract`
+`r PMID_32723208$abstract`
 
-`r doi_32718999`
+`r doi_32723208`
 
 </details>
 
