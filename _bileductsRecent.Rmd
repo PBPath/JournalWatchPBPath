@@ -37,6 +37,41 @@ Sys.sleep(2)
 
 ---
 
+```{r bileducts 32511951, include=FALSE}
+
+PMID_32511951 <- RefManageR::ReadPubMed('32511951', database = 'PubMed')
+
+citation_32511951 <- paste0(PMID_32511951$journal,' ', PMID_32511951$year, ' ', PMID_32511951$month,';', PMID_32511951$volume,'(', PMID_32511951$number,'):', PMID_32511951$pages)
+
+PubMed_32511951 <- paste0(PubMedString, PMID_32511951$eprint)
+
+doi_32511951 <- paste0(doiString, PMID_32511951$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32511951$title`**
+</summary> 
+
+*`r citation_32511951`*
+
+`r PubMed_32511951`
+
+`r PMID_32511951$abstract`
+
+`r doi_32511951`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r bileducts 32476131, include=FALSE}
 
 PMID_32476131 <- RefManageR::ReadPubMed('32476131', database = 'PubMed')
