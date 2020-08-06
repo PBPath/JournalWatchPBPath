@@ -2,31 +2,31 @@
 
 ---
 
-```{r bileducts NA, include=FALSE}
+```{r bileducts 32749523, include=FALSE}
 
-PMID_NA <- RefManageR::ReadPubMed('NA', database = 'PubMed')
+PMID_32749523 <- RefManageR::ReadPubMed('32749523', database = 'PubMed')
 
-citation_NA <- paste0(PMID_NA$journal,' ', PMID_NA$year, ' ', PMID_NA$month,';', PMID_NA$volume,'(', PMID_NA$number,'):', PMID_NA$pages)
+citation_32749523 <- paste0(PMID_32749523$journal,' ', PMID_32749523$year, ' ', PMID_32749523$month,';', PMID_32749523$volume,'(', PMID_32749523$number,'):', PMID_32749523$pages)
 
-PubMed_NA <- paste0(PubMedString, PMID_NA$eprint)
+PubMed_32749523 <- paste0(PubMedString, PMID_32749523$eprint)
 
-doi_NA <- paste0(doiString, PMID_NA$doi)
+doi_32749523 <- paste0(doiString, PMID_32749523$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_NA$title`**
+- **`r PMID_32749523$title`**
 </summary> 
 
-*`r citation_NA`*
+*`r citation_32749523`*
 
-`r PubMed_NA`
+`r PubMed_32749523`
 
-`r PMID_NA$abstract`
+`r PMID_32749523$abstract`
 
-`r doi_NA`
+`r doi_32749523`
 
 </details>
 
@@ -37,31 +37,31 @@ Sys.sleep(1)
 
 ---
 
-```{r bileducts , include=FALSE}
+```{r bileducts 32682482, include=FALSE}
 
-PMID_ <- RefManageR::ReadPubMed('', database = 'PubMed')
+PMID_32682482 <- RefManageR::ReadPubMed('32682482', database = 'PubMed')
 
-citation_ <- paste0(PMID_$journal,' ', PMID_$year, ' ', PMID_$month,';', PMID_$volume,'(', PMID_$number,'):', PMID_$pages)
+citation_32682482 <- paste0(PMID_32682482$journal,' ', PMID_32682482$year, ' ', PMID_32682482$month,';', PMID_32682482$volume,'(', PMID_32682482$number,'):', PMID_32682482$pages)
 
-PubMed_ <- paste0(PubMedString, PMID_$eprint)
+PubMed_32682482 <- paste0(PubMedString, PMID_32682482$eprint)
 
-doi_ <- paste0(doiString, PMID_$doi)
+doi_32682482 <- paste0(doiString, PMID_32682482$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_$title`**
+- **`r PMID_32682482$title`**
 </summary> 
 
-*`r citation_`*
+*`r citation_32682482`*
 
-`r PubMed_`
+`r PubMed_32682482`
 
-`r PMID_$abstract`
+`r PMID_32682482$abstract`
 
-`r doi_`
+`r doi_32682482`
 
 </details>
 
