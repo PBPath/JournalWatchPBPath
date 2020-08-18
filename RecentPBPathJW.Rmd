@@ -1,18 +1,18 @@
 ---
 title: "Pancreatobiliary Pathology Society Journal Watch"
 output:
-  html_notebook:
-    code_folding: none
-    fig_caption: yes
-    highlight: null
-    theme: paper
+  html_document:
+    df_print: paged
   pdf_document: 
     toc: yes
     number_sections: yes
     latex_engine: xelatex
     keep_tex: yes
-  html_document:
-    df_print: paged
+  html_notebook: 
+    code_folding: none
+    fig_caption: yes
+    highlight: null
+    theme: paper
 date: "Last Update on `r format(Sys.Date())`"
 subtitle: Recent Articles that will be Selected
 header-includes:
