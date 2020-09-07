@@ -2,6 +2,111 @@
 
 ---
 
+```{r gallbladder 32878766, include=FALSE}
+
+PMID_32878766 <- RefManageR::ReadPubMed('32878766', database = 'PubMed')
+
+citation_32878766 <- paste0(PMID_32878766$journal,' ', PMID_32878766$year, ' ', PMID_32878766$month,';', PMID_32878766$volume,'(', PMID_32878766$number,'):', PMID_32878766$pages)
+
+PubMed_32878766 <- paste0(PubMedString, PMID_32878766$eprint)
+
+doi_32878766 <- paste0(doiString, PMID_32878766$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32878766$title`**
+</summary> 
+
+*`r citation_32878766`*
+
+`r PubMed_32878766`
+
+`r PMID_32878766$abstract`
+
+`r doi_32878766`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 32867722, include=FALSE}
+
+PMID_32867722 <- RefManageR::ReadPubMed('32867722', database = 'PubMed')
+
+citation_32867722 <- paste0(PMID_32867722$journal,' ', PMID_32867722$year, ' ', PMID_32867722$month,';', PMID_32867722$volume,'(', PMID_32867722$number,'):', PMID_32867722$pages)
+
+PubMed_32867722 <- paste0(PubMedString, PMID_32867722$eprint)
+
+doi_32867722 <- paste0(doiString, PMID_32867722$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32867722$title`**
+</summary> 
+
+*`r citation_32867722`*
+
+`r PubMed_32867722`
+
+`r PMID_32867722$abstract`
+
+`r doi_32867722`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 32867709, include=FALSE}
+
+PMID_32867709 <- RefManageR::ReadPubMed('32867709', database = 'PubMed')
+
+citation_32867709 <- paste0(PMID_32867709$journal,' ', PMID_32867709$year, ' ', PMID_32867709$month,';', PMID_32867709$volume,'(', PMID_32867709$number,'):', PMID_32867709$pages)
+
+PubMed_32867709 <- paste0(PubMedString, PMID_32867709$eprint)
+
+doi_32867709 <- paste0(doiString, PMID_32867709$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32867709$title`**
+</summary> 
+
+*`r citation_32867709`*
+
+`r PubMed_32867709`
+
+`r PMID_32867709$abstract`
+
+`r doi_32867709`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r gallbladder 32838747, include=FALSE}
 
 PMID_32838747 <- RefManageR::ReadPubMed('32838747', database = 'PubMed')
