@@ -2,6 +2,76 @@
 
 ---
 
+```{r gallbladder 32925194, include=FALSE}
+
+PMID_32925194 <- RefManageR::ReadPubMed('32925194', database = 'PubMed')
+
+citation_32925194 <- paste0(PMID_32925194$journal,' ', PMID_32925194$year, ' ', PMID_32925194$month,';', PMID_32925194$volume,'(', PMID_32925194$number,'):', PMID_32925194$pages)
+
+PubMed_32925194 <- paste0(PubMedString, PMID_32925194$eprint)
+
+doi_32925194 <- paste0(doiString, PMID_32925194$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32925194$title`**
+</summary> 
+
+*`r citation_32925194`*
+
+`r PubMed_32925194`
+
+`r PMID_32925194$abstract`
+
+`r doi_32925194`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 32910021, include=FALSE}
+
+PMID_32910021 <- RefManageR::ReadPubMed('32910021', database = 'PubMed')
+
+citation_32910021 <- paste0(PMID_32910021$journal,' ', PMID_32910021$year, ' ', PMID_32910021$month,';', PMID_32910021$volume,'(', PMID_32910021$number,'):', PMID_32910021$pages)
+
+PubMed_32910021 <- paste0(PubMedString, PMID_32910021$eprint)
+
+doi_32910021 <- paste0(doiString, PMID_32910021$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_32910021$title`**
+</summary> 
+
+*`r citation_32910021`*
+
+`r PubMed_32910021`
+
+`r PMID_32910021$abstract`
+
+`r doi_32910021`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r gallbladder 32895766, include=FALSE}
 
 PMID_32895766 <- RefManageR::ReadPubMed('32895766', database = 'PubMed')
@@ -342,6 +412,41 @@ Sys.sleep(2)
 `r PMID_32447492$abstract`
 
 `r doi_32447492`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r gallbladder 31993770, include=FALSE}
+
+PMID_31993770 <- RefManageR::ReadPubMed('31993770', database = 'PubMed')
+
+citation_31993770 <- paste0(PMID_31993770$journal,' ', PMID_31993770$year, ' ', PMID_31993770$month,';', PMID_31993770$volume,'(', PMID_31993770$number,'):', PMID_31993770$pages)
+
+PubMed_31993770 <- paste0(PubMedString, PMID_31993770$eprint)
+
+doi_31993770 <- paste0(doiString, PMID_31993770$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_31993770$title`**
+</summary> 
+
+*`r citation_31993770`*
+
+`r PubMed_31993770`
+
+`r PMID_31993770$abstract`
+
+`r doi_31993770`
 
 </details>
 
