@@ -2,31 +2,31 @@
 
 ---
 
-```{r bileducts 32457409, include=FALSE}
+```{r bileducts 33008300, include=FALSE}
 
-PMID_32457409 <- RefManageR::ReadPubMed('32457409', database = 'PubMed')
+PMID_33008300 <- RefManageR::ReadPubMed('33008300', database = 'PubMed')
 
-citation_32457409 <- paste0(PMID_32457409$journal,' ', PMID_32457409$year, ' ', PMID_32457409$month,';', PMID_32457409$volume,'(', PMID_32457409$number,'):', PMID_32457409$pages)
+citation_33008300 <- paste0(PMID_33008300$journal,' ', PMID_33008300$year, ' ', PMID_33008300$month,';', PMID_33008300$volume,'(', PMID_33008300$number,'):', PMID_33008300$pages)
 
-PubMed_32457409 <- paste0(PubMedString, PMID_32457409$eprint)
+PubMed_33008300 <- paste0(PubMedString, PMID_33008300$eprint)
 
-doi_32457409 <- paste0(doiString, PMID_32457409$doi)
+doi_33008300 <- paste0(doiString, PMID_33008300$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32457409$title`**
+- **`r PMID_33008300$title`**
 </summary> 
 
-*`r citation_32457409`*
+*`r citation_33008300`*
 
-`r PubMed_32457409`
+`r PubMed_33008300`
 
-`r PMID_32457409$abstract`
+`r PMID_33008300$abstract`
 
-`r doi_32457409`
+`r doi_33008300`
 
 </details>
 
@@ -37,31 +37,31 @@ Sys.sleep(1)
 
 ---
 
-```{r bileducts 32296928, include=FALSE}
+```{r bileducts 33008291, include=FALSE}
 
-PMID_32296928 <- RefManageR::ReadPubMed('32296928', database = 'PubMed')
+PMID_33008291 <- RefManageR::ReadPubMed('33008291', database = 'PubMed')
 
-citation_32296928 <- paste0(PMID_32296928$journal,' ', PMID_32296928$year, ' ', PMID_32296928$month,';', PMID_32296928$volume,'(', PMID_32296928$number,'):', PMID_32296928$pages)
+citation_33008291 <- paste0(PMID_33008291$journal,' ', PMID_33008291$year, ' ', PMID_33008291$month,';', PMID_33008291$volume,'(', PMID_33008291$number,'):', PMID_33008291$pages)
 
-PubMed_32296928 <- paste0(PubMedString, PMID_32296928$eprint)
+PubMed_33008291 <- paste0(PubMedString, PMID_33008291$eprint)
 
-doi_32296928 <- paste0(doiString, PMID_32296928$doi)
+doi_33008291 <- paste0(doiString, PMID_33008291$doi)
 
 Sys.sleep(1)
 
 ```
 
 <details open> <summary>
-- **`r PMID_32296928$title`**
+- **`r PMID_33008291$title`**
 </summary> 
 
-*`r citation_32296928`*
+*`r citation_33008291`*
 
-`r PubMed_32296928`
+`r PubMed_33008291`
 
-`r PMID_32296928$abstract`
+`r PMID_33008291$abstract`
 
-`r doi_32296928`
+`r doi_33008291`
 
 </details>
 
