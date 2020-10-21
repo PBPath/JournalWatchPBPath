@@ -2,6 +2,41 @@
 
 ---
 
+```{r gallbladder 33060404, include=FALSE}
+
+PMID_33060404 <- RefManageR::ReadPubMed('33060404', database = 'PubMed')
+
+citation_33060404 <- paste0(PMID_33060404$journal,' ', PMID_33060404$year, ' ', PMID_33060404$month,';', PMID_33060404$volume,'(', PMID_33060404$number,'):', PMID_33060404$pages)
+
+PubMed_33060404 <- paste0(PubMedString, PMID_33060404$eprint)
+
+doi_33060404 <- paste0(doiString, PMID_33060404$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_33060404$title`**
+</summary> 
+
+*`r citation_33060404`*
+
+`r PubMed_33060404`
+
+`r PMID_33060404$abstract`
+
+`r doi_33060404`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r gallbladder 33016162, include=FALSE}
 
 PMID_33016162 <- RefManageR::ReadPubMed('33016162', database = 'PubMed')
