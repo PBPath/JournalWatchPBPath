@@ -2,6 +2,111 @@
 
 ---
 
+```{r bileducts 33148196, include=FALSE}
+
+PMID_33148196 <- RefManageR::ReadPubMed('33148196', database = 'PubMed')
+
+citation_33148196 <- paste0(PMID_33148196$journal,' ', PMID_33148196$year, ' ', PMID_33148196$month,';', PMID_33148196$volume,'(', PMID_33148196$number,'):', PMID_33148196$pages)
+
+PubMed_33148196 <- paste0(PubMedString, PMID_33148196$eprint)
+
+doi_33148196 <- paste0(doiString, PMID_33148196$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_33148196$title`**
+</summary> 
+
+*`r citation_33148196`*
+
+`r PubMed_33148196`
+
+`r PMID_33148196$abstract`
+
+`r doi_33148196`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 33127392, include=FALSE}
+
+PMID_33127392 <- RefManageR::ReadPubMed('33127392', database = 'PubMed')
+
+citation_33127392 <- paste0(PMID_33127392$journal,' ', PMID_33127392$year, ' ', PMID_33127392$month,';', PMID_33127392$volume,'(', PMID_33127392$number,'):', PMID_33127392$pages)
+
+PubMed_33127392 <- paste0(PubMedString, PMID_33127392$eprint)
+
+doi_33127392 <- paste0(doiString, PMID_33127392$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_33127392$title`**
+</summary> 
+
+*`r citation_33127392`*
+
+`r PubMed_33127392`
+
+`r PMID_33127392$abstract`
+
+`r doi_33127392`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r bileducts 33123857, include=FALSE}
+
+PMID_33123857 <- RefManageR::ReadPubMed('33123857', database = 'PubMed')
+
+citation_33123857 <- paste0(PMID_33123857$journal,' ', PMID_33123857$year, ' ', PMID_33123857$month,';', PMID_33123857$volume,'(', PMID_33123857$number,'):', PMID_33123857$pages)
+
+PubMed_33123857 <- paste0(PubMedString, PMID_33123857$eprint)
+
+doi_33123857 <- paste0(doiString, PMID_33123857$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_33123857$title`**
+</summary> 
+
+*`r citation_33123857`*
+
+`r PubMed_33123857`
+
+`r PMID_33123857$abstract`
+
+`r doi_33123857`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r bileducts 33086318, include=FALSE}
 
 PMID_33086318 <- RefManageR::ReadPubMed('33086318', database = 'PubMed')

@@ -1573,9 +1573,15 @@ window.initializeSourceEmbed = function(filename) {
 a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
 a.anchor-section::before {content: '#';}
 .hasAnchor:hover a.anchor-section {visibility: visible;}
+ul > li > .anchor-section {display: none;}
 </style>
 <script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
 document.addEventListener('DOMContentLoaded', function() {
+  // Do nothing if AnchorJS is used
+  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
+    return;
+  }
+
   const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
 
   // Do nothing if sections are already anchored
@@ -1592,7 +1598,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Add anchors
   h.forEach(function(x) {
     const id = x.id || section_id(x.parentElement);
-    if (id === '') {
+    if (id === '' || x.matches(':empty')) {
       return null;
     }
     let anchor = document.createElement('a');
@@ -1790,7 +1796,7 @@ summary {
 
 <h1 class="title toc-ignore">Pancreatobiliary Pathology Society Journal Watch</h1>
 <h3 class="subtitle">Recent Articles that will be Selected</h3>
-<h4 class="date">Last Update on 2020-10-22</h4>
+<h4 class="date">Last Update on 2020-11-10</h4>
 
 </div>
 
@@ -1849,8 +1855,8 @@ Click here to see these articles and graphical summaries in other databases
 </summary>
 <p>The <em>journal watch</em> articles are collected in <a href="https://doi.org/10.5281/zenodo.3635440">zenodo</a> and <a href="https://osf.io/3d67y/">OSF</a>.<br />
 <a href="https://doi.org/10.5281/zenodo.3635440"><img src="data:image/svg+xml; charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICAgd2lkdGg9IjE4NiIgaGVpZ2h0PSIyMCI+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJiIiB4Mj0iMCIgeTI9IjEwMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNiYmIiIHN0b3Atb3BhY2l0eT0iLjEiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bWFzayBpZD0iYSIgd2lkdGg9IjE4NiIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxyZWN0IHdpZHRoPSIxODYiIGhlaWdodD0iMjAiIHJ4PSIzIgogICAgICAgICAgICBmaWxsPSIjZmZmIi8+CiAgICAgICAgPC9tYXNrPgogICAgICAgIDxnIG1hc2s9InVybCgjYSkiPgogICAgICAgICAgICA8cGF0aCBmaWxsPSIjNTU1IiBkPSJNMCAwaDMxdjIwSDB6IiAvPgogICAgICAgICAgICA8cGF0aCBmaWxsPSIjMDA3ZWM2IgogICAgICAgICAgICBkPSJNMzEgMGgxNTV2MjBIMzF6IgogICAgICAgICAgICAvPgogICAgICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNMCAwaDE4NnYyMEgweiIgLz4KICAgICAgICA8L2c+CiAgICAgICAgPGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkRlamFWdSBTYW5zLAogICAgICAgIFZlcmRhbmEsR2VuZXZhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiPgogICAgICAgICAgICA8dGV4dCB4PSIxNiIgeT0iMTUiIGZpbGw9IiMwMTAxMDEiCiAgICAgICAgICAgIGZpbGwtb3BhY2l0eT0iLjMiPgogICAgICAgICAgICAgICAgRE9JCiAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTYiIHk9IjE0Ij4KICAgICAgICAgICAgICAgIERPSQogICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjEwOCIKICAgICAgICAgICAgeT0iMTUiIGZpbGw9IiMwMTAxMDEiIGZpbGwtb3BhY2l0eT0iLjMiPgogICAgICAgICAgICAgICAgMTAuNTI4MS96ZW5vZG8uMzYzNTQ0MAogICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjEwOCIgeT0iMTQiPgogICAgICAgICAgICAgICAgMTAuNTI4MS96ZW5vZG8uMzYzNTQ0MAogICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgPC9nPgogICAgPC9zdmc+" alt="DOI" /></a></p>
-<p>To see these selected articles in <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33086324[uid] OR 33086318[uid] OR 33086318[uid] OR 33086310[uid] OR 33084990[uid] OR 33082211[uid] OR 33082106[uid] OR 33081716[uid] OR 33079429[uid] OR 33079423[uid] OR 33079303[uid] OR 33077384[uid] OR 33077383[uid] OR 33077382[uid] OR 33077381[uid] OR 33074907[uid] OR 33074899[uid] OR 33074853[uid] OR 33073341[uid] OR 33069583[uid] OR 33069084[uid] OR 33069083[uid] OR 33065644[uid] OR 33065029[uid] OR 33060404[uid] OR 33060404[uid] OR 33060017[uid] OR 33060017[uid] OR 33060017[uid] OR 33058868[uid] OR 33057860[uid] OR 33051739[uid] OR 33051307[uid] OR 33051146[uid] OR 33046515[uid] OR 33044629[uid] OR 33041332[uid] OR 33040247[uid] OR 33039466[uid] OR 33039293[uid] OR 33039292[uid] OR 33037322[uid] OR 33036921[uid] OR 33036568[uid] OR 33032924[uid] OR 33031736[uid] OR 33028669[uid] OR 33028668[uid] OR 33028596[uid] OR 33028218[uid] OR 33023478[uid] OR 33020209[uid] OR 33016162[uid] OR 33011748[uid] OR 33010250[uid] OR 33009500[uid] OR 33008749[uid] OR 33008376[uid] OR 33008332[uid] OR 33008300[uid] OR 33008295[uid] OR 33008291[uid] OR 33007300[uid] OR 33005981[uid] OR 33004046[uid] OR 33004032[uid] OR 33003087[uid] OR 33003086[uid] OR 33003085[uid] OR 33000372[uid] OR 32998722[uid] OR 32993498[uid] OR 32991930[uid] OR 32991341[uid] OR 32989224[uid] OR 32973069[uid] OR 32972836[uid] OR 32972836[uid] OR 32972835[uid] OR 32972834[uid] OR 32968957[uid] OR 32967795[uid] OR 32967794[uid] OR 32967656[uid] OR 32967636[uid] OR 32966810[uid] OR 32962649[uid] OR 32960392[uid] OR 32958704[uid] OR 32955176[uid] OR 32952043[uid] OR 32952042[uid] OR 32952041[uid] OR 32950387[uid] OR 32950386[uid] OR 32948965[uid] OR 32948431[uid] OR 32948429[uid] OR 32943343[uid] OR 32941964[uid]"> PubMed click here </a></p>
-<p>To see these selected articles in <a href="https://www.lens.org/lens/scholar/search/results?q=pmid:33086324%20OR%20pmid:33086318%20OR%20pmid:33086318%20OR%20pmid:33086310%20OR%20pmid:33084990%20OR%20pmid:33082211%20OR%20pmid:33082106%20OR%20pmid:33081716%20OR%20pmid:33079429%20OR%20pmid:33079423%20OR%20pmid:33079303%20OR%20pmid:33077384%20OR%20pmid:33077383%20OR%20pmid:33077382%20OR%20pmid:33077381%20OR%20pmid:33074907%20OR%20pmid:33074899%20OR%20pmid:33074853%20OR%20pmid:33073341%20OR%20pmid:33069583%20OR%20pmid:33069084%20OR%20pmid:33069083%20OR%20pmid:33065644%20OR%20pmid:33065029%20OR%20pmid:33060404%20OR%20pmid:33060404%20OR%20pmid:33060017%20OR%20pmid:33060017%20OR%20pmid:33060017%20OR%20pmid:33058868%20OR%20pmid:33057860%20OR%20pmid:33051739%20OR%20pmid:33051307%20OR%20pmid:33051146%20OR%20pmid:33046515%20OR%20pmid:33044629%20OR%20pmid:33041332%20OR%20pmid:33040247%20OR%20pmid:33039466%20OR%20pmid:33039293%20OR%20pmid:33039292%20OR%20pmid:33037322%20OR%20pmid:33036921%20OR%20pmid:33036568%20OR%20pmid:33032924%20OR%20pmid:33031736%20OR%20pmid:33028669%20OR%20pmid:33028668%20OR%20pmid:33028596%20OR%20pmid:33028218%20OR%20pmid:33023478%20OR%20pmid:33020209%20OR%20pmid:33016162%20OR%20pmid:33011748%20OR%20pmid:33010250%20OR%20pmid:33009500%20OR%20pmid:33008749%20OR%20pmid:33008376%20OR%20pmid:33008332%20OR%20pmid:33008300%20OR%20pmid:33008295%20OR%20pmid:33008291%20OR%20pmid:33007300%20OR%20pmid:33005981%20OR%20pmid:33004046%20OR%20pmid:33004032%20OR%20pmid:33003087%20OR%20pmid:33003086%20OR%20pmid:33003085%20OR%20pmid:33000372%20OR%20pmid:32998722%20OR%20pmid:32993498%20OR%20pmid:32991930%20OR%20pmid:32991341%20OR%20pmid:32989224%20OR%20pmid:32973069%20OR%20pmid:32972836%20OR%20pmid:32972836%20OR%20pmid:32972835%20OR%20pmid:32972834%20OR%20pmid:32968957%20OR%20pmid:32967795%20OR%20pmid:32967794%20OR%20pmid:32967656%20OR%20pmid:32967636%20OR%20pmid:32966810%20OR%20pmid:32962649%20OR%20pmid:32960392%20OR%20pmid:32958704%20OR%20pmid:32955176%20OR%20pmid:32952043%20OR%20pmid:32952042%20OR%20pmid:32952041%20OR%20pmid:32950387%20OR%20pmid:32950386%20OR%20pmid:32948965%20OR%20pmid:32948431%20OR%20pmid:32948429%20OR%20pmid:32943343%20OR%20pmid:32941964&amp;toYear=2020&amp;fromYear=1950&amp;dateFilterField=year_published&amp;filterMap=%7B%7D&amp;preview=true"> Lens.org click here </a></p>
+<p>To see these selected articles in <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33151547[uid] OR 33148667[uid] OR 33148667[uid] OR 33148628[uid] OR 33148205[uid] OR 33148196[uid] OR 33145705[uid] OR 33142117[uid] OR 33141373[uid] OR 33139271[uid] OR 33139201[uid] OR 33136337[uid] OR 33135147[uid] OR 33135146[uid] OR 33135144[uid] OR 33132046[uid] OR 33129276[uid] OR 33128119[uid] OR 33127392[uid] OR 33124049[uid] OR 33123857[uid] OR 33123857[uid] OR 33123857[uid] OR 33122531[uid] OR 33122530[uid] OR 33122528[uid] OR 33122527[uid] OR 33122526[uid] OR 33122525[uid] OR 33122524[uid] OR 33122523[uid] OR 33122522[uid] OR 33122521[uid] OR 33122518[uid] OR 33122516[uid] OR 33122513[uid] OR 33121946[uid] OR 33121847[uid] OR 33109735[uid] OR 33109470[uid] OR 33108683[uid] OR 33097588[uid] OR 33097431[uid] OR 33097430[uid] OR 33097020[uid] OR 33093663[uid] OR 33093149[uid] OR 33089395[uid] OR 33087490[uid] OR 33087489[uid] OR 33087331[uid] OR 33087057[uid] OR 33086324[uid] OR 33086318[uid] OR 33086318[uid] OR 33086310[uid] OR 33084990[uid] OR 33082211[uid] OR 33082106[uid] OR 33081716[uid] OR 33079429[uid] OR 33079423[uid] OR 33079303[uid] OR 33077384[uid] OR 33077383[uid] OR 33077382[uid] OR 33077381[uid] OR 33074907[uid] OR 33074899[uid] OR 33074853[uid] OR 33073341[uid] OR 33069583[uid] OR 33069084[uid] OR 33069083[uid] OR 33065644[uid] OR 33065029[uid] OR 33060404[uid] OR 33060404[uid] OR 33060017[uid] OR 33060017[uid] OR 33060017[uid] OR 33058868[uid] OR 33057860[uid] OR 33051739[uid] OR 33051307[uid] OR 33051146[uid] OR 33046515[uid] OR 33044629[uid] OR 33041332[uid] OR 33040247[uid] OR 33039466[uid] OR 33039293[uid] OR 33039292[uid] OR 33037322[uid] OR 33036921[uid] OR 33036568[uid] OR 33032924[uid] OR 33031736[uid] OR 33028669[uid] OR 33028668[uid]"> PubMed click here </a></p>
+<p>To see these selected articles in <a href="https://www.lens.org/lens/scholar/search/results?q=pmid:33151547%20OR%20pmid:33148667%20OR%20pmid:33148667%20OR%20pmid:33148628%20OR%20pmid:33148205%20OR%20pmid:33148196%20OR%20pmid:33145705%20OR%20pmid:33142117%20OR%20pmid:33141373%20OR%20pmid:33139271%20OR%20pmid:33139201%20OR%20pmid:33136337%20OR%20pmid:33135147%20OR%20pmid:33135146%20OR%20pmid:33135144%20OR%20pmid:33132046%20OR%20pmid:33129276%20OR%20pmid:33128119%20OR%20pmid:33127392%20OR%20pmid:33124049%20OR%20pmid:33123857%20OR%20pmid:33123857%20OR%20pmid:33123857%20OR%20pmid:33122531%20OR%20pmid:33122530%20OR%20pmid:33122528%20OR%20pmid:33122527%20OR%20pmid:33122526%20OR%20pmid:33122525%20OR%20pmid:33122524%20OR%20pmid:33122523%20OR%20pmid:33122522%20OR%20pmid:33122521%20OR%20pmid:33122518%20OR%20pmid:33122516%20OR%20pmid:33122513%20OR%20pmid:33121946%20OR%20pmid:33121847%20OR%20pmid:33109735%20OR%20pmid:33109470%20OR%20pmid:33108683%20OR%20pmid:33097588%20OR%20pmid:33097431%20OR%20pmid:33097430%20OR%20pmid:33097020%20OR%20pmid:33093663%20OR%20pmid:33093149%20OR%20pmid:33089395%20OR%20pmid:33087490%20OR%20pmid:33087489%20OR%20pmid:33087331%20OR%20pmid:33087057%20OR%20pmid:33086324%20OR%20pmid:33086318%20OR%20pmid:33086318%20OR%20pmid:33086310%20OR%20pmid:33084990%20OR%20pmid:33082211%20OR%20pmid:33082106%20OR%20pmid:33081716%20OR%20pmid:33079429%20OR%20pmid:33079423%20OR%20pmid:33079303%20OR%20pmid:33077384%20OR%20pmid:33077383%20OR%20pmid:33077382%20OR%20pmid:33077381%20OR%20pmid:33074907%20OR%20pmid:33074899%20OR%20pmid:33074853%20OR%20pmid:33073341%20OR%20pmid:33069583%20OR%20pmid:33069084%20OR%20pmid:33069083%20OR%20pmid:33065644%20OR%20pmid:33065029%20OR%20pmid:33060404%20OR%20pmid:33060404%20OR%20pmid:33060017%20OR%20pmid:33060017%20OR%20pmid:33060017%20OR%20pmid:33058868%20OR%20pmid:33057860%20OR%20pmid:33051739%20OR%20pmid:33051307%20OR%20pmid:33051146%20OR%20pmid:33046515%20OR%20pmid:33044629%20OR%20pmid:33041332%20OR%20pmid:33040247%20OR%20pmid:33039466%20OR%20pmid:33039293%20OR%20pmid:33039292%20OR%20pmid:33037322%20OR%20pmid:33036921%20OR%20pmid:33036568%20OR%20pmid:33032924%20OR%20pmid:33031736%20OR%20pmid:33028669%20OR%20pmid:33028668&amp;toYear=2020&amp;fromYear=1950&amp;dateFilterField=year_published&amp;filterMap=%7B%7D&amp;preview=true"> Lens.org click here </a></p>
 </details>
 <hr />
 <!-- rnb-text-end -->
@@ -1864,6 +1870,651 @@ Click here to see these articles and graphical summaries in other databases
 <h2>Pancreas</h2>
 <!-- rnb-text-end -->
 <!-- rnb-text-begin -->
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Cardiometabolic risk factors and survival after cancer in the Women’s Health Initiative</strong></li>
+</ul>
+</summary>
+<p><em>Cancer 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33151547" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33151547</a></p>
+<p>BACKGROUND: Cardiometabolic abnormalities are a leading cause of death among women, including women with cancer. METHODS: This study examined the association between prediagnosis cardiovascular health and total and cause-specific mortality among 12,076 postmenopausal women who developed local- or regional-stage invasive cancer in the Women’s Health Initiative (WHI). Cardiovascular risk factors included waist circumference, hypertension, high cholesterol, and type 2 diabetes. Obesity-related cancers included breast cancer, colorectal cancer, endometrial cancer, kidney cancer, pancreatic cancer, ovarian cancer, stomach cancer, liver cancer, and non-Hodgkin lymphoma. Cox proportional hazards models were used to estimate hazard ratios (HRs) and 95% confidence intervals (CIs) adjusted for important predictors of survival. RESULTS: After a median follow-up of 10.0 years from the date of the cancer diagnosis, there were 3607 total deaths, with 1546 (43%) due to cancer. Most participants (62.9%) had 1 or 2 cardiometabolic risk factors, and 8.1% had 3 or 4. In adjusted models, women with 3 to 4 risk factors (vs none) had a higher risk of all-cause mortality (HR, 1.99; 95% CI, 1.73-2.30), death due to cardiovascular disease (CVD) (HR, 4.01; 95% CI, 2.88-5.57), cancer-specific mortality (HR, 1.37; 95% CI, 1.1-1.72), and other-cause mortality (HR, 2.14; 95% CI, 1.70-2.69). A higher waist circumference was associated with greater all-cause mortality (HR, 1.17; 95% CI, 1.06-1.30) and cancer-specific mortality (HR, 1.22; 95% CI, 1.04-1.42). CONCLUSIONS: Among postmenopausal women diagnosed with cancer in the WHI, cardiometabolic risk factors before the cancer diagnosis were associated with greater all-cause, CVD, cancer-specific, and other-cause mortality. These results raise hypotheses regarding potential clinical intervention strategies targeting cardiometabolic abnormalities that require future prospective studies for confirmation. LAY SUMMARY: This study uses information from the Women’s Health Initiative (WHI) to find out whether cardiac risk factors are related to a greater risk of dying among older women with cancer. The WHI is the largest study of medical problems faced by older women in this country. The results show that women who have 3 or 4 risk factors are more likely to die of any cause, heart disease, or cancer in comparison with women with no risk factors. It is concluded that interventions to help to lower the burden of cardiac risk factors can have an important impact on survivorship among women with cancer.</p>
+<p>doi: <a href="https://doi.org/10.1002/cncr.33295" class="uri">https://doi.org/10.1002/cncr.33295</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>PIPAC-OX: A Phase I study of Oxaliplatin-based Pressurized Intraperitoneal Aerosol Chemotherapy (PIPAC) in Patients with Peritoneal Metastases</strong></li>
+</ul>
+</summary>
+<p><em>Clinical cancer research : an official journal of the American Association for Cancer Research 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33148667" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33148667</a></p>
+<p>BACKGROUND: Pressurized Intraperitoneal Aerosol Chemotherapy (PIPAC) is a novel, laparoscopic intraperitoneal chemotherapy delivery technique aiming to improve drug distribution and tissue penetration to treat peritoneal metastases. Thus far, PIPAC oxaliplatin is conducted at an arbitrary dose of 92mg/m2. We conducted a phase 1 study to establish safety and tolerability. EXPERIMENTAL DESIGN: We used a 3+3 dose escalation design of PIPAC oxaliplatin for patients with peritoneal metastases from gastrointestinal tumors, after failure of at least first-line chemotherapy. Dose levels were planned at 45, 60, 90 and 120mg/m2. FINDINGS: This study included 16 patients with 24 PIPAC procedures (8 gastric, 5 colorectal and 1 gallbladder, pancreas and appendix cancer each). Median age and Peritoneal Cancer Index (PCI) score were 62 years and 17, respectively. Two patients developed pancreatitis (grade 2 and 3) at 45mg/m2, necessitating cohort expansion. Another patient developed grade 2 pancreatitis at 90mg/m2. There were no other dose limiting toxicities and the highest dose cohort (120 mg/m2) tolerated PIPAC well. Pharmacokinetic analyses demonstrated good linearity between dose and maximum concentration (r2=0.95) and area under the curve (AUC) (r2=0.99). Based on response evaluation criteria in solid tumors, 62.5% and 50% had stable disease after one and two PIPAC procedures, respectively. 8 patients underwent 2 PIPAC procedures, with improvement of median PCI and Peritoneal Regression Grade Score from 15 to 12 and 2.5 to 2.0, respectively. CONCLUSIONS: The recommended phase 2 dose is 120 mg/m2. Future studies should further delineate the efficacy and role of PIPAC oxaliplatin for peritoneal metastases.</p>
+<p>doi: <a href="https://doi.org/10.1158/1078-0432.CCR-20-2152" class="uri">https://doi.org/10.1158/1078-0432.CCR-20-2152</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Neuroendocrine tumours of the breast: a genomic comparison with mucinous breast cancers and neuroendocrine tumours of other anatomic sites</strong></li>
+</ul>
+</summary>
+<p><em>Journal of clinical pathology 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33148628" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33148628</a></p>
+<p>AIMS: Breast neuroendocrine tumours (NETs) constitute a rare histologic subtype of oestrogen receptor (ER)-positive breast cancer, and their definition according to the WHO classification was revised in 2019. Breast NETs display histologic and transcriptomic similarities with mucinous breast carcinomas (MuBCs). Here, we sought to compare the repertoire of genetic alterations in breast NETs with MuBCs and NETs from other anatomic origins. METHODS: On histologic review applying the new WHO criteria, 18 breast tumours with neuroendocrine differentiation were reclassified as breast NETs (n=10) or other breast cancers with neuroendocrine differentiation (n=8). We reanalysed targeted sequencing or whole-exome sequencing data of breast NETs (n=10), MuBCs type A (n=12) and type B (n=11). RESULTS: Breast NETs and MuBCs were found to be genetically similar, harbouring a lower frequency of PIK3CA mutations, 1q gains and 16q losses than ER-positive/HER2-negative breast cancers. 3/10 breast NETs harboured the hallmark features of ER-positive disease (ie, PIK3CA mutations and concurrent 1q gains/16q losses). Breast NETs showed an enrichment of oncogenic/likely oncogenic mutations affecting transcription factors compared with common forms of ER-positive breast cancer and with pancreatic and pulmonary NETs. CONCLUSIONS: Breast NETs are heterogeneous and are characterised by an enrichment of mutations in transcription factors and likely constitute a spectrum of entities histologically and genomically related to MuBCs. While most breast NETs are distinct from ER-positive/HER2-negative IDC-NSTs, a subset of breast NETs appears to be genetically similar to common forms of ER-positive breast cancer, suggesting that some breast cancers may acquire neuroendocrine differentiation later in tumour evolution.</p>
+<p>doi: <a href="https://doi.org/10.1136/jclinpath-2020-207052" class="uri">https://doi.org/10.1136/jclinpath-2020-207052</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Over-expression of ANP32E is associated with poor prognosis of pancreatic cancer and promotes cell proliferation and migration through regulating ��-catenin</strong></li>
+</ul>
+</summary>
+<p><em>BMC cancer 2020 Nov;20(1):1065</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33148205" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33148205</a></p>
+<p>BACKGROUND: Pancreatic cancer is a malignant tumor with high mortality. Acidic nuclear phosphoprotein 32 family member E (ANP32E), a specific H2A.Z chaperone, has been shown to contribute to breast cancer development. However, the significance of ANP32E in pancreatic cancer is poorly understood. This study aimed to investigate the role of ANP32E in pancreatic cancer. METHODS: The expression of ANP32E in 179 pancreatic cancer tissues and 171 normal tissues, and the correlation between ANP32E expression and patients’ survival were analyzed from the TCGA database. ANP32E was over-expressed and silenced using lentivirus. siRNA was used to knock down β-catenin. CCK8, colony formation, cell cycle and transwell experiments were performed to determine cell proliferation and migration. qRT-PCR and Western blot were conducted to detect mRNA and protein expression. RESULTS: ANP32E was up-regulated in pancreatic cancer tissues and cells. Up-regulation of ANP32E predicted poor prognosis in pancreatic cancer patients. Lentivirus-mediated knockdown of ANP32E suppressed the proliferation, colony growth and migration of PANC1 and MIA cells. By contrast, ANP32E over-expression promoted the proliferation and migration of both cells. In addition, ANP32E accelerated the cell cycle progression in PANC1 and MIA cells. Molecular experiments showed that ANP32E activated β-catenin/cyclin D1 signaling. Silencing of β-catenin reduced cell proliferation and migration in ANP32E over-expressed cells. CONCLUSION: Our results propose that ANP32E functions as an oncogene in pancreatic cancer via activating β-catenin.</p>
+<p>doi: <a href="https://doi.org/10.1186/s12885-020-07556-z" class="uri">https://doi.org/10.1186/s12885-020-07556-z</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Decompositions of the Contribution of Treatment Disparities to Survival Disparities in Stage I-II Pancreatic Adenocarcinoma</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33145705" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33145705</a></p>
+<p>BACKGROUND: Higher socioeconomic status (SES) and non-Hispanic White (NHW) race/ethnicity are associated with higher treatment rates and longer overall survival (OS) among US patients with stage I-II pancreatic ductal adenocarcinoma. The proportion of OS disparities mediated through treatment disparities (PM) and the proportion predicted to be eliminated (PE) if treatment disparities were eliminated are unknown. METHODS: We analyzed 2007-2015 data from the Surveillance, Epidemiology, and End Results (SEER) census tract-level database and the National Cancer Database (NCDB) using causal mediation analysis methods to understand the extent to which treatment disparities mediate OS disparities. In the first set of decompositions, race/ethnicity was controlled for as a covariate proximal to SES, and lower SES strata were compared with the highest SES stratum. In the second set, an intersectional perspective was taken and each SES-race/ethnicity combination was compared with highest SES-NHW patients, who had the highest treatment rates and longest OS. RESULTS: The SEER and NCDB cohorts contained 16,921 patients and 44,638 patients, respectively. When race/ethnicity was controlled for, PMs ranged from 43 to 48% and PEs ranged from 46 to 50% for various lower SES strata. When separately comparing each SES-race/ethnicity combination with the highest SES-NHW patients, results were similar for lower SES-NHW patients but differed markedly for non-Hispanic Black and Hispanic patients, for whom PMs ranged from 60 to 80% and PEs ranged from 55 to 75% for most lower SES strata. CONCLUSIONS: These results suggest that efforts to reduce treatment disparities are worthwhile, particularly for NHB and Hispanic patients, and simultaneously point to the importance of non-treatment-related causal pathways.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09267-y" class="uri">https://doi.org/10.1245/s10434-020-09267-y</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Neurons Release Serine to Support mRNA Translation in Pancreatic Cancer</strong></li>
+</ul>
+</summary>
+<p><em>Cell 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33142117" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33142117</a></p>
+<p>Pancreatic ductal adenocarcinoma (PDAC) tumors have a nutrient-poor, desmoplastic, and highly innervated tumor microenvironment. Although neurons can release stimulatory factors to accelerate PDAC tumorigenesis, the metabolic contribution of peripheral axons has not been explored. We found that peripheral axons release serine (Ser) to support the growth of exogenous Ser (exSer)-dependent PDAC cells during Ser/Gly (glycine) deprivation. Ser deprivation resulted in ribosomal stalling on two of the six Ser codons, TCC and TCT, and allowed the selective translation and secretion of nerve growth factor (NGF) by PDAC cells to promote tumor innervation. Consistent with this, exSer-dependent PDAC tumors grew slower and displayed enhanced innervation in mice on a Ser/Gly-free diet. Blockade of compensatory neuronal innervation using LOXO-101, a Trk-NGF inhibitor, further decreased PDAC tumor growth. Our data indicate that axonal-cancer metabolic crosstalk is a critical adaptation to support PDAC growth in nutrient poor environments.</p>
+<p>doi: <a href="https://doi.org/10.1016/j.cell.2020.10.016" class="uri">https://doi.org/10.1016/j.cell.2020.10.016</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Does Major Pancreatic Surgery Have Utility in Nonagenarians with Pancreas Cancer?</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33141373" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33141373</a></p>
+<p>OBJECTIVE: This study aims to define the role of surgery and assess different therapies for nonagenarians with localized, nonmetastatic pancreatic adenocarcinoma (PDAC). METHODS: The National Cancer Database (NCDB) was queried for patients ≥ 90 years of age with nonmetastatic, localized PDAC from 2004-2016. Postoperative mortality was assessed at 30 and 90 days in patients receiving pancreatoduodenectomy or total pancreatectomy. Overall survival (OS) was compared between three treatment groups: surgery alone, chemotherapy alone, and chemoradiation (chemoRT) alone. RESULTS: Of 380,524 patients with PDAC, 98 patients ≥ 90 years of age underwent curative-intent resection; 55% were female and 75% had a Charlson-Deyo comorbidity score of 0. A total of 17% received postoperative chemotherapy, 51.1% had poorly differentiated tumors with a median tumor size of 3 cm, 55.1% had positive lymph nodes, and 19.4% had positive resection margins. Postoperative median length of stay was 11 days. Postoperative 30- and 90-day mortality was 10.0% and 18.9%, respectively. Median OS for the surgery alone group was 11.6 months compared with 20.4 months in those receiving adjuvant therapy (p = 0.01). Among nonoperative PDAC patients, median OS in patients receiving chemotherapy only (n = 207) was 7.2 months, while chemoRT only (n = 100) was similar to surgery only (11 versus 11.6 months, p = 0.97). CONCLUSIONS: Even in well-selected nonagenarians, pancreatoduodenectomy or total pancreatectomy carries a high mortality rate. While adjuvant therapy after resection provides the best survival, it is seldom achieved, and chemoRT alone affords identical survival statistics as surgery alone. These data suggest it is reasonable to consider chemoRT as initial therapy, then reassess candidacy for resection if performance status allows.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09279-8" class="uri">https://doi.org/10.1245/s10434-020-09279-8</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Risk of digestive cancers in a cohort of 69 460 five-year survivors of childhood cancer in Europe: the PanCareSurFup study</strong></li>
+</ul>
+</summary>
+<p><em>Gut 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33139271" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33139271</a></p>
+<p>BACKGROUND: Survivors of childhood cancer are at risk of subsequent primary neoplasms (SPNs), but the risk of developing specific digestive SPNs beyond age 40 years remains uncertain. We investigated risks of specific digestive SPNs within the largest available cohort worldwide. METHODS: The PanCareSurFup cohort includes 69 460 five-year survivors of childhood cancer from 12 countries in Europe. Risks of digestive SPNs were quantified using standardised incidence ratios (SIRs), absolute excess risks and cumulative incidence. RESULTS: 427 digestive SPNs (214 colorectal, 62 liver, 48 stomach, 44 pancreas, 59 other) were diagnosed in 413 survivors. Wilms tumour (WT) and Hodgkin lymphoma (HL) survivors were at greatest risk (SIR 12.1; 95% CI 9.6 to 15.1; SIR 7.3; 95% CI 5.9 to 9.0, respectively). The cumulative incidence increased the most steeply with increasing age for WT survivors, reaching 7.4% by age 55% and 9.6% by age 60 years (1.0% expected based on general population rates). Regarding colorectal SPNs, WT and HL survivors were at greatest risk; both seven times that expected. By age 55 years, 2.3% of both WT (95% CI 1.4 to 3.9) and HL (95% CI 1.6 to 3.2) survivors had developed a colorectal SPN-comparable to the risk among members of the general population with at least two first-degree relatives affected. CONCLUSIONS: Colonoscopy surveillance before age 55 is recommended in many European countries for individuals with a family history of colorectal cancer, but not for WT and HL survivors despite a comparable risk profile. Clinically, serious consideration should be given to the implementation of colonoscopy surveillance while further evaluation of its benefits, harms and cost-effectiveness in WT and HL survivors is undertaken.</p>
+<p>doi: <a href="https://doi.org/10.1136/gutjnl-2020-322237" class="uri">https://doi.org/10.1136/gutjnl-2020-322237</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Role of ultrasound shear wave elastography in preoperative prediction of pancreatic fistula after pancreaticoduodenectomy</strong></li>
+</ul>
+</summary>
+<p><em>Pancreatology : official journal of the International Association of Pancreatology (IAP) … [et al.] 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33139201" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33139201</a></p>
+<p>BACKGROUND: Majority of predictors of postoperative pancreatic fistula (POPF) use intraoperative variables. We aimed to study the role of preoperative ultrasound shear wave elastography (USWE) to predict POPF. METHODS: The consecutive patients who underwent pancreaticoduodenectomy (PD) between January 2019 to March 2020 were prospectively enrolled. All patients underwent USWE assessment at the pancreatic neck level. Intraoperative variables including pancreatic texture, pancreatic duct diameter, blood loss and histological grading of fibrosis were also recorded. Associations between USWE and intraoperative variables and histological grading with the development of POPF were analyzed. RESULTS: Of the 62 patients assessed, 50 patients (mean age: 53 ± 14 years; 31 males) were included. POPF and clinically relevant POPF (CRPOPF) were observed in 22 (44%) and 7 (14%) patients respectively. Soft pancreas was an independent predictor of CRPOPF (p = 0.04). The mean USWE valve was significantly lower in patients with CRPOPF as compared to no CRPOPF (9.7 Kpa vs. 12.8Kpa, p = 0.016). At receiver operating characteristic curve analysis, USWE value of 12.65Kpa yielded sensitivity and specificity of 100% and 47%, respectively, for prediction of CRPOPF. USWE showed significant correlation with intraoperative pancreatic texture (Spearman’s rank correlation coefficient (ρ) = 0.565, p = 0.001). CONCLUSION: USWE helps in preoperative prediction of CRPOPF. This may further help to customize management strategy in high risk patients.</p>
+<p>doi: <a href="https://doi.org/10.1016/j.pan.2020.10.047" class="uri">https://doi.org/10.1016/j.pan.2020.10.047</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Acinar cell induced autolysis is a frequent occurrence in CytoLyt-fixed pancreatic fine needle aspiration specimens: An analysis of 157 cytology samples</strong></li>
+</ul>
+</summary>
+<p><em>Cancer cytopathology 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33136337" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33136337</a></p>
+<p>BACKGROUND: Although 10% formalin is a standard preservative in pancreatic FNAs, the effect of CytoLyt on pancreatic tissue preservation has not been systematically explored. METHODS: Smears and cell blocks from CytoLyt-fixed (CF-CBs) and formalin-fixed (FF-CBs) pancreatic FNAs were blindly reviewed without knowledge of the fixative used, and the presence of tissue/tumor autolysis was noted. Controls included FF-CBs from pancreatic FNAs, CF-CBs from nonpancreatic FNAs, and 4 pancreatic FNAs with matched CF-CBs and FF-CBs. RESULTS: We found that 62 of 85 (73%) pancreatic FNAs with CF-CBs showed significant autolysis, which was most pronounced in acinar cells and/or tumor cells with benign acinar cells in the background, compared with 2 of 46 (4%) FF-CBs (P &lt; .0001) and 3 of 26 (12%) CF-CBs from nonpancreatic FNAs (73% vs 12%; P &lt; .0001). Of the 4 pancreatic FNAs with matched CF-CBs and FF-CBs, all 4 CF-CBs showed marked autolysis versus none of the matched FF-CBs. Of the 23 (27%) pancreatic FNAs with CF-CBs that did not show autolysis, 10 had no acinar cells, and 7 had only minute tissue fragments on CB. CONCLUSION: While CytoLyt is a useful fixative for nonpancreatic FNAs it is a suboptimal fixative for pancreatic FNAs and is associated with tissue/tumor autolysis in the majority of cases, influencing morphologic evaluation, and potentially immunocytochemical staining. Autolysis appears to be due to acinar enzymes whose effect is likely interrupted/inhibited by formalin fixation. Cytopathologists and cytotechnologists should be mindful of this pitfall and should avoid using CytoLyt as a fixative for pancreatic FNAs.</p>
+<p>doi: <a href="https://doi.org/10.1002/cncy.22378" class="uri">https://doi.org/10.1002/cncy.22378</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>The Impact of Residential Segregation on Pancreatic Cancer Diagnosis, Treatment, and Mortality</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33135144" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33135144</a></p>
+<p>BACKGROUND: Disparities in pancreatic cancer outcomes between black and white patients are well documented. This study aimed to use a more novel index to examine the impact of racial segregation on the diagnosis, management, and outcomes of pancreatic cancer in black patients compared with white patients. METHODS: Black and white adults with pancreatic cancer in urban counties were identified using data from the 2018 submission of the Surveillance, Epidemiology and End Results (SEER) Program and the 2010 Census. The racial index of dissimilarity (IoD), a validated proxy of racial segregation, was used to assess the evenness with which whites and blacks are distributed across census tracts in each county. Multivariate Poisson regression was performed, and stepwise models were constructed for each of the outcomes. Overall survival was studied using the Kaplan-Meier method. RESULTS: The study enrolled 60,172 adults with a diagnosis of pancreatic cancer between 2005 and 2015. Overall, the black patients (13.8% of the cohort) lived in more segregated areas (IoD, 0.67 vs 0.61; p &lt; 0.05). They were less likely to undergo surgery for localized disease (relative risk [RR], 0.80; 95% confidence interval [CI], 0.76-0.83) and more frequently had a diagnosis of advanced-stage disease (RR, 1.09; 95% CI, 1.01-1.19) with increasing segregation. They also had shorter survival times (9.8 vs 11.4 months; p &lt; 0.05). CONCLUSIONS: Disparities in advanced-stage disease at diagnosis, surgery for localized disease, and overall survival are directly related to the degree of residential segregation, a proxy for structural racism. In searching for solutions to this problem, it is important to account for the historical marginalization of black Americans.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09218-7" class="uri">https://doi.org/10.1245/s10434-020-09218-7</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Divergent trends in lifetime drinking and smoking between Black and White Americans diagnosed with chronic pancreatitis</strong></li>
+</ul>
+</summary>
+<p><em>Pancreatology : official journal of the International Association of Pancreatology (IAP) … [et al.] 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33132046" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33132046</a></p>
+<p>BACKGROUND/OBJECTIVES: Black Americans are at increased risk of chronic pancreatitis (CP) compared to their White counterparts. We aimed to describe the race-specific smoking history and lifetime drinking in patients diagnosed with CP. METHODS: We analyzed data on 334 Black and White CP participants of the North American Pancreatitis Study 2 Continuation and Validation Study and Ancillary Study. Lifetime drinking history and lifetime smoking history were collected through in-person interviews. Intensity, frequency, duration and current status of drinking and smoking were compared between Black and White CP participants, stratified by physician-defined alcohol etiology. In addition, drinking levels at each successive decades in life (20s, 30s, 40s) were compared by race and graphically portrayed as heat diagrams. RESULTS: Among patients with alcoholic CP, current smoking levels were not different by race (67-70%), but a smaller proportion of Black patients reported having smoked 1 or more packs per day in the past (32%) as compared to White patients (58%, p &lt; 0.0001). Black patients were more likely to report current consumption of alcohol (31%), as opposed to White patients (17%, p = 0.016). Black patients also reported more intense drinking at age 35 and 45 years as compared to White patients, while age at CP onset were similar between the two groups. CONCLUSION: We found more intense drinking but less intense smoking history in Black CP patients as compared to White CP patients. Effective alcohol abstinence and smoking cessation program with sustained impact are needed in CP patients.</p>
+<p>doi: <a href="https://doi.org/10.1016/j.pan.2020.10.031" class="uri">https://doi.org/10.1016/j.pan.2020.10.031</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Clinical Implications of Pre- and Postoperative Circulating Tumor DNA in Patients with Resected Pancreatic Ductal Adenocarcinoma</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33128119" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33128119</a></p>
+<p>BACKGROUND: The clinical implications of pre- and postoperative KRAS-mutated circulating tumor DNA (ctDNA) present in patients with pancreatic ductal adenocarcinoma (PDAC) have remained an unresolved issue. This study sought to investigate the clinical significance of pre- and postoperative ctDNA analyses and their impact on the prognosis of PDAC patients. METHODS: Digital droplet polymerase chain reaction detected ctDNA in pre- and postoperative plasma samples prospectively obtained from patients with resectable and borderline-resectable PDAC. Its associations with recurrence-free survival (RFS) and overall survival (OS) were analyzed. The patients were sorted according to the presence of pre- and postoperative ctDNA, and its ability to stratify prognosis was evaluated. RESULTS: The study analyzed 97 patients. Both pre- and postoperative ctDNA were detected in 9 patients, and neither was detected in 55 patients. Whereas 15 patients harbored only preoperative ctDNA, 18 patients had only postoperative ctDNA. The multivariate analysis showed that the presence of preoperative ctDNA was associated with poorer OS (P = 0.008) and that postoperative ctDNA was not associated with either RFS or OS. Survival did not differ significantly between the patients with a positive shift in ctDNA status and those without detectable pre- or postoperative ctDNA. CONCLUSIONS: For the patients with PDAC, the presence of preoperative ctDNA was significantly associated poor OS, whereas postoperative ctDNA was not associated with poor survival. A positive change in ctDNA did not affect patients’ survival.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09278-9" class="uri">https://doi.org/10.1245/s10434-020-09278-9</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>How to Perform Total Laparoscopic Duodenum-Preserving Pancreatic Head Resection Safely and Efficiently with Innovative Techniques</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33123857" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33123857</a></p>
+<p>BACKGROUND: Although rapid progress has been achieved in laparoscopic pancreaticoduodenectomy (PD) over the last decade, laparoscopic duodenum-preserving pancreatic head resection (LDPPHR) remains a challenging surgery that has been rarely reported due to not only requiring complicated pancreaticojejunostomy (PJ) but also ensuring sufficient blood supplies to duodenum and common bile duct (CBD). We completed LDPPHR for 22 patients safely and efficiently with innovative techniques. PATIENTS AND METHODS: Clinical outcomes, including rate of conversion to laparotomy, time of residual pancreatic duct reconstruction, incidence of postoperative complications, and time of hospital stay, were collected for 22 consecutive patients who underwent LDPPHR with innovative techniques as follows: application of indocyanine green (ICG) to visualize and preserve CBD and the vessels supplying the duodenum and CBD, Hong’s PJ, and pancreatic duct end-to-end anastomosis (ETEA) for the residual pancreas. RESULTS: All surgeries were performed successfully under laparoscopy except for one case. The duration of ETEA was significantly shorter than PJ (18.2 ± 5.1 min versus 27.5 ± 8.3 min, p &lt; 0.05). There was no significant difference in incidence of postoperative complications between the Hong’s PJ and ETEA group. The overall incidence of postoperative pancreatic fistula (POPF) in the Hong’s PJ and ETEA group was 23.5% and 20%, respectively, without grade C fistula. All complications were resolved after conservative treatment. CONCLUSIONS: By utilizing intraoperative ICG navigation, LDPPHR is a minimally invasive, safe, and efficient approach for chronic pancreatitis with pancreatic head stones by using pancreatic duct ETEA and benign or low-grade malignant tumors of the pancreatic head by using Hong’s PJ.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09233-8" class="uri">https://doi.org/10.1245/s10434-020-09233-8</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Identification of Genomic Alterations in Sporadic Pancreatic Neurogenic Tumors</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1393-1397</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122531" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122531</a></p>
+<p>Pancreatic neurogenic tumors, including schwannoma and neurofibroma, are rare, and their genetic aberrances have not been defined. The present study aimed at investigating the genomic alterations of pancreatic schwannoma and neurofibroma. Two patients with pancreatic schwannoma and 1 patient with neurofibroma, who underwent surgical resection at the First Affiliated Hospital, Sun Yat-sen University between June 2016 and April 2019, were recruited into the study. Their tumor tissues were analyzed by exome sequencing and genome sequencing. Exome sequencing revealed a MUTYH likely pathogenic germline variant in 1 schwannoma with somatic NF2del and NOTCH1 amplification. Pathway enrichment analysis on the other schwannoma case showed that the main abnormal function involved DNA damage repair, mitosis, and cell cycle. In addition, genome sequencing showed the inversion (INV) variant of SPIRE gene and multiple mitochondrial INV variants in both schwannoma cases. Furthermore, exome sequencing revealed NF1del, single nucleotide variation, TP53, and ERBB3 amplification in neurofibroma, whereas genomic duplication/deletion variants and mitochondrial abnormalities were much less than that in schwannoma. In conclusion, variants in NF1 and NF2 genes, amplification of key driver genes, and somatic and mitochondrial INV variants may play important roles in the development of pancreatic schwannoma and neurofibroma.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001680" class="uri">https://doi.org/10.1097/MPA.0000000000001680</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Successful Localization and Resection of Small Pancreatic Cystic Insulinoma Using Intraoperative Near-Infrared Fluorescence Imaging: A Case Report and Literature Review</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1388-1392</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122530" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122530</a></p>
+<p>Pancreatic cystic insulinoma is an uncommon tumor. Perioperative localization remained challenging if the tumor is atypical with cystic feature or in small size. Near-infrared (NIR) imaging is a technique by injecting fluorescent dye intravenously, which accumulates to the target lesion and creating signal by laser sources. The signal helps surgeons to identify the lesion during operation, but little experience has been reported regarding the use of imaging NIR technique for localizing cystic insulinoma. We present a 29-year-old female patient with a symptomatic pancreatic cystic insulinoma (1.2 cm) as assessed by clinical symptom, laboratory evidence, and magnetic resonance cholangiopancreatography. With an aid of NIR imaging technique, this cystic tumor was localized easily at operation. Also, the fluorescence imaging visualized the tumor part, guided us to identify the safe margin, and preserved the normal pancreatic structure. Pathologic report confirmed that the tumor was a well-differentiated cystic insulinoma. This case demonstrates that pancreatic cystic insulinoma in small size can be intraoperatively localized by NIR imaging, a relatively safe and easy technique.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001678" class="uri">https://doi.org/10.1097/MPA.0000000000001678</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Concordance Between the Ki-67 Index Cutoff Value of 55% and Differentiation in Neuroendocrine Tumor and Neuroendocrine Carcinoma in Grade 3 Pancreatic Neuroendocrine Neoplasms</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1378-1382</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122528" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122528</a></p>
+<p>OBJECTIVE: In 2017 and 2019, the World Health Organization defined grade 3 neuroendocrine tumors (G3 NETs) and neuroendocrine carcinoma (G3 NEC) in the pancreas. The validity of this classification remains to be verified. METHODS: Clinical data were collected and analyzed for 39 G3 pancreatic neuroendocrine neoplasms (PanNENs) patients between 2009 and 2018. RESULTS: The tumor-node-metastasis stage (P = 0.0260), differentiation (P = 0.0115), and Ki-67 index (P = 0.0371) are prognostic factors for G3 PanNENs by Kaplan-Meier survival analysis. Among 39 patients, 18 had a Ki-67 index of less than 55% and well-differentiated morphology (G3 NET) and 16 had a Ki-67 index of 55% or greater and poorly differentiated morphology (G3 NEC). Grade 3 neuroendocrine tumor had a significant better prognosis than G3 NEC (median overall survival time, 25 months [95% confidence interval, 10.854-39.146 months] vs 12 months [95% confidence interval, 6.316-17.684 months], P = 0.0164). Based on Cox regression analyses, tumor-node-metastasis stage (P = 0.016) was identified as the independent prognostic factor for G3 PanNENs. CONCLUSIONS: The upper Ki-67 index cutoff of 55% might be the best cutoff value to define G3 NETs and G3 NECs for G3 PanNENs. The World Health Organization 2017 and 2019 classification system for G3 PanNENs can identify high-risk patients with G3 PanNENs.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001693" class="uri">https://doi.org/10.1097/MPA.0000000000001693</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>FOLFIRINOX for Recurrent Pancreatic Cancer After Pancreatic Resection: A Secondary Analysis of the Nationwide Multicenter Observational Study Conducted by the Japan Adjuvant Study Group of Pancreatic Cancer 06</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1372-1377</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122527" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122527</a></p>
+<p>OBJECTIVES: The multidrug regimen with fluorouracil, leucovorin, irinotecan, and oxaliplatin (FOLFIRINOX) is widely used for recurrent pancreatic cancer after pancreatic resection. However, there are concerns about severe toxicities and poor tolerability of FOLFIRINOX in these patients because some suffer from surgery-associated malnutrition, weight loss, and diabetes mellitus. We evaluated the toxicity and tolerability of FOLFIRINOX in these patients. METHODS: This study was conducted as a secondary analysis of the Japan Adjuvant Study Group of Pancreatic Cancer 06 study, which was a multicenter observational study of FOLFIRINOX for pancreatic cancer in Japan. The toxicity and tolerability of FOLFIRINOX in recurrent disease correlated with those of both the locally advanced and the metastatic disease group. RESULTS: The major grades 3 and 4 toxicities observed in the recurrent and locally advanced or metastatic disease groups were neutropenia (68% vs 63%), febrile neutropenia (4% vs 15%, P = 0.007), thrombocytopenia (4% vs 3%), diarrhea (4% vs 8%), and sensory neuropathy (0% vs 2%). The dose modification and relative dose intensity did not differ markedly between the groups. CONCLUSIONS: The toxicity and tolerability of FOLFIRINOX for recurrence after pancreatic resection were similar to those for locally advanced or metastatic disease with appropriate patient selection and dose modifications.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001692" class="uri">https://doi.org/10.1097/MPA.0000000000001692</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Therapeutic Strategies Toward Lactate Dehydrogenase Within the Tumor Microenvironment of Pancreatic Cancer</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1364-1371</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122526" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122526</a></p>
+<p>OBJECTIVES: Pancreatic stellate cells (PSCs) play a key metabolic role within the tumor microenvironment (stroma) of pancreatic ductal adenocarcinoma (PDAC), being glycolytic and associated with protumorigenic acidification from excess lactate. This study investigates the clinical significance of glycolytic enzyme lactate dehydrogenase (LDH) and determines efficacy of the novel pan-LDH inhibitor Galloflavin. METHODS: An in vitro Transwell system was adopted for coculture of PSCs and 3 PDAC cell lines (MIA PaCa-2, PANC-1, and BxPC-3). Cells were treated with Galloflavin, and outcomes were analyzed regarding proliferation, apoptosis, lactate production, and glycolytic enzyme protein expression. Immunohistochemical staining for lactate dehydrogenase B (LDHB) was performed on 59 resected PDAC tumors annotated for clinical outcome. RESULTS: Galloflavin reduced PDAC proliferation in monoculture (P &lt; 0.01); however, in co-culture with PSCs, an antiproliferative effect was only evident in PANC-1 (P = 0.001). An apoptotic effect was observed in MIA PaCa-2 and BxPC-3 in coculture (P &lt; 0.05). A reduction in media lactate was observed in coculture (P &lt; 0.01) with PSCs. Immunohistochemistry revealed stromal and tumoral LDHB expression had no impact on survival. CONCLUSIONS: Galloflavin has the potential to neutralize the acidic PDAC microenvironment and thereby reduce tumor invasiveness and metastasis. Patients with lower LDHB expression are more likely to be beneficial responders.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001689" class="uri">https://doi.org/10.1097/MPA.0000000000001689</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Racial and Socioeconomic Disparities in the Treatments and Outcomes of Pancreatic Cancer Among Different Treatment Facility Types</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1355-1363</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122525" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122525</a></p>
+<p>OBJECTIVES: The aim of this study was to investigate racial and socioeconomic disparities for patients with pancreatic cancer across different facility types. METHODS: The National Cancer Database was queried for pancreatic cancer cases from 2004 to 2015. Along with propensity score matching analysis, multivariate logistic and Cox model were used to assess effects of facility type, race, elements of socioeconomics on receipt of treatment, time to treatment, and overall survival, separately. RESULTS: Among 223,465 patients, 44.6%, 42.1%, and 13.3% were treated at academic, community, and integrated facilities, respectively. Private insurance was associated with more treatment (odds ratio, 1.41; P &lt; 0.001) and better survival [hazards ratio (HR), 0.84; P &lt; 0.001]. Higher education was associated with earlier treatment (HR, 1.09; P &lt; 0.001). African Americans had less treatment (odds ratio, 0.97; P = 0.04) and delayed treatment (HR, 0.89; P &lt; 0.001) despite later stage at diagnosis. After adjusting for socioeconomic status, African Americans had similar survival (HR, 0.99; P = 0.11) overall and improved survival (HR, 0.95; P = 0.016) at integrated facilities. CONCLUSIONS: Higher socioeconomic status was associated with better treatment and survival. After adjusting for socioeconomic disparities, race did not affect survival. Less racial disparity was observed at integrated facilities.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001688" class="uri">https://doi.org/10.1097/MPA.0000000000001688</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Lewis Antigen Phenotype and Survival of Patients With Pancreatic Cancer</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1348-1354</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122524" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122524</a></p>
+<p>OBJECTIVES: The association of Lewis antigen phenotype with survival of patients with pancreatic ductal adenocarcinoma was investigated. METHODS: A total of 1187 patients diagnosed with pancreatic ductal adenocarcinoma were evaluated in a prospective cohort. Patients were classified into 3 different groups according to Lewis antigen phenotype: Lewis antigen (1) A positive [Le(a+b-)], (2) B positive [Le(a-b+)], and (3) negative [Le(a-b-)]. Risk of mortality was analyzed with Cox regression after adjusting for other predictors. RESULTS: The risk of mortality increased in the order of Le(a+b-), Le(a-b+), and Le(a-b-) [reference; hazard ratio (HR), 1.27; 95% confidence interval (CI)], 1.03-1.57; P = 0.02; and HR, 1.65; 95% CI, 1.31-2.09; P &lt; 0.001] after adjusting for other predictors. Among patients with serum carbohydrate antigen (CA) 19-9 lower than 37 U/mL, the association seemed more apparent (reference; HR, 1.50; 95% CI, 0.77-2.29; P = 0.22; and HR, 2.10; 95% CI, 1.10-4.02; P &lt; 0.02). CONCLUSIONS: The risk of mortality increased in the order of Le(a+b-), Le(a-b+), and Le(a-b-). The difference in prognosis according to the Lewis antigen phenotype was more pronounced in the low CA 19-9 group, which suggests that the Lewis antigen phenotype works as a biomarker predicting the prognosis of patients with pancreatic cancer with undetectable CA 19-9 level.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001687" class="uri">https://doi.org/10.1097/MPA.0000000000001687</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Is Ultrasound Elastography Useful in Predicting Clinically Relevant Pancreatic Fistula After Pancreatic Resection?: A Systematic Review and Meta-analysis</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1342-1347</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122523" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122523</a></p>
+<p>OBJECTIVES: Ultrasound (US) elastography has been proposed for the non-invasive prediction of clinically relevant pancreatic fistula (CR-POPF) in patients undergoing pancreatic resection. We aimed to perform a systematic review with meta-analysis to assess the diagnostic value of US elastography in predicting CR-POPF. METHODS: MEDLINE via PubMed, Ovid Embase, Scopus, and Cochrane Library databases, and abstracts of international conference proceedings were searched up to April 20, 2020. Studies assessing the performance of abdominal US elastography in predicting CR-POPF in patients undergoing pancreatic resection were included. The quality of the studies was assessed using Quality Assessment of Diagnostic Accuracy Studies. RESULTS: Five studies, including 247 patients who underwent partial pancreatic resection of whom 72 patients experiencing CR-POPF, were selected. All studies performed US elastography in different pancreatic sites. The pooled mean strain value was lower in pancreatic segments of patients experiencing CR-POPF than in those without, with a pooled weighted mean difference of -0.187 (95% confidence intervals, -0.303 to -0.071; P = 0.002). There was low heterogeneity between studies (I = 7.6%), and all studies were at “high risk” or “unclear risk” of bias. CONCLUSIONS: This study provides evidence that US elastography values are statistically significantly lower in patients experiencing CR-POPF.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001685" class="uri">https://doi.org/10.1097/MPA.0000000000001685</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Inhibition of CHRM3 Alleviates Necrosis Via the MAPK-p38/miR-31-5p/RIP3 Axis in L-Arginine-Induced Severe Acute Pancreatitis</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1335-1341</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122522" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122522</a></p>
+<p>OBJECTIVES: Pancreatic acinar necrosis is a typical feature in the early phase of severe acute pancreatitis (SAP). Muscarinic acetylcholine receptor M3 (CHRM3) has been reported to play important roles in promoting insulin secretion and tumor cell proliferation, but its effect on necrosis remains unknown. This study revealed the important role of CHRM3 in regulating L-arginine-induced SAP and the molecular mechanisms. METHODS: To verify the function of CHRM3, pancreatic tissues and primary acinar cells of CRISPR/Cas9-mediated Chrm3 knockout mice were used in CHRM3 knockdown experiments, and to ascertain the CHRM3 overexpression, PLV-EGFP-Chrm3 plasmids were transfected in acinar cells in vitro. RESULTS: In L-arginine-induced SAP, CHRM3 is activated and regulates SAP through the mitogen-activated protein kinase/p38 pathway. Moreover, the expression of miR-31-5p decreased in the SAP model both in vitro and in vivo. Mir-31-5p effects the necrosis of acinar cells in SAP by upregulating the target gene RIP3, and miR-31-5p is a downstream miRNA of CHRM3. CONCLUSIONS: Necrosis in L-arginine-induced SAP is promoted by CHRM3 through the mitogen-activated protein kinase-p38/miR-31-5p/RIP3 axis.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001684" class="uri">https://doi.org/10.1097/MPA.0000000000001684</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Heat Shock Factor 1 in Relation to Tumor Angiogenesis and Disease Progression in Patients With Pancreatic Cancer</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1327-1334</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122521" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122521</a></p>
+<p>OBJECTIVE: In this article, the aims were to study the expression of heat shock factor 1 (HSF1) in patients with pancreatic cancer and to elucidate the relevance between HSF1, angiogenesis, clinicopathological factors, and prognosis. METHODS: Pancreatic cancer, paracancerous, and normal pancreatic tissues were collected. The HSF1 RNA and protein expressions were identified using quantitative real-time reverse transcription polymerase chain reaction and immunohistochemical staining. Associations of HSF1 and cluster of differentiation 34 with clinical variables and disease outcomes were investigated. RESULTS: Compared with the normal pancreatic and paracancerous tissue, HSF1 RNA and protein significantly showed higher expression in the pancreatic cancer tissue and was significantly associated with microvessel density. The high expression of HSF1 did not correspond to the patients’ sex, age, carcinoembryonic antigen level, diameter of tumors, and locations; however, it corresponded significantly with carbohydrate antigen 19-9 level, lymph node metastasis, tumor node metastasis stage, differentiation degree, vascular invasion, and distant metastasis. The expression levels of HSF1 and cluster of differentiation 34 were significantly correlated with prognosis, disease specificity, and survival. The high expression of HSF1 would lead to worse prognosis and decrease in survival time and disease-free survival time. CONCLUSIONS: HSF1 expression level in pancreatic cancer tissue could be an ideal prognostic biomarker for risk stratification and a potential therapeutic target for patients with pancreatic cancer.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001683" class="uri">https://doi.org/10.1097/MPA.0000000000001683</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Interferon-Induced Protein With Multiple Tetratricopeptide Repeats 3 Is Associated With Response to Chemotherapy and Recurrence but Not With Survival</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1307-1314</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122518" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122518</a></p>
+<p>OBJECTIVES: The interferon-induced protein with multiple tetratricopeptide repeats 3 (IFIT3) seems to be associated with the prognosis in pancreatic cancer. Here we clarify whether the heterogeneity of IFIT3 expression affects previous IFIT3 analysis. METHODS: This retrospective study analyzes pancreatic cancer tissue samples retrieved by surgery from 2 independent patient cohorts. Patients underwent either primary surgery (n = 72) or received neoadjuvant chemotherapy (n = 12). Immunohistochemistry assessed IFIT3 expression and its heterogeneity. Complementarily, we analyzed publicly available transcriptomic data (n = 903). RESULTS: Of the primarily resected tumors, 16.4% were heterogeneous. Patients with IFIT3-negative tumors did not survive longer compared with patients with IFIT3-positive tumors. An analysis of publicly available data confirmed this result. Patients developing lung metastases had the best prognosis (4.8 years) with significantly lower IFIT3 expression compared with liver metastasis (P = 0.0117). Patients receiving neoadjuvant therapy who are IFIT3 negative had a longer disease-free survival (1.2 vs 0.3 years, P = 0.0081). CONCLUSIONS: Low IFIT3 expression is not associated with longer survival. Divergent results from tissue microarray analyses could be explained with tumor heterogeneity. As a single biomarker, IFIT3 is not suitable for predicting disease prognosis. Recurrence of lung metastases and response to neoadjuvant chemotherapy are associated with low IFIT3 expression.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001691" class="uri">https://doi.org/10.1097/MPA.0000000000001691</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Oncologic Impact of Local Recurrence in Resected Pancreatic Cancer and Topographic Preference in Local Recurrence Patterns According to Tumor Location</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1290-1296</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122516" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122516</a></p>
+<p>OBJECTIVES: The objective of this study was to investigate the pattern and the oncologic impact of local recurrence after surgical resection of pancreatic cancer. METHODS: From July 1992 to December 2016, 388 patients who underwent curative-intent surgery for pancreatic ductal adenocarcinoma were retrospectively reviewed. RESULTS: At a median follow-up of 29.0 months, 286 (73.7%) of the 367 patients experienced recurrence, and the 5-year overall survival rate was 31.3%. The first recurrence pattern was local in 83 patients (22.0%), systemic in 152 patients (40.2%), and locosystemic in 51 patients (13.5%). There was no difference in overall survival between the patients who had either local or systemic recurrence (P &gt; 0.05). Remnant pancreas, common hepatic artery, celiac trunk, and para-aortic area were the common local recurrence sites in both head and body/tail cancer. However, the superior mesenteric artery (P = 0.050) and portal vein (P = 0.001) were more frequent local recurrence sites for a head tumor, and the surgical bed was a common recurrence site for body/tail tumor (P &lt; 0.001). CONCLUSIONS: Our study shows the importance of local recurrence on overall survival and that preferred sites of local recurrence according to tumor location are predictable.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001679" class="uri">https://doi.org/10.1097/MPA.0000000000001679</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Treatment Strategies for the Optimal Management of Locally Advanced Pancreatic Adenocarcinoma With Curative Intent: A Systematic Review</strong></li>
+</ul>
+</summary>
+<p><em>Pancreas 2020 10;49(10):1264-1275</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33122513" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33122513</a></p>
+<p>Historically, locally advanced pancreatic adenocarcinoma (LAPDAC) was considered a palliative condition. Advances in treatment have resulted in studies reporting survival after neoadjuvant treatment and surgery similar to earlier disease stages. However, there is no consensus on optimal LAPDAC management. Our aim was a systematic review of published evidence on LAPDAC treatment strategies with curative intent. Twenty-eight studies defining LAPDAC as per established criteria and reporting outcomes after neoadjuvant treatment with a view to resection were included. Primary outcomes were resection rate and proportion of curative resections. Secondary outcomes were postoperative mortality, progression-free survival, and overall survival. Neoadjuvant treatment varied significantly, most common being the combination of folinic acid, fluorouracil, irontecan, and oxaliplatin. Median percentage of patients proceeding to surgery after completion of neoadjuvant pathway was 33.5%. Median resection rate was 25%. Median R0 resection was 80% of resected patients. These outcomes ranged 0% to 100% across studies. Ninety-day postoperative mortality ranged from 0% to 5%. Median progression-free and overall survival for resected patients were 12.9 and 30 months, respectively, versus 13.2 months overall survival for unresected patients. In conclusion, although there is wide variability in reported LAPDAC resection rates post-neoadjuvant chemotherapy, retrospective data suggest that neoadjuvant treatment followed by surgery results in improved survival.</p>
+<p>doi: <a href="https://doi.org/10.1097/MPA.0000000000001694" class="uri">https://doi.org/10.1097/MPA.0000000000001694</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>PANCREATIC BETA CELLS COMMUNICATE WITH VAGAL SENSORY NEURONS</strong></li>
+</ul>
+</summary>
+<p><em>Gastroenterology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33121946" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33121946</a></p>
+<p>BACKGROUND AND AIMS: Destroying visceral sensory nerves impacts pancreatic islet function, glucose metabolism and diabetes onset, but how islet endocrine cells interact with sensory neurons has not been studied. METHODS: We characterized the anatomical pattern of pancreatic sensory innervation by combining viral tracing, immunohistochemistry, and reporter mouse models. To assess the functional interactions of beta cells with vagal sensory neurons, we recorded Ca2+ responses in individual nodose neurons in vivo while selectively stimulating beta cells with chemogenetic and pharmacologic approaches. RESULTS: We found that pancreatic islets are innervated by vagal sensory axons expressing Phox2b, substance P, calcitonin-gene related peptide, and the serotonin receptor 5HT3R. Centrally, vagal neurons projecting to the pancreas terminate in the commissural nucleus of the solitary tract. Nodose neurons responded in vivo to chemogenetic stimulation of beta cells and to pancreas infusion with serotonin, but were not sensitive to insulin. Responses to chemogenetic and pharmacological stimulation of beta cells were blocked by a 5HT3R antagonist and were enhanced by increasing serotonin levels in beta cells. We further confirmed directly in living pancreas slices that sensory terminals in the islet were sensitive to serotonin. CONCLUSIONS: Our study establishes that pancreatic beta cells communicate with vagal sensory neurons, likely using serotonin signaling as a transduction mechanism. Serotonin is co-released with insulin and may therefore convey information about the secretory state of beta cells via vagal afferent nerves.</p>
+<p>doi: <a href="https://doi.org/10.1053/j.gastro.2020.10.034" class="uri">https://doi.org/10.1053/j.gastro.2020.10.034</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Do somatostatin-analogues have the same impact on postoperative morbidity and pancreatic fistula in patients after pancreaticoduodenectomy and distal pancreatectomy? - A systematic review with meta-analysis of randomized-controlled trials</strong></li>
+</ul>
+</summary>
+<p><em>Pancreatology : official journal of the International Association of Pancreatology (IAP) … [et al.] 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33121847" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33121847</a></p>
+<p>OBJECTIVE: Postoperative pancreatic fistula/POPF is the most feared complication in pancreatic surgery. Although several systematic reviews investigated the impact of somatostatin analogues on POPF, no stratification was performed regarding type of pancreatic resection (pancreaticoduodenectomy/PD; distal pancreatectomy/DP) and different somatostatin analogues. METHODS: This study was planed according to the Preferred-Reporting-Items-for-Systematic -Review-and-Meta-Analysis/PRISMA-guidelines. After screening databases for randomized controlled trials/RCT, studies were stratified into pancreatic resection techniques and data were pooled in meta-analyses containing subgroups of octreotide, somatostatin, lanreotide, pasireotide and vapreotide. RESULTS: The meta-analysis of studies with a mixed cohort of patients after pancreatic resection revealed a protective effect of somatostatin analogues for morbidity (RR: 0.71, p &lt; .00001) but not for mortality (RR: 1.07, = 0.78) or intra-abdominal abscesses (RR: 1.00, p = 1.00). Moreover, no effect was visible for mortality (RR: 1.57, p = .15), morbidity (RR: 0.87, p = .15) and intra-abdominal abscesses (RR: 0.92, p = .48) after PD. The meta-analysis of patients after PD revealed no impact of somatostatin analogues on POPF (RR: 0.87, p = .19) and clinically relevant POPF (RR: 0.69, p = .30). However, treatment with somatostatin analogues in the mixed cohort showed less POPF (RR: 0.60, p &lt; .00001) and clinically relevant POPF (RR: 0.47, p = .02), which was also the case after DP (RR: 0.41, p = .03). CONCLUSION: Somatostatin analogues did not affect POPF and clinically relevant POPF after PD, but seemed to be associated with less POPF after DP. As no sufficiently powered RCT could be identified by the systematic review, further RCTs are urgently needed to investigate the effect of somatostatin analogues after DP. STUDY REGISTRATION: CRD42018099808.</p>
+<p>doi: <a href="https://doi.org/10.1016/j.pan.2020.10.043" class="uri">https://doi.org/10.1016/j.pan.2020.10.043</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Age is in the eye of the beholder: Distinguishing molecular signatures in early-onset pancreatic adenocarcinomas</strong></li>
+</ul>
+</summary>
+<p><em>Clinical cancer research : an official journal of the American Association for Cancer Research 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33109735" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33109735</a></p>
+<p>Pancreatic adenocarcinoma (PDAC) is more prevalent in older patients, but early-onset cases (&lt;55 years) may be a distinct genetic subpopulation. Differential expression of CDKN2A and transcription factor FOXC2 were found in early-onset cases. This finding opens the door to investigating additional features that distinguish PDAC tumors in this age group.</p>
+<p>doi: <a href="https://doi.org/10.1158/1078-0432.CCR-20-3683" class="uri">https://doi.org/10.1158/1078-0432.CCR-20-3683</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Pilot study examining the impact of a specialist multidisciplinary team clinic for patients with chronic pancreatitis</strong></li>
+</ul>
+</summary>
+<p><em>Pancreatology : official journal of the International Association of Pancreatology (IAP) … [et al.] 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33109470" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33109470</a></p>
+<p>OBJECTIVE: -To assess the efficacy of a pilot Chronic Pancreatitis (CP) Multidisciplinary (MDT) clinic. METHODS: - 60 patients referred to a pilot MDT CP clinic were analysed. Anthropometric data, nutrition status, malabsorption evidence, glycaemic control, opiate use, bone mineral density (BMD) assessment and quality of life (QoL) were examined. RESULTS: -The average age was 51.27 (±12.75). The commonest aetiology was alcohol (55%). Ninety one point five percent had evidence of ongoing pancreatic exocrine insufficiency, with 88.1% requiring initiation or up-titration of pancreatic enzyme replacement (PERT). Up to half of the patients exhibited micronutrient deficiency. Twenty eight percent were diagnosed with type IIIc diabetes. There was an average daily reduction of 6 mg of morphine usage per patient with a concurrent decline in median pain scores from 83.3 to 63.3, which was non-significant. The median QoL score was 33.3 compared to a score of 75 from the reference population. QoL scores increased from 31.0 to 37.3 at follow up appointments. Seventy two point five percent of patients had undiagnosed low BMD. CONCLUSION: The data suggest that CP patients have significant nutritional deficiencies as well as undiagnosed diabetes, poor pain and glycaemic control which negatively impacts QoL. Assessment in a multi-disciplinary clinic ensures appropriate management.</p>
+<p>doi: <a href="https://doi.org/10.1016/j.pan.2020.10.041" class="uri">https://doi.org/10.1016/j.pan.2020.10.041</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Global impact of the COVID-19 pandemic on cytopathology practice: Results from an international survey of laboratories in 23 countries</strong></li>
+</ul>
+</summary>
+<p><em>Cancer cytopathology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33108683" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33108683</a></p>
+<p>BACKGROUND: To the authors’ knowledge, the impact of the coronavirus disease 2019 (COVID-19) pandemic on cytopathology practices worldwide has not been investigated formally. In the current study, data from 41 respondents from 23 countries were reported. METHODS: Data regarding the activity of each cytopathology laboratory during 4 weeks of COVID-19 lockdown were collected and compared with those obtained during the corresponding period in 2019. The overall number and percentage of exfoliative and fine-needle aspiration cytology samples from each anatomic site were recorded. Differences in the malignancy and suspicious rates between the 2 periods were analyzed using a meta-analytical approach. RESULTS: Overall, the sample volume was lower compared with 2019 (104,319 samples vs 190,225 samples), with an average volume reduction of 45.3% (range, 0.1%-98.0%). The percentage of samples from the cervicovaginal tract, thyroid, and anorectal region was significantly reduced (P &lt; .05). Conversely, the percentage of samples from the urinary tract, serous cavities, breast, lymph nodes, respiratory tract, salivary glands, central nervous system, gastrointestinal tract, pancreas, liver, and biliary tract increased (P &lt; .05). An overall increase of 5.56% (95% CI, 3.77%-7.35%) in the malignancy rate in nongynecological samples during the COVID-19 pandemic was observed. When the suspicious category was included, the overall increase was 6.95% (95% CI, 4.63%-9.27%). CONCLUSIONS: The COVID-19 pandemic resulted in a drastic reduction in the total number of cytology specimens regardless of anatomic site or specimen type. The rate of malignancy increased, reflecting the prioritization of patients with cancer who were considered to be at high risk. Prospective monitoring of the effect of delays in access to health services during the lockdown period is warranted.</p>
+<p>doi: <a href="https://doi.org/10.1002/cncy.22373" class="uri">https://doi.org/10.1002/cncy.22373</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Low expression of DDX5 is associated with poor prognosis in patients with pancreatic ductal adenocarcinoma</strong></li>
+</ul>
+</summary>
+<p><em>Journal of clinical pathology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33097588" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33097588</a></p>
+<p>AIMS: Pancreatic ductal adenocarcinoma (PDAC) is one of the most fatal malignancies. Hence, there is a need for new markers and treatment strategies. P68/DEAD box protein 5 (DDX5) is an ATP-dependent RNA helicase of the DEAD box protein family. It is a prognostic marker for several cancers. In this study, we aimed to evaluate the expression and clinical relevance of DDX5 in PDAC. METHODS: DDX5 expression in tissue microarray blocks containing 230 PDAC samples was examined using immunohistochemical analysis. DDX5 expression was considered high when more than 50% of the cells were stained and low when less than 50% of the cells were stained. We investigated the association between DDX5 expression and clinicopathological parameters, including patient survival. RESULTS: The nuclei of normal pancreatic ducts, normal acinar cells and PDAC cells were stained positive for DDX5 although the intensity and distribution of DDX5 expression varied. Islet cells showed strong and diffuse staining of DDX5. DDX5 expression was low and high in 148 (64.3%) and 82 cases (35.7%), respectively. Low DDX5 expression was significantly associated with an advanced pT factor (pT2-pT3: tumour size,&gt;20 mm), lymphatic involvement, advanced tumour-node-metastasis (TNM) stage (stages IIB, III, and IV), and venous involvement. In addition, the multivariate analysis revealed that DDX5 expression is an independent prognostic factor for PDAC. CONCLUSION: These results suggest that DDX5 plays an important role in tumour invasiveness and PDAC prognosis.</p>
+<p>doi: <a href="https://doi.org/10.1136/jclinpath-2020-207002" class="uri">https://doi.org/10.1136/jclinpath-2020-207002</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>The histopathology of SPINK1-associated chronic pancreatitis</strong></li>
+</ul>
+</summary>
+<p><em>Pancreatology : official journal of the International Association of Pancreatology (IAP) … [et al.] 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33097431" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33097431</a></p>
+<p>BACKGROUND: The identification of genetic risk factors for chronic pancreatitis, such as PRSS1, CFTR and SPINK1, provides the opportunity to define key pathologic hallmarks and etiologic-specific changes. For example, pancreata from PRSS1 and CFTR patients exhibit progressive lipomatous atrophy without significant fibrosis. Considering the pathology of SPINK1-associated pancreatitis is ill-defined, we examined the pancreata of SPINK1 patients with chronic pancreatitis. METHODS: Histologic sections after total pancreatectomy with islet autotransplantation and associated clinicopathologic data were collected from 28 patients with SPINK1 germline alterations. Clinical findings, germline data, anatomic anomalies and pathologic findings were descriptively evaluated. RESULTS: Patients ranged in age from 5 to 48 years (median, 21.6 years) with abdominal pain between 2 and 25 years (median, 5.8 years). Most patients were SPINK1 heterozygous and 14 (50%) had co-occurring CFTR (n = 12) and CTRC (n = 2) mutations. Other pancreatitis risk factors included anatomic anomalies (n = 9) and tobacco use (n = 1). Overall, 24 (86%) patients had additional pancreatitis-associated germline alterations, SPINK1 homozygosity, anatomic anomalies or environmental factors. Examination of pancreata revealed a sequential pattern of exocrine parenchymal loss and replacement by prominent fibrosis, dependent on the duration of abdominal pain. No malignancies were identified, but low-grade pancreatic intraepithelial neoplasia was present for 2 cases. CONCLUSIONS: Within this descriptive study, SPINK1-associated pancreatitis is characterized by parenchymal fibrosis and suggests divergent pathophysiologic mechanisms from PRSS1 and CFTR-associated pancreatitis. Moreover, SPINK1 patients frequently had additional etiologic factors that did not impact the development of pancreatic fibrosis and may implicate SPINK1 as a disease modifier gene.</p>
+<p>doi: <a href="https://doi.org/10.1016/j.pan.2020.10.030" class="uri">https://doi.org/10.1016/j.pan.2020.10.030</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Experimental pancreatitis is characterized by rapid T cell activation, Th2 differentiation that parallels disease severity, and improvement after CD4+ T cell depletion</strong></li>
+</ul>
+</summary>
+<p><em>Pancreatology : official journal of the International Association of Pancreatology (IAP) … [et al.] 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33097430" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33097430</a></p>
+<p>BACKGROUND: Acute pancreatitis is a gastrointestinal disorder of high incidence resulting in life threatening complications in up to 20% of patients. Its severe form is characterized by an extensive and systemic immune response. We investigated the role of the adaptive immune response in two experimental models of pancreatitis. METHODS: In C57BI/6-mice mild pancreatitis was induced by 8-hourly injections of caerulein and severe pancreatitis by additional, partial pancreatic duct ligation. T-cell-activation was determined by flow-cytometry of CD25/CD69, T-cell-differentiation by nuclear staining of the transcription-factors Tbet, Gata3 and Foxp3. In vivo CD4+ T-cells were depleted using anti-CD4 antibody. Disease severity was determined by histology, serum amylase and lipase activities, lung MPO and serum cytokine levels (IL-6, TNFα, IL-10). RESULTS: In both models T-cells were activated. Th1-differentiation (Tbet) was absent during pancreatitis but we detected a pronounced Th2/Treg (Gata3/Foxp3) response which paralleled disease severity in both models. The complete depletion of CD4+ T-cells via anti-CD4 antibody, surprisingly, reduced disease severity significantly, as well as granulocyte infiltration and pro- and anti-inflammatory cytokine levels. Co-incubation of acini and T-cells did not lead to T-cell-activation by acinar cells but to acinar damage by T-cells. During pancreatitis no significant T-cell-infiltration into the pancreas was observed. CONCLUSION: T cells orchestrate the early local as well as the systemic immune responses in pancreatitis and are directly involved in organ damage. The Th2 response appears to increase disease severity, rather than conferring an immunological protection.</p>
+<p>doi: <a href="https://doi.org/10.1016/j.pan.2020.10.044" class="uri">https://doi.org/10.1016/j.pan.2020.10.044</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Pharmacodynamic modeling of synergistic birinapant/paclitaxel interactions��in pancreatic cancer cells</strong></li>
+</ul>
+</summary>
+<p><em>BMC cancer 2020 Oct;20(1):1024</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33097020" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33097020</a></p>
+<p>BACKGROUND: For most patients, pancreatic adenocarcinoma responds poorly to treatment, and novel therapeutic approaches are needed. Standard-of-care paclitaxel (PTX), combined with birinapant (BRP), a bivalent mimetic of the apoptosis antagonist SMAC (second mitochondria-derived activator of caspases), exerts synergistic killing of PANC-1 human pancreatic adenocarcinoma cells. METHODS: To investigate potential mechanisms underlying this synergistic pharmacodynamic interaction, data capturing PANC-1 cell growth, apoptosis kinetics, and cell cycle distribution were integrated with high-quality IonStar-generated proteomic data capturing changes in the relative abundance of more than 3300 proteins as the cells responded to the two drugs, alone and combined. RESULTS: PTX alone (15 nM) elicited dose-dependent G2/M-phase arrest and cellular polyploidy. Combined BRP/PTX (150/15 nM) reduced G2/M by 35% and polyploid cells by 45%, and increased apoptosis by 20%. Whereas BRP or PTX alone produced no change in the pro-apoptotic protein pJNK, and a slight increase in the anti-apoptotic protein Bcl2, the drug combination increased pJNK and decreased Bcl2 significantly compared to the vehicle control. A multi-scale, mechanism-based mathematical model was developed to investigate integrated birinapant/paclitaxel effects on temporal profiles of key proteins involved in kinetics of cell growth, death, and cell cycle distribution. CONCLUSIONS: The model, consistent with the observed reduction in the Bcl2/BAX ratio, suggests that BRP-induced apoptosis of mitotically-arrested cells is a major contributor to the synergy between BRP and PTX. Coupling proteomic and cellular response profiles with multi-scale pharmacodynamic modeling provides a quantitative mechanistic framework for evaluating pharmacodynamically-based drug-drug interactions in combination chemotherapy, and could potentially guide the development of promising drug regimens.</p>
+<p>doi: <a href="https://doi.org/10.1186/s12885-020-07398-9" class="uri">https://doi.org/10.1186/s12885-020-07398-9</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Nonalcoholic steatohepatitis: the role of peroxisome proliferator-activated receptors</strong></li>
+</ul>
+</summary>
+<p><em>Nature reviews. Gastroenterology &amp; hepatology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33093663" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33093663</a></p>
+<p>The increasing epidemic of obesity worldwide is linked to serious health effects, including increased prevalence of type 2 diabetes mellitus, cardiovascular disease and nonalcoholic fatty liver disease (NAFLD). NAFLD is the liver manifestation of the metabolic syndrome and includes the spectrum of liver steatosis (known as nonalcoholic fatty liver) and steatohepatitis (known as nonalcoholic steatohepatitis), which can evolve into progressive liver fibrosis and eventually cause cirrhosis. Although NAFLD is becoming the number one cause of chronic liver diseases, it is part of a systemic disease that affects many other parts of the body, including adipose tissue, pancreatic β-cells and the cardiovascular system. The pathomechanism of NAFLD is multifactorial across a spectrum of metabolic derangements and changes in the host microbiome that trigger low-grade inflammation in the liver and other organs. Peroxisome proliferator-activated receptors (PPARs) are a group of nuclear regulatory factors that provide fine tuning for key elements of glucose and fat metabolism and regulate inflammatory cell activation and fibrotic processes. This Review summarizes and discusses the current literature on NAFLD as the liver manifestation of the systemic metabolic syndrome and focuses on the role of PPARs in the pathomechanisms as well as in the potential targeting of disease.</p>
+<p>doi: <a href="https://doi.org/10.1038/s41575-020-00366-5" class="uri">https://doi.org/10.1038/s41575-020-00366-5</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Detection of Chemotherapy-Resistant Pancreatic Cancer Using a Glycan Biomarker, sTRA</strong></li>
+</ul>
+</summary>
+<p><em>Clinical cancer research : an official journal of the American Association for Cancer Research 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33093149" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33093149</a></p>
+<p>PURPOSE: A subset of pancreatic ductal adenocarcinomas (PDACs) is highly resistant to systemic chemotherapy, but no markers are available in clinical settings to identify this subset. We hypothesized that a glycan biomarker for PDAC called sTRA could be used for this purpose. EXPERIMENTAL DESIGN: We tested for differences between PDACs classified by glycan expression in multiple systems: sets of cell lines, organoids, and isogenic cell lines; primary tumors; and blood plasma from human subjects. RESULTS: The sTRA-expressing models tended to have stem-like gene expression and the capacity for mesenchymal differentiation, in contrast to the non-expressing models. The sTRA cell lines also had significantly increased resistance to seven different chemotherapeutics commonly used against pancreatic cancer. Patients with primary tumors that were positive for a gene-expression classifier for sTRA received no statistically significant benefit from adjuvant chemotherapy, in contrast to those negative for the signature. In another cohort, based on direct measurements of sTRA in tissue microarrays, the patients who were high in sTRA again had no statistically significant benefit from adjuvant chemotherapy. Furthermore, a blood-plasma test for the sTRA glycan identified the PDACs that showed rapid relapse following neoadjuvant chemotherapy. CONCLUSIONS: This research demonstrates that a glycan biomarker could have value to detect chemotherapy-resistant PDAC in clinical settings. This capability could aid in the development of stratified treatment plans and facilitate biomarker-guided trials targeting resistant PDAC.</p>
+<p>doi: <a href="https://doi.org/10.1158/1078-0432.CCR-20-2475" class="uri">https://doi.org/10.1158/1078-0432.CCR-20-2475</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>The Landmark Series: Mitigation of the Postoperative Pancreatic Fistula</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33089395" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33089395</a></p>
+<p>Pancreatic fistula has been the defining complication and challenge of pancreatic surgery. Better awareness and mitigation of postoperative pancreatic fistulas has led to significant improvements in morbidity and mortality of pancreatic surgery. The definition and management of pancreatic fistulas has sequentially progressed over the last three decades; the literature ranges from retrospective, observational studies to prospective multicenter randomized controlled trials. The landmark literature contributions driving the perioperative management of pancreatic fistulas are detailed in this article.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09251-6" class="uri">https://doi.org/10.1245/s10434-020-09251-6</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Blocking VCAM-1 inhibits pancreatic tumour progression and cancer-associated thrombosis/thromboembolism</strong></li>
+</ul>
+</summary>
+<p><em>Gut 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33087490" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33087490</a></p>
+<p>OBJECTIVE: Pancreatic ductal adenocarcinoma (PDAC) is the deadliest cancer. Cancer-associated thrombosis/thromboembolism (CAT), frequently observed in PDAC, is known as a poor prognostic factor. Here, we investigated the underlying mechanisms between PDAC and CAT, and performed a trial of therapeutic approach for PDAC using a genetically engineered mouse model, PKF (Ptf1acre/+;LSL-KrasG12D/+;Tgfbr2flox/flox ). DESIGN: Presence of CAT in PKF mice was detected by systemic autopsy. Plasma cytokines were screened by cytokine antibody array. Murine and human plasma atrial natriuretic peptide (ANP) and soluble vascular cell adhesion molecule 1 (sVCAM-1) were determined by ELISA. Distribution of VCAM-1 in PKF mice and human autopsy samples was detected by immunohistochemistry. PKF mice were treated with anti-VCAM-1 antibody and the effects on survival, distribution of CAT and the tumour histology were analysed. RESULTS: We found spontaneous CAT with cardiomegaly in 68.4% PKF mice. Increase of plasma ANP and sVCAM-1 was observed in PKF mice and PDAC patients with CAT. VCAM-1 was detected in the activated endothelium and thrombi. Administration of anti-VCAM-1 antibody to PKF mice inhibited tumour growth, neutrophil/macrophage infiltration, tumour angiogenesis and progression of CAT; moreover, it dramatically extended survival (from 61 to 253 days, p&lt;0.01). CONCLUSION: Blocking VCAM-1/sVCAM-1 might be a potent therapeutic approach for PDAC as well as CAT, which can contribute to the prognosis. Increase of plasma ANP and sVCAM-1 might be a diagnostic approach for CAT in PDAC.</p>
+<p>doi: <a href="https://doi.org/10.1136/gutjnl-2020-320608" class="uri">https://doi.org/10.1136/gutjnl-2020-320608</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>FXR in the dorsal vagal complex is sufficient and necessary for upper small intestinal microbiome-mediated changes of TCDCA to alter insulin action in rats</strong></li>
+</ul>
+</summary>
+<p><em>Gut 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33087489" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33087489</a></p>
+<p>OBJECTIVE: Conjugated bile acids are metabolised by upper small intestinal microbiota, and serum levels of taurine-conjugated bile acids are elevated and correlated with insulin resistance in people with type 2 diabetes. However, whether changes in taurine-conjugated bile acids are necessary for small intestinal microbiome to alter insulin action remain unknown. DESIGN: We evaluated circulating and specifically brain insulin action using the pancreatic-euglycaemic clamps in high-fat (HF) versus chow fed rats with or without upper small intestinal healthy microbiome transplant. Chemical and molecular gain/loss-of-function experiments targeting specific taurine-conjugated bile acid-induced changes of farnesoid X receptor (FXR) in the brain were performed in parallel. RESULTS: We found that short-term HF feeding increased the levels of taurochenodeoxycholic acid (TCDCA, an FXR ligand) in the upper small intestine, ileum, plasma and dorsal vagal complex (DVC) of the brain. Transplantation of upper small intestinal healthy microbiome into the upper small intestine of HF rats not only reversed the rise of TCDCA in all reported tissues but also enhanced the ability of either circulating hyperinsulinaemia or DVC insulin action to lower glucose production. Further, DVC infusion of TCDCA or FXR agonist negated the enhancement of insulin action, while genetic knockdown or chemical inhibition of FXR in the DVC of HF rats reversed insulin resistance. CONCLUSION: Our findings indicate that FXR in the DVC is sufficient and necessary for upper small intestinal microbiome-mediated changes of TCDCA to alter insulin action in rats, and highlight a previously unappreciated TCDCA-FXR axis linking gut microbiome and host insulin action.</p>
+<p>doi: <a href="https://doi.org/10.1136/gutjnl-2020-321757" class="uri">https://doi.org/10.1136/gutjnl-2020-321757</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Altered Gemcitabine and Nab-paclitaxel Scheduling Improves Therapeutic Efficacy Compared to Standard Concurrent Treatment in Pre-clinical Models of Pancreatic Cancer</strong></li>
+</ul>
+</summary>
+<p><em>Clinical cancer research : an official journal of the American Association for Cancer Research 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33087331" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33087331</a></p>
+<p>PURPOSE: Concurrent gemcitabine and nab-paclitaxel treatment is one of the preferred chemotherapy regimens for metastatic and locally-advanced pancreatic ductal adenocarcinoma (PDAC). Previous studies demonstrate that caveolin-1 (Cav-1) expression is critical for nab-paclitaxel uptake into tumors and correlates with response. Gemcitabine increases nab-paclitaxel uptake by increasing Cav-1 expression. Thus, we hypothesized that pre-treatment with gemcitabine would further enhance the sensitivity of PDAC to nab-paclitaxel by increasing Cav-1 expression and nab-paclitaxel uptake. EXPERIMENTAL DESIGN: We investigated the sensitivity of different gemcitabine and nab-paclitaxel treatment regimens in a panel of PDAC cell lines and orthotopic xenograft models. The sensitivity of different treatment regimens was compared to the standard concurrent treatment. RESULTS: Pre-treatment with gemcitabine before nab-paclitaxel increased Cav-1 and albumin uptake and significantly decreased proliferation and clonogenicity compared to concurrent treatment, which correlated with increased levels of apoptosis. Cav-1 silencing reduced the uptake of albumin and therapeutic advantage observed when cells were pre-treated with gemcitabine prior to nab-paclitaxel. Additionally, we observed that pre-treatment with gemcitabine resulted in partial synchronization of cells in the G2/M phase at the time of nab-paclitaxel treatment, providing another mechanism for the benefit of altered scheduling. In heterotopic and orthotopic xenograft models, the altered schedule of gemcitabine prior to nab-paclitaxel significantly delayed tumor growth compared to concurrent delivery without added toxicity. CONCLUSIONS: Pre-treatment with gemcitabine significantly increased nab-paclitaxel uptake and correlated with an increased treatment efficacy and survival benefit in preclinical models, compared to standard concurrent treatment. These results justify preclinical and clinical testing of this altered scheduling combination.</p>
+<p>doi: <a href="https://doi.org/10.1158/1078-0432.CCR-20-1422" class="uri">https://doi.org/10.1158/1078-0432.CCR-20-1422</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Distinct clinicopathological differences between early gastric cardiac and non-cardiac carcinomas: a single-center retrospective study of 329 radical resection cases</strong></li>
+</ul>
+</summary>
+<p><em>BMC gastroenterology 2020 Oct;20(1):351</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33087057" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33087057</a></p>
+<p>BACKGROUND: Early gastric carcinoma is heterogeneous and can be divided into early gastric cardiac carcinoma (EGCC) and early gastric non-cardiac carcinoma (EGNCC) groups. At present, differences in clinicopathology remains obscure between EGCC and EGNCC fundus-corpus and antrum-angularis-pylorus subgroups, especially between EGCC with and without oesophageal invasion. METHODS: In this study, we studied 329 consecutive early gastric carcinoma radical gastrectomies with 70 EGCCs and 259 EGNCCs. RESULTS: Compared to the EGNCC antrum-angularis-pylorus (n = 181), but not fundus-corpus (n = 78), sub-group, EGCC showed significantly older age, lower prevalence of the grossly depressed pattern, better tumor differentiation, higher percentage of tubular/papillary adenocarcinoma, but lower frequency of mixed poorly cohesive carcinoma with tubular/papillary adenocarcinoma, and absence of lymph node metastasis (LNM) in tumors with invasion up to superficial submucosa (SM1). In contrast, pure poorly cohesive carcinoma was less frequently seen in EGCCs than in EGNCCs, but mixed poorly cohesive carcinoma with tubular/papillary adenocarcinomas was significantly more common in the EGNCC antrum-angularis-pylorus sub-group than in any other group. No significant differences were found between EGCC and EGNCC sub-groups in gender, tumor size, H. pylori infection rate, and lymphovascular/perineural invasion. EGCC with oesophageal invasion (n = 22), compared to EGCC without (n = 48), showed no significant differences in the H. pylori infection rate and oesophageal columnar, intestinal, or pancreatic metaplasia, except for a higher percentage of the former in size &gt; 2 cm and tubular differentiation. CONCLUSIONS: There exist distinct clinicopathologic differences between EGCC and EGNCC sub-groups; EGCC was indeed of gastric origin. Further investigations with larger samples are needed to validate these findings.</p>
+<p>doi: <a href="https://doi.org/10.1186/s12876-020-01498-3" class="uri">https://doi.org/10.1186/s12876-020-01498-3</a></p>
+</details>
+<hr />
 <hr />
 <!-- rnb-text-end -->
 <!-- rnb-text-begin -->
@@ -2455,12 +3106,12 @@ Click here to see these articles and graphical summaries in other databases
 <details open>
 <summary>
 <ul>
-<li><strong>Effect of germline mutations in homologous recombination repair genes on overall survival of patients with pancreatic adenocarcinoma</strong></li>
+<li><strong>Effect of Germline Mutations in Homologous Recombination Repair Genes on Overall Survival of Patients with Pancreatic Adenocarcinoma</strong></li>
 </ul>
 </summary>
 <p><em>Clinical cancer research : an official journal of the American Association for Cancer Research 2020 Oct;():</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33028596" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33028596</a></p>
-<p>PURPOSE: To compare the clinical characteristics and overall survival (OS) of germline mutation carriers in homologous recombination repair (HRR) genes and non-carriers with pancreatic ductal adenocarcinoma (PDAC). METHODS: Germline DNA from 3,078 patients with PDAC enrolled in a prospective registry at Mayo Clinic between 2000 and 2017 was analyzed for mutations in 37 cancer predisposition genes. Characteristics and OS of patients with mutations in 8 genes (ATM, BARD1, BRCA1, BRCA2, BRIP1, PALB2, RAD51C, and RAD51D) involved in HRR were compared to patients testing negative for mutations in all 37 genes. RESULTS: The 175 HRR mutation carriers and 2,730 non-carriers in the study had a median duration of follow-up of 9.9 years. HRR mutation carriers were younger (Median age at diagnosis: 63 vs. 66 years, p&lt;0.001) and more likely to have metastatic disease at diagnosis (46% vs. 36%, p=0.004). In a multivariable model adjusting for sex, age at diagnosis, and tumor staging, patients with germline HRR mutations had a significantly longer OS compared to non-carriers (HR: 0.83, 95% CI: 0.70 to 0.97, p= 0.02). Further gene-level analysis demonstrated that germline ATM mutation carriers had longer OS compared to patients without germline mutations in any of the 37 HRR genes (HR: 0.72, 95% CI: 0.55 - 0.94, p=0.01). CONCLUSIONS: This study demonstrates that germline mutation carrier status in PDAC is associated with longer OS compared to non-carriers. Further research into tumor biology and response to platinum-based chemotherapy in germline mutation carriers with PDAC are needed to better understand the association with longer OS.</p>
+<p>PURPOSE: To compare the clinical characteristics and overall survival (OS) of germline mutation carriers in homologous recombination repair (HRR) genes and noncarriers with pancreatic ductal adenocarcinoma (PDAC). METHODS: Germline DNA from 3,078 patients with PDAC enrolled in a prospective registry at Mayo Clinic between 2000 and 2017 was analyzed for mutations in 37 cancer predisposition genes. Characteristics and OS of patients with mutations in eight genes (ATM, BARD1, BRCA1, BRCA2, BRIP1, PALB2, RAD51C, and RAD51D) involved in HRR were compared with patients testing negative for mutations in all 37 genes. RESULTS: The 175 HRR mutation carriers and 2,730 noncarriers in the study had a median duration of follow-up of 9.9 years. HRR mutation carriers were younger (median age at diagnosis: 63 vs. 66 years, P &lt; 0.001) and more likely to have metastatic disease at diagnosis (46% vs. 36%, P = 0.004). In a multivariable model adjusting for sex, age at diagnosis, and tumor staging, patients with germline HRR mutations had a significantly longer OS compared with noncarriers [HR, 0.83; 95% confidence interval (CI), 0.70-0.97; P = 0.02]. Further gene-level analysis demonstrated that germline ATM mutation carriers had longer OS compared with patients without germline mutations in any of the 37 genes (HR, 0.72; 95% CI, 0.55-0.94; P = 0.01). CONCLUSIONS: This study demonstrates that germline mutation carrier status in PDAC is associated with longer OS compared with noncarriers. Further research into tumor biology and response to platinum-based chemotherapy in germline mutation carriers with PDAC are needed to better understand the association with longer OS.</p>
 <p>doi: <a href="https://doi.org/10.1158/1078-0432.CCR-20-1788" class="uri">https://doi.org/10.1158/1078-0432.CCR-20-1788</a></p>
 </details>
 <hr />
@@ -2878,7 +3529,7 @@ Click here to see these articles and graphical summaries in other databases
 <li><strong>Surufatinib in advanced pancreatic neuroendocrine tumours (SANET-p): a randomised, double-blind, placebo-controlled, phase 3 study</strong></li>
 </ul>
 </summary>
-<p><em>The Lancet. Oncology 2020 Sep;():</em></p>
+<p><em>The Lancet. Oncology 2020 Nov;21(11):1489-1499</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32966810" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32966810</a></p>
 <p>BACKGROUND: Surufatinib showed superior efficacy in extrapancreatic neuroendocrine tumours (NETs) in the phase 3 SANET-ep study. In SANET-p, we aimed to assess the efficacy and safety of surufatinib in patients with advanced pancreatic NETs. METHODS: SANET-p was a multicentre, randomised, double-blind, placebo-controlled, phase 3 study, done in 21 hospitals across China. Eligible patients were adults (aged 18 years or older) with progressive, advanced, well differentiated pancreatic NETs, Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1, and progression on up to two kinds of previous systemic regimens for advanced disease. Patients were randomly assigned (2:1) via an interactive web response system to receive 300 mg of surufatinib or placebo, taken orally once per day in consecutive 4-week treatment cycles until disease progression, intolerable toxicity, withdrawal of consent, poor compliance, use of other antitumour medication, pregnancy, loss to follow-up, or if the investigator deemed discontinuation in the patient’s best interest. Randomisation was done centrally using stratified block randomisation (block size three), stratified by pathological grade, previous systemic antitumour treatment, and ECOG performance status score. Patients, investigators, research staff, and the sponsor study team were masked to treatment allocation. Crossover to surufatinib was permitted for patients in the placebo group with disease progression. The primary endpoint was investigator-assessed progression-free survival in the intention-to-treat population, which included all patients in randomisation. A pre-planned interim analysis was done at 70% of the predicted progression-free survival events. This study is registered at ClinicalTrials.gov, NCT02589821. FINDINGS: Between Feb 18, 2016, and Nov 11, 2019, of 264 patients who were screened, 172 (65%) patients were randomly assigned to receive surufatinib (n=113) or placebo (n=59). The median follow-up was 19·3 months (95% CI 9·3-19·4) in the surufatinib group and 11·1 months (5·7-35·9) in the placebo group. The median investigator-assessed progression-free survival was 10·9 months (7·5-13·8) for surufatinib versus 3·7 months (2·8-5·6) for placebo (hazard ratio 0·49, 95% CI 0·32-0·76; p=0·0011). The trial met the early stopping criteria at the interim analysis and was terminated on recommendation from the independent data monitoring committee. The most common grade 3 or worse treatment-related adverse events were hypertension (43 [38%] of 113 with surufatinib vs four [7%] of 59 with placebo), proteinuria (11 [10%] vs one [2%]), and hypertriglyceridaemia (eight [7%] vs none). Treatment-related serious adverse events were reported in 25 (22%) patients in the surufatinib group and four (7%) patients in the placebo group. There were three on-treatment deaths in the surufatinib group, including two deaths due to adverse events (gastrointestinal haemorrhage [possibly treatment-related] and cerebral haemorrhage [unlikely to be treatment-related]), and one death attributed to disease progression. One on-treatment death in the placebo group was attributed to disease progression. INTERPRETATION: Surufatinib significantly improves progression-free survival and has an acceptable safety profile in patients with progressive, advanced pancreatic NETs, and could be a potential treatment option in this patient population. FUNDING: Hutchison MediPharma.</p>
 <p>doi: <a href="https://doi.org/10.1016/S1470-2045(20)30493-9" class="uri">https://doi.org/10.1016/S1470-2045(20)30493-9</a></p>
@@ -3070,12 +3721,12 @@ Click here to see these articles and graphical summaries in other databases
 <details open>
 <summary>
 <ul>
-<li><strong>Intestinal Metaplasia Around The Gastroesophageal Junction Is Frequently Associated With Antral Reactive Gastropathy: Implications For Carcinoma At The Gastroesophageal Junction</strong></li>
+<li><strong>Intestinal metaplasia around the gastroesophageal junction is frequently associated with antral reactive gastropathy: implications for carcinoma at the gastroesophageal junction</strong></li>
 </ul>
 </summary>
-<p><em>Human pathology 2020 Sep;():</em></p>
+<p><em>Human pathology 2020 Sep;105():67-73</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32941964" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32941964</a></p>
-<p>Increasing evidence suggests that bile reflux (BR) plays a major role in mucosal injury leading to adenocarcinoma of the proximal stomach and distal esophagus. However, gastric BR is difficult to diagnose and investigate. Reactive gastropathy (RG), in the absence of non-steroidal anti-inflammatory drugs (NSAIDs) and other known causes likely represents bile-mediated injury to gastric mucosa. The goal of this study is to explore the association between antral RG and gastroesophageal junction (GEJ) mucosal inflammation and intestinal metaplasia. The pathology database was searched for patients who had gastric biopsies with a diagnosis of antral RG and concurrent gastric cardia/GEJ/distal esophagus biopsies from 2013-2015. Age and sex matched patients with normal gastric antral biopsies served as controls. Biopsies from the GEJ region were evaluated for histological changes, including inflammation, antral and pancreatic metaplasia, RG, type of gastric glands, proton-pump inhibitor (PPI) changes and intestinal metaplasia. Detailed clinical history and medication use (including PPIs and NSAIDs) were recorded. Intestinal metaplasia in the GEJ region was more frequent in patients with antral RG compared to controls [33.0% vs. 5.2%, 95% CI (18.3%-37.3%)]. In addition, inflammation, other mucosal changes around the GEJ (RG &amp; foveolar hyperplasia), antral IM and PPI associated mucosal changes were also more frequently seen in patients with antral RG. Our results show that antral RG is associated with mucosal injury and intestinal metaplasia around GEJ suggesting a role for bile reflux. Further studies are needed to study duodenogastric-esophageal bile reflux and its role in development of proximal gastric and distal esophageal adenocarcinoma.</p>
+<p>Increasing evidence suggests that bile reflux (BR) plays a major role in mucosal injury, leading to adenocarcinoma of the proximal stomach and distal esophagus. However, gastric BR is difficult to diagnose and investigate. Reactive gastropathy (RG), in the absence of nonsteroidal anti-inflammatory drugs (NSAIDs) and other known causes, likely represents bile-mediated injury to the gastric mucosa. The goal of this study is to explore the association between antral RG and gastroesophageal junction (GEJ) mucosal inflammation and intestinal metaplasia (IM). The pathology database was searched for patients who had gastric biopsies with a diagnosis of antral RG and concurrent gastric cardia/GEJ/distal esophagus biopsies from 2013 to 2015. Age- and sex-matched patients with normal gastric antral biopsies served as controls. Biopsies from the GEJ region were evaluated for histological changes, including inflammation, antral and pancreatic metaplasia, RG, the type of gastric glands, proton pump inhibitor (PPI) changes, and IM. Detailed clinical history and medication use (including PPIs and NSAIDs) were recorded. IM in the GEJ region was more frequent in patients with antral RG than in controls (33.0% vs. 5.2%, 95% confidence interval [18.3-37.3%]). In addition, inflammation, other mucosal changes around the GEJ (RG and foveolar hyperplasia), antral IM, and PPI-associated mucosal changes were also more frequently seen in patients with antral RG. Our results show that antral RG is associated with mucosal injury and IM around GEJ, suggesting a role of BR. Further studies are needed to study duodenogastric-esophageal BR and its role in development of proximal gastric and distal esophageal adenocarcinoma.</p>
 <p>doi: <a href="https://doi.org/10.1016/j.humpath.2020.08.007" class="uri">https://doi.org/10.1016/j.humpath.2020.08.007</a></p>
 </details>
 <hr />
@@ -3253,7 +3904,7 @@ Click here to see these articles and graphical summaries in other databases
 <li><strong>Can Early Postoperative Complications Predict High Morbidity and Decrease Failure to Rescue Following Major Abdominal Surgery?</strong></li>
 </ul>
 </summary>
-<p><em>Annals of surgery 2020 Nov;272(5):834-839</em></p>
+<p><em>Annals of surgery 2020 11;272(5):834-839</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32925252" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32925252</a></p>
 <p>OBJECTIVE: To assess whether specific patterns of early postoperative complications may predict overall severe morbidity after major surgery, warranting early escalation of care and prevention of failure to rescue. SUMMARY OF BACKGROUND DATA: It is unclear whether early postoperative complications predict a poor outcome. Detailed knowledge of the chronology and type of early complications after major surgery may alert clinicians when to expect higher risk for subsequent major negative events. METHODS: All 90-day postoperative events following complex pancreas, liver, and rectal surgeries, and liver transplantation were analyzed over a 3-year period in a single tertiary center. Each complication was recorded regarding severity, type (cardiac, infectious, etc), etiology (surgical/medical), and timing of occurrence. The Comprehensive Complication Index (CCI), covering the first 7 postoperative days, was calculated as a measure for early cumulative postoperative morbidity. The statistical analysis (descriptive, sequence pattern analyses, and logistic regression analyses) aimed to detect any combinations of events predicting poor outcome as defined by a cumulative CCI ≥37.1 at 90-days. RESULTS: The occurrence of ≥2 complications, irrespective of severity, type or etiology, was strongly associated with a severe postoperative course (P &lt; 0.001). Even 2 mild complications (≤ grade II) greatly increased the chance for high morbidity compared to patients with 0 or 1 complication within the first postoperative week (odds ratio 10.2, 95% confidence interval 5.82-17.98). The CCI at postoperative day 7 strongly predicted high 90-day morbidity (odds ratio 3.96 per 10 CCI points, P &lt; 0.001). CONCLUSION: Multiple complications of any cause or severity within the first postoperative days represents a “warning-signal” for overall high morbidity by 90 days, which should be used to trigger an escalation of care to prevent failure to rescue and eventually poor outcome.</p>
 <p>doi: <a href="https://doi.org/10.1097/SLA.0000000000004254" class="uri">https://doi.org/10.1097/SLA.0000000000004254</a></p>
@@ -3642,7 +4293,7 @@ Click here to see these articles and graphical summaries in other databases
 <li><strong>Defining Benchmark Outcomes for Pancreatoduodenectomy With Portomesenteric Venous Resection</strong></li>
 </ul>
 </summary>
-<p><em>Annals of surgery 2020 Nov;272(5):731-737</em></p>
+<p><em>Annals of surgery 2020 11;272(5):731-737</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32889866" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32889866</a></p>
 <p>OBJECTIVE: The aim of this study was to establish clinically relevant outcome benchmark values using criteria for pancreatoduodenectomy (PD) with portomesenteric venous resection (PVR) from a low-risk cohort managed in high-volume centers. SUMMARY BACKGROUND DATA: PD with PVR is regarded as the standard of care in patients with cancer involvement of the portomesenteric venous axis. There are, however, no benchmark outcome indicators for this population which hampers comparisons of patients undergoing PD with and without PVR resection. METHODS: This multicenter study analyzed patients undergoing PD with any type of PVR in 23 high-volume centers from 2009 to 2018. Nineteen outcome benchmarks were established in low-risk patients, defined as the 75th percentile of the median outcome values of the centers (NCT04053998). RESULTS: Out of 1462 patients with PD and PVR, 840 (58%) formed the benchmark cohort, with a mean age was 64 (SD11) years, 413 (49%) were females. Benchmark cutoffs, among others, were calculated as follows: Clinically relevant pancreatic fistula rate (International Study Group of Pancreatic Surgery): ≤14%; in-hospital mortality rate: ≤4%; major complication rate Grade≥3 and the CCI up to 6 months postoperatively: ≤36% and ≤26, respectively; portal vein thrombosis rate: ≤14% and 5-year survival for patients with pancreatic ductal adenocarcinoma: ≥9%. CONCLUSION: These novel benchmark cutoffs targeting surgical performance, morbidity, mortality, and oncological parameters show relatively inferior results in patients undergoing vascular resection because of involvement of the portomesenteric venous axis. These benchmark values however can be used to conclusively assess the results of different centers or surgeons operating on this high-risk group.</p>
 <p>doi: <a href="https://doi.org/10.1097/SLA.0000000000004267" class="uri">https://doi.org/10.1097/SLA.0000000000004267</a></p>
@@ -3702,7 +4353,7 @@ Click here to see these articles and graphical summaries in other databases
 <li><strong>Association of malnutrition with geriatric assessment impairments and health-related quality of life among older adults with gastrointestinal malignancies</strong></li>
 </ul>
 </summary>
-<p><em>Cancer 2020 Sep;():</em></p>
+<p><em>Cancer 2020 Dec;126(23):5147-5155</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32885848" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32885848</a></p>
 <p>BACKGROUND: A majority of older adults with cancer develop malnutrition; however, the implications of malnutrition among this vulnerable population are poorly understood. The goal of this study was to quantify the prevalence of nutrition related-symptoms and malnutrition among older adults with gastrointestinal (GI) malignancies and the association of malnutrition with geriatric assessment (GA) impairment, health-related quality of life (HRQoL), and health care utilization. METHODS: We performed a cross-sectional study of older adults (≥60 years) who were referred to the GI Oncology clinic at the University of Alabama at Birmingham. Participants underwent the Cancer &amp; Aging Resilience Evaluation survey that includes the abbreviated Patient-Generated Subjective Global Assessment of nutrition. Nutrition scores were dichotomized into normal (0-5) and malnourished (≥6), and multivariate analyses adjusted for demographics, cancer type, and cancer stage were used to examine associations with GA impairment, HRQoL, and health care utilization. RESULTS: A total of 336 participants were included (men, 56.8%; women, 43.2%), with a mean age of 70 years (standard deviation, ±7.2 years) and colorectal cancer (33.6%) and pancreatic cancer (24.4%) being the most common diagnoses. Overall, 52.1% of participants were identified as malnourished. Malnutrition was associated with a higher prevalence of several GA impairments, including 1 or more falls (adjusted odds ratio [aOR], 2.1), instrumental activities of daily living impairment (aOR, 4.1), and frailty (aOR, 8.2). Malnutrition was also associated with impaired HRQoL domains; both physical (aOR, 8.7) and mental (aOR, 5.0), and prior hospitalizations (aOR, 2.2). CONCLUSION: We found a high prevalence of malnutrition among older adults with GI malignancies that was associated with increased GA impairments, reduced HRQoL, and increased health care utilization.</p>
 <p>doi: <a href="https://doi.org/10.1002/cncr.33122" class="uri">https://doi.org/10.1002/cncr.33122</a></p>
@@ -3867,7 +4518,7 @@ Click here to see these articles and graphical summaries in other databases
 <li><strong>Phase 1 study of the immunotoxin LMB-100 in patients with mesothelioma and other solid tumors expressing mesothelin</strong></li>
 </ul>
 </summary>
-<p><em>Cancer 2020 Sep;():</em></p>
+<p><em>Cancer 2020 Nov;126(22):4936-4947</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32870522" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32870522</a></p>
 <p>BACKGROUND: LMB-100 is an antibody-toxin conjugate with an antimesothelin Fab linked to a 24-kilodalton portion of Pseudomonas exotoxin A with mutations that decrease immunogenicity. The objective of the current first-in-human phase 1 study was to determine the maximum tolerated dose (MTD) and safety in patients with advanced solid tumors expressing mesothelin. METHODS: Cohorts of 1 to 7 patients received intravenous LMB-100 at 7 dose levels from 40 µg/kg to 250 µg/kg intravenously on days 1, 3, and 5 of a 21-day cycle. RESULTS: Of the 25 patients accrued, 17 had mesothelioma, 3 each had ovarian or pancreatic cancer, and 2 patients had gastric cancer. Dose-limiting toxicities occurred in 2 of 4 patients treated at a dose of 250 µg/kg (capillary leak syndrome) and in 3 of 7 patients treated at a dose of 170 µg/kg (creatinine increase). The MTD of LMB-100 was 140 µg/kg. Of the 10 patients with mesothelioma who were treated at doses of 170 µg/kg or 140 µg/kg, 8 had stable disease and 2 developed progressive disease. Peak LMB-100 plasma concentrations were dose-dependent during cycle 1. The development of antidrug antibodies decreased LMB-100 blood levels in 8 of 21 patients (38%) who received cycle 2 and 9 of 11 patients (81.8%) who received cycle 3. CONCLUSIONS: The MTD for single-agent LMB-100 was found to be 140 µg/kg given on a schedule of every other day for 3 doses every 3 weeks. Although less immunogenic than the first-generation antimesothelin immunotoxin SS1P, the majority of patients developed antidrug antibodies after 2 cycles, indicating that LMB-100 has limited antitumor efficacy as a single agent. Phase 2 studies of LMB-100 plus pembrolizumab currently are ongoing for patients with mesothelioma and lung cancer. LAY SUMMARY: Mesothelin, a cell surface antigen, is an attractive target for cancer therapy given its limited expression in normal human tissues and high expression in many human cancers. LMB-100 is a recombinant antimesothelin immunotoxin consisting of a humanized antimesothelin antibody fragment fused to a truncated Pseudomonas exotoxin A. In the current study, the authors determined the safety, maximum tolerated dose, and pharmacokinetics of LMB-100, as well as the generation of antidrug antibodies. Ongoing phase 2 clinical trials are evaluating the combination of LMB-100 plus pembrolizumab in patients with treatment-refractory mesothelioma and non-small cell lung cancer.</p>
 <p>doi: <a href="https://doi.org/10.1002/cncr.33145" class="uri">https://doi.org/10.1002/cncr.33145</a></p>
@@ -4167,7 +4818,7 @@ Click here to see these articles and graphical summaries in other databases
 <li><strong>Pancreatic Inflammation and Proenzyme Activation Are Associated With Clinically Relevant Postoperative Pancreatic Fistulas After Pancreas Resection</strong></li>
 </ul>
 </summary>
-<p><em>Annals of surgery 2020 Nov;272(5):863-870</em></p>
+<p><em>Annals of surgery 2020 11;272(5):863-870</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32833754" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32833754</a></p>
 <p>OBJECTIVE: We investigated the activation of pancreatic proenzymes and signs of peripancreatic inflammation in patients with clinically relevant postoperative pancreatic fistulas (POPFs). SUMMARY BACKGROUND DATA: An increase of systemic amylase concentration was associated with POPFs. This suggested parallels in the pathomechanisms between the development of POPFs and pancreatitis. METHODS: Trypsinogen, procathepsin B, and IL-6 concentrations as well as cathepsin B, myeloperoxidase and trypsin activities were determined throughout the first 7 postoperative days in drain fluids of 128 consecutive patients after pancreas resection. Histology and immunohistochemistry were performed in pancreatic specimens after total pancreatectomy due to complications and after placing experimental pancreatic sutures in the pancreatic tail of C57/Bl6 mice. RESULTS: Trypsin activity, cathepsin B activity and myeloperoxidase activity on the first postoperative day were elevated and predictive for clinically relevant pancreatic fistulas. Drain fluid stabilized trypsin activity and prevented the activation of the cascade of digestive enzymes. Leukocytes were the source of cathepsin B in drain fluid. Findings differed between fistulas after distal pancreatectomy and pancreatoduodenectomy. Immunohistochemistry of the pancreatic remnant revealed an inflammatory infiltrate expressing cathepsin B, independent of the presence of pancreatic fistulas. The infiltrate could be reproduced experimentally by sutures placed in the pancreatic tail of C57/Bl6 mice. CONCLUSIONS: Trypsinogen activation, increased cathepsin B activity and inflammation around the pancreato-enteric anastomosis on post operative day 1 are associated with subsequent clinically relevant POPFs after pancreatoduodenectomy. The parenchymal damage seems to be induced by placing sutures in the pancreatic parenchyma during pancreatic surgery.</p>
 <p>doi: <a href="https://doi.org/10.1097/SLA.0000000000004257" class="uri">https://doi.org/10.1097/SLA.0000000000004257</a></p>
@@ -4302,7 +4953,7 @@ Click here to see these articles and graphical summaries in other databases
 <li><strong>Gene of the month: TFE 3</strong></li>
 </ul>
 </summary>
-<p><em>Journal of clinical pathology 2020 Aug;():</em></p>
+<p><em>Journal of clinical pathology 2020 Nov;73(11):691-694</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32820043" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32820043</a></p>
 <p>Transcription factor enhancer 3 (TFE3), on the short arm of chromosome Xp11.23 and its protein, belongs to the microphthalmia transcription family (MiTF) of transcription factors. It shares close homology with another member of the family, MiTF which is involved in melanocyte development. When a cell is stressed and/or starved, TFE3 protein translocates into the nucleus. TFE3 gene fusions with multiple different partner genes occur in several tumours with resultant nuclear expression of TFE3 protein. The main tumours associated with TFE3 gene fusions are: renal cell carcinoma, alveolar soft part sarcoma, a subset of epithelioid haemangioendotheliomas (EHE), some perivascular epithelioid cell tumours and rare examples of ossifying fibromyxoid tumour and malignant chondroid syringoma. TFE3 immunohistochemistry is of use in routine diagnostic practice with the aforementioned tumours harbouring TFE3 fusions leading to nuclear staining. In addition, there are tumours lacking TFE3 fusions but also display TFE3 nuclear immunolabeling, and these include: granular cell tumour, solid pseudopapillary neoplasm of the pancreas and ovarian sclerosing stromal tumour.</p>
 <p>doi: <a href="https://doi.org/10.1136/jclinpath-2020-206899" class="uri">https://doi.org/10.1136/jclinpath-2020-206899</a></p>
@@ -4749,10 +5400,25 @@ Click here to see these articles and graphical summaries in other databases
 <details open>
 <summary>
 <ul>
+<li><strong>Interventional cytopathology in the COVID-19 era</strong></li>
+</ul>
+</summary>
+<p><em>Cytopathology : official journal of the British Society for Clinical Cytology 2020 11;31(6):509-513</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32654199" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32654199</a></p>
+<p>INTRODUCTION: The dramatic spread of COVID-19 has raised many questions about cytological procedures performed in and out of the laboratories all over the world. METHODS: We report a heterogeneous series of fine needle aspirations performed during the period of phase 1 of the lockdown for the COVID-19 pandemic to describe our experience and measures taken during this period. RESULTS: A total of 48 fine needle aspirations (ultrasound, computed tomography and endoscopic ultrasound guided) were processed and reported. CONCLUSIONS: Pre-existing procedures have been modified to allow healthcare professionals to work safely ensuring patients the necessary assistance with samples suitable for cellularity, fixation and staining for an accurate cytological diagnosis.</p>
+<p>doi: <a href="https://doi.org/10.1111/cyt.12886" class="uri">https://doi.org/10.1111/cyt.12886</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
 <li><strong>Angiotensin-converting enzyme 2 influences pancreatic and renal function in diabetic mice</strong></li>
 </ul>
 </summary>
-<p><em>Laboratory investigation; a journal of technical methods and pathology 2020 Sep;100(9):1169-1183</em></p>
+<p><em>Laboratory investigation; a journal of technical methods and pathology 2020 09;100(9):1169-1183</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32472097" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32472097</a></p>
 <p>Type 1 diabetes is a T-cell mediated autoimmune disease characterized by pancreatic beta cells destruction. Angiotensin-converting enzyme 2 (ACE2), a component of renin-angiotensin system (RAS) has been identified in pancreas from type 2 diabetic mice and its overexpression prevents beta cell dysfunction. We studied the effect of ACE2 deletion on pancreatic and renal function in the nonobese diabetic mice, a model that mimics type 1 diabetes. ACE2-deficient NOD mice and the respective controls were generated. Pancreas function and immunohistochemistry studies were performed. Renal function and RAS gene expression were also analyzed. Renal proximal tubular cells were obtained from these animals to dissect the effect of ACE2 deficiency in these cells. In NOD mice, ACE2 deletion significantly worsened glucose homeostasis, decreased islet insulin content, increased beta cell oxidative stress, and RIPK1-positive islets as compared with control mice. Angiotensin-converting enzyme and angiotensin II type 1 receptor (AT1R) were also increased in ACE2-deficient mice. In kidneys of 30-day diabetic mice, ACE2 deletion decreased podocyte number within the glomeruli, and altered renal RAS gene expression in tubules. ACE2 deletion influenced the expression of fibrosis-related genes in isolated primary renal proximal tubular cells before diabetes onset in NOD mice. Our findings suggest that ACE2 deletion may have a deleterious impact on beta cell and renal function, by promoting oxidative stress and increasing necroptosis mediators. In addition, this effect is accompanied by RAS alterations in both pancreas and renal proximal tubular cells, indicating that ACE2 may exert a renopancreatic protective effect on type 1 diabetes, which is activated before diabetes starts.</p>
 <p>doi: <a href="https://doi.org/10.1038/s41374-020-0440-5" class="uri">https://doi.org/10.1038/s41374-020-0440-5</a></p>
@@ -4779,10 +5445,25 @@ Click here to see these articles and graphical summaries in other databases
 <details open>
 <summary>
 <ul>
+<li><strong>Negative prognostic impact of PD-L1 expression in tumor cells of undifferentiated (anaplastic) carcinoma with osteoclast-like giant cells of the pancreas: study of 13 cases comparing ductal pancreatic carcinoma and review of the literature</strong></li>
+</ul>
+</summary>
+<p><em>Virchows Archiv : an international journal of pathology 2020 Nov;477(5):687-696</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32424767" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32424767</a></p>
+<p>Pancreatic carcinoma remains one of the leading cancer-related causes of death worldwide and is generally characterized by a dismal prognosis and limited potential for oncologic treatment. A rare subvariant of pancreatic cancer, undifferentiated carcinoma with osteoclast-like giant cells (UCOGC), has an unpredictable prognosis according to many previous studies, with unexpectedly long survival in individual cases. In this study, we collected, retrospectively, 13 cases of well-documented UCOGCs and performed immunohistochemistry focused on the expression of the programmed death-ligand 1 (PD-L1) and several other potential therapeutic and predictive markers (PanTRK, p53, MSH2, PMS2, and the number of tumor-infiltrating lymphocytes), to explore their correlation with the follow-up of the patients. As a control group, we examined 24 cases of conventional pancreatic ductal adenocarcinoma (PDAC). In our results, PanTRK was negative in all 24 cases. P53 did not show any significant differences between UCOGCs and PDACs, and the entire cohort was MSH2, MLH1, PMS2, and MSH6 positive. Significant differences were present in the analysis of PD-L1: UCOGCs were found to express PD-L1 significantly more frequently and have a higher number of tumor-infiltrating lymphocytes than PDAC. The expression of PD-L1 was related to significantly shorter survival in patients with UCOGC and in the entire cohort. Patients with PD-L1 negative UCOGCs displayed surprisingly long survival in comparison to PD-L1 positive UCOGCs and PDACs (both PD-L1+ and PD-L1-). We compared our results with previously published data, and, after statistical analysis, we were able to identify PD-L1 as an effective prognostic marker of UCOGC and suggest a strong need for a clinical trial of immune checkpoint immunotherapy in patients with advanced PD-L1 positive UCOGC.</p>
+<p>doi: <a href="https://doi.org/10.1007/s00428-020-02830-8" class="uri">https://doi.org/10.1007/s00428-020-02830-8</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
 <li><strong>Pancreatic cancer stroma: an update on therapeutic targeting strategies</strong></li>
 </ul>
 </summary>
-<p><em>Nature reviews. Gastroenterology &amp; hepatology 2020 Aug;17(8):487-505</em></p>
+<p><em>Nature reviews. Gastroenterology &amp; hepatology 2020 08;17(8):487-505</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32393771" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32393771</a></p>
 <p>Pancreatic ductal adenocarcinoma (PDAC) is a leading cause of cancer-related mortality in the Western world with limited therapeutic options and dismal long-term survival. The neoplastic epithelium exists within a dense stroma, which is recognized as a critical mediator of disease progression through direct effects on cancer cells and indirect effects on the tumour immune microenvironment. The three dominant entities in the PDAC stroma are extracellular matrix (ECM), vasculature and cancer-associated fibroblasts (CAFs). The ECM can function as a barrier to effective drug delivery to PDAC cancer cells, and a multitude of strategies to target the ECM have been attempted in the past decade. The tumour vasculature is a complex system and, although multiple anti-angiogenesis agents have already failed late-stage clinical trials in PDAC, other vasculature-targeting approaches aimed at vessel normalization and tumour immunosensitization have shown promise in preclinical models. Lastly, PDAC CAFs participate in active cross-talk with cancer cells within the tumour microenvironment. The existence of intratumoural CAF heterogeneity represents a paradigm shift in PDAC CAF biology, with myofibroblastic and inflammatory CAF subtypes that likely make distinct contributions to PDAC progression. In this Review, we discuss our current understanding of the three principal constituents of PDAC stroma, their effect on the prevalent immune landscape and promising therapeutic targets within this compartment.</p>
 <p>doi: <a href="https://doi.org/10.1038/s41575-020-0300-1" class="uri">https://doi.org/10.1038/s41575-020-0300-1</a></p>
@@ -4865,6 +5546,51 @@ Click here to see these articles and graphical summaries in other databases
 <details open>
 <summary>
 <ul>
+<li><strong>PIPAC-OX: A Phase I study of Oxaliplatin-based Pressurized Intraperitoneal Aerosol Chemotherapy (PIPAC) in Patients with Peritoneal Metastases</strong></li>
+</ul>
+</summary>
+<p><em>Clinical cancer research : an official journal of the American Association for Cancer Research 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33148667" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33148667</a></p>
+<p>BACKGROUND: Pressurized Intraperitoneal Aerosol Chemotherapy (PIPAC) is a novel, laparoscopic intraperitoneal chemotherapy delivery technique aiming to improve drug distribution and tissue penetration to treat peritoneal metastases. Thus far, PIPAC oxaliplatin is conducted at an arbitrary dose of 92mg/m2. We conducted a phase 1 study to establish safety and tolerability. EXPERIMENTAL DESIGN: We used a 3+3 dose escalation design of PIPAC oxaliplatin for patients with peritoneal metastases from gastrointestinal tumors, after failure of at least first-line chemotherapy. Dose levels were planned at 45, 60, 90 and 120mg/m2. FINDINGS: This study included 16 patients with 24 PIPAC procedures (8 gastric, 5 colorectal and 1 gallbladder, pancreas and appendix cancer each). Median age and Peritoneal Cancer Index (PCI) score were 62 years and 17, respectively. Two patients developed pancreatitis (grade 2 and 3) at 45mg/m2, necessitating cohort expansion. Another patient developed grade 2 pancreatitis at 90mg/m2. There were no other dose limiting toxicities and the highest dose cohort (120 mg/m2) tolerated PIPAC well. Pharmacokinetic analyses demonstrated good linearity between dose and maximum concentration (r2=0.95) and area under the curve (AUC) (r2=0.99). Based on response evaluation criteria in solid tumors, 62.5% and 50% had stable disease after one and two PIPAC procedures, respectively. 8 patients underwent 2 PIPAC procedures, with improvement of median PCI and Peritoneal Regression Grade Score from 15 to 12 and 2.5 to 2.0, respectively. CONCLUSIONS: The recommended phase 2 dose is 120 mg/m2. Future studies should further delineate the efficacy and role of PIPAC oxaliplatin for peritoneal metastases.</p>
+<p>doi: <a href="https://doi.org/10.1158/1078-0432.CCR-20-2152" class="uri">https://doi.org/10.1158/1078-0432.CCR-20-2152</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Correction to: Defining and Predicting Early Recurrence After Resection for Gallbladder Cancer</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33135147" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33135147</a></p>
+<p>In the original version of this abstract, the visual abstract is missing. The original abstract has been updated.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09315-7" class="uri">https://doi.org/10.1245/s10434-020-09315-7</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Changes in plasma bile acids are associated with gallbladder stones and polyps</strong></li>
+</ul>
+</summary>
+<p><em>BMC gastroenterology 2020 Oct;20(1):363</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33129276" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33129276</a></p>
+<p>BACKGROUND: The development of gallbladder disease (GBD) is related to bile acid (BA) metabolism, and the rate of BA circulation increases the risk of biliary cancer. However, it is unclear whether patterns of circulating bile acids (BAs) change in patients with benign GBDs such as gallbladder stones and polyps. Herein, we compared and characterised plasma BA profiles in patients with cholecystolithiasis and non-neoplastic polyps with healthy controls, and explored relationships between plasma BA profiles, demographics, and laboratory test indices. METHODS: A total of 330 subjects (13 healthy controls, 292 cholecystolithiasis and 25 non-neoplastic polyps) were recruited and plasma BA profiles including 14 metabolites from patients with pathologically confirmed cholecystolithiasis and non-neoplastic polyps were compared with controls. BAs were quantitated by liquid chromatography and mass spectrometry, and statistical and regression analyses of demographics and laboratory test indices were performed. RESULTS: Females displayed a higher burden of GBD than males (63.36% cholecystolithiasis, 60% non-neoplastic polyps). Cholecystolithiasis and non-neoplastic polyps were associated with increased plasma total secondary BAs, while levels of primary BAs were lower than in healthy controls. Plasma ursodeoxycholic acid (UDCA), tauroursodeoxycholic acid (TUDCA), glycyurdeoxycholic acid (GUDCA), taurochenodeoxycholic acid (TCDCA) and glycochenodeoxycholic acid (GCDCA) were decreased significantly in GBDs, and ursodeoxycholic acid (UDCA) was negatively correlated with white blood cell count and neutrophil percentage. CONCLUSIONS: Secondary BA levels were higher in patients with cholecystolithiasis and non-neoplastic polyps. White blood cell count and percentage of neutrophil in peripheral blood were negatively correlated with UDCA, indicating an anti-inflammation effect of UDCA.</p>
+<p>doi: <a href="https://doi.org/10.1186/s12876-020-01512-8" class="uri">https://doi.org/10.1186/s12876-020-01512-8</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
 <li><strong>Mural Intracholecystic Neoplasms Arising in Adenomyomatous Nodules of the Gallbladder: An Analysis of 19 Examples of a Clinicopathologically Distinct Entity</strong></li>
 </ul>
 </summary>
@@ -4895,12 +5621,12 @@ Click here to see these articles and graphical summaries in other databases
 <details open>
 <summary>
 <ul>
-<li><strong>Incidence and Significance of GATA3 Positivity in Gallbladder Adenocarcinoma</strong></li>
+<li><strong>Incidence and significance of GATA3 positivity in gallbladder adenocarcinoma</strong></li>
 </ul>
 </summary>
-<p><em>Human pathology 2020 Sep;():</em></p>
+<p><em>Human pathology 2020 Sep;106():39-44</em></p>
 <p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=32991930" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=32991930</a></p>
-<p>GATA3 immunostain is a sensitive marker for mammary and urothelial carcinomas. It is routinely used in surgical pathology during workup of carcinomas of unknown origin. To the best of our knowledge, this is the first focused study of GATA3 expression in gallbladder adenocarcinomas. In this study we evaluated GATA3 expression in 38 gallbladder adenocarcinomas. 8 of 38 (21%) gallbladder adenocarcinomas were positive for GATA3. The expression of GATA3 tended to be moderate to strong when present. It was patchy (&lt;50% positivity) in 4 cases, characterized by discrete clusters or groups of malignant cells with areas of intervening negative tumor cells whereas it was diffuse (&gt;50% positivity) in the other 4 cases. GATA3 expression did not show any significant correlation with clinicopathologic features such as sex, histologic grade, perineural invasion, vascular invasion, pathologic stage or distance metastasis. The results of our study show that a subset of gallbladder adenocarcinomas (21%) can be GATA3 positive. Awareness of this phenomenon is important while working up GATA3 positive carcinomas immunohistochemically.</p>
+<p>GATA3 immunostaining is a sensitive marker for mammary and urothelial carcinomas. It is routinely used in surgical pathology during workup of carcinomas of unknown origin. To the best of our knowledge, this is the first focused study of GATA3 expression in gallbladder adenocarcinomas. In this study, we evaluated GATA3 expression in 38 gallbladder adenocarcinomas. Eight of 38 (21%) gallbladder adenocarcinomas were positive for GATA3. The expression of GATA3 tended to be moderate to strong when present. It was patchy (&lt;50% positivity) in 4 cases, characterized by discrete clusters or groups of malignant cells with areas of intervening negative tumor cells, whereas it was diffuse (&gt;50% positivity) in the other 4 cases. GATA3 expression did not show any significant correlation with clinicopathologic features such as sex, histologic grade, perineural invasion, vascular invasion, pathologic stage, or distance metastasis. The results of our study show that a subset of gallbladder adenocarcinomas (21%) can be GATA3 positive. Awareness of this phenomenon is important while working up GATA3-positive carcinomas immunohistochemically.</p>
 <p>doi: <a href="https://doi.org/10.1016/j.humpath.2020.09.012" class="uri">https://doi.org/10.1016/j.humpath.2020.09.012</a></p>
 </details>
 <hr />
@@ -5110,6 +5836,51 @@ Click here to see these articles and graphical summaries in other databases
 <h2>Bile Ducts</h2>
 <!-- rnb-text-end -->
 <!-- rnb-text-begin -->
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Granulomatous cholangitis mimicking hilar cholangiocarcinoma: a case report</strong></li>
+</ul>
+</summary>
+<p><em>BMC gastroenterology 2020 Nov;20(1):369</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33148196" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33148196</a></p>
+<p>BACKGROUND: Hilar biliary stricture caused by isolated fungal infections in immunocompetent patients are considered to be extremely rare and difficult to the diagnose from the outset. CASE PRESENTATION: We report a unique case of granulomatous cholangitis based on isolated biliary fungal infection manifesting as obstructive jaundice and mimicking hilar cholangiocarcinoma in an immunocompetent woman. A 67-year-old Japanese woman was referred to our hospital for obstructive jaundice. She had been followed up for hypochondroplasia by the referring physician. Her total bilirubin level was 5.4 mg/dL. Viral hepatitis screening was found to be negative, and serum IgG4 was within normal limits; however, her CA19-9 level was high. Abdominal computed tomography revealed dilatation of the intrahepatic bile ducts. Abdominal echogram detected a solid mass in the hilar bile duct. Her magnetic resonance cholangiopancreatography has also revealed an abrupt stenosis of the primary biliary confluence with upstream dilatation of the intrahepatic bile ducts. Endoscopic nasobiliary drainage was then performed to improve the obstructive jaundice. Although biliary cytology did not reveal malignant findings, the bile duct in the hilum showed severe stenosis, and hilar cholangiocarcinoma could not be completely excluded. The patient had a developmental disorder based on chondrodystrophy. To avoid excessive surgical stress, such as hepatic lobectomy, we performed resection of the extrahepatic bile duct and Roux-en-Y hepaticojejunostomy reconstruction. Intraoperative frozen sections of the resection margins were determined to be negative for tumor. The resected specimen showed multiple strictures inside the common bile duct, numerous calculi in the lumen, and little free space. The final pathological diagnosis was granulomatous cholangitis due to fungal infection. The patient’s postoperative course was deemed uneventful. She was discharged from our hospital 23 days after surgery without antifungal treatment. CONCLUSIONS: For a unique case of granulomatous cholangitis based on isolated biliary fungal infection mimicking hilar cholangiocarcinoma, we were able to avoid excessive invasion and performed appropriate surgical management.</p>
+<p>doi: <a href="https://doi.org/10.1186/s12876-020-01519-1" class="uri">https://doi.org/10.1186/s12876-020-01519-1</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Regeneration Defects in Yap and Taz Mutant Mouse Livers are Caused by Bile Duct Disruption and Cholestasis</strong></li>
+</ul>
+</summary>
+<p><em>Gastroenterology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33127392" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33127392</a></p>
+<p>BACKGROUND AND AIMS: The Hippo pathway and its downstream effectors YAP and TAZ (YAP/TAZ) are heralded as important regulators of organ growth and regeneration. However, different studies provided contradictory conclusions about their role during regeneration of different organs ranging from promoting proliferation to inhibiting it. Here, we resolve the function of YAP/TAZ during regeneration of the liver, where Hippo’s role in growth control has been studied most intensely. METHODS: We evaluated liver regeneration after CCl4 toxic liver injury in mice with conditional deletion of Yap/Taz in hepatocytes and/or biliary epithelial cells and measured the behavior of different cell types during regeneration by histology, RNA-sequencing and flow cytometry. RESULTS: We found that YAP/TAZ were activated in hepatocytes in response to CCl4 toxic injury. However, their targeted deletion in adult hepatocytes did not noticeably impair liver regeneration. In contrast, Yap/Taz deletion in adult bile ducts caused severe defects and delay in liver regeneration. Mechanistically, we show that Yap/Taz mutant bile ducts degenerated, causing cholestasis which stalled the recruitment of phagocytic macrophages and the removal of cellular corpses from injury sites. Elevated bile acids activated PXR, which was sufficient to recapitulate the phenotype observed in mutant mice. CONCLUSIONS: Our data show that YAP/TAZ are practically dispensable in hepatocytes for liver development and regeneration. Rather, YAP/TAZ play an indirect role in liver regeneration by preserving bile duct integrity and securing immune cell recruitment and function.</p>
+<p>doi: <a href="https://doi.org/10.1053/j.gastro.2020.10.035" class="uri">https://doi.org/10.1053/j.gastro.2020.10.035</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>How to Perform Total Laparoscopic Duodenum-Preserving Pancreatic Head Resection Safely and Efficiently with Innovative Techniques</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33123857" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33123857</a></p>
+<p>BACKGROUND: Although rapid progress has been achieved in laparoscopic pancreaticoduodenectomy (PD) over the last decade, laparoscopic duodenum-preserving pancreatic head resection (LDPPHR) remains a challenging surgery that has been rarely reported due to not only requiring complicated pancreaticojejunostomy (PJ) but also ensuring sufficient blood supplies to duodenum and common bile duct (CBD). We completed LDPPHR for 22 patients safely and efficiently with innovative techniques. PATIENTS AND METHODS: Clinical outcomes, including rate of conversion to laparotomy, time of residual pancreatic duct reconstruction, incidence of postoperative complications, and time of hospital stay, were collected for 22 consecutive patients who underwent LDPPHR with innovative techniques as follows: application of indocyanine green (ICG) to visualize and preserve CBD and the vessels supplying the duodenum and CBD, Hong’s PJ, and pancreatic duct end-to-end anastomosis (ETEA) for the residual pancreas. RESULTS: All surgeries were performed successfully under laparoscopy except for one case. The duration of ETEA was significantly shorter than PJ (18.2 ± 5.1 min versus 27.5 ± 8.3 min, p &lt; 0.05). There was no significant difference in incidence of postoperative complications between the Hong’s PJ and ETEA group. The overall incidence of postoperative pancreatic fistula (POPF) in the Hong’s PJ and ETEA group was 23.5% and 20%, respectively, without grade C fistula. All complications were resolved after conservative treatment. CONCLUSIONS: By utilizing intraoperative ICG navigation, LDPPHR is a minimally invasive, safe, and efficient approach for chronic pancreatitis with pancreatic head stones by using pancreatic duct ETEA and benign or low-grade malignant tumors of the pancreatic head by using Hong’s PJ.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09233-8" class="uri">https://doi.org/10.1245/s10434-020-09233-8</a></p>
+</details>
+<hr />
 <hr />
 <!-- rnb-text-end -->
 <!-- rnb-text-begin -->
@@ -5495,6 +6266,51 @@ Click here to see these articles and graphical summaries in other databases
 <h2>Ampulla</h2>
 <!-- rnb-text-end -->
 <!-- rnb-text-begin -->
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>A New Medial-to-Lateral Approach for Laparoscopic D3 Lymphadenectomy plus Complete Mesocolic Excision (D3���+���CME) for Right-Sided Colon Cancer</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Nov;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33135146" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33135146</a></p>
+<p>BACKGROUND: D3 lymphadenectomy is important for accurate staging and provides long-term benefits, especially for T3-4/N + tumors.1,2 Both D3 lymphadenectomy as well as complete mesocolic excision (CME) require central ligation of vessels at their origins to ensure radical resection.3 Currently, superior mesentery vein (SMV) is navigated by ileocolic vessels while its sheath is dissected stepwise from caudal to cranial.4-6 This report describes a new medial-to-lateral approach for laparoscopic right hemicolectomy with D3 + CME. METHODS: The patient was a 47-year-old man with diagnosis of hepatic flexure cancer (cT4N1M0). First, the pedicle of the middle colic vessels and ileocolic vessels were both grasped, then the sheath of SMV was dissected at its left side as there are fewer blood vessels entering here compared with its right side. Second, after identification of middle colic artery (MCA), SMV was skeletonized from medial to lateral and no. 213 and no. 203 lymph nodes were dissected. Third, MCA and ileocolic vein and artery (ICV and ICA) were ligated at their roots. After separating the transverse mesocolon from the duodenum, the branches of the Henle trunk were exposed and no. 223 lymph nodes were dissected. Accessory right colic vein, right colic vein, and middle colic vein were ligated respectively. Fourth, the ascending mesocolon was separated from the retroperitoneal tissues through the front side of Toldt’s fascia, the mesocolon was mobilized completely, and the tumor was removed en bloc. RESULTS: The operation time was 175 min, with estimated blood loss of 50 ml. The patient recovered well without bleeding complications and was discharged on postoperative day 7. Histology revealed moderately differentiated adenocarcinoma with 5 of 24 lymph nodes involved (pT3N2M0). CONCLUSIONS: The medial-to-lateral approach presented in the video might be helpful for standardization of laparoscopic D3 + CME for right-sided colon cancer.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09264-1" class="uri">https://doi.org/10.1245/s10434-020-09264-1</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>Non-Conventional Dysplasia of The Tubular Gut: A Review and Illustration of Their Histomorphologic Spectrum</strong></li>
+</ul>
+</summary>
+<p><em>Histopathology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33124049" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33124049</a></p>
+<p>The increasing use of gastrointestinal endoscopic procedures has led to the recognition by histopathologists of non-conventional (or special-type) dysplasias of the gastrointestinal tract. These lesions can be recognized in association with prevalent gastrointestinal underlying conditions, such as Barrett oesophagus, chronic atrophic gastritis, and inflammatory bowel disease. The diagnosis of these special types can be challenging, and their biologic behaviours are not fully characterized. The aim of this review is to provide a global view of non-conventional dysplastic lesions observed in the various segments of the tubular gastrointestinal tract and describe their salient features. Furthermore, as the clinical implications of these various subtypes have not been broadly tested in practice and are not represented in most management guidelines, we offer guidance on the best management practices for these lesions.</p>
+<p>doi: <a href="https://doi.org/10.1111/his.14294" class="uri">https://doi.org/10.1111/his.14294</a></p>
+</details>
+<hr />
+<hr />
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<details open>
+<summary>
+<ul>
+<li><strong>How to Perform Total Laparoscopic Duodenum-Preserving Pancreatic Head Resection Safely and Efficiently with Innovative Techniques</strong></li>
+</ul>
+</summary>
+<p><em>Annals of surgical oncology 2020 Oct;():</em></p>
+<p>PubMed: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=33123857" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/?term=33123857</a></p>
+<p>BACKGROUND: Although rapid progress has been achieved in laparoscopic pancreaticoduodenectomy (PD) over the last decade, laparoscopic duodenum-preserving pancreatic head resection (LDPPHR) remains a challenging surgery that has been rarely reported due to not only requiring complicated pancreaticojejunostomy (PJ) but also ensuring sufficient blood supplies to duodenum and common bile duct (CBD). We completed LDPPHR for 22 patients safely and efficiently with innovative techniques. PATIENTS AND METHODS: Clinical outcomes, including rate of conversion to laparotomy, time of residual pancreatic duct reconstruction, incidence of postoperative complications, and time of hospital stay, were collected for 22 consecutive patients who underwent LDPPHR with innovative techniques as follows: application of indocyanine green (ICG) to visualize and preserve CBD and the vessels supplying the duodenum and CBD, Hong’s PJ, and pancreatic duct end-to-end anastomosis (ETEA) for the residual pancreas. RESULTS: All surgeries were performed successfully under laparoscopy except for one case. The duration of ETEA was significantly shorter than PJ (18.2 ± 5.1 min versus 27.5 ± 8.3 min, p &lt; 0.05). There was no significant difference in incidence of postoperative complications between the Hong’s PJ and ETEA group. The overall incidence of postoperative pancreatic fistula (POPF) in the Hong’s PJ and ETEA group was 23.5% and 20%, respectively, without grade C fistula. All complications were resolved after conservative treatment. CONCLUSIONS: By utilizing intraoperative ICG navigation, LDPPHR is a minimally invasive, safe, and efficient approach for chronic pancreatitis with pancreatic head stones by using pancreatic duct ETEA and benign or low-grade malignant tumors of the pancreatic head by using Hong’s PJ.</p>
+<p>doi: <a href="https://doi.org/10.1245/s10434-020-09233-8" class="uri">https://doi.org/10.1245/s10434-020-09233-8</a></p>
+</details>
+<hr />
 <hr />
 <!-- rnb-text-end -->
 <!-- rnb-text-begin -->

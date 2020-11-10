@@ -2,6 +2,111 @@
 
 ---
 
+```{r ampulla 33135146, include=FALSE}
+
+PMID_33135146 <- RefManageR::ReadPubMed('33135146', database = 'PubMed')
+
+citation_33135146 <- paste0(PMID_33135146$journal,' ', PMID_33135146$year, ' ', PMID_33135146$month,';', PMID_33135146$volume,'(', PMID_33135146$number,'):', PMID_33135146$pages)
+
+PubMed_33135146 <- paste0(PubMedString, PMID_33135146$eprint)
+
+doi_33135146 <- paste0(doiString, PMID_33135146$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_33135146$title`**
+</summary> 
+
+*`r citation_33135146`*
+
+`r PubMed_33135146`
+
+`r PMID_33135146$abstract`
+
+`r doi_33135146`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r ampulla 33124049, include=FALSE}
+
+PMID_33124049 <- RefManageR::ReadPubMed('33124049', database = 'PubMed')
+
+citation_33124049 <- paste0(PMID_33124049$journal,' ', PMID_33124049$year, ' ', PMID_33124049$month,';', PMID_33124049$volume,'(', PMID_33124049$number,'):', PMID_33124049$pages)
+
+PubMed_33124049 <- paste0(PubMedString, PMID_33124049$eprint)
+
+doi_33124049 <- paste0(doiString, PMID_33124049$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_33124049$title`**
+</summary> 
+
+*`r citation_33124049`*
+
+`r PubMed_33124049`
+
+`r PMID_33124049$abstract`
+
+`r doi_33124049`
+
+</details>
+
+---
+
+
+
+
+---
+
+```{r ampulla 33123857, include=FALSE}
+
+PMID_33123857 <- RefManageR::ReadPubMed('33123857', database = 'PubMed')
+
+citation_33123857 <- paste0(PMID_33123857$journal,' ', PMID_33123857$year, ' ', PMID_33123857$month,';', PMID_33123857$volume,'(', PMID_33123857$number,'):', PMID_33123857$pages)
+
+PubMed_33123857 <- paste0(PubMedString, PMID_33123857$eprint)
+
+doi_33123857 <- paste0(doiString, PMID_33123857$doi)
+
+Sys.sleep(2)
+
+```
+
+<details open> <summary>
+- **`r PMID_33123857$title`**
+</summary> 
+
+*`r citation_33123857`*
+
+`r PubMed_33123857`
+
+`r PMID_33123857$abstract`
+
+`r doi_33123857`
+
+</details>
+
+---
+
+
+
+
+---
+
 ```{r ampulla 33069083, include=FALSE}
 
 PMID_33069083 <- RefManageR::ReadPubMed('33069083', database = 'PubMed')
